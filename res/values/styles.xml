@@ -6944,6 +6944,9 @@
         <item name="couiColorPrimaryTextOnPopup">@color/coui_color_primary_on_popup_orange_light</item>
         <item name="couiColorSecondary">@color/coui_color_secondary_orange_light</item>
         <item name="videoEditorActionBarDoneTextColorPressed">@color/action_bar_done_text_color_pressed_hassel</item>
+        <item name="de_toolkit_undo_drawable_m">@drawable/de_toolkit_ic_undo_selector_night_m</item>
+        <item name="de_toolkit_redo_drawable_m">@drawable/de_toolkit_ic_redo_selector_night_m</item>
+        <item name="de_toolkit_stroke_size_tint">#ffffffff</item>
     </style>
     <style name="PictureBottomActionBarIcon" parent="@style/EditorRippleAnim">
         <item name="android:layout_width">@dimen/picture3d_bottom_action_bar_icon_size</item>
