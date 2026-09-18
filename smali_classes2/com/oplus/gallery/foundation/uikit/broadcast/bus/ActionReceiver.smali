@@ -189,6 +189,15 @@
     .line 61
     iget v7, v0, Lcom/oplus/aiunit/vision/rx0;->c:I
 
+    # --- START PATCH: conditionally add RECEIVER_NOT_EXPORTED (0x4) ---
+    and-int/lit8 v0, v7, 0x6        # 0x6 = 0x2 | 0x4 (both export flags)
+    if-eqz v0, :cond_no_or
+    # Already has EXPORTED or NOT_EXPORTED, keep as is
+    goto :cond_skip_or
+    :cond_no_or
+    or-int/lit8 v7, v7, 0x4
+    :cond_skip_or
+    # --- END PATCH ---
     move-object v3, p0
 
     .line 64
