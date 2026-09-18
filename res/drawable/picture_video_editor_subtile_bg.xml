@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/picture3d_editor_text_dialog_background" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:topLeftRadius="16.0dp" android:topRightRadius="16.0dp" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="0.0dp" />
+            <padding android:left="16.0dp" android:top="12.0dp" android:right="16.0dp" android:bottom="12.0dp" />
+            <solid android:color="@color/picture3d_editor_text_dialog_content_background" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="16.0dp" />
+            <solid android:color="@color/picture3d_editor_text_dialog_edit_text_background" />
+        </shape>
+    </item>
+</layer-list>

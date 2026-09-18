@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Collage version="2.0">
+    <Solution name="join_horizontal" type="join">
+        <Scene width="0" height="1280">
+            <Entity id="camera">
+                <Component type="CameraPose">
+                    <Value id="positionX">640</Value>
+                    <Value id="positionY">480</Value>
+                    <Value id="positionZ">1</Value>
+                    <Value id="targetX">640</Value>
+                    <Value id="targetY">480</Value>
+                    <Value id="targetZ">0</Value>
+                    <Value id="upAxisX">0</Value>
+                    <Value id="upAxisY">1</Value>
+                    <Value id="upAxisZ">0</Value>
+                </Component>
+                <Component type="RenderTarget">
+                    <Value id="viewportWidth">960</Value>
+                    <Value id="viewportHeight">1280</Value>
+                </Component>
+                <Component type="AudioTarget">
+                    <Value id="sampleRate">44100</Value>
+                    <Value id="sampleChannels">2</Value>
+                    <Value id="sampleBitDepth">16</Value>
+                </Component>
+            </Entity>
+            <Entity id="player">
+                <Component type="PlaybackCtrl" />
+            </Entity>
+
+            <Entity id="root">
+                <Component type="LayoutContainer">
+                    <Value id="type">Horizontal</Value>
+                </Component>
+                <Component type="Layout">
+                    <Value id="left">NaN</Value>
+                    <Value id="top">0</Value>
+                    <Value id="right">NaN</Value>
+                    <Value id="bottom">1280</Value>
+                </Component>
+                <Component type="Material">
+                    <Value id="src">#FFFFFF</Value>
+                </Component>
+
+                <Entity id="assetGroup">
+                    <Component type="Layout">
+                        <Value id="left">NaN</Value>
+                        <Value id="top">0</Value>
+                        <Value id="right">NaN</Value>
+                        <Value id="bottom">1280</Value>
+                    </Component>
+                    <Component type="LayoutAnimation" />
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetsPlaceholder" />
+                </Entity>
+            </Entity>
+        </Scene>
+    </Solution>
+</Collage>

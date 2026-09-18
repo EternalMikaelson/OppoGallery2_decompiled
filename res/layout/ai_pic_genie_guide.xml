@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.scrollview.COUINestedScrollView android:orientation="horizontal" android:paddingBottom="@dimen/picture3d_ai_picgenie_guide_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/ai_pic_genie_guide_container" android:background="@color/coui_transparence" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.coui.appcompat.scrollview.COUINestedScrollView>

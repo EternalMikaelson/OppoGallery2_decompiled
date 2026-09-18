@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/palette" android:layout_width="wrap_content" android:layout_height="@dimen/de_toolkit_height" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/palette_single_btn" android:visibility="gone" android:layout_marginStart="4.0dp" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/palette_plenty_btn_1" android:layout_marginStart="4.0dp" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/palette_plenty_btn_2" android:layout_marginStart="4.0dp" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/palette_plenty_btn_3" android:layout_marginStart="4.0dp" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/palette_plenty_btn_4" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+</merge>

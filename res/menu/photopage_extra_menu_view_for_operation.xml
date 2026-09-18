@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group_extra_menu">
+        <item android:enabled="true" android:id="@id/action_supertext" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_privacy_watermark" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_chart_paint" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_lns_result_menu" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_image_quality_enhance" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_passerby_eliminate" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_ai_repair_deblur" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_ai_repair_dereflection" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_ai_best_take" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_ai_composition" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_ai_picgenie_assistant" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_ai_lighting" android:visible="true" android:title="@null" />
+        <item android:enabled="true" android:id="@id/action_drop_picture_to_edit" android:visible="true" android:title="@null" />
+    </group>
+</menu>

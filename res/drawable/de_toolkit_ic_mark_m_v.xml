@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?de_toolkit_mark_m_v" />
+    <item android:id="@id/pen_color" android:drawable="@drawable/de_toolkit_mark_overlay2_m_v" />
+    <item android:id="@id/pen_color_2" android:drawable="@drawable/de_toolkit_mark_overlay3_m_v" />
+</layer-list>

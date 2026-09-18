@@ -1,0 +1,20 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/k520;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+
+# direct methods
+.method public static bridge synthetic a(Landroid/app/appsearch/SearchSpec$Builder;)V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    invoke-virtual {p0, v0}, Landroid/app/appsearch/SearchSpec$Builder;->setListFilterHasPropertyFunctionEnabled(Z)Landroid/app/appsearch/SearchSpec$Builder;
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method

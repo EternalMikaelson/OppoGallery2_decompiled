@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.photoeditor.editingvvm.watermarkpersonalized.widget.WatermarkPersonalizedEditMenuItemView android:id="@id/restrict_bg_color" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spring_festival_watermark_text_margin_left_right" android:layout_marginRight="@dimen/spring_festival_watermark_text_margin_left_right">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_restrict_bg_color_ring" android:background="@drawable/picture3d_editor_personalise_ring_drawable" android:layout_width="@dimen/picture3d_editor_personalise_bg_color_item_ring_length" android:layout_height="@dimen/picture3d_editor_personalise_bg_color_item_ring_length" />
+        <com.coui.appcompat.imageview.COUIRoundImageView android:layout_gravity="center" android:id="@id/iv_restrict_bg_color" android:layout_width="@dimen/picture3d_editor_personalise_bg_color_item_image_length" android:layout_height="@dimen/picture3d_editor_personalise_bg_color_item_image_length" android:src="@drawable/picture3d_ai_eliminate_introduction_anim_bg" android:scaleType="center" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_restrict_bg_color_cover_ring" android:background="@drawable/picture3d_editor_personalise_colorful_round" android:layout_width="@dimen/picture3d_editor_personalise_bg_color_item_image_length" android:layout_height="@dimen/picture3d_editor_personalise_bg_color_item_image_length" />
+    </com.oplus.gallery.photoeditor.editingvvm.watermarkpersonalized.widget.WatermarkPersonalizedEditMenuItemView>
+</LinearLayout>

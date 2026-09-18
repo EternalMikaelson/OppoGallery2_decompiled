@@ -1,0 +1,91 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/lx80;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic a:Lcom/oplus/gallery/photoeditor/editingvvm/transform/TransformSection;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/oplus/gallery/photoeditor/editingvvm/transform/TransformSection;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/lx80;->a:Lcom/oplus/gallery/photoeditor/editingvvm/transform/TransformSection;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    check-cast p1, Lcom/oplus/gallery/foundation/ui/notification/NotificationAction;
+
+    .line 2
+    .line 3
+    sget-object v0, Lcom/oplus/gallery/photoeditor/editingvvm/transform/TransformSection;->P0:Lcom/oplus/aiunit/vision/ld20;
+
+    .line 4
+    .line 5
+    const-string v0, "action"
+
+    .line 6
+    .line 7
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/lx80;->a:Lcom/oplus/gallery/photoeditor/editingvvm/transform/TransformSection;
+
+    .line 11
+    .line 12
+    iget-object p0, p0, Lcom/oplus/gallery/photoeditor/editingvvm/BaseEditingSection;->c:Lcom/oplus/aiunit/vision/dyk;
+
+    .line 13
+    .line 14
+    invoke-interface {p0}, Lcom/oplus/aiunit/vision/dyk;->D()Lcom/oplus/aiunit/vision/sy90;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p0
+
+    .line 18
+    const-string v0, "NotificationVM/NotificationAction"
+
+    .line 19
+    .line 20
+    filled-new-array {p1}, [Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p1
+
+    .line 24
+    invoke-static {p0, v0, p1}, Lcom/oplus/aiunit/vision/ry90;->f(Lcom/oplus/aiunit/vision/vbk;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 28
+    .line 29
+    return-object p0
+.end method

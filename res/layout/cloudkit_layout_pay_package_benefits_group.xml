@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextHeadlineXS" android:textColor="@color/cloudkit_color_label_primary" android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36.0dp" android:paddingHorizontal="16.0dp" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/cloudkit_view_pay_package_benefits_header" />
+        <com.heytap.cloudkit.libpay.widget.CloudPayPackageBenefitsRecycleView android:id="@id/rv_list" android:scrollbars="none" android:fadingEdgeLength="16.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:requiresFadingEdge="horizontal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

@@ -1,0 +1,214 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/xdj;
+.super Lkotlin/jvm/internal/AdaptedFunctionReference;
+.source "GxImageWriterFboRenderer.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/AdaptedFunctionReference;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Landroid/view/Surface;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 7
+
+    .line 1
+    const-string/jumbo v5, "onTargetChanged(Landroid/view/Surface;)Lkotlin/Unit;"
+
+    const/16 v6, 0x8
+
+    const/4 v1, 0x1
+
+    .line 6
+    const-class v3, Lcom/oplus/aiunit/vision/sdj;
+
+    .line 8
+    const-string/jumbo v4, "onTargetChanged"
+
+    move-object v0, p0
+
+    move-object v2, p1
+
+    .line 12
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/AdaptedFunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroid/view/Surface;
+
+    invoke-virtual {p0, p1}, Lcom/oplus/aiunit/vision/xdj;->invoke(Landroid/view/Surface;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public final invoke(Landroid/view/Surface;)V
+    .locals 4
+
+    .line 2
+    iget-object p0, p0, Lkotlin/jvm/internal/AdaptedFunctionReference;->receiver:Ljava/lang/Object;
+
+    check-cast p0, Lcom/oplus/aiunit/vision/sdj;
+
+    .line 3
+    const-string v0, "GxImageWriterFboRenderer has been closed, target("
+
+    .line 4
+    iget-object v1, p0, Lcom/oplus/aiunit/vision/sdj;->i:Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
+
+    .line 5
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
+
+    .line 6
+    :try_start_0
+    iget-object v2, p0, Lcom/oplus/aiunit/vision/sdj;->g:Ljava/util/concurrent/atomic/AtomicBoolean;
+
+    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    if-nez p1, :cond_0
+
+    goto :goto_0
+
+    .line 7
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string p1, ") can\'t be updated again!"
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_2
+
+    .line 8
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/sdj;->d:Ljava/util/concurrent/atomic/AtomicReference;
+
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/Surface;
+
+    if-eqz v0, :cond_3
+
+    .line 9
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    .line 10
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 11
+    :try_start_1
+    iget-object v2, p0, Lcom/oplus/aiunit/vision/sdj;->f:Lcom/oplus/aiunit/vision/aej;
+
+    if-eqz v2, :cond_2
+
+    invoke-static {v2}, Lcom/oplus/aiunit/vision/rdj;->a(Lcom/oplus/aiunit/vision/hdj;)V
+
+    :cond_2
+    const/4 v2, 0x0
+
+    .line 12
+    iput-object v2, p0, Lcom/oplus/aiunit/vision/sdj;->f:Lcom/oplus/aiunit/vision/aej;
+
+    .line 13
+    const-string v2, "GxImageWriterFboRenderer"
+
+    new-instance v3, Lcom/oplus/aiunit/vision/tdj;
+
+    invoke-direct {v3, v0}, Lcom/oplus/aiunit/vision/tdj;-><init>(Landroid/view/Surface;)V
+
+    invoke-static {v2, v3}, Lcom/oplus/aiunit/vision/be0;->f(Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V
+
+    .line 14
+    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    .line 15
+    :try_start_2
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    goto :goto_1
+
+    :catchall_1
+    move-exception p0
+
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    throw p0
+
+    :cond_3
+    :goto_1
+    if-eqz p1, :cond_4
+
+    .line 16
+    invoke-virtual {p0, p1}, Lcom/oplus/aiunit/vision/sdj;->b(Landroid/view/Surface;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 17
+    :cond_4
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    return-void
+
+    :goto_2
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
+
+    throw p0
+.end method

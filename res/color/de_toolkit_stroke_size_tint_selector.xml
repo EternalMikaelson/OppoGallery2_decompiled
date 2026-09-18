@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="?de_toolkit_stroke_size_checked_tint" />
+    <item android:state_checked="false" android:color="?de_toolkit_stroke_size_unchecked_tint" />
+</selector>

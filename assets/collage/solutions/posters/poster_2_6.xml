@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Collage version="2.0">
+    <Solution name="poster_2-6" capacity="2" type="poster">
+        <Scene width="948" height="1250">
+            <Entity id="camera">
+                <Component type="CameraPose">
+                    <Value id="positionX">474</Value>
+                    <Value id="positionY">625</Value>
+                    <Value id="positionZ">1</Value>
+                    <Value id="targetX">474</Value>
+                    <Value id="targetY">625</Value>
+                    <Value id="targetZ">0</Value>
+                    <Value id="upAxisX">0</Value>
+                    <Value id="upAxisY">1</Value>
+                    <Value id="upAxisZ">0</Value>
+                </Component>
+                <Component type="RenderTarget">
+                    <Value id="viewportWidth">948</Value>
+                    <Value id="viewportHeight">1250</Value>
+                </Component>
+                <Component type="AudioTarget">
+                    <Value id="sampleRate">44100</Value>
+                    <Value id="sampleChannels">2</Value>
+                    <Value id="sampleBitDepth">16</Value>
+                </Component>
+            </Entity>
+            <Entity id="player">
+                <Component type="PlaybackCtrl" />
+            </Entity>
+
+            <Entity id="root">
+                <Component type="LayoutContainer">
+                    <Value id="type">Fixed</Value>
+                </Component>
+                <Component type="Layout">
+                    <Value id="left">0</Value>
+                    <Value id="top">0</Value>
+                    <Value id="right">948</Value>
+                    <Value id="bottom">1250</Value>
+                </Component>
+                <Component type="Material">
+                    <Value id="src">#FFFFFF</Value>
+                </Component>
+
+                <Entity id="asset0">
+                    <Component type="Layout">
+                        <Value id="left">80</Value>
+                        <Value id="top">0</Value>
+                        <Value id="right">631</Value>
+                        <Value id="bottom">466</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="Material">
+                        <Value id="mask">~/images/mask/mask_poster_2_6_0.webp</Value>
+                        <Value id="outline">~/images/outline/hint_poster_2_6_0.webp</Value>
+                    </Component>
+                    <Component type="MaterialAnimation" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">0</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset1">
+                    <Component type="Layout">
+                        <Value id="left">141</Value>
+                        <Value id="top">333</Value>
+                        <Value id="right">948</Value>
+                        <Value id="bottom">1178</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="Material">
+                        <Value id="mask">~/images/mask/mask_poster_2_6_1.webp</Value>
+                        <Value id="outline">~/images/outline/hint_poster_2_6_1.webp</Value>
+                    </Component>
+                    <Component type="MaterialAnimation" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">1</Value>
+                    </Component>
+                </Entity>
+
+                <Entity id="decoration::0">
+                    <Component type="Layout">
+                        <Value id="left">236</Value>
+                        <Value id="top">0</Value>
+                        <Value id="right">863</Value>
+                        <Value id="bottom">623</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="Material">
+                        <Value id="src">~/images/foreground/fg_2_6_0.webp</Value>
+                    </Component>
+                </Entity>
+                <Entity id="decoration::1">
+                    <Component type="Layout">
+                        <Value id="left">0</Value>
+                        <Value id="top">990</Value>
+                        <Value id="right">331</Value>
+                        <Value id="bottom">1250</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="Material">
+                        <Value id="src">~/images/foreground/fg_2_6_1.webp</Value>
+                    </Component>
+                </Entity>
+            </Entity>
+        </Scene>
+    </Solution>
+</Collage>

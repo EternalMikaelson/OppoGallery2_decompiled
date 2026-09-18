@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="ai_pic_inspiration_suggestions_frame" format="string" />
+    <item type="drawable" name="ai_pic_inspiration_suggestions_image" format="string" />
+    <item type="drawable" name="ai_pic_return" format="string" />
+    <item type="drawable" name="ai_pic_travel_photography_text_back" format="string" />
+    <item type="drawable" name="app_icon_system_application_gallery3d" format="string" />
+    <item type="drawable" name="bg_ai_picgenie_bottom" format="string" />
+    <item type="drawable" name="bg_ai_picgenie_content" format="string" />
+    <item type="drawable" name="bg_ai_picgenie_record" format="string" />
+    <item type="drawable" name="bg_ai_picgenie_think" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_creative_gameplay" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_expand" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_image_elf" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_inspiration" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_inspiration_suggestions" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_keyboard" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_send_message" format="string" />
+    <item type="drawable" name="ic_ai_picgenie_voice" format="string" />
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="media3_notification_pause">@android:drawable/ic_media_pause</drawable>
+    <drawable name="media3_notification_play">@android:drawable/ic_media_play</drawable>
+    <drawable name="media3_notification_seek_back">@android:drawable/ic_media_rew</drawable>
+    <drawable name="media3_notification_seek_forward">@android:drawable/ic_media_ff</drawable>
+    <drawable name="media3_notification_seek_to_next">@android:drawable/ic_media_next</drawable>
+    <drawable name="media3_notification_seek_to_previous">@android:drawable/ic_media_previous</drawable>
+    <drawable name="media3_notification_small_icon">@drawable/media3_icon_circular_play</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item type="drawable" name="picture_ai_pic_press_hold_speaking_button" format="string" />
+    <item type="drawable" name="realme_film_daylight_dark" format="string" />
+    <item type="drawable" name="realme_film_night_scene_dark" format="string" />
+    <item type="drawable" name="realme_film_portrait_dark" format="string" />
+    <item type="drawable" name="realme_film_street_sweeping_dark" format="string" />
+    <item type="drawable" name="realme_gr_logo" format="string" />
+    <item type="drawable" name="realme_gr_logo_dark" format="string" />
+    <item type="drawable" name="realme_gr_logo_white" format="string" />
+    <item type="drawable" name="realme_gr_logo_white_dark" format="string" />
+    <item type="drawable" name="realme_joint_name_martin_image" format="string" />
+    <item type="drawable" name="realme_joint_name_martin_image_dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_1" format="string" />
+    <item type="drawable" name="realme_party_first_logo_1_60dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_1_dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_2" format="string" />
+    <item type="drawable" name="realme_party_first_logo_2_60dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_2_dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_3" format="string" />
+    <item type="drawable" name="realme_party_first_logo_3_60dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_3_dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_4" format="string" />
+    <item type="drawable" name="realme_party_first_logo_4_60dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_4_dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_5" format="string" />
+    <item type="drawable" name="realme_party_first_logo_5_60dark" format="string" />
+    <item type="drawable" name="realme_party_first_logo_5_dark" format="string" />
+    <item type="drawable" name="realme_party_third_logo_1" format="string" />
+    <item type="drawable" name="realme_party_third_logo_1_thumbnail" format="string" />
+    <item type="drawable" name="realme_party_third_logo_2" format="string" />
+    <item type="drawable" name="realme_party_third_logo_2_thumbnail" format="string" />
+    <item type="drawable" name="realme_party_third_logo_3" format="string" />
+    <item type="drawable" name="realme_party_third_logo_3_thumbnail" format="string" />
+    <item type="drawable" name="realme_party_third_logo_4" format="string" />
+    <item type="drawable" name="realme_party_third_logo_4_thumbnail" format="string" />
+    <item type="drawable" name="realme_party_third_logo_5" format="string" />
+    <item type="drawable" name="realme_party_third_logo_5_thumbnail" format="string" />
+    <item type="drawable" name="realme_party_third_logo_6" format="string" />
+    <item type="drawable" name="realme_party_third_logo_6_thumbnail" format="string" />
+    <item type="drawable" name="sketch_camera_realme_gr_1" format="string" />
+    <item type="drawable" name="sketch_camera_realme_gr_2" format="string" />
+    <item type="drawable" name="sketch_camera_realme_gr_3" format="string" />
+    <item type="drawable" name="sketch_camera_realme_gr_4" format="string" />
+    <item type="drawable" name="sketch_camera_realme_gr_5" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_1" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_2" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_3" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_got_1" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_got_2" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_owl_1" format="string" />
+    <item type="drawable" name="sketch_camera_realme_joint_name_owl_2" format="string" />
+    <item type="drawable" name="sketch_camera_realme_party_1" format="string" />
+    <item type="drawable" name="sketch_camera_realme_party_2" format="string" />
+    <item type="drawable" name="sketch_camera_realme_party_3" format="string" />
+    <item type="drawable" name="sketch_personalize_camera_master_sign_realme_4" format="string" />
+    <item type="drawable" name="sketch_personalize_master_sign_realme_4" format="string" />
+    <item type="drawable" name="sketch_personalize_master_sign_realme_land_4" format="string" />
+    <item type="drawable" name="sketch_realme_gr_1" format="string" />
+    <item type="drawable" name="sketch_realme_gr_2" format="string" />
+    <item type="drawable" name="sketch_realme_gr_3" format="string" />
+    <item type="drawable" name="sketch_realme_gr_4" format="string" />
+    <item type="drawable" name="sketch_realme_gr_5" format="string" />
+    <item type="drawable" name="sketch_realme_gr_land_1" format="string" />
+    <item type="drawable" name="sketch_realme_gr_land_2" format="string" />
+    <item type="drawable" name="sketch_realme_gr_land_3" format="string" />
+    <item type="drawable" name="sketch_realme_gr_land_4" format="string" />
+    <item type="drawable" name="sketch_realme_gr_land_5" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_1" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_2" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_3" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_got_1" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_got_2" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_got_land_1" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_got_land_2" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_land_1" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_land_2" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_land_3" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_owl_1" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_owl_2" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_owl_land_1" format="string" />
+    <item type="drawable" name="sketch_realme_joint_name_owl_land_2" format="string" />
+    <item type="drawable" name="sketch_realme_party_1" format="string" />
+    <item type="drawable" name="sketch_realme_party_2" format="string" />
+    <item type="drawable" name="sketch_realme_party_3" format="string" />
+    <item type="drawable" name="sketch_realme_party_land_1" format="string" />
+    <item type="drawable" name="sketch_realme_party_land_2" format="string" />
+    <item type="drawable" name="sketch_realme_party_land_3" format="string" />
+    <item type="drawable" name="watermark_camera_realme_got" format="string" />
+    <item type="drawable" name="watermark_camera_realme_gr_preview" format="string" />
+    <item type="drawable" name="watermark_camera_realme_martin" format="string" />
+    <item type="drawable" name="watermark_camera_realme_owl" format="string" />
+    <item type="drawable" name="watermark_camera_realme_party" format="string" />
+</resources>

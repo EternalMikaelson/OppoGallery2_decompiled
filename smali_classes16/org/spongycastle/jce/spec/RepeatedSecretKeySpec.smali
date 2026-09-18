@@ -1,0 +1,21 @@
+.class public Lorg/spongycastle/jce/spec/RepeatedSecretKeySpec;
+.super Lorg/spongycastle/jcajce/spec/RepeatedSecretKeySpec;
+.source "RepeatedSecretKeySpec.java"
+
+
+# instance fields
+.field private algorithm:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lorg/spongycastle/jcajce/spec/RepeatedSecretKeySpec;-><init>(Ljava/lang/String;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

@@ -1,0 +1,304 @@
+.class public Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;
+.super Ljava/lang/Object;
+.source "WatermarkUserConfigure.java"
+
+
+# instance fields
+.field public displayPosition:Ljava/lang/String;
+
+.field public isCustomHasselbladOpen:Z
+
+.field public isWatermarkDeviceOpened:Z
+
+.field public isWatermarkLocationOpened:Z
+
+.field public isWatermarkTimeOpened:Z
+
+.field public mCameraAddress:Lcom/oplus/aiunit/vision/h07;
+
+.field public mColorEnable:Z
+
+.field public mIsUseBlackBackground:Z
+
+.field public mShotInfo:Lcom/oplus/ocs/ipu/watermark/beans/WatermarkShotInfo;
+
+.field public mTextSizeType:Ljava/lang/String;
+
+.field public mUserAddress:Ljava/lang/String;
+
+.field public mWatermarkAuthor:Ljava/lang/String;
+
+.field public mWatermarkEffectKey:Ljava/lang/String;
+
+.field public mWatermarkTime:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput-boolean v0, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isCustomHasselbladOpen:Z
+
+    .line 6
+    .line 7
+    const/4 v1, 0x0
+
+    .line 8
+    iput-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mShotInfo:Lcom/oplus/ocs/ipu/watermark/beans/WatermarkShotInfo;
+
+    .line 9
+    .line 10
+    const-string v2, "none"
+
+    .line 11
+    .line 12
+    iput-object v2, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mWatermarkEffectKey:Ljava/lang/String;
+
+    .line 13
+    .line 14
+    const/4 v2, 0x1
+
+    .line 15
+    iput-boolean v2, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isWatermarkDeviceOpened:Z
+
+    .line 16
+    .line 17
+    iput-boolean v0, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isWatermarkTimeOpened:Z
+
+    .line 18
+    .line 19
+    iput-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mWatermarkTime:Ljava/lang/String;
+
+    .line 20
+    .line 21
+    iput-boolean v0, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isWatermarkLocationOpened:Z
+
+    .line 22
+    .line 23
+    iput-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mCameraAddress:Lcom/oplus/aiunit/vision/h07;
+
+    .line 24
+    .line 25
+    iput-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mUserAddress:Ljava/lang/String;
+
+    .line 26
+    .line 27
+    iput-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mWatermarkAuthor:Ljava/lang/String;
+
+    .line 28
+    .line 29
+    iput-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mTextSizeType:Ljava/lang/String;
+
+    .line 30
+    .line 31
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    const-string v1, "WatermarkUserConfigure{isCustomHasselbladOpen: "
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget-boolean v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isCustomHasselbladOpen:Z
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, ", mShotInfo: "
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    iget-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mShotInfo:Lcom/oplus/ocs/ipu/watermark/beans/WatermarkShotInfo;
+
+    .line 19
+    .line 20
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    const-string v1, ", mWatermarkEffectKey: "
+
+    .line 24
+    .line 25
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 26
+    .line 27
+    .line 28
+    iget-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mWatermarkEffectKey:Ljava/lang/String;
+
+    .line 29
+    .line 30
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 31
+    .line 32
+    .line 33
+    const-string v1, ", isWatermarkDeviceOpened: "
+
+    .line 34
+    .line 35
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 36
+    .line 37
+    .line 38
+    iget-boolean v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isWatermarkDeviceOpened:Z
+
+    .line 39
+    .line 40
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 41
+    .line 42
+    .line 43
+    const-string v1, ", isWatermarkTimeOpened: "
+
+    .line 44
+    .line 45
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    iget-boolean v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isWatermarkTimeOpened:Z
+
+    .line 49
+    .line 50
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 51
+    .line 52
+    .line 53
+    const-string v1, ", mWatermarkTime: "
+
+    .line 54
+    .line 55
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 56
+    .line 57
+    .line 58
+    iget-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mWatermarkTime:Ljava/lang/String;
+
+    .line 59
+    .line 60
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 61
+    .line 62
+    .line 63
+    const-string v1, ", isWatermarkLocationOpened: "
+
+    .line 64
+    .line 65
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 66
+    .line 67
+    .line 68
+    iget-boolean v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->isWatermarkLocationOpened:Z
+
+    .line 69
+    .line 70
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 71
+    .line 72
+    .line 73
+    const-string v1, ", mWatermarkAuthor: "
+
+    .line 74
+    .line 75
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 76
+    .line 77
+    .line 78
+    iget-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mWatermarkAuthor:Ljava/lang/String;
+
+    .line 79
+    .line 80
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 81
+    .line 82
+    .line 83
+    const-string v1, ", mTextSizeType: "
+
+    .line 84
+    .line 85
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 86
+    .line 87
+    .line 88
+    iget-object v1, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->mTextSizeType:Ljava/lang/String;
+
+    .line 89
+    .line 90
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 91
+    .line 92
+    .line 93
+    const-string v1, ", displayPosition: "
+
+    .line 94
+    .line 95
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 96
+    .line 97
+    .line 98
+    iget-object p0, p0, Lcom/oplus/ocs/ipu/watermark/beans/WatermarkUserConfigure;->displayPosition:Ljava/lang/String;
+
+    .line 99
+    .line 100
+    const-string v1, "}"
+
+    .line 101
+    .line 102
+    invoke-static {v0, p0, v1}, Lcom/oplus/aiunit/vision/k8c0;->a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 103
+    .line 104
+    .line 105
+    move-result-object p0
+
+    .line 106
+    return-object p0
+.end method

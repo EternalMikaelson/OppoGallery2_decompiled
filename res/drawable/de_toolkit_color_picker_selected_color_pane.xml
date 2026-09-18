@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/layer_bg" android:drawable="@drawable/de_toolkit_color_picker_selected_color_pane_layer_bg" />
+    <item android:id="@id/layer_fg" android:drawable="@drawable/de_toolkit_color_picker_selected_color_pane_layer_fg" />
+    <item android:drawable="@drawable/de_toolkit_color_picker_selected_color_pane_layer_overlay" />
+</layer-list>

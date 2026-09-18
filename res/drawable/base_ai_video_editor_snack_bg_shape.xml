@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="36.0dp" />
+    <corners android:radius="@dimen/label_album_set_item_cover_corners_radius_large" />
+    <solid android:color="@color/base_blur_indicator_bg_color_not_immersive" />
+</shape>

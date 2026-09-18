@@ -1,0 +1,111 @@
+.class public final Lcom/oplusos/vfxsdk/doodleengine/track/Tracker$Companion;
+.super Ljava/lang/Object;
+.source "Tracker.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplusos/vfxsdk/doodleengine/track/Tracker;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u00089\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0008\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000e\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0015\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0019\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010!\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010#\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010%\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\'\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010(\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010)\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010*\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010+\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010,\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010-\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010.\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010/\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00100\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00101\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00102\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00103\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00104\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00105\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00106\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00107\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00108\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010:\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010;\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010<\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006="
+    }
+    d2 = {
+        "Lcom/oplusos/vfxsdk/doodleengine/track/Tracker$Companion;",
+        "",
+        "()V",
+        "APPID_KEY",
+        "",
+        "BALLPEN_SELECTED_COUNT_KEY",
+        "CANVAS_COUNT_KEY",
+        "CIRCLE_SHAPE_COUNT_KEY",
+        "CLEAR_ERASER_COUNT_KEY",
+        "COLOR_PICKER_USE_KEY",
+        "CURVE_SHAPE_COUNT_KEY",
+        "DRAW_APP_COST_KEY",
+        "DRAW_STABILITY_KEY",
+        "DRAW_SYSTEM_COST_KEY",
+        "DRAW_TIMEOUT_COUNT_KEY",
+        "DRAW_TOTAL_COST_KEY",
+        "DRAW_TOTAL_COUNT_KEY",
+        "GEOMETRY_ARROW_COUNT_KEY",
+        "GEOMETRY_CIRCLE_COUNT_KEY",
+        "GEOMETRY_COUNT_KEY",
+        "GEOMETRY_LINE_COUNT_KEY",
+        "GEOMETRY_RECTANGLE_COUNT_KEY",
+        "HEART_SHAPE_COUNT_KEY",
+        "INIT_COST_KEY",
+        "LASSO_CHANGE_COLOR_KEY",
+        "LASSO_COPY_COUNT_KEY",
+        "LASSO_COPY_PASTE_COUNT_KEY",
+        "LASSO_CUT_COUNT_KEY",
+        "LASSO_DELETE_COUNT_KEY",
+        "LASSO_PASTE_COUNT_KEY",
+        "LASSO_SAVE_COUNT_KEY",
+        "LINE_ERASER_COUNT_KEY",
+        "LINE_SHAPE_COUNT_KEY",
+        "LOAD_COST_KEY",
+        "LOAD_DATA_COST_KEY",
+        "LOAD_FILE_SIZE_KEY",
+        "LOAD_REDRAW_COST_KEY",
+        "LOAD_STROKE_COUNT_KEY",
+        "LOAD_TYPE_KEY",
+        "LONG_TIME_DRAW_KEY",
+        "MARK_SELECTED_COUNT_KEY",
+        "OVERLAY_COUNT_KEY",
+        "PENCIL_SELECTED_COUNT_KEY",
+        "PENCIL_SOUND_KEY",
+        "PEN_SELECTED_COUNT_KEY",
+        "POINT_ERASER_COUNT_KEY",
+        "RECORD_TIME",
+        "RECTANGLE_SHAPE_COUNT_KEY",
+        "SAVE_CANVAS_HEIGHT_KEY",
+        "SAVE_CANVAS_WIDTH_KEY",
+        "SAVE_COST_KEY",
+        "SAVE_DATA_COST_KEY",
+        "SAVE_FILE_SIZE_KEY",
+        "SAVE_IMAGE_COST_KEY",
+        "SAVE_IMAGE_HEIGHT_KEY",
+        "SAVE_IMAGE_WIDTH_KEY",
+        "SAVE_STROKE_COUNT_KEY",
+        "SAVE_TYPE_KEY",
+        "SDK_VERSION_KEY",
+        "STAR_SHAPE_COUNT_KEY",
+        "TRIANGLE_SHAPE_COUNT_KEY",
+        "paint_oplus_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/oplusos/vfxsdk/doodleengine/track/Tracker$Companion;-><init>()V
+
+    return-void
+.end method

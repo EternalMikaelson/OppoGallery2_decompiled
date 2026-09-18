@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="base_explorer_memories_set_list_orientation">0</integer>
+    <integer name="base_memories_set_list_column">2</integer>
+    <integer name="base_timeline_picked_month_column">3</integer>
+    <integer name="base_timeline_picked_year_column">2</integer>
+    <integer name="basebiz_travel_album_set_all_columns_num">3</integer>
+    <integer name="basebiz_travel_album_set_edge_columns_num">1</integer>
+    <integer name="basebiz_travel_album_set_year_columns_num">3</integer>
+    <integer name="floating_tips_view_max_width_require_col_count">6</integer>
+    <integer name="grid_guide_column_preference">6</integer>
+    <integer name="picture3d_sticker_view_pager_grid_column">6</integer>
+    <integer name="picture_ai_lighting_seekbar_column">6</integer>
+    <integer name="picture_watermark_info_miss_tip_column">6</integer>
+    <integer name="responsive_ui_column_count">@integer/inner_responsive_ui_column_8</integer>
+    <integer name="search_result_all_grid">8</integer>
+    <integer name="search_result_require_grid">6</integer>
+</resources>

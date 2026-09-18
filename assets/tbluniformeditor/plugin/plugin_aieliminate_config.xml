@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin-meta>
+    <!--插件版本，由插件开发者定义，建议格式：年/月/日/两位序号，如：2023112101-->
+    <long name="version">2024042401</long>
+
+    <!--插件类型，指当前插件元信息是静态配置还是动态获取-->
+    <!--静态配置：插件的编辑能力，通过parameter标签配置-->
+    <!--动态配置：插件的编辑能力，通过插件接口动态获取-->
+    <boolean name="dynamic">false</boolean>
+
+    <!--插件编辑能力入口类，其实现export中定义的功能标准-->
+    <string name="identifier">com.oplus.tbluniformeditor.plugins.aieliminate.function.AIEliminateAlgoImpl</string>
+
+    <!--插件编辑能力查询静态接口名，如：config -->
+    <!--静态配置的插件，磁场配置空字符串即可或者不配置-->
+    <string name="dynamic_identifier"> </string>
+
+    <!--插件是否支持HDR编辑-->
+    <boolean name="hdr_support">false</boolean>
+
+    <!--插件支持的HDR编码方案-->
+    <!--目前hdr的编码方案有：local_hdr,ultra_hdr,hdr_hlg,hdr_pq,hdr_none.插件根据自身支持情况选填-->
+    <!--如果插件不支持hdr,即 hdr_support配置为false, 此处配置为hdr_none-->
+    <string name="hdr_scheme">hdr_none</string>
+
+    <!--插件支持的HDR编辑方案-->
+    <!--目前hdr的实施方案有：independent, combine, none.插件根据自身支持情况选填-->
+    <!--如果插件不支持hdr,即 hdr_support配置为false, 此处配置为none-->
+    <string name="hdr_edit_scheme">none</string>
+
+    <!--算法支持的最大输入尺寸-->
+    <string name="max_input_size">4096</string>
+
+    <!--插件编辑能力入口类，其实现export中定义的功能标准-->
+    <string name="description">AIEliminate plugin meta description config</string>
+
+    <!--插件名称-->
+    <string name="name">ai_eliminate_plugin</string>
+
+    <!--插件的copyright描述-->
+    <string name="copyright">OPLUS Mobile Comm Corp., Ltd.</string>
+
+    <!--插件的作者描述-->
+    <string name="creator">liutingting3@oppo.com</string>
+
+</plugin-meta>

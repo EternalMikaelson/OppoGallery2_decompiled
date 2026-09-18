@@ -1,0 +1,32 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/d710;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/Integer;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object p0, Lcom/oplus/gallery/photoeditor/editingvvm/aicameraoriginphotoexport/RmAiCameraOriginPhotoExportSection;->s:Lcom/oplus/aiunit/vision/ld20;
+
+    .line 7
+    .line 8
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 9
+    .line 10
+    return-object p0
+.end method

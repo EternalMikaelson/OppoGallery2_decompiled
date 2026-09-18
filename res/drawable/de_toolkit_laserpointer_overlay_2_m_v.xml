@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dp" android:width="41.0dp" android:viewportWidth="41.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0.5,0h40v72h-40z" />
+        <group>
+            <clip-path android:pathData="M1,-6h40v78h-40z" />
+            <path android:fillColor="@drawable/$de_toolkit_laserpointer_overlay_2_m_v__0" android:pathData="M20.997,27.066C22.378,27.066 23.499,28.186 23.499,29.567V37.072C23.499,38.454 22.378,39.573 20.997,39.573C19.616,39.573 18.496,38.453 18.496,37.072V29.567C18.496,28.186 19.616,27.067 20.997,27.066ZM20.997,27.563C19.892,27.563 18.996,28.458 18.996,29.563V37.067C18.996,38.173 19.892,39.069 20.997,39.069C22.102,39.069 22.998,38.173 22.998,37.067V29.563C22.998,28.458 22.102,27.563 20.997,27.563Z" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$fb_loading__5" android:duration="617" android:startOffset="0" android:valueFrom="-0.25" android:valueTo="-0.11388889" android:valueType="floatType" android:propertyName="trimPathOffset" />
+    <objectAnimator android:interpolator="@drawable/$fb_loading__6" android:duration="633" android:startOffset="617" android:valueFrom="-0.11388889" android:valueTo="0.75" android:valueType="floatType" android:propertyName="trimPathOffset" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/iv_icon_play" android:background="@drawable/main_icon_play_btn_selector" android:visibility="invisible" android:layout_width="@dimen/main_play_button_width" android:layout_height="@dimen/main_play_button_height" android:scaleType="centerInside" android:contentDescription="@string/photopage_playback_talkback_play" android:forceDarkAllowed="false" />
+    <ViewStub android:layout_gravity="center" android:id="@id/vs_loading_view" android:layout="@layout/photo_overlay_playback_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

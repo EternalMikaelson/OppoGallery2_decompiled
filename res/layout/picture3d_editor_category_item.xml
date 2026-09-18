@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sticker_category_root" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.photoeditor.editingvvm.sticker.ui.StickerCategoryIconView android:id="@id/sticker_category_icon" android:layout_width="@dimen/picture3d_sticker_category_item_width" android:layout_height="@dimen/picture3d_sticker_category_item_height" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <View android:id="@id/separator" android:background="@color/picture3d_white_30_percent" android:visibility="gone" android:layout_width="@dimen/picture3d_sticker_category_item_separator_width" android:layout_height="@dimen/picture3d_sticker_category_item_separator_height" android:layout_centerVertical="true" android:layout_toEndOf="@id/sticker_category_icon" />
+</RelativeLayout>

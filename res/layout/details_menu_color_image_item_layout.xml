@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/collage_details_menu_image_list_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/collage_details_menu_color_icon_layout_size" android:layout_height="@dimen/collage_details_menu_color_icon_layout_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@null" />
+    <ImageView android:id="@id/view_selected_border" android:background="@drawable/base_editor_color_border_shape" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" />
+</FrameLayout>

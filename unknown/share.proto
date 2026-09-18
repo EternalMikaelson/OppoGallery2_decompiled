@@ -1,0 +1,114 @@
+syntax = "proto3";
+package com.oplus.interconnect.share;
+
+option java_multiple_files = true;
+
+//分享客户端
+message InternalShareAgentClient {
+  string agentId = 1;
+  string pkg = 2;
+  int32 pid = 3;
+  string appName = 4;
+}
+
+//注册分享参数
+message ShareRegisterParams {
+  InternalShareAgentClient client = 1;
+  string event = 2;
+}
+
+message ShareAgentEvent {
+  EventType type = 1;
+  InternalShareAgentClient client = 2;
+
+  enum EventType {
+    UNKNOWN = 0;
+    AGENT_FOUND = 1;
+  }
+}
+
+//分享数据参数
+message ShareParams {
+  InternalShareAgentClient client = 1;
+  InternalSharedData data = 2;
+  InternalSharedCardParams card = 3;
+  bool isReShare = 4;
+}
+
+//取消分享
+message RejectShareParams {
+  InternalShareAgentClient client = 1;
+  string reason = 2;
+  int32 code = 3 ;
+}
+
+//恢复分享
+message ResumeShareParams {
+  InternalShareAgentClient client = 1;
+  InternalSharedData data = 2;
+}
+
+//分享卡片的显示内容
+message InternalSharedCardParams {
+  string type = 1;      //卡片模板类型
+  reserved 2;
+  reserved 3;
+  string title = 4;     //主标题
+  string description = 5;   //副标题
+  map<string, string> extras = 6;
+  InternalSharedButtonParams buttonParams = 7;
+  InternalSharedThumbnailParams thumbnailContentParams = 8;
+  InternalSharedCardContentParams cardContentParams = 9;
+  string titleAlignment = 10;   //标题对齐方式
+}
+
+//分享卡片中缩略图信息
+message InternalSharedThumbnailParams {
+  repeated InternalThumbnailParams thumbnailList = 1; //缩略图list
+}
+
+//缩略图配置内容
+message InternalThumbnailParams{
+  bytes bytesIcon = 1;
+  string uriIcon = 2;
+  string template = 3;
+}
+
+//分享卡片中各行显示信息
+message InternalSharedCardContentParams {
+  repeated InternalSharedTextLineParams textLine = 1;
+}
+
+//分享卡片中行显示的具体信息
+message InternalSharedTextLineParams {
+  string lineType = 1;
+  string content = 2;
+  InternalThumbnailParams icon = 3;
+  string alignment = 4; //对齐方式
+}
+
+//分享卡片按钮的展示内容
+message InternalSharedButtonParams {
+  map<string, string> buttonExtras = 1;
+}
+
+//分享数据内容，可包含多条数据记录
+message InternalSharedData {
+  string name = 1;
+  repeated InternalSharedRecord records = 2;
+  repeated string packageNames = 3;
+  map<string, string> extras = 4;
+}
+
+//分享数据记录
+message InternalSharedRecord {
+  string type = 1;
+  string content = 2;
+  string uri = 3;
+  bytes extras = 4;
+}
+
+message SealedResult {
+  int32 resultCode = 1;
+  string message = 2;
+}

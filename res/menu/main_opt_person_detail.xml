@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/base_menu_ic_create_memories" android:enabled="true" android:id="@id/action_create_memories" android:title="@string/common_tab_memories" app:showAsAction="always" />
+    <item android:icon="@drawable/main_ic_filter_unselect_dark" android:id="@id/action_filter" android:visible="true" android:title="@string/talkback_picture_filter" android:contentDescription="@string/talkback_picture_filter" app:showAsAction="always" />
+    <item android:id="@id/action_select" android:title="@string/common_select" app:showAsAction="never" />
+</menu>

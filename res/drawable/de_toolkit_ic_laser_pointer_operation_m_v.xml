@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/pen_color" android:height="40.0dp" android:width="40.0dp" android:drawable="@drawable/de_toolkit_laserpointer_operation_overlay_1_m_v" />
+    <item android:height="40.0dp" android:width="40.0dp" android:drawable="@drawable/de_toolkit_laser_pointer_operation_icon" />
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@id/empty_loading_container" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp">
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/empty_loading_view" android:layout_width="26.0dp" android:layout_height="26.0dp" app:anim_autoPlay="true" app:anim_loop="true" />
+        </FrameLayout>
+        <com.oplus.anim.EffectiveAnimationView android:id="@id/empty_error_view" android:visibility="gone" android:layout_width="280.0dp" android:layout_height="200.0dp" app:anim_autoPlay="true" app:anim_loop="false" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextHeadlineXS" android:textColor="@color/cloudkit_color_label_primary" android:id="@id/empty_title_view" android:visibility="gone" android:layout_width="280.0dp" android:layout_height="wrap_content" android:textAlignment="center" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextBodyXS" android:textColor="@color/cloudkit_color_label_secondary" android:id="@id/empty_subtitle_view" android:visibility="gone" android:layout_width="280.0dp" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:textAlignment="center" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextButtonM" android:textColor="@color/cloudkit_color_primary" android:id="@id/empty_action_view" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:textAlignment="center" />
+</androidx.appcompat.widget.LinearLayoutCompat>

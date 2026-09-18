@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52.0dp" android:layout_marginTop="6.0dp" android:paddingHorizontal="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextAppearanceButtonL" android:textColor="@color/cloudkit_color_primary" android:id="@id/panel_dialog_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextHeadlineS" android:textColor="@color/cloudkit_color_label_primary" android:gravity="center_horizontal" android:id="@id/panel_dialog_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextAppearanceButtonL" android:textColor="@color/cloudkit_color_primary" android:id="@id/panel_dialog_confirm" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

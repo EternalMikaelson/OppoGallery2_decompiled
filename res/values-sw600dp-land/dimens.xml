@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_group_panel_padding_bottom_small_landscape">@dimen/album_group_panel_padding_bottom</dimen>
+    <dimen name="olive_sticker_preview_item_merged_cover_margin_end">@dimen/olive_select_preview_item_margin_right</dimen>
+    <dimen name="olive_sticker_preview_item_merged_cover_margin_top">@dimen/olive_select_preview_item_margin_top</dimen>
+    <dimen name="olive_sticker_preview_item_merged_cover_size">@dimen/olive_select_preview_item_image_size</dimen>
+    <dimen name="olive_sticker_preview_item_merged_delete_padding">@dimen/olive_select_preview_delete_padding</dimen>
+    <dimen name="olive_sticker_preview_item_merged_delete_size">@dimen/olive_select_preview_delete_image_size</dimen>
+    <dimen name="olive_sticker_preview_merged_header_padding_bottom">@dimen/olive_sticker_selection_preview_header_padding_bottom</dimen>
+    <dimen name="olive_sticker_preview_merged_header_padding_top">@dimen/olive_sticker_selection_preview_header_padding_top</dimen>
+    <dimen name="olive_sticker_preview_merged_list_margin_bottom">@dimen/olive_sticker_selection_preview_list_margin_bottom</dimen>
+    <dimen name="olive_sticker_preview_merged_title_max_height">10000.0dp</dimen>
+</resources>

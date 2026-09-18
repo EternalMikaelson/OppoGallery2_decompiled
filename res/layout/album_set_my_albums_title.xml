@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@id/flTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/album_set_tab_commonly_used_module_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.textview.COUITextView android:textColor="?couiColorLabelPrimary" android:gravity="start|center" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/model_title_more_album" android:importantForAccessibility="yes" android:textDirection="locale" android:paddingVertical="@dimen/album_group_item_title_padding_vertical" style="@style/couiTextAppearanceHeadline5" />
+</FrameLayout>

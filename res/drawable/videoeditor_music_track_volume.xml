@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/videoeditor_effect_track_menu_image_width" android:width="@dimen/videoeditor_effect_track_menu_image_width">
+        <selector>
+            <item android:state_enabled="false">
+                <bitmap android:src="@drawable/videoeditor_ic_music_track_volume" android:tint="@color/videoeditor_effect_track_submenu_edit_bg_color" android:alpha="@dimen/button_common_disable_alpha" />
+            </item>
+            <item android:state_pressed="true">
+                <bitmap android:src="@drawable/videoeditor_ic_music_track_volume" android:tint="@color/videoeditor_effect_track_submenu_edit_bg_color" android:alpha="@dimen/button_common_pressed_alpha" />
+            </item>
+            <item>
+                <bitmap android:src="@drawable/videoeditor_ic_music_track_volume" android:tint="@color/videoeditor_effect_track_submenu_edit_bg_color" />
+            </item>
+        </selector>
+    </item>
+</layer-list>

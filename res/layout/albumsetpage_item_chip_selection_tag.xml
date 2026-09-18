@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.chip.COUIChip android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/selection_tag_chip_width" android:minHeight="@dimen/selection_tag_chip_height" app:chipCornerRadius="@dimen/selection_tag_chip_radius" app:textEndPadding="0.0dp" app:textStartPadding="0.0dp" style="@style/ChipTagWithStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

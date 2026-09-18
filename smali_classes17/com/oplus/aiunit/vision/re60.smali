@@ -1,0 +1,39 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/re60;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object p0, Lcom/oplus/gallery/standard_lib/scheduler/JobServiceIdPool;->SYNC_CONDITION_SERVICE:Lcom/oplus/gallery/standard_lib/scheduler/JobServiceIdPool;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/oplus/gallery/standard_lib/scheduler/JobServiceIdPool;->getJobId()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    const-string v0, "[scheduleJob] skip in otest environment, jobId: "
+
+    .line 8
+    .line 9
+    invoke-static {p0, v0}, Lcom/oplus/aiunit/vision/k9o;->a(ILjava/lang/String;)Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    return-object p0
+.end method

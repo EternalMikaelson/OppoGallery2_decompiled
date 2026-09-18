@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/cloudkit_color_background_elevatedWithCard" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.heytap.cloudkit.libpay.coui.core.CloudToolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="parent" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/list_container" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.heytap.cloudkit.libpay.coui.core.CloudEmptyStateView android:id="@id/empty_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

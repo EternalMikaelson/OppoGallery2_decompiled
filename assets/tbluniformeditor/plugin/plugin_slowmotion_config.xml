@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin-meta>
+    <!--插件版本，由插件开发者定义，建议格式：年/月/日/两位序号，如：2023112101-->
+    <long name="version">2024041201</long>
+
+    <!--插件类型，指当前插件元信息是静态配置还是动态获取-->
+    <!--静态配置：插件的编辑能力，通过parameter标签配置-->
+    <!--动态配置：插件的编辑能力，通过插件接口动态获取-->
+    <!--必选-->
+    <boolean name="dynamic">false</boolean>
+
+    <!--插件编辑能力入口类，其实现export中定义的功能标准-->
+    <!--必选-->
+    <string name="identifier">com.oplus.gallery.plugins.slowmotion.function.SlowMotionAlgoImpl</string>
+
+    <!--插件编辑能力查询静态接口名，如：config -->
+    <!--静态配置的插件，参数配置空字符串即可或者不配置-->
+    <string name="dynamic_identifier"> </string>
+
+    <!--插件是否支持HDR编辑-->
+    <boolean name="hdr_support">true</boolean>
+
+    <!--插件支持的HDR编码方案-->
+    <string name="hdr_scheme">hdr_none</string>
+
+    <!--插件支持的HDR编辑方案-->
+    <string name="hdr_edit_scheme">combine</string>
+
+    <!--插件编辑能力入口类，其实现export中定义的功能标准-->
+    <string name="description">slowmotion plugin meta description configuration.</string>
+
+    <!--插件名称-->
+    <string name="name">slowmotion_plugin</string>
+
+    <!--插件的copyright描述-->
+    <string name="copyright">OPLUS Mobile Comm Corp., Ltd.</string>
+
+    <!--插件的作者描述-->
+    <string name="creator">hucanhua@oppo.com</string>
+</plugin-meta>

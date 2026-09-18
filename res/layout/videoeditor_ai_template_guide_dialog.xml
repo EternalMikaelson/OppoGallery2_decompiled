@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView android:layout_marginBottom="@dimen/dp_10" style="@style/COUIAlertDialogCustomScrollViewStyleWithButton">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.viewpager.COUIViewPager2 android:id="@id/viewpager2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dp_10" />
+            <com.coui.appcompat.indicator.COUIPageIndicator android:id="@id/page_indicator_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" app:dotColor="?couiColorLabelTertiary" app:dotSize="@dimen/dp_6" app:dotSpacing="@dimen/dp_5" app:dotStrokeWidth="@dimen/dp_3" app:traceDotColor="?couiColorLabelPrimary" />
+        </LinearLayout>
+    </com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView>
+    <com.coui.appcompat.button.COUIButton android:textSize="@dimen/base_multiple_page_guides_button_text_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_introduction_ok" android:background="@color/color_0066fff" android:layout_width="@dimen/base_large_btn_width" android:layout_height="@dimen/base_large_btn_height" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_5" android:text="@string/common_ok" android:fontFamily="sans-serif-medium" style="?couiButtonColorfulDefaultStyle" />
+</LinearLayout>

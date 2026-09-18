@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/category_root" android:paddingBottom="@dimen/setting_compatible_format_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/gTextAppearanceDescription" android:textColor="?gColorSecondNeutral" android:gravity="center_vertical" android:id="@id/compatible_format_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/coui_preference_category_text_height" android:text="@string/base_setting_share_compatible_formats_description" android:textAlignment="viewStart" android:layout_marginStart="@dimen/support_preference_category_layout_title_margin_start" android:layout_marginEnd="@dimen/support_preference_category_layout_title_margin_end" />
+</LinearLayout>

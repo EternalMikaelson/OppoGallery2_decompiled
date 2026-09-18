@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/menu_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/action_button_view_group" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/photo_horizontal_list">
+        <ImageButton android:id="@id/editor_img_action_left" android:background="@null" android:layout_width="@dimen/video_editor_bottom_sub_menu_bar_height" android:layout_height="@dimen/video_editor_bottom_sub_menu_bar_height" android:src="@drawable/videoeditor_ic_photo_add" android:scaleType="centerInside" android:contentDescription="@string/videoeditor_talkback_add_photo" />
+        <View android:layout_width="@dimen/video_editor_bottom_sub_menu_bar_height" android:layout_height="@dimen/video_editor_bottom_sub_menu_bar_height" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/editor_img_action_right" android:background="@null" android:layout_width="@dimen/video_editor_bottom_sub_menu_bar_height" android:layout_height="@dimen/video_editor_bottom_sub_menu_bar_height" android:src="@drawable/videoeditor_ic_photo_delete" android:scaleType="centerInside" android:contentDescription="@string/videoeditor_talkback_delete_photo" />
+    </LinearLayout>
+    <com.oplus.gallery.business_lib.template.editor.widget.EditorLinearListView android:id="@id/photo_horizontal_list" android:layout_width="wrap_content" android:layout_height="wrap_content" app:base_itemSpacing="@dimen/memories_editor_photo_menu_item_spacing" app:isStartEndCenter="true" app:noPaddingFadingEdge="@dimen/videoeditor_lib_list_fade_edge" />
+</LinearLayout>

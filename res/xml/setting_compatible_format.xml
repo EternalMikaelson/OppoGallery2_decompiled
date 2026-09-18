@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/common_app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:layout="@layout/setting_compatible_format_preference_head" android:title="@string/base_setting_share_compatible_formats_description" android:key="pref_category_key_compatible_format" app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/base_setting_share_convert_image_title" android:key="pref_key_compatible_format_convert_image" android:summary="@string/base_setting_image_convert_summary_not_support" android:defaultValue="false" app:couiShowDivider="true" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/base_setting_share_convert_video_title" android:key="pref_key_compatible_format_convert_video" android:summary="@string/base_setting_hdr_convert_to_sdr_summary_not_support" android:defaultValue="false" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

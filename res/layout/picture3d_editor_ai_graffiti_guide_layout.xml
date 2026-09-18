@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/picture3d_group_photo_guide_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.viewpager.COUIViewPager2 android:id="@id/pager_ai_graffiti" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <com.coui.appcompat.button.COUIButton android:textSize="@dimen/base_multiple_page_guides_button_text_size" android:textColor="@color/black" android:gravity="center" android:id="@id/btn_ai_graffiti_ok" android:layout_width="@dimen/base_large_btn_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_group_photo_guide_button_margin_top" android:text="@string/common_ok" android:contentDescription="@string/common_ok" style="?couiButtonColorfulDefaultStyle" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_18">
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="center_horizontal" android:id="@id/recommend_music_tab" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/dp_38" android:overScrollMode="never" app:tabIndicatorColor="@color/white" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="@dimen/editor_music_recommend_tab_indicator_height" app:tabMode="fixed" app:tabPaddingEnd="@dimen/dp_40_89" app:tabPaddingStart="@dimen/dp_40_89" app:tabRippleColor="@null" app:tabSelectedTextColor="@color/white" app:tabTextColor="@color/color_8AFFFFFF" />
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/recommend_music_pager" android:paddingTop="@dimen/videoeditor_song_recommend_mpadding_top" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+</LinearLayout>

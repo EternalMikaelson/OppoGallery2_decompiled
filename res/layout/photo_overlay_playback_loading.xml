@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/photo_overlay_playback_loading_bg" android:layout_width="@dimen/photopage_playback_overlay_loading_bg_size" android:layout_height="@dimen/photopage_playback_overlay_loading_bg_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/animation_loading_view" android:visibility="visible" android:layout_width="@dimen/photopage_playback_overlay_loading_size" android:layout_height="@dimen/photopage_playback_overlay_loading_size" app:anim_loop="true" />
+</LinearLayout>

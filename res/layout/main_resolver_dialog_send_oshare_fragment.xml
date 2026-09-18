@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/open_oshare_stub" android:layout="@layout/sharepage_open_oshare" android:layout_width="match_parent" android:layout_height="@dimen/main_resolver_dialog_nearbyshare_fragment_height" android:layout_marginTop="@dimen/main_resolver_oshare_margin_top" android:layout_marginHorizontal="@dimen/main_resolver_nearby_share_margin_start_end" />
+    <ViewStub android:id="@id/open_oshare_new_stub" android:layout="@layout/sharepage_new_open_oshare" android:layout_width="match_parent" android:layout_height="@dimen/main_resolver_dialog_new_nearbyshare_fragment_height" android:layout_marginTop="@dimen/main_resolver_oshare_margin_top" android:layout_marginHorizontal="@dimen/main_resolver_nearby_share_margin_start_end" />
+    <ViewStub android:id="@id/device_list_stub" android:layout="@layout/sharepage_oshare_device_list" android:layout_width="match_parent" android:layout_height="@dimen/main_resolver_oshareing_recyclerview_height" android:layout_marginTop="@dimen/main_resolver_oshareing_recyclerview_margin_top" />
+</FrameLayout>

@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Материалаа сонгоод, доорх “AI нэг товшилтоор видео үүсгэх” хөвөгч цонх дээр дарж хурдан видео үүсгэнэ үү. Хамгийн багадаа %1$s материал сонговол видеоны үр дүн илүү сайн байна.</item>
+        <item quantity="other">Материалаа сонгоод, доорх “AI нэг товшилтоор видео үүсгэх” хөвөгч цонх дээр дарж хурдан видео үүсгэнэ үү. Хамгийн багадаа %1$s материал сонговол видеоны үр дүн илүү сайн байна.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Материалаа сонгоод, доод хэсгийн “Эвлүүлэг - AI нэг товшилтоор видео үүсгэх” дээр дарж хурдан видео үүсгэнэ үү. Хамгийн багадаа %1$s материал сонговол видеоны үр дүн илүү сайн байна.</item>
+        <item quantity="other">Материалаа сонгоод, доод хэсгийн “Эвлүүлэг - AI нэг товшилтоор видео үүсгэх” дээр дарж хурдан видео үүсгэнэ үү. Хамгийн багадаа %1$s материал сонговол видеоны үр дүн илүү сайн байна.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Шууд бичлэгийн үргэлжлэх хугацаа %1$d секундээс хэтэрсэн тул, одоогоор энэ функцийг дэмжихгүй</item>
+        <item quantity="other">Шууд бичлэгийн үргэлжлэх хугацаа %1$d секундээс хэтэрсэн тул, одоогоор энэ функцийг дэмжихгүй</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Нэмэх (%1$d)</item>
+        <item quantity="other">Нэмэх (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Нэмэх (%1$d/%2$d)</item>
+        <item quantity="other">Нэмэх (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d зүйл амжилттай тохируулагдлаа</item>
+        <item quantity="other">%1$d зүйл амжилттай тохируулагдлаа</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d гэрэл зураг ачаалж байна, нэмэх боломжгүй</item>
+        <item quantity="other">%d гэрэл зураг ачаалж байна, нэмэх боломжгүй</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d архив файл</item>
+        <item quantity="other">%1$d архив файл</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d банкны карт</item>
+        <item quantity="other">%1$d банкны карт</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d зурагт цомгийн бүх зүйлс энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим төслүүд үүлэн дээр нөөцлөгдөөгүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+        <item quantity="other">%d зурагт цомгийн бүх зүйлс энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим төслүүд үүлэн дээр нөөцлөгдөөгүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d ширхэг цуврал зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Бүх цуврал зураг үүлэн санд нөөцлөгдсөн тул үүлэн дэх файлууд устахгүй.</item>
+        <item quantity="other">%d ширхэг цуврал зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Бүх цуврал зураг үүлэн санд нөөцлөгдсөн тул үүлэн дэх файлууд устахгүй.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d ширхэг цуврал зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим зургийг үүлэн дээр хуулбарлаагүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+        <item quantity="other">%d ширхэг цуврал зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим зургийг үүлэн дээр хуулбарлаагүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d зүйлс энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим төслүүд үүлэн дээр нөөцлөгдөөгүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+        <item quantity="other">%d зүйлс энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим төслүүд үүлэн дээр нөөцлөгдөөгүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим зургийг үүлэн дээр хуулбарлаагүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+        <item quantity="other">%d зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим зургийг үүлэн дээр хуулбарлаагүй байна. Устгахаас өмнө тэдгээрийг нөөцлөхийг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d видео энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим видео үүлэн санд хараахан нөөцлөгдөөгүй байна. Устгахаасаа өмнө нөөцлөхийг зөвлөж байна.</item>
+        <item quantity="other">%d видео энэ төхөөрөмжөөс устгагдах бөгөөд устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана. Зарим видео үүлэн санд хараахан нөөцлөгдөөгүй байна. Устгахаасаа өмнө нөөцлөхийг зөвлөж байна.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$sзүйлийн хураангуй зургийг анхны гэрэл зураг руу буцаана</item>
+        <item quantity="other">%1$sзүйлийн хураангуй зургийг анхны гэрэл зураг руу буцаана</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d гэрчилгээ</item>
+        <item quantity="other">%1$d гэрчилгээ</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Та %d хүнийг нэгтгэж, хасахыг хүсэж байна уу?</item>
+        <item quantity="other">Та %d хүнийг нэгтгэж, хасахыг хүсэж байна уу?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Та энэ зургийн цомгоос %d гэрэл зургийг устгахыг хүсэж байна уу?</item>
+        <item quantity="other">Та энэ зургийн цомгоос %d гэрэл зургийг устгахыг хүсэж байна уу?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Та энэ зургйин цомгоос %d зүйл устгахыг хүсэж байна уу?</item>
+        <item quantity="other">Та энэ зургйин цомгоос %d зүйл устгахыг хүсэж байна уу?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Та энэ зургийн цомгоос %d видеог устгахыг хүсэж байна уу?</item>
+        <item quantity="other">Та энэ зургийн цомгоос %d видеог устгахыг хүсэж байна уу?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Шууд коллаж хийх</item>
+        <item quantity="other">Шууд коллаж хийх</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Эх зургийг татаж аваад коллаж хийх</item>
+        <item quantity="other">Эх зургийг татаж аваад коллаж хийх</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">Сонгосон зургуудад хураангуй зураг байгаа тул та эх зураг татаж аваад коллаж хийнэ</item>
+        <item quantity="other">Сонгосон зургуудад хураангуй зураг байгаа тул та эх зураг татаж аваад коллаж хийнэ</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Хамгийн ихдээ %1$d зураг PDF руу дэмжихийг хэмжээ</item>
+        <item quantity="other">Хамгийн ихдээ %1$d зураг PDF руу дэмжихийг хэмжээ</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Санах ойн зай хүрэлцэхгүй, %1$d зүйлийг хуулах боломжгүй</item>
+        <item quantity="other">Санах ойн зай хүрэлцэхгүй, %1$d зүйлийг хуулах боломжгүй</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d зүйлийг хуулсан</item>
+        <item quantity="other">%d зүйлийг хуулсан</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Хамгийн ихдээ %d зүйл хуулбарлах</item>
+        <item quantity="other">Хамгийн ихдээ %d зүйл хуулбарлах</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d гэрэл зураг энэ төхөөрөмжөөс бүрмөсөн устгагдана</item>
+        <item quantity="other">%d гэрэл зураг энэ төхөөрөмжөөс бүрмөсөн устгагдана</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d зүйл энэ төхөөрөмжөөс бүрмөсөн устгагана</item>
+        <item quantity="other">%d зүйл энэ төхөөрөмжөөс бүрмөсөн устгагана</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d видео энэ төхөөрөмжөөс бүрмөсөн устгагдана</item>
+        <item quantity="other">%d видео энэ төхөөрөмжөөс бүрмөсөн устгагдана</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d дараалсан зургийг энэ төхөөрөмжөөс устгах болно. Устгаснаас хойш 30 хоногийн турш “Саяхан устгасан” хэсэгт хадгалагдана</item>
+        <item quantity="other">%d дараалсан зургийг энэ төхөөрөмжөөс устгах болно. Устгаснаас хойш 30 хоногийн турш “Саяхан устгасан” хэсэгт хадгалагдана</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Сонгосон зургууд энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжүүдээс устах бөгөөд сэргээх боломжгүй</item>
+        <item quantity="other">Сонгосон зургууд энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжүүдээс устах бөгөөд сэргээх боломжгүй</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Сонгосон зургууд бүрмөсөн устгагдах бөгөөд сэргээх боломжгүй</item>
+        <item quantity="other">Сонгосон зургууд бүрмөсөн устгагдах бөгөөд сэргээх боломжгүй</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Сонгосон зүйлийг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгах бөгөөд сэргээх боломжгүй</item>
+        <item quantity="other">Сонгосон зүйлийг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгах бөгөөд сэргээх боломжгүй</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Сонгосон зүйл бүрмөсөн устах бөгөөд сэргээх боломжгүй</item>
+        <item quantity="other">Сонгосон зүйл бүрмөсөн устах бөгөөд сэргээх боломжгүй</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d гэрэл зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс бүрмөсөн устгагдана</item>
+        <item quantity="other">%d гэрэл зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс бүрмөсөн устгагдана</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс бүрмөсөн устгагдана</item>
+        <item quantity="other">%d зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс бүрмөсөн устгагдана</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс бүрмөсөн устгагдана</item>
+        <item quantity="other">%d видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс бүрмөсөн устгагдана</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d дараалсан зураг нь энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d дараалсан зураг нь энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">%d зургийн цуглуулгыг устгах уу?</item>
+        <item quantity="other">%d зургийн цуглуулгыг устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">%d дараалсан зургийг устгах уу?</item>
+        <item quantity="other">%d дараалсан зургийг устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d дурсамжийг энэ төхөөрөмжөөс устгах боловч тэдгээр дурсамж дахь зургууд таны гэрэл зургийн цомогт үлдэх болно</item>
+        <item quantity="other">%d дурсамжийг энэ төхөөрөмжөөс устгах боловч тэдгээр дурсамж дахь зургууд таны гэрэл зургийн цомогт үлдэх болно</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">%d дурсамжийг устгах уу?</item>
+        <item quantity="other">%d дурсамжийг устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">%d зүйлийг бүрмөсөн устгах</item>
+        <item quantity="other">%d зүйлийг бүрмөсөн устгах</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d зүйлийг устгах</item>
+        <item quantity="other">%d зүйлийг устгах</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">%d гэрэл зургийг устгах уу?</item>
+        <item quantity="other">%d гэрэл зургийг устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">%d зүйлийг устгах уу?</item>
+        <item quantity="other">%d зүйлийг устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">%d видеог устгах уу?</item>
+        <item quantity="other">%d видеог устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">%d наалтыг устгах уу?</item>
+        <item quantity="other">%d наалтыг устгах уу?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Энэ зургийг бүрмөсөн устгах уу</item>
+        <item quantity="other">Эдгээр зургийг бүрэмсан устгах</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Сонгосон видеог энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгах бөгөөд сэргээх боломжгүй</item>
+        <item quantity="other">Сонгосон видеог энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгах бөгөөд сэргээх боломжгүй</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Сонгосон видеог бүрмөсн устгах бөгөөд сэргээх боломжгүй</item>
+        <item quantity="other">Сонгосон видеог бүрмөсн устгах бөгөөд сэргээх боломжгүй</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d зүйлийг татаж байна…</item>
+        <item quantity="other">%d зүйлийг татаж байна…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d гэрэл зургйиг татаж авч байна…</item>
+        <item quantity="other">%d гэрэл зургйиг татаж авч байна…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d видео татаж байна…</item>
+        <item quantity="other">%d видео татаж байна…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">%d файлыг хувийн нууцлал болгох уу?</item>
+        <item quantity="other">%d файлыг хувийн нууцлал болгох уу?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Энэ зургийг хувийн нууцлал болгох уу?</item>
+        <item quantity="other">Эдгээр зургийг хувийн нууцлал болгох уу?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d файлын шифрлэлт амжилтгүй боллоо</item>
+        <item quantity="other">%d файлын шифрлэлт амжилтгүй боллоо</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Та %d зургийн цуглуулгыг хувийн нууцлал болгохыг хүсч байна уу?</item>
+        <item quantity="other">Та %d зургийн цуглуулгыг хувийн нууцлал болгохыг хүсч байна уу?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d дараалсан зураг энэ төхөөрөмжөөс устгагдана, үүлэн санд нөөцлөгдсөн зургууд устгасны дараа “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+        <item quantity="other">%d дараалсан зураг энэ төхөөрөмжөөс устгагдана, үүлэн санд нөөцлөгдсөн зургууд устгасны дараа “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d дараалсан зургуудыг энэ төхөөрөмж, үүл сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн зургуудыг устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+        <item quantity="other">%d дараалсан зургуудыг энэ төхөөрөмж, үүл сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн зургуудыг устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d зургийн цуглуулга энэ төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн цомгууд устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+        <item quantity="other">%d зургийн цуглуулга энэ төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн цомгууд устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d гэрэл зураг энэ төхөөрөмжөөс устгагдана, үүлэн санд нөөцлөгдсөн зураг устгасны дараа “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+        <item quantity="other">%d гэрэл зураг энэ төхөөрөмжөөс устгагдана, үүлэн санд нөөцлөгдсөн зураг устгасны дараа “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d зүйл энэ төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн зүйлүүд устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+        <item quantity="other">%d зүйл энэ төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн зүйлүүд устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d видео энэ төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн видеонууд устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+        <item quantity="other">%d видео энэ төхөөрөмжөөс устгагдана. Үүлэн санд нөөцлөгдсөн видеонууд устгаснаас хойш “Саяхан устгасан” хэсэгт 60 хоног хадгалагдана, нөөцлөгдөөгүй бол 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Сонгосон %d гэрэл зургуудыг экспортлох</item>
+        <item quantity="other">Сонгосон %d гэрэл зургуудыг экспортлох</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Та %d гэрэл зураг экспортлохыг хүсэж байна уу?</item>
+        <item quantity="other">Та %d гэрэл зураг экспортлохыг хүсэж байна уу?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">%1$d зүйлийг хадгалах амжилтгүй боллоо, дахин оролдоно уу</item>
+        <item quantity="other">%1$d зүйлийг хадгалах амжилтгүй боллоо, дахин оролдоно уу</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Файлын хэмжээ %1$s, тооцоолсон татаж авах хугацаа %2$s.</item>
+        <item quantity="other">Файлын хэмжээ %1$s, тооцоолсон татаж авах хугацаа %2$s.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Шууд бүтээх</item>
+        <item quantity="other">Шууд бүтээх</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Эх зургийг татаж видео бүтээх</item>
+        <item quantity="other">Эх зургийг татаж видео бүтээх</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">Сонгосон зургууд хураангуй хувилбар агуулж байна, эх зургийг татаж видео бүтээж болно</item>
+        <item quantity="other">Сонгосон зургууд хураангуй хувилбар агуулж байна, эх зургийг татаж видео бүтээж болно</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">%s зургийг сканнердаж, картын баримт бичгийн архив руу шилжүүлж болно</item>
+        <item quantity="other">%s зургийг сканнердаж, картын баримт бичгийн архив руу шилжүүлж болно</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s Зураг картын баримт бичгийн архив руу шилжүүлэгдсэн</item>
+        <item quantity="other">%1$s Зураг картын баримт бичгийн архив руу шилжүүлэгдсэн</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d тасалбар</item>
+        <item quantity="other">%1$d тасалбар</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Сонгосон зүйл аль хэдийн энэ зургийн цуглуулгад байна</item>
+        <item quantity="other">Сонгосон зүйл аль хэдийн энэ зургийн цуглуулгад байна</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d зүйл</item>
+        <item quantity="other">%d зүйл</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d хувийн дүрүүдийг нэгтгэсний дараа “%2$s”-ээс хасагдана</item>
+        <item quantity="other">%1$d хувийн дүрүүдийг нэгтгэсний дараа “%2$s”-ээс хасагдана</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d гэрэл зураг ачаалж байна, шилжүүлэх боломжгүй</item>
+        <item quantity="other">%d гэрэл зураг ачаалж байна, шилжүүлэх боломжгүй</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d Зүйл шилжүүлсэн</item>
+        <item quantity="other">%d Зүйл шилжүүлсэн</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Гэрэл зургийг амжилттай хуулсан, энэ цомогт видео хуулахыг дэмждэггүй</item>
+        <item quantity="other">Гэрэл зургийг амжилттай хуулсан, энэ цомогт видео хуулахыг дэмждэггүй</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Гэрэл зургууд амжилттай шилжсэн, видеог шилжүүлэх боломжгүй</item>
+        <item quantity="other">Гэрэл зургууд амжилттай шилжсэн, видеог шилжүүлэх боломжгүй</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d цуглуулгыг энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d цуглуулгыг энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d гэрэл зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d гэрэл зураг энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d зүйл энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d зүйл энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d видео энэ төхөөрөмжөөс энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d видео энэ төхөөрөмжөөс энэ төхөөрөмжөөс устгагдах бөгөөд устгаснаас хойш “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Сонгосон зургууд энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+        <item quantity="other">Сонгосон зургууд энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Сонгосон зургууд энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">Сонгосон зургууд энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Сонгосон зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагда. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+        <item quantity="other">Сонгосон зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагда. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Сонгосон зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">Сонгосон зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Сонгосон зүйлийг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгана. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+        <item quantity="other">Сонгосон зүйлийг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгана. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Сонгосон зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">Сонгосон зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">%d зургийн цуглуулга энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d дараалсан зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">%d дараалсан зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d гэрэл зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d гэрэл зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d гэрэл зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжүүдээс устгагдана</item>
+        <item quantity="other">%d гэрэл зураг энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжүүдээс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжүүдээс устгагдана</item>
+        <item quantity="other">%d зүйл энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжүүдээс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+        <item quantity="other">%d видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдаж, устгасны дараа “Саяхан устгасан” хэсэгт 30 хоног хадгалагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">%d видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Сонгосон видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+        <item quantity="other">Сонгосон видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана. 30 хоногийн дотор “Саяхан устгасан” хэсгээс сэргээнэ үү.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Сонгосон видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+        <item quantity="other">Сонгосон видео энэ төхөөрөмж, үүлэн сан болон бусад синхрончлогдсон төхөөрөмжөөс устгагдана</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">%d гэрэл зураг сэргээх үү?</item>
+        <item quantity="other">%d гэрэл зураг сэргээх үү?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">%d зүйлийг сэргээх үү?</item>
+        <item quantity="other">%d зүйлийг сэргээх үү?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">%d видео сэргээх үү?</item>
+        <item quantity="other">%d видео сэргээх үү?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d зүйлийг сэргээх</item>
+        <item quantity="other">%d зүйлийг сэргээх</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d видео хадгалалт амжилтгүй боллоо</item>
+        <item quantity="other">%d видео хадгалалт амжилтгүй боллоо</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d видео хадгалсан</item>
+        <item quantity="other">%d видео хадгалсан</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Шууд ашиглах</item>
+        <item quantity="other">Шууд ашиглах</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Эх зургийг татаж аваад ашиглах</item>
+        <item quantity="other">Эх зургийг татаж аваад ашиглах</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">Сонгосон зургуудад хураангуй зураг байгаа тул эх зургийг татаж аваад ашиглах</item>
+        <item quantity="other">Сонгосон зургуудад хураангуй зураг байгаа тул эх зургийг татаж аваад ашиглах</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Сонгосон зүйлийг урьдчилан харах (%1$d)</item>
+        <item quantity="other">Сонгосон зүйлийг урьдчилан харах (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">1-%1$d зураг сонгох</item>
+        <item quantity="other">1-%1$d зураг сонгох</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Шууд илгээх</item>
+        <item quantity="other">Шууд илгээх</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Эх зургийг татаж авсны дараа илгээх</item>
+        <item quantity="other">Эх зургийг татаж авсны дараа илгээх</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">Сонгосон зургуудад хураангуй зураг орох тул эх зургийг татаж аваад илгээх боломжтой</item>
+        <item quantity="other">Сонгосон зургуудад хураангуй зураг орох тул эх зургийг татаж аваад илгээх боломжтой</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d гэрэл зураг таны болон бүх гишүүдийн “%2$s”-ээс устгагдана</item>
+        <item quantity="other">%1$d гэрэл зураг таны болон бүх гишүүдийн “%2$s”-ээс устгагдана</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d зүйл таны болон бүх гишүүдийн “%2$s”-ээс устгагдана</item>
+        <item quantity="other">%1$d зүйл таны болон бүх гишүүдийн “%2$s”-ээс устгагдана</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d видео нь таны болон бүх гишүүдийн “%2$s”-ээс устгагдана</item>
+        <item quantity="other">%1$d видео нь таны болон бүх гишүүдийн “%2$s”-ээс устгагдана</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d зүйл татагдаагүй, %2$s хэмжээний мобайл дата шаардлагатай, таталтыг үргэлжлүүлэх үү?</item>
+        <item quantity="other">%1$d зүйл татагдаагүй, %2$s хэмжээний мобайл дата шаардлагатай, таталтыг үргэлжлүүлэх үү?</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Нэг удаад хамгийн ихдээ %d зургийг видео болгон хадгалах боломжтой</item>
+        <item quantity="other">Нэг удаад хамгийн ихдээ %d зургийг видео болгон хадгалах боломжтой</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d гэрэл зураг</item>
+        <item quantity="other">%1$d гэрэл зураг</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d видео</item>
+        <item quantity="other">%1$d видео</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d зүйлийг сонгосон</item>
+        <item quantity="other">%1$d зүйлийг сонгосон</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d зүйл</item>
+        <item quantity="other">%1$d зүйл</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">%1$d зүйлийг дуртай зүйлсээс хасах амжилтгүй боллоо, дахин оролдоно уу</item>
+        <item quantity="other">%1$d зүйлийг дуртай зүйлсээс хасах амжилтгүй боллоо, дахин оролдоно уу</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Зураг дээр объект зурж, гоёмсог бүтээл үүсгэнэ, өдөрт %1$d даа үүсгэх боломжтой</item>
+        <item quantity="other">Зураг дээр объект зурж, гоёмсог бүтээл үүсгэнэ, өдөрт %1$d даа үүсгэх боломжтой</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d хөдөлгөөнт наалт хадгалж чадсангүй</item>
+        <item quantity="other">%d хөдөлгөөнт наалт хадгалж чадсангүй</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Нэмэлтээр 1-%1$d зураг сонгох боломжтой</item>
+        <item quantity="other">Нэмэлтээр 1-%1$d зураг сонгох боломжтой</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Дахин 1-%1$d зураг сонгох боломжтой (%2$s)</item>
+        <item quantity="other">Дахин 1-%1$d зураг сонгох боломжтой (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">Хамгийн ихдээ %d амьд зургийг дэмждэг</item>
+        <item quantity="other">Хамгийн ихдээ %d амьд зургийг дэмждэг</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Нэг удаад хамгийн ихдээ %d зүйл чирэх боломжтой</item>
+        <item quantity="other">Нэг удаад хамгийн ихдээ %d зүйл чирэх боломжтой</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d Зүйл нэмэх амжилтгүй боллоо</item>
+        <item quantity="other">%d Зүйл нэмэх амжилтгүй боллоо</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d гэрэл зураг ачааллаж байна, хувийн болгох боломжгүй</item>
+        <item quantity="other">%d гэрэл зураг ачааллаж байна, хувийн болгох боломжгүй</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d цаг</item>
+        <item quantity="other">%d цаг</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d зүйл</item>
+        <item quantity="other">%d зүйл</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d Секунд</item>
+        <item quantity="other">%d Секунд</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d Секунд</item>
+        <item quantity="other">%d Секунд</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">Тодорхой %d зүйлийг видео засварлахад импортлох боломжгүй</item>
+        <item quantity="other">Тодорхой %d зүйлийг видео засварлахад импортлох боломжгүй</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">GIF үүсгэхэд хамгийн ихдээ %1$d гэрэл зураг сонгох боломжтой</item>
+        <item quantity="other">GIF үүсгэхэд хамгийн ихдээ %1$d гэрэл зураг сонгох боломжтой</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Зөвхөн %1$d секундийн доторх живой зургийг GIF болгоно</item>
+        <item quantity="other">Зөвхөн %1$d секундийн доторх живой зургийг GIF болгоно</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">GIF үүсгэхийн тулд дор хаяж %1$d гэрэл зураг сонгоно уу</item>
+        <item quantity="other">GIF үүсгэхийн тулд дор хаяж %1$d гэрэл зураг сонгоно уу</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">GIF үүсгэхэд хамгийн ихдээ %1$d гэрэл зураг дэмжинэ</item>
+        <item quantity="other">GIF үүсгэхэд хамгийн ихдээ %1$d гэрэл зураг дэмжинэ</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">GIF үүсгэх боломжгүй, зөвхөн %1$d гэрэл зураг форматын шаардлагыг хангаж байна</item>
+        <item quantity="other">GIF үүсгэх боломжгүй, зөвхөн %1$d гэрэл зураг форматын шаардлагыг хангаж байна</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">Сонгосон зургийн %1$d нь GIF үүсгэх боломжгүй</item>
+        <item quantity="other">Сонгосон зургийн %1$d нь GIF үүсгэх боломжгүй</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">Сонгосон зургууд дунд %1$d зургийг формат дэмжихгүй байна</item>
+        <item quantity="other">Сонгосон зургууд дунд %1$d зургийг формат дэмжихгүй байна</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d хоног</item>
+        <item quantity="other">%1$d хоног</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d гэрэл зураг</item>
+        <item quantity="other">%1$d гэрэл зураг</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d видео</item>
+        <item quantity="other">%1$d видео</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Хамгийн ихдээ %1$d ширхэг наалт сонгох боломжтой</item>
+        <item quantity="other">Хамгийн ихдээ %1$d ширхэг наалт сонгох боломжтой</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">%1$d зүйл хувийн үүлнээс устгагдана</item>
+        <item quantity="other">%1$d зүйл хувийн үүлнээс устгагдана</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Таталт дууслаа, %1$d зүйл татаж авахад алдаа гарлаа</item>
+        <item quantity="other">Таталт дууслаа, %1$d зүйл татаж авахад алдаа гарлаа</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d зүйл татаж дууслаа</item>
+        <item quantity="other">%1$d зүйл татаж дууслаа</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">%1$d/%2$d зүйл татаж байна…</item>
+        <item quantity="other">%1$d/%2$d зүйл татаж байна…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Сонгосон хэсгийг хэрхэн өөрчлөх вэ?</item>
+        <item quantity="other">Сонгосон хэсгийг хэрхэн өөрчлөх вэ?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Хамгийн ихдээ %d зураасан зураг нэмж болно</item>
+        <item quantity="other">Хамгийн ихдээ %d зураасан зураг нэмж болно</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">Наалтад хамгийн ихдээ %d хөдөлгөөнт зураг нэмж болно. Хэтрүүлсэн хөдөлгөөнт зурагнууд автоматаар статик зураг болж хувирна.</item>
+        <item quantity="other">Наалтад хамгийн ихдээ %d хөдөлгөөнт зураг нэмж болно. Хэтрүүлсэн хөдөлгөөнт зурагнууд автоматаар статик зураг болж хувирна.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">%d секунд хүртэлх бүтээл дэмжинэ, ингэснээр олон нийтийн сүлжээнд хуваалцахад илүү тохиромжтой</item>
+        <item quantity="other">%d секунд хүртэлх бүтээл дэмжинэ, ингэснээр олон нийтийн сүлжээнд хуваалцахад илүү тохиромжтой</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">%d секундэд стикер бүтээх боломжтой</item>
+        <item quantity="other">%d секундэд стикер бүтээх боломжтой</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">%d секунд хүртэлх наалтыг дэмжинэ</item>
+        <item quantity="other">%d секунд хүртэлх наалтыг дэмжинэ</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">%d секундэд бичлэг бүтээх боломжтой</item>
+        <item quantity="other">%d секундэд бичлэг бүтээх боломжтой</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Сонгосон хэсгийг хэрхэн засахаа тайлбарлана уу</item>
+        <item quantity="other">Сонгосон хэсгийг хэрхэн засахаа тайлбарлана уу</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">%1$d секундийн дараа бичлэг зогсох болно</item>
+        <item quantity="other">%1$d секундийн дараа бичлэг зогсох болно</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Хамгийн ихдээ %1$d-г сонгох боломжтой</item>
+        <item quantity="other">Хамгийн ихдээ %1$d-г сонгох боломжтой</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Зөвхөн %1$d секундын дотрох живойг дэмждэг</item>
+        <item quantity="other">Зөвхөн %1$d секундын дотрох живойг дэмждэг</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Материалын хэмжээ их тул ойролцоогоор %1$d минут хүлээнэ</item>
+        <item quantity="other">Материалын хэмжээ их тул ойролцоогоор %1$d минут хүлээнэ</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">%d согосон гэрэл зургуудыг экспортлох</item>
+        <item quantity="other">%d согосон гэрэл зургуудыг экспортлох</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Өндөр нь %1$d мм-ээс багагүй байх ёстой</item>
+        <item quantity="other">Өндөр нь %1$d мм-ээс багагүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Өндөр нь %1$d px-ээс багагүй байх хёстой</item>
+        <item quantity="other">Өндөр нь %1$d px-ээс багагүй байх хёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Өндөр нь %1$d мм-ээс ихгүй байх ёстой</item>
+        <item quantity="other">Өндөр нь %1$d мм-ээс ихгүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Өндөр нь %1$d px-ээс ихгүй байх ёстой</item>
+        <item quantity="other">Өндөр нь %1$d px-ээс ихгүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Хэмжээ нь %1$d KB-ээс багагүй байх ёстой</item>
+        <item quantity="other">Хэмжээ нь %1$d KB-ээс багагүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Хэмжээ нь %1$d KB-ээс ихгүй байх ёстой</item>
+        <item quantity="other">Хэмжээ нь %1$d KB-ээс ихгүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Өргөн нь %1$d мм-ээс багагүй байх ёстой</item>
+        <item quantity="other">Өргөн нь %1$d мм-ээс багагүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Өргөн нь %1$d px-ээс бага байж олохгүй</item>
+        <item quantity="other">Өргөн нь %1$d px-ээс бага байж олохгүй</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Өргөн нь %1$d мм-ээс ихгүй байх ёстой</item>
+        <item quantity="other">Өргөн нь %1$d мм-ээс ихгүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Өргөн нь %1$d px-ээс ихгүй байх ёстой</item>
+        <item quantity="other">Өргөн нь %1$d px-ээс ихгүй байх ёстой</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Зөвхөн сонгосон %d гэрэл зургийг хадгалах</item>
+        <item quantity="other">Зөвхөн сонгосон %d гэрэл зургийг хадгалах</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d зүйлийг устгах</item>
+        <item quantity="other">%d зүйлийг устгах</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d зүйлийг устгах</item>
+        <item quantity="other">%d зүйлийг устгах</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d наалт нэмэхэд алдаа гарлаа</item>
+        <item quantity="other">%1$d наалт нэмэхэд алдаа гарлаа</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d наалт нэмэхэд амжилтгүй боллоо</item>
+        <item quantity="other">%d наалт нэмэхэд амжилтгүй боллоо</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s наалт амжилттай нэмэгдлээ</item>
+        <item quantity="other">%1$s наалт амжилттай нэмэгдлээ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s наалт амжилттай нэмэгдлээ</item>
+        <item quantity="other">%1$s наалт амжилттай нэмэгдлээ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Нэмсэн %1$d Зураасан зураг</item>
+        <item quantity="other">Нэмсэн %1$d Зураасан зураг</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Амьд зураасан наалтад хамгийн ихдээ нэмж болно %1$d Амьд зураасан зураг; хэтрүүлбэл автоматаар статик зураг болж хувирна</item>
+        <item quantity="other">Амьд зураасан наалтад хамгийн ихдээ нэмж болно %1$d Амьд зураасан зураг; хэтрүүлбэл автоматаар статик зураг болж хувирна</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Арилгах функцийг ашиглахын тулд эхлээд арилгах функцийн нэмэлт плагин татаж суулгах шаардлагатай. Файлын хэмжээ %1$s，таамагласан хугацаа %2$d минут.</item>
+        <item quantity="other">Арилгах функцийг ашиглахын тулд эхлээд арилгах функцийн нэмэлт плагин татаж суулгах шаардлагатай. Файлын хэмжээ %1$s，таамагласан хугацаа %2$d минут.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">Сонгосон зургууд дунд %1$d зургийг формат дэмжихгүй байна</item>
+        <item quantity="other">Сонгосон зургууд дунд %1$d зургийг формат дэмжихгүй байна</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">Зураг сонгох (%1$d/%2$d)</item>
+        <item quantity="other">Зураг сонгох (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d зүйлийг сонгосон</item>
+        <item quantity="other">%1$d зүйлийг сонгосон</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d зургийн цуглуулга сонгосон</item>
+        <item quantity="other">%1$d зургийн цуглуулга сонгосон</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d сонгосон</item>
+        <item quantity="other">%1$d сонгосон</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d видео сонгов</item>
+        <item quantity="other">%1$d видео сонгов</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Хамгийн ихдээ %1$d стикер нэмэх боломжтой</item>
+        <item quantity="other">Хамгийн ихдээ %1$d стикер нэмэх боломжтой</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Хамгийн ихдээ %1$d-г сонгох боломжтой</item>
+        <item quantity="other">Хамгийн ихдээ %1$d-г сонгох боломжтой</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">%d дүрийг устгах уу?</item>
+        <item quantity="other">%d дүрийг устгах уу?</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Хамгийн ихдээ %1$d хөдөлгөөнт зураас нэмж болно, илүүдсэн хөдөлгөөнт зураас статик байдлаар харагдана</item>
+        <item quantity="other">Хамгийн ихдээ %1$d хөдөлгөөнт зураас нэмж болно, илүүдсэн хөдөлгөөнт зураас статик байдлаар харагдана</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">%d мөчийг устгах уу?</item>
+        <item quantity="other">%d мөчийг устгах уу?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">Тантай хамт өнгөрүүлсэн %d түүх</item>
+        <item quantity="other">Тантай хамт өнгөрүүлсэн %d түүх</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d мөчийг сонгосон</item>
+        <item quantity="other">%d мөчийг сонгосон</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">%d градусаар эргүүлэх</item>
+        <item quantity="other">%d градусаар эргүүлэх</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1d зүйл нэмэх</item>
+        <item quantity="other">%1d зүйл нэмэх</item>
+    </plurals>
+</resources>

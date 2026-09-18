@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/editor_ic_preview_add_clip" android:alpha="@dimen/button_common_disable_alpha" />
+    </item>
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/editor_ic_preview_add_clip" android:alpha="@dimen/button_common_pressed_alpha" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/editor_ic_preview_add_clip" />
+    </item>
+</selector>

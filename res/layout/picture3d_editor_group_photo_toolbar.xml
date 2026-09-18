@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/editor_group_photo_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.business_lib.template.editor.widget.EditorLinearListView android:id="@id/editor_group_photo_tool_lv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center_horizontal" app:base_itemSpacing="@dimen/picture3d_editor_menu_list_common_spacing" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:listOrientation="horizontal" app:noPaddingFadingEdge="@dimen/base_editor_fading_edge_width" />
+</androidx.constraintlayout.widget.ConstraintLayout>

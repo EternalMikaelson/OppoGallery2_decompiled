@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/appbar_layout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.oplus.gallery.albumsetpage.selection.pictures.ui.SelectionSegmentToolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/selection_panel_toolbar_height" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/olive_sticker_segment_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appbar_layout" />
+    <com.coui.appcompat.viewpager.COUIViewPager2 android:orientation="horizontal" android:id="@id/coui_viewpager2" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/olive_sticker_segment_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

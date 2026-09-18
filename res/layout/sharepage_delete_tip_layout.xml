@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/share_delete_tip_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.checkbox.COUICheckBox android:id="@id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/main_resolver_share_tip_dop_height" android:paddingStart="0.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/gTextAppearanceHeadline6" android:textSize="@dimen/main_resolver_share_tip_text_size" android:textColor="@color/main_share_delete_tip_color" android:gravity="center_vertical" android:id="@id/tv_delete_tip" android:layout_width="wrap_content" android:layout_height="@dimen/main_resolver_share_tip_dop_height" android:text="@string/share_page_delete_tip" android:layout_marginStart="@dimen/main_resolver_share_tip_margin_start" app:layout_constraintStart_toEndOf="@id/checkbox" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

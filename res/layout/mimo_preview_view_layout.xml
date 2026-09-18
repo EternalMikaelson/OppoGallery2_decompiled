@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_111111" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/live_window" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <com.oplus.gallery.videoeditorpage.widget.CutRectView android:id="@id/cut_rect_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/match_tip_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.oplus.gallery.videoeditorpage.widget.TemplateLoadingAniView android:id="@id/loading_view" android:layout_width="@dimen/coui_spinner_loading_anim_width" android:layout_height="@dimen/coui_spinner_loading_anim_height" android:layout_marginTop="@dimen/coui_spinner_margin_top" android:layout_marginBottom="@dimen/coui_spinner_margin_bottom" app:anim_autoPlay="true" app:anim_fileName="?couiRotatingSpinnerJsonName" app:anim_loop="true" app:anim_repeatMode="restart" />
+        <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/match_progress_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_2" android:text="@string/videoeditor_memories_dialog_loading" android:fontFamily="@string/videoeditor_font_family_oppo_sans_4.0_sc" android:textDirection="locale" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error_tip_layout" android:background="@color/color_F3000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_template_error" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/error_tip_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="@string/ai_videoeditor_load_fail" android:fontFamily="@string/videoeditor_font_family_oppo_sans_4.0_sc" />
+        <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textAppearance="@style/gTextAppearanceHeadline6" android:textSize="@dimen/dp_14" android:textColor="@color/Blue40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/retry_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:text="@string/common_retry" android:forceDarkAllowed="false" />
+    </LinearLayout>
+</RelativeLayout>

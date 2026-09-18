@@ -1,0 +1,485 @@
+.class public final Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;
+.super Ljava/lang/Object;
+.source "PaintView.kt"
+
+# interfaces
+.implements Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/oplusos/vfxsdk/doodleengine/PaintView;->doInitialize(Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00009\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u0007\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0000*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J0\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u00052\u0006\u0010\t\u001a\u00020\u0005H\u0016J\u0010\u0010\n\u001a\u00020\u00032\u0006\u0010\t\u001a\u00020\u0005H\u0016J\u0010\u0010\u000b\u001a\u00020\u00032\u0006\u0010\u000c\u001a\u00020\rH\u0016J\u0008\u0010\u000e\u001a\u00020\u0003H\u0016J<\u0010\u000f\u001a\u00020\u00032\u0006\u0010\u000c\u001a\u00020\r2\u0008\u0010\u0010\u001a\u0004\u0018\u00010\r2\u0006\u0010\t\u001a\u00020\u00112\u0018\u0010\u0012\u001a\u0014\u0012\u0004\u0012\u00020\u0014\u0012\u0004\u0012\u00020\u0014\u0012\u0004\u0012\u00020\u00030\u0013H\u0016J\u0010\u0010\u0015\u001a\u00020\u00032\u0006\u0010\u000c\u001a\u00020\rH\u0016J\u0010\u0010\u0016\u001a\u00020\u00032\u0006\u0010\u0017\u001a\u00020\u0018H\u0016\u00a8\u0006\u0019"
+    }
+    d2 = {
+        "com/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1",
+        "Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;",
+        "onLeaped",
+        "",
+        "x",
+        "",
+        "y",
+        "dx",
+        "dy",
+        "scale",
+        "onScaleChanged",
+        "onScrollEnd",
+        "rendRectF",
+        "Landroid/graphics/RectF;",
+        "onScrollRestricted",
+        "onScrollScale",
+        "showRectF",
+        "Lcom/oplusos/vfxsdk/doodleengine/data/ScaleData;",
+        "maxMoveBlock",
+        "Lkotlin/Function2;",
+        "",
+        "onScrollStart",
+        "touchCanvas",
+        "down",
+        "",
+        "paint_intermediate_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+
+# direct methods
+.method public constructor <init>(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static synthetic a(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->onScrollRestricted$lambda$0(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method private static final onScrollRestricted$lambda$0(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)V
+    .locals 2
+
+    .line 1
+    const-string/jumbo v0, "this$0"
+
+    .line 3
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    .line 10
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getScrollRestrictedToastText$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v1, 0x0
+
+    .line 15
+    invoke-static {v0, p0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object p0
+
+    .line 19
+    invoke-virtual {p0}, Landroid/widget/Toast;->show()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onLeaped(FFFFF)V
+    .locals 6
+
+    .line 1
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 2
+    .line 3
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    move v1, p1
+
+    .line 10
+    move v2, p2
+
+    .line 11
+    move v3, p3
+
+    .line 12
+    move v4, p4
+
+    .line 13
+    move v5, p5
+
+    .line 14
+    invoke-interface/range {v0 .. v5}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->onLeaped(FFFFF)V
+
+    .line 15
+    .line 16
+    .line 17
+    :cond_0
+    return-void
+.end method
+
+.method public onScaleChanged(F)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getMStylusImpl$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/StylusInterface;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    invoke-interface {v0, p1}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/StylusInterface;->converseScaleByPageScale(F)F
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p1
+
+    .line 13
+    :cond_0
+    iget-object v0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 14
+    .line 15
+    invoke-static {v0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getMEditBgView$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/view/PaintEditBgView;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    if-eqz v0, :cond_1
+
+    .line 20
+    .line 21
+    const/4 v1, 0x0
+
+    .line 22
+    invoke-virtual {v0, p1, v1, v1}, Lcom/oplusos/vfxsdk/doodleengine/view/PaintEditBgView;->doScale(FFF)V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_1
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 26
+    .line 27
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object p0
+
+    .line 31
+    if-eqz p0, :cond_2
+
+    .line 32
+    .line 33
+    invoke-interface {p0, p1}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->onScaleChanged(F)V
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_2
+    return-void
+.end method
+
+.method public onScrollEnd(Landroid/graphics/RectF;)V
+    .locals 1
+
+    .line 1
+    const-string/jumbo v0, "rendRectF"
+
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 8
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_0
+
+    .line 14
+    invoke-interface {p0, p1}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->onScrollEnd(Landroid/graphics/RectF;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onScrollRestricted()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getScrollRestrictedToastText$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    if-eqz v0, :cond_1
+
+    .line 8
+    .line 9
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    iget-object v0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 17
+    .line 18
+    new-instance v1, Lcom/oplus/aiunit/vision/bht;
+
+    .line 19
+    .line 20
+    invoke-direct {v1, v0}, Lcom/oplus/aiunit/vision/bht;-><init>(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)V
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
+    .line 24
+    .line 25
+    .line 26
+    :cond_1
+    :goto_0
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 27
+    .line 28
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object p0
+
+    .line 32
+    if-eqz p0, :cond_2
+
+    .line 33
+    .line 34
+    invoke-interface {p0}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->onScrollRestricted()V
+
+    .line 35
+    .line 36
+    .line 37
+    :cond_2
+    return-void
+.end method
+
+.method public onScrollScale(Landroid/graphics/RectF;Landroid/graphics/RectF;Lcom/oplusos/vfxsdk/doodleengine/data/ScaleData;Lkotlin/jvm/functions/Function2;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/graphics/RectF;",
+            "Landroid/graphics/RectF;",
+            "Lcom/oplusos/vfxsdk/doodleengine/data/ScaleData;",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Ljava/lang/Integer;",
+            "-",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    const-string/jumbo v0, "rendRectF"
+
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    const-string/jumbo v0, "scale"
+
+    .line 8
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 11
+    const-string/jumbo v0, "maxMoveBlock"
+
+    .line 13
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 16
+    iget-object v0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 18
+    invoke-static {v0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getMEditBgView$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/view/PaintEditBgView;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 24
+    invoke-virtual {p3}, Lcom/oplusos/vfxsdk/doodleengine/data/ScaleData;->getScale()F
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    .line 29
+    invoke-virtual {v0, v1, v2, v2}, Lcom/oplusos/vfxsdk/doodleengine/view/PaintEditBgView;->doScale(FFF)V
+
+    .line 32
+    :cond_0
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 34
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_1
+
+    .line 40
+    invoke-interface {p0, p1, p2, p3, p4}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->onScrollScale(Landroid/graphics/RectF;Landroid/graphics/RectF;Lcom/oplusos/vfxsdk/doodleengine/data/ScaleData;Lkotlin/jvm/functions/Function2;)V
+
+    :cond_1
+    return-void
+.end method
+
+.method public onScrollStart(Landroid/graphics/RectF;)V
+    .locals 1
+
+    .line 1
+    const-string/jumbo v0, "rendRectF"
+
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 8
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_0
+
+    .line 14
+    invoke-interface {p0, p1}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->onScrollStart(Landroid/graphics/RectF;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public touchCanvas(Z)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplusos/vfxsdk/doodleengine/PaintView$doInitialize$1$1;->this$0:Lcom/oplusos/vfxsdk/doodleengine/PaintView;
+
+    .line 2
+    .line 3
+    invoke-static {p0}, Lcom/oplusos/vfxsdk/doodleengine/PaintView;->access$getExternalScrollListener$p(Lcom/oplusos/vfxsdk/doodleengine/PaintView;)Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    if-eqz p0, :cond_0
+
+    .line 8
+    .line 9
+    invoke-interface {p0, p1}, Lcom/oplusos/vfxsdk/doodleengine/stylusapi/ScrollListener;->touchCanvas(Z)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method

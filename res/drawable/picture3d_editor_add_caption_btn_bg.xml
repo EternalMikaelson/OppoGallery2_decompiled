@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#b33e3e3e" />
+    <corners android:radius="@dimen/picture3d_editor_add_caption_btn_corner_radius" />
+    <stroke android:width="@dimen/dp_1" android:color="#1affffff" />
+</shape>

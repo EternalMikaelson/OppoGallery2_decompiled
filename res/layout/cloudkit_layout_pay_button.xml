@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:padding="8.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp">
+            <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CloudDefaultCheckBoxStyle" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/CloudTextBodyXS" android:textColor="@color/cloudkit_color_label_secondary" android:gravity="start" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.heytap.cloudkit.libpay.coui.button.CloudButton android:layout_gravity="center_horizontal" android:id="@id/btn_pay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" style="@style/CloudButtonColorfulLargeStyle" />
+</merge>

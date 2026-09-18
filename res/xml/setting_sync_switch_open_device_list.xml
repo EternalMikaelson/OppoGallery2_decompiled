@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" android:key="key_header" />
+    <com.coui.appcompat.preference.COUIPreference android:layout="@layout/ocloudsyncability_open_devices_loading_layout" android:selectable="false" android:key="key_loading_view" app:isBackgroundAnimationEnabled="false" app:isPreferenceVisible="false" />
+    <com.oplus.gallery.framework.abilities.ocloudsync.opendevices.CloudOpenDevicesEmptyErrorPreference android:selectable="false" android:key="key_empty_error_view" app:isBackgroundAnimationEnabled="false" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/cloud_service_sync_mode_devices" android:key="key_sync_view" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/cloud_service_backup_mode_devices" android:key="key_backup_view" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIBottomPreference android:selectable="false" android:key="key_bottom_view" app:isPreferenceVisible="false" />
+</PreferenceScreen>

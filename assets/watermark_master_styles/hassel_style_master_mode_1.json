@@ -1,0 +1,746 @@
+{
+	"styleId": "hassel_style_master_mode_1",
+	"baseImageSize": 360,
+	"size": {
+		"leftMargin": 10,
+		"topMargin": 79,
+		"rightMargin": 10,
+		"bottomMargin": 79
+	},
+	"imageOffset": {
+		"startX": 10,
+		"startY": 79
+	},
+	"background": {
+		"backgroundType": 0,
+		"color": "#FFFFFF"
+	},
+	"bitmaps": [
+		{
+			"direction": 1,
+			"orientation": 0,
+			"position": {
+				"borderX": 10,
+				"borderY": 79,
+				"gravity": "center"
+			},
+			"width": -1,
+			"height": 79,
+			"elements": [
+				{
+					"id": 1,
+					"visible": true,
+					"editable": true,
+					"content": {
+						"type": "image",
+						"bitmapSourceType": 0,
+						"bitmap": "hasselblad_watermark_dark",
+						"bitmapResName": "hasselblad_watermark_dark",
+						"width": 116,
+						"height": 9.28,
+						"scaleType": 3
+					},
+					"position": {
+						"layoutGravity": "center",
+						"layoutGravityEnable": true
+					}
+				}
+			]
+		},
+		{
+			"direction": 3,
+			"orientation": 0,
+			"position": {
+				"borderX": 10,
+				"borderY": 0,
+				"gravity": "center"
+			},
+			"width": -1,
+			"height": 79,
+			"elements": [
+				{
+					"id": 2,
+					"content": {
+						"type": "elements",
+						"orientation": 1
+					},
+					"position": {
+						"layoutGravity": "center",
+						"layoutGravityEnable": true,
+						"leftMargin": 39,
+						"rightMargin": 39
+					},
+					"elements": [
+						{
+							"id": 3,
+							"visible": true,
+							"editable": false,
+							"content": {
+								"type": "text",
+								"textSource": 0
+							},
+							"position": {
+								"layoutGravity": "topHorCenter",
+								"layoutGravityEnable": true
+							},
+							"paint": {
+								"fontType": 2,
+								"fontName":"AvenirNext.zip",
+								"fontFileType": 0,
+								"ttcIndex": 2,
+								"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+								"md5": "33ca1145fa326691413fa356abb82753",
+								"fontWeight": 600,
+								"textSize": 11,
+								"letterSpacing": 0,
+								"lineHeight": 15,
+								"alpha": 1,
+								"gradientType": -1,
+								"colors": ["#000000"]
+							}
+						},
+						{
+							"id": 4,
+							"visible": true,
+							"editable": false,
+							"extendParamsGroupType": "master_model_param",
+							"content": {
+								"type": "elements",
+								"orientation": 0
+							},
+							"position": {
+								"layoutGravity": "bottomHorCenter",
+								"layoutGravityEnable": true,
+								"topMargin": 5,
+								"bottomMargin": 2.5
+							},
+							"elements": [
+								{
+									"id": 5,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_filter",
+										"content": "Fresh"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									},
+									"paint": {
+										"fontType": 0,
+										"fontName": "OplusSans",
+										"font": "/system/fonts/SysSans-En-Regular.ttf",
+										"fontFileType": 1,
+										"fontWeight": 500,
+										"textSize": 7,
+										"letterSpacing": 0,
+										"lineHeight": 8,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 6,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 7,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_filter_intensity_dark",
+										"bitmapResName": "master_model_filter_intensity_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 8,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_filter_intensity",
+										"content": "80"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"letterSpacing": 0,
+										"lineHeight": 8,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 9,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 5
+									}
+								},
+								{
+									"id": 10,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_soft_light_dark",
+										"bitmapResName": "master_model_soft_light_dark",
+										"width": 10,
+										"height": 10,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 11,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_soft_light",
+										"content": "None"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 1.2
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"letterSpacing": 0,
+										"lineHeight": 8,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 12,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 13,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_tone_dark",
+										"bitmapResName": "master_model_tone_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 14,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_tone",
+										"content": "5"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"lineHeight": 8,
+										"letterSpacing": 0,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 15,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 16,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_filter_saturation_dark",
+										"bitmapResName": "master_model_filter_saturation_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 17,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_filter_saturation",
+										"content": "10"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"lineHeight": 8,
+										"letterSpacing": 0,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 18,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 19,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_color_temperature_dark",
+										"bitmapResName": "master_model_color_temperature_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 20,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_color_temperature",
+										"content": "10"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"lineHeight": 8,
+										"letterSpacing": 0,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 21,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 22,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_cyan_magenta_dark",
+										"bitmapResName": "master_model_cyan_magenta_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 23,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_cyan_magenta",
+										"content": "-10"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"lineHeight": 8,
+										"letterSpacing": 0,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 24,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 25,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_sharpness_dark",
+										"bitmapResName": "master_model_sharpness_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 26,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_sharpness",
+										"content": "0"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"lineHeight": 8,
+										"letterSpacing": 0,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								},
+								{
+									"id": 27,
+									"visible": true,
+									"content": {
+										"type": "shape",
+										"shape": "rectangle",
+										"width": 0.52,
+										"height": 5.3
+									},
+									"paint": {
+										"colors": [
+											"#1F000000"
+										],
+										"lightColor": "#1F000000",
+										"darkColor": "#1FFFFFFF",
+										"gradientType": -1
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 6,
+										"rightMargin": 6
+									}
+								},
+								{
+									"id": 28,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "image",
+										"bitmapSourceType": 0,
+										"bitmap": "master_model_vig_enable_dark",
+										"bitmapResName": "master_model_vig_enable_dark",
+										"width": 7.5,
+										"height": 7.5,
+										"scaleType": 3
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true
+									}
+								},
+								{
+									"id": 29,
+									"visible": true,
+									"editable": false,
+									"content": {
+										"type": "text",
+										"textSource": 6,
+										"extendParamsType": "master_model_param_vig_enable",
+										"content": "On"
+									},
+									"position": {
+										"layoutGravity": "verticalCenter",
+										"layoutGravityEnable": true,
+										"leftMargin": 2.8
+									},
+									"paint": {
+										"fontType": 2,
+										"fontName":"AvenirNext.zip",
+										"fontFileType": 0,
+										"ttcIndex": 5,
+										"font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+										"md5": "33ca1145fa326691413fa356abb82753",
+										"fontWeight": 500,
+										"textSize": 7,
+										"lineHeight": 8,
+										"letterSpacing": 0,
+										"alpha": 0.6,
+										"lightAlpha": 0.6,
+										"gradientType": -1,
+										"colors": ["#000000"]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "constraint",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "id": "mainLayout",
+  "package": "com.oneplus.gallery",
+  "child": [
+    {
+      "type": "image",
+      "id": "image",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "src": "@drawable/widget_image_custom_4x2",
+      "adjustViewBounds": true,
+      "scaleType": "centerCrop"
+    },
+    {
+      "type": "text",
+      "id": "widget_title",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "paddingStart": "@dimen/widget_empty_title_padding",
+      "paddingEnd": "@dimen/widget_empty_title_padding",
+      "layout_marginTop": "@dimen/widget_empty_title_margin",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "text": "@string/widget_custom_empty_select_pictures_title",
+      "textColor": "@color/widget_recommended_title_color",
+      "fontFamily": "sans-serif-semibold",
+      "textSize": "@dimen/widget_empty_title",
+      "gravity": "center_vertical",
+      "textStyle": "bold",
+      "maxLines": "2",
+      "ellipsize": "end"
+    },
+    {
+      "type": "image",
+      "id": "add_icon_image",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "layout_marginEnd": "@dimen/widget_empty_add_icon_margin",
+      "layout_marginBottom": "@dimen/widget_empty_add_icon_margin",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "src": "@drawable/widget_image_add_icon_selected",
+      "adjustViewBounds": true,
+      "scaleType": "centerCrop",
+      "clickable": false
+    }
+  ]
+}

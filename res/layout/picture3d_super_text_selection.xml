@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.basebiz.widget.SuperTextSelectionLayout android:id="@id/super_text_selection_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.oplus.supertext.core.view.ExtractionIconView android:id="@id/super_text_extraction_view" android:layout_width="@dimen/picture3d_super_text_icon_size" android:layout_height="@dimen/picture3d_super_text_icon_size" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/picture3d_super_text_icon_margin" android:layout_alignParentEnd="true" />
+</RelativeLayout>

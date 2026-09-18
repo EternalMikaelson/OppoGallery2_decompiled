@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/picture_root_view" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_super_text_toolbar_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:id="@id/back_ground_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.oplus.gallery.photoeditor.gl.widget.GLRootView android:id="@id/picture_gl_root_view" android:layout_width="match_parent" android:layout_height="match_parent" app:picture3d_glRootViewZOrderOnTop="true" />
+    <include layout="@layout/picture3d_gl_root_cover_layout" />
+    <ViewStub android:id="@id/picture3d_editor_container_view_stub" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

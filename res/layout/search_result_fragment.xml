@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/all_album_fragment" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.searchpage.ui.ColorExpandableListView android:id="@id/list_view_search_results" android:paddingBottom="@dimen/search_result_recommend_padding_bottom" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_expand_group_padding_top" android:drawSelectorOnTop="true" android:divider="@null" />
+    <com.coui.appcompat.emptyview.COUIEmptyStateView android:id="@id/empty_page_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_empty_page_view_margin_top" app:anim_autoPlay="true" app:anim_rawRes="@raw/base_empty_view_no_search_result" app:titleText="@string/search_no_result" />
+</LinearLayout>

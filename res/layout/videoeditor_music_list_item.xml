@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/music_info" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/editor_music_list_item_height" android:layout_centerHorizontal="true" android:paddingStart="@dimen/dp_16" android:paddingEnd="@dimen/dp_16">
+        <RelativeLayout android:id="@id/music_poster_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/music_poster" android:background="@color/videoeditor_img_background" android:layout_width="@dimen/dp_36" android:layout_height="@dimen/dp_36" android:scaleType="fitXY" android:forceDarkAllowed="false" />
+            <View android:id="@id/v_mask" android:background="@drawable/videoeditor_blank60_radius4_bg" android:visibility="gone" android:layout_width="@dimen/dp_36" android:layout_height="@dimen/dp_36" />
+            <ImageView android:id="@id/music_play_status_img" android:visibility="gone" android:layout_width="@dimen/editor_music_list_item_play_status_size" android:layout_height="@dimen/editor_music_list_item_play_status_size" android:src="@drawable/videoeditor_icon_music_play" android:scaleType="centerInside" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/music_download_img" android:visibility="gone" android:layout_width="@dimen/editor_music_list_item_play_status_size" android:layout_height="@dimen/editor_music_list_item_play_status_size" android:src="@drawable/videoeditor_ic_music_download_svg" android:scaleType="centerInside" android:layout_centerInParent="true" />
+            <com.oplus.gallery.foundation.ui.widget.RoundProgressView android:id="@id/music_download_progress" android:visibility="gone" android:layout_width="@dimen/editor_music_list_item_play_status_size" android:layout_height="@dimen/editor_music_list_item_play_status_size" android:layout_centerInParent="true" android:forceDarkAllowed="false" app:roundColor="@color/resource_download_progress_start_color" app:roundProgressColor="@color/resource_download_progress_finish_color" app:roundWidth="@dimen/editor_item_download_progress_round_width" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/music_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/editor_music_list_item_text_margin_start" android:layout_toEndOf="@id/music_poster_layout">
+            <TextView android:textSize="@dimen/videoeditor_music_name_text_size_cloud" android:textColor="@color/editor_music_mute_item_text_color_selector" android:id="@id/music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/editor_music_list_item_name_max_width" android:singleLine="true" />
+            <com.oplus.gallery.videoeditorpage.common.ui.SuitableTextView android:textSize="@dimen/editor_music_list_item_author_text_size" android:textColor="@color/music_list_item_name_text_color" android:id="@id/music_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_music_list_item_name_margin_top" app:sizeMaxLevel="G3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <com.coui.appcompat.button.COUIButton android:textSize="@dimen/font_size_14" android:textColor="@color/Black" android:layout_gravity="center_horizontal" android:id="@id/music_use_btn" android:visibility="gone" android:text="@string/videoeditor_music_picker_use" android:contentDescription="@string/videoeditor_music_picker_use" app:drawableColor="?couiColorContainerTheme" style="@style/Widget.COUI.Button.Small.ButtonNew" />
+            <ImageView android:id="@id/music_more" android:visibility="gone" android:layout_width="@dimen/dp_26" android:layout_height="match_parent" android:src="@drawable/videoeditor_ic_more_action_svg" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dp_12" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_try_music" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/dp_51" android:layout_below="@id/music_info">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/music_wave_touch_height" android:layout_marginTop="@dimen/dp_8">
+            <RelativeLayout android:id="@id/layout_wave" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.oplus.gallery.videoeditorpage.abilities.editengine.meicam.waveform.ui.AudioWaveView android:id="@id/wave_view" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/videoeditor_music_wave_minheight" android:layout_marginStart="@dimen/dp_2" android:layout_marginEnd="@dimen/dp_2" />
+                <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/music_progress_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_progress" android:layout_width="@dimen/videoeditor_song_duration_txt_width" android:layout_height="@dimen/music_wave_height" android:fontFamily="sans-serif-medium" />
+            </RelativeLayout>
+            <View android:id="@id/v_line" android:background="?couiColorContainerTheme" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/music_wave_height" android:layout_marginStart="@dimen/videoeditor_song_duration_txt_width" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

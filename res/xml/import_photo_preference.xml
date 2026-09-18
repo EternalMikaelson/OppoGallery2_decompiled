@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIPreference android:icon="@drawable/main_ic_cloud_service_restore_contacts" android:layout="@layout/preference_view_tip" android:title="@string/main_download_from_cloud_sync" app:couiShowDivider="true" app:isPreferenceVisible="false" app:key="cloud_import_photo" />
+        <com.coui.appcompat.preference.COUIPreference android:icon="@drawable/main_ic_phone_clone" android:layout="@layout/preference_view_tip" android:title="@string/main_phone_clone" android:key="local_import_photo" app:coui_jump_mark="@null" app:isPreferenceVisible="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</PreferenceScreen>

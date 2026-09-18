@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model-property-config>
+    <version>2026051900</version>
+
+    <!-- common：未在名单中的机型，或机型未配置的属性，均回退到此处 -->
+    <model name="common">
+        <!-- 云同步高优先级的同步温度 -->
+        <cloudsync_max_high>45.0</cloudsync_max_high>
+        <!-- 云同步低优先级的同步温度 -->
+        <cloudsync_max_low>43.0</cloudsync_max_low>
+        <!-- 云同步的重试温度 -->
+        <cloudsync_min_retry>41.0</cloudsync_min_retry>
+        <!-- 相册自研区域解码功能开关 -->
+        <gallery_tile_decode_enable_200m>0</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- PMK110：仅覆盖与 common 不同的属性，其余键自动回退到 common -->
+    <model name="PMK110">
+        <cloudsync_max_high>40.0</cloudsync_max_high>
+        <cloudsync_max_low>40.0</cloudsync_max_low>
+        <cloudsync_min_retry>38.0</cloudsync_min_retry>
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- PMM110 -->
+    <model name="PMM110">
+        <cloudsync_max_high>40.0</cloudsync_max_high>
+        <cloudsync_max_low>40.0</cloudsync_max_low>
+        <cloudsync_min_retry>38.0</cloudsync_min_retry>
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- CPH2863 -->
+    <model name="CPH2863">
+        <cloudsync_max_high>40.0</cloudsync_max_high>
+        <cloudsync_max_low>40.0</cloudsync_max_low>
+        <cloudsync_min_retry>38.0</cloudsync_min_retry>
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- CPH2865 -->
+    <model name="CPH2865">
+        <cloudsync_max_high>40.0</cloudsync_max_high>
+        <cloudsync_max_low>40.0</cloudsync_max_low>
+        <cloudsync_min_retry>38.0</cloudsync_min_retry>
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- PMA110 -->
+    <model name="PMA110">
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- CPH2843 -->
+    <model name="CPH2843">
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- PMA120 -->
+    <model name="PMA120">
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- CPH2841 -->
+    <model name="CPH2841">
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+    <!-- PME110 -->
+    <model name="PME110">
+        <gallery_tile_decode_enable_200m>1</gallery_tile_decode_enable_200m>
+    </model>
+
+</model-property-config>

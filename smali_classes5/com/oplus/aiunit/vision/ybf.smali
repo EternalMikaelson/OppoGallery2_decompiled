@@ -1,0 +1,634 @@
+.class public final Lcom/oplus/aiunit/vision/ybf;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "ExportAiVideoTask.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lkotlinx/coroutines/CoroutineScope;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\n"
+    }
+    d2 = {
+        "<anonymous>",
+        "",
+        "Lkotlinx/coroutines/CoroutineScope;"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/DebugMetadata;
+    c = "com.oplus.gallery.videoeditorpage.video.business.output.task.ExportAiVideoTask$compileCompleted$1"
+    f = "ExportAiVideoTask.kt"
+    i = {}
+    l = {}
+    m = "invokeSuspend"
+    n = {}
+    s = {}
+.end annotation
+
+
+# instance fields
+.field final synthetic $isCanceled:Z
+
+.field label:I
+
+.field final synthetic this$0:Lcom/oplus/aiunit/vision/acf;
+
+
+# direct methods
+.method public constructor <init>(Lcom/oplus/aiunit/vision/acf;ZLkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/oplus/aiunit/vision/acf;",
+            "Z",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lcom/oplus/aiunit/vision/ybf;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 2
+    .line 3
+    iput-boolean p2, p0, Lcom/oplus/aiunit/vision/ybf;->$isCanceled:Z
+
+    .line 4
+    .line 5
+    const/4 p1, 0x2
+
+    .line 6
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public static synthetic a(Lcom/oplus/aiunit/vision/acf;)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/oplus/aiunit/vision/ybf;->invokeSuspend$lambda$0(Lcom/oplus/aiunit/vision/acf;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method private static final invokeSuspend$lambda$0(Lcom/oplus/aiunit/vision/acf;)Z
+    .locals 0
+
+    .line 1
+    iget-boolean p0, p0, Lcom/oplus/aiunit/vision/acf;->i:Z
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Lcom/oplus/aiunit/vision/ybf;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 4
+    .line 5
+    iget-boolean p0, p0, Lcom/oplus/aiunit/vision/ybf;->$isCanceled:Z
+
+    .line 6
+    .line 7
+    invoke-direct {p1, v0, p0, p2}, Lcom/oplus/aiunit/vision/ybf;-><init>(Lcom/oplus/aiunit/vision/acf;ZLkotlin/coroutines/Continuation;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-object p1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lkotlinx/coroutines/CoroutineScope;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, Lcom/oplus/aiunit/vision/ybf;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlinx/coroutines/CoroutineScope;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lkotlin/Unit;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lcom/oplus/aiunit/vision/ybf;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/oplus/aiunit/vision/ybf;
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p0, p1}, Lcom/oplus/aiunit/vision/ybf;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 14
+
+    .line 1
+    invoke-static {}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->getCOROUTINE_SUSPENDED()Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    iget v0, p0, Lcom/oplus/aiunit/vision/ybf;->label:I
+
+    .line 5
+    .line 6
+    if-nez v0, :cond_4
+
+    .line 7
+    .line 8
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object p1, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 12
+    .line 13
+    iget-boolean v0, p0, Lcom/oplus/aiunit/vision/ybf;->$isCanceled:Z
+
+    .line 14
+    .line 15
+    invoke-virtual {p1, v0}, Lcom/oplus/aiunit/vision/kcf;->h(Z)Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result p1
+
+    .line 19
+    const/4 v0, 0x0
+
+    .line 20
+    const-string v1, "force stop save"
+
+    .line 21
+    .line 22
+    const/4 v2, 0x5
+
+    .line 23
+    if-eqz p1, :cond_0
+
+    .line 24
+    .line 25
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 26
+    .line 27
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/acf;->h:Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;
+
+    .line 28
+    .line 29
+    new-instance p1, Lcom/oplus/aiunit/vision/nat;
+
+    .line 30
+    .line 31
+    invoke-direct {p1, v2, v1, v0}, Lcom/oplus/aiunit/vision/nat;-><init>(ILjava/lang/String;Ljava/lang/Object;)V
+
+    .line 32
+    .line 33
+    .line 34
+    invoke-virtual {p0, p1}, Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;->b(Lcom/oplus/aiunit/vision/nat;)V
+
+    .line 35
+    .line 36
+    .line 37
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 38
+    .line 39
+    return-object p0
+
+    .line 40
+    :cond_0
+    iget-object p1, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 41
+    .line 42
+    iget-object p1, p1, Lcom/oplus/aiunit/vision/kcf;->a:Lcom/oplus/aiunit/vision/ied;
+
+    .line 43
+    .line 44
+    invoke-virtual {p1}, Lcom/oplus/aiunit/vision/ied;->A()Lcom/oplus/aiunit/vision/qkk;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p1
+
+    .line 48
+    check-cast p1, Lcom/oplus/aiunit/vision/dvn;
+
+    .line 49
+    .line 50
+    iget-object p1, p1, Lcom/oplus/aiunit/vision/dvn;->l:Ljava/util/ArrayList;
+
+    .line 51
+    .line 52
+    iget-object v3, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 53
+    .line 54
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 55
+    .line 56
+    .line 57
+    invoke-static {p1}, Lcom/oplus/aiunit/vision/kcf;->b(Ljava/util/List;)Lkotlin/Pair;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object p1
+
+    .line 61
+    invoke-virtual {p1}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v3
+
+    .line 65
+    move-object v5, v3
+
+    .line 66
+    check-cast v5, Landroid/net/Uri;
+
+    .line 67
+    .line 68
+    invoke-virtual {p1}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object p1
+
+    .line 72
+    check-cast p1, Ljava/lang/Number;
+
+    .line 73
+    .line 74
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+
+    .line 75
+    .line 76
+    .line 77
+    move-result v8
+
+    .line 78
+    sget-object p1, Lcom/oplus/aiunit/vision/dga0;->e:Lcom/oplus/aiunit/vision/dga0$a;
+
+    .line 79
+    .line 80
+    invoke-virtual {p1}, Lcom/oplus/aiunit/vision/dga0$a;->a()Lcom/oplus/aiunit/vision/dga0;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object p1
+
+    .line 84
+    invoke-virtual {p1}, Lcom/oplus/aiunit/vision/dga0;->c()I
+
+    .line 85
+    .line 86
+    .line 87
+    move-result p1
+
+    .line 88
+    new-instance v3, Lcom/oplus/aiunit/vision/ti10;
+
+    .line 89
+    .line 90
+    new-instance v4, Lcom/oplus/aiunit/vision/ui10;
+
+    .line 91
+    .line 92
+    sget-object v6, Lcom/oplus/gallery/videoeditorpage/video/business/output/task/SaveType;->VIDEO:Lcom/oplus/gallery/videoeditorpage/video/business/output/task/SaveType;
+
+    .line 93
+    .line 94
+    new-instance v7, Lcom/oplus/aiunit/vision/l6g;
+
+    .line 95
+    .line 96
+    iget-object v9, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 97
+    .line 98
+    iget-object v9, v9, Lcom/oplus/aiunit/vision/kcf;->d:Ljava/lang/String;
+
+    .line 99
+    .line 100
+    invoke-direct {v7, v9}, Lcom/oplus/aiunit/vision/l6g;-><init>(Ljava/lang/String;)V
+
+    .line 101
+    .line 102
+    .line 103
+    invoke-static {p1}, Lcom/oplus/aiunit/vision/qqa0;->a(I)Lkotlin/Pair;
+
+    .line 104
+    .line 105
+    .line 106
+    move-result-object p1
+
+    .line 107
+    invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+
+    .line 108
+    .line 109
+    .line 110
+    move-result-object p1
+
+    .line 111
+    move-object v9, p1
+
+    .line 112
+    check-cast v9, Ljava/lang/Integer;
+
+    .line 113
+    .line 114
+    sget-object p1, Lcom/oplus/aiunit/vision/e1y;->a:Lcom/oplus/aiunit/vision/e1y;
+
+    .line 115
+    .line 116
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 117
+    .line 118
+    .line 119
+    invoke-static {}, Lcom/oplus/aiunit/vision/e1y;->b()Ljava/util/ArrayList;
+
+    .line 120
+    .line 121
+    .line 122
+    move-result-object p1
+
+    .line 123
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+
+    .line 124
+    .line 125
+    .line 126
+    move-result p1
+
+    .line 127
+    const/4 v13, 0x0
+
+    .line 128
+    const/4 v10, 0x1
+
+    .line 129
+    if-le p1, v10, :cond_1
+
+    .line 130
+    .line 131
+    goto :goto_0
+
+    .line 132
+    :cond_1
+    move v10, v13
+
+    .line 133
+    :goto_0
+    iget-object p1, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 134
+    .line 135
+    iget-object p1, p1, Lcom/oplus/aiunit/vision/kcf;->b:Lcom/oplus/aiunit/vision/ll10;
+
+    .line 136
+    .line 137
+    iget-wide v11, p1, Lcom/oplus/aiunit/vision/ll10;->f:J
+
+    .line 138
+    .line 139
+    invoke-direct/range {v4 .. v12}, Lcom/oplus/aiunit/vision/ui10;-><init>(Landroid/net/Uri;Lcom/oplus/gallery/videoeditorpage/video/business/output/task/SaveType;Lcom/oplus/aiunit/vision/l6g;ILjava/lang/Integer;ZJ)V
+
+    .line 140
+    .line 141
+    .line 142
+    iget-object p1, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 143
+    .line 144
+    new-instance v6, Lcom/oplus/aiunit/vision/xbf;
+
+    .line 145
+    .line 146
+    invoke-direct {v6, p1}, Lcom/oplus/aiunit/vision/xbf;-><init>(Lcom/oplus/aiunit/vision/acf;)V
+
+    .line 147
+    .line 148
+    .line 149
+    invoke-direct {v3, v4, v6}, Lcom/oplus/aiunit/vision/ti10;-><init>(Lcom/oplus/aiunit/vision/ui10;Lkotlin/jvm/functions/Function0;)V
+
+    .line 150
+    .line 151
+    .line 152
+    invoke-virtual {v3}, Lcom/oplus/aiunit/vision/ti10;->a()Lcom/oplus/aiunit/vision/nat;
+
+    .line 153
+    .line 154
+    .line 155
+    move-result-object p1
+
+    .line 156
+    invoke-static {v5}, Lcom/oplus/aiunit/vision/og10;->c(Landroid/net/Uri;)Z
+
+    .line 157
+    .line 158
+    .line 159
+    move-result v3
+
+    .line 160
+    if-eqz v3, :cond_2
+
+    .line 161
+    .line 162
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 163
+    .line 164
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/acf;->h:Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;
+
+    .line 165
+    .line 166
+    invoke-virtual {p0, p1}, Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;->b(Lcom/oplus/aiunit/vision/nat;)V
+
+    .line 167
+    .line 168
+    .line 169
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 170
+    .line 171
+    return-object p0
+
+    .line 172
+    :cond_2
+    iget-object v3, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 173
+    .line 174
+    invoke-virtual {v3, v13}, Lcom/oplus/aiunit/vision/kcf;->h(Z)Z
+
+    .line 175
+    .line 176
+    .line 177
+    move-result v3
+
+    .line 178
+    if-eqz v3, :cond_3
+
+    .line 179
+    .line 180
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 181
+    .line 182
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/acf;->h:Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;
+
+    .line 183
+    .line 184
+    new-instance p1, Lcom/oplus/aiunit/vision/nat;
+
+    .line 185
+    .line 186
+    invoke-direct {p1, v2, v1, v0}, Lcom/oplus/aiunit/vision/nat;-><init>(ILjava/lang/String;Ljava/lang/Object;)V
+
+    .line 187
+    .line 188
+    .line 189
+    invoke-virtual {p0, p1}, Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;->b(Lcom/oplus/aiunit/vision/nat;)V
+
+    .line 190
+    .line 191
+    .line 192
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 193
+    .line 194
+    return-object p0
+
+    .line 195
+    :cond_3
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ybf;->this$0:Lcom/oplus/aiunit/vision/acf;
+
+    .line 196
+    .line 197
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/acf;->h:Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;
+
+    .line 198
+    .line 199
+    invoke-virtual {p0, p1}, Lcom/oplus/gallery/videoeditorpage/video/section/TemplateSaveSection$b;->b(Lcom/oplus/aiunit/vision/nat;)V
+
+    .line 200
+    .line 201
+    .line 202
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 203
+    .line 204
+    return-object p0
+
+    .line 205
+    :cond_4
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 206
+    .line 207
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 208
+    .line 209
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 210
+    .line 211
+    .line 212
+    throw p0
+.end method

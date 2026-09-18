@@ -1,0 +1,1574 @@
+.class public Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;
+.super Lcom/oplus/aiunit/vision/a9o;
+.source "TimelineAlbum.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/oplus/gallery/business_lib/model/data/base/timeline/b$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final u0:Lcom/oplus/aiunit/vision/plt;
+
+.field public static final v0:[Landroid/net/Uri;
+
+
+# instance fields
+.field public final U:Ljava/util/concurrent/ConcurrentHashMap;
+
+.field public final W:I
+
+.field public X:Z
+
+.field public Y:Z
+
+.field public Z:Ljava/lang/String;
+
+.field public b0:Ljava/lang/String;
+
+.field public k0:Ljava/util/Locale;
+
+.field public volatile t0:Lcom/oplus/gallery/business_lib/model/data/base/timeline/b$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/oplus/aiunit/vision/bj40;->P0:Lcom/oplus/aiunit/vision/plt;
+
+    .line 2
+    .line 3
+    const-string v1, "PersonalFilter"
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, v1}, Lcom/oplus/aiunit/vision/plt;->e(Ljava/lang/String;)Lcom/oplus/aiunit/vision/plt;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    sput-object v0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->u0:Lcom/oplus/aiunit/vision/plt;
+
+    .line 10
+    .line 11
+    sget-object v0, Lcom/oplus/aiunit/vision/l6i;->b:Landroid/net/Uri;
+
+    .line 12
+    .line 13
+    sget-object v1, Lcom/oplus/aiunit/vision/v3b;->c:Landroid/net/Uri;
+
+    .line 14
+    .line 15
+    const-string v2, "content://com.oplus.gallery.database.provider.gallery/album_hide_on_time_line_page"
+
+    .line 16
+    .line 17
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v2
+
+    .line 21
+    filled-new-array {v0, v1, v2}, [Landroid/net/Uri;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+
+    .line 25
+    sput-object v0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->v0:[Landroid/net/Uri;
+
+    .line 26
+    .line 27
+    return-void
+.end method
+
+.method public constructor <init>(ILcom/coloros/gallery3d/app/App;Lcom/oplus/aiunit/vision/plt;)V
+    .locals 0
+
+    .line 6
+    invoke-static {p3, p1}, Lcom/oplus/aiunit/vision/bl90;->d(Lcom/oplus/aiunit/vision/plt;I)I
+
+    move-result p1
+
+    invoke-direct {p0, p2, p1}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;-><init>(Lcom/coloros/gallery3d/app/App;I)V
+
+    .line 7
+    invoke-virtual {p3, p0}, Lcom/oplus/aiunit/vision/plt;->j(Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;)V
+
+    .line 8
+    iput-object p3, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->b:Lcom/oplus/aiunit/vision/plt;
+
+    .line 9
+    sget-object p1, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->v0:[Landroid/net/Uri;
+
+    invoke-virtual {p0, p1}, Lcom/oplus/aiunit/vision/ygo;->c0([Landroid/net/Uri;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/coloros/gallery3d/app/App;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/oplus/aiunit/vision/a9o;-><init>(Landroid/content/Context;)V
+
+    .line 2
+    new-instance p1, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-direct {p1}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+
+    iput-object p1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->U:Ljava/util/concurrent/ConcurrentHashMap;
+
+    const/4 p1, 0x1
+
+    .line 3
+    iput-boolean p1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->X:Z
+
+    .line 4
+    iput-boolean p1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Y:Z
+
+    .line 5
+    iput p2, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->W:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A(Lcom/oplus/aiunit/vision/plt;I)I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->U:Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    check-cast v1, Ljava/lang/Integer;
+
+    .line 8
+    .line 9
+    if-eqz v1, :cond_0
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p0
+
+    .line 15
+    return p0
+
+    .line 16
+    :cond_0
+    invoke-super {p0, p1, p2}, Lcom/oplus/aiunit/vision/ygo;->A(Lcom/oplus/aiunit/vision/plt;I)I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result p0
+
+    .line 20
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p2
+
+    .line 24
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    .line 27
+    return p0
+.end method
+
+.method public A0()V
+    .locals 0
+
+    .line 1
+    invoke-super {p0}, Lcom/oplus/aiunit/vision/a9o;->A0()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object p0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->U:Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public B0()V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->b0:Ljava/lang/String;
+
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public D0()[I
+    .locals 5
+
+    .line 1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    .line 5
+    new-instance v2, Lcom/oplus/aiunit/vision/nxz$a;
+
+    .line 7
+    invoke-direct {v2}, Lcom/oplus/aiunit/vision/nxz$a;-><init>()V
+
+    const/4 v3, 0x0
+
+    .line 11
+    iput v3, v2, Lcom/oplus/aiunit/vision/n5b$a;->a:I
+
+    .line 13
+    iput v3, v2, Lcom/oplus/aiunit/vision/n5b$a;->b:I
+
+    .line 15
+    invoke-static {}, Lcom/oplus/aiunit/vision/w6b;->j()[Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 19
+    iput-object v3, v2, Lcom/oplus/aiunit/vision/nxz$a;->f:[Ljava/lang/String;
+
+    .line 21
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->T()Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 25
+    iput-object p0, v2, Lcom/oplus/aiunit/vision/nxz$a;->g:Ljava/lang/String;
+
+    .line 27
+    const-string/jumbo p0, "media_type"
+
+    .line 30
+    iput-object p0, v2, Lcom/oplus/aiunit/vision/nxz$a;->i:Ljava/lang/String;
+
+    .line 32
+    new-instance p0, Lcom/oplus/aiunit/vision/bka;
+
+    .line 34
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 37
+    iput-object p0, v2, Lcom/oplus/aiunit/vision/nxz$a;->m:Lcom/oplus/aiunit/vision/sek;
+
+    .line 39
+    new-instance p0, Lcom/oplus/aiunit/vision/nxz;
+
+    .line 41
+    invoke-direct {p0, v2}, Lcom/oplus/aiunit/vision/nxz;-><init>(Lcom/oplus/aiunit/vision/nxz$a;)V
+
+    .line 44
+    sget-object v2, Lcom/oplus/aiunit/vision/b2b;->b:Lcom/oplus/aiunit/vision/b2b;
+
+    .line 46
+    invoke-virtual {v2, p0}, Lcom/oplus/aiunit/vision/b2b;->d(Lcom/oplus/aiunit/vision/nxz;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    .line 50
+    check-cast p0, [I
+
+    .line 52
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 54
+    const-string/jumbo v3, "querySubMediaItemTypeCount, time: "
+
+    .line 57
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 60
+    sget-object v3, Lcom/oplus/aiunit/vision/w9h;->a:Lcom/oplus/aiunit/vision/w9h;
+
+    .line 62
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v3
+
+    sub-long/2addr v3, v0
+
+    .line 67
+    invoke-virtual {v2, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 70
+    const-string v0, ", counts: "
+
+    .line 72
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 75
+    invoke-static {p0}, Ljava/util/Arrays;->toString([I)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 79
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 82
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    .line 87
+    const-string v2, "TIMELINE.TimelineAlbum"
+
+    .line 89
+    invoke-static {v2, v0, v1}, Lcom/oplus/aiunit/vision/w9h;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return-object p0
+.end method
+
+.method public final F()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->H()Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    iput-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    :cond_0
+    iget-object p0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    return-object p0
+.end method
+
+.method public final H()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->X:Z
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    const/4 p0, 0x0
+
+    .line 6
+    return-object p0
+
+    .line 7
+    :cond_0
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->c:Landroid/content/Context;
+
+    .line 8
+    .line 9
+    invoke-static {v0}, Lcom/oplus/aiunit/vision/s1n;->a(Landroid/content/Context;)Ljava/util/Locale;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    iget-object v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->k0:Ljava/util/Locale;
+
+    .line 14
+    .line 15
+    if-ne v1, v0, :cond_1
+
+    .line 16
+    .line 17
+    iget-boolean v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->X:Z
+
+    .line 18
+    .line 19
+    if-eqz v1, :cond_2
+
+    .line 20
+    .line 21
+    :cond_1
+    iput-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->k0:Ljava/util/Locale;
+
+    .line 22
+    .line 23
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->L0()V
+
+    .line 24
+    .line 25
+    .line 26
+    :cond_2
+    iget-object p0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 27
+    .line 28
+    return-object p0
+.end method
+
+.method public I()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, " CASE  WHEN (datetaken IS NOT NULL AND datetaken > 0 ) THEN datetaken ELSE date_modified * 1000 END DESC, local_media._id DESC"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final L0()V
+    .locals 5
+
+    .line 1
+    invoke-static {}, Lcom/oplus/aiunit/vision/qa6;->b()Ljava/util/List;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v1
+
+    .line 9
+    const/4 v2, 0x0
+
+    .line 10
+    if-nez v1, :cond_1
+
+    .line 11
+    .line 12
+    invoke-static {}, Lcom/oplus/aiunit/vision/jqg;->v()Lcom/oplus/aiunit/vision/jqg;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v1
+
+    .line 16
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v3
+
+    .line 20
+    check-cast v3, Ljava/lang/Integer;
+
+    .line 21
+    .line 22
+    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v3
+
+    .line 26
+    int-to-long v3, v3
+
+    .line 27
+    invoke-virtual {v1, v3, v4}, Lcom/oplus/aiunit/vision/jqg;->w(J)Ljava/lang/String;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v1
+
+    .line 31
+    iput-object v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 32
+    .line 33
+    invoke-static {}, Lcom/oplus/aiunit/vision/jqg;->v()Lcom/oplus/aiunit/vision/jqg;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v1
+
+    .line 37
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v3
+
+    .line 41
+    check-cast v3, Ljava/lang/Integer;
+
+    .line 42
+    .line 43
+    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
+
+    .line 44
+    .line 45
+    .line 46
+    move-result v3
+
+    .line 47
+    int-to-long v3, v3
+
+    .line 48
+    invoke-virtual {v1, v3, v4}, Lcom/oplus/aiunit/vision/jqg;->u(J)Ljava/lang/String;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v1
+
+    .line 52
+    iput-object v1, p0, Lcom/oplus/aiunit/vision/ygo;->k:Ljava/lang/String;
+
+    .line 53
+    .line 54
+    invoke-static {}, Lcom/oplus/aiunit/vision/jqg;->v()Lcom/oplus/aiunit/vision/jqg;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v1
+
+    .line 58
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object v0
+
+    .line 62
+    check-cast v0, Ljava/lang/Integer;
+
+    .line 63
+    .line 64
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+
+    .line 65
+    .line 66
+    .line 67
+    move-result v0
+
+    .line 68
+    int-to-long v3, v0
+
+    .line 69
+    iget-object v0, v1, Lcom/oplus/aiunit/vision/jqg;->k:Ljava/util/Hashtable;
+
+    .line 70
+    .line 71
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 72
+    .line 73
+    .line 74
+    move-result-object v1
+
+    .line 75
+    invoke-virtual {v0, v1}, Ljava/util/Hashtable;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 76
+    .line 77
+    .line 78
+    move-result-object v0
+
+    .line 79
+    check-cast v0, Lcom/oplus/aiunit/vision/jqg$a;
+
+    .line 80
+    .line 81
+    if-eqz v0, :cond_0
+
+    .line 82
+    .line 83
+    iget-object v1, v0, Lcom/oplus/aiunit/vision/jqg$a;->c:Ljava/lang/String;
+
+    .line 84
+    .line 85
+    iget-object v3, v0, Lcom/oplus/aiunit/vision/jqg$a;->d:Ljava/lang/String;
+
+    .line 86
+    .line 87
+    iget-object v0, v0, Lcom/oplus/aiunit/vision/jqg$a;->b:Ljava/lang/String;
+
+    .line 88
+    .line 89
+    invoke-static {v1, v3, v0}, Lcom/oplus/aiunit/vision/vp2;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 90
+    .line 91
+    .line 92
+    move-result-object v0
+
+    .line 93
+    goto :goto_0
+
+    .line 94
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 95
+    :goto_0
+    iput-object v0, p0, Lcom/oplus/aiunit/vision/ygo;->l:Ljava/lang/String;
+
+    .line 96
+    .line 97
+    :cond_1
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 98
+    .line 99
+    const/4 v1, 0x1
+
+    .line 100
+    if-eqz v0, :cond_2
+
+    .line 101
+    .line 102
+    move v0, v1
+
+    .line 103
+    goto :goto_1
+
+    .line 104
+    :cond_2
+    move v0, v2
+
+    .line 105
+    :goto_1
+    iput-boolean v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->X:Z
+
+    .line 106
+    .line 107
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/ygo;->k:Ljava/lang/String;
+
+    .line 108
+    .line 109
+    if-eqz v0, :cond_3
+
+    .line 110
+    .line 111
+    move v2, v1
+
+    .line 112
+    :cond_3
+    iput-boolean v2, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Y:Z
+
+    .line 113
+    .line 114
+    return-void
+.end method
+
+.method public declared-synchronized M(Landroid/os/Bundle;)Landroid/os/Bundle;
+    .locals 0
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    invoke-super {p0, p1}, Lcom/oplus/aiunit/vision/a9o;->M(Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    .line 3
+    .line 4
+    .line 5
+    move-result-object p1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 6
+    monitor-exit p0
+
+    .line 7
+    return-object p1
+
+    .line 8
+    :catchall_0
+    move-exception p1
+
+    .line 9
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 10
+    throw p1
+.end method
+
+.method public O(IILandroid/os/CancellationSignal;)Ljava/util/List;
+    .locals 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(II",
+            "Landroid/os/CancellationSignal;",
+            ")",
+            "Ljava/util/List<",
+            "Lcom/oplus/aiunit/vision/keo;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "TIMELINE.TimelineAlbum"
+
+    .line 2
+    .line 3
+    const-string/jumbo v1, "getSubMediaItem,  cost time:"
+
+    .line 4
+    .line 5
+    .line 6
+    const-string/jumbo v2, "getSubMediaItem needRevert, start:"
+
+    .line 7
+    .line 8
+    .line 9
+    :try_start_0
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->I()Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v3
+
+    .line 13
+    iget v4, p0, Lcom/oplus/aiunit/vision/a9o;->t:I
+
+    .line 14
+    .line 15
+    const/16 v5, 0x7d0
+
+    .line 16
+    .line 17
+    const/4 v6, 0x0
+
+    .line 18
+    if-lt v4, v5, :cond_0
+
+    .line 19
+    .line 20
+    div-int/lit8 v5, v4, 0x2
+
+    .line 21
+    .line 22
+    if-le p1, v5, :cond_0
+
+    .line 23
+    .line 24
+    const/4 v5, 0x1
+
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :catch_0
+    move-exception p0
+
+    .line 27
+    goto/16 :goto_1
+
+    .line 28
+    .line 29
+    :cond_0
+    move v5, v6
+
+    .line 30
+    :goto_0
+    const/4 v7, 0x0
+
+    .line 31
+    if-eqz v5, :cond_1
+
+    .line 32
+    .line 33
+    sub-int/2addr v4, p1
+
+    .line 34
+    invoke-static {v4, p2}, Ljava/lang/Math;->min(II)I
+
+    .line 35
+    .line 36
+    .line 37
+    move-result p2
+
+    .line 38
+    iget v3, p0, Lcom/oplus/aiunit/vision/a9o;->t:I
+
+    .line 39
+    .line 40
+    sub-int/2addr v3, p1
+
+    .line 41
+    sub-int/2addr v3, p2
+
+    .line 42
+    invoke-static {v6, v3}, Ljava/lang/Math;->max(II)I
+
+    .line 43
+    .line 44
+    .line 45
+    move-result p1
+
+    .line 46
+    const-string v3, " CASE  WHEN (datetaken IS NOT NULL AND datetaken > 0 ) THEN datetaken ELSE date_modified * 1000 END ASC, local_media._id ASC"
+
+    .line 47
+    .line 48
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    .line 49
+    .line 50
+    invoke-direct {v4, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-virtual {v4, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 54
+    .line 55
+    .line 56
+    const-string v2, ", count:"
+
+    .line 57
+    .line 58
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-virtual {v4, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 62
+    .line 63
+    .line 64
+    const-string v2, ", totalCount:"
+
+    .line 65
+    .line 66
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 67
+    .line 68
+    .line 69
+    iget v2, p0, Lcom/oplus/aiunit/vision/a9o;->t:I
+
+    .line 70
+    .line 71
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object v2
+
+    .line 78
+    invoke-static {v0, v2, v7}, Lcom/oplus/aiunit/vision/w9h;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 79
+    .line 80
+    .line 81
+    :cond_1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 82
+    .line 83
+    .line 84
+    move-result-wide v8
+
+    .line 85
+    new-instance v2, Lcom/oplus/aiunit/vision/nxz$a;
+
+    .line 86
+    .line 87
+    invoke-direct {v2}, Lcom/oplus/aiunit/vision/nxz$a;-><init>()V
+
+    .line 88
+    .line 89
+    .line 90
+    iput v6, v2, Lcom/oplus/aiunit/vision/n5b$a;->a:I
+
+    .line 91
+    .line 92
+    iput v6, v2, Lcom/oplus/aiunit/vision/n5b$a;->b:I
+
+    .line 93
+    .line 94
+    invoke-static {}, Lcom/oplus/aiunit/vision/fzm;->i0()[Ljava/lang/String;
+
+    .line 95
+    .line 96
+    .line 97
+    move-result-object v4
+
+    .line 98
+    iput-object v4, v2, Lcom/oplus/aiunit/vision/nxz$a;->f:[Ljava/lang/String;
+
+    .line 99
+    .line 100
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->T()Ljava/lang/String;
+
+    .line 101
+    .line 102
+    .line 103
+    move-result-object p0
+
+    .line 104
+    iput-object p0, v2, Lcom/oplus/aiunit/vision/nxz$a;->g:Ljava/lang/String;
+
+    .line 105
+    .line 106
+    iput-object v3, v2, Lcom/oplus/aiunit/vision/nxz$a;->k:Ljava/lang/String;
+
+    .line 107
+    .line 108
+    new-instance p0, Ljava/lang/StringBuilder;
+
+    .line 109
+    .line 110
+    invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 111
+    .line 112
+    .line 113
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 114
+    .line 115
+    .line 116
+    const-string v3, ","
+
+    .line 117
+    .line 118
+    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 119
+    .line 120
+    .line 121
+    invoke-virtual {p0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 122
+    .line 123
+    .line 124
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 125
+    .line 126
+    .line 127
+    move-result-object p0
+
+    .line 128
+    iput-object p0, v2, Lcom/oplus/aiunit/vision/nxz$a;->l:Ljava/lang/String;
+
+    .line 129
+    .line 130
+    new-instance p0, Lcom/oplus/aiunit/vision/teo;
+
+    .line 131
+    .line 132
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 133
+    .line 134
+    .line 135
+    iput-object p0, v2, Lcom/oplus/aiunit/vision/nxz$a;->m:Lcom/oplus/aiunit/vision/sek;
+
+    .line 136
+    .line 137
+    iput-object p3, v2, Lcom/oplus/aiunit/vision/nxz$a;->n:Landroid/os/CancellationSignal;
+
+    .line 138
+    .line 139
+    new-instance p0, Lcom/oplus/aiunit/vision/nxz;
+
+    .line 140
+    .line 141
+    invoke-direct {p0, v2}, Lcom/oplus/aiunit/vision/nxz;-><init>(Lcom/oplus/aiunit/vision/nxz$a;)V
+
+    .line 142
+    .line 143
+    .line 144
+    sget-object p3, Lcom/oplus/aiunit/vision/b2b;->b:Lcom/oplus/aiunit/vision/b2b;
+
+    .line 145
+    .line 146
+    invoke-virtual {p3, p0}, Lcom/oplus/aiunit/vision/b2b;->d(Lcom/oplus/aiunit/vision/nxz;)Ljava/lang/Object;
+
+    .line 147
+    .line 148
+    .line 149
+    move-result-object p0
+
+    .line 150
+    check-cast p0, Ljava/util/List;
+
+    .line 151
+    .line 152
+    if-eqz p0, :cond_3
+
+    .line 153
+    .line 154
+    if-eqz v5, :cond_2
+
+    .line 155
+    .line 156
+    invoke-static {p0}, Ljava/util/Collections;->reverse(Ljava/util/List;)V
+
+    .line 157
+    .line 158
+    .line 159
+    :cond_2
+    new-instance p3, Ljava/lang/StringBuilder;
+
+    .line 160
+    .line 161
+    invoke-direct {p3, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 162
+    .line 163
+    .line 164
+    sget-object v1, Lcom/oplus/aiunit/vision/w9h;->a:Lcom/oplus/aiunit/vision/w9h;
+
+    .line 165
+    .line 166
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 167
+    .line 168
+    .line 169
+    move-result-wide v1
+
+    .line 170
+    sub-long/2addr v1, v8
+
+    .line 171
+    invoke-virtual {p3, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 172
+    .line 173
+    .line 174
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 175
+    .line 176
+    .line 177
+    move-result-object p3
+
+    .line 178
+    invoke-static {v0, p3, v7}, Lcom/oplus/aiunit/vision/w9h;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 179
+    .line 180
+    .line 181
+    return-object p0
+
+    .line 182
+    :goto_1
+    const-string/jumbo p3, "getSubMediaItem, start: "
+
+    .line 183
+    .line 184
+    .line 185
+    const-string v1, ", count: "
+
+    .line 186
+    .line 187
+    const-string v2, ", error:"
+
+    .line 188
+    .line 189
+    invoke-static {p3, p1, p2, v1, v2}, Lcom/oplus/aiunit/vision/axb0;->a(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 190
+    .line 191
+    .line 192
+    move-result-object p1
+
+    .line 193
+    invoke-static {v0, p1, p0}, Lcom/oplus/aiunit/vision/w9h;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 194
+    .line 195
+    .line 196
+    :cond_3
+    new-instance p0, Ljava/util/ArrayList;
+
+    .line 197
+    .line 198
+    invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 199
+    .line 200
+    .line 201
+    return-object p0
+.end method
+
+.method public S()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "TIMELINE.TimelineAlbum"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final T()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->b0:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_2
+
+    .line 8
+    .line 9
+    sget-object v0, Lcom/oplus/aiunit/vision/bj40;->P0:Lcom/oplus/aiunit/vision/plt;
+
+    .line 10
+    .line 11
+    iget-object v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->b:Lcom/oplus/aiunit/vision/plt;
+
+    .line 12
+    .line 13
+    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v0
+
+    .line 17
+    if-nez v0, :cond_1
+
+    .line 18
+    .line 19
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->b:Lcom/oplus/aiunit/vision/plt;
+
+    .line 20
+    .line 21
+    sget-object v1, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->u0:Lcom/oplus/aiunit/vision/plt;
+
+    .line 22
+    .line 23
+    invoke-virtual {v1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 24
+    .line 25
+    .line 26
+    move-result v0
+
+    .line 27
+    if-nez v0, :cond_1
+
+    .line 28
+    .line 29
+    sget-object v0, Lcom/oplus/aiunit/vision/ij40;->b:Lcom/oplus/aiunit/vision/plt;
+
+    .line 30
+    .line 31
+    iget-object v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->b:Lcom/oplus/aiunit/vision/plt;
+
+    .line 32
+    .line 33
+    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 34
+    .line 35
+    .line 36
+    move-result v0
+
+    .line 37
+    if-nez v0, :cond_1
+
+    .line 38
+    .line 39
+    sget-object v0, Lcom/oplus/aiunit/vision/ij40;->a:Lcom/oplus/aiunit/vision/plt;
+
+    .line 40
+    .line 41
+    iget-object v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->b:Lcom/oplus/aiunit/vision/plt;
+
+    .line 42
+    .line 43
+    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 44
+    .line 45
+    .line 46
+    move-result v0
+
+    .line 47
+    if-eqz v0, :cond_0
+
+    .line 48
+    .line 49
+    goto :goto_0
+
+    .line 50
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 51
+    goto :goto_1
+
+    .line 52
+    :cond_1
+    :goto_0
+    const/4 v0, 0x1
+
+    .line 53
+    :goto_1
+    iget-object v1, p0, Lcom/oplus/gallery/business_lib/model/data/base/MediaObject;->c:Landroid/content/Context;
+
+    .line 54
+    .line 55
+    iget v2, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->W:I
+
+    .line 56
+    .line 57
+    invoke-static {v1, v2, v0}, Lcom/oplus/gallery/business_lib/model/data/base/utils/MediaSetUtils;->d(Landroid/content/Context;IZ)Ljava/lang/String;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object v0
+
+    .line 61
+    iput-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->b0:Ljava/lang/String;
+
+    .line 62
+    .line 63
+    :cond_2
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->b0:Ljava/lang/String;
+
+    .line 64
+    .line 65
+    invoke-super {p0}, Lcom/oplus/aiunit/vision/a9o;->T()Ljava/lang/String;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object p0
+
+    .line 69
+    invoke-static {v0, p0}, Lcom/oplus/aiunit/vision/w6b;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object p0
+
+    .line 73
+    return-object p0
+.end method
+
+.method public final g0(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/ygo;->k:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x1
+
+    .line 4
+    if-eqz p1, :cond_0
+
+    .line 5
+    .line 6
+    move p1, v0
+
+    .line 7
+    goto :goto_0
+
+    .line 8
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 9
+    :goto_0
+    iput-boolean p1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Y:Z
+
+    .line 10
+    .line 11
+    const/4 p1, 0x0
+
+    .line 12
+    iput-object p1, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 13
+    .line 14
+    iput-boolean v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->X:Z
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public final h()J
+    .locals 2
+
+    .line 1
+    const-wide/16 v0, 0x405
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final q()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {}, Lcom/oplus/aiunit/vision/qa6;->b()Ljava/util/List;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public final u()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->X:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_2
+
+    .line 4
+    .line 5
+    iget-boolean v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Y:Z
+
+    .line 6
+    .line 7
+    if-nez v0, :cond_0
+
+    .line 8
+    .line 9
+    goto :goto_0
+
+    .line 10
+    :cond_0
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/ygo;->k:Ljava/lang/String;
+
+    .line 11
+    .line 12
+    if-nez v0, :cond_1
+
+    .line 13
+    .line 14
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->L0()V
+
+    .line 15
+    .line 16
+    .line 17
+    :cond_1
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ygo;->k:Ljava/lang/String;
+
+    .line 18
+    .line 19
+    return-object p0
+
+    .line 20
+    :cond_2
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 21
+    return-object p0
+.end method
+
+.method public final w()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->H()Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    iput-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    :cond_0
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/ygo;->l:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    if-eqz v0, :cond_1
+
+    .line 12
+    .line 13
+    return-object v0
+
+    .line 14
+    :cond_1
+    iget-object p0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->Z:Ljava/lang/String;
+
+    .line 15
+    .line 16
+    return-object p0
+.end method
+
+.method public final y(Lcom/oplus/aiunit/vision/plt;I)I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/gallery/business_lib/model/data/base/timeline/b;->U:Ljava/util/concurrent/ConcurrentHashMap;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    check-cast v1, Ljava/lang/Integer;
+
+    .line 8
+    .line 9
+    if-eqz v1, :cond_0
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p0
+
+    .line 15
+    return p0
+
+    .line 16
+    :cond_0
+    invoke-super {p0, p1, p2}, Lcom/oplus/aiunit/vision/ygo;->y(Lcom/oplus/aiunit/vision/plt;I)I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result p0
+
+    .line 20
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p2
+
+    .line 24
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    .line 27
+    return p0
+.end method

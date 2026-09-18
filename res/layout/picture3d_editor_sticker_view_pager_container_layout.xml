@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/livesticker_category_bar_wrapper" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/picture3d_sticker_category_bar_height" android:paddingStart="@dimen/picture3d_sticker_category_bar_padding_horizontal" android:paddingEnd="@dimen/picture3d_sticker_category_bar_padding_horizontal" app:layout_constraintBottom_toTopOf="@id/sticker_view_pager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <HorizontalScrollView android:id="@id/livesticker_category_bar_scroll" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="false">
+            <FrameLayout android:id="@id/livesticker_category_bar_content_wrapper" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/livesticker_category_bar_container" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            </FrameLayout>
+        </HorizontalScrollView>
+        <View android:layout_gravity="start" android:id="@id/livesticker_category_bar_left_mask" android:background="@drawable/picture3d_sticker_category_bar_left_mask" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/picture3d_sticker_edit_left_mask_width" android:layout_height="match_parent" />
+        <View android:layout_gravity="end" android:id="@id/livesticker_category_bar_right_mask" android:background="@drawable/picture3d_sticker_color_picker_gradient_mask" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/picture3d_sticker_edit_left_mask_width" android:layout_height="match_parent" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/sticker_view_pager" android:layout_width="match_parent" android:layout_height="@dimen/picture3d_sticker_view_pager_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/livesticker_category_bar_wrapper" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" android:key="key_header" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="key_category_sync_mode">
+        <com.oplus.gallery.framework.abilities.ocloudsync.ui.ServiceModeSelectPreference android:key="pref_key_mode_title" app:ocloudsyncability_backupRadioText="@string/cloud_sync_setting_service_mode_backup" app:ocloudsyncability_isFirstLine="true" app:ocloudsyncability_syncRadioText="@string/cloud_sync_setting_service_mode_sync" />
+        <com.oplus.gallery.framework.abilities.ocloudsync.ui.ServiceModeSelectPreference android:key="pref_key_storage_des" app:ocloudsyncability_backupDes="@string/cloud_sync_setting_service_mode_storage_photo_in_back" app:ocloudsyncability_syncDes="@string/cloud_sync_setting_service_mode_storage_photo_in_sync" app:ocloudsyncability_titleName="@string/cloud_sync_setting_service_mode_storage_photo" />
+        <com.oplus.gallery.framework.abilities.ocloudsync.ui.ServiceModeSelectPreference android:key="pref_key_delete_des" app:ocloudsyncability_backupDes="@string/cloud_sync_setting_service_mode_delete_photo_in_back" app:ocloudsyncability_syncDes="@string/cloud_sync_setting_service_mode_delete_photo_in_sync" app:ocloudsyncability_titleName="@string/cloud_sync_setting_service_mode_delete_photo" />
+        <com.oplus.gallery.framework.abilities.ocloudsync.ui.ServiceModeSelectPreference android:key="pref_key_device_des" app:ocloudsyncability_backupDes="@string/cloud_sync_setting_service_mode_diff_devices_in_back" app:ocloudsyncability_isLastLine="true" app:ocloudsyncability_syncDes="@string/cloud_sync_setting_service_mode_diff_devices_in_sync" app:ocloudsyncability_titleName="@string/cloud_sync_setting_service_mode_diff_devices" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.gallery.framework.abilities.ocloudsync.ui.CloudDifferencePreference android:key="key_cloud_difference_des" />
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" android:key="key_footer" />
+</PreferenceScreen>

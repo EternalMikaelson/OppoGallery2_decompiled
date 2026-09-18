@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/settingpage_travel_permission_dialog_padding_horizontal" android:paddingVertical="@dimen/settingpage_travel_permission_dialog_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_deep_thinker" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_deep_thinker_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/couiTextHeadlineXS" />
+            <TextView android:id="@id/tv_deep_thinker_desc" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/couiTextBodyXS" />
+        </LinearLayout>
+        <com.coui.appcompat.couiswitch.COUISwitch android:layout_gravity="center" android:id="@id/switch_deepthinker" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/settingpage_travel_permission_dialog_switch_margin_start" />
+    </LinearLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/divider" android:background="@color/common_divider_line_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" android:layout_marginVertical="@dimen/settingpage_travel_permission_dialog_divider_margin_vertical" android:forceDarkAllowed="false" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_scene_service" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_scene_service_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/couiTextHeadlineXS" />
+            <TextView android:id="@id/tv_scene_service_desc" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/couiTextBodyXS" />
+        </LinearLayout>
+        <com.coui.appcompat.couiswitch.COUISwitch android:layout_gravity="center" android:id="@id/switch_sceneservice" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/settingpage_travel_permission_dialog_switch_margin_start" />
+    </LinearLayout>
+</LinearLayout>

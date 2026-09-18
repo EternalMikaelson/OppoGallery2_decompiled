@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/setting_pref_image_pro_xdr_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_local_hdr">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_pref_local_hdr_title" android:key="pref_local_hdr_key" android:summary="@string/setting_pref_local_hdr_summary" android:defaultValue="true" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_pref_local_hdr_compare_title" android:key="pref_brighten_compare_key" android:summary="@string/setting_pref_local_hdr_compare_summary" android:defaultValue="true" app:couiShowDivider="false" app:isPreferenceVisible="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPagerFooterPreference android:layout="@layout/setting_pro_xdr_view_preference_footer" android:selectable="false" android:summary="@string/setting_pref_local_hdr_unavailable_scenes_illustrate" />
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,20 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/id10;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# virtual methods
+.method public final run()V
+    .locals 0
+
+    .line 1
+    invoke-static {}, Lcom/oplus/aisubsystem/sdk/common/utils/SDKLog$logSwitchObserver$2$1;->a()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

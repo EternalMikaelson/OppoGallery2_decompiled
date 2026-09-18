@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/picture3d_editor_ic_super_text_adjust_selector" android:id="@id/navigation_super_text_adjust" android:title="@string/picture3d_super_text_image_adjust" />
+    <item android:icon="@drawable/picture3d_editor_ic_super_text_convert_selector" android:id="@id/navigation_super_text_convert" android:title="@string/picture3d_enhance_text_convert_doc" />
+</menu>

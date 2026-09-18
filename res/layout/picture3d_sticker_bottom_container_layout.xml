@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sticker_bottom_container" android:background="@color/picture3d_editor_title_bar_background" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/sticker_view_pager_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/picture3d_editor_sticker_view_pager_container_layout" />
+    <View android:id="@id/sticker_dividing_line_container" android:background="@color/picture3d_sticker_matting_button_inner_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/picture3d_sticker_dividing_line_height" android:layout_alignParentTop="true" />
+</RelativeLayout>

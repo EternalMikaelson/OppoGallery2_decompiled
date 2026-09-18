@@ -1,0 +1,120 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/z45;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/String;
+
+.field public final synthetic b:F
+
+.field public final synthetic c:Lkotlin/jvm/internal/Ref$FloatRef;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/String;FLkotlin/jvm/internal/Ref$FloatRef;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/z45;->a:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    iput p2, p0, Lcom/oplus/aiunit/vision/z45;->b:F
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lcom/oplus/aiunit/vision/z45;->c:Lkotlin/jvm/internal/Ref$FloatRef;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/z45;->c:Lkotlin/jvm/internal/Ref$FloatRef;
+
+    .line 2
+    .line 3
+    iget v0, v0, Lkotlin/jvm/internal/Ref$FloatRef;->element:F
+
+    .line 4
+    .line 5
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 6
+    .line 7
+    const-string/jumbo v2, "differentiatedSameScore. "
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 11
+    .line 12
+    .line 13
+    iget-object v2, p0, Lcom/oplus/aiunit/vision/z45;->a:Ljava/lang/String;
+
+    .line 14
+    .line 15
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    const-string v2, " has same score. "
+
+    .line 19
+    .line 20
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    iget p0, p0, Lcom/oplus/aiunit/vision/z45;->b:F
+
+    .line 24
+    .line 25
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    .line 26
+    .line 27
+    .line 28
+    const-string p0, "->"
+
+    .line 29
+    .line 30
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 31
+    .line 32
+    .line 33
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    .line 34
+    .line 35
+    .line 36
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p0
+
+    .line 40
+    return-object p0
+.end method

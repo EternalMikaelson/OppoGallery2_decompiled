@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/photo_editor_ai_best_take_choose_view_bg_color" />
+    <corners android:radius="@dimen/photo_editor_ai_best_take_choose_view_radius" />
+    <stroke android:width="@dimen/photo_editor_ai_best_take_choose_view_stroke" android:color="@color/photo_editor_ai_best_take_choose_view_bg_stroke_color" />
+</shape>

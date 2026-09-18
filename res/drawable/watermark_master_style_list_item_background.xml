@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/picture3d_editor_watermark_master_style_list_item_border_out_radius" />
+        </shape>
+    </item>
+    <item android:left="@dimen/picture3d_editor_watermark_master_style_list_item_border" android:top="@dimen/picture3d_editor_watermark_master_style_list_item_border" android:right="@dimen/picture3d_editor_watermark_master_style_list_item_border" android:bottom="@dimen/picture3d_editor_watermark_master_style_list_item_border">
+        <shape>
+            <solid android:color="@color/black" />
+            <corners android:radius="@dimen/picture3d_editor_watermark_master_style_list_item_border_in_radius" />
+        </shape>
+    </item>
+</layer-list>

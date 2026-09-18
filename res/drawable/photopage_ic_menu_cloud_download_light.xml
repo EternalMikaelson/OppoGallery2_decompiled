@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="25.0dp" android:alpha="0.9" android:viewportWidth="25.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0.5,0h24v24h-24z" />
+        <path android:fillColor="@color/photopage_menu_icon_color_light" android:pathData="M10.5,4.551V3.078C7.801,3.856 5.753,6.171 5.365,9.015C2.734,9.732 0.799,12.138 0.799,14.997C0.799,18.421 3.575,21.197 6.999,21.197H17.999C21.423,21.197 24.199,18.421 24.199,14.997C24.199,12.138 22.264,9.732 19.632,9.015C19.244,6.172 17.198,3.858 14.5,3.079V4.552C16.608,5.327 18.141,7.29 18.287,9.629C18.308,9.951 18.544,10.217 18.861,10.274C21.101,10.68 22.799,12.641 22.799,14.997C22.799,17.648 20.65,19.797 17.999,19.797H6.999C4.348,19.797 2.199,17.648 2.199,14.997C2.199,12.641 3.897,10.68 6.136,10.274C6.453,10.217 6.69,9.951 6.71,9.629C6.857,7.289 8.391,5.325 10.5,4.551Z" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M12.5,2L12.5,15" android:strokeColor="@color/photopage_menu_icon_color_light" android:strokeWidth="1.4" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="#00000000" android:pathData="M9.5,12L12.5,15L15.5,12" android:strokeColor="@color/photopage_menu_icon_color_light" android:strokeWidth="1.4" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

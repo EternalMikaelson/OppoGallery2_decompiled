@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toolbar_layout" android:background="@color/common_transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplusos.vfxsdk.doodleengine.toolkit.Toolkit android:orientation="horizontal" android:id="@id/doodle_toolkit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:pen_thickness_enable="false" app:theme="@style/DeToolkitTheme.Night" app:toolkit_type="fixed_round" app:undo_redo_enable="false" />
+</RelativeLayout>

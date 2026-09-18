@@ -1,0 +1,150 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/x97;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:F
+
+.field public final synthetic b:I
+
+.field public final synthetic c:I
+
+.field public final synthetic d:Lcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView$a;
+
+
+# direct methods
+.method public synthetic constructor <init>(FIILcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView$a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p1, p0, Lcom/oplus/aiunit/vision/x97;->a:F
+
+    .line 5
+    .line 6
+    iput p2, p0, Lcom/oplus/aiunit/vision/x97;->b:I
+
+    .line 7
+    .line 8
+    iput p3, p0, Lcom/oplus/aiunit/vision/x97;->c:I
+
+    .line 9
+    .line 10
+    iput-object p4, p0, Lcom/oplus/aiunit/vision/x97;->d:Lcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView$a;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 5
+
+    .line 1
+    sget v0, Lcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView;->e1:I
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/x97;->d:Lcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView$a;
+
+    .line 4
+    .line 5
+    iget v1, v0, Lcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView$a;->a:I
+
+    .line 6
+    .line 7
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 8
+    .line 9
+    const-string v3, "[step2] lineHeightPx="
+
+    .line 10
+    .line 11
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    iget v3, p0, Lcom/oplus/aiunit/vision/x97;->a:F
+
+    .line 15
+    .line 16
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    .line 19
+    const-string v3, " refW="
+
+    .line 20
+    .line 21
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 22
+    .line 23
+    .line 24
+    iget v3, p0, Lcom/oplus/aiunit/vision/x97;->b:I
+
+    .line 25
+    .line 26
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    .line 29
+    const-string v3, " refH="
+
+    .line 30
+    .line 31
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 32
+    .line 33
+    .line 34
+    iget p0, p0, Lcom/oplus/aiunit/vision/x97;->c:I
+
+    .line 35
+    .line 36
+    const-string v3, " displayW="
+
+    .line 37
+    .line 38
+    const-string v4, " displayH="
+
+    .line 39
+    .line 40
+    invoke-static {p0, v1, v3, v4, v2}, Lcom/oplus/aiunit/vision/gva0;->a(IILjava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V
+
+    .line 41
+    .line 42
+    .line 43
+    iget p0, v0, Lcom/oplus/gallery/photoeditor/editingvvm/text/ui/CaptionEffectView$a;->b:I
+
+    .line 44
+    .line 45
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p0
+
+    .line 52
+    return-object p0
+.end method

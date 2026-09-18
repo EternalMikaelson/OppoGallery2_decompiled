@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/base_editor_color_selected_border_radius" />
+    <stroke android:width="@dimen/base_editor_color_selected_border_width" android:color="@color/base_white" />
+    <padding android:left="@dimen/base_editor_color_selected_border_padding" android:top="@dimen/base_editor_color_selected_border_padding" android:right="@dimen/base_editor_color_selected_border_padding" android:bottom="@dimen/base_editor_color_selected_border_padding" />
+</shape>

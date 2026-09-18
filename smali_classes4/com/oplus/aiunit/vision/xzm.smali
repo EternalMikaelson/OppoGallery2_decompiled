@@ -1,0 +1,74 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/xzm;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:J
+
+.field public final synthetic b:Ljava/util/LinkedHashMap;
+
+
+# direct methods
+.method public synthetic constructor <init>(JLjava/util/LinkedHashMap;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-wide p1, p0, Lcom/oplus/aiunit/vision/xzm;->a:J
+
+    .line 5
+    .line 6
+    iput-object p3, p0, Lcom/oplus/aiunit/vision/xzm;->b:Ljava/util/LinkedHashMap;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    sget-object v0, Lcom/oplus/aiunit/vision/w9h;->a:Lcom/oplus/aiunit/vision/w9h;
+
+    .line 3
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    .line 7
+    iget-wide v2, p0, Lcom/oplus/aiunit/vision/xzm;->a:J
+
+    sub-long/2addr v0, v2
+
+    .line 10
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/xzm;->b:Ljava/util/LinkedHashMap;
+
+    .line 12
+    invoke-interface {p0}, Ljava/util/Map;->size()I
+
+    move-result p0
+
+    .line 16
+    const-string/jumbo v2, "getDuplicateGlobalIdFileMap cost: = "
+
+    .line 19
+    const-string/jumbo v3, "ms size:"
+
+    .line 22
+    invoke-static {v0, v1, v2, v3, p0}, Lcom/oplus/aiunit/vision/ii6;->a(JLjava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.scrollview.COUINestedScrollView android:id="@id/panel_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="356.0dp" android:paddingHorizontal="@dimen/photopage_detail_view_dimen_16dp">
+            <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/photopage_detail_text_view_small_size" android:textColor="@color/photopage_details_card_small_text" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photopage_detail_view_dimen_8dp" android:maxLines="3" android:includeFontPadding="false" android:fontFamily="Avenir Next" android:letterSpacing="0.04" android:lineHeight="@dimen/photopage_detail_view_dimen_16dp" android:textFontWeight="600" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_content" android:background="@drawable/photopage_bg_exif_iso" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photopage_detail_view_dimen_8dp" android:paddingHorizontal="@dimen/photopage_detail_content_exif_iso_horizontal_padding" android:paddingVertical="@dimen/photopage_detail_content_exif_iso_vertical_padding" android:forceDarkAllowed="false">
+                <com.oplus.gallery.photo_page.ui.section.details.widget.PhotoDetailsGRInfoItemView android:id="@id/info_view_one" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photopage_detail_view_dimen_12dp" />
+                <com.oplus.gallery.photo_page.ui.section.details.widget.PhotoDetailsGRInfoItemView android:id="@id/info_view_two" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photopage_detail_view_dimen_12dp" />
+                <com.oplus.gallery.photo_page.ui.section.details.widget.PhotoDetailsGRInfoItemView android:id="@id/info_view_three" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photopage_detail_view_dimen_12dp" />
+                <com.oplus.gallery.photo_page.ui.section.details.widget.PhotoDetailsGRInfoItemView android:id="@id/info_view_four" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photopage_detail_view_dimen_12dp" />
+                <com.oplus.gallery.photo_page.ui.section.details.widget.PhotoDetailsGRInfoItemView android:id="@id/info_view_five" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.oplus.gallery.photo_page.ui.section.details.widget.PhotoDetailsGRInfoItemView android:id="@id/info_view_six" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photopage_detail_view_dimen_12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.coui.appcompat.scrollview.COUINestedScrollView>
+</LinearLayout>

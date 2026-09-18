@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/picture3d_group_photo_guide_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView android:layout_marginBottom="@dimen/picture3d_ai_repair_introduction_button_margin_top" style="@style/COUIAlertDialogCustomScrollViewStyleWithButton">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.viewpager.COUIViewPager2 android:id="@id/pager_aihd" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </com.coui.appcompat.dialog.widget.COUIMaxHeightNestedScrollView>
+    <com.coui.appcompat.button.COUIButton android:textSize="@dimen/base_multiple_page_guides_button_text_size" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_aihd_ok" android:layout_width="@dimen/base_large_btn_width" android:layout_height="@dimen/base_large_btn_height" android:text="@string/common_ok" android:contentDescription="@string/common_ok" android:fontFamily="sans-serif-medium" style="?couiButtonColorfulDefaultStyle" />
+</LinearLayout>

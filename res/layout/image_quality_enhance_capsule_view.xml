@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.photoeditor.editingvvm.imagequalityenhance.capsuleview.view.CapsuleView android:gravity="center" android:id="@id/layout_image_quality_enhance_entry_root" android:layout_width="match_parent" android:layout_height="@dimen/picture3d_editor_image_quality_enhance_progress_bar_height" android:layout_marginBottom="30.0dp" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:gravity="center" android:id="@id/capsule_btn_view" android:background="@drawable/capsule_btn_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/picture3d_editor_image_quality_enhance_btn_height" android:text="@string/image_quality_enhance_title" android:drawablePadding="7.0dp" android:drawableStart="@drawable/ic_image_quality_enhance_capsule" android:textAlignment="center" android:paddingStart="18.0dp" android:paddingEnd="18.0dp" style="@style/picture3d_EditorRecommendTextStyle" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_capsule_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/picture3d_editor_image_quality_enhance_progress_bar_height">
+        <com.oplus.gallery.photoeditor.editingvvm.imagequalityenhance.capsuleview.view.CapsuleProgressView android:id="@id/capsule_progress" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</com.oplus.gallery.photoeditor.editingvvm.imagequalityenhance.capsuleview.view.CapsuleView>

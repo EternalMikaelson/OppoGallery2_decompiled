@@ -1,0 +1,441 @@
+.class public Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;
+.super Ljava/lang/Object;
+.source "PluginMeta.java"
+
+# interfaces
+.implements Lcom/oplus/tbluniformeditor/plugins/pool/export/meta/IPluginMetaDelegate$Parameter;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Parameter"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/oplus/tbluniformeditor/plugins/pool/export/meta/IPluginMetaDelegate$Parameter<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field private mDefault:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field private mDescription:Ljava/lang/String;
+
+.field private final mDiscreteValues:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+.field private mExtras:Ljava/lang/String;
+
+.field private mIdentifier:Ljava/lang/String;
+
+.field private mIsDiscrete:Z
+
+.field private mMax:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field private mMin:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+.field private mType:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIdentifier:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDescription:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mMin:Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mMax:Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDefault:Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    new-instance v1, Ljava/util/ArrayList;
+
+    .line 16
+    .line 17
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+
+    .line 18
+    .line 19
+    .line 20
+    iput-object v1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDiscreteValues:Ljava/util/List;
+
+    .line 21
+    .line 22
+    const/4 v1, 0x0
+
+    .line 23
+    iput-boolean v1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIsDiscrete:Z
+
+    .line 24
+    .line 25
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mType:Ljava/lang/String;
+
+    .line 26
+    .line 27
+    iput-object v0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mExtras:Ljava/lang/String;
+
+    .line 28
+    .line 29
+    return-void
+.end method
+
+
+# virtual methods
+.method public getDefault()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDefault:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getDescription()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDescription:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getDiscreteValues()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDiscreteValues:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getExtras()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mExtras:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getIdentifier()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIdentifier:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getMax()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mMax:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getMin()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mMin:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getType()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mType:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public isDiscrete()Z
+    .locals 0
+
+    .line 1
+    iget-boolean p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIsDiscrete:Z
+
+    .line 2
+    .line 3
+    return p0
+.end method
+
+.method public setDefault(Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDefault:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setDescription(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDescription:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setDiscrete(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIsDiscrete:Z
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setDiscreteValues(Ljava/util/ArrayList;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/ArrayList<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mDiscreteValues:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {p0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public setExtras(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mExtras:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setIdentifier(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIdentifier:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setMax(Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mMax:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setMin(Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mMin:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setType(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mType:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    const-string v1, "Parameter info: \nidentifier: "
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget-object v1, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mIdentifier:Ljava/lang/String;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, "\n, type: "
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    iget-object p0, p0, Lcom/oplus/tbluniformeditor/plugins/pool/meta/bean/PluginMeta$Parameter;->mType:Ljava/lang/String;
+
+    .line 19
+    .line 20
+    const-string v1, "\n"
+
+    .line 21
+    .line 22
+    invoke-static {v0, p0, v1}, Lcom/oplus/aiunit/vision/k8c0;->a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    return-object p0
+.end method

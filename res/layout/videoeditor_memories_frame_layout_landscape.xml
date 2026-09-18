@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/videoeditor_ui_framework" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar_container" android:layout_width="match_parent" android:layout_height="@dimen/video_editor_titlebar_height" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/time_seek_bar_area" android:layout_width="match_parent" android:layout_height="@dimen/memories_editor_time_seek_bar_layout_height" android:layout_toLeftOf="@id/toolbar_container" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/title_bar_container" android:forceDarkAllowed="false" />
+    <RelativeLayout android:id="@id/toolbar_container" android:layout_width="@dimen/video_editor_toolbar_width_landscape" android:layout_height="match_parent" android:layout_toLeftOf="@id/end_safe_area" android:layout_above="@id/title_bar_container" android:forceDarkAllowed="false" />
+    <View android:id="@id/start_safe_area" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" />
+    <View android:id="@id/end_safe_area" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/preview_area" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/video_editor_preview_safe_area_size_landscape" android:layout_toLeftOf="@id/toolbar_container" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/title_bar_container" />
+</RelativeLayout>

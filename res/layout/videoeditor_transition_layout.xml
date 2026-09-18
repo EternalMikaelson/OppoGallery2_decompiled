@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:videoeditor="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/space_line" android:background="@color/videoeditor_transition_line_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_transition_line_height" android:layout_marginTop="@dimen/videoeditor_transition_line_top_margin" />
+    <com.oplus.gallery.videoeditorpage.widget.HorizontalListView android:id="@id/video_transition_list" android:paddingTop="@dimen/videoeditor_transition_list_vertical_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_transition_list_height" android:layout_above="@id/bottom_action_bar" android:layout_below="@id/space_line" android:paddingStart="@dimen/videoeditor_transition_list_horizontal_padding" android:paddingEnd="@dimen/videoeditor_transition_list_horizontal_padding" videoeditor:itemSpacing="@dimen/videoeditor_transition_item_space" />
+    <include android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_bottom_bottom_bar_layout_height" android:layout_alignParentBottom="true" layout="@layout/editor_bottom_action_bar_layout" />
+</RelativeLayout>

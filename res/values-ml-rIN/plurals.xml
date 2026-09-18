@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">%1$2s ഇനം ഉൾപ്പെടുന്ന %2$1s ആൽബം; \"അടിക്കടി ഉപയോഗിക്കുന്നത്\" എന്നതിലേക്ക് ചേർക്കാൻ ടാപ്പ് ചെയ്യുക.</item>
+        <item quantity="other">%1$2s ഇനങ്ങൾ ഉൾപ്പെടുന്ന %2$1s ആൽബം; \"അടിക്കടി ഉപയോഗിക്കുന്നത്\" എന്നതിലേക്ക് ചേർക്കാൻ ടാപ്പ് ചെയ്യുക.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s മാച്ച്</item>
+        <item quantity="other">%s മാച്ചുകൾ</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">ഒരു വീഡിയോ വേഗത്തിൽ ജനറേറ്റ് ചെയ്യുന്നതിന് നിങ്ങളുടെ മീഡിയ തിരഞ്ഞെടുത്ത് താഴെയുള്ള \"AI തൽക്ഷണ ക്ലിപ്പ്\" ഫ്ലോട്ടിംഗ് വിൻഡോയിൽ ടാപ്പ് ചെയ്യുക. മികച്ച ഫലങ്ങൾക്ക് കുറഞ്ഞത് %1$s ഇനം തിരഞ്ഞെടുക്കുക.</item>
+        <item quantity="other">ഒരു വീഡിയോ വേഗത്തിൽ ജനറേറ്റ് ചെയ്യുന്നതിന് നിങ്ങളുടെ മീഡിയ തിരഞ്ഞെടുത്ത് താഴെയുള്ള \"AI തൽക്ഷണ ക്ലിപ്പ്\" ഫ്ലോട്ടിംഗ് വിൻഡോയിൽ ടാപ്പ് ചെയ്യുക. മികച്ച ഫലങ്ങൾക്ക് കുറഞ്ഞത് %1$s ഇനങ്ങൾ തിരഞ്ഞെടുക്കുക.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">വേഗത്തിൽ ഒരു വീഡിയോ സൃഷ്ടിക്കാൻ, നിങ്ങളുടെ മീഡിയ തിരഞ്ഞെടുത്ത് താഴെയായി \"എഡിറ്റ് ചെയ്യുക - AI തൽക്ഷണ ക്ലിപ്പ്\" എന്നതിൽ ടാപ്പ് ചെയ്യുക. മികച്ച ഫലങ്ങൾക്ക് കുറഞ്ഞത് %1$s ഇനം തിരഞ്ഞെടുക്കുക.</item>
+        <item quantity="other">വേഗത്തിൽ ഒരു വീഡിയോ സൃഷ്ടിക്കാൻ, നിങ്ങളുടെ മീഡിയ തിരഞ്ഞെടുത്ത് താഴെയായി \"എഡിറ്റ് ചെയ്യുക - AI തൽക്ഷണ ക്ലിപ്പ്\" എന്നതിൽ ടാപ്പ് ചെയ്യുക. മികച്ച ഫലങ്ങൾക്ക് കുറഞ്ഞത് %1$s ഇനങ്ങൾ തിരഞ്ഞെടുക്കുക.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">%1$d സെക്കൻഡിൽ കൂടുതലുള്ള ചലന ഫോട്ടോകളെ പിന്തുണയ്ക്കില്ല</item>
+        <item quantity="other">%1$d സെക്കൻഡിൽ കൂടുതലുള്ള ചലന ഫോട്ടോകളെ പിന്തുണയ്ക്കില്ല</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">വീഡിയോ %d സെക്കൻഡിലും ദൈർഘ്യമുള്ളതാകരുത്</item>
+        <item quantity="other">വീഡിയോ %d സെക്കൻഡിലും ദൈർഘ്യമുള്ളതാകരുത്</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d ആപ്പ് ലോക്ക് ചെയ്‌തു</item>
+        <item quantity="other">%d ലോക്ക് ചെയ്ത ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">%1$1s ഇനം ഉൾപ്പെടുന്ന %2$2s ആൽബം; \"അടിക്കടി ഉപയോഗിക്കുന്നത്\" എന്നതിലേക്ക് ചേർത്തു.</item>
+        <item quantity="other">%1$1s ഇനങ്ങൾ ഉൾപ്പെടുന്ന %2$2s ആൽബം; \"അടിക്കടി ഉപയോഗിക്കുന്നത്\" എന്നതിലേക്ക് ചേർത്തു.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">ചേർക്കുക (%1$d)</item>
+        <item quantity="other">ചേർക്കുക (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">ചേർക്കുക (%1$d/%2$d)</item>
+        <item quantity="other">ചേർക്കുക (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d ഇനം ക്രമീകരിച്ചു</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ ക്രമീകരിച്ചു</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d ഫോട്ടോ ലോഡ് ചെയ്യുകയാണ്, ചേർക്കാനാകില്ല.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ലോഡ് ചെയ്യുകയാണ്, ചേർക്കാനാകില്ല.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d ഡോക്യുമെന്റ്</item>
+        <item quantity="other">%1$d ഡോക്യുമെന്‍റുകൾ</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d ബാങ്ക് കാർഡ്</item>
+        <item quantity="other">%1$d ബാങ്ക് കാർഡുകൾ</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d ആൽബത്തിലെ ഇനങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഇനങ്ങൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+        <item quantity="other">%d ആൽബങ്ങളിലെ ഇനങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഇനങ്ങൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d ബേസ്റ്റ് ഫോട്ടോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. എല്ലാ ബേസ്റ്റ് ഫോട്ടോകളും ക്ലൗഡിലേക്ക് ബാക്കപ്പ് ചെയ്‌തു, അവ അവിടെ തന്നെ തുടരും.</item>
+        <item quantity="other">%d ബേസ്റ്റ് ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. എല്ലാ ബേസ്റ്റ് ഫോട്ടോകളും ക്ലൗഡിലേക്ക് ബാക്കപ്പ് ചെയ്‌തു, അവ അവിടെ തന്നെ തുടരും.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d ബേസ്റ്റ് ഫോട്ടോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഫോട്ടോകൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+        <item quantity="other">%d ബേസ്റ്റ് ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഫോട്ടോകൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d ഇനം ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഇനങ്ങൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഇനങ്ങൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d ഫോട്ടോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഫോട്ടോകൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില ഫോട്ടോകൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d വീഡിയോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില വീഡിയോകൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+        <item quantity="other">%d വീഡിയോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും, കൂടാതെ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ തുടരും. ചില വീഡിയോകൾ ബാക്കപ്പ് ചെയ്തിട്ടില്ല. അവ ഇല്ലാതാക്കുന്നതിനു മുമ്പ് നിങ്ങൾക്ക് അവയുടെ ബാക്കപ്പ് എടുക്കേണ്ടി വരാം.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s തമ്പ്‌നെയിൽ അതിന്റെ ഒറിജിനൽ പതിപ്പ് ഉപയോഗിച്ച് മാറ്റും.</item>
+        <item quantity="other">%1$s തമ്പ്‌നെയിലുകൾ അതിന്റെ ഒറിജിനൽ പതിപ്പ് ഉപയോഗിച്ച് മാറ്റും.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID-കൾ</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">%d ആളെ ലയിപ്പിച്ച് നീക്കം ചെയ്യണോ?</item>
+        <item quantity="other">%d ആളുകളെ ലയിപ്പിച്ച് നീക്കം ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">ഈ ആൽബത്തിൽ നിന്ന് %d ഫോട്ടോ നീക്കം ചെയ്യണോ?</item>
+        <item quantity="other">ഈ ആൽബത്തിൽ നിന്ന് %d ഫോട്ടോകൾ നീക്കം ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">ഈ ആൽബത്തിൽ നിന്ന് %d ഇനം നീക്കം ചെയ്യണോ?</item>
+        <item quantity="other">ഈ ആൽബത്തിൽ നിന്ന് %d ഇനങ്ങൾ നീക്കം ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">ഈ ആൽബത്തിൽ നിന്ന് %d വീഡിയോ നീക്കം ചെയ്യണോ?</item>
+        <item quantity="other">ഈ ആൽബത്തിൽ നിന്ന് %d വീഡിയോകൾ നീക്കം ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">ലഘുചിത്രം ഉപയോഗിക്കുക</item>
+        <item quantity="other">ലഘുചിത്രങ്ങൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">ഒറിജിനൽ ഉപയോഗിക്കുക</item>
+        <item quantity="other">ഒറിജിനലുകൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 ഫോട്ടോ ഒരു ലഘുചിത്രമാണ്. പകരം ഒറിജിനൽ ഫോട്ടോ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+        <item quantity="other">എല്ലാ തിരഞ്ഞെടുത്ത ചില ഫോട്ടോകൾ ലഘുചിത്രങ്ങളാണ്. പകരം നിങ്ങൾക്ക് ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">ഒരു സമയം പരമാവധി %1$d ഇമേജ് PDF ആയി മാറ്റാം</item>
+        <item quantity="other">ഒരു സമയം പരമാവധി %1$d ഇമേജുകൾ PDF ആയി മാറ്റാം</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്. %1$d ഇനം പകർത്തിയിട്ടില്ല.</item>
+        <item quantity="other">ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്. %1$d ഇനങ്ങൾ പകർത്തിയിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d ഇനം പകർത്തി</item>
+        <item quantity="other">%d ഇനങ്ങൾ പകർത്തി</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">%d ഇനത്തിൽ കൂടുതൽ പകർത്താനാവില്ല</item>
+        <item quantity="other">%d ഇനങ്ങളിൽ കൂടുതൽ പകർത്താനാവില്ല</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d ഫോട്ടോ ഈ ഉപകരണത്തിൽ നിന്ന് ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d ഇനം ഈ ഉപകരണത്തിൽ നിന്ന് ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d വീഡിയോ ഈ ഉപകരണത്തിൽ നിന്ന് ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">%d വീഡിയോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d ബർസ്റ്റ് ഫോട്ടോ ഇതിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയവ 30 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\"-യിൽ സൂക്ഷിക്കും.</item>
+        <item quantity="other">%d ബർസ്റ്റ് ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയവ 30 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\"-യിൽ സൂക്ഷിക്കും.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ഫോട്ടോ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ഫോട്ടോകൾ ശാശ്വതമായി ഇല്ലാതാക്കും ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">ഈ ഫോട്ടോ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+        <item quantity="other">ഈ ഫോട്ടോകൾ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ഇനം ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ഇനങ്ങൾ ശാശ്വതമായി ഇല്ലാതാക്കും ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">ഈ ഇനം ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+        <item quantity="other">ഈ ഇനങ്ങൾ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോ ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോകൾ ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഇനം ശാശ്വതമായി ഇല്ലാതാക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഇനങ്ങൾ ശാശ്വതമായി ഇല്ലാതാക്കും.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോ ശാശ്വതമായി ഇല്ലാതാക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോകൾ ശാശ്വതമായി ഇല്ലാതാക്കും.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ബർസ്റ്റ് ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയവ 30 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\"-യിൽ സൂക്ഷിക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ബർസ്റ്റ് ഫോട്ടോകൾ ഇല്ലാതാക്കും. ഇല്ലാതാക്കിയവ 30 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\"-യിൽ സൂക്ഷിക്കും.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">%d ആൽബം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d ആൽബങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">%d ബഴ്സ്റ്റ് ഫോട്ടോ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d ബഴ്സ്റ്റ് ഫോട്ടോകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d മെമ്മറി ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഈ മെമ്മറിയിലുള്ള ഫോട്ടോകൾ \"ഫോട്ടോകൾ\" എന്ന ആപ്പിൽ സൂക്ഷിക്കും.</item>
+        <item quantity="other">%d മെമ്മറികൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഈ മെമ്മറികളിലെ ഫോട്ടോകൾ \"ഫോട്ടോകൾ\" എന്ന ആപ്പിൽ സൂക്ഷിക്കും.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">%d മെമ്മറി ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d മെമ്മറികൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">ശാശ്വതമായി %d ഇനം ഇല്ലാതാക്കുക</item>
+        <item quantity="other">ശാശ്വതമായി %d ഇനങ്ങൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d ഇനം ഇല്ലാതാക്കുക</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">%d ഫോട്ടോ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">%d ഇനം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">%d വീഡിയോ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d വീഡിയോകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">%d സ്റ്റിക്കർ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d സ്റ്റിക്കറുകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">ഈ ഫോട്ടോ ഇല്ലാതാക്കുക</item>
+        <item quantity="other">ഈ ഫോട്ടോകൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ വീഡിയോ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ വീഡിയോകൾ ശാശ്വതമായി ഇല്ലാതാക്കും ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">ഈ വീഡിയോ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+        <item quantity="other">ഈ വീഡിയോകൾ ശാശ്വതമായി ഇല്ലാതാക്കും. ഈ ആക്ഷൻ പഴയപടിയാക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d ഇനം ഡൗൺലോഡ് ചെയ്യുന്നു...</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്യുന്നു...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d ഫോട്ടോ ഡൗൺലോഡ് ചെയ്യുന്നു...</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്യുന്നു...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d വീഡിയോ ഡൗൺലോഡ് ചെയ്യുന്നു...</item>
+        <item quantity="other">%d വീഡിയോകൾ ഡൗൺലോഡ് ചെയ്യുന്നു...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">%d ഫയൽ സ്വകാര്യമായി സജ്ജീകരിക്കണോ?</item>
+        <item quantity="other">%d ഫയലുകൾ സ്വകാര്യമായി സജ്ജീകരിക്കണോ?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">ഈ ഫോട്ടോ സ്വകാര്യമായി സജ്ജീകരിക്കണോ?</item>
+        <item quantity="other">ഈ ഫോട്ടോകൾ സ്വകാര്യമായി സജ്ജീകരിക്കണോ?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d ഫയൽ എൻക്രിപ്റ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു</item>
+        <item quantity="other">%d ഫയലുകൾ എൻക്രിപ്റ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">%d ആൽബം ലോക്ക് ചെയ്യണോ?</item>
+        <item quantity="other">%d ആൽബങ്ങൾ ലോക്ക് ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d ബർസ്റ്റ് ഫോട്ടോ ഇതിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">%d ബർസ്റ്റ് ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ബർസ്റ്റ് ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ബർസ്റ്റ് ഫോട്ടോകൾ ഇല്ലാതാക്കും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d ആൽബം ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ആൽബങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ആൽബങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">%d ആൽബങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ആൽബങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ആൽബങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d ഫോട്ടോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d ഇനം ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഇനങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഇനങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഇനങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഇനങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d വീഡിയോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത വീഡിയോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത വീഡിയോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">%d വീഡിയോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത വീഡിയോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത വീഡിയോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ആൽബം ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ആൽബങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ആൽബങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ആൽബങ്ങൾ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ആൽബങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ആൽബങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോകൾ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഫോട്ടോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഫോട്ടോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഇനം ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഇനങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഇനങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഇനങ്ങൾ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത ഇനങ്ങൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത ഇനങ്ങൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത വീഡിയോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത വീഡിയോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോകൾ ഇല്ലാതാക്കപ്പെടും. ബാക്കപ്പ് ചെയ്‌ത വീഡിയോകൾ 60 ദിവസം \"അടുത്തിടെ ഇല്ലാതാക്കിയവയിൽ\" നിലനിൽക്കും; ബാക്കപ്പ് ചെയ്യാത്ത വീഡിയോകൾ 30 ദിവസം നിലനിൽക്കും.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">തിരഞ്ഞെടുത്ത %d ഫോട്ടോ എക്സ്പോർട്ട് ചെയ്യുക</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത %d ഫോട്ടോകൾ എക്സ്പോർട്ട് ചെയ്യുക</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">%d ഫോട്ടോ എക്സ്പോർട്ട് ചെയ്യണോ?</item>
+        <item quantity="other">%d ഫോട്ടോകൾ എക്സ്പോർട്ട് ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">പ്രിയപ്പെട്ടവയിലേക്ക് %1$d ഇനം ചേർക്കാനായില്ല. വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="other">പ്രിയപ്പെട്ടവയിലേക്ക് %1$d ഇനങ്ങൾ ചേർക്കാനായില്ല. വീണ്ടും ശ്രമിക്കുക.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">ഫയൽ വലുപ്പം: %1$s. കണക്കാക്കിയ ഡൗൺലോഡ് സമയം: %2$s മിനിറ്റ്.</item>
+        <item quantity="other">ഫയൽ വലുപ്പം: %1$s. കണക്കാക്കിയ ഡൗൺലോഡ് സമയം: %2$s മിനിറ്റ്.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">ലഘുചിത്രം ഉപയോഗിക്കുക</item>
+        <item quantity="other">ലഘുചിത്രങ്ങൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">ഒറിജിനൽ ഉപയോഗിക്കുക</item>
+        <item quantity="other">ഒറിജിനലുകൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 ഫോട്ടോ ഒരു ലഘുചിത്രമാണ്. പകരം ഒറിജിനൽ ഫോട്ടോ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ചില ഫോട്ടോകൾ ലഘുചിത്രങ്ങളാണ്. പകരം നിങ്ങൾക്ക് ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">%s-ന്റെ ഒരു ഫോട്ടോ കണ്ടെത്തി. സുഗമമായ ആക്‌സസിന് \"കാർഡ് കേസ്\" എന്നതിലേക്ക് അത് നീക്കുക.</item>
+        <item quantity="other">%s-ന്റെ ഫോട്ടോകൾ കണ്ടെത്തി. സുഗമമായ ആക്‌സസിന് \"കാർഡ് കേസ്\" എന്നതിലേക്ക് അവ നീക്കുക.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s-ന്റെ ഫോട്ടോ \"കാർഡ് കേസ്\" എന്നതിലേക്ക് നീക്കി</item>
+        <item quantity="other">%1$s-ന്റെ ഫോട്ടോകൾ \"കാർഡ് കേസ്\" എന്നതിലേക്ക് നീക്കി</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d ടിക്കറ്റ്/രസീത്</item>
+        <item quantity="other">%1$d ടിക്കറ്റുകൾ/രസീതുകൾ</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">തിരഞ്ഞെടുത്ത ഇനം ആൽബത്തിൽ ഉള്ളതാണ്</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ഇനങ്ങൾ ആൽബത്തിൽ ഉള്ളതാണ്</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d ഇനം</item>
+        <item quantity="other">%d ഇനങ്ങൾ</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d ആളെ ലയിപ്പിച്ച് \"%2$s\"-ൽ നിന്ന് നീക്കംചെയ്യും.</item>
+        <item quantity="other">%1$d ആളുകളെ ലയിപ്പിച്ച് \"%2$s\"-ൽ നിന്ന് നീക്കംചെയ്യും.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d ഫോട്ടോ ലോഡ് ചെയ്യുന്നു, നീക്കാൻ കഴിയില്ല</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ലോഡ് ചെയ്യുന്നു, നീക്കാൻ കഴിയില്ല</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d ഇനം നീക്കി</item>
+        <item quantity="other">%d ഇനങ്ങൾ നീക്കി</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d ആളുകൾ</item>
+        <item quantity="other">%1$d ആളുകൾ</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">ഒറിജിനൽ ഫോട്ടോ ഡൗൺ‌ലോഡ് ചെയ്യുന്നു...</item>
+        <item quantity="other">ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺ‌ലോഡ് ചെയ്യുന്നു...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">ഫോട്ടോ പകർത്തി. ഈ ആൽബത്തിലേക്ക് വീഡിയോകൾ പകർത്താൻ കഴിയില്ല.</item>
+        <item quantity="other">ഫോട്ടോകൾ പകർത്തി. ഈ ആൽബത്തിലേക്ക് വീഡിയോകൾ പകർത്താൻ കഴിയില്ല.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">ഫോട്ടോ നീക്കി. ഈ ആൽബത്തിലേക്ക് വീഡിയോകൾ നീക്കാൻ കഴിയില്ല.</item>
+        <item quantity="other">ഫോട്ടോകൾ നീക്കി. ഈ ആൽബത്തിലേക്ക് വീഡിയോകൾ നീക്കാൻ കഴിയില്ല.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d ആൽബം ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">%d ആൽബങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d ഫോട്ടോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d ഇനം ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d വീഡിയോ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">%d വീഡിയോകൾ ഈ ഉപകരണത്തിൽ നിന്ന് ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ഫോട്ടോ ഇല്ലാതാക്കും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ഫോട്ടോകൾ ഇല്ലാതാക്കും ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ഫോട്ടോ ഇല്ലാതാക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ഫോട്ടോകൾ ഇല്ലാതാക്കും</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ആൽബം ഇല്ലാതാക്കും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ആൽബങ്ങൾ ഇല്ലാതാക്കും ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ആൽബം ഇല്ലാതാക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ആൽബങ്ങൾ ഇല്ലാതാക്കും</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ഇനം ഇല്ലാതാക്കും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ഇനങ്ങൾ ഇല്ലാതാക്കും ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ ഇനം ഇല്ലാതാക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ ഇനങ്ങൾ ഇല്ലാതാക്കും</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ആൽബം ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ആൽബങ്ങൾ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ആൽബം ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ആൽബങ്ങൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ബർസ്റ്റ് ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ബർസ്റ്റ് ഫോട്ടോകൾ ഇല്ലാതാക്കും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോകൾ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഫോട്ടോകൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഇനം ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഇനങ്ങൾ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d ഇനം ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d ഇനങ്ങൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോകൾ ഇല്ലാതാക്കപ്പെടും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തേക്ക് \"അടുത്തിടെ ഇല്ലാതാക്കിയവ\" എന്നതിൽ സൂക്ഷിക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോ ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, %d വീഡിയോകൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ വീഡിയോ ഇല്ലാതാക്കും. ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ വീഡിയോകൾ ഇല്ലാതാക്കും ഇല്ലാതാക്കിയ ഇനങ്ങൾ 30 ദിവസത്തിനുള്ളിൽ \"അടുത്തിടെ ഇല്ലാതാക്കിയ\" ആൽബത്തിൽ നിന്ന് വീണ്ടെടുക്കാനാകും.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റ് ഉപകരണങ്ങളിൽ നിന്നും, ഈ വീഡിയോ ഇല്ലാതാക്കും.</item>
+        <item quantity="other">ഈ ഉപകരണത്തിൽ നിന്നും, ക്ലൗഡിൽ നിന്നും, സമന്വയിപ്പിച്ച മറ്റുപകരണങ്ങളിൽ നിന്നും, ഈ വീഡിയോകൾ ഇല്ലാതാക്കും</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">%d ഫോട്ടോ റീസ്റ്റോർ ചെയ്യണോ?</item>
+        <item quantity="other">%d ഫോട്ടോകൾ റീസ്റ്റോർ ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">%d ഇനം റീസ്റ്റോർ ചെയ്യണോ?</item>
+        <item quantity="other">%d ഇനങ്ങൾ റീസ്റ്റോർ ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">%d വീഡിയോ റീസ്റ്റോർ ചെയ്യണോ?</item>
+        <item quantity="other">%d വീഡിയോകൾ റീസ്റ്റോർ ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d ഇനം റീസ്റ്റോർ ചെയ്യുക</item>
+        <item quantity="other">%d ഇനങ്ങൾ റീസ്റ്റോർ ചെയ്യുക</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d വീഡിയോ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു</item>
+        <item quantity="other">%d വീഡിയോകൾ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d വീഡിയോ സംരക്ഷിച്ചു</item>
+        <item quantity="other">%d വീഡിയോകൾ സംരക്ഷിച്ചു</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">ലഘുചിത്രം ഉപയോഗിക്കുക</item>
+        <item quantity="other">ലഘുചിത്രങ്ങൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">ഒറിജിനൽ ഉപയോഗിക്കുക</item>
+        <item quantity="other">ഒറിജിനലുകൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 ഫോട്ടോ ഒരു ലഘുചിത്രമാണ്. പകരം ഒറിജിനൽ ഫോട്ടോ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+        <item quantity="other">എല്ലാ തിരഞ്ഞെടുത്ത ചില ഫോട്ടോകൾ ലഘുചിത്രങ്ങളാണ്. പകരം നിങ്ങൾക്ക് ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">തിരഞ്ഞെടുത്ത ഇനം പ്രിവ്യൂ ചെയ്യുക (%1$d)</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ഇനങ്ങൾ പ്രിവ്യൂ ചെയ്യുക (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">1–%1$d ഫോട്ടോ തിരഞ്ഞെടുക്കുക</item>
+        <item quantity="other">1–%1$d ഫോട്ടോകൾ തിരഞ്ഞെടുക്കുക</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">ലഘുചിത്രം ഉപയോഗിക്കുക</item>
+        <item quantity="other">ലഘുചിത്രങ്ങൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">ഒറിജിനൽ ഉപയോഗിക്കുക</item>
+        <item quantity="other">ഒറിജിനലുകൾ ഉപയോഗിക്കുക</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 ഫോട്ടോ ഒരു ലഘുചിത്രമാണ്. പകരം ഒറിജിനൽ ഫോട്ടോ ഡൗൺലോഡ് ചെയ്ത് ഉപയോഗിക്കാം.</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ചില ഫോട്ടോകൾ ലഘുചിത്രങ്ങളാണ്. പകരം നിങ്ങൾക്ക് ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്ത് പങ്കിടാം.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">\"%2$s\" എന്ന പങ്കിട്ട ആൽബത്തിൽ നിന്ന് %1$d ഫോട്ടോ ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">\"%2$s\" എന്ന പങ്കിട്ട ആൽബത്തിൽ നിന്ന് %1$d ഫോട്ടോകൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">\"%2$s\" എന്ന പങ്കിട്ട ആൽബത്തിൽ നിന്ന് %1$d ഇനം ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">\"%2$s\" എന്ന പങ്കിട്ട ആൽബത്തിൽ നിന്ന് %1$d ഇനങ്ങൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">\"%2$s\" എന്ന പങ്കിട്ട ആൽബത്തിൽ നിന്ന് %1$d വീഡിയോ ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="other">\"%2$s\" എന്ന പങ്കിട്ട ആൽബത്തിൽ നിന്ന് %1$d വീഡിയോകൾ ഇല്ലാതാക്കപ്പെടും.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">%1$d ഇനം ഇല്ലാതാക്കുക</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">ഉപകരണ സ്റ്റോറേജ് കുറവായതിനാൽ %1$d ഇനം ഡൗൺലോഡ് ചെയ്യുന്നത് പരാജയപ്പെട്ടു.</item>
+        <item quantity="other">ഉപകരണ സ്റ്റോറേജ് കുറവായതിനാൽ %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്യുന്നത് പരാജയപ്പെട്ടു.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d ഇനം (%2$s) ശേഷിക്കുന്നു. മൊബൈൽ ഡാറ്റ ഉപയോഗിച്ച് ഡൗൺലോഡ് തുടരണോ?</item>
+        <item quantity="other">%1$d ഇനം (%2$s) ശേഷിക്കുന്നു. മൊബൈൽ ഡാറ്റ ഉപയോഗിച്ച് ഡൗൺലോഡ് തുടരണോ?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം ഡൗൺ‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ ഡൗൺ‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">ഒരു സമയത്ത് %d ചലന ഫോട്ടോ വരെ ഒരു വീഡിയോ ആയി സംരക്ഷിക്കാൻ കഴിയും</item>
+        <item quantity="other">ഒരു സമയത്ത് %d ചലന ഫോട്ടോകൾ വരെ ഒരു വീഡിയോ ആയി സംരക്ഷിക്കാൻ കഴിയും</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ഫോട്ടോ</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d വീഡിയോ</item>
+        <item quantity="other">%1$d വീഡിയോകൾ</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d ഇനം</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">പ്രിയപ്പെട്ടവയിൽ നിന്ന് %1$d ഇനം നീക്കംചെയ്യാനായില്ല. വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="other">പ്രിയപ്പെട്ടവയിൽ നിന്ന് %1$d ഇനങ്ങൾ നീക്കംചെയ്യാനായില്ല. വീണ്ടും ശ്രമിക്കുക.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">ഒരു ആർട്ട് വർക്ക് സൃഷ്ടിക്കാൻ ലളിതമായ ഒരു വസ്‌തു വരച്ച് അതിന് ചുറ്റും വൃത്തം വരയ്ക്കുക. ഉപയോഗ പരിധി: പ്രതിദിനം %1$d തവണ.</item>
+        <item quantity="other">ഒരു ആർട്ട് വർക്ക് സൃഷ്ടിക്കാൻ ലളിതമായ ഒരു വസ്‌തു വരച്ച് അതിന് ചുറ്റും വൃത്തം വരയ്ക്കുക. ഉപയോഗ പരിധി: പ്രതിദിനം %1$d തവണ.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d ചലന സ്റ്റിക്കർ സംരക്ഷിക്കാനായില്ല</item>
+        <item quantity="other">%d ചലന സ്‌റ്റിക്കറുകൾ സംരക്ഷിക്കാനായില്ല</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">നിങ്ങൾക്ക് 1–%1$d ഫോട്ടോ കൂടി തിരഞ്ഞെടുക്കാം</item>
+        <item quantity="other">നിങ്ങൾക്ക് 1–%1$d ഫോട്ടോകൾ കൂടി തിരഞ്ഞെടുക്കാം</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">നിങ്ങൾക്ക് 1–%1$d ഫോട്ടോകൾ കൂടി തിരഞ്ഞെടുക്കാം (%2$s)</item>
+        <item quantity="other">നിങ്ങൾക്ക് 1–%1$d ഫോട്ടോകൾ കൂടി തിരഞ്ഞെടുക്കാം (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">%d ചലന ഫോട്ടോ ഉൾപ്പെടെ</item>
+        <item quantity="other">%d ചലന ഫോട്ടോകൾ ഉൾപ്പെടെ</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">ഒറിജിനൽ ഫോട്ടോ ഡൗൺ‌ലോഡ് ചെയ്യുക</item>
+        <item quantity="other">ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺ‌ലോഡ് ചെയ്യുക</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">നിങ്ങളുടെ ഉപകരണത്തിലെ %1$d ഫോട്ടോ ഒരു ചെറിയ പതിപ്പാണ്. ഒറിജിനൽ പൂർണ്ണ റെസല്യൂഷനുള്ള ഫോട്ടോ (%2$s) ഡൗൺലോഡ് ചെയ്യണോ?</item>
+        <item quantity="other">നിങ്ങളുടെ ഉപകരണത്തിലെ %1$d ഫോട്ടോകൾ ചെറിയ പതിപ്പുകളാണ്. ഒറിജിനൽ പൂർണ റെസല്യൂഷൻ (%2$s) ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">%1$d ഒറിജിനൽ ഫോട്ടോ ഡൗൺ‌ലോഡ് ചെയ്യുന്നു</item>
+        <item quantity="other">%1$d ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺ‌ലോഡ് ചെയ്യുന്നു</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d ഫോട്ടോ</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d ഒറിജിനൽ ഫോട്ടോ ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല. ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്.</item>
+        <item quantity="other">%1$d ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല. ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല. ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല. ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">%1$d ഇനത്തിനായുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ഇന്റർനെറ്റ് കണക്ഷനില്ല.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾക്കായുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ഇന്റർനെറ്റ് കണക്ഷനില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d ഇനത്തിനായുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. Wi-Fi-യിലേക്ക് കണക്റ്റ് ചെയ്തിട്ടില്ല.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾക്കായുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. Wi-Fi-യിലേക്ക് കണക്റ്റ് ചെയ്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">ബാറ്ററി പവർ ലാഭിക്കാൻ %1$d ഇനങ്ങളുടെ അപ്‌ലോഡ് തൽക്കാലം നിർത്തി.</item>
+        <item quantity="other">ബാറ്ററി പവർ ലാഭിക്കാൻ %1$d ഇനങ്ങളുടെ അപ്‌ലോഡ് തൽക്കാലം നിർത്തി.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d ഇനത്തിനുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ഫോൺ വളരെ ചൂടാണ്.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾക്കുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ഫോൺ വളരെ ചൂടാണ്.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d ഇനത്തിനുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ക്ലൗഡ് അറ്റകുറ്റപ്പണിയിലാണ്.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾക്കുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ക്ലൗഡ് അറ്റകുറ്റപ്പണിയിലാണ്.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d ഇനത്തിനുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ടാബ്‌ലെറ്റ് വളരെ ചൂടാണ്.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾക്കുള്ള അപ്‌ലോഡ് തൽക്കാലം നിർത്തി. ടാബ്‌ലെറ്റ് വളരെ ചൂടാണ്.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">ക്ലൗഡിൽ നിന്ന് %1$d ഇനം സമന്വയിപ്പിക്കുന്നു</item>
+        <item quantity="other">ക്ലൗഡിൽ നിന്നും %1$d ഇനങ്ങൾ സമന്വയിപ്പിക്കുന്നു</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d ഫോട്ടോ</item>
+        <item quantity="other">%1$d ‌ഫോട്ടോകൾ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d വീഡിയോ</item>
+        <item quantity="other">%1$d വീഡിയോകൾ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല. നിങ്ങളുടെ ഫോൺ ചാർജ് ചെയ്യുക.</item>
+        <item quantity="other">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തില്ല. നിങ്ങളുടെ ഫോൺ ചാർജ് ചെയ്യുക.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനം ഡൗൺലോഡ് ചെയ്തിട്ടില്ല. തുടരുന്നതിന് പവറിൽ കണക്‌റ്റ് ചെയ്യുക.</item>
+        <item quantity="other">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തിട്ടില്ല. തുടരുന്നതിന് പവറിൽ കണക്‌റ്റ് ചെയ്യുക.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനം ഡൗൺലോഡ് ചെയ്തിട്ടില്ല.</item>
+        <item quantity="other">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">പവർ സേവിംഗ് മോഡ് ഓണാണ്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">പവർ സേവിംഗ് മോഡ് ഓണാണ്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">പവർ ലാഭിക്കൽ മോഡ് ഓണാണ്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്തിട്ടില്ല.</item>
+        <item quantity="other">പവർ ലാഭിക്കൽ മോഡ് ഓണാണ്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല.%2$s.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തില്ല. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഡൗൺലോഡ് ചെയ്‌തില്ല. %2$s അല്ലെങ്കിൽ %3$s.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തില്ല. %2$s അല്ലെങ്കിൽ %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം ഡൗൺ‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ ഡൗൺ‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം ഡൗൺ‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ ഡൗൺ‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">ക്ലൗഡ് സംഭരണം അപര്യാപ്‌തമാണ്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">ക്ലൗഡ് സംഭരണം അപര്യാപ്‌തമാണ്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല.</item>
+        <item quantity="other">ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനം ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്. %1$d ഒറിജിനൽ ഫോട്ടോ ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല.</item>
+        <item quantity="other">ഉപകരണ സ്റ്റോറേജ് അപര്യാപ്‌തമാണ്. %1$d ഒറിജിനൽ ഫോട്ടോകൾ ഡൗൺലോഡ് ചെയ്‌തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d ഫോട്ടോ സമന്വയിപ്പിച്ചിട്ടില്ല. ക്ലൗഡ് സ്‌റ്റോറേജ് നിറഞ്ഞിരിക്കുന്നു.</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല. ക്ലൗഡ് സ്‌റ്റോറേജ് നിറഞ്ഞിരിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d ഫോട്ടോ സമന്വയിപ്പിച്ചിട്ടില്ല. %2$s എന്നതിലും കുറവാണ് ബാറ്ററി എന്നതിനാൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല. %2$s എന്നതിലും കുറവാണ് ബാറ്ററി എന്നതിനാൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d ഫോട്ടോ സമന്വയിപ്പിച്ചിട്ടില്ല. പവർ ലാഭിക്കൽ മോഡിൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല. പവർ ലാഭിക്കൽ മോഡിൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">ക്ലൗഡ് സംഭരണം നിറഞ്ഞിരിക്കുന്നു. %1$d ഇനം അപ്‌ലോഡ് ചെയ്തില്ല.</item>
+        <item quantity="other">ക്ലൗഡ് സംഭരണം നിറഞ്ഞിരിക്കുന്നു. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല. നിങ്ങളുടെ ഫോൺ ചാർജ് ചെയ്യുക.</item>
+        <item quantity="other">ബാറ്ററി %1$s എന്നതിലും കുറവാണ്. %2$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല. നിങ്ങളുടെ ഫോൺ ചാർജ് ചെയ്യുക.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനം അപ്‌ലോഡ് ചെയ്തിട്ടില്ല. തുടരുന്നതിന് പവറിൽ കണക്‌റ്റ് ചെയ്യുക.</item>
+        <item quantity="other">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തിട്ടില്ല. തുടരുന്നതിന് പവറിൽ കണക്‌റ്റ് ചെയ്യുക.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനം അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.</item>
+        <item quantity="other">ബാറ്ററി %1$s-ത്തിലും കുറവാണ്. %2$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">പവർ സേവിംഗ് മോഡ് ഓണാണ്. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">പവർ സേവിംഗ് മോഡ് ഓണാണ്. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">പവർ ലാഭിക്കൽ മോഡ് ഓണാണ്. %1$d ഇനം അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.</item>
+        <item quantity="other">പവർ ലാഭിക്കൽ മോഡ് ഓണാണ്. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">ക്ലൗഡ് സ്റ്റോറേജ് നിറഞ്ഞു. %1$d ഇനം അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.</item>
+        <item quantity="other">ക്ലൗഡ് സ്റ്റോറേജ് നിറഞ്ഞു. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d വീഡിയോ സമന്വയിപ്പിച്ചിട്ടില്ല. ക്ലൗഡ് സ്‌റ്റോറേജ് നിറഞ്ഞിരിക്കുന്നു.</item>
+        <item quantity="other">%1$d വീഡിയോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല. ക്ലൗഡ് സ്‌റ്റോറേജ് നിറഞ്ഞിരിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d വീഡിയോ സമന്വയിപ്പിച്ചിട്ടില്ല. %2$s എന്നതിലും കുറവാണ് ബാറ്ററി എന്നതിനാൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+        <item quantity="other">%1$d വീഡിയോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല. %2$s എന്നതിലും കുറവാണ് ബാറ്ററി എന്നതിനാൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d വീഡിയോ സമന്വയിപ്പിച്ചിട്ടില്ല. പവർ ലാഭിക്കൽ മോഡിൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+        <item quantity="other">%1$d വീഡിയോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല. പവർ ലാഭിക്കൽ മോഡിൽ ക്ലൗഡ് സമന്വയം താൽക്കാലികമായി നിർത്തി.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d ഫോട്ടോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല.</item>
+        <item quantity="other">%1$d ഫോട്ടോ സമന്വയിപ്പിച്ചിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.%2$s.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തില്ല. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല. %2$s അല്ലെങ്കിൽ %3$s.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്തില്ല. %2$s അല്ലെങ്കിൽ %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് കണക്ഷനില്ല. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d വീഡിയോ സമന്വയിപ്പിച്ചിട്ടില്ല</item>
+        <item quantity="other">%1$d വീഡിയോകൾ സമന്വയിപ്പിച്ചിട്ടില്ല</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">നെറ്റ്‌വർക്ക് കണക്ഷൻ തടസപ്പെട്ടു. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">നെറ്റ്‌വർക്ക് പിശക്. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">സേവന പിശക്. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">സേവന പിശക്. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">സേവന പിശക്. %1$d ഇനം അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+        <item quantity="other">സേവന പിശക്. %1$d ഇനങ്ങൾ അപ്‌ലോഡ് ചെയ്‌തില്ല.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">%1$d ഇനം സമന്വയിപ്പിക്കുന്നു</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ സമന്വയിപ്പിക്കുന്നു</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">ക്ലൗഡിലേക്ക് %1$d ഇനം സമന്വയിപ്പിക്കുന്നു…</item>
+        <item quantity="other">ക്ലൗഡിലേക്ക് %1$d ഇനങ്ങൾ സമന്വയിപ്പിക്കുന്നു…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d വീഡിയോ</item>
+        <item quantity="other">%1$d വീഡിയോകൾ</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">ചില പ്ലാറ്റ്‌ഫോമുകൾ %d സെക്കൻഡിൽ കൂടുതൽ ദൈർഘ്യമുള്ള ചലന ഫോട്ടോകളെ പിന്തുണച്ചേക്കില്ല</item>
+        <item quantity="other">ചില പ്ലാറ്റ്‌ഫോമുകൾ %d സെക്കൻഡിൽ കൂടുതൽ ദൈർഘ്യമുള്ള ചലന ഫോട്ടോകളെ പിന്തുണച്ചേക്കില്ല</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">നിങ്ങൾക്ക് ഒരേസമയം %1$d ചലന ഫോട്ടോയിൽ പോപ്പ്ഔട്ട് ഉപയോഗിക്കാം</item>
+        <item quantity="other">നിങ്ങൾക്ക് ഒരേ സമയം %1$d ചലന ഫോട്ടോകളിൽ വരെ പോപ്പ്ഔട്ട് ഉപയോഗിക്കാം</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">%1$d സെക്കൻഡിൽ കൂടുതലുള്ള ചലന ഫോട്ടോകളെ പിന്തുണയ്ക്കില്ല</item>
+        <item quantity="other">%1$d സെക്കൻഡിൽ കൂടുതലുള്ള ചലന ഫോട്ടോകളെ പിന്തുണയ്ക്കില്ല</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">%d ഇനത്തിൽ കൂടുതൽ ഒരു സമയം വലിച്ചിടാൻ കഴിയില്ല</item>
+        <item quantity="other">%d ഇനങ്ങളിൽ കൂടുതൽ ഒരു സമയം വലിച്ചിടാൻ കഴിയില്ല</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d ഇനം ചേർക്കുന്നത് പരാജയപ്പെട്ടു</item>
+        <item quantity="other">%d ഇനങ്ങൾ ചേർക്കുന്നത് പരാജയപ്പെട്ടു</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d ഫോട്ടോ ലോഡ് ചെയ്യുകയാണ്, സ്വകാര്യമായി ക്രമീകരിക്കാനാകില്ല.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ലോഡ് ചെയ്യുകയാണ്, സ്വകാര്യമായി ക്രമീകരിക്കാനാകില്ല.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d മണിക്കൂർ</item>
+        <item quantity="other">%d മണിക്കൂര്‍</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d ഇനം</item>
+        <item quantity="other">%d ഇനങ്ങൾ</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d മിനിറ്റ്</item>
+        <item quantity="other">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d സെക്കൻഡ്</item>
+        <item quantity="other">%d സെക്കൻഡ്</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d സെക്കൻഡ്</item>
+        <item quantity="other">%d സെക്കൻഡ്</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d വീഡിയോ എഡിറ്റിംഗിനായി ഇനം ഇമ്പോർട്ട് ചെയ്യാൻ കഴിയില്ല</item>
+        <item quantity="other">%d ഇനങ്ങൾ വീഡിയോ എഡിറ്റിംഗിനായി ഇമ്പോർട്ട് ചെയ്യാൻ കഴിയില്ല</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">പേജ് %2$d-ൽ %1$d</item>
+        <item quantity="other">പേജ് %2$d-ൽ %1$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">ഒരു GIF-ന് %1$d-ല്‍ കൂടുതൽ ഫോട്ടോ തിരഞ്ഞെടുക്കരുത്</item>
+        <item quantity="other">ഒരു GIF-ന് %1$d-ല്‍ കൂടുതൽ ഫോട്ടോകൾ തിരഞ്ഞെടുക്കരുത്</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">%1$d സെക്കൻഡ് വരെയുള്ള ചലന ഫോട്ടോകളെ മാത്രമേ പിന്തുണയ്ക്കൂ</item>
+        <item quantity="other">%1$d സെക്കൻഡ് വരെയുള്ള ചലന ഫോട്ടോകളെ മാത്രമേ പിന്തുണയ്ക്കൂ</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">ഒരു GIF സൃഷ്ടിക്കാൻ കുറഞ്ഞത് %1$d ഫോട്ടോ എങ്കിലും തിരഞ്ഞെടുക്കുക</item>
+        <item quantity="other">ഒരു GIF സൃഷ്ടിക്കാൻ കുറഞ്ഞത് %1$d ഫോട്ടോകൾ വരെ തിരഞ്ഞെടുക്കുക</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">ഒരു GIF-ന് %1$d-ല്‍ കൂടുതൽ ഫോട്ടോ തിരഞ്ഞെടുക്കരുത്</item>
+        <item quantity="other">ഒരു GIF-ന് %1$d-ല്‍ കൂടുതൽ ഫോട്ടോകൾ തിരഞ്ഞെടുക്കരുത്</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">%1$d ഫോട്ടോ മാത്രമേ ഫോർമാറ്റ് ആവശ്യകതകൾ നിറവേറ്റുന്നുള്ളൂ</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ മാത്രമേ ഫോർമാറ്റ് ആവശ്യകതകൾ നിറവേറ്റുന്നുള്ളൂ</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d ഫോട്ടോ GIF-ൽ ഉൾപ്പെടുത്തില്ല</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ GIF-ൽ ഉൾപ്പെടുത്തില്ല</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d ഫോട്ടോ പിന്തുണയ്ക്കുന്നില്ല</item>
+        <item quantity="other">%1$dഫോട്ടോകള്‍ പിന്തുണയ്ക്കുന്നില്ല</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">\"Google ഫോട്ടോസ്\" എന്നതിൽ നിന്ന് %1$s ഇനം ലോഡ് ചെയ്യുന്നു…</item>
+        <item quantity="other">\"Google ഫോട്ടോസ്\" എന്നതിൽ നിന്ന് %1$s ഇനങ്ങൾ ലോഡ് ചെയ്യുന്നു…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">\"Google ഫോട്ടോസ്\" സ്റ്റോറേജ് അപര്യാപ്തമാണ്. %1$d ഇനം ബാക്കപ്പ് ചെയ്‌തിട്ടില്ല.</item>
+        <item quantity="other">\"Google ഫോട്ടോസ്\" സ്റ്റോറേജ് അപര്യാപ്തമാണ്. %1$d ഇനങ്ങൾ ബാക്കപ്പ് ചെയ്‌തിട്ടില്ല.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">%1$s ഇനം \"Google ഫോട്ടോസ്\" എന്നതിലേക്ക് ബാക്കപ്പ് ചെയ്യുന്നു...</item>
+        <item quantity="other">%1$s ഇനങ്ങൾ \"Google ഫോട്ടോസ്\" എന്നതിലേക്ക് ബാക്കപ്പ് ചെയ്യുന്നു...</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d ഇനം HeyTap ക്ലൗഡിലേക്ക് സമന്വയിപ്പിച്ചുകൊണ്ടിരിക്കുന്നു. ഇത് ഓഫാക്കുന്നത് യാന്ത്രിക സമന്വയം റദ്ദാക്കും. നിങ്ങളുടെ ഡാറ്റ സുരക്ഷിതമായി നിലനിർത്താൻ, സമന്വയം പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കാൻ ശുപാർശ ചെയ്യുന്നു.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ HeyTap ക്ലൗഡിലേക്ക് സമന്വയിപ്പിച്ചുകൊണ്ടിരിക്കുന്നു. ഇത് ഓഫാക്കുന്നത് യാന്ത്രിക സമന്വയം റദ്ദാക്കും. നിങ്ങളുടെ ഡാറ്റ സുരക്ഷിതമായി നിലനിർത്താൻ, സമന്വയം പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കാൻ ശുപാർശ ചെയ്യുന്നു.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">\"അടിക്കടി ഉപയോഗിക്കുന്നത്\" ലേക്ക് %d ആൽബം മാത്രമേ ചേർക്കാനാകൂ</item>
+        <item quantity="other">\"അടിക്കടി ഉപയോഗിക്കുന്നത്\" ലേക്ക് %d ആൽബം വരെ ചേർക്കാനാകും</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d ഉപകരണം കണ്ടെത്തി</item>
+        <item quantity="other">%1$d ഉപകരണങ്ങൾ കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d ദിവസം</item>
+        <item quantity="other">%1$d ദിവസം</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ഫോട്ടോ</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d വീഡിയോ</item>
+        <item quantity="other">%1$d വീഡിയോകൾ</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">%1$d സ്‌റ്റിക്കറിലധികം തിരഞ്ഞെടുക്കാനാവില്ല</item>
+        <item quantity="other">%1$d സ്‌റ്റിക്കറുകളിലധികം തിരഞ്ഞെടുക്കാനാവില്ല</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">NAS-ൽ നിന്ന് %1$d ഇനം ഇല്ലാതാക്കുക</item>
+        <item quantity="other">NAS-ൽ നിന്ന് %1$d ഇനങ്ങൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">ഡൗൺലോഡ് പൂർത്തിയായി. %1$d ഇനം ഡൗൺലോഡ് ചെയ്യാനായില്ല.</item>
+        <item quantity="other">ഡൗൺലോഡ് പൂർത്തിയായി. %1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്യാനായില്ല.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d ഇനം ഡൗൺലോഡ് ചെയ്തു.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ ഡൗൺലോഡ് ചെയ്തു.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">%2$d-ൽ %1$d ഡൗൺലോഡ് ചെയ്യുന്നു…</item>
+        <item quantity="other">%2$d-ൽ %1$d ഡൗൺലോഡ് ചെയ്യുന്നു…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">തിരഞ്ഞെടുത്ത ഏരിയ എങ്ങനെ എഡിറ്റ് ചെയ്യാനാണ് നിങ്ങൾ ആഗ്രഹിക്കുന്നത്?</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ഏരിയകൾ എങ്ങനെ എഡിറ്റ് ചെയ്യാനാണ് നിങ്ങൾ ആഗ്രഹിക്കുന്നത്?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">നിങ്ങൾക്ക് %d സ്‌റ്റിക്കർ വരെ ചേർക്കാം</item>
+        <item quantity="other">നിങ്ങൾക്ക് %d സ്‌റ്റിക്കറുകൾ വരെ ചേർക്കാം</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">സ്‌റ്റിക്കറുകളിൽ, നിങ്ങൾക്ക് %d ചലന സ്‌റ്റിക്കർ വരെ മാത്രമേ ചേർക്കാൻ കഴിയൂ. കൂടുതൽ സ്‌റ്റിക്കറുകൾ സ്റ്റാറ്റിക് സ്‌റ്റിക്കറുകളിലേക്ക് പരിവർത്തനം ചെയ്യും.</item>
+        <item quantity="other">സ്‌റ്റിക്കറുകളിൽ, നിങ്ങൾക്ക് %d ചലന സ്‌റ്റിക്കറുകൾ വരെ ചേർക്കാൻ കഴിയും. അധിക സ്‌റ്റിക്കറുകൾ സ്റ്റാറ്റിക് ആകും.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">എളുപ്പത്തിൽ പങ്കിടുന്നതിനായി എഡിറ്റ് ചെയ്ത പതിപ്പ് %d സെക്കൻഡിലേക്ക് പരിമിതപ്പെടുത്തിയിരിക്കുന്നു.</item>
+        <item quantity="other">എളുപ്പത്തിൽ പങ്കിടുന്നതിനായി എഡിറ്റ് ചെയ്ത പതിപ്പ് %d സെക്കൻഡിലേക്ക് പരിമിതപ്പെടുത്തിയിരിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">സ്‌റ്റിക്കറുകൾക്ക് %d സെക്കൻഡ് വരെ ദൈർഘ്യമാകാം</item>
+        <item quantity="other">സ്റ്റിക്കറുകൾക്ക് %d സെക്കൻഡ് വരെ ദൈർഘ്യമാകാം</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">സ്‌റ്റിക്കറുകൾക്ക് %d സെക്കൻഡ് വരെ മാത്രമേ ദൈർഘ്യമുണ്ടാകാവൂ.</item>
+        <item quantity="other">സ്റ്റിക്കറുകൾക്ക് %d സെക്കൻഡ് വരെ ദൈർഘ്യമാകാം.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">വീഡിയോകൾക്ക് %d സെക്കൻഡ് വരെ ദൈർഘ്യമാകാം</item>
+        <item quantity="other">വീഡിയോകൾക്ക് %d സെക്കൻഡ് വരെ ദൈർഘ്യമാകാം</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">തിരഞ്ഞെടുത്ത ഏരിയയിൽ നിങ്ങൾക്ക് എന്താണ് മാറ്റേണ്ടതെന്ന് വിവരിക്കുക</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ഏരിയകളിൽ നിങ്ങൾക്ക് എന്താണ് മാറ്റേണ്ടതെന്ന് വിവരിക്കുക</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">%1$d സെക്കൻഡിൽ റെക്കോർഡിംഗ് നിർത്തുന്നു</item>
+        <item quantity="other">%1$d സെക്കൻഡിൽ റെക്കോർഡിംഗ് നിർത്തുന്നു</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">നിങ്ങൾക്ക് %1$d ഏരിയ വരെ തിരഞ്ഞെടുക്കാം</item>
+        <item quantity="other">നിങ്ങൾക്ക് %1$d ഏരിയകൾ വരെ തിരഞ്ഞെടുക്കാം</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">%1$d സെക്കൻഡ് വരെയുള്ള ചലന ഫോട്ടോകളെ മാത്രമേ പിന്തുണയ്ക്കൂ</item>
+        <item quantity="other">%1$d സെക്കൻഡ് വരെയുള്ള ചലന ഫോട്ടോകളെ മാത്രമേ പിന്തുണയ്ക്കൂ</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">വലിയ ഫയൽ വലുപ്പം കാരണം പ്രതീക്ഷിക്കുന്ന കാത്തിരിപ്പ് സമയം %1$d മിനിറ്റാണ്</item>
+        <item quantity="other">വലിയ ഫയൽ വലുപ്പം കാരണം പ്രതീക്ഷിക്കുന്ന കാത്തിരിപ്പ് സമയം %1$d മിനിറ്റാണ്</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">തിരഞ്ഞെടുത്ത %d ഫോട്ടോ എക്സ്പോർട്ട് ചെയ്യുക</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത %d ഫോട്ടോകൾ എക്സ്പോർട്ട് ചെയ്യുക</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">%1$d മില്ലീമീറ്ററിനേക്കാൾ വലുതായിരിക്കണം</item>
+        <item quantity="other">%1$d മില്ലീമീറ്ററിനേക്കാൾ വലുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">%1$d പിക്‌സലിനേക്കാൾ വലുതായിരിക്കണം</item>
+        <item quantity="other">%1$d പിക്‌സലിനേക്കാൾ വലുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">%1$d മില്ലീമീറ്ററിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+        <item quantity="other">%1$d മില്ലീമീറ്ററിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">%1$d പിക്‌സലിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+        <item quantity="other">%1$d പിക്‌സലിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">%1$d KB-യേക്കാൾ വലുതായിരിക്കണം</item>
+        <item quantity="other">%1$d KB-യേക്കാൾ വലുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">%1$d KB-യേക്കാൾ ചെറുതായിരിക്കണം</item>
+        <item quantity="other">%1$d KB-യേക്കാൾ ചെറുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">%1$d മില്ലീമീറ്ററിനേക്കാൾ വലുതായിരിക്കണം</item>
+        <item quantity="other">%1$d മില്ലീമീറ്ററിനേക്കാൾ വലുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">%1$d പിക്‌സലിനേക്കാൾ വലുതായിരിക്കണം</item>
+        <item quantity="other">%1$d പിക്‌സലിനേക്കാൾ വലുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">%1$d മില്ലീമീറ്ററിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+        <item quantity="other">%1$d മില്ലീമീറ്ററിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">%1$d പിക്‌സലിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+        <item quantity="other">%1$d പിക്‌സലിനേക്കാൾ ചെറുതായിരിക്കണം</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">തിരഞ്ഞെടുത്ത %d ഫോട്ടോ മാത്രം സൂക്ഷിക്കുക</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത %d ഫോട്ടോ മാത്രം സൂക്ഷിക്കുക</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d ഇനം ഇല്ലാതാക്കുക</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d ഇനം ഇല്ലാതാക്കുക</item>
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d സ്‌റ്റിക്കർ ചേർക്കുന്നത് പരാജയപ്പെട്ടു</item>
+        <item quantity="other">%1$d സ്‌റ്റിക്കറുകൾ ചേർക്കുന്നത് പരാജയപ്പെട്ടു</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d സ്‌റ്റിക്കർ ചേർക്കുന്നത് പരാജയപ്പെട്ടു</item>
+        <item quantity="other">%d സ്‌റ്റിക്കറുകൾ ചേർക്കുന്നത് പരാജയപ്പെട്ടു</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s സ്‌റ്റിക്കർ ചേർത്തു</item>
+        <item quantity="other">%1$s സ്‌റ്റിക്കറുകൾ ചേർത്തു</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s സ്‌റ്റിക്കർ ചേർത്തു</item>
+        <item quantity="other">%1$s സ്‌റ്റിക്കറുകൾ ചേർത്തു</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d സ്‌റ്റിക്കർ ചേർത്തു</item>
+        <item quantity="other">%1$d സ്‌റ്റിക്കറുകൾ ചേർത്തു</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">AI റീമിക്സ് കൊളാഷിൽ, നിങ്ങൾക്ക് %1$d മോഷൻ സ്‌റ്റിക്കർ വരെ ചേർക്കാൻ കഴിയും. അതിൽ കൂടുതലായി ചേർക്കുന്ന സ്‌റ്റിക്കറുകൾ സ്റ്റാറ്റിക് ആയിരിക്കും.</item>
+        <item quantity="other">AI റീമിക്സ് കൊളാഷിൽ, നിങ്ങൾക്ക് %1$d ചലന സ്‌റ്റിക്കറുകൾ വരെ ചേർക്കാൻ കഴിയും. അതിൽ കൂടുതലായി ചേർക്കുന്ന സ്‌റ്റിക്കറുകൾ സ്റ്റാറ്റിക് ആയിരിക്കും.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">നിങ്ങൾക്ക് %1$d ചലന ഫോട്ടോ വരെ ചേർക്കാം</item>
+        <item quantity="other">നിങ്ങൾക്ക് %1$d ചലന ഫോട്ടോകൾ വരെ ചേർക്കാം</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">നിങ്ങൾക്ക് %1$d ഫോട്ടോ വരെ ചേർക്കാൻ കഴിയും</item>
+        <item quantity="other">നിങ്ങൾക്ക് %1$d ഫോട്ടോകൾ വരെ ചേർക്കാൻ കഴിയും</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">നിങ്ങളുടെ ഫോട്ടോകളിൽ നിന്ന് വസ്തുക്കൾ നീക്കംചെയ്യാൻ, റിമൂവർ പ്ലഗിൻ ഡൗൺലോഡ് ചെയ്യുക. ഫയൽ വലുപ്പം: %1$s. ഡൗൺലോഡ് ചെയ്യാൻ കണക്കാക്കിയ സമയം: %2$d മിനിറ്റ്.</item>
+        <item quantity="other">നിങ്ങളുടെ ഫോട്ടോകളിൽ നിന്ന് വസ്തുക്കൾ നീക്കംചെയ്യാൻ, റിമൂവർ പ്ലഗിൻ ഡൗൺലോഡ് ചെയ്യുക. ഫയൽ വലുപ്പം: %1$s. ഡൗൺലോഡ് ചെയ്യാൻ കണക്കാക്കിയ സമയം: %2$d മിനിറ്റ്.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">ഫയൽ വലുപ്പം: %1$d. കണക്കാക്കിയ ഡൗൺലോഡ് സമയം: %2$d.</item>
+        <item quantity="other">ഫയൽ വലുപ്പം: %1$d. കണക്കാക്കിയ ഡൗൺലോഡ് സമയം: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d ഫോട്ടോ പിന്തുണയ്ക്കുന്നില്ല</item>
+        <item quantity="other">%1$dഫോട്ടോ പിന്തുണയ്ക്കുന്നില്ല</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d/%2$d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d ആൽബം തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d ആൽബം തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d വീഡിയോ തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d ‌വീഡിയോ തിര.</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">%1$d-ൽ കൂടുതൽ സ്‌റ്റിക്കർ ചേർക്കാൻ കഴിയില്ല</item>
+        <item quantity="other">%1$d-ൽ കൂടുതൽ സ്റ്റിക്കറുകൾ ചേർക്കാൻ കഴിയില്ല</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">%1$d ഇനം മാത്രമേ തിരഞ്ഞെടുക്കാനാകൂ</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ വരെ തിരഞ്ഞെടുക്കാം</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d ഫോട്ടോ ലോഡ് ചെയ്യുകയാണ്, ഇല്ലാതാക്കാനാകില്ല.</item>
+        <item quantity="other">%d ഫോട്ടോകൾ ലോഡ് ചെയ്യുകയാണ്, ഇല്ലാതാക്കാനാകില്ല.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d ഇനം ഇല്ലാതാക്കുന്നത് പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="other">%1$d ഇനങ്ങൾ ഇല്ലാതാക്കുന്നത് പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">%d സബ്‌ജക്റ്റ് നീക്കംചെയ്യണോ?</item>
+        <item quantity="other">%d സബ്‌ജക്റ്റുകൾ നീക്കംചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d ഫോട്ടോ</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">നിങ്ങൾക്ക് %1$d ചലന സ്‌റ്റിക്കർ മാത്രമേ ചേർക്കാൻ കഴിയൂ. അധിക സ്‌റ്റിക്കറുകൾ സ്റ്റാറ്റിക് ആയി കാണിക്കും.</item>
+        <item quantity="other">നിങ്ങൾക്ക് %1$d ചലന സ്‌റ്റിക്കറുകൾ വരെ ചേർക്കാം. അധിക സ്‌റ്റിക്കറുകൾ സ്റ്റാറ്റിക് ആയി കാണിക്കും.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">ഈ ആപ്പിലേക്ക് %d ഇനം മാത്രമേ പങ്കിടാൻ കഴിയൂ</item>
+        <item quantity="other">ഈ ആപ്പിലേക്ക് %d ഇനങ്ങൾ വരെ പങ്കിടാം</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">%d ഇനം പങ്കിടുക</item>
+        <item quantity="other">%d ഇനങ്ങൾ പങ്കിടുക</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">%d ഫോട്ടോ പങ്കിടുക</item>
+        <item quantity="other">%d ഫോട്ടോകൾ പങ്കിടുക</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">%d വീഡിയോ പങ്കിടുക</item>
+        <item quantity="other">%d വീഡിയോകൾ പങ്കിടുക</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">%d നിമിഷം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="other">%d നിമിഷങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d സ്റ്റോറി, നിങ്ങൾക്കായി തയ്യാറാക്കിയത്.</item>
+        <item quantity="other">%d സ്റ്റോറികൾ, നിങ്ങൾക്കായി തയ്യാറാക്കിയത്.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">%d ഡിഗ്രി തിരിക്കുക</item>
+        <item quantity="other">%d ഡിഗ്രി തിരിക്കുക</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">നിങ്ങൾക്ക് %s ഫയൽ മാത്രമേ ഇമ്പോർട്ട് ചെയ്യാൻ കഴിയൂ</item>
+        <item quantity="other">നിങ്ങൾക്ക് %s ഫയലുകൾ വരെ ഇമ്പോർട്ട് ചെയ്യാൻ കഴിയും</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1d ഇനം ചേർക്കുക</item>
+        <item quantity="other">%1d ഇനങ്ങൾ ചേർക്കുക</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">%s LUT ഫയൽ വരെ ഇമ്പോർട്ട് ചെയ്യാൻ കഴിയും</item>
+        <item quantity="other">%s LUT ഫയലുകൾ വരെ ഇമ്പോർട്ട് ചെയ്യാൻ കഴിയും</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">%d ഫോട്ടോയിൽ കൂടുതൽ ചേർ‌ക്കാൻ‌ കഴിയില്ല</item>
+        <item quantity="other">%d ഫോട്ടോകളിൽ കൂടുതൽ ചേർ‌ക്കാൻ‌ കഴിയില്ല</item>
+    </plurals>
+</resources>

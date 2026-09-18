@@ -1,0 +1,470 @@
+.class public final Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1;
+.super Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+.source "TapManifest.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/heytap/nearx/protobuff/wire/ProtoAdapter<",
+        "Lcom/heytap/nearx/tangramconfig/bean/TapManifest;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000-\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006*\u0001\u0000\u0008\n\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u001f\u0010\n\u001a\u00020\t2\u0006\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0017\u0010\u000e\u001a\u00020\u00022\u0006\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0017\u0010\u0010\u001a\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u0012"
+    }
+    d2 = {
+        "com/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1",
+        "Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;",
+        "Lcom/heytap/nearx/tangramconfig/bean/TapManifest;",
+        "value",
+        "",
+        "encodedSize",
+        "(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)I",
+        "Lcom/oplus/aiunit/vision/gtz;",
+        "writer",
+        "",
+        "encode",
+        "(Lcom/oplus/aiunit/vision/gtz;Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)V",
+        "Lcom/oplus/aiunit/vision/ftz;",
+        "reader",
+        "decode",
+        "(Lcom/oplus/aiunit/vision/ftz;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;",
+        "redact",
+        "(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;",
+        "cloudconfig-proto"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lcom/heytap/nearx/protobuff/wire/FieldEncoding;Ljava/lang/Class;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/heytap/nearx/protobuff/wire/FieldEncoding;",
+            "Ljava/lang/Class<",
+            "Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;-><init>(Lcom/heytap/nearx/protobuff/wire/FieldEncoding;Ljava/lang/Class;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public decode(Lcom/oplus/aiunit/vision/ftz;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+    .locals 12
+
+    const-string p0, "reader"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    new-instance v1, Lkotlin/jvm/internal/Ref$ObjectRef;
+
+    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+
+    .line 3
+    new-instance v3, Lkotlin/jvm/internal/Ref$ObjectRef;
+
+    invoke-direct {v3}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+
+    .line 4
+    new-instance v4, Ljava/util/ArrayList;
+
+    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
+
+    .line 5
+    new-instance v5, Lkotlin/jvm/internal/Ref$ObjectRef;
+
+    invoke-direct {v5}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+
+    .line 6
+    new-instance v6, Lkotlin/jvm/internal/Ref$ObjectRef;
+
+    invoke-direct {v6}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+
+    .line 7
+    new-instance v7, Lkotlin/jvm/internal/Ref$ObjectRef;
+
+    invoke-direct {v7}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+
+    .line 8
+    new-instance v0, Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1$decode$unknownFields$1;
+
+    move-object v2, p1
+
+    invoke-direct/range {v0 .. v7}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1$decode$unknownFields$1;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lcom/oplus/aiunit/vision/ftz;Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/util/List;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+
+    invoke-static {v2, v0}, Lcom/heytap/nearx/tangramconfig/bean/WireUtilKt;->forEachTag(Lcom/oplus/aiunit/vision/ftz;Lkotlin/jvm/functions/Function1;)Lokio/ByteString;
+
+    move-result-object v11
+
+    move-object p0, v7
+
+    move-object v7, v4
+
+    .line 9
+    new-instance v4, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    .line 10
+    iget-object p1, v1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+
+    check-cast p1, Ljava/lang/String;
+
+    .line 11
+    iget-object v0, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Integer;
+
+    .line 12
+    iget-object v1, v5, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+
+    move-object v8, v1
+
+    check-cast v8, Ljava/lang/String;
+
+    .line 13
+    iget-object v1, v6, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+
+    move-object v9, v1
+
+    check-cast v9, Ljava/lang/Boolean;
+
+    .line 14
+    iget-object p0, p0, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
+
+    move-object v10, p0
+
+    check-cast v10, Ljava/lang/Integer;
+
+    move-object v5, p1
+
+    move-object v6, v0
+
+    .line 15
+    invoke-direct/range {v4 .. v11}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;-><init>(Ljava/lang/String;Ljava/lang/Integer;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Integer;Lokio/ByteString;)V
+
+    return-object v4
+.end method
+
+.method public bridge synthetic decode(Lcom/oplus/aiunit/vision/ftz;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1;->decode(Lcom/oplus/aiunit/vision/ftz;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public encode(Lcom/oplus/aiunit/vision/gtz;Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)V
+    .locals 4
+
+    const-string p0, "writer"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "value"
+
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    sget-object p0, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->STRING:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    invoke-virtual {p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getArtifactId()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p0, p1, v1, v0}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodeWithTag(Lcom/oplus/aiunit/vision/gtz;ILjava/lang/Object;)V
+
+    .line 3
+    sget-object v0, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->INT32:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    const/4 v1, 0x2
+
+    invoke-virtual {p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getArtifactVersion()Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p1, v1, v2}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodeWithTag(Lcom/oplus/aiunit/vision/gtz;ILjava/lang/Object;)V
+
+    .line 4
+    sget-object v1, Lcom/heytap/nearx/tangramconfig/bean/PluginInfo;->ADAPTER:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    invoke-virtual {v1}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->asRepeated()Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    move-result-object v1
+
+    const/4 v2, 0x3
+
+    invoke-virtual {p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getPluginList()Ljava/util/List;
+
+    move-result-object v3
+
+    invoke-virtual {v1, p1, v2, v3}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodeWithTag(Lcom/oplus/aiunit/vision/gtz;ILjava/lang/Object;)V
+
+    const/4 v1, 0x4
+
+    .line 5
+    invoke-virtual {p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getExtInfo()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {p0, p1, v1, v2}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodeWithTag(Lcom/oplus/aiunit/vision/gtz;ILjava/lang/Object;)V
+
+    .line 6
+    sget-object p0, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->BOOL:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    const/4 v1, 0x5
+
+    invoke-virtual {p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->isEnable()Ljava/lang/Boolean;
+
+    move-result-object v2
+
+    invoke-virtual {p0, p1, v1, v2}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodeWithTag(Lcom/oplus/aiunit/vision/gtz;ILjava/lang/Object;)V
+
+    const/4 p0, 0x6
+
+    .line 7
+    invoke-virtual {p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getExceptionStateCode()Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {v0, p1, p0, v1}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodeWithTag(Lcom/oplus/aiunit/vision/gtz;ILjava/lang/Object;)V
+
+    .line 8
+    invoke-virtual {p2}, Lcom/heytap/nearx/protobuff/wire/Message;->unknownFields()Lokio/ByteString;
+
+    move-result-object p0
+
+    invoke-virtual {p1, p0}, Lcom/oplus/aiunit/vision/gtz;->c(Lokio/ByteString;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic encode(Lcom/oplus/aiunit/vision/gtz;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p2, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    invoke-virtual {p0, p1, p2}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1;->encode(Lcom/oplus/aiunit/vision/gtz;Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)V
+
+    return-void
+.end method
+
+.method public encodedSize(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)I
+    .locals 5
+
+    const-string p0, "value"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    sget-object p0, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->STRING:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getArtifactId()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p0, v1, v0}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    .line 3
+    sget-object v1, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->INT32:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    const/4 v2, 0x2
+
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getArtifactVersion()Ljava/lang/Integer;
+
+    move-result-object v3
+
+    invoke-virtual {v1, v2, v3}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v2
+
+    add-int/2addr v2, v0
+
+    .line 4
+    sget-object v0, Lcom/heytap/nearx/tangramconfig/bean/PluginInfo;->ADAPTER:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    invoke-virtual {v0}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->asRepeated()Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    move-result-object v0
+
+    const/4 v3, 0x3
+
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getPluginList()Ljava/util/List;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v3, v4}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v0, v2
+
+    const/4 v2, 0x4
+
+    .line 5
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getExtInfo()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {p0, v2, v3}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    .line 6
+    sget-object v0, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->BOOL:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    const/4 v2, 0x5
+
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->isEnable()Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v2, v3}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result v0
+
+    add-int/2addr v0, p0
+
+    const/4 p0, 0x6
+
+    .line 7
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getExceptionStateCode()Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-virtual {v1, p0, v2}, Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;->encodedSizeWithTag(ILjava/lang/Object;)I
+
+    move-result p0
+
+    add-int/2addr p0, v0
+
+    .line 8
+    invoke-virtual {p1}, Lcom/heytap/nearx/protobuff/wire/Message;->unknownFields()Lokio/ByteString;
+
+    move-result-object p1
+
+    const-string v0, "value.unknownFields()"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-static {p1}, Lcom/heytap/nearx/tangramconfig/bean/Okio_api_250Kt;->sizes(Lokio/ByteString;)I
+
+    move-result p1
+
+    add-int/2addr p1, p0
+
+    return p1
+.end method
+
+.method public bridge synthetic encodedSize(Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    invoke-virtual {p0, p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1;->encodedSize(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public redact(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+    .locals 11
+
+    const-string p0, "value"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    invoke-virtual {p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->getPluginList()Ljava/util/List;
+
+    move-result-object p0
+
+    sget-object v0, Lcom/heytap/nearx/tangramconfig/bean/PluginInfo;->ADAPTER:Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;
+
+    invoke-static {p0, v0}, Lcom/heytap/nearx/tangramconfig/bean/WireUtilKt;->redactElements(Ljava/util/List;Lcom/heytap/nearx/protobuff/wire/ProtoAdapter;)Ljava/util/List;
+
+    move-result-object v4
+
+    .line 3
+    sget-object v8, Lokio/ByteString;->EMPTY:Lokio/ByteString;
+
+    const/16 v9, 0x3b
+
+    const/4 v10, 0x0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    move-object v1, p1
+
+    .line 4
+    invoke-static/range {v1 .. v10}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;->copy$default(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;Ljava/lang/String;Ljava/lang/Integer;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Integer;Lokio/ByteString;ILjava/lang/Object;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public bridge synthetic redact(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    invoke-virtual {p0, p1}, Lcom/heytap/nearx/tangramconfig/bean/TapManifest$Companion$ADAPTER$1;->redact(Lcom/heytap/nearx/tangramconfig/bean/TapManifest;)Lcom/heytap/nearx/tangramconfig/bean/TapManifest;
+
+    move-result-object p0
+
+    return-object p0
+.end method

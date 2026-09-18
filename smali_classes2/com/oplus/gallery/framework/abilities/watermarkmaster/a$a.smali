@@ -1,0 +1,160 @@
+.class public final Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;
+.super Ljava/lang/Object;
+.source "WatermarkStyleCache.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/gallery/framework/abilities/watermarkmaster/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field public final a:Lcom/oplus/aiunit/vision/qmb0;
+
+.field public final b:Z
+
+
+# direct methods
+.method public constructor <init>(Lcom/oplus/aiunit/vision/qmb0;Z)V
+    .locals 1
+
+    .line 1
+    const-string/jumbo v0, "styleSource"
+
+    .line 4
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 10
+    iput-object p1, p0, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->a:Lcom/oplus/aiunit/vision/qmb0;
+
+    .line 12
+    iput-boolean p2, p0, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->b:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    if-eqz p1, :cond_1
+
+    .line 7
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v1, 0x0
+
+    .line 13
+    :goto_0
+    const-class v2, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;
+
+    .line 15
+    invoke-static {v2, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_2
+
+    return v2
+
+    .line 23
+    :cond_2
+    const-string/jumbo v1, "null cannot be cast to non-null type com.oplus.gallery.framework.abilities.watermarkmaster.WatermarkStyleCache.CacheKey"
+
+    .line 26
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 29
+    check-cast p1, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;
+
+    .line 31
+    iget-object v1, p0, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->a:Lcom/oplus/aiunit/vision/qmb0;
+
+    .line 33
+    iget-object v3, p1, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->a:Lcom/oplus/aiunit/vision/qmb0;
+
+    .line 35
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_3
+
+    return v2
+
+    .line 42
+    :cond_3
+    iget-boolean p0, p0, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->b:Z
+
+    .line 44
+    iget-boolean p1, p1, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->b:Z
+
+    if-eq p0, p1, :cond_4
+
+    return v2
+
+    :cond_4
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->a:Lcom/oplus/aiunit/vision/qmb0;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 8
+    .line 9
+    iget-boolean p0, p0, Lcom/oplus/gallery/framework/abilities/watermarkmaster/a$a;->b:Z
+
+    .line 10
+    .line 11
+    invoke-static {p0}, Ljava/lang/Boolean;->hashCode(Z)I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p0
+
+    .line 15
+    add-int/2addr p0, v0
+
+    .line 16
+    return p0
+.end method

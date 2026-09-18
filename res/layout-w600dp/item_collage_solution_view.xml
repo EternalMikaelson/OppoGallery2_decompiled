@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/collage_solution_item_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/collage_solution_bg" android:background="@drawable/collage_solution_item_unselected_bg" android:layout_width="@dimen/collage_solution_item_width" android:layout_height="@dimen/collage_solution_item_height" />
+    <com.coui.appcompat.imageview.COUIRoundImageView android:layout_gravity="center" android:id="@id/collage_solution_poster_image_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" coui:couiBorderRadius="@dimen/collage_solution_image_item_radius" coui:couiHasBorder="true" coui:couiType="round" />
+    <ImageView android:layout_gravity="center" android:id="@id/collage_solution_image_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="center" android:id="@id/collage_details_menu_item_mask" android:background="@drawable/collage_solution_item_selected_mask" android:visibility="gone" android:layout_width="@dimen/collage_solution_item_selected_bg_width" android:layout_height="@dimen/collage_solution_item_selected_bg_height" android:alpha="0.4" />
+    <ImageView android:layout_gravity="center" android:id="@id/collage_details_menu_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/collage_solution_item_details_menu" />
+    <View android:layout_gravity="center" android:id="@id/collage_solution_selected_bg" android:background="@drawable/collage_solution_item_selected_bg" android:layout_width="@dimen/collage_solution_item_selected_bg_width" android:layout_height="@dimen/collage_solution_item_selected_bg_height" />
+</FrameLayout>

@@ -1,0 +1,27 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/x88;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+
+# direct methods
+.method public static a(ILjava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:id="@id/photo_editor_ai_composition_thumbnail_item_root" android:background="@color/picture3d_editor_background_editable" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/photo_editor_ai_composition_thumbnail_list_space" android:layout_marginEnd="@dimen/photo_editor_ai_composition_thumbnail_list_space" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.photoeditor.editingvvm.aicomposition.cropselector.RatioFrameLayout android:layout_gravity="center|top" android:id="@id/ai_composition_thumbnail_container" android:padding="@dimen/photo_editor_ai_composition_thumbnail_bound_padding" android:layout_width="wrap_content" android:layout_height="@dimen/photo_editor_ai_composition_thumbnail_container_height">
+        <ImageView android:id="@id/editor_ai_composition_thumbnail_item_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/editor_ai_composition_restore_container" android:background="@color/photo_editor_ai_composition_reset_bg_color" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/editor_ai_composition_reset_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_editor_ic_ai_composition_reset" android:contentDescription="@null" />
+        </FrameLayout>
+    </com.oplus.gallery.photoeditor.editingvvm.aicomposition.cropselector.RatioFrameLayout>
+</FrameLayout>

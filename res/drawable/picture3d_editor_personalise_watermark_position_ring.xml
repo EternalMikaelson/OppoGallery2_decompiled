@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/picture3d_editor_personalise_composition_list_watermark_item_ring_border" android:color="@color/white" />
+    <corners android:radius="@dimen/picture3d_editor_personalise_composition_list_watermark_item_ring_border_radius" />
+</shape>

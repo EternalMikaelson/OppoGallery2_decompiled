@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:id="@id/layer_icon" android:height="@dimen/common_toolbar_overflow_item_size" android:width="@dimen/common_toolbar_overflow_item_size" android:drawable="@drawable/main_menu_ic_more" />
+    <item android:id="@id/layer_mask" android:height="@dimen/common_toolbar_overflow_item_size" android:width="@dimen/common_toolbar_overflow_item_size" android:drawable="@drawable/main_menu_ic_mask" />
+</layer-list>

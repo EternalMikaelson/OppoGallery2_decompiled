@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/base_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.videoeditorpage.memories.engine.GalleryEditorVideoView android:gravity="center" android:id="@id/video_engine_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.oplus.gallery.videoeditorpage.memories.ui.VideoSubTitleEditTextView android:id="@id/gallery_video_subtitle_text" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.oplus.gallery.videoeditorpage.memories.engine.GalleryEditorVideoView>
+    <com.oplus.gallery.videoeditorpage.memories.app.ControlBarView android:id="@id/main_control_view" android:background="@color/videoeditor_video_editor_background_color_edit" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" />
+</RelativeLayout>

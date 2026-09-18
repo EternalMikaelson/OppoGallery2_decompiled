@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/dp_232" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplusos.vfxsdk.doodleengine.view.CustomizeScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/DeToolkitScrollViewStyle">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.coui.appcompat.textview.COUITextView android:id="@id/title" android:visibility="gone" android:text="@string/de_toolkit_pointed" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeToolkitPenPopupText" />
+            <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/rv_graphics_content" android:paddingTop="@dimen/dp_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dp_8" android:paddingEnd="@dimen/dp_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+            <FrameLayout android:id="@id/iv_handwriting_container" android:background="@drawable/de_toolkit_handwriting_preview_bg" android:layout_width="@dimen/dp_208" android:layout_height="@dimen/dp_80" android:layout_marginTop="@dimen/dp_12" android:forceDarkAllowed="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rv_graphics_content">
+                <ImageView android:id="@id/iv_handwriting_preview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+                <ImageView android:layout_gravity="center" android:id="@id/iv_eraser_preview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+            </FrameLayout>
+            <Space android:id="@id/space_top" android:layout_width="match_parent" android:layout_height="@dimen/dp_12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_handwriting_container" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/eraser_type_container" android:paddingBottom="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space_top" style="@style/DeToolkitPenPopupContainer">
+                <RelativeLayout android:id="@id/eraser_type_tv_container" style="@style/DeToolkitPenPopupTextContainer">
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_eraser_type" android:text="@string/de_toolkit_eraser_type" style="@style/DeToolkitPenPopupTextLeft" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40" android:layout_marginTop="@dimen/dp_5" app:layout_constraintTop_toBottomOf="@id/eraser_type_tv_container">
+                    <com.coui.appcompat.textview.COUITextView android:gravity="center" android:id="@id/tv_eraser_line" android:layout_width="@dimen/dp_66" android:text="@string/de_toolkit_stroke_erase" android:layout_marginStart="@dimen/dp_11" style="@style/DeToolkitEraserChip" />
+                    <com.coui.appcompat.textview.COUITextView android:gravity="center" android:id="@id/tv_eraser_point" android:layout_width="@dimen/dp_66" android:text="@string/de_toolkit_erase_fine" android:layout_marginStart="@dimen/dp_5" style="@style/DeToolkitEraserChip" />
+                    <com.coui.appcompat.textview.COUITextView android:gravity="center" android:id="@id/tv_eraser_all" android:layout_width="@dimen/dp_66" android:text="@string/de_toolkit_erase_all" android:layout_marginStart="@dimen/dp_5" android:layout_marginEnd="@dimen/dp_11" style="@style/DeToolkitEraserChip" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pen_thickness_container" android:paddingBottom="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/eraser_type_container" style="@style/DeToolkitPenPopupContainer">
+                <RelativeLayout android:id="@id/pen_thickness_tv_container" style="@style/DeToolkitPenPopupTextContainer">
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pen_thickness_status" style="@style/DeToolkitPenPopupTextRight" />
+                    <Space android:id="@id/tv_pen_thickness_space" android:layout_toStartOf="@id/tv_pen_thickness_status" style="@style/DeToolkitPenPopupTextSpace" />
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pen_thickness" android:text="@string/de_toolkit_brush_thickness" android:layout_toStartOf="@id/tv_pen_thickness_space" style="@style/DeToolkitPenPopupTextLeft" />
+                </RelativeLayout>
+                <com.coui.appcompat.seekbar.COUISectionSeekBar android:id="@id/de_toolkit_pen_thickness_seekbar" app:couiSeekBarProgressColor="?de_toolkit_pop_seekbar_color" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pen_thickness_tv_container" style="@style/DeToolkitPenPopupSeekbar" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pen_point_container" android:paddingBottom="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pen_thickness_container" style="@style/DeToolkitPenPopupContainer">
+                <RelativeLayout android:id="@id/tv_pen_point_container" style="@style/DeToolkitPenPopupTextContainer">
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pointed" android:text="@string/de_toolkit_pointed" style="@style/DeToolkitPenPopupTextRight" />
+                    <Space android:id="@id/tv_pointed_space" android:layout_toStartOf="@id/tv_pointed" style="@style/DeToolkitPenPopupTextSpace" />
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pen_point" android:text="@string/de_toolkit_pen_point" android:layout_toStartOf="@id/tv_pointed_space" style="@style/DeToolkitPenPopupTextLeft" />
+                </RelativeLayout>
+                <com.coui.appcompat.seekbar.COUISectionSeekBar android:id="@id/de_toolkit_pen_point_seekbar" android:layout_height="@dimen/dp_20" app:couiSeekBarProgressColor="?de_toolkit_pop_seekbar_color" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_pen_point_container" style="@style/DeToolkitPenPopupSeekbar" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pressure_sensitivity_container" android:paddingBottom="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pen_point_container" style="@style/DeToolkitPenPopupContainer">
+                <RelativeLayout android:id="@id/tv_pressure_sensitivity_container" style="@style/DeToolkitPenPopupTextContainer">
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pressure_sensitivity_value" style="@style/DeToolkitPenPopupTextRight" />
+                    <Space android:id="@id/tv_pressure_sensitivity_space" android:layout_toStartOf="@id/tv_pressure_sensitivity_value" style="@style/DeToolkitPenPopupTextSpace" />
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pressure_sensitivity" android:text="@string/de_pressure_sensitivity" android:layout_toStartOf="@id/tv_pressure_sensitivity_space" style="@style/DeToolkitPenPopupTextLeft" />
+                </RelativeLayout>
+                <com.coui.appcompat.seekbar.COUISectionSeekBar android:id="@id/de_toolkit_pressure_sensitivity_seekbar" app:couiSeekBarProgressColor="?de_toolkit_pop_seekbar_color" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_pressure_sensitivity_container" style="@style/DeToolkitPenPopupSeekbar" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/alpha_container" android:paddingBottom="@dimen/dp_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pressure_sensitivity_container" style="@style/DeToolkitPenPopupContainer">
+                <RelativeLayout android:id="@id/tv_alpha_container" style="@style/DeToolkitPenPopupTextContainer">
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_alpha_value" style="@style/DeToolkitPenPopupTextRight" />
+                    <Space android:id="@id/tv_alpha_space" android:layout_toStartOf="@id/tv_alpha_value" style="@style/DeToolkitPenPopupTextSpace" />
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_alpha" android:text="@string/de_toolkit_text_alpha_new" android:layout_toStartOf="@id/tv_alpha_space" style="@style/DeToolkitPenPopupTextLeft" />
+                </RelativeLayout>
+                <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/de_toolkit_alpha_seekbar" android:background="@drawable/de_toolkit_pen_seekbar_bg" android:layout_width="0.0dp" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_8" android:progress="0" android:thumb="@drawable/de_toolkit_seekbar_point" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:progressTint="@android:color/transparent" android:progressBackgroundTint="@android:color/transparent" android:layout_marginHorizontal="@dimen/dp_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_alpha_container" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pen_color_container" android:paddingBottom="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/alpha_container" style="@style/DeToolkitPenPopupContainer">
+                <RelativeLayout android:id="@id/pen_color_tv_container" style="@style/DeToolkitPenPopupTextContainer">
+                    <com.coui.appcompat.textview.COUITextView android:id="@id/tv_pen_color" android:text="@string/de_toolkit_color" style="@style/DeToolkitPenPopupTextLeft" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pen_color_tv_container">
+                    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/pen_color_btn_1" android:layout_marginEnd="@dimen/dp_20" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+                    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/pen_color_btn_2" android:layout_marginEnd="@dimen/dp_20" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+                    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/pen_color_btn_3" android:layout_marginEnd="@dimen/dp_20" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+                    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/pen_color_btn_4" android:forceDarkAllowed="false" style="@style/DeToolkitPaletteRainbowBtn" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:id="@id/straight_line__container_divider" android:background="#cccccc" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginHorizontal="@dimen/dp_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pen_color_container" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/straight_line_drawing_container" android:paddingHorizontal="@dimen/dp_12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/straight_line__container_divider" style="@style/DeToolkitPenPopupContainer">
+                <com.coui.appcompat.textview.COUITextView android:text="@string/de_toolkit_straight_line_drawing" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeToolkitPenPopupText" />
+                <com.coui.appcompat.couiswitch.COUISwitch android:id="@id/de_toolkit_straight_line_drawing_state" android:checked="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeToolkitPenPopupSwitch" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/put_at_the_bottom_container" android:paddingHorizontal="@dimen/dp_12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/straight_line_drawing_container" style="@style/DeToolkitPenPopupContainer">
+                <com.coui.appcompat.textview.COUITextView android:text="@string/de_toolkit_put_at_the_bottom" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeToolkitPenPopupText" />
+                <com.coui.appcompat.couiswitch.COUISwitch android:id="@id/de_toolkit_put_at_the_bottom_state" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeToolkitPenPopupSwitch" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.oplusos.vfxsdk.doodleengine.view.CustomizeScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

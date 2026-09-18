@@ -1,0 +1,186 @@
+.class public final Lcom/oplus/aiunit/vision/gm60;
+.super Ljava/lang/Object;
+.source "SystemPropertyUtils.java"
+
+
+# static fields
+.field public static volatile a:Ljava/lang/reflect/Method;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 5
+
+    .line 1
+    :try_start_0
+    sget-object v0, Lcom/oplus/aiunit/vision/gm60;->a:Ljava/lang/reflect/Method;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const-class v0, Lcom/oplus/aiunit/vision/gm60;
+
+    .line 6
+    .line 7
+    monitor-enter v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    .line 8
+    :try_start_1
+    sget-object v1, Lcom/oplus/aiunit/vision/gm60;->a:Ljava/lang/reflect/Method;
+
+    .line 9
+    .line 10
+    if-nez v1, :cond_0
+
+    .line 11
+    .line 12
+    const-string v1, "android.os.SystemProperties"
+
+    .line 13
+    .line 14
+    invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v1
+
+    .line 18
+    const-string v2, "get"
+
+    .line 19
+    .line 20
+    const-class v3, Ljava/lang/String;
+
+    .line 21
+    .line 22
+    const-class v4, Ljava/lang/String;
+
+    .line 23
+    .line 24
+    filled-new-array {v3, v4}, [Ljava/lang/Class;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v3
+
+    .line 28
+    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v1
+
+    .line 32
+    sput-object v1, Lcom/oplus/aiunit/vision/gm60;->a:Ljava/lang/reflect/Method;
+
+    .line 33
+    .line 34
+    goto :goto_0
+
+    .line 35
+    :catchall_0
+    move-exception p0
+
+    .line 36
+    goto :goto_1
+
+    .line 37
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    .line 38
+    goto :goto_2
+
+    .line 39
+    :goto_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 40
+    :try_start_2
+    throw p0
+
+    .line 41
+    :catchall_1
+    move-exception p0
+
+    .line 42
+    goto :goto_3
+
+    .line 43
+    :cond_1
+    :goto_2
+    sget-object v0, Lcom/oplus/aiunit/vision/gm60;->a:Ljava/lang/reflect/Method;
+
+    .line 44
+    .line 45
+    filled-new-array {p0, p1}, [Ljava/lang/Object;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object p0
+
+    .line 49
+    const/4 v1, 0x0
+
+    .line 50
+    invoke-virtual {v0, v1, p0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object p0
+
+    .line 54
+    check-cast p0, Ljava/lang/String;
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    .line 55
+    .line 56
+    return-object p0
+
+    .line 57
+    :goto_3
+    const-string v0, "SystemPropertyUtils"
+
+    .line 58
+    .line 59
+    invoke-virtual {p0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object p0
+
+    .line 63
+    invoke-static {v0, p0}, Lcom/oplus/aiunit/vision/mb8;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 64
+    .line 65
+    .line 66
+    return-object p1
+.end method

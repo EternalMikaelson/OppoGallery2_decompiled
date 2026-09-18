@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cshot_page_check_box_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.cshot_page.widget.CShotAppUiObserverCheckBox android:layout_gravity="end|bottom" android:id="@id/cshot_page_check_box" android:background="@color/coui_transparence" android:focusable="false" android:clickable="false" android:layout_width="@dimen/photopage_cshot_page_checkbox_size" android:layout_height="@dimen/photopage_cshot_page_checkbox_size" android:layout_marginBottom="@dimen/photopage_cshot_page_checkbox_margin" android:button="@drawable/base_shape_btn_check" android:layout_marginEnd="@dimen/photopage_cshot_page_checkbox_margin" />
+</FrameLayout>

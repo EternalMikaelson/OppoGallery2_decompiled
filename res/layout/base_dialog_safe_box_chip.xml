@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/dialog_body" android:background="?couiColorSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_progress_dialog_padding_top">
+        <com.oplus.anim.EffectiveAnimationView android:id="@id/progress_anim" android:layout_width="@dimen/base_dialog_safe_box_progress_size" android:layout_height="@dimen/base_dialog_safe_box_progress_size" android:forceDarkAllowed="false" />
+        <TextView android:textAppearance="@style/gTextAppearanceHeadline6" android:textColor="?gColorPrimaryNeutral" android:gravity="center" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_dialog_safe_box_title_margin_top" android:paddingStart="@dimen/coui_alert_dialog_message_padding_left" android:paddingEnd="@dimen/coui_alert_dialog_message_padding_left" android:forceDarkAllowed="false" />
+        <TextView android:textAppearance="@style/gTextAppearanceBody" android:textColor="?gColorPrimaryNeutral" android:id="@id/dialog_sub_title" android:paddingBottom="@dimen/coui_progress_cancelable_dialog_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false" />
+    </LinearLayout>
+    <TextView android:textColor="?couiColorPrimaryTextOnPopup" android:gravity="center" android:id="@id/dialog_cancel" android:layout_width="match_parent" android:layout_height="@dimen/base_dialog_safe_box_cancel_height" style="?couiTextAppearanceButton" />
+</LinearLayout>

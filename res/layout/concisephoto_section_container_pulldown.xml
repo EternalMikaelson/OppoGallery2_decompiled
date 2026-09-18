@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_gravity="top" android:id="@id/nsv_pulldown" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/concisephoto_container_handle_root_min_height" app:layout_behavior="com.oplus.gallery.concisephotopage.widget.behavior.PullDownParentBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.concisephotopage.widget.COUIConcisePhotoPanelBarView android:layout_gravity="center_horizontal" android:id="@id/drag_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/concisephoto_container_handle_margin_end" />
+</androidx.core.widget.NestedScrollView>

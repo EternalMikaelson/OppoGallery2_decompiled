@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_casting_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.emptyview.COUIEmptyStateView android:theme="@style/Theme.COUI.Dark" android:id="@id/ep_casting" android:background="@color/picture3d_dlna_player_cover_color" android:layout_width="match_parent" android:layout_height="match_parent" app:anim_autoPlay="true" app:anim_rawRes="@raw/base_empty_view_network_night" app:subtitleText="@string/picture3d_dlan_play_tips2" app:titleText="@string/picture_cast_play_tips" />
+</FrameLayout>

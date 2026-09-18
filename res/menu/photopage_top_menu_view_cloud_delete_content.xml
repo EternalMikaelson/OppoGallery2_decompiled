@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/group_actionbar">
+        <item android:enabled="true" android:id="@id/placeholder" android:visible="true" android:orderInCategory="301" android:title="@null" app:showAsAction="always" />
+        <item android:icon="@drawable/photopage_ic_menu_getvideoframe_selector" android:id="@id/action_getvideoframe" android:visible="false" android:orderInCategory="302" android:title="@string/photopage_photomenu_talkback_capture_video_frame" app:showAsAction="always" />
+        <item android:icon="@drawable/photopage_ic_menu_olive_selector" android:id="@id/action_olive_photo" android:visible="false" android:orderInCategory="304" app:showAsAction="always" />
+    </group>
+</menu>

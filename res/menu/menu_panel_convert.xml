@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/cancel" android:title="@string/toolbar_cancel" app:showAsAction="always" />
+    <item android:id="@id/copy" android:title="@string/de_toolkit_copy" app:showAsAction="always" />
+    <item android:id="@id/convert" android:title="@string/de_replace" app:showAsAction="always" />
+</menu>

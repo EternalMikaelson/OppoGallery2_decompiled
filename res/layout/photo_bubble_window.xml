@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardview.COUICardView android:id="@id/bubble" android:padding="@dimen/photopage_bubble_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/photopage_bubble_margin_top" android:layout_marginEnd="@dimen/photopage_bubble_horizontal_margin" app:cardBackgroundColor="@color/photopage_bubble_stroke_color" app:cardCornerRadius="@dimen/photopage_bubble_outside_corner_radius" app:cardElevation="@dimen/photopage_bubble_elevation" app:contentPadding="@dimen/photopage_bubble_padding" app:couiCardRoundCornerRadius="@dimen/photopage_bubble_outside_corner_radius" app:layout_constraintTop_toBottomOf="@id/top_decoration"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bubble_preview" android:layout_width="@dimen/photopage_bubble_min_size" android:layout_height="@dimen/photopage_bubble_max_size" android:scaleType="centerCrop" android:contentDescription="@string/photopage_photomenu_talkback_capture_video_frame_image" />
+</com.coui.appcompat.cardview.COUICardView>

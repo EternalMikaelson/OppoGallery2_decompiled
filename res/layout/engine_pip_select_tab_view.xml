@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/edit_time_edit_timeline_pip_selector_height" android:weightSum="1.0" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.videoeditorpage.abilities.engine.ui.RoundLineView android:id="@id/edit_pip_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_pip_select_tab_margin_top_to_line" android:layout_weight="1.0" android:layout_marginStart="@dimen/editor_pip_select_tab_margin_start_to_line" app:line_height="@dimen/editor_pip_select_tab_line_height" />
+    <LinearLayout android:orientation="vertical" android:id="@id/icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_arr" android:background="@drawable/editor_pip_select_arr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rotation="180.0" />
+        <com.oplus.gallery.videoeditorpage.abilities.engine.ui.RoundImageView android:id="@id/edit_pip_icon_thumb" android:padding="@dimen/editor_pip_select_tab_icon_padding" android:layout_width="@dimen/editor_pip_select_tab_icon_width" android:layout_height="@dimen/editor_pip_select_tab_icon_width" android:foreground="@drawable/editor_pip_selector_tab_foreground" android:scaleType="centerCrop" app:imageRadius="@dimen/editor_pip_select_tab_icon_radius" app:imageShape="round" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+.class public Lcom/coui/appcompat/statusbar/COUIStatusbarTintUtil;
+.super Ljava/lang/Object;
+.source "COUIStatusbarTintUtil.java"
+
+
+# static fields
+.field public static final SYSTEM_UI_FLAG_OP_STATUS_BAR_TINT:I = 0x10
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

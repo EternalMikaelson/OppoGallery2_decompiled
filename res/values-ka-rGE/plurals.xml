@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">%1$1s ალბომი, მათ შორის %2$2s ერთეული; შეეხეთ „ხშირად გამოყენებადში“ დასამატებლად.</item>
+        <item quantity="other">%1$1s ალბომი, მათ შორის %2$2s ერთეული; შეეხეთ „ხშირად გამოყენებადში“ დასამატებლად.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s თანხვედრა</item>
+        <item quantity="other">%s თანხვედრა</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">აირჩიეთ მედია და შეეხეთ ქვემოთ მოცემულ მოტივტივე ფანჯარას „Lite რეჟიმი“, რათა სწრაფად შექმნათ ვიდეო. უკეთესი შედეგებისთვის აირჩიეთ, სულ მცირე %1$s ერთეული.</item>
+        <item quantity="other">აირჩიეთ მედია და შეეხეთ ქვემოთ მოცემულ მოტივტივე ფანჯარას „Lite რეჟიმი“, რათა სწრაფად შექმნათ ვიდეო. უკეთესი შედეგებისთვის აირჩიეთ, სულ მცირე %1$s ერთეული.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">აირჩიეთ მედია და შეეხეთ აქ: „რედაქტირება - Lite რეჟიმი“ ქვემოთ ვიდეოს სწრაფად გენერირებისთვის. უკეთესი შედეგებისთვის აირჩიეთ, სულ მცირე %1$s ერთეული.</item>
+        <item quantity="other">აირჩიეთ მედია და შეეხეთ აქ: „რედაქტირება - Lite რეჟიმი“ ქვემოთ ვიდეოს სწრაფად გენერირებისთვის. უკეთესი შედეგებისთვის აირჩიეთ, სულ მცირე %1$s ერთეული.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">%1$d წამზე ხანგრძლივი მოძრავი ფოტოები არაა მხარდაჭერილი</item>
+        <item quantity="other">%1$d წამზე ხანგრძლივი მოძრავი ფოტოები არაა მხარდაჭერილი</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">ვიდეო არ უნდა გრძელდებოდეს %d წამზე მეტი</item>
+        <item quantity="other">ვიდეო არ უნდა გრძელდებოდეს %d წამზე მეტი</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d ჩაკეტილი აპი</item>
+        <item quantity="other">%d ჩაკეტილი აპი</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">%1$1s ალბომი, მათ შორის %2$2s ერთეული; დამატებულია „ხშირად გამოყენებადში“.</item>
+        <item quantity="other">%1$1s ალბომი, მათ შორის %2$2s ერთეული; დამატებულია „ხშირად გამოყენებადში“.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">დამატება (%1$d)</item>
+        <item quantity="other">დამატება (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">დამატება (%1$d/%2$d)</item>
+        <item quantity="other">დამატება (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d ელემენტი კორექტირებულია</item>
+        <item quantity="other">%1$d ელემენტი კორექტირებულია</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d ფოტო იტვირთება და მისი დამატება შეუძლებელია.</item>
+        <item quantity="other">%d ფოტო იტვირთება და მისი დამატება შეუძლებელია.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d დოკუმენტი</item>
+        <item quantity="other">%1$d დოკუმენტი</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d საბანკო ბარათი</item>
+        <item quantity="other">%1$d საბანკო ბარათი</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d ალბომის ერთეულები წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგი ერთეული არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+        <item quantity="other">%d ალბომის ერთეულები წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგი ერთეული არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღით დარჩება. ყველა სერიული ფოტო ღრუბელშია დარეზერვებული და იქ დარჩება.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღით დარჩება. ყველა სერიული ფოტო ღრუბელშია დარეზერვებული და იქ დარჩება.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღით დარჩება. ზოგიერთი ფოტო არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღით დარჩება. ზოგიერთი ფოტო არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d ერთეული წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგი ერთეული არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+        <item quantity="other">%d ერთეული წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგი ერთეული არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგიერთი ფოტო არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგიერთი ფოტო არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d ვიდეო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგიერთი ვიდეო არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+        <item quantity="other">%d ვიდეო წაიშლება ამ მოწყობილობიდან და „ბოლოს წაშლილში“ 30 დღის განმავლობაში დარჩება. ზოგიერთი ვიდეო არ არის დარეზერვებული. წაშლამდე მათი სარეზერვო ასლის შექმნაა რეკომენდებული.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s მინიატურა ჩანაცვლდება მისი ორიგინალი ვერსიით.</item>
+        <item quantity="other">%1$s მინიატურა ჩანაცვლდება მისი ორიგინალი ვერსიით.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">გსურთ %d ადამიანის გაერთიანება და ამოშლა?</item>
+        <item quantity="other">გსურთ %d ადამიანის გაერთიანება და ამოშლა?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">ამოიშალოს %d ფოტო ამ ალბომიდან?</item>
+        <item quantity="other">ამოიშალოს %d ფოტო ამ ალბომიდან?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">ამოიშალოს %d ელემენტი ამ ალბომიდან?</item>
+        <item quantity="other">ამოიშალოს %d ელემენტი ამ ალბომიდან?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">ამოიშალოს %d ვიდეო ამ ალბომიდან?</item>
+        <item quantity="other">ამოიშალოს %d ვიდეო ამ ალბომიდან?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">გამოიყენეთ ესკიზი</item>
+        <item quantity="other">გამოიყენეთ ესკიზები</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">გამოიყენეთ ორიგინალი</item>
+        <item quantity="other">გამოიყენეთ ორიგინალები</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 ფოტო არის ესკიზი. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტო.</item>
+        <item quantity="other">ზოგიერთი არჩეული ფოტო არის ესკიზები. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტოები.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">ერთდროულად მაქსიმუმ %1$d გამოსახულების კონვერტაცია შეიძლება PDF-ად</item>
+        <item quantity="other">ერთდროულად მაქსიმუმ %1$d გამოსახულების კონვერტაცია შეიძლება PDF-ად</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">მოწყობილობის საცავი არასაკმარისია. %1$d ელემენტი არ არის კოპირებული.</item>
+        <item quantity="other">მოწყობილობის საცავი არასაკმარისია. %1$d ელემენტი არ არის კოპირებული.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d ელემენტი დაკოპირებულია</item>
+        <item quantity="other">%d ელემენტი კოპირებულია</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">შეიძლება დაკოპირდეს არაუმეტეს %d ელემენტისა</item>
+        <item quantity="other">შეიძლება დაკოპირდეს არაუმეტეს %d ელემენტისა</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d ფოტო სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+        <item quantity="other">%d ფოტო სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+        <item quantity="other">%d ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d ვიდეო სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+        <item quantity="other">%d ვიდეო სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d უწყვეტი ფოტო წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d უწყვეტი ფოტო წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">ეს ფოტო სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+        <item quantity="other">ეს ფოტოები სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">ეს ფოტო სამუდამოდ წაიშლება. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+        <item quantity="other">ეს ფოტოები სამუდამოდ წაიშლება. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">ეს ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+        <item quantity="other">ეს ელემენტები სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">ეს ელემენტი სამუდამოდ წაიშლება. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+        <item quantity="other">ეს ელემენტები სამუდამოდ წაიშლება. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d ფოტო სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ფოტო სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d ვიდეო სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ვიდეო სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d უწყვეტი ფოტო წაიშლება ამ მოწყობილობიდან, ღრუბლიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d უწყვეტი ფოტო წაიშლება ამ მოწყობილობიდან, ღრუბლიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">წაიშალოს %d ალბომი?</item>
+        <item quantity="other">გსურთ %d ალბომის წაშლა?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">წაიშალოს %d უწყვეტი ფოტო?</item>
+        <item quantity="other">წაიშალოს %d უწყვეტი ფოტო?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d მოგონება წაიშლება ამ მოწყობილობიდან. ფოტოები ამ მოგონებაში შეინახება აპში „ფოტოები“.</item>
+        <item quantity="other">%d მოგონება წაიშლება ამ მოწყობილობიდან. ფოტოები ამ მოგონებებში შეინახება აპში „ფოტოები“.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">გსურთ %d მოგონების წაშლა?</item>
+        <item quantity="other">გსურთ %d მოგონების წაშლა?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">სამუდამოდ წაშალეთ %d ელემენტი</item>
+        <item quantity="other">სამუდამოდ წაშალეთ %d ელემენტი</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d ელემენტის წაშლა</item>
+        <item quantity="other">%d ელემენტის წაშლა</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">წაიშალოს %d ფოტო?</item>
+        <item quantity="other">წაიშალოს %d ფოტო?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">გსურთ %d ელემენტის წაშლა?</item>
+        <item quantity="other">გსურთ %d ელემენტის წაშლა?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">წაიშალოს %d ვიდეო?</item>
+        <item quantity="other">წაიშალოს %d ვიდეო?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">წაიშალოს %d სტიკერი?</item>
+        <item quantity="other">წაიშალოს %d სტიკერი?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">ამ ფოტოს წაშლა</item>
+        <item quantity="other">ამ ფოტოების წაშლა</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">ეს ვიდეო სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+        <item quantity="other">ეს ვიდეოები სამუდამოდ წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">ეს ვიდეო სამუდამოდ წაიშლება. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+        <item quantity="other">ეს ვიდეოები სამუდამოდ წაიშლება. ამ მოქმედების გაუქმება ვეღარ მოხერხდება.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">მიმდინარეობს %d ელემენტის ჩამოტვირთვა…</item>
+        <item quantity="other">მიმდინარეობს %d ელემენტის ჩამოტვირთვა…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">მიმდინარეობს %d ფოტოს ჩამოტვირთვა…</item>
+        <item quantity="other">მიმდინარეობს %d ფოტოს ჩამოტვირთვა…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">მიმდინარეობს %d ვიდეოს ჩამოტვირთვა…</item>
+        <item quantity="other">მიმდინარეობს %d ვიდეოს ჩამოტვირთვა…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">დაყენდეს %d ფაილი კერძოდ?</item>
+        <item quantity="other">დაყენდეს %d ფაილი კერძოდ?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">დავაყენოთ ეს ფოტო, როგორც კერძო?</item>
+        <item quantity="other">დავაყენოთ ეს ფოტოები, როგორც კერძო?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d ფაილი ვერ დაიშიფრა</item>
+        <item quantity="other">%d ფაილი ვერ დაიშიფრა</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">ჩაიკეტოს %d ალბომი?</item>
+        <item quantity="other">ჩაიკეტოს %d ალბომი?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d სერიული ფოტო წაიშლება ამ მოწყობილობიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d სერიული ფოტო წაიშლება ამ მოწყობილობიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d სერიული ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d სერიული ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d ალბომი წაიშლება ამ მოწყობილობიდან. დარეზერვებული ალბომები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ალბომები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ალბომი წაიშლება ამ მოწყობილობიდან. დარეზერვებული ალბომები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ალბომები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d ელემენტი წაიშლება ამ მოწყობილობიდან. დარეზერვებული ელემენტები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ელემენტები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ელემენტი წაიშლება ამ მოწყობილობიდან. დარეზერვებული ელემენტები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ელემენტები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d ვიდეო წაიშლება ამ მოწყობილობიდან. დარეზერვებული ვიდეოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ვიდეოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ვიდეო წაიშლება ამ მოწყობილობიდან. დარეზერვებული ვიდეოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ვიდეოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ალბომები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ალბომები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ალბომები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ალბომები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ფოტოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ფოტოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d ერთეული წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ელემენტები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ელემენტები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ერთეული წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ელემენტები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ელემენტები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ვიდეოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ვიდეოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. დარეზერვებული ვიდეოები 60 დღის განმავლობაში რჩება „ბოლოს წაშლილში“; ვიდეოები, რომელთა სარეზერვო ასლები არ შექმნილა, რჩება 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">%d არჩეული ფოტოს ექსპორტირება</item>
+        <item quantity="other">%d არჩეული ფოტოს ექსპორტირება</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">გსურთ %d ფოტოს ექსპორტირება?</item>
+        <item quantity="other">გსურთ %d ფოტოს ექსპორტირება?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">%1$d ელემენტის დამატება ვერ მოხერხდა რჩეულებში. ხელახლა სცადეთ.</item>
+        <item quantity="other">%1$d ელემენტის დამატება ვერ მოხერხდა რჩეულებში. ხელახლა სცადეთ.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">ფაილის ზომა: %1$s. ჩამოტვირთვის სავარაუდო დრო: %2$s წუთი.</item>
+        <item quantity="other">ფაილის ზომა: %1$s. ჩამოტვირთვის სავარაუდო დრო: %2$s წუთი.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">გამოიყენეთ ესკიზი</item>
+        <item quantity="other">გამოიყენეთ ესკიზები</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">გამოიყენეთ ორიგინალი</item>
+        <item quantity="other">გამოიყენეთ ორიგინალები</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 ფოტო არის ესკიზი. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტო.</item>
+        <item quantity="other">ზოგიერთი არჩეული ფოტო არის ესკიზები. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტოები.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">ნაპოვნია %s-ის ფოტო. გადაიტანეთ ის „ბარათების კეისში“ მარტივი წვდომისთვის.</item>
+        <item quantity="other">ნაპოვნია %s-ის ფოტოები. გადაიტანეთ ისინი „ბარათების კეისში“ მარტივი წვდომისთვის.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s-ის ფოტო გადატანილია „ბარათების კეისში“</item>
+        <item quantity="other">%1$s-ის ფოტოები გადატანილია „ბარათების კეისში“</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d ბილეთი/ქვითარი</item>
+        <item quantity="other">%1$d ბილეთის/ქვითრი</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">არჩეული ელემენტი უკვე არსებობს ალბომში</item>
+        <item quantity="other">არჩეული ელემენტები უკვე არსებობს ალბომში</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d ელემენტი</item>
+        <item quantity="other">%d ელემენტი</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d ადამიანი გაერთიანდება და წაიშლება „%2$s“-დან.</item>
+        <item quantity="other">%1$d ადამიანი გაერთიანდება და წაიშლება „%2$s“-დან.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d ფოტო იტვირთება და მისი გადატანა შეუძლებელია</item>
+        <item quantity="other">%d ფოტო იტვირთება და მათი გადატანა შეუძლებელია</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d ელემენტი გადატანილია</item>
+        <item quantity="other">%d ელემენტი გადავიდა</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">მიმდინარეობს ორიგინალი ფოტოს ჩამოტვირთვა...</item>
+        <item quantity="other">მიმდინარეობს ორიგინალი ფოტოების ჩამოტვირთვა...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">ფოტო დაკოპირებულია. ამ ალბომში ვიდეოების კოპირება შეუძლებელია.</item>
+        <item quantity="other">ფოტოები დაკოპირებულია. ამ ალბომში ვიდეოების კოპირება შეუძლებელია.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">ფოტო გადატანილია. ვიდეოების ამ ალბომში გადატანა შეუძლებელია.</item>
+        <item quantity="other">ფოტოები გადატანილია. ვიდეოების ამ ალბომში გადატანა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d ალბომი წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ალბომი წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d ელემენტი წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ელემენტი წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d ვიდეო წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ვიდეო წაიშლება ამ მოწყობილობიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">ეს ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">ეს ფოტოები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">ეს ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">ეს ფოტოები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">ეს ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">ეს ალბომები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">ეს ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">ეს ალბომები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">ეს ელემენტი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">ეს ელემენტები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">ეს ელემენტი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">ეს ელემენტები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ალბომი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d უწყვეტი ფოტო წაიშლება ამ მოწყობილობიდან, ღრუბლიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d უწყვეტი ფოტო წაიშლება ამ მოწყობილობიდან, ღრუბლიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ფოტო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d ელემენტი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ელემენტი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d ელემენტი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ელემენტი წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">%d ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტები ინახება „ბოლოს წაშლილში“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">%d ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">ეს ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+        <item quantity="other">ეს ვიდეოები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან. წაშლილი ელემენტების აღდგენა შესაძლებელია ალბომიდან „ბოლოს წაშლილი“ 30 დღის განმავლობაში.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">ეს ვიდეო წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+        <item quantity="other">ეს ვიდეოები წაიშლება ამ მოწყობილობიდან, გლობალური ქსელიდან და სხვა სინქრონიზებული მოწყობილობებიდან.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">გსურთ %d ფოტოს აღდგენა?</item>
+        <item quantity="other">გსურთ %d ფოტოს აღდგენა?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">გსურთ %d ელემენტის აღდგენა?</item>
+        <item quantity="other">გსურთ %d ელემენტის აღდგენა?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">გსურთ %d ვიდეოს აღდგენა?</item>
+        <item quantity="other">გსურთ %d ვიდეოს აღდგენა?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d ელემენტის აღდგენა</item>
+        <item quantity="other">%d ელემენტის აღდგენა</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d ვიდეოს შენახვა ვერ მოხერხდა</item>
+        <item quantity="other">%d ვიდეოს შენახვა ვერ მოხერხდა</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d ვიდეო შენახულია</item>
+        <item quantity="other">%d ვიდეო შენახულია</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">გამოიყენეთ ესკიზი</item>
+        <item quantity="other">გამოიყენეთ ესკიზები</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">გამოიყენეთ ორიგინალი</item>
+        <item quantity="other">გამოიყენეთ ორიგინალები</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 ფოტო არის ესკიზი. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტო.</item>
+        <item quantity="other">ზოგიერთი არჩეული ფოტო არის ესკიზები. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტოები.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">არჩეული ერთეულის გადახედვა (%1$d)</item>
+        <item quantity="other">არჩეული ერთეულების გადახედვა (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">აირჩიეთ 1–%1$d ფოტო</item>
+        <item quantity="other">აირჩიეთ 1–%1$d ფოტო</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">გამოიყენეთ ესკიზი</item>
+        <item quantity="other">გამოიყენეთ ესკიზები</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">გამოიყენეთ ორიგინალი</item>
+        <item quantity="other">გამოიყენეთ ორიგინალები</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 ფოტო არის ესკიზი. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გამოიყენოთ ორიგინალი ფოტო.</item>
+        <item quantity="other">ზოგიერთი არჩეული ფოტო არის ესკიზები. ამის ნაცვლად შეგიძლიათ ჩამოტვირთოთ და გააზიაროთ ორიგინალი ფოტოები.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d ფოტო წაიშლება გაზიარებული ალბომიდან „%2$s“.</item>
+        <item quantity="other">%1$d ფოტო წაიშლება გაზიარებული ალბომიდან „%2$s“.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d ელემენტი წაიშლება გაზიარებული ალბომიდან „%2$s“.</item>
+        <item quantity="other">%1$d ელემენტი წაიშლება გაზიარებული ალბომიდან „%2$s“.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d ვიდეო წაიშლება გაზიარებული ალბომიდან „%2$s“.</item>
+        <item quantity="other">%1$d ვიდეო წაიშლება გაზიარებული ალბომიდან „%2$s“.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">დარჩა %1$d ელემენტი (%2$s). განვაახლოთ ჩამოტვირთვა მობილური მონაცემების გამოყენებით?</item>
+        <item quantity="other">დარჩა %1$d ელემენტი (%2$s). განვაახლოთ ჩამოტვირთვა მობილური მონაცემების გამოყენებით?</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">ერთჯერადად მაქსიმუმ %d მოძრავი ფოტოს შენახვა შეიძლება ვიდეოს სახით</item>
+        <item quantity="other">ერთჯერადად მაქსიმუმ %d მოძრავი ფოტოს შენახვა შეიძლება ვიდეოს სახით</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ფოტო</item>
+        <item quantity="other">%1$d ფოტო</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d ვიდეო</item>
+        <item quantity="other">%1$d ვიდეო</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">არჩეულია %1$d ელემენტი</item>
+        <item quantity="other">არჩეულია %1$d ელემენტი</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d ელემენტი</item>
+        <item quantity="other">%1$d ელემენტი</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">%1$d ელემენტის ამოშლა ვერ მოხერხდა რჩეულებიდან. ხელახლა სცადეთ.</item>
+        <item quantity="other">%1$d ელემენტის ამოშლა ვერ მოხერხდა რჩეულებიდან. ხელახლა სცადეთ.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">დახატეთ მარტივი ობიექტი და შემოხაზეთ ის ხელოვნების ნაწარმოების შესაქმნელად. გამოყენების ლიმიტი: %1$d-ჯერ დღეში.</item>
+        <item quantity="other">დახატეთ მარტივი ობიექტი და შემოხაზეთ ის ხელოვნების ნაწარმოების შესაქმნელად. გამოყენების ლიმიტი: %1$d-ჯერ დღეში.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">ვერ მოხერხდა %d მოძრაობის სტიკერის შენახვა</item>
+        <item quantity="other">ვერ მოხერხდა %d მოძრაობის სტიკერის შენახვა</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">შეგიძლიათ აირჩიოთ კიდევ 1-%1$d ფოტო</item>
+        <item quantity="other">შეგიძლიათ აირჩიოთ კიდევ 1-%1$d ფოტო</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">შეგიძლიათ აირჩიოთ კიდევ 1-%1$d მეტი ფოტო (%2$s)</item>
+        <item quantity="other">შეგიძლიათ აირჩიოთ კიდევ 1-%1$d მეტი ფოტო (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">მათ შორის%d მოძრავი ფოტო</item>
+        <item quantity="other">მათ შორის%d მოძრავი ფოტო</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">ორიგინალი ფოტოს ჩამოტვირთვა</item>
+        <item quantity="other">ორიგინალი ფოტოების ჩამოტვირთვა</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">თქვენს მოწყობილობაზე არსებული %1$d ფოტო უფრო მცირე ვერსიისაა. ჩამოვტვირთოთ ორიგინალი სრული გარჩევადობის ფოტო (%2$s)?</item>
+        <item quantity="other">თქვენს მოწყობილობაზე არსებული %1$d ფოტო უფრო მცირე ვერსიისაა. ჩამოვტვირთოთ ორიგინალი სრული გარჩევადობის ფოტოები (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">მიმდინარეობს %1$d ორიგინალი ფოტოს ჩამოტვირთვა</item>
+        <item quantity="other">მიმდინარეობს %1$d ორიგინალი ფოტოს ჩამოტვირთვა</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d ფოტო</item>
+        <item quantity="other">%1$d ფოტო</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d ორიგინალი ფოტო არ არის ჩამოტვირთული. მოწყობილობის საცავი არასაკმარისია.</item>
+        <item quantity="other">%1$d ორიგინალი ფოტო არ ჩამოტვირთულა. მოწყობილობის საცავი არასაკმარისია.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d ელემენტი არ არის ჩამოტვირთული. მოწყობილობის საცავი არასაკმარისია.</item>
+        <item quantity="other">%1$d ელემენტი არ არის ჩამოტვირთული. მოწყობილობის საცავი არასაკმარისია.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. არ არის წვდომა ინტერნეტზე.</item>
+        <item quantity="other">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. არ არის წვდომა ინტერნეტზე.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. არ არის დაკავშირებული Wi-Fi-სთან.</item>
+        <item quantity="other">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. არ არის დაკავშირებული Wi-Fi-სთან.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">%1$d ელემენტის ატვირთვა შეჩერებულია ბატარეის ენერგიის დაზოგვის მიზნით.</item>
+        <item quantity="other">%1$d ელემენტის ატვირთვა დაპაუზებულია ბატარეის ენერგიის დაზოგვის მიზნით.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. ტელეფონი ძალიან ცხელია.</item>
+        <item quantity="other">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. ტელეფონი ძალიან ცხელია.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. Cloud ტექნიკური მომსახურების რეჟიმშია.</item>
+        <item quantity="other">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. Cloud ტექნიკური მომსახურების რეჟიმშია.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. პლანშეტი ძალიან ცხელია.</item>
+        <item quantity="other">ატვირთვა შეჩერებულია %1$d ელემენტისთვის. პლანშეტი ძალიან ცხელია.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d ვიდეო</item>
+        <item quantity="other">%1$d ვიდეო</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული. გთხოვთ, დატენოთ თქვენი ტელეფონი.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული. გთხოვთ, დატენოთ თქვენი ტელეფონი.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული. გასაგრძელებლად ჩართეთ ელექტროქსელში.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული. გასაგრძელებლად ჩართეთ ელექტროქსელში.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული. %2$s.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული. %2$s ან %3$s.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული. %2$s ან %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">ღრუბლის არასაკმარისი საცავი. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ღრუბლის არასაკმარისი საცავი. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">მოწყობილობის საცავი არასაკმარისია. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">მოწყობილობის საცავი არასაკმარისია. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">ქსელის შეცდომა. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ქსელის შეცდომა. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">ქსელის შეცდომა. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+        <item quantity="other">ქსელის შეცდომა. %1$d ელემენტი არ არის ჩამოტვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">მოწყობილობის საცავი არასაკმარისია. %1$d ორიგინალი ფოტო არ არის ჩამოტვირთული.</item>
+        <item quantity="other">მოწყობილობის საცავი არასაკმარისია. %1$d ორიგინალი ფოტო არ ჩამოტვირთულა.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d ფოტო არასინქრონიზებულია. ღრუბლოვანი საცავი სავსეა.</item>
+        <item quantity="other">%1$d ფოტო არასინქრონიზებულია. ღრუბლოვანი საცავი სავსეა.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d ფოტო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია პაუზდება, როდესაც ბატარეა %2$s-ზე ნაკლებია.</item>
+        <item quantity="other">%1$d ფოტო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია პაუზდება, როდესაც ბატარეა %2$s-ზე ნაკლებია.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d ფოტო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია დაპაუზებულია ენერგიის დაზოგვის რეჟიმში.</item>
+        <item quantity="other">%1$d ფოტო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია დაპაუზებულია ენერგიის დაზოგვის რეჟიმში.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">ღრუბლოვან საცავში მეხსიერება სავსეა. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ღრუბლოვან საცავში მეხსიერება სავსეა. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული. გთხოვთ, დატენოთ თქვენი ტელეფონი.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული. გთხოვთ, დატენოთ თქვენი ტელეფონი.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული. გასაგრძელებლად ჩართეთ ელექტროქსელში.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული. გასაგრძელებლად ჩართეთ ელექტროქსელში.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">კვების ელემენტი %1$s-ზე დაბალ დონეზეა. %2$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ენერგიის დაზოგვის რეჟიმი ჩართულია. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">ღრუბლოვან საცავში მეხსიერება სავსეა. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ღრუბლოვან საცავში მეხსიერება სავსეა. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d ვიდეო არასინქრონიზებულია. ღრუბლოვანი საცავი სავსეა.</item>
+        <item quantity="other">%1$d ვიდეო არასინქრონიზებულია. ღრუბლოვანი საცავი სავსეა.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d ვიდეო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია პაუზდება, როდესაც ბატარეა %2$s-ზე ნაკლებია.</item>
+        <item quantity="other">%1$d ვიდეო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია პაუზდება, როდესაც ბატარეა %2$s-ზე ნაკლებია.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d ვიდეო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია დაპაუზებულია ენერგიის დაზოგვის რეჟიმში.</item>
+        <item quantity="other">%1$d ვიდეო არასინქრონიზებულია. გლობალური ქსელის სინქრონიზაცია დაპაუზებულია ენერგიის დაზოგვის რეჟიმში.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d ფოტო არასინქრონიზებულია.</item>
+        <item quantity="other">%1$d ფოტო არასინქრონიზებულია.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული.%2$s</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული. %2$s ან %3$s.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული. %2$s ან %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ქსელთან კავშირი არ არის. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d ვიდეო არასინქრონიზებულია.</item>
+        <item quantity="other">%1$d ვიდეო არასინქრონიზებულია.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">ქსელის შეცდომა. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ქსელის შეცდომა. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">ქსელის კავშირი შეწყდა. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">ქსელის შეცდომა. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">სერვისის შეცდომა. %1$d ელემენტი არ არის ატვირთული.</item>
+        <item quantity="other">სერვისის შეცდომა. %1$d ელემენტი არ არის ატვირთული.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">მიმდინარეობს %1$d ელემენტის სინქრონიზაცია</item>
+        <item quantity="other">მიმდინარეობს %1$d ელემენტის სინქრონიზაცია</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">მიმდინარეობს %1$d ელემენტის სინქრონიზაცია ღრუბელთან…</item>
+        <item quantity="other">მიმდინარეობს %1$d ელემენტის სინქრონიზაცია ღრუბელთან…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d ვიდეო</item>
+        <item quantity="other">%1$d ვიდეო</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">ზოგიერთ პლატფორმას შეიძლება არ ჰქონდეს %d წამზე მეტი ხანგრძლივობის მოძრავი ფოტოების მხარდაჭერა</item>
+        <item quantity="other">ზოგიერთ პლატფორმას შეიძლება არ ჰქონდეს %d წამზე მეტი ხანგრძლივობის მოძრავი ფოტოების მხარდაჭერა</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">შეგიძლიათ, Popout გამოიყენოთ ერთდროულად %1$d მოძრავ ფოტოზე</item>
+        <item quantity="other">შეგიძლიათ, Popout გამოიყენოთ ერთდროულად მაქსიმუმ %1$d მოძრავ ფოტოზე</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">%1$d წამზე ხანგრძლივი მოძრავი ფოტოები არაა მხარდაჭერილი</item>
+        <item quantity="other">%1$d წამზე ხანგრძლივი მოძრავი ფოტოები არაა მხარდაჭერილი</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">%d-ზე მეტი ელემენტის გადატანა შეუძლებელია ერთდროულად</item>
+        <item quantity="other">%d-ზე მეტი ელემენტის გადატანა შეუძლებელია ერთდროულად</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d ნივთი ვერ დაემატა</item>
+        <item quantity="other">%d ნივთი ვერ დაემატა</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d ფოტო იტვირთება და მისი დაყენება პირადად შეუძლებელია.</item>
+        <item quantity="other">%d ფოტო იტვირთება და მათი დაყენება პირადად შეუძლებელია.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d სთ</item>
+        <item quantity="other">%d სთ</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d ელემენტი</item>
+        <item quantity="other">%d ელემენტი</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d წუთი</item>
+        <item quantity="other">%d წუთი</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d წამი</item>
+        <item quantity="other">%d წამი</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d წამი</item>
+        <item quantity="other">%d წამი</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d ერთეულის იმპორტირება ვიდეოს რედაქტირებისთვის შეუძლებელია</item>
+        <item quantity="other">%d ერთეულის იმპორტირება ვიდეოს რედაქტირებისთვის შეუძლებელია</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">გვერდი %1$d / %2$d</item>
+        <item quantity="other">გვერდი %1$d / %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">აირჩიეთ არაუმეტეს %1$d ფოტო ერთი GIF-ისთვის</item>
+        <item quantity="other">აირჩიეთ არაუმეტეს %1$d ფოტო ერთი GIF-ისთვის</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">მხარდაჭერილია მაქსიმუმ %1$d-წამიანი მოძრავი ფოტოები</item>
+        <item quantity="other">მხარდაჭერილია მაქსიმუმ %1$d-წამიანი მოძრავი ფოტოები</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">აირჩიეთ მინიმუმ %1$d ფოტო GIF-ის შესაქმნელად</item>
+        <item quantity="other">აირჩიეთ მინიმუმ %1$d ფოტო GIF-ის შესაქმნელად</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">აირჩიეთ არაუმეტეს %1$d ფოტო ერთი GIF-ისთვის</item>
+        <item quantity="other">აირჩიეთ არაუმეტეს %1$d ფოტო ერთი GIF-ისთვის</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">მხოლოდ %1$d ფოტო არის მხარდაჭერილი</item>
+        <item quantity="other">მხოლოდ %1$d ფოტო არის მხარდაჭერილი</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d ფოტო არ შევა GIF-ში</item>
+        <item quantity="other">%1$d ფოტო არ შევა GIF-ში</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d ფოტო მხარდაუჭერელია</item>
+        <item quantity="other">%1$d ფოტო მხარდაუჭერელია</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">იტვირთება %1$s ელემენტი „Google Photos“-იდან…</item>
+        <item quantity="other">იტვირთება %1$s ელემენტი „Google Photos“-იდან…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">„Google Photos“-ში არასაკმარისი საცავია. %1$d ელემენტი არ არის დარეზერვებული.</item>
+        <item quantity="other">„Google Photos“-ში არასაკმარისი საცავია. %1$d ელემენტი არ არის დარეზერვებული.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">მიმდინარეობს %1$s ელემენტის დარეზერვება „Google Photos“-ში…</item>
+        <item quantity="other">მიმდინარეობს %1$s ელემენტის დარეზერვება „Google Photos“-ში…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">მიმდინარეობს %1$d ელემენტის HeyTap Cloud-თან სინქრონიზება. ამის გამორთვა გააუქმებს ავტომატურ სინქრონიზებას. იმისთვის, რომ თქვენი მონაცემები უსაფრთხოდ შეინახოთ, რეკომენდებულია დაელოდოთ სინქრონიზების დასრულებას.</item>
+        <item quantity="other">მიმდინარეობს %1$d ელემენტის HeyTap Cloud-თან სინქრონიზება. ამის გამორთვა გააუქმებს ავტომატურ სინქრონიზებას. იმისთვის, რომ თქვენი მონაცემები უსაფრთხოდ შეინახოთ, რეკომენდებულია დაელოდოთ სინქრონიზების დასრულებას.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">მხოლოდ %d ალბომის დამატება შეიძლება „ხშირად გამოყენებადში“</item>
+        <item quantity="other">მხოლოდ %d ალბომის დამატება შეიძლება „ხშირად გამოყენებადში“</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">ნაპოვნია %1$d მოწყობილობა</item>
+        <item quantity="other">ნაპოვნია %1$d მოწყობილობა</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d დღე</item>
+        <item quantity="other">%1$d დღე</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ფოტო</item>
+        <item quantity="other">%1$d ფოტო</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d ვიდეო</item>
+        <item quantity="other">%1$d ვიდეო</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">შეუძლებელია ავირჩოთ უფრო მეტი სტიკერი, ვიდრე %1$d</item>
+        <item quantity="other">შეუძლებელია ავირჩოთ უფრო მეტი სტიკერი, ვიდრე %1$d</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">NAS-დან %1$d ერთეულის წაშლა</item>
+        <item quantity="other">NAS-დან %1$d ერთეულის წაშლა</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">ჩამოტვირთვა დასრულდა. %1$d ერთეულის ჩამოტვირთვა ვერ მოხერხდა.</item>
+        <item quantity="other">ჩამოტვირთვა დასრულდა. %1$d ერთეულის ჩამოტვირთვა ვერ მოხერხდა.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d ერთეული ჩამოიტვირთა.</item>
+        <item quantity="other">%1$d ერთეული ჩამოიტვირთა.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">მიმდინარეობს %2$d-დან %1$d-ის ჩამოტვირთვა…</item>
+        <item quantity="other">მიმდინარეობს %2$d-დან %1$d-ის ჩამოტვირთვა…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">როგორ გსურთ არჩეული სივრცის რედაქტირება?</item>
+        <item quantity="other">როგორ გსურთ არჩეული სივრცეების რედაქტირება?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">შეგიძლიათ დაამატოთ მაქსიმუმ%d სტიკერი</item>
+        <item quantity="other">შეგიძლიათ დაამატოთ მაქსიმუმ%d სტიკერი</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">სტიკერებში შეგიძლიათ მხოლოდ დაამატოთ %d მოძრაობის სტიკერი. დამატებითი ფოტოები სტატიკურ სტიკერებად გარდაიქმნება.</item>
+        <item quantity="other">სტიკერებში შეგიძლიათ დაამატოთ მაქსიმუმ %d მოძრავი სტიკერი. დამატებითი სტიკერები სტატიკური გახდება.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">რედაქტირებული ვერსია შეზღუდულია %d წამით მარტივი გაზიარებისთვის.</item>
+        <item quantity="other">რედაქტირებული ვერსია შეზღუდულია %d წამით მარტივი გაზიარებისთვის.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">სტიკერები შეიძლება იყოს მაქსიმუმ %d წამის ხანგრძლივობის</item>
+        <item quantity="other">სტიკერები შეიძლება იყოს მაქსიმუმ %d წამის ხანგრძლივობის</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">სტიკერები შეიძლება იყოს მხოლოდ %d წამის ხანგრძლივობის.</item>
+        <item quantity="other">სტიკერები შეიძლება იყოს მაქსიმუმ %d წამის ხანგრძლივობის</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">ვიდეოები შეიძლება იყოს მაქსიმუმ %d წამის ხანგრძლივობის</item>
+        <item quantity="other">ვიდეოები შეიძლება იყოს მაქსიმუმ %d წამის ხანგრძლივობის</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">აღწერეთ, რისი შეცვლა გსურთ არჩეულ სივრცეში</item>
+        <item quantity="other">აღწერეთ, რისი შეცვლა გსურთ არჩეულ სივრცეებში</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">ჩაწერა შეწყდება %1$d წამში</item>
+        <item quantity="other">ჩაწერა შეწყდება %1$d წამში</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">შეგიძლიათ მაქსიმუმ %1$d სივრცის არჩევა</item>
+        <item quantity="other">შეგიძლიათ მაქსიმუმ %1$d სივრცის არჩევა</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">მხარდაჭერილია მაქსიმუმ %1$d-წამიანი მოძრავი ფოტოები</item>
+        <item quantity="other">მხარდაჭერილია მაქსიმუმ %1$d-წამიანი მოძრავი ფოტოები</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">ფაილის დიდი ზომის გამო ლოდინის სავარაუდო დროა %1$d წუთი</item>
+        <item quantity="other">ფაილის დიდი ზომის გამო ლოდინის სავარაუდო დროა %1$d წუთი</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">%d არჩეული ფოტოს ექსპორტირება</item>
+        <item quantity="other">%d არჩეული ფოტოს ექსპორტირება</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">უნდა იყოს უფრო დიდი, ვიდრე %1$d მმ</item>
+        <item quantity="other">უნდა იყოს უფრო დიდი, ვიდრე %1$d მმ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">უნდა იყოს უფრო დიდი, ვიდრე %1$d პიქსელი</item>
+        <item quantity="other">უნდა იყოს უფრო დიდი, ვიდრე %1$d პიქსელი</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">უნდა იყოს უფრო პატარა, ვიდრე %1$d მმ</item>
+        <item quantity="other">უნდა იყოს უფრო პატარა, ვიდრე %1$d მმ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">უნდა იყოს უფრო პატარა, ვიდრე %1$d პიქსელი</item>
+        <item quantity="other">უნდა იყოს უფრო პატარა, ვიდრე %1$d პიქსელი</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">უნდა იყოს უფრო დიდი, ვიდრე %1$d კბაიტი</item>
+        <item quantity="other">უნდა იყოს უფრო დიდი, ვიდრე %1$d კბაიტი</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">უნდა იყოს უფრო პატარა, ვიდრე %1$d კბაიტი</item>
+        <item quantity="other">უნდა იყოს უფრო პატარა, ვიდრე %1$d კბაიტი</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">უნდა იყოს უფრო დიდი, ვიდრე %1$d მმ</item>
+        <item quantity="other">უნდა იყოს უფრო დიდი, ვიდრე %1$d მმ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">უნდა იყოს უფრო დიდი, ვიდრე %1$d პიქსელი</item>
+        <item quantity="other">უნდა იყოს უფრო დიდი, ვიდრე %1$d პიქსელი</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">უნდა იყოს უფრო პატარა, ვიდრე %1$d მმ</item>
+        <item quantity="other">უნდა იყოს უფრო პატარა, ვიდრე %1$d მმ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">უნდა იყოს უფრო პატარა, ვიდრე %1$d პიქსელი</item>
+        <item quantity="other">უნდა იყოს უფრო პატარა, ვიდრე %1$d პიქსელი</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">შეინახეთ მხოლოდ %d შერჩეული ფოტო</item>
+        <item quantity="other">შეინახეთ მხოლოდ %d შერჩეული ფოტო</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d ელემენტის წაშლა</item>
+        <item quantity="other">%d ელემენტის წაშლა</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d ელემენტის წაშლა</item>
+        <item quantity="other">%d ელემენტის წაშლა</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d სტიკერის დამატება ვერ მოხერხდა</item>
+        <item quantity="other">%1$d სტიკერის დამატება ვერ მოხერხდა</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d სტიკერის დამატება ვერ მოხერხდა</item>
+        <item quantity="other">%d სტიკერის დამატება ვერ მოხერხდა</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">დამატებულია %1$s სტიკერი</item>
+        <item quantity="other">დამატებულია %1$s სტიკერი</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">დამატებულია %1$s სტიკერი</item>
+        <item quantity="other">დამატებულია %1$s სტიკერი</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">დამატებულია%1$d სტიკერი</item>
+        <item quantity="other">დამატებულია%1$d სტიკერი</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">AI რემიქსის კოლაჟში შეგიძლიათ დაამატოთ მაქსიმუმ %1$d მოძრავი სტიკერი. დამატებითი სტიკერები სტატიკური გახდება.</item>
+        <item quantity="other">AI რემიქსის კოლაჟში შეგიძლიათ დაამატოთ მაქსიმუმ %1$d მოძრავი სტიკერი. დამატებითი სტიკერები სტატიკური გახდება.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">მაქსიმუმ %1$d მოძრავი ფოტოს დამატება შეგიძლიათ</item>
+        <item quantity="other">მაქსიმუმ %1$d მოძრავი ფოტოს დამატება შეგიძლიათ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">მაქსიმუმ %1$d ფოტოს დამატება შეგიძლიათ</item>
+        <item quantity="other">მაქსიმუმ %1$d ფოტოს დამატება შეგიძლიათ</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">თქვენი ფოტოებიდან ობიექტების ამოსაშლელად ჩამოტვირთეთ ამომშლელის დანამატი. ფაილის ზომა: %1$s. ჩამოტვირთვის სავარაუდო დრო: %2$d წუთი.</item>
+        <item quantity="other">თქვენი ფოტოებიდან ობიექტების ამოსაშლელად ჩამოტვირთეთ ამომშლელის დანამატი. ფაილის ზომა: %1$s. ჩამოტვირთვის სავარაუდო დრო: %2$d წუთი.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">ფაილის ზომა: %1$d. ჩამოტვირთვის სავარაუდო დრო: %2$d.</item>
+        <item quantity="other">ფაილის ზომა: %1$d. ჩამოტვირთვის სავარაუდო დრო: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d ფოტო მხარდაუჭერელია</item>
+        <item quantity="other">%1$d ფოტო მხარდაუჭერელია</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">არჩეულია %1$d/%2$d</item>
+        <item quantity="other">არჩეულია %1$d/%2$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">არჩეულია %1$d ელემენტი</item>
+        <item quantity="other">არჩეულია %1$d ელემენტი</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">არჩეულია %1$d ალბომი</item>
+        <item quantity="other">არჩეულია %1$d ალბომი</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">არჩეულია %1$d ელემენტი</item>
+        <item quantity="other">არჩეულია %1$d ელემენტი</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">არჩეულია %1$d ვიდეო</item>
+        <item quantity="other">არჩეულია %1$d ვიდეო</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">%1$d-ზე მეტი სტიკერის დამატება შეუძლებელია</item>
+        <item quantity="other">%1$d-ზე მეტი სტიკერის დამატება შეუძლებელია</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">მხოლოდ %1$d ნივთის არჩევა არის შესაძლებელი</item>
+        <item quantity="other">შესაძლებელია მაქსიმუმ %1$d ერთეულის არჩევა</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d ფოტო იტვირთება და მათი წაშლა შეუძლებელია.</item>
+        <item quantity="other">%d ფოტო იტვირთება და მათი წაშლა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d ელემენტის წაშლა ვერ მოხერხდა. გთხოვთ, ხელახლა სცადოთ.</item>
+        <item quantity="other">%1$d ელემენტის წაშლა ვერ მოხერხდა. გთხოვთ, ხელახლა სცადოთ.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ახალი შეტყობინება</item>
+        <item quantity="other">%d ახალი შეტყობინებები</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">გსურთ %d პირის ამოშლა?</item>
+        <item quantity="other">გსურთ %d პირის ამოშლა?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d ფოტო</item>
+        <item quantity="other">%1$d ფოტო</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">შეგიძლიათ დაამატოთ მხოლოდ %1$d მოძრავი სტიკერი. დამატებითი სტიკერები სტატიკური სახით გამოჩნდება.</item>
+        <item quantity="other">შეგიძლიათ დაამატოთ მაქსიმუმ %1$d მოძრავი სტიკერი. დამატებითი სტიკერები სტატიკური სახით გამოჩნდება.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">ამ აპლიკაციაში მხოლოდ %d ერთეულის გაზიარებაა შესაძლებელი</item>
+        <item quantity="other">ამ აპში მაქსიმუმ %d ერთეულის გაზიარებაა შესაძლებელი</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">%d ერთეულის გაზიარება</item>
+        <item quantity="other">%d ერთეულის გაზიარება</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">%d ფოტოს გაზიარება</item>
+        <item quantity="other">%d ფოტოს გაზიარება</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">%d ვიდეოს გაზირება</item>
+        <item quantity="other">%d ვიდეოს გაზირება</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">წაიშალოს %d მომენტი?</item>
+        <item quantity="other">წაიშალოს %d მომენტი?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d ისტორია, თქვენთვის შერჩეული.</item>
+        <item quantity="other">%d ისტორია, თქვენთვის შერჩეული.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">არჩეულია %d</item>
+        <item quantity="other">არჩეულია %d</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">შებრუნება %d გრადუსით</item>
+        <item quantity="other">შებრუნება %d გრადუსით</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">მხოლოდ %s ფაილის იმპორტირება შეგიძლიათ</item>
+        <item quantity="other">მაქსიმუმ %s ფაილის იმპორტირება შეგიძლიათ</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1d ერთეულის დამატება</item>
+        <item quantity="other">%1d ერთეულის დამატება</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">შესაძლებელია მაქსიმუმ %s LUT ფაილის იმპორტირება</item>
+        <item quantity="other">შესაძლებელია მაქსიმუმ %s LUT ფაილის იმპორტირება</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">%d-ზე მეტი ფოტოს დამატება შეუძლებელია</item>
+        <item quantity="other">%d-ზე მეტი ფოტოს დამატება შეუძლებელია</item>
+    </plurals>
+</resources>

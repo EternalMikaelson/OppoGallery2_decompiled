@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/videoeditor_music_unavailable_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/music_unavailable_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/videoeditor_ic_music_empty_svg" />
+    <com.oplus.gallery.foundation.ui.widget.SuitableSizeG2TextView android:textSize="@dimen/editor_music_un_available_sub_text_size" android:textColor="@color/music_unavailable_text_color" android:gravity="center" android:id="@id/music_unavailable_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/videoeditor_songlist_empty_text_margintop" />
+</LinearLayout>

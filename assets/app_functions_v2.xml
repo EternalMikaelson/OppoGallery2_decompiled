@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appfunctions>
+    <appfunction>
+        <id>com.oplus.gallery.openabilitypage.PhotoFunctions#findPhotos</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>Searches for images and videos based on a user's text query.
+ This function is designed to parse the user's request for specific details like Time (specific), Location (city and country), Person (user-named),
+ Album (user-created albums in gallery), Other attributes (smart categories such as food, buildings, animals, etc.), Text in photos (OCR),
+ File name search, and Natural language description (multimodal search) to perform a refined search.
+ This enables more accurate and precise search results.
+ To achieve the best results, when such information is mentioned in the user query, you should extract and populate the following fields as much as possible:
+ Time (supports absolute time), city, country, countryCode, person, album,
+ label (including child labels, guide labels, special labels), ocrText, fileName,
+ queryString (must generate a detailed semantic query).
+ **IMPORTANT:** The findPhotos tool returns machine-level URIs (content://...) intended exclusively for the backend UI widget. When processing these results, you must extract only the total count of the items found.
+ Limit your text output to a natural, friendly conversational summary. Acknowledge that you searched OPPO Photos and state the number of items found. Ensure your final response consists entirely of standard natural language words and numbers.</description>
+        <parameters>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>8</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <isRequired>true</isRequired>
+            <name>keyword</name>
+            <description>The keyword to search for. this parameter Only includes the parts of the user input that are relevant to photo search. It should retain only descriptive content, such as: Location, Time, Person, Album name, Other attributes, OCR text, File name, Natural language description Command words must be removed, such as: find, show, get. The query does not support multiple keyword combinations.</description>
+        </parameters>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>com.oplus.gallery.openabilitypage.PhotoFunctions$FindPhotosResponse</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+            <description>The search results.</description>
+        </response>
+        <functionId>com.oplus.gallery.openabilitypage.PhotoFunctions#findPhotos</functionId>
+    </appfunction>
+    <AppFunctionComponentMetadataDocument>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>androidx.appfunctions.AppFunctionTextResource</objectQualifiedName>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>mimeType</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>content</name>
+                </properties>
+                <required>mimeType</required>
+                <required>content</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>androidx.appfunctions.AppFunctionTextResource</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>android.net.Uri</objectQualifiedName>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>8</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>uri</name>
+                </properties>
+                <required>uri</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>android.net.Uri</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>androidx.appfunctions.AppFunctionUriGrant</objectQualifiedName>
+                <properties>
+                    <dataTypeMetadata>
+                        <dataTypeReference>android.net.Uri</dataTypeReference>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>11</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>uri</name>
+                </properties>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>7</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>modeFlags</name>
+                </properties>
+                <required>uri</required>
+                <required>modeFlags</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>androidx.appfunctions.AppFunctionUriGrant</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.oplus.gallery.openabilitypage.PhotoFunctions$MediaMetadata</objectQualifiedName>
+                <properties>
+                    <dataTypeMetadata>
+                        <dataTypeReference>androidx.appfunctions.AppFunctionUriGrant</dataTypeReference>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>11</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>uri</name>
+                </properties>
+                <required>uri</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.oplus.gallery.openabilitypage.PhotoFunctions$MediaMetadata</name>
+        </dataTypes>
+        <dataTypes>
+            <dataTypeMetadata>
+                <allOf>
+                    <id>unused</id>
+                    <isNullable>true</isNullable>
+                    <objectQualifiedName>androidx.appfunctions.AppFunctionResourceContainer</objectQualifiedName>
+                    <description>
+ Response class that implements AppFunctionResourceContainer
+</description>
+                    <properties>
+                        <dataTypeMetadata>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <itemType>
+                                <dataTypeReference>androidx.appfunctions.AppFunctionTextResource</dataTypeReference>
+                                <id>unused</id>
+                                <isNullable>false</isNullable>
+                                <type>11</type>
+                            </itemType>
+                            <type>10</type>
+                        </dataTypeMetadata>
+                        <id>unused</id>
+                        <name>resources</name>
+                    </properties>
+                    <required>resources</required>
+                    <type>3</type>
+                </allOf>
+                <allOf>
+                    <id>unused</id>
+                    <isNullable>true</isNullable>
+                    <objectQualifiedName>com.oplus.gallery.openabilitypage.PhotoFunctions$FindPhotosResponse</objectQualifiedName>
+                    <description>
+ Response class that implements AppFunctionResourceContainer
+</description>
+                    <properties>
+                        <dataTypeMetadata>
+                            <id>unused</id>
+                            <isNullable>false</isNullable>
+                            <itemType>
+                                <dataTypeReference>com.oplus.gallery.openabilitypage.PhotoFunctions$MediaMetadata</dataTypeReference>
+                                <id>unused</id>
+                                <isNullable>false</isNullable>
+                                <type>11</type>
+                            </itemType>
+                            <type>10</type>
+                        </dataTypeMetadata>
+                        <id>unused</id>
+                        <name>mediaMetadataList</name>
+                    </properties>
+                    <required>mediaMetadataList</required>
+                    <type>3</type>
+                </allOf>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>com.oplus.gallery.openabilitypage.PhotoFunctions$FindPhotosResponse</objectQualifiedName>
+                <description>
+ Response class that implements AppFunctionResourceContainer
+</description>
+                <type>12</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>com.oplus.gallery.openabilitypage.PhotoFunctions$FindPhotosResponse</name>
+        </dataTypes>
+        <id>unused</id>
+    </AppFunctionComponentMetadataDocument>
+</appfunctions>

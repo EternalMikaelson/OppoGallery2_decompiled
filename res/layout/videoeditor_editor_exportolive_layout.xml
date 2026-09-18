@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/videoeditor_ui_framework" android:background="@color/videoeditor_video_editor_background_color_edit" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.videoeditorpage.memories.engine.GalleryEditorVideoView android:gravity="center" android:id="@id/video_engine_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/preview_area" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/video_editor_preview_safe_area_size" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/toolbar_container" />
+    <View android:id="@id/start_safe_area" android:layout_width="@dimen/video_editor_export_olive_min_valve" android:layout_height="match_parent" android:layout_alignParentLeft="true" />
+    <View android:id="@id/end_safe_area" android:layout_width="@dimen/video_editor_export_olive_min_valve" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/toolbar_container" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/video_editor_toolbar_height" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/title_bar_container" android:forceDarkAllowed="false">
+        <include layout="@layout/videoeditor_video_editor_export_olive_bottom_menu_layout" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/title_bar_container" android:layout_width="match_parent" android:layout_height="@dimen/video_editor_titlebar_height" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_alignParentBottom="true">
+        <com.oplus.gallery.videoeditorpage.memories.ui.BottomActionBar android:id="@id/export_title_bar" android:layout_width="match_parent" android:layout_height="match_parent" app:actionCancelDrawable="@string/videoeditor_control_cancel" app:actionDoneDrawable="@string/videoeditor_button_save" />
+    </RelativeLayout>
+</RelativeLayout>

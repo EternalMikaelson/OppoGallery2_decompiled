@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="50.0dp" android:width="50.0dp" android:viewportWidth="50.0" android:viewportHeight="50.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M12,0L38,0A12,12 0,0 1,50 12L50,38A12,12 0,0 1,38 50L12,50A12,12 0,0 1,0 38L0,12A12,12 0,0 1,12 0z" />
+        <path android:fillColor="@drawable/$ai_ask_health_default__0" android:pathData="M0,0h50v50h-50z" />
+        <path android:fillColor="@drawable/$ai_ask_health_default__1" android:pathData="M40.826,27.434C44.65,23.611 44.65,17.412 40.827,13.589V13.589C37.003,9.766 30.805,9.766 26.982,13.589L22.456,18.115C16.289,24.281 16.289,34.279 22.456,40.445V40.445C23.936,41.925 26.335,41.925 27.815,40.445L40.826,27.434Z" />
+        <path android:fillColor="@drawable/$ai_ask_health_default__2" android:pathData="M9.338,27.434C5.515,23.611 5.515,17.412 9.338,13.589V13.589C13.162,9.766 19.36,9.766 23.183,13.589L27.709,18.115C33.875,24.281 33.875,34.279 27.709,40.445V40.445C26.229,41.925 23.83,41.925 22.35,40.445L9.338,27.434Z" android:fillAlpha="0.9" />
+    </group>
+</vector>

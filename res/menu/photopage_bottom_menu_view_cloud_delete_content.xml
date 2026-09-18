@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/group_tab">
+        <item android:icon="@drawable/photopage_ic_menu_backup_to_cloud_selector" android:enabled="true" android:id="@id/action_backup_to_cloud" android:orderInCategory="804" android:title="@string/cloud_service_backup_to_cloud" app:showAsAction="always" />
+        <item android:icon="@drawable/photopage_ic_menu_details_selector" android:id="@id/action_details" android:orderInCategory="805" android:title="@string/base_details" app:showAsAction="always" />
+    </group>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/picture3d_editor_personalise_text_list_item_bg_color_pressed" />
+    <corners android:radius="@dimen/picture3d_editor_personalise_text_list_menu_bg_radius" />
+</shape>

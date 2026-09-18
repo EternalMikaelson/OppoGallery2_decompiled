@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.basebiz.widget.GalleryCoordinatorLayout android:background="?couiColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent" app:coordinator_tryRequestLayoutEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.timelinepage.childview.TimelineFrameLayout android:id="@id/timeline_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false">
+        <ViewStub android:id="@id/slot_carousel_view_stub" android:layout="@layout/timeline_slot_carousel_view_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.oplus.gallery.business_lib.timeline.view.TimelineView android:id="@id/timeline_view" android:paddingBottom="@dimen/main_timeline_view_padding_bottom" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/talkback_picture3d_editor_text_album_selection_timeline" android:forceDarkAllowed="false" />
+        <com.oplus.gallery.timelinepage.header.TimelineHeaderLayout android:gravity="center_horizontal" android:layout_gravity="top" android:id="@id/timeline_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/base_timeline_header_view_margin_bottom" />
+        <com.oplus.gallery.basebiz.widget.scroller.FastScrollerButtonView android:layout_gravity="end" android:id="@id/timeline_fast_scroller" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_timeline_fast_scroller_margin_bottom" android:forceDarkAllowed="false" />
+        <ViewStub android:layout_gravity="center|bottom" android:id="@id/timeline_questionnaire_stub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_floating_network_layout_larger_margin_bottom_timeline" android:layout_marginHorizontal="@dimen/main_floating_network_margin_horizontal" />
+    </com.oplus.gallery.timelinepage.childview.TimelineFrameLayout>
+    <ViewStub android:id="@id/timeline_empty_view_stub" android:layout="@layout/timeline_empty_view_stub" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/layout_main_tab_bottom_menu_container" />
+    <ImageView android:id="@id/topTranslucentView" android:background="@drawable/base_photo_top_mask_repeat" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:id="@id/topTranslucentBlurLayer" android:background="@color/common_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" android:forceDarkAllowed="false" />
+    <com.oplus.gallery.basebiz.widget.MainTabToolbar android:id="@id/mainTabToolbar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.oplus.gallery.basebiz.widget.GalleryCoordinatorLayout>

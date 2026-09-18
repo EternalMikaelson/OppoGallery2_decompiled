@@ -1,0 +1,589 @@
+.class final Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;
+.super Ljava/lang/Object;
+.source "MediaSourceList.java"
+
+# interfaces
+.implements Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener;
+.implements Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/tbl/exoplayer2/MediaSourceList;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "ForwardingEventListener"
+.end annotation
+
+
+# instance fields
+.field private drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+.field private final id:Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;
+
+.field private mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+.field final synthetic this$0:Lcom/oplus/tbl/exoplayer2/MediaSourceList;
+
+
+# direct methods
+.method public constructor <init>(Lcom/oplus/tbl/exoplayer2/MediaSourceList;Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;)V
+    .locals 1
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->this$0:Lcom/oplus/tbl/exoplayer2/MediaSourceList;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {p1}, Lcom/oplus/tbl/exoplayer2/MediaSourceList;->access$000(Lcom/oplus/tbl/exoplayer2/MediaSourceList;)Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    iput-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 11
+    .line 12
+    invoke-static {p1}, Lcom/oplus/tbl/exoplayer2/MediaSourceList;->access$100(Lcom/oplus/tbl/exoplayer2/MediaSourceList;)Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    iput-object p1, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 17
+    .line 18
+    iput-object p2, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->id:Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;
+
+    .line 19
+    .line 20
+    return-void
+.end method
+
+.method private maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+    .locals 3
+
+    .line 1
+    if-eqz p2, :cond_0
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->id:Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;
+
+    .line 4
+    .line 5
+    invoke-static {v0, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList;->access$200(Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;Lcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Lcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p2
+
+    .line 9
+    if-nez p2, :cond_1
+
+    .line 10
+    .line 11
+    const/4 p0, 0x0
+
+    .line 12
+    return p0
+
+    .line 13
+    :cond_0
+    const/4 p2, 0x0
+
+    .line 14
+    :cond_1
+    iget-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->id:Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;
+
+    .line 15
+    .line 16
+    invoke-static {v0, p1}, Lcom/oplus/tbl/exoplayer2/MediaSourceList;->access$300(Lcom/oplus/tbl/exoplayer2/MediaSourceList$MediaSourceHolder;I)I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result p1
+
+    .line 20
+    iget-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 21
+    .line 22
+    iget v1, v0, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->windowIndex:I
+
+    .line 23
+    .line 24
+    if-ne v1, p1, :cond_2
+
+    .line 25
+    .line 26
+    iget-object v0, v0, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->mediaPeriodId:Lcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;
+
+    .line 27
+    .line 28
+    invoke-static {v0, p2}, Lcom/oplus/tbl/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 29
+    .line 30
+    .line 31
+    move-result v0
+
+    .line 32
+    if-nez v0, :cond_3
+
+    .line 33
+    .line 34
+    :cond_2
+    iget-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->this$0:Lcom/oplus/tbl/exoplayer2/MediaSourceList;
+
+    .line 35
+    .line 36
+    invoke-static {v0}, Lcom/oplus/tbl/exoplayer2/MediaSourceList;->access$000(Lcom/oplus/tbl/exoplayer2/MediaSourceList;)Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v0
+
+    .line 40
+    const-wide/16 v1, 0x0
+
+    .line 41
+    .line 42
+    invoke-virtual {v0, p1, p2, v1, v2}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->withParameters(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;J)Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object v0
+
+    .line 46
+    iput-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 47
+    .line 48
+    :cond_3
+    iget-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 49
+    .line 50
+    iget v1, v0, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->windowIndex:I
+
+    .line 51
+    .line 52
+    if-ne v1, p1, :cond_4
+
+    .line 53
+    .line 54
+    iget-object v0, v0, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->mediaPeriodId:Lcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;
+
+    .line 55
+    .line 56
+    invoke-static {v0, p2}, Lcom/oplus/tbl/exoplayer2/util/Util;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 57
+    .line 58
+    .line 59
+    move-result v0
+
+    .line 60
+    if-nez v0, :cond_5
+
+    .line 61
+    .line 62
+    :cond_4
+    iget-object v0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->this$0:Lcom/oplus/tbl/exoplayer2/MediaSourceList;
+
+    .line 63
+    .line 64
+    invoke-static {v0}, Lcom/oplus/tbl/exoplayer2/MediaSourceList;->access$100(Lcom/oplus/tbl/exoplayer2/MediaSourceList;)Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object v0
+
+    .line 68
+    invoke-virtual {v0, p1, p2}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->withParameters(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object p1
+
+    .line 72
+    iput-object p1, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 73
+    .line 74
+    :cond_5
+    const/4 p0, 0x1
+
+    .line 75
+    return p0
+.end method
+
+
+# virtual methods
+.method public onDownstreamFormatChanged(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->downstreamFormatChanged(Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onDrmKeysLoaded(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->drmKeysLoaded()V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onDrmKeysRemoved(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->drmKeysRemoved()V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onDrmKeysRestored(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->drmKeysRestored()V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onDrmSessionAcquired(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->drmSessionAcquired()V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onDrmSessionManagerError(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Ljava/lang/Exception;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->drmSessionManagerError(Ljava/lang/Exception;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onDrmSessionReleased(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->drmEventDispatcher:Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lcom/oplus/tbl/exoplayer2/drm/DrmSessionEventListener$EventDispatcher;->drmSessionReleased()V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onLoadCanceled(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3, p4}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->loadCanceled(Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onLoadCompleted(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3, p4}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->loadCompleted(Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onLoadError(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;Ljava/io/IOException;Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3, p4, p5, p6}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->loadError(Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;Ljava/io/IOException;Z)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onLoadStarted(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3, p4}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->loadStarted(Lcom/oplus/tbl/exoplayer2/source/LoadEventInfo;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method
+
+.method public onUpstreamDiscarded(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->maybeUpdateEventDispatcher(ILcom/oplus/tbl/exoplayer2/source/MediaSource$MediaPeriodId;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lcom/oplus/tbl/exoplayer2/MediaSourceList$ForwardingEventListener;->mediaSourceEventDispatcher:Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, p3}, Lcom/oplus/tbl/exoplayer2/source/MediaSourceEventListener$EventDispatcher;->upstreamDiscarded(Lcom/oplus/tbl/exoplayer2/source/MediaLoadData;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    return-void
+.end method

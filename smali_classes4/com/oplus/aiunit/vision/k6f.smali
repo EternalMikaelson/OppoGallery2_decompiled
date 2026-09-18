@@ -1,0 +1,44 @@
+.class public final Lcom/oplus/aiunit/vision/k6f;
+.super Ljava/lang/Object;
+.source "Executors.java"
+
+
+# static fields
+.field public static final a:Lcom/oplus/aiunit/vision/k6f$a;
+
+.field public static final b:Lcom/oplus/aiunit/vision/k6f$b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/oplus/aiunit/vision/k6f$a;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcom/oplus/aiunit/vision/k6f;->a:Lcom/oplus/aiunit/vision/k6f$a;
+
+    .line 7
+    .line 8
+    new-instance v0, Lcom/oplus/aiunit/vision/k6f$b;
+
+    .line 9
+    .line 10
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 11
+    .line 12
+    .line 13
+    sput-object v0, Lcom/oplus/aiunit/vision/k6f;->b:Lcom/oplus/aiunit/vision/k6f$b;
+
+    .line 14
+    .line 15
+    return-void
+.end method

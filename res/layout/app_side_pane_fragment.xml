@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.basebiz.widget.PerformanceCoordinatorLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/left_drawer" android:background="?gColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.COUICollapsableAppBarLayout android:id="@id/appBarLayout" android:background="?gColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp" app:endPaddingBottom="@dimen/coui_appbar_end_padding_bottom">
+        <com.google.android.material.appbar.COUICollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" style="@style/COUICollapsingToolbarLayoutStyle">
+            <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/toolbar" app:titleCenter="true" style="@style/COUICollapsedToolbarStyle" />
+        </com.google.android.material.appbar.COUICollapsingToolbarLayout>
+    </com.google.android.material.appbar.COUICollapsableAppBarLayout>
+    <com.oplus.gallery.basebiz.widget.AlbumRecycleView android:id="@id/recycler_view" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <View android:id="@id/drawer_navigation_mask" android:background="?gColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    <RelativeLayout android:layout_gravity="end|top" android:id="@id/editLayout" android:layout_width="wrap_content" android:layout_height="@dimen/app_side_pane_icon_height">
+        <com.oplus.gallery.basebiz.widget.WindowFocusAwareImageView android:id="@id/edit" android:background="@drawable/coui_pane_icon_bg" android:padding="@dimen/app_side_pane_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_ic_editframe" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textAppearance="@style/couiTextAppearanceButtonL" android:textColor="?couiColorPrimaryText" android:id="@id/doneEdit" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_actionbar_action_completed" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.oplus.gallery.basebiz.widget.PerformanceCoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/caption_seekbar" android:paddingTop="@dimen/common_caption_seekbar_padding_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_caption_seekbar_text_margin_bottom" android:paddingHorizontal="@dimen/common_caption_seekbar_text_padding_horizontal">
+        <com.oplus.gallery.foundation.ui.widget.SuitableSizeG2TextView android:textSize="@dimen/common_caption_seekbar_text_size" android:textColor="?couiColorLabelPrimary" android:layout_gravity="start|center" android:id="@id/caption_seekbar_name" android:background="@color/common_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.oplus.gallery.foundation.ui.widget.SuitableSizeG2TextView android:textSize="@dimen/common_caption_seekbar_text_size" android:textColor="@color/coui_color_label_secondary_dark" android:gravity="end" android:layout_gravity="end|center" android:id="@id/caption_seekbar_value" android:background="@color/common_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/common_caption_seekbar_value_min_width" />
+    </FrameLayout>
+    <com.oplus.gallery.foundation.ui.widget.GallerySeekbar android:id="@id/caption_seekbar_progress" android:layout_width="match_parent" android:layout_height="@dimen/common_caption_seekbar_layout_height" android:forceDarkAllowed="false" app:couiSeekBarBackgroundColor="@color/common_caption_seekbar_background_color" app:couiSeekBarDeformation="false" app:couiSeekBarProgressColor="?couiColorContainerTheme" />
+</LinearLayout>

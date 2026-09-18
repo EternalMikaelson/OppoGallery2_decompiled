@@ -1,0 +1,129 @@
+{
+  "styleId": "lumo_style_1",
+	"baseImageSize": 360,
+	"imageOffset": {
+		"startX": 0,
+		"startY": 0
+	},
+	"size": {
+		"bottomMargin": 60,
+		"leftMargin": 0,
+		"rightMargin": 0,
+		"topMargin": 0
+	},
+	"background": {
+		"backgroundType": 0,
+		"color": "#FFFFFF"
+	},
+	"bitmaps": [
+		{
+			"direction": 3,
+			"needDrawFirst": true,
+			"layout": 1,
+			"height": 60,
+			"width": -1,
+			"position": {
+				"borderX": 0,
+				"borderY": 0
+			},
+			"elements": [
+				{
+					"content": {
+						"bitmap": "lumo_watermark_logo_dark",
+						"bitmapResName": "lumo_watermark_logo_dark",
+						"bitmapSourceType": 0,
+						"scaleType": 3,
+						"type": "image",
+						"width": 52,
+						"height": 32
+					},
+					"id": 5,
+					"position": {
+						"layoutGravity": "rightVerticalCenter",
+						"layoutGravityEnable": true,
+						"rightMargin": 16
+					},
+					"visible": true
+				},
+				{
+					"content": {
+						"orientation": 1,
+						"type": "elements"
+					},
+					"elements": [
+						{
+							"content": {
+								"textSource": 0,
+								"type": "text"
+							},
+							"editable": false,
+							"id": 2,
+							"paint": {
+								"alpha": 1,
+								"colors": [
+									"#000000"
+								],
+								"font": "/system/fonts/SysSans-En-Regular.ttf",
+								"fontFileType": 1,
+								"fontName": "OplusSans",
+								"fontType": 0,
+								"fontWeight": 600,
+								"gradientType": -1,
+								"letterSpacing": 0.04,
+								"textSize": 12,
+								"lineHeight": 14
+							},
+							"position": {
+								"layoutGravity": "leftTop",
+								"layoutGravityEnable": true,
+								"leftMargin": 0,
+								"topMargin": 0
+							},
+							"visible": true
+						},
+						{
+							"content": {
+								"textSource": 1,
+								"type": "text"
+							},
+							"editable": true,
+							"id": 3,
+							"paint": {
+								"alpha": 0.54,
+								"lightAlpha": 0.54,
+								"colors": [
+									"#000000"
+								],
+								"font": "/system/fonts/SysSans-En-Regular.ttf",
+								"fontFileType": 1,
+								"fontName": "OplusSans",
+								"fontType": 0,
+								"gradientType": -1,
+								"fontWeight": 400,
+								"letterSpacing": 0.08,
+								"textSize": 7,
+								"lineHeight": 8
+							},
+							"position": {
+								"layoutGravity": "leftTop",
+								"layoutGravityEnable": true,
+								"leftMargin": 0,
+								"topMargin": 1,
+								"rightMargin": 0,
+								"bottomMargin": 0
+							},
+							"visible": true
+						}
+					],
+					"id": 1,
+					"position": {
+						"layoutGravity": "leftVerticalCenter",
+						"layoutGravityEnable": true,
+						"leftMargin": 20
+					},
+					"visible": true
+				}
+			]
+		}
+	]
+}

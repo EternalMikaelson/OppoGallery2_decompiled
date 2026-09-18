@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0dp" android:textColor="@color/coui_color_white" android:gravity="center" android:id="@id/collection_drag_text" android:background="@drawable/collection_drag_text_tips_bg" android:layout_width="wrap_content" android:layout_height="@dimen/collection_drag_shadow_card_num_height" android:minWidth="@dimen/collection_drag_shadow_card_num_height" android:maxEms="20"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

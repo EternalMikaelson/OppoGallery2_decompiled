@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/picture3d_eliminate_tips_content_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.foundation.ui.coui.LimitSizeSquareView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/picture3d_eliminate_tips_content_text_padding_start" android:layout_marginEnd="@dimen/picture3d_eliminate_tips_content_text_padding_end" app:maxSize="@dimen/picture3d_eliminate_tips_anim_vertical_size" app:minSize="@dimen/picture3d_group_photo_guide_round_frame_min_size">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.coui.appcompat.imageview.COUIRoundImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/picture3d_ai_eliminate_introduction_anim_bg" android:scaleType="centerCrop" app:couiBorderRadius="@dimen/picture3d_eliminate_tips_content_anim_radius" app:couiType="round" />
+            <com.oplus.anim.EffectiveAnimationView android:id="@id/effective_anim_view" android:layout_width="match_parent" android:layout_height="match_parent" app:anim_loop="true" app:anim_repeatMode="restart" />
+        </FrameLayout>
+    </com.oplus.gallery.foundation.ui.coui.LimitSizeSquareView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_eliminate_tips_content_text_margin_top" android:minHeight="@dimen/picture3d_eliminate_tips_content_min_height">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_introduction_icon" android:layout_width="@dimen/picture3d_editor_image_quality_enhance_icon_vertical_size" android:layout_height="@dimen/picture3d_editor_image_quality_enhance_icon_vertical_size" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <com.coui.appcompat.textview.COUITextView android:textColor="@color/ai_func_introduction_title_color" android:gravity="center_horizontal" android:id="@id/tv_introduction_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_editor_image_quality_enhance_title_text_margin_top" android:paddingStart="@dimen/picture3d_eliminate_tips_content_text_padding_start" android:paddingEnd="@dimen/picture3d_eliminate_tips_content_text_padding_end" style="@style/COUIAlertDialogTitleStyle" />
+        <com.coui.appcompat.textview.COUITextView android:textColor="@color/ai_func_introduction_desc_color" android:gravity="center_horizontal" android:id="@id/tv_introduction_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_eliminate_tips_content_desc_text_margin_top" style="@style/COUIAlertDialogMessageStyle" />
+    </LinearLayout>
+</LinearLayout>

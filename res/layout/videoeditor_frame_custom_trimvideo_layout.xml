@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/editor_root_view" android:background="@color/videoeditor_video_editor_background_color_edit" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/start_safe_area" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_alignParentLeft="true" />
+    <View android:id="@id/end_safe_area" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    <include android:id="@id/action_bar" android:background="@null" android:layout_width="match_parent" android:layout_height="@dimen/editor_action_bar_default_height" android:layout_alignParentTop="true" layout="@layout/videoeditor_custom_action_bar" />
+    <com.oplus.gallery.videoeditorpage.video.business.preview.EditorPreviewView android:id="@id/engine_preview_layout" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8.0dp" android:layout_marginBottom="@dimen/videoeditor_preview_bottom_margin_for_play_back" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/wallpaper_play_controls_host" android:layout_below="@id/action_bar" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/wallpaper_play_controls_host" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/toolbar_container" />
+    <FrameLayout android:gravity="center" android:id="@id/toolbar_container" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_custom_trim_touch_view_container_height" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/videoeditor_custom_trim_touch_view_bottom_margin" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/bottom_safe" android:forceDarkAllowed="false" />
+    <View android:id="@id/bottom_safe" android:layout_width="match_parent" android:layout_height="@dimen/dp_0" android:layout_alignParentBottom="true" />
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="0.0dp">
+        <include layout="@layout/videoeditor_main_layout" />
+    </FrameLayout>
+</RelativeLayout>

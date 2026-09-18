@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/editor_image_quality_enhance_watermark_root_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/editor_image_quality_enhance_watermark_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_generic_ai_generation" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textSize="@dimen/picture3d_editor_image_quality_enhance_watermark_text_size" android:textColor="@color/coui_color_hint_neutral_dark" android:ellipsize="end" android:id="@id/editor_image_quality_enhance_watermark_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picture3d_editor_text_generic_ai_generation_hint_oppo" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/picture3d_editor_image_quality_enhance_watermark_text_margin_start" android:layout_toEndOf="@id/editor_image_quality_enhance_watermark_iv" app:textSizeLevel="G2" />
+</RelativeLayout>

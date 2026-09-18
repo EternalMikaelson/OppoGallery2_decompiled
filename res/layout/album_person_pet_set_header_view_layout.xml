@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="?gColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textAppearance="@style/couiTextHeadlineS" android:textColor="@color/coui_color_label_primary" android:gravity="center_vertical" android:id="@id/group_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/group_photo" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/base_person_pet_group_title_padding_h" android:paddingVertical="@dimen/base_person_pet_group_title_padding_v" />
+        <FrameLayout android:id="@id/enter_group_set" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingHorizontal="@dimen/base_person_pet_group_title_padding_h">
+            <ImageView android:id="@id/goto_next" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/common_icon_arrow" android:scaleType="center" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/group_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/base_person_pet_group_empty_lay_padding_v">
+        <com.oplus.gallery.foundation.ui.widget.HorizontalRecyclerView android:orientation="horizontal" android:id="@id/group_recycler_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.coui.appcompat.tips.def.COUIDefaultTopTips android:id="@id/group_empty_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_person_pet_group_empty_lay_padding_v" android:layout_marginHorizontal="@dimen/base_person_pet_group_title_padding_h" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/couiTextHeadlineS" android:textColor="@color/coui_color_label_primary" android:gravity="center_vertical" android:id="@id/person_pet_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_person_pet_group_title_padding_h" android:text="@string/person_pet_group_title" android:layout_marginHorizontal="@dimen/base_album_set_fragment_item_view_horizontal_page_margin" android:paddingVertical="@dimen/base_person_pet_group_title_padding_v" />
+</merge>

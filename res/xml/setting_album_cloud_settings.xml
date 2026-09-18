@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/setting_category_cloud_sync_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_header" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIPreference android:enabled="false" android:layout="@layout/ocloudsyncability_setting_header_layout" android:key="pref_key_cloud_setting_header" />
+        <com.coui.appcompat.preference.COUISwitchLoadingPreference android:title="@string/setting_category_cloud_sync_title" android:key="pref_key_cloud_setting_auto_sync" android:defaultValue="false" app:couiShowDivider="false" />
+        <com.oplus.gallery.framework.abilities.ocloudsync.ui.LoadingJumpPreference android:title="@string/cloud_sync_setting_service_mode" android:key="pref_key_cloud_setting_sync_service_mode" app:couiShowDivider="true" />
+        <com.oplus.gallery.framework.abilities.ocloudsync.ui.AssignmentNoLimitPreference android:title="@string/cloud_sync_setting_status" android:selectable="false" android:key="pref_key_cloud_setting_auto_sync_status" app:couiClickStyle="unclick" app:titleTextColor="@color/coui_color_label_primary" />
+        <com.coui.appcompat.preference.COUIPreference android:key="pref_key_cloud_setting_auto_sync_status_handle" app:isPreferenceVisible="false" app:layout="@layout/ocloudsyncability_setting_text_layout" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_second">
+        <com.coui.appcompat.preference.COUIJumpPreference android:enabled="false" android:title="@string/cloud_setting_album_check" android:key="perf_key_cloud_setting_album_check" app:couiShowDivider="true" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:enabled="false" android:title="@string/cloud_setting_mobile_data_allow" android:key="perf_key_cloud_setting_mobile_data_allow" android:defaultValue="false" app:isPreferenceVisible="true" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/cloud_setting_data_detail" android:key="pref_key_cloud_setting_data_detail" app:couiShowDivider="true" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/cloud_service_enabled_devices" android:key="pref_key_cloud_setting_sync_enable_devices" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:enabled="false" android:title="@string/cloud_sync_setting_optimize_space" android:key="pref_category_key_optimize_storage_space">
+        <com.coui.appcompat.preference.COUIMarkPreference android:title="@string/cloud_sync_setting_origin_photo" android:key="pref_key_cloud_setting_origin_phone" android:summary="@string/cloud_sync_setting_more_space_tips" app:defaultValue="true" />
+        <com.coui.appcompat.preference.COUIMarkPreference android:key="pref_key_cloud_setting_hd_thumbnails" android:summary="@string/cloud_sync_setting_optimize_hb_thumbnails_new" app:defaultValue="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIRecommendedPreference android:key="perf_key_cloud_setting_faq" app:isPreferenceVisible="false" />
+        <com.coui.appcompat.preference.COUIBottomPreference />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

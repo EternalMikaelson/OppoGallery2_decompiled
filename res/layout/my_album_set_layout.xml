@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.basebiz.widget.GalleryCoordinatorLayout android:id="@id/my_album_set_layout" android:background="?couiColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.basebiz.widget.scroller.RecyclerViewFastScroller android:id="@id/fastScroller" android:layout_width="match_parent" android:layout_height="match_parent" app:common_scroller_style="bar" app:common_track_marginBottom="@dimen/common_bottom_navigation_menu_height" app:common_track_marginTop="@dimen/base_album_recyclerview_padding_top">
+        <com.oplus.gallery.basebiz.widget.AlbumRecycleView android:id="@id/recycler_view" android:paddingTop="@dimen/my_album_recyclerView_padding_top" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    </com.oplus.gallery.basebiz.widget.scroller.RecyclerViewFastScroller>
+</com.oplus.gallery.basebiz.widget.GalleryCoordinatorLayout>

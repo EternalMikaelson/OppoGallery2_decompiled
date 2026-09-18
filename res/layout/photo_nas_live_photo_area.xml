@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/photo_nas_live_photo_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photopage_ic_menu_olive_selector" android:contentDescription="@null" />
+    <com.coui.appcompat.progressbar.COUICircularProgressBar android:layout_gravity="center" android:id="@id/pb_photo_nas_live_photo" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" style="@style/Widget.COUI.COUICircularProgressBar.Medium.OnImage" />
+</FrameLayout>

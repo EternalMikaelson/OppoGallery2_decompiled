@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="collage_tab_switcher_items">
+        <item>@string/collage_template</item>
+        <item>@string/collage_poster</item>
+        <item>@string/collage_joint</item>
+    </string-array>
+    <string-array name="super_text_book_popupWindow_items">
+        <item>@string/book_dialog_items_search_info</item>
+        <item>@string/book_dialog_items_read</item>
+        <item>@string/book_dialog_items_search_media</item>
+    </string-array>
+    <string-array name="super_text_eMail_popupWindow_items">
+        <item>@string/mail_dialog_items_write_mail</item>
+        <item>@string/mail_dialog_items_mail_address</item>
+    </string-array>
+    <string-array name="super_text_number_popupWindow_items">
+        <item>@string/phone_dialog_items_call_phone</item>
+        <item>@string/phone_dialog_items_send_message</item>
+        <item>@string/phone_dialog_items_save_phone</item>
+    </string-array>
+    <string-array name="super_text_traffic_popupWindow_items">
+        <item>@string/traffic_dialog_items_plane_query</item>
+        <item>@string/traffic_dialog_items_train_query</item>
+    </string-array>
+</resources>

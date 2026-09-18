@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/resolver_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.foundation.ui.widget.NestScrollRecyclerView android:id="@id/resolver_recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_resolver_sharebyapp_margin_top" android:layout_marginBottom="@dimen/main_resolver_sharebyapp_margin_bottom" android:paddingStart="@dimen/main_resolver_oshareing_recyclerview_padding_start" android:paddingEnd="@dimen/main_resolver_oshareing_recyclerview_padding_start" android:nestedScrollingEnabled="false" />
+</RelativeLayout>

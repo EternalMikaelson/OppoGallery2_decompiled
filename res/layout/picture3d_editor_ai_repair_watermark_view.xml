@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textSize="@dimen/picture3d_group_photo_ai_watermark_text_size" android:textColor="@color/coui_color_label_secondary_variant_dark" android:ellipsize="end" android:id="@id/editor_repair_watermark_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picture3d_editor_text_generic_ai_generation_hint_oppo" android:maxLines="1" android:layout_centerVertical="true" android:fontFamily="OPlus Sans SC 3.5" android:layout_marginStart="6.0dp" android:textFontWeight="400" app:textSizeLevel="G2" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.collagepage.ui.solution.CollageChip android:textAppearance="@style/gTextAppearanceDescription" android:gravity="center" android:id="@id/collage_template_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/collage_menu_solution_type_list_item_max_width" android:minWidth="@dimen/collage_menu_solution_type_list_item_min_width" android:lines="1" android:checkable="true" android:textAlignment="center" android:layout_marginHorizontal="@dimen/collage_menu_solution_type_list_chip_spacing" app:toggleEnabled="false" style="@style/Theme.Collage.COUI.Chip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

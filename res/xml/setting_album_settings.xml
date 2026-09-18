@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/common_app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/google_cloud_setting_auto_sync" android:key="pref_category_cloud_sync_key">
+        <com.oplus.gallery.foundation.ui.RtlCOUIJumpPreference android:title="@string/google_cloud_setting_title" android:key="pref_key_auto_sync_2" app:preference_icon_radius="0.0dp" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_pref_share_album_title" android:key="pref_key_share_album" android:summary="@string/setting_pref_share_album_summary" android:defaultValue="false" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/setting_pref_browser_category" android:key="pref_category_key_browser">
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="true" android:entries="@array/setting_sort_dialog_item_title" android:title="@string/settings_pref_photos_sort_title" android:key="pref_key_photos_sort" android:entryValues="@array/setting_sort_dialog_item_title" app:couiAssignment="@string/settings_photos_sort_asc" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/setting_pref_local_hdr_title" android:key="pref_key_local_hdr_settings" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_pref_video_auto_play_title" android:key="pref_video_auto_play_key" android:defaultValue="true" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/setting_category_sharing_title" android:key="pref_category_key_sending">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/setting_privacy_info_erasure" android:key="pref_key_security_share_send" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/base_setting_compatible_formats_title" android:key="pref_key_compatible_formats" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/setting_category_more_title">
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="true" android:entries="@array/setting_pref_editor_save_dialog_item_titles" android:title="@string/setting_pref_editor_save_title" android:key="pref_key_editor_save_mode" android:entryValues="@array/setting_pref_editor_save_dialog_item_titles" app:couiAssignment="@string/setting_pref_editor_save_mode_ask" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_category_network_permission_title" android:key="pref_key_open_network" android:summary="@string/setting_pref_open_network_summary" android:defaultValue="false" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/title_ai_voice_image_assistant" android:key="pref_key_open_ai_picgenie" android:summary="@string/setting_pref_ai_picgenie_switch_summary_v2" android:defaultValue="false" app:couiShowDivider="false" />
+        <com.oplus.gallery.settingpage.widget.preference.TipsSwitchPreference android:layout="@layout/setting_card_case_layout" android:title="@string/setting_pref_intelligent_editing_recommendation_title" android:key="pref_key_intelligent_editing_recommendation" android:summary="@string/setting_pref_intelligent_editing_recommendation_summary" android:defaultValue="false" app:couiShowDivider="false" app:isPreferenceVisible="false" />
+        <com.oplus.gallery.settingpage.widget.preference.TipsSwitchPreference android:layout="@layout/setting_card_case_layout" android:title="@string/settings_pref_card_case_title" android:key="pref_card_case_key" android:defaultValue="false" app:couiShowDivider="false" app:isPreferenceVisible="false" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_pref_encrypt_album_secrecy_title" android:key="pref_key_safe_box_album" android:summary="@string/setting_pref_encrypt_album_secrecy_summary" android:defaultValue="true" app:couiShowDivider="false" app:isPreferenceVisible="false" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/setting_pref_show_AI_Logo" android:key="pref_key_AI_logo" android:defaultValue="true" app:couiShowDivider="false" app:isPreferenceVisible="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_feedback_key">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/setting_pref_about_gallery_title" android:key="pref_key_about" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/setting_pref_feedback_title" android:key="pref_key_feedback" app:couiShowDivider="false" app:isPreferenceVisible="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

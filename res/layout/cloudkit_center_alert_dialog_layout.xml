@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.heytap.cloudkit.libpay.coui.dialog.CloudAlertDialogMaxLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/parentPanel" android:background="@drawable/cloudkit_alert_dialog_builder_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/rootView" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/topPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="top" android:id="@android:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0dp" android:textColor="@color/cloudkit_color_label_primary" android:gravity="center" android:id="@id/alertTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="22.0dp" android:fontFamily="sans-serif-medium" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="@drawable/cloudkit_scrollbar_handle_vertical" android:scrollbarStyle="insideOverlay" android:id="@id/scrollView" android:background="@android:color/transparent" android:padding="0.0dp" android:scrollbars="vertical" android:fadingEdgeLength="30.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls" android:requiresFadingEdge="vertical" android:elevation="0.0dp">
+                <com.heytap.cloudkit.libpay.coui.dialog.CloudAlertDialogMessageView android:textAppearance="@style/CloudTextBodyS" android:textColor="@color/cloudkit_color_label_primary" android:gravity="center_horizontal" android:id="@android:id/message" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp" android:paddingVertical="8.0dp" />
+            </androidx.core.widget.NestedScrollView>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/listPanel" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <FrameLayout android:id="@id/customPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/custom" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/buttonPanel" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58.0dp">
+            <FrameLayout android:visibility="gone" android:clipChildren="false" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatButton android:textSize="16.0dp" android:id="@android:id/button3" android:background="@null" android:paddingTop="12.0dp" android:paddingBottom="22.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" android:lineSpacingMultiplier="@dimen/cloudkit_spacing_multiplier_button_l" android:textAllCaps="false" android:fontFamily="sans-serif-medium" />
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/alert_dialog_button_divider_1" android:visibility="gone" android:layout_width="0.33000004dp" android:layout_height="match_parent" android:layout_marginTop="14.0dp" android:layout_marginBottom="24.0dp" android:src="@color/cloudkit_color_divider" android:forceDarkAllowed="false" />
+            <FrameLayout android:clipChildren="false" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatButton android:textSize="16.0dp" android:textColor="@color/cloudkit_color_primary" android:id="@android:id/button2" android:background="@null" android:paddingTop="12.0dp" android:paddingBottom="22.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" android:lineSpacingMultiplier="@dimen/cloudkit_spacing_multiplier_button_l" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/alert_dialog_button_divider_2" android:visibility="gone" android:layout_width="0.33000004dp" android:layout_height="match_parent" android:layout_marginTop="14.0dp" android:layout_marginBottom="24.0dp" android:src="@color/cloudkit_color_divider" android:forceDarkAllowed="false" />
+            <FrameLayout android:clipChildren="false" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatButton android:textSize="16.0dp" android:textColor="@color/cloudkit_color_primary" android:id="@android:id/button1" android:paddingTop="12.0dp" android:paddingBottom="22.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="2" android:lineSpacingMultiplier="@dimen/cloudkit_spacing_multiplier_button_l" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+            </FrameLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.heytap.cloudkit.libpay.coui.dialog.CloudAlertDialogMaxLinearLayout>

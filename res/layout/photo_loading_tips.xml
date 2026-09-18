@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/func_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.progressbar.COUILottieLoadingView android:id="@id/func_photo_loading" android:background="@drawable/photo_func_loading_bg" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/photopage_always_decor_loading_size" android:layout_height="@dimen/photopage_always_decor_loading_size" android:forceDarkAllowed="false" app:couiLottieLoadingJsonName="lottie_loading_view_loading.json" app:couiLottieLoadingViewHeight="20.0dp" app:couiLottieLoadingViewWidth="20.0dp" />
+</FrameLayout>

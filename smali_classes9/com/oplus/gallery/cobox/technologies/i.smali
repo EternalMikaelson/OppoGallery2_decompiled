@@ -1,0 +1,127 @@
+.class public final synthetic Lcom/oplus/gallery/cobox/technologies/i;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.source "ImageTechnology.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Ljava/lang/Float;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 7
+
+    .line 1
+    const-string/jumbo v5, "updateAlphaInternal(F)V"
+
+    const/4 v6, 0x0
+
+    const/4 v1, 0x1
+
+    .line 5
+    const-class v3, Lcom/oplus/gallery/cobox/technologies/h;
+
+    .line 7
+    const-string/jumbo v4, "updateAlphaInternal"
+
+    move-object v0, p0
+
+    move-object v2, p1
+
+    .line 11
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/Number;
+
+    invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
+
+    move-result p1
+
+    invoke-virtual {p0, p1}, Lcom/oplus/gallery/cobox/technologies/i;->invoke(F)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public final invoke(F)V
+    .locals 4
+
+    .line 2
+    iget-object p0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    check-cast p0, Lcom/oplus/gallery/cobox/technologies/h;
+
+    .line 3
+    iget-object v0, p0, Lcom/oplus/gallery/cobox/technologies/h;->f:Lcom/oplus/gallery/cobox/technologies/c;
+
+    .line 4
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    sget-object v1, Lcom/oplus/gallery/cobox/technologies/c;->W:[Lkotlin/reflect/KProperty;
+
+    const/4 v2, 0x4
+
+    aget-object v1, v1, v2
+
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v2
+
+    iget-object v3, v0, Lcom/oplus/gallery/cobox/technologies/c;->G:Lcom/oplus/aiunit/vision/z4m;
+
+    invoke-virtual {v3, v0, v1, v2}, Lkotlin/properties/ObservableProperty;->setValue(Ljava/lang/Object;Lkotlin/reflect/KProperty;Ljava/lang/Object;)V
+
+    .line 6
+    iget-object p0, p0, Lcom/oplus/gallery/cobox/technologies/h;->g:Lcom/oplus/gallery/cobox/technologies/f;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 7
+    sget-object v0, Lcom/oplus/gallery/cobox/technologies/f;->G:[Lkotlin/reflect/KProperty;
+
+    const/4 v1, 0x3
+
+    aget-object v0, v0, v1
+
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    iget-object v1, p0, Lcom/oplus/gallery/cobox/technologies/f;->y:Lcom/oplus/aiunit/vision/z4m;
+
+    invoke-virtual {v1, p0, v0, p1}, Lkotlin/properties/ObservableProperty;->setValue(Ljava/lang/Object;Lkotlin/reflect/KProperty;Ljava/lang/Object;)V
+
+    return-void
+.end method

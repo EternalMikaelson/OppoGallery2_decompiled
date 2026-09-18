@@ -1,0 +1,104 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/ts80;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/oplus/gallery/photoeditor/editingvvm/ailighting/processing/AiLightingCapsuleStateView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/oplus/gallery/photoeditor/editingvvm/ailighting/processing/AiLightingCapsuleStateView;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/ts80;->a:Lcom/oplus/gallery/photoeditor/editingvvm/ailighting/processing/AiLightingCapsuleStateView;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    sget v0, Lcom/oplus/gallery/photoeditor/widget/layout/TransformCapsuleStateView;->U:I
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ts80;->a:Lcom/oplus/gallery/photoeditor/editingvvm/ailighting/processing/AiLightingCapsuleStateView;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0}, Lcom/oplus/gallery/photoeditor/widget/layout/TransformCapsuleStateView;->getTvNextTitle()Lcom/oplus/gallery/photoeditor/widget/layout/CapsuleTitleView;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    const/4 v1, 0x0
+
+    .line 10
+    invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
+
+    .line 11
+    .line 12
+    .line 13
+    iget-object v0, p0, Lcom/oplus/gallery/photoeditor/widget/layout/TransformCapsuleStateView;->p:Lcom/coui/appcompat/animation/dynamicanimation/COUISpringAnimation;
+
+    .line 14
+    .line 15
+    if-eqz v0, :cond_0
+
+    .line 16
+    .line 17
+    invoke-virtual {v0}, Lcom/coui/appcompat/animation/dynamicanimation/COUISpringAnimation;->start()V
+
+    .line 18
+    .line 19
+    .line 20
+    :cond_0
+    invoke-virtual {p0}, Lcom/oplus/gallery/photoeditor/widget/layout/TransformCapsuleStateView;->getTvNextTitle()Lcom/oplus/gallery/photoeditor/widget/layout/CapsuleTitleView;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v0
+
+    .line 24
+    const/4 v1, 0x0
+
+    .line 25
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
+
+    .line 26
+    .line 27
+    .line 28
+    iget-object v0, p0, Lcom/oplus/gallery/photoeditor/widget/layout/TransformCapsuleStateView;->z:Ljava/lang/String;
+
+    .line 29
+    .line 30
+    iput-object v0, p0, Lcom/oplus/gallery/photoeditor/widget/layout/TransformCapsuleStateView;->T:Ljava/lang/String;
+
+    .line 31
+    .line 32
+    invoke-virtual {p0, v0}, Lcom/oplus/gallery/photoeditor/editingvvm/ailighting/processing/AiLightingCapsuleStateView;->A(Ljava/lang/String;)V
+
+    .line 33
+    .line 34
+    .line 35
+    return-void
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/edit_album" android:orderInCategory="2" android:title="@string/common_select" app:showAsAction="never" />
+    <item android:icon="@drawable/base_menu_ic_add" android:id="@id/action_add_new_album" android:orderInCategory="2" android:title="@string/base_create_local_album" app:showAsAction="always" />
+</menu>

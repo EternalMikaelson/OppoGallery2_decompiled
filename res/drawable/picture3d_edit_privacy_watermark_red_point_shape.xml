@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/picture3d_editor_privacy_watermark_red_point_height" android:width="@dimen/picture3d_editor_privacy_watermark_red_point_with" />
+    <solid android:color="?couiColorError" />
+</shape>

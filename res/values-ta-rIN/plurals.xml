@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">%1$2s உருப்படி உட்பட %2$1s ஆல்பம்; இதை \"அடிக்கடிப் பயன்படுத்தியவை\" என்பதில் சேர்க்கத் தட்டவும்.</item>
+        <item quantity="other">%1$2s உருப்படிகள் உட்பட %2$1s ஆல்பம்; இதை \"அடிக்கடிப் பயன்படுத்தியவை\" என்பதில் சேர்க்கத் தட்டவும்.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s பொருத்தம்</item>
+        <item quantity="other">%s பொருத்தங்கள்</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">வீடியோவை விரைவாக உருவாக்க, உங்கள் மீடியாவைத் தேர்ந்தெடுத்து, கீழே உள்ள \"AI இன்ஸ்டண்ட் கிளிப்\" மிதவைச் சாளரத்தைத் தட்டவும். சிறந்த முடிவுகளுக்காகக் குறைந்தது %1$s உருப்படியைத் தேர்வுசெய்யவும்.</item>
+        <item quantity="other">வீடியோவை விரைவாக உருவாக்க, உங்கள் மீடியாவைத் தேர்ந்தெடுத்து, கீழே உள்ள \"AI இன்ஸ்டண்ட் கிளிப்\" மிதவைச் சாளரத்தைத் தட்டவும். சிறந்த முடிவுகளுக்குக் குறைந்தது %1$s உருப்படிகளைத் தேர்வுசெய்யவும்.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">வீடியோவை விரைவாக உருவாக்க, உங்கள் மீடியாவைத் தேர்ந்தெடுத்து, கீழே உள்ள \"திருத்து - AI இன்ஸ்டண்ட் கிளிப்\" என்பதைத் தட்டவும். சிறந்த முடிவுகளுக்காகக் குறைந்தது %1$s உருப்படியைத் தேர்வுசெய்யவும்.</item>
+        <item quantity="other">வீடியோவை விரைவாக உருவாக்க, உங்கள் மீடியாவைத் தேர்ந்தெடுத்து, கீழே உள்ள \"திருத்து - AI இன்ஸ்டண்ட் கிளிப்\" என்பதைத் தட்டவும். சிறந்த முடிவுகளுக்குக் குறைந்தது %1$s உருப்படிகளைத் தேர்வுசெய்யவும்.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">%1$d வினாடிக்கும் மேல் நீளமான மோஷன் போட்டோக்கள் ஆதரிக்கப்படவில்லை</item>
+        <item quantity="other">%1$d வினாடிகளுக்கும் மேல் நீளமான மோஷன் போட்டோக்கள் ஆதரிக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">வீடியோ %d வினாடிக்கும் மேல் இருக்கக்கூடாது</item>
+        <item quantity="other">வீடியோ %d வினாடிகளுக்கும் மேல் இருக்கக்கூடாது</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d பூட்டப்பட்ட செயலி</item>
+        <item quantity="other">%d பூட்டப்பட்ட செயலிகள்</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">%1$2s உருப்படி உட்பட %2$1s ஆல்பம்; \"அடிக்கடிப் பயன்படுத்தியவை\" என்பதில் சேர்க்கப்பட்டது.</item>
+        <item quantity="other">%1$2s உருப்படிகள் உட்பட %2$1s ஆல்பம்; \"அடிக்கடிப் பயன்படுத்தியவை\" என்பதில் சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">சேர் (%1$d)</item>
+        <item quantity="other">சேர் (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">சேர் (%1$d/%2$d)</item>
+        <item quantity="other">சேர் (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d உருப்படி சரிசெய்யப்பட்டது</item>
+        <item quantity="other">%1$d உருப்படிகள் சரிசெய்யப்பட்டன</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d படம் ஏற்றப்படுகிறது, சேர்க்க முடியாது.</item>
+        <item quantity="other">%d படங்கள் ஏற்றப்படுகின்றன, சேர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d ஆவணம்</item>
+        <item quantity="other">%1$d ஆவணங்கள்</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d வங்கி அட்டை</item>
+        <item quantity="other">%1$d வங்கி அட்டைகள்</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d ஆல்பத்தில் உள்ள உருப்படிகள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில உருப்படிகள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+        <item quantity="other">%d ஆல்பங்களில் உள்ள உருப்படிகள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில உருப்படிகள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d பர்ஸ்ட் புகைப்படம் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அது \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். எல்லா பர்ஸ்ட் புகைப்படங்களும் கிளவுடுக்குக் காப்புப்பிரதி எடுக்கப்பட்டு, அங்கேயே இருக்கும்.</item>
+        <item quantity="other">%d பர்ஸ்ட் புகைப்படங்கள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். எல்லா பர்ஸ்ட் புகைப்படங்களும் கிளவுடுக்குக் காப்புப்பிரதி எடுக்கப்பட்டு, அங்கேயே இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d பர்ஸ்ட் புகைப்படம் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அது \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில புகைப்படங்கள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+        <item quantity="other">%d பர்ஸ்ட் புகைப்படங்கள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில புகைப்படங்கள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d உருப்படி இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அது \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில உருப்படிகள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+        <item quantity="other">%d உருப்படிகள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில உருப்படிகள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d புகைப்படம் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அது \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில புகைப்படங்கள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+        <item quantity="other">%d புகைப்படங்கள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில புகைப்படங்கள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d வீடியோ இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அது \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில வீடியோக்கள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+        <item quantity="other">%d வீடியோக்கள் இந்தச் சாதனத்திலிருந்து நீக்கப்படும், அவை \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்கு இருக்கும். சில வீடியோக்கள் காப்புப்பிரதி எடுக்கப்படவில்லை. அவற்றை நீக்குவதற்கு முன் நீங்கள் அவற்றைக் காப்புப்பிரதி எடுக்க விரும்பலாம்.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s சிறுபடம் அதன் அசல் பதிப்பு மூலம் மாற்றப்படும்.</item>
+        <item quantity="other">%1$s சிறுபடங்கள் அவற்றின் அசல் பதிப்புகள் மூலம் மாற்றப்படும்.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d IDகள்</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">ஒன்றிணைத்து, %d நபரை அகற்றவா?</item>
+        <item quantity="other">ஒன்றிணைத்து, %d நபர்களை அகற்றவா?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">இந்த ஆல்பத்திலிருந்து %d புகைப்படத்தை அகற்றவா?</item>
+        <item quantity="other">இந்த ஆல்பத்திலிருந்து %d புகைப்படங்களை அகற்றவா?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">இந்த ஆல்பத்திலிருந்து %d உருப்படியை அகற்றவா?</item>
+        <item quantity="other">இந்த ஆல்பத்திலிருந்து %d உருப்படிகளை அகற்றவா?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">இந்த ஆல்பத்திலிருந்து %d வீடியோவை அகற்றவா?</item>
+        <item quantity="other">இந்த ஆல்பத்திலிருந்து %d வீடியோக்களை அகற்றவா?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">சிறுபடத்தைப் பயன்படுத்து</item>
+        <item quantity="other">சிறுபடங்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">அசலைப் பயன்படுத்து</item>
+        <item quantity="other">அசல்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 புகைப்படம் ஒரு சிறுபடமாகும். அதற்குப் பதிலாக அசல் புகைப்படத்தைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்டதில் சில புகைப்படங்கள் சிறுபடங்களாகும். அதற்குப் பதிலாக அசல் புகைப்படங்களைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">ஒரு நேரத்தில் அதிகபட்சமாக %1$d படத்தை PDF-ஆக மாற்றலாம்</item>
+        <item quantity="other">ஒரு நேரத்தில் அதிகபட்சமாக %1$d படங்களை PDF-ஆக மாற்றலாம்</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">போதுமான சாதனச் சேமிப்பகம் இல்லை. %1$d உருப்படி நகலெடுக்கப்படவில்லை.</item>
+        <item quantity="other">போதுமான சாதனச் சேமிப்பகம் இல்லை. %1$d உருப்படிகள் நகலெடுக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d உருப்படி நகலெடுக்கப்பட்டது</item>
+        <item quantity="other">%d உருப்படிகள் நகலெடுக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">%d உருப்படிக்கும் மேல் நகலெடுக்க முடியாது</item>
+        <item quantity="other">%d உருப்படிகளுக்கும் மேல் நகலெடுக்க முடியாது</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d புகைப்படம் நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d புகைப்படங்கள் நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d உருப்படி நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d உருப்படிகள் நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d வீடியோ நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d வீடியோக்கள் நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d பர்ஸ்ட் புகைப்படம் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d பர்ஸ்ட் புகைப்படங்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்தப் புகைப்படம் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்தப் புகைப்படங்கள் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">இந்தப் புகைப்படம் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+        <item quantity="other">இந்தப் புகைப்படங்கள் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த உருப்படி நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த உருப்படிகள் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">இந்த உருப்படி நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+        <item quantity="other">இந்த உருப்படிகள் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படம் நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படங்கள் நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படி நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படிகள் நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோ நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோக்கள் நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d பர்ஸ்ட் புகைப்படம் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d பர்ஸ்ட் புகைப்படங்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">%d ஆல்பத்தை நீக்கவா?</item>
+        <item quantity="other">%d ஆல்பங்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">%d பர்ஸ்ட் புகைப்படத்தை நீக்கவா?</item>
+        <item quantity="other">%d பர்ஸ்ட் புகைப்படங்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d நினைவு நீக்கப்படும். இந்த நினைவில் உள்ள புகைப்படங்கள் \"போட்டோ\" செயலியில் வைக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d நினைவுகள் நீக்கப்படும். இந்த நினைவுகளில் உள்ள புகைப்படங்கள் \"போட்டோ\" செயலியில் வைக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">%d நினைவகத்தை நீக்கவா?</item>
+        <item quantity="other">%d நினைவகங்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">%d உருப்படியை நிரந்தரமாக நீக்கு</item>
+        <item quantity="other">%d உருப்படிகளை நிரந்தரமாக நீக்கு</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d உருப்படியை நீக்கு</item>
+        <item quantity="other">%d உருப்படிகளை நீக்கு</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">%d புகைப்படத்தை நீக்கவா?</item>
+        <item quantity="other">%d புகைப்படங்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">%d உருப்படியை நீக்கவா?</item>
+        <item quantity="other">%d உருப்படிகளை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">%d வீடியோவை நீக்கவா?</item>
+        <item quantity="other">%d வீடியோக்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">%d ஸ்டிக்கரை நீக்கவா?</item>
+        <item quantity="other">%d ஸ்டிக்கர்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">இந்தப் புகைப்படத்தை நீக்கவும்</item>
+        <item quantity="other">இந்தப் புகைப்படங்களை நீக்கவும்</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த வீடியோ நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த வீடியோக்கள் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">இந்த வீடியோ நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+        <item quantity="other">இந்த வீடியோக்கள் நிரந்தரமாக நீக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d உருப்படியைப் பதிவிறக்குகிறது…</item>
+        <item quantity="other">%d உருப்படிகளைப் பதிவிறக்குகிறது…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d புகைப்படத்தைப் பதிவிறக்குகிறது…</item>
+        <item quantity="other">%d புகைப்படங்களைப் பதிவிறக்குகிறது…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d வீடியோவைப் பதிவிறக்குகிறது…</item>
+        <item quantity="other">%d வீடியோக்களைப் பதிவிறக்குகிறது…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">%d கோப்பைத் தனிப்பட்டதாக அமைக்கவா?</item>
+        <item quantity="other">%d கோப்புகளைத் தனிப்பட்டதாக அமைக்கவா?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">இந்தப் புகைப்படத்தைத் தனிப்பட்டதாக அமைக்கவா?</item>
+        <item quantity="other">இந்தப் புகைப்படங்களைத் தனிப்பட்டதாக அமைக்கவா?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d கோப்பைக் குறியாக்க முடியவில்லை</item>
+        <item quantity="other">%d கோப்புகளைக் குறியாக்க முடியவில்லை</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">%d ஆல்பத்தைப் பூட்டவா?</item>
+        <item quantity="other">%d ஆல்பங்களைப் பூட்டவா?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d பர்ஸ்ட் புகைப்படம் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d பர்ஸ்ட் புகைப்படங்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d பர்ஸ்ட் புகைப்படம் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d பர்ஸ்ட் புகைப்படங்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d ஆல்பம் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட ஆல்பங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத ஆல்பங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d ஆல்பங்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட ஆல்பங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத ஆல்பங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d புகைப்படம் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d புகைப்படங்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d உருப்படி நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத உருப்படிகள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d உருப்படிகள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத உருப்படிகள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d வீடியோ நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட வீடியோக்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத வீடியோக்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d வீடியோக்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட வீடியோக்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத வீடியோக்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d ஆல்பம் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட ஆல்பங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத ஆல்பங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d ஆல்பங்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட ஆல்பங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத ஆல்பங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படம் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படங்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட புகைப்படங்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத புகைப்படங்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படி நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத உருப்படிகள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படிகள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத உருப்படிகள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோ நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட வீடியோக்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத வீடியோக்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோக்கள் நீக்கப்படும். காப்புப்பிரதி எடுக்கப்பட்ட வீடியோக்கள் \"சமீபத்தில் நீக்கியவையில்\" 60 நாட்களுக்கு இருக்கும்; காப்புப்பிரதி எடுக்கப்படாத வீடியோக்கள் 30 நாட்களுக்கு இருக்கும்.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">%d தேர்ந்தெடுத்த புகைப்படத்தை ஏற்றுமதி செய்</item>
+        <item quantity="other">%d தேர்ந்தெடுத்த புகைப்படங்களை ஏற்றுமதி செய்</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">%d புகைப்படத்தை ஏற்றுமதி செய்யவா?</item>
+        <item quantity="other">%d புகைப்படங்களை ஏற்றுமதி செய்யவா?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">பிடித்தவையில் %1$d உருப்படியைச் சேர்ப்பது தோல்வி. மீண்டும் முயலவும்.</item>
+        <item quantity="other">பிடித்தவையில் %1$d உருப்படிகளைச் சேர்ப்பது தோல்வி. மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">கோப்பு அளவு: %1$s. மதிப்பிடப்பட்ட பதிவிறக்க நேரம்: %2$s நிமிடம்.</item>
+        <item quantity="other">கோப்பு அளவு: %1$s. மதிப்பிடப்பட்ட பதிவிறக்க நேரம்: %2$s நிமிடங்கள்.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">சிறுபடத்தைப் பயன்படுத்து</item>
+        <item quantity="other">சிறுபடங்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">அசலைப் பயன்படுத்து</item>
+        <item quantity="other">அசல்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 புகைப்படம் ஒரு சிறுபடமாகும். அதற்குப் பதிலாக அசல் புகைப்படத்தைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்டதில் சில புகைப்படங்கள் சிறுபடங்களாகும். அதற்குப் பதிலாக அசல் புகைப்படங்களைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">%s-இன் புகைப்படம் உள்ளது. எளிதான அணுகலுக்காகக் \"கார்டு கேஸிற்கு\" இதை நகர்த்தவும்.</item>
+        <item quantity="other">%s-இன் புகைப்படங்கள் உள்ளன. எளிதான அணுகலுக்காகக் \"கார்டு கேஸிற்கு\" அவற்றை நகர்த்தவும்.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s புகைப்படம் \"கார்டு கேஸிற்கு\" நகர்த்தப்பட்டது</item>
+        <item quantity="other">%1$s புகைப்படங்கள் \"கார்டு கேஸிற்கு\" நகர்த்தப்பட்டன</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d டிக்கெட்/ரசீது</item>
+        <item quantity="other">%1$d டிக்கெட்கள்/ரசீதுகள்</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட உருப்படி ஏற்கனவே ஆல்பத்தில் உள்ளது</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட உருப்படிகள் ஏற்கனவே ஆல்பத்தில் உள்ளன</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d உருப்படி</item>
+        <item quantity="other">%d உருப்படிகள்</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d நபர் ஒன்றிணைக்கப்பட்டு, \"%2$s\" இலிருந்து அகற்றப்படுவார்.</item>
+        <item quantity="other">%1$d பேர் ஒன்றிணைக்கப்பட்டு, \"%2$s\" இலிருந்து அகற்றப்படுவார்கள்.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d புகைப்படம் ஏற்றப்படுகிறது மற்றும் நகர்த்த முடியாது</item>
+        <item quantity="other">%d புகைப்படங்கள் ஏற்றப்படுகின்றன மற்றும் நகர்த்த முடியாது</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d உருப்படி நகர்த்தப்பட்டது</item>
+        <item quantity="other">%d உருப்படிகள் நகர்த்தப்பட்டன</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d பேர்</item>
+        <item quantity="other">%1$d பேர்</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">அசல் புகைப்படத்தைப் பதிவிறக்குகிறது...</item>
+        <item quantity="other">அசல் புகைப்படங்களைப் பதிவிறக்குகிறது...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">புகைப்படம் நகலெடுக்கப்பட்டது. வீடியோக்களை இந்த ஆல்பத்திற்கு நகலெடுக்க முடியாது.</item>
+        <item quantity="other">புகைப்படங்கள் நகலெடுக்கப்பட்டன. வீடியோக்களை இந்த ஆல்பத்திற்கு நகலெடுக்க முடியாது.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">புகைப்படம் நகர்த்தப்பட்டது. இந்த ஆல்பத்திற்கு வீடியோக்களை நகர்த்த முடியாது.</item>
+        <item quantity="other">புகைப்படங்கள் நகர்த்தப்பட்டன. இந்த ஆல்பத்திற்கு வீடியோக்களை நகர்த்த முடியாது.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d ஆல்பம் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d ஆல்பங்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d புகைப்படம் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d புகைப்படங்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d உருப்படி நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d உருப்படிகள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">இந்தச் சாதனத்திலிருந்து %d வீடியோ நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனத்திலிருந்து %d வீடியோக்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்தப் புகைப்படம் நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்தப் புகைப்படங்கள் நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்தப் புகைப்படம் நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்தப் புகைப்படங்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த ஆல்பம் நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த ஆல்பங்கள் நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த ஆல்பம் நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த ஆல்பங்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த உருப்படி நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த உருப்படிகள் நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த உருப்படி நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த உருப்படிகள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d ஆல்பம் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d ஆல்பங்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d ஆல்பம் நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d ஆல்பங்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d பர்ஸ்ட் புகைப்படம் நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d பர்ஸ்ட் புகைப்படங்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படம் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படங்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படம் நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d புகைப்படங்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படி நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படிகள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படி நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d உருப்படிகள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோ நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோக்கள் நீக்கப்படும். நீக்கப்பட்ட உருப்படிகள் \"சமீபத்தில் நீக்கியவையில்\" 30 நாட்களுக்குச் சேமிக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோ நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து %d வீடியோக்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த வீடியோ நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த வீடியோக்கள் நீக்கப்படும். \"சமீபத்தில் நீக்கப்பட்ட\" ஆல்பத்திலிருந்து நீக்கப்பட்ட உருப்படிகளை 30 நாட்களுக்குள் மீட்டெடுக்கலாம்.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த வீடியோ நீக்கப்படும்.</item>
+        <item quantity="other">இந்தச் சாதனம், கிளவுட் மற்றும் பிற ஒத்திசைக்கப்பட்ட சாதனங்களிலிருந்து இந்த வீடியோக்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">%d புகைப்படத்தை மீட்டமைக்கவா?</item>
+        <item quantity="other">%d புகைப்படங்களை மீட்டமைக்கவா?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">%d உருப்படியை மீட்டமைக்கவா?</item>
+        <item quantity="other">%d உருப்படிகளை மீட்டமைக்கவா?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">%d வீடியோவை மீட்டமைக்கவா?</item>
+        <item quantity="other">%d வீடியோக்களை மீட்டமைக்கவா?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d உருப்படியை மீட்டமை</item>
+        <item quantity="other">%d உருப்படிகளை மீட்டமை</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d வீடியோவில் சேமிப்பது தோல்வி</item>
+        <item quantity="other">%d வீடியோக்களில் சேமிப்பது தோல்வி</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d வீடியோ சேமிக்கப்பட்டது</item>
+        <item quantity="other">%d வீடியோக்கள் சேமிக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">சிறுபடத்தைப் பயன்படுத்து</item>
+        <item quantity="other">சிறுபடங்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">அசலைப் பயன்படுத்து</item>
+        <item quantity="other">அசல்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 புகைப்படம் ஒரு சிறுபடமாகும். அதற்குப் பதிலாக அசல் புகைப்படத்தைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்டதில் சில புகைப்படங்கள் சிறுபடங்களாகும். அதற்குப் பதிலாக அசல் புகைப்படங்களைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">தேர்ந்தெடுத்த உருப்படியின் மாதிரிக்காட்சி (%1$d)</item>
+        <item quantity="other">தேர்ந்தெடுத்த உருப்படிகளின் மாதிரிக்காட்சி (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">1–%1$d புகைப்படத்தைத் தேர்ந்தெடு</item>
+        <item quantity="other">1–%1$d புகைப்படங்களைத் தேர்ந்தெடு</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">சிறுபடத்தைப் பயன்படுத்து</item>
+        <item quantity="other">சிறுபடங்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">அசலைப் பயன்படுத்து</item>
+        <item quantity="other">அசல்களைப் பயன்படுத்து</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 புகைப்படம் ஒரு சிறுபடமாகும். அதற்குப் பதிலாக அசல் புகைப்படத்தைப் பதிவிறக்கிப் பயன்படுத்தலாம்.</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்டதில் சில புகைப்படங்கள் சிறுபடங்களாகும். அதற்குப் பதிலாக அசல் புகைப்படங்களைப் பதிவிறக்கிப் பகிரலாம்.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">பகிர்ந்த ஆல்பமான \"%2$s\" இலிருந்து %1$d புகைப்படம் நீக்கப்படும்.</item>
+        <item quantity="other">பகிர்ந்த ஆல்பமான \"%2$s\" இலிருந்து %1$d புகைப்படங்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">பகிர்ந்த ஆல்பமான \"%2$s\" இலிருந்து %1$d உருப்படி நீக்கப்படும்.</item>
+        <item quantity="other">பகிர்ந்த ஆல்பமான \"%2$s\" இலிருந்து %1$d உருப்படிகள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">பகிர்ந்த ஆல்பமான \"%2$s\" இலிருந்து %1$d வீடியோ நீக்கப்படும்.</item>
+        <item quantity="other">பகிர்ந்த ஆல்பமான \"%2$s\" இலிருந்து %1$d வீடியோக்கள் நீக்கப்படும்.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">%1$d உருப்படியை நீக்கு</item>
+        <item quantity="other">%1$d உருப்படிகளை நீக்கு</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">குறைவான சாதனச் சேமிப்பகத்தின் காரணமாக %1$d உருப்படியைப் பதிவிறக்குவது தோல்வி.</item>
+        <item quantity="other">குறைவான சாதனச் சேமிப்பகத்தின் காரணமாக %1$d உருப்படிகளைப் பதிவிறக்குவது தோல்வி.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d உருப்படி (%2$s) மீதம். மொபைல் தரவைப் பயன்படுத்தி பதிவிறக்கத்தை மறுதொடங்கவா?</item>
+        <item quantity="other">%1$d உருப்படிகள் (%2$s) மீதம். மொபைல் தரவைப் பயன்படுத்தி பதிவிறக்கத்தை மறுதொடங்கவா?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">நெட்வொர்க் பிழை. %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் பிழை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">ஒரே நேரத்தில் %d மோஷன் போட்டோ வரை வீடியோவாகச் சேமிக்கலாம்</item>
+        <item quantity="other">ஒரே நேரத்தில் %d மோஷன் போட்டோக்கள் வரை வீடியோவாகச் சேமிக்கலாம்</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$dபடம்</item>
+        <item quantity="other">%1$dபடங்கள்</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d வீடியோ</item>
+        <item quantity="other">%1$dவீடியோக்கள்</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d தேர்வில்</item>
+        <item quantity="other">%1$d உருப்படி தேர்வு</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d உருப்படி</item>
+        <item quantity="other">%1$d உருப்படிகள்</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">பிடித்தவையிலிருந்து %1$d உருப்படியை அகற்றுவது தோல்வி. மீண்டும் முயலவும்.</item>
+        <item quantity="other">பிடித்தவையிலிருந்து %1$d உருப்படிகளை அகற்றுவது தோல்வி. மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">ஒரு கலைப் படைப்பை உருவாக்க, ஓர் எளிய பொருளை வரைந்து அதை வட்டமிடுங்கள். உபயோக வரம்பு: ஒரு நாளைக்கு %1$d முறை.</item>
+        <item quantity="other">ஒரு கலைப் படைப்பை உருவாக்க, ஓர் எளிய பொருளை வரைந்து அதை வட்டமிடுங்கள். உபயோக வரம்பு: ஒரு நாளைக்கு %1$d முறை.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d மோஷன் ஸ்டிக்கரைச் சேமிக்க முடியவில்லை</item>
+        <item quantity="other">%d மோஷன் ஸ்டிக்கர்களைச் சேமிக்க முடியவில்லை</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">நீங்கள் மேலும் 1–%1$d புகைப்படத்தைத் தேர்வுசெய்யலாம்</item>
+        <item quantity="other">நீங்கள் மேலும் 1–%1$d புகைப்படங்களைத் தேர்வுசெய்யலாம்</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">நீங்கள் மேலும் 1–%1$d புகைப்படங்களைத் தேர்வுசெய்யலாம் (%2$s)</item>
+        <item quantity="other">நீங்கள் மேலும் 1–%1$d புகைப்படங்களைத் தேர்வுசெய்யலாம் (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">%d மோஷன் போட்டோ உட்பட</item>
+        <item quantity="other">%d மோஷன் போட்டோக்கள் உட்பட</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">அசல் புகைப்படத்தைப் பதிவிறக்கு</item>
+        <item quantity="other">அசல் புகைப்படங்களைப் பதிவிறக்கு</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">உங்கள் சாதனத்தில் உள்ள %1$d புகைப்படம் ஒரு சிறிய பதிப்பாகும். அசலான முழுத் தெளிவுத்திறன் புகைப்படத்தைப் (%2$s) பதிவிறக்கவா?</item>
+        <item quantity="other">உங்கள் சாதனத்தில் உள்ள %1$d புகைப்படங்கள் சிறிய பதிப்புகளாக உள்ளன. அசல் முழுத் தெளிவுத்திறன் புகைப்படங்களைப் (%2$s) பதிவிறக்கவா?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">%1$d அசல் புகைப்படத்தைப் பதிவிறக்குகிறது</item>
+        <item quantity="other">%1$d அசல் புகைப்படங்களைப் பதிவிறக்குகிறது</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d புகைப்படம்</item>
+        <item quantity="other">%1$d புகைப்படங்கள்</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d அசல் புகைப்படம் பதிவிறக்கப்படவில்லை. போதுமான சாதனச் சேமிப்பகம் இல்லை.</item>
+        <item quantity="other">%1$d அசல் புகைப்படங்கள் பதிவிறக்கப்படவில்லை. போதுமான சாதனச் சேமிப்பகம் இல்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d உருப்படி பதிவிறக்கப்படவில்லை. போதுமான சாதனச் சேமிப்பகம் இல்லை.</item>
+        <item quantity="other">%1$d உருப்படிகள் பதிவிறக்கப்படவில்லை. போதுமான சாதனச் சேமிப்பகம் இல்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">%1$d உருப்படிக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. இணைய இணைப்பு இல்லை.</item>
+        <item quantity="other">%1$d உருப்படிகளுக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. இணைய இணைப்பு இல்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d உருப்படிக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. Wi-Fi உடன் இணைக்கப்படவில்லை.</item>
+        <item quantity="other">%1$d உருப்படிகளுக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. Wi-Fi உடன் இணைக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">பேட்டரி ஆற்றலைச் சேமிக்க, %1$d உருப்படிகளின் பதிவேற்றம் இடைநிறுத்தப்பட்டது.</item>
+        <item quantity="other">பேட்டரி ஆற்றலைச் சேமிக்க, %1$d உருப்படிகளின் பதிவேற்றம் இடைநிறுத்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d உருப்படிக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. மொபைல் மிகவும் சூடாகிவிட்டது.</item>
+        <item quantity="other">%1$d உருப்படிகளுக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. மொபைல் மிகவும் சூடாகிவிட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d உருப்படிக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. கிளவுட், பராமரிப்பில் உள்ளது.</item>
+        <item quantity="other">%1$d உருப்படிகளுக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. கிளவுட், பராமரிப்பில் உள்ளது.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d உருப்படிக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. டேப்லெட் மிகவும் சூடாகிவிட்டது.</item>
+        <item quantity="other">%1$d உருப்படிகளுக்கான பதிவேற்றம் இடைநிறுத்தப்பட்டது. டேப்லெட் மிகவும் சூடாகிவிட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">கிளவுடிலிருந்து %1$d உருப்படியை ஒத்திசைக்கிறது</item>
+        <item quantity="other">கிளவுடிலிருந்து %1$d உருப்படிகளை ஒத்திசைக்கிறது</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d படம்</item>
+        <item quantity="other">%1$d படங்கள்</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d வீடியோ</item>
+        <item quantity="other">%1$dவீடியோக்கள்</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படி பதிவிறக்கப்படவில்லை. உங்கள் மொபைலை சார்ஜ் செய்யவும்.</item>
+        <item quantity="other">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படிகள் பதிவிறக்கப்படவில்லை. உங்கள் மொபைலை சார்ஜ் செய்யவும்.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படி பதிவிறக்கப்படவில்லை. மீண்டும் தொடர, பவருடன் இணைக்கவும்.</item>
+        <item quantity="other">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படிகள் பதிவிறக்கப்படவில்லை. மீண்டும் தொடர, பவருடன் இணைக்கவும்.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">பவர் சேமிப்பு முறை ஆன். %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">பவர் சேமிப்பு முறை ஆன். %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">பவர் சேமிப்புப் பயன்முறை இயங்குகிறது. %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">பவர் சேமிப்புப் பயன்முறை இயங்குகிறது. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவிறக்கப்படவில்லை.%2$s.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவிறக்கப்படவில்லை. %2$s அல்லது %3$s.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை. %2$s அல்லது %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவிறக்கப்படவில்லை</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவிறக்கப்படவில்லை</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">பற்றாக்குறை கிளவுட் சேமிப்பகம். %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">பற்றாக்குறை கிளவுட் சேமிப்பகம். %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">போதுமான சாதனச் சேமிப்பகம் இல்லை. %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">போதுமான சாதனச் சேமிப்பகம் இல்லை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">நெட்வொர்க் பிழை. %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் பிழை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">நெட்வொர்க் பிழை. %1$d உருப்படி பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் பிழை. %1$d உருப்படிகள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">போதுமான சாதனச் சேமிப்பகம் இல்லை. %1$d அசல் புகைப்படம் பதிவிறக்கப்படவில்லை.</item>
+        <item quantity="other">போதுமான சாதனச் சேமிப்பகம் இல்லை. %1$d அசல் புகைப்படங்கள் பதிவிறக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d படம் ஒத்திசைக்கப்படவில்லை. கிளவுட் சேமிப்பகம் நிரம்பியது.</item>
+        <item quantity="other">%1$d படங்கள் ஒத்திசைக்கப்படவில்லை. கிளவுட் சேமிப்பகம் நிரம்பியது.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d படம் ஒத்திசைக்கப்படவில்லை. பேட்டரி %2$s-க்கு குறைவாக இருக்கும்போது கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+        <item quantity="other">%1$d படங்கள் ஒத்திசைக்கப்படவில்லை. பேட்டரி %2$s-க்கு குறைவாக இருக்கும்போது கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d படம் ஒத்திசைக்கப்படவில்லை. பவர் சேவிங் முறையில் கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+        <item quantity="other">%1$d படங்கள் ஒத்திசைக்கப்படவில்லை. பவர் சேவிங் முறையில் கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">கிளவுட் சேமிப்பகம் நிரம்பிவிட்டது. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">கிளவுட் சேமிப்பகம் நிரம்பிவிட்டது. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படி பதிவேற்றப்படவில்லை. உங்கள் மொபைலை சார்ஜ் செய்யவும்.</item>
+        <item quantity="other">பேட்டரி %1$s-க்கும் குறைவு. %2$d உருப்படிகள் பதிவேற்றப்படவில்லை. உங்கள் மொபைலை சார்ஜ் செய்யவும்.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படி பதிவேற்றப்படவில்லை. மீண்டும் தொடர, பவருடன் இணைக்கவும்.</item>
+        <item quantity="other">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படிகள் பதிவேற்றப்படவில்லை. மீண்டும் தொடர, பவருடன் இணைக்கவும்.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">பேட்டரி அளவு %1$s-க்கும் குறைவாக உள்ளது. %2$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">பவர் சேமிப்பு முறை ஆன். %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">பவர் சேமிப்பு முறை ஆன். %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">பவர் சேமிப்புப் பயன்முறை இயங்குகிறது. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">பவர் சேமிப்புப் பயன்முறை இயங்குகிறது. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">கிளவுட் சேமிப்பகம் நிரம்பியது. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">கிளவுட் சேமிப்பகம் நிரம்பியது. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d வீடியோ ஒத்திசைக்கப்படவில்லை. கிளவுட் சேமிப்பகம் நிரம்பியது.</item>
+        <item quantity="other">%1$d வீடியோக்கள் ஒத்திசைக்கப்படவில்லை. கிளவுட் சேமிப்பகம் நிரம்பியது.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d வீடியோ ஒத்திசைக்கப்படவில்லை. பேட்டரி %2$s-க்கு குறைவாக இருக்கும்போது கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+        <item quantity="other">%1$d வீடியோக்கள் ஒத்திசைக்கப்படவில்லை. பேட்டரி %2$s-க்கு குறைவாக இருக்கும்போது கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d வீடியோ ஒத்திசைக்கப்படவில்லை. பவர் சேவிங் முறையில் கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+        <item quantity="other">%1$d வீடியோக்கள் ஒத்திசைக்கப்படவில்லை. பவர் சேவிங் முறையில் கிளவுட் ஒத்திசைவு இடைநிறுத்தப்பட்டது.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d படங்கள் ஒத்திசைக்கப்படவில்லை.</item>
+        <item quantity="other">%1$d படம் ஒத்திசைக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவேற்றப்படவில்லை.%2$s.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவேற்றப்படவில்லை. %2$s அல்லது %3$s.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை. %2$s அல்லது %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் இணைப்பு இல்லை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d வீடியோ ஒத்திசைக்கப்படவில்லை</item>
+        <item quantity="other">%1$d வீடியோக்கள் ஒத்திசைக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">நெட்வொர்க் பிழை. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் பிழை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">நெட்வொர்க் இணைப்பு குறுக்கிடப்பட்டது. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">நெட்வொர்க் பிழை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">சேவை பிழை. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">சேவை பிழை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">சேவை பிழை. %1$d உருப்படி பதிவேற்றப்படவில்லை.</item>
+        <item quantity="other">சேவை பிழை. %1$d உருப்படிகள் பதிவேற்றப்படவில்லை.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">%1$d உருப்படியை ஒத்திசைக்கிறது</item>
+        <item quantity="other">%1$d உருப்படிகளை ஒத்திசைக்கிறது</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">கிளவுடுடன் %1$d உருப்படியை ஒத்திசைக்கிறது…</item>
+        <item quantity="other">கிளவுடுடன் %1$d உருப்படிகளை ஒத்திசைக்கிறது…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d வீடியோ</item>
+        <item quantity="other">%1$d வீடியோக்கள்</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">சில தளங்கள் %d வினாடிக்கும் மேல் நீளமான மோஷன் போட்டோக்களை ஆதரிக்காமல் போகலாம்</item>
+        <item quantity="other">சில தளங்கள் %d வினாடிகளுக்கும் மேல் நீளமான மோஷன் போட்டோக்களை ஆதரிக்காமல் போகலாம்</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">நீங்கள் ஒரே நேரத்தில் %1$d மோஷன் போட்டோவில் பாப்அவுட்டைப் பயன்படுத்தலாம்</item>
+        <item quantity="other">நீங்கள் ஒரே நேரத்தில் %1$d மோஷன் போட்டோக்களில் வரை பாப்அவுட்டைப் பயன்படுத்தலாம்</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">%1$d வினாடிக்கும் மேல் நீளமான மோஷன் போட்டோக்கள் ஆதரிக்கப்படவில்லை</item>
+        <item quantity="other">%1$d வினாடிகளுக்கும் மேல் நீளமான மோஷன் போட்டோக்கள் ஆதரிக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">ஒரே நேரத்தில் %d உருப்படிக்கும் மேல் இழுக்க முடியாது</item>
+        <item quantity="other">ஒரே நேரத்தில் %d உருப்படிகளுக்கும் மேல் இழுக்க முடியாது</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d உருப்படியைச் சேர்ப்பது தோல்வி</item>
+        <item quantity="other">%d உருப்படிகளைச் சேர்ப்பது தோல்வி</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d படம் ஏற்றப்படுகிறது, தனிப்பட்டதாக சேமிக்க முடியாது.</item>
+        <item quantity="other">%d படங்கள் ஏற்றப்படுகின்றன, தனிப்பட்டதாக சேமிக்க முடியாது.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d மணிநேரம்</item>
+        <item quantity="other">%d மணிநேரம்</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d உருப்படி</item>
+        <item quantity="other">%d உருப்படிகள்</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="other">%d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="other">%d வினாடிகள்</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="other">%d வினாடிகள்</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">வீடியோ எடிட் செய்ய %d உருப்படியை இறக்க முடியாது</item>
+        <item quantity="other">வீடியோவை திருத்த, %d-ஐ இறக்க முடியாது</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">பக்கம் %1$d / %2$d</item>
+        <item quantity="other">பக்கம் %1$d / %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">ஒரு GIF-க்காக %1$d புகைப்படத்திற்கும் மேல் தேர்வுசெய்ய வேண்டாம்</item>
+        <item quantity="other">ஒரு GIF-க்காக %1$d புகைப்படங்களுக்கும் மேல் தேர்வுசெய்ய வேண்டாம்</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">%1$d வி-க்கும் பெரிய மோஷன் போட்டோக்கள்</item>
+        <item quantity="other">%1$d வி-க்கும் பெரிய மோஷன் போட்டோக்கள்</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">ஒரு GIF-ஐ உருவாக்க, குறைந்தது %1$d புகைப்படத்தைத் தேர்வுசெய்யவும்</item>
+        <item quantity="other">ஒரு GIF-ஐ உருவாக்க, குறைந்தது %1$d புகைப்படங்களைத் தேர்வுசெய்யவும்</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">ஒரு GIF-க்காக %1$d புகைப்படத்திற்கும் மேல் தேர்வுசெய்ய வேண்டாம்</item>
+        <item quantity="other">ஒரு GIF-க்காக %1$d புகைப்படங்களுக்கும் மேல் தேர்வுசெய்ய வேண்டாம்</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">%1$d புகைப்படம் மட்டுமே வடிவமைப்புத் தேவைகளைப் பூர்த்தி செய்கிறது</item>
+        <item quantity="other">%1$d புகைப்படங்கள் மட்டுமே வடிவமைப்புத் தேவைகளைப் பூர்த்தி செய்கின்றன</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d புகைப்படம் GIF-இல் சேர்க்கப்படாது</item>
+        <item quantity="other">%1$d புகைப்படங்கள் GIF-இல் சேர்க்கப்படாது</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d புகைப்படம் ஆதரிக்கப்படவில்லை</item>
+        <item quantity="other">%1$d புகைப்படங்கள் ஆதரிக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">\"Google புகைப்படங்களிலிருந்து\" %1$s உருப்படியை ஏற்றுகிறது…</item>
+        <item quantity="other">\"Google புகைப்படங்களிலிருந்து\" %1$s உருப்படிகளை ஏற்றுகிறது…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">போதுமான \"Google புகைப்படங்கள்\" சேமிப்பகம் இல்லை. %1$d உருப்படி காப்புப்பிரதி எடுக்கப்படவில்லை.</item>
+        <item quantity="other">போதுமான \"Google புகைப்படங்கள்\" சேமிப்பகம் இல்லை. %1$d உருப்படிகள் காப்புப்பிரதி எடுக்கப்படவில்லை.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">%1$s உருப்படி \"Google புகைப்படங்களுக்குக்\" காப்புப்பிரதி எடுக்கப்படுகிறது…</item>
+        <item quantity="other">%1$s உருப்படிகள் \"Google புகைப்படங்களுக்குக்\" காப்புப்பிரதி எடுக்கப்படுகின்றன…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d உருப்படி HeyTap கிளவுடுடன் ஒத்திசைக்கப்படுகிறது. இதை அணைப்பது தானியங்கி ஒத்திசைவை ரத்துசெய்யும். உங்கள் தரவைப் பாதுகாப்பாக வைத்திருக்க, ஒத்திசைவு முடியும் வரை காத்திருக்குமாறு பரிந்துரைக்கப்படுகிறது.</item>
+        <item quantity="other">%1$d உருப்படிகள் HeyTap கிளவுடுடன் ஒத்திசைக்கப்படுகின்றன. இதை அணைப்பது தானியங்கி ஒத்திசைவை ரத்துசெய்யும். உங்கள் தரவைப் பாதுகாப்பாக வைத்திருக்க, ஒத்திசைவு முடியும் வரை காத்திருக்குமாறு பரிந்துரைக்கப்படுகிறது.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">\"அடிக்கடி பயனில்\", %d ஆல்பத்தை மட்டுமே சேர்க்க முடியும்</item>
+        <item quantity="other">\"அடிக்கடி பயனில்\", %d ஆல்பங்கள் வரை சேர்க்க முடியும்</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d சாதனம் கண்டறியப்பட்டது</item>
+        <item quantity="other">%1$d சாதனங்கள் கண்டறியப்பட்டன</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d நாள்</item>
+        <item quantity="other">%1$d நாட்கள்</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$dபடம்</item>
+        <item quantity="other">%1$dபடங்கள்</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d வீடியோ</item>
+        <item quantity="other">%1$dவீடியோக்கள்</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">%1$d ஸ்டிக்கருக்கும் மேல் தேர்ந்தெடுக்க முடியாது</item>
+        <item quantity="other">%1$d ஸ்டிக்கர்களுக்கும் மேல் தேர்ந்தெடுக்க முடியாது</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">NAS இலிருந்து %1$d உருப்படியை நீக்கவும்</item>
+        <item quantity="other">NAS இலிருந்து %1$d உருப்படிகளை நீக்கவும்</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">பதிவிறக்கப்பட்டது. %1$d உருப்படியைப் பதிவிறக்க முடியவில்லை.</item>
+        <item quantity="other">பதிவிறக்கப்பட்டது. %1$d உருப்படிகளைப் பதிவிறக்க முடியவில்லை.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d உருப்படி பதிவிறக்கப்பட்டது.</item>
+        <item quantity="other">%1$d உருப்படிகள் பதிவிறக்கப்பட்டன.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">%2$d-இல் %1$d-ஐப் பதிவிறக்குகிறது…</item>
+        <item quantity="other">%2$d-இல் %1$d-ஐப் பதிவிறக்குகிறது…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட பகுதியை எவ்வாறு திருத்த விரும்புகிறீர்கள்?</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட பகுதிகளை எவ்வாறு திருத்த விரும்புகிறீர்கள்?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">நீங்கள் %d ஸ்டிக்கர் வரை சேர்க்கலாம்</item>
+        <item quantity="other">நீங்கள் %d ஸ்டிக்கர்கள் வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">ஸ்டிக்கர்களில், நீங்கள் %d மோஷன் ஸ்டிக்கரை மட்டுமே சேர்க்கலாம். கூடுதல் ஸ்டிக்கர்கள் அசையா ஸ்டிக்கர்களாக உருமாற்றப்படும்.</item>
+        <item quantity="other">ஸ்டிக்கர்களில், நீங்கள் %d மோஷன் ஸ்டிக்கர்கள் வரை சேர்க்கலாம். கூடுதல் ஸ்டிக்கர்கள் அசையாததாக மாறும்.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">எளிதாகப் பகிர்வதற்காக, திருத்தப்பட்ட பதிப்பு %d வினாடிக்கு மட்டுப்படுத்தப்பட்டுள்ளது.</item>
+        <item quantity="other">எளிதாகப் பகிர்வதற்காக, திருத்தப்பட்ட பதிப்பு %d வினாடிகளுக்கு மட்டுப்படுத்தப்பட்டுள்ளது.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">ஸ்டிக்கர் %d வினாடி வரை நீளமாக இருக்கலாம்</item>
+        <item quantity="other">ஸ்டிக்கர் %d வினாடிகள் வரை நீளமாக இருக்கலாம்</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">ஸ்டிக்கர்கள் %d வினாடி நீளம் மட்டுமே இருக்கலாம்.</item>
+        <item quantity="other">ஸ்டிக்கர்கள் %d வினாடிகள் வரை நீளமாக இருக்கலாம்.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">வீடியோக்கள் %d வினாடி வரை நீளமாக இருக்கலாம்</item>
+        <item quantity="other">வீடியோக்கள் %d வினாடிகள் வரை நீளமாக இருக்கலாம்</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட பகுதியில் நீங்கள் எதை மாற்ற விரும்புகிறீர்கள் என்பதை விவரிக்கவும்</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட பகுதிகளில் நீங்கள் எதை மாற்ற விரும்புகிறீர்கள் என்பதை விவரிக்கவும்</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">%1$d வினாடியில் பதிவு நிறுத்தப்படுகிறது</item>
+        <item quantity="other">%1$d வினாடிகளில் பதிவு நிறுத்தப்படுகிறது</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">%1$d பகுதி வரை நீங்கள் தேர்வுசெய்யலாம்</item>
+        <item quantity="other">%1$d பகுதிகள் வரை நீங்கள் தேர்வுசெய்யலாம்</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">%1$d வினாடி வரை உள்ள மோஷன் போட்டோக்கள் மட்டுமே ஆதரிக்கப்படுகின்றன</item>
+        <item quantity="other">%1$d வி-க்கும் பெரிய மோஷன் போட்டோக்கள்</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">பெரிய கோப்பு அளவு காரணமாக எதிர்பார்க்கப்படும் காத்திருப்பு நேரம் %1$d நிமி ஆகும்</item>
+        <item quantity="other">பெரிய கோப்பு அளவு காரணமாக எதிர்பார்க்கப்படும் காத்திருப்பு நேரம் %1$d நிமி ஆகும்</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">%d தேர்ந்தெடுத்த புகைப்படத்தை ஏற்றுமதி செய்</item>
+        <item quantity="other">%d தேர்ந்தெடுத்த புகைப்படங்களை ஏற்றுமதி செய்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">%1$d mm-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d mm-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">%1$d px-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d px-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">%1$d mm-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d mm-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">%1$d px-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d px-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">%1$d KB-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d KB-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">%1$d KB-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d KB-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">%1$d mm-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d mm-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">%1$d px-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d px-ஐ விட அதிகமாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">%1$d mm-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d mm-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">%1$d px-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+        <item quantity="other">%1$d px-ஐ விடக் குறைவாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">%d தேர்ந்தெடுத்த படம் மட்டும் வைத்திரு</item>
+        <item quantity="other">%d தேர்ந்தெடுத்த படங்கள் மட்டும் வைத்திரு</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d உருப்படியை நீக்கு</item>
+        <item quantity="other">%d உருப்படிகளை நீக்கு</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d உருப்படியை நீக்கு</item>
+        <item quantity="other">%d உருப்படிகளை நீக்கு</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d ஸ்டிக்கரைச் சேர்ப்பது தோல்வி</item>
+        <item quantity="other">%1$d ஸ்டிக்கர்களைச் சேர்ப்பது தோல்வி</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d ஸ்டிக்கரைச் சேர்ப்பது தோல்வி</item>
+        <item quantity="other">%d ஸ்டிக்கர்களைச் சேர்ப்பது தோல்வி</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s ஸ்டிக்கர் சேர்க்கப்பட்டது</item>
+        <item quantity="other">%1$s ஸ்டிக்கர்கள் சேர்க்கப்பட்டன</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s ஸ்டிக்கர் சேர்க்கப்பட்டது</item>
+        <item quantity="other">%1$s ஸ்டிக்கர்கள் சேர்க்கப்பட்டன</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d ஸ்டிக்கர் சேர்க்கப்பட்டது</item>
+        <item quantity="other">%1$d ஸ்டிக்கர்கள் சேர்க்கப்பட்டன</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">AI ரீமிக்ஸ் படக்கலவையில், நீங்கள் %1$d மோஷன் ஸ்டிக்கர் வரை சேர்க்கலாம். கூடுதல் ஸ்டிக்கர்கள் அசையாததாக மாறும்.</item>
+        <item quantity="other">AI ரீமிக்ஸ் படக்கலவையில், நீங்கள் %1$d மோஷன் ஸ்டிக்கர்கள் வரை சேர்க்கலாம். கூடுதல் ஸ்டிக்கர்கள் அசையாததாக மாறும்.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">நீங்கள் %1$d மோஷன் போட்டோ வரை சேர்க்கலாம்</item>
+        <item quantity="other">நீங்கள் %1$d மோஷன் போட்டோக்கள் வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">நீங்கள் %1$d புகைப்படம் வரை சேர்க்கலாம்</item>
+        <item quantity="other">நீங்கள் %1$d புகைப்படங்கள் வரை சேர்க்கலாம்</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">உங்கள் புகைப்படங்களிலிருந்து பொருட்களை அகற்ற, அகற்றி பிளக்இன்னைப் பதிவிறக்கவும். கோப்பு அளவு: %1$s. பதிவிறக்க மதிப்பிடப்பட்ட நேரம்: %2$d நிமிடங்கள்.</item>
+        <item quantity="other">உங்கள் புகைப்படங்களிலிருந்து பொருட்களை அகற்ற, அகற்றி பிளக்இன்னைப் பதிவிறக்கவும். கோப்பு அளவு: %1$s. பதிவிறக்க மதிப்பிடப்பட்ட நேரம்: %2$d நிமிடங்கள்.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">கோப்பு அளவு: %1$d. மதிப்பிடப்பட்ட பதிவிறக்க நேரம்: %2$d.</item>
+        <item quantity="other">கோப்பு அளவு: %1$d. மதிப்பிடப்பட்ட பதிவிறக்க நேரம்: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d புகைப்படம் ஆதரிக்கப்படவில்லை</item>
+        <item quantity="other">%1$d புகைப்படங்கள் ஆதரிக்கப்படவில்லை</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d தேர்வில்</item>
+        <item quantity="other">%1$d/%2$d தேர்வில்</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d தேர்வில்</item>
+        <item quantity="other">%1$d உருப்படி தேர்வு</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d ஆல்பம் தேர்வு</item>
+        <item quantity="other">%1$d ஆல்பம் தேர்வு</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d தேர்வில்</item>
+        <item quantity="other">%1$d உருப்படி தேர்வு</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d வீடியோ தேர்வு</item>
+        <item quantity="other">%1$d வீடியோ தேர்வு</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">%1$d ஸ்டிக்கருக்கும் மேல் சேர்க்க முடியாது</item>
+        <item quantity="other">%1$d ஸ்டிக்கர்களுக்கும் மேல் சேர்க்க முடியாது</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">%1$d உருப்படியை மட்டுமே தேர்ந்தெடுக்கலாம்</item>
+        <item quantity="other">%1$d உருப்படிகள் வரை தேர்ந்தெடுக்கலாம்</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d படம் ஏற்றப்படுகிறது, நீக்க முடியாது.</item>
+        <item quantity="other">%d படங்கள் ஏற்றப்படுகின்றன, நீக்க முடியாது.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d உருப்படியை நீக்குவது தோல்வி. மீண்டும் முயலவும்.</item>
+        <item quantity="other">%1$d உருப்படிகளை நீக்குவது தோல்வி. மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">புதிய அறிவிப்பு: %d</item>
+        <item quantity="other">புதிய அறிவிப்புகள்: %d</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">%d படப்பொருளை அகற்றவா?</item>
+        <item quantity="other">%d படப்பொருட்களை அகற்றவா?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d படம்</item>
+        <item quantity="other">%1$dபடங்கள்</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">நீங்கள் %1$d மோஷன் ஸ்டிக்கர் வரை சேர்க்கலாம். கூடுதல் மோஷன் ஸ்டிக்கர்கள் அசையாததாகக் காட்டப்படும்.</item>
+        <item quantity="other">நீங்கள் %1$d மோஷன் ஸ்டிக்கர்கள் வரை சேர்க்கலாம். கூடுதல் மோஷன் ஸ்டிக்கர்கள் அசையாததாகக் காட்டப்படும்.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">இந்தச் செயலிக்கு %d உருப்படியை மட்டுமே பகிர முடியும்</item>
+        <item quantity="other">இந்தச் செயலிக்கு %d உருப்படிகள் வரை பகிர முடியும்</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">%d உருப்படியைப் பகிர்</item>
+        <item quantity="other">%d உருப்படிகளைப் பகிர்</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">%d புகைப்படத்தைப் பகிர்</item>
+        <item quantity="other">%d புகைப்படங்களைப் பகிர்</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">%d வீடியோவைப் பகிர்</item>
+        <item quantity="other">%d வீடியோக்களைப் பகிர்</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">%d தருணத்தை நீக்கவா?</item>
+        <item quantity="other">%d தருணங்களை நீக்கவா?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d கதை, உங்களுக்காகத் தொகுக்கப்பட்டது.</item>
+        <item quantity="other">%d கதைகள், உங்களுக்காகத் தொகுக்கப்பட்டன.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d தேர்வில்</item>
+        <item quantity="other">%d தேர்வில்</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">%d டிகிரி சுழற்று</item>
+        <item quantity="other">%d டிகிரிகள் சுழற்று</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">நீங்கள் %s கோப்பை மட்டுமே இறக்குமதி செய்யலாம்</item>
+        <item quantity="other">நீங்கள் %s கோப்புகள் வரை இறக்குமதி செய்யலாம்</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1d உருப்படியைச் சேர்</item>
+        <item quantity="other">%1d உருப்படிகளைச் சேர்</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">%s LUT கோப்பு வரை இறக்குமதி செய்யலாம்</item>
+        <item quantity="other">%s LUT கோப்புகள் வரை இறக்குமதி செய்யலாம்</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">%d புகைப்படத்திற்கும் மேல் சேர்க்க முடியாது</item>
+        <item quantity="other">%d புகைப்படங்களுக்கும் மேல் சேர்க்க முடியாது</item>
+    </plurals>
+</resources>

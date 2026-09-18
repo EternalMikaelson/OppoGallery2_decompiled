@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.emptyview.COUIEmptyStateView android:textColor="@color/base_empty_page_text_color" android:id="@id/empty_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@id/fragment_function_container" app:layout_constraintTop_toTopOf="parent" app:titleText="@string/base_no_photo_or_video_tips" />
+    <FrameLayout android:orientation="vertical" android:id="@id/fragment_function_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/media_provider_upgrade_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.coui.appcompat.progressbar.COUIHorizontalProgressBar android:id="@id/media_upgrade_progress_bar" android:layout_width="@dimen/main_media_provider_upgrade_progress_bar_width" android:layout_height="@dimen/main_media_provider_upgrade_progress_bar_height" android:layout_marginVertical="@dimen/main_media_provider_upgrade_progress_bar_margin_vertical" />
+        <TextView android:textSize="@dimen/common_TD07" android:textColor="@color/base_black_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_media_provider_upgrade_text_margin_top" android:text="@string/main_media_provider_upgrade_v2" android:fontFamily="sans-serif-regular" />
+    </LinearLayout>
+</merge>

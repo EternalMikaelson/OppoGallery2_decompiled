@@ -1,0 +1,89 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/i6v;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lcom/oplus/aiunit/vision/q6v;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/oplus/aiunit/vision/q6v;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/i6v;->a:Lcom/oplus/aiunit/vision/q6v;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 6
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/i6v;->a:Lcom/oplus/aiunit/vision/q6v;
+
+    .line 2
+    .line 3
+    iget-boolean v0, p0, Lcom/oplus/aiunit/vision/q6v;->o:Z
+
+    .line 4
+    .line 5
+    iget-boolean v1, p0, Lcom/oplus/aiunit/vision/q6v;->p:Z
+
+    .line 6
+    .line 7
+    iget-boolean v2, p0, Lcom/oplus/aiunit/vision/q6v;->q:Z
+
+    .line 8
+    .line 9
+    iget-boolean p0, p0, Lcom/oplus/aiunit/vision/q6v;->u:Z
+
+    .line 10
+    .line 11
+    const-string v3, "<processOverlayTouchEvent> isHorizontalScroll="
+
+    .line 12
+    .line 13
+    const-string v4, " isVerticalUpScroll="
+
+    .line 14
+    .line 15
+    const-string v5, " isVerticalDownScroll="
+
+    .line 16
+    .line 17
+    invoke-static {v3, v4, v5, v0, v1}, Lcom/oplus/aiunit/vision/g7c0;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)Ljava/lang/StringBuilder;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    const-string v1, " canInterceptDetailsSlideDown="
+
+    .line 22
+    .line 23
+    invoke-static {v0, v2, v1, p0}, Lcom/oplus/aiunit/vision/rs30;->a(Ljava/lang/StringBuilder;ZLjava/lang/String;Z)Ljava/lang/String;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object p0
+
+    .line 27
+    return-object p0
+.end method

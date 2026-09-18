@@ -1,0 +1,94 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/rey;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:J
+
+.field public final synthetic b:Lcom/oplus/aiunit/vision/xey;
+
+
+# direct methods
+.method public synthetic constructor <init>(JLcom/oplus/aiunit/vision/xey;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-wide p1, p0, Lcom/oplus/aiunit/vision/rey;->a:J
+
+    .line 5
+    .line 6
+    iput-object p3, p0, Lcom/oplus/aiunit/vision/rey;->b:Lcom/oplus/aiunit/vision/xey;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    sget-object v0, Lcom/oplus/aiunit/vision/w9h;->a:Lcom/oplus/aiunit/vision/w9h;
+
+    .line 2
+    .line 3
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-wide v0
+
+    .line 7
+    iget-wide v2, p0, Lcom/oplus/aiunit/vision/rey;->a:J
+
+    .line 8
+    .line 9
+    sub-long/2addr v0, v2
+
+    .line 10
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/rey;->b:Lcom/oplus/aiunit/vision/xey;
+
+    .line 11
+    .line 12
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/xey;->b:Ljava/util/HashMap;
+
+    .line 13
+    .line 14
+    invoke-virtual {p0}, Ljava/util/HashMap;->size()I
+
+    .line 15
+    .line 16
+    .line 17
+    move-result p0
+
+    .line 18
+    const-string v2, "[PoiConfigFileParser] cost "
+
+    .line 19
+    .line 20
+    const-string v3, " ms, size = "
+
+    .line 21
+    .line 22
+    invoke-static {v0, v1, v2, v3, p0}, Lcom/oplus/aiunit/vision/ii6;->a(JLjava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p0
+
+    .line 26
+    return-object p0
+.end method

@@ -1,0 +1,37 @@
+.class public interface abstract Lcom/oplus/gallery/timelinepage/header/TimeLineHeaderCloudSyncTipsContainer$b;
+.super Ljava/lang/Object;
+.source "TimeLineHeaderCloudSyncTipsContainer.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/gallery/timelinepage/header/TimeLineHeaderCloudSyncTipsContainer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(I)V
+.end method
+
+.method public abstract b()V
+.end method
+
+.method public abstract c(I)V
+.end method
+
+.method public abstract d()Z
+.end method
+
+.method public abstract e(I)Z
+.end method
+
+.method public abstract f(Z)V
+.end method
+
+.method public abstract g(I)V
+.end method

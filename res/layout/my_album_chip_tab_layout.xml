@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/chipLinearLayout" android:layout_width="match_parent" android:layout_height="@dimen/my_album_chip_group_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.chip.COUIChipGroup android:id="@id/chipGroup" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipSpacingHorizontal="@dimen/my_album_chip_gap" app:selectionRequired="true" app:singleSelection="true">
+        <com.coui.appcompat.chip.COUIChip android:id="@id/my_album_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_album_set_tab_title" style="@style/Widget.COUI.Chip.Choice" />
+        <com.coui.appcompat.chip.COUIChip android:id="@id/share_album_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_album_set_tab_title" style="@style/Widget.COUI.Chip.Choice" />
+    </com.coui.appcompat.chip.COUIChipGroup>
+</LinearLayout>

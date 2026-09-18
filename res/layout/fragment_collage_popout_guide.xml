@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/popout_guide_root" android:background="@color/collage_popout_guide_mask_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/popout_guide_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/popout_guide_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.coui.appcompat.textview.COUITextView android:gravity="start|center" android:layout_gravity="center_horizontal" android:id="@id/popout_guide_tips" android:background="@drawable/collage_popout_guide_tips_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/collage_popout_guide_tips_max_width" android:text="@string/collage_popout_hint_tap_content_to_popout" android:textAlignment="viewStart" android:paddingHorizontal="@dimen/collage_popout_guide_tips_horizonal_padding" android:paddingVertical="@dimen/collage_popout_guide_tips_vertical_padding" style="@style/Collage.COUI.TextView.GuideTips" />
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/popout_guide_animation_view" android:layout_width="@dimen/collage_popout_guide_animation_height" android:layout_height="@dimen/collage_popout_guide_animation_height" android:layout_marginTop="@dimen/collage_popout_guide_tips_margin_to_guide_animate" android:scaleType="centerInside" app:anim_autoPlay="true" app:anim_loop="true" app:anim_rawRes="@raw/collage_guide_anim" app:anim_repeatCount="2" app:anim_speed="0.777777" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

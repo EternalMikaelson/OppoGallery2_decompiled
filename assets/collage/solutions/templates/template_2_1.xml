@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    ┌────┐
+    │ A0 │        · H0 {A0|A1}
+    ├────┤ ◀ H0
+    │ A1 │
+    └────┘
+-->
+<Collage version="2.0">
+    <Solution name="template_2-1" capacity="2" type="template">
+        <Scene width="960" height="1280">
+            <Entity id="camera">
+                <Component type="CameraPose">
+                    <Value id="positionX">480</Value>
+                    <Value id="positionY">640</Value>
+                    <Value id="positionZ">1</Value>
+                    <Value id="targetX">480</Value>
+                    <Value id="targetY">640</Value>
+                    <Value id="targetZ">0</Value>
+                    <Value id="upAxisX">0</Value>
+                    <Value id="upAxisY">1</Value>
+                    <Value id="upAxisZ">0</Value>
+                </Component>
+                <Component type="RenderTarget">
+                    <Value id="viewportWidth">960</Value>
+                    <Value id="viewportHeight">1280</Value>
+                </Component>
+                <Component type="AudioTarget">
+                    <Value id="sampleRate">44100</Value>
+                    <Value id="sampleChannels">2</Value>
+                    <Value id="sampleBitDepth">16</Value>
+                </Component>
+            </Entity>
+            <Entity id="player">
+                <Component type="PlaybackCtrl" />
+            </Entity>
+
+            <Entity id="root">
+                <Component type="Background">
+                    <Value id="src">#FFFFFF</Value>
+                </Component>
+                <Component type="LayoutContainer">
+                    <Value id="type">Resizable</Value>
+                    <Value id="aspectRatio">Unspecified</Value>
+                </Component>
+                <Component type="Layout">
+                    <Value id="left">0</Value>
+                    <Value id="top">0</Value>
+                    <Value id="right">960</Value>
+                    <Value id="bottom">1280</Value>
+                </Component>
+                <Component type="Material"/>
+
+                <Entity id="asset0">
+                    <Component type="Layout">
+                        <Value id="left">0</Value>
+                        <Value id="top">0</Value>
+                        <Value id="right">960</Value>
+                        <Value id="bottom">640</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">0</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset1">
+                    <Component type="Layout">
+                        <Value id="left">0</Value>
+                        <Value id="top">640</Value>
+                        <Value id="right">960</Value>
+                        <Value id="bottom">1280</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">1</Value>
+                    </Component>
+                </Entity>
+
+                <Entity id="handle0">
+                    <Component type="Constraints">
+                        <Value id="slideDirection">Vertical</Value>
+                        <ValueArray id="constraintBorder">
+                            <Item>@Entity/asset0:B</Item>
+                            <Item>@Entity/asset1:T</Item>
+                        </ValueArray>
+                    </Component>
+                </Entity>
+            </Entity>
+        </Scene>
+    </Solution>
+</Collage>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/map_travel_tab_bottom_segment_navigation" android:background="@color/common_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/common_bottom_navigation_menu_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.basebiz.widget.BlurButtonWrapperView android:layout_gravity="center" android:id="@id/map_travel_tab_segment_button_group" android:layout_width="@dimen/main_tab_bottom_segment_button_layout_width" android:layout_height="@dimen/main_tab_bottom_segment_button_layout_height" app:blurWrapper_buttonBg="@color/base_button_color_not_immersive" app:blurWrapper_buttonLayout="@layout/map_travel_layout_segment_button" />
+</LinearLayout>

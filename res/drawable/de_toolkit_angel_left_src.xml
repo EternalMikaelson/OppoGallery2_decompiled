@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="15.0dp" android:autoMirrored="true" android:viewportWidth="15.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateY="0.1">
+        <path android:fillColor="@color/popup_shadow_color" android:pathData="M0.72,13.505L11.683,23.098C12.976,24.229 15,23.311 15,21.593L15,2.408C15,0.689 12.976,-0.229 11.683,0.902L0.72,10.495C-0.19,11.292 -0.19,12.708 0.72,13.505Z" />
+    </group>
+    <path android:fillColor="?couiColorBackgroundTop" android:pathData="M0.72,13.505L11.683,23.098C12.976,24.229 15,23.311 15,21.593L15,2.408C15,0.689 12.976,-0.229 11.683,0.902L0.72,10.495C-0.19,11.292 -0.19,12.708 0.72,13.505Z" />
+</vector>

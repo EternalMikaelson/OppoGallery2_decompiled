@@ -1,0 +1,581 @@
+{
+  "version": "20230614",
+  "entities": [
+    {
+      "cRegion": "中国香港",
+      "cNameCN": "港元",
+      "cNameEN": "HongKong Dollars",
+      "cUnits": "港币",
+      "cSymbols": "HK$",
+      "cCode": "HKD"
+    },
+    {
+      "cRegion": "中国澳门",
+      "cNameCN": "澳门元",
+      "cNameEN": "Macao Pataca",
+      "cUnits": "澳门币;葡币",
+      "cSymbols": "MOP$;MOP",
+      "cCode": "MOP"
+    },
+    {
+      "cRegion": "中国台湾",
+      "cNameCN": "新台币",
+      "cNameEN": "New Taiwan dollar",
+      "cUnits": "圆",
+      "cSymbols": "NT$;NTD",
+      "cCode": "TWD"
+    },
+    {
+      "cRegion": "中国",
+      "cNameCN": "人民币",
+      "cNameEN": "Chinese Yuan",
+      "cUnits": "元;人民币元",
+      "cSymbols": "RMB¥;CN¥;¥;RMB;￥",
+      "cCode": "CNY"
+    },
+    {
+      "cRegion": "韩国",
+      "cNameCN": "韩元",
+      "cNameEN": "Korean Won",
+      "cUnits": "韩元",
+      "cSymbols": "₩;WON",
+      "cCode": "KRW"
+    },
+    {
+      "cRegion": "越南",
+      "cNameCN": "越南盾",
+      "cNameEN": "Vietnamese Dong",
+      "cUnits": "",
+      "cSymbols": "₫;D.",
+      "cCode": "VND"
+    },
+    {
+      "cRegion": "日本",
+      "cNameCN": "日元",
+      "cNameEN": "Japanese Yen",
+      "cUnits": "日元",
+      "cSymbols": "￥;J.￥",
+      "cCode": "JPY"
+    },
+    {
+      "cRegion": "老挝",
+      "cNameCN": "基普",
+      "cNameEN": "Laotian Kip",
+      "cUnits": "Kip;ເງີນກີບລາວ",
+      "cSymbols": "₭;₭N",
+      "cCode": "LAK"
+    },
+    {
+      "cRegion": "柬埔寨",
+      "cNameCN": "瑞尔",
+      "cNameEN": "Riel",
+      "cUnits": "",
+      "cSymbols": "CR.;J Ri.",
+      "cCode": "KHR"
+    },
+    {
+      "cRegion": "菲律宾",
+      "cNameCN": "菲律宾比索",
+      "cNameEN": "Philippine Peso",
+      "cUnits": "",
+      "cSymbols": "₱;Ph.Pes.;Phil.P.",
+      "cCode": "PHP"
+    },
+    {
+      "cRegion": "美国",
+      "cNameCN": "美元",
+      "cNameEN": "U.S.Dollar",
+      "cUnits": "美金",
+      "cSymbols": "$;US$",
+      "cCode": "USD"
+    },
+    {
+      "cRegion": "马来西亚",
+      "cNameCN": "马币",
+      "cNameEN": "Malaysia Ringgit",
+      "cUnits": "令吉;林吉特;Ringgit",
+      "cSymbols": "M.$;Mal.$;RM",
+      "cCode": "MYR"
+    },
+    {
+      "cRegion": "新加坡",
+      "cNameCN": "新加坡元",
+      "cNameEN": "Singapore Dollar",
+      "cUnits": "",
+      "cSymbols": "S$;$",
+      "cCode": "SGD"
+    },
+    {
+      "cRegion": "缅甸",
+      "cNameCN": "缅元",
+      "cNameEN": "Burmese Kyat",
+      "cUnits": "",
+      "cSymbols": "K.",
+      "cCode": "BUK"
+    },
+    {
+      "cRegion": "斯里兰卡",
+      "cNameCN": "斯里兰卡卢比",
+      "cNameEN": "Sri Lanka Rupee",
+      "cUnits": "",
+      "cSymbols": "S.Re.;S.Rs.",
+      "cCode": "LKR"
+    },
+    {
+      "cRegion": "印度尼西亚",
+      "cNameCN": "印度尼西亚盾",
+      "cNameEN": "Indonesian Rupiah",
+      "cUnits": "",
+      "cSymbols": "Rps.",
+      "cCode": "IDR"
+    },
+    {
+      "cRegion": "巴基斯坦",
+      "cNameCN": "巴基斯坦卢比",
+      "cNameEN": "Pakistan Pupee",
+      "cUnits": "",
+      "cSymbols": "Pak.Re.;P.Re.;P.Rs.",
+      "cCode": "PRK"
+    },
+    {
+      "cRegion": "印度",
+      "cNameCN": "卢比",
+      "cNameEN": "Indian Rupee",
+      "cUnits": "",
+      "cSymbols": "Re.;Rs.",
+      "cCode": "INR"
+    },
+    {
+      "cRegion": "尼泊尔",
+      "cNameCN": "尼泊尔卢比",
+      "cNameEN": "Nepalese Rupee",
+      "cUnits": "",
+      "cSymbols": "N.Re.;N.Rs.",
+      "cCode": "NPR"
+    },
+    {
+      "cRegion": "伊朗",
+      "cNameCN": "伊朗里亚尔",
+      "cNameEN": "Iranian Rial",
+      "cUnits": "",
+      "cSymbols": "RI.",
+      "cCode": "IRR"
+    },
+    {
+      "cRegion": "伊拉克",
+      "cNameCN": "伊拉克第纳尔",
+      "cNameEN": "Iraqi Dinar",
+      "cUnits": "",
+      "cSymbols": "ID",
+      "cCode": "IQD"
+    },
+    {
+      "cRegion": "叙利亚",
+      "cNameCN": "叙利亚镑",
+      "cNameEN": "Syrian Pound",
+      "cUnits": "",
+      "cSymbols": "￡.Syr.;￡.S.",
+      "cCode": "SYP"
+    },
+    {
+      "cRegion": "黎巴嫩",
+      "cNameCN": "黎巴嫩镑",
+      "cNameEN": "Lebanese Pound",
+      "cUnits": "",
+      "cSymbols": "￡L.",
+      "cCode": "LBP"
+    },
+    {
+      "cRegion": "约旦",
+      "cNameCN": "约旦第纳尔",
+      "cNameEN": "Jordanian Dinar",
+      "cUnits": "",
+      "cSymbols": "J.D.; J.Dr.",
+      "cCode": "JOD"
+    },
+    {
+      "cRegion": "沙特阿拉伯",
+      "cNameCN": "沙特里亚尔",
+      "cNameEN": "Saudi Arabian Riyal",
+      "cUnits": "",
+      "cSymbols": "S.A.Rls.; S.R.",
+      "cCode": "SAR"
+    },
+    {
+      "cRegion": "科威特",
+      "cNameCN": "科威特第纳尔",
+      "cNameEN": "Kuwaiti Dinar",
+      "cUnits": "",
+      "cSymbols": "K.D.",
+      "cCode": "KWD"
+    },
+    {
+      "cRegion": "巴林",
+      "cNameCN": "巴林第纳尔",
+      "cNameEN": "Bahrain Dinar",
+      "cUnits": "",
+      "cSymbols": "BD.",
+      "cCode": "BHD"
+    },
+    {
+      "cRegion": "卡塔尔",
+      "cNameCN": "卡塔尔里亚尔",
+      "cNameEN": "Qatar Riyal",
+      "cUnits": "",
+      "cSymbols": "QR.",
+      "cCode": "QAR"
+    },
+    {
+      "cRegion": "阿曼",
+      "cNameCN": "阿曼里亚尔",
+      "cNameEN": "Oman Riyal",
+      "cUnits": "",
+      "cSymbols": "RO.",
+      "cCode": "OMR"
+    },
+    {
+      "cRegion": "土耳其",
+      "cNameCN": "土耳其镑",
+      "cNameEN": "Turkish Pound (Turkish Lira)",
+      "cUnits": "",
+      "cSymbols": "￡T. (TL.)",
+      "cCode": "TRL"
+    },
+    {
+      "cRegion": "文莱",
+      "cNameCN": "文莱林吉特",
+      "cNameEN": "Brunei Ringgit",
+      "cUnits": "",
+      "cSymbols": "",
+      "cCode": "BND"
+    },
+    {
+      "cRegion": "以色列",
+      "cNameCN": "以色列新谢克尔",
+      "cNameEN": "Israel new shekel",
+      "cUnits": "",
+      "cSymbols": "",
+      "cCode": "ILS"
+    },
+    {
+      "cRegion": "阿联酋",
+      "cNameCN": "阿联酋迪拉姆",
+      "cNameEN": "United Arab Emirates dirham",
+      "cUnits": "",
+      "cSymbols": "",
+      "cCode": "AED"
+    },
+    {
+      "cRegion": "哈萨克斯坦",
+      "cNameCN": "哈萨克斯坦坚戈",
+      "cNameEN": "Kazakhstan Tenge",
+      "cUnits": "探戈;腾格",
+      "cSymbols": "〒;T",
+      "cCode": "KZT"
+    },
+    {
+      "cRegion": "孟加拉",
+      "cNameCN": "孟加拉塔卡",
+      "cNameEN": "Bangladeshi taka",
+      "cUnits": "",
+      "cSymbols": "৳",
+      "cCode": "BDT"
+    },
+    {
+      "cRegion": "乌兹别克斯坦",
+      "cNameCN": "乌兹别克斯坦苏姆",
+      "cNameEN": "Uzbekistani som",
+      "cUnits": "",
+      "cSymbols": "",
+      "cCode": "UZS"
+    },
+    {
+      "cRegion": "欧洲货币联盟",
+      "cNameCN": "欧元",
+      "cNameEN": "Euro",
+      "cUnits": "",
+      "cSymbols": "EUR;€",
+      "cCode": "EUR"
+    },
+    {
+      "cRegion": "冰岛",
+      "cNameCN": "冰岛克朗",
+      "cNameEN": "Icelandic Krona（复数：Kronur）",
+      "cUnits": "",
+      "cSymbols": "I.Kr.",
+      "cCode": "ISK"
+    },
+    {
+      "cRegion": "丹麦",
+      "cNameCN": "丹麦克朗",
+      "cNameEN": "Danish Krona（复数：Kronur）",
+      "cUnits": "",
+      "cSymbols": "D.Kr.",
+      "cCode": "DKK"
+    },
+    {
+      "cRegion": "挪威",
+      "cNameCN": "挪威克朗",
+      "cNameEN": "Norwegian Krone（复数：Kronur）",
+      "cUnits": "",
+      "cSymbols": "N.Kr.",
+      "cCode": "NOK"
+    },
+    {
+      "cRegion": "瑞典",
+      "cNameCN": "瑞典克朗",
+      "cNameEN": "Swedish Krona（复数：Kronor）",
+      "cUnits": "",
+      "cSymbols": "S.Kr.",
+      "cCode": "SEK"
+    },
+    {
+      "cRegion": "俄罗斯",
+      "cNameCN": "卢布",
+      "cNameEN": "Russian Ruble (or Rouble)",
+      "cUnits": "",
+      "cSymbols": "Rbs. Rbl.",
+      "cCode": "SUR"
+    },
+    {
+      "cRegion": "波兰",
+      "cNameCN": "兹罗提",
+      "cNameEN": "Polish Zloty",
+      "cUnits": "",
+      "cSymbols": "ZL.",
+      "cCode": "PLZ"
+    },
+    {
+      "cRegion": "捷克和斯洛伐克",
+      "cNameCN": "捷克克朗",
+      "cNameEN": "Czechish Koruna",
+      "cUnits": "",
+      "cSymbols": "Kcs.; Cz.Kr.",
+      "cCode": "CSK"
+    },
+    {
+      "cRegion": "匈牙利",
+      "cNameCN": "福林",
+      "cNameEN": "Hungarian Forint",
+      "cUnits": "",
+      "cSymbols": "FT.",
+      "cCode": "HUF"
+    },
+    {
+      "cRegion": "瑞士",
+      "cNameCN": "瑞士法郎",
+      "cNameEN": "Swiss Franc",
+      "cUnits": "",
+      "cSymbols": "SF.;SFR.",
+      "cCode": "CHF"
+    },
+    {
+      "cRegion": "英国",
+      "cNameCN": "英镑",
+      "cNameEN": "Pound Sterling",
+      "cUnits": "",
+      "cSymbols": "￡;￡ Stg.",
+      "cCode": "GBP"
+    },
+    {
+      "cRegion": "罗马尼亚",
+      "cNameCN": "列伊",
+      "cNameEN": "Rumanian Leu（复数：Leva）",
+      "cUnits": "",
+      "cSymbols": "L.",
+      "cCode": "ROL"
+    },
+    {
+      "cRegion": "保加利亚",
+      "cNameCN": "列弗",
+      "cNameEN": "Bulgarian Lev（复数：Lei）",
+      "cUnits": "",
+      "cSymbols": "Lev.",
+      "cCode": "BGL"
+    },
+    {
+      "cRegion": "白俄罗斯",
+      "cNameCN": "白俄罗斯卢布",
+      "cNameEN": "Belarus Ruble",
+      "cUnits": "",
+      "cSymbols": "",
+      "cCode": "BYR"
+    },
+    {
+      "cRegion": "乌克兰",
+      "cNameCN": "乌克兰格里夫纳",
+      "cNameEN": "Ukrainian Hryvnia",
+      "cUnits": "",
+      "cSymbols": "грн.",
+      "cCode": "UAH"
+    },
+    {
+      "cRegion": "摩尔多瓦",
+      "cNameCN": "摩尔多瓦列伊",
+      "cNameEN": "Moldovenesc Leu",
+      "cUnits": "",
+      "cSymbols": "",
+      "cCode": "MDL"
+    },
+    {
+      "cRegion": "加拿大",
+      "cNameCN": "加元",
+      "cNameEN": "Canadian Dollar",
+      "cUnits": "",
+      "cSymbols": "Can.$;$",
+      "cCode": "CAD"
+    },
+    {
+      "cRegion": "墨西哥",
+      "cNameCN": "墨西哥比索",
+      "cNameEN": "Mexican Peso",
+      "cUnits": "墨西哥元",
+      "cSymbols": "Mex.$",
+      "cCode": "MXP"
+    },
+    {
+      "cRegion": "哥斯达黎加",
+      "cNameCN": "哥斯达黎加科朗",
+      "cNameEN": "Costa Rican Colon",
+      "cUnits": "",
+      "cSymbols": "￠",
+      "cCode": "CRC"
+    },
+    {
+      "cRegion": "哥伦比亚",
+      "cNameCN": "哥伦比亚比索",
+      "cNameEN": "Colombian Peso",
+      "cUnits": "",
+      "cSymbols": "Col$",
+      "cCode": "COP"
+    },
+    {
+      "cRegion": "智利",
+      "cNameCN": "智利比索",
+      "cNameEN": "Chilean Peso",
+      "cUnits": "",
+      "cSymbols": "P.",
+      "cCode": "CLP"
+    },
+    {
+      "cRegion": "阿根廷",
+      "cNameCN": "阿根廷比索",
+      "cNameEN": "Argentine Peso",
+      "cUnits": "",
+      "cSymbols": "Arg.P.",
+      "cCode": "ARP"
+    },
+    {
+      "cRegion": "西非经济货币联盟",
+      "cNameCN": "非共体法郎",
+      "cNameEN": "African Financial Community Franc",
+      "cUnits": "",
+      "cSymbols": "C.F.A.F.",
+      "cCode": "XOF"
+    },
+    {
+      "cRegion": "中非经济与货币共同体",
+      "cNameCN": "中非金融合作法郎",
+      "cNameEN": "Central African Finan-Coop Franc",
+      "cUnits": "",
+      "cSymbols": "CFAF",
+      "cCode": "XAF"
+    },
+    {
+      "cRegion": "埃及",
+      "cNameCN": "埃及镑",
+      "cNameEN": "Egyptian Pound",
+      "cUnits": "",
+      "cSymbols": "￡E.;LF.",
+      "cCode": "EGP"
+    },
+    {
+      "cRegion": "突尼斯",
+      "cNameCN": "突尼斯第纳尔",
+      "cNameEN": "Tunisian Dinar",
+      "cUnits": "",
+      "cSymbols": "TD.",
+      "cCode": "TND"
+    },
+    {
+      "cRegion": "阿尔及利亚",
+      "cNameCN": "阿尔及利亚第纳尔",
+      "cNameEN": "Algerian Dinar",
+      "cUnits": "",
+      "cSymbols": "AD.",
+      "cCode": "DZD"
+    },
+    {
+      "cRegion": "摩洛哥",
+      "cNameCN": "摩洛哥迪拉姆",
+      "cNameEN": "Moroccan Dirham",
+      "cUnits": "",
+      "cSymbols": "DH.",
+      "cCode": "MAD"
+    },
+    {
+      "cRegion": "尼日利亚",
+      "cNameCN": "奈拉",
+      "cNameEN": "Nigerian Naira",
+      "cUnits": "",
+      "cSymbols": "N",
+      "cCode": "NGN"
+    },
+    {
+      "cRegion": "南非",
+      "cNameCN": "兰特",
+      "cNameEN": "South African Rand",
+      "cUnits": "",
+      "cSymbols": "R.",
+      "cCode": "ZAR"
+    },
+    {
+      "cRegion": "肯尼亚",
+      "cNameCN": "肯尼亚先令",
+      "cNameEN": "Kenya Shilling",
+      "cUnits": "",
+      "cSymbols": "K.Sh",
+      "cCode": "KES"
+    },
+    {
+      "cRegion": "乌干达",
+      "cNameCN": "乌干达先令",
+      "cNameEN": "Uganda Shilling",
+      "cUnits": "",
+      "cSymbols": "U.Sh.",
+      "cCode": "UGS"
+    },
+    {
+      "cRegion": "坦桑尼亚",
+      "cNameCN": "坦桑尼亚先令",
+      "cNameEN": "Tanzania Shilling",
+      "cUnits": "",
+      "cSymbols": "T.Sh.",
+      "cCode": "TZS"
+    },
+    {
+      "cRegion": "赞比亚",
+      "cNameCN": "赞比亚克瓦查",
+      "cNameEN": "Zambian Kwacha",
+      "cUnits": "",
+      "cSymbols": "KW.K;K",
+      "cCode": "ZMW"
+    },
+    {
+      "cRegion": "澳大利亚",
+      "cNameCN": "澳大利亚元",
+      "cNameEN": "Australian Dollar",
+      "cUnits": "澳元",
+      "cSymbols": "A$;$",
+      "cCode": "AUD"
+    },
+    {
+      "cRegion": "新西兰",
+      "cNameCN": "新西兰元",
+      "cNameEN": "New Zealand Dollar",
+      "cUnits": "",
+      "cSymbols": "NZ$",
+      "cCode": "NZD"
+    }
+  ]
+}

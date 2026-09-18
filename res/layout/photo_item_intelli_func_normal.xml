@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/photopage_intelli_func_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/v_divider" android:background="@drawable/photopage_divider_intelli_func_night" android:visibility="gone" android:layout_width="1.0dp" android:layout_height="10.0dp" />
+    <com.oplus.gallery.basebiz.widget.WindowFocusAwareTextView android:textSize="@dimen/photopage_intelli_func_title_size" android:textColor="@color/common_white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_func" android:layout_width="wrap_content" android:layout_height="match_parent" android:lines="1" android:drawablePadding="@dimen/photopage_intelli_func_icon_title_interval" android:fontFamily="OPlus Sans SC 3.5" android:textDirection="locale" android:textFontWeight="500" />
+</LinearLayout>

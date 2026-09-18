@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cshot_indicator_item" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:id="@id/cshot_indicator_item_bg" android:background="@drawable/photopage_ic_cshot_check_selector" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center" android:contentDescription="@null" android:forceDarkAllowed="false" />
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/cshot_indicator_item_animation_view" android:layout_width="@dimen/photopage_cshot_indicator_animation_view_width" android:layout_height="@dimen/photopage_cshot_indicator_animation_view_height" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

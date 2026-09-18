@@ -1,0 +1,138 @@
+{
+  "styleId": "lumo_style_2",
+  "baseImageSize": 360,
+  "size": {
+    "leftMargin": 10,
+    "topMargin": 10,
+    "rightMargin": 10,
+    "bottomMargin": 111
+  },
+  "imageOffset": {
+    "startX": 10,
+    "startY": 10
+  },
+  "background": {
+    "backgroundType": 0,
+    "color": "#FFFFFF"
+  },
+  "bitmaps": [
+    {
+      "direction": 3,
+      "orientation": 1,
+      "position": {
+        "borderX": 10,
+        "borderY": 0,
+        "gravity": "center"
+      },
+      "width": -1,
+      "height": 111,
+      "elements": [
+        {
+          "id": 1,
+          "visible": true,
+          "content": {
+            "type": "elements",
+            "orientation": 1,
+            "width": 340
+          },
+          "position": {
+            "layoutGravity": "center",
+            "layoutGravityEnable": true,
+            "leftMargin": 0,
+            "topMargin": 0,
+            "rightMargin": 0,
+            "bottomMargin": 10.25
+          },
+          "elements": [
+            {
+              "id": 2,
+              "visible": true,
+              "editable": false,
+              "content": {
+                "type": "image",
+                "bitmapSourceType": 0,
+                "bitmap": "lumo_watermark_logo_dark",
+                "bitmapResName": "lumo_watermark_logo_dark",
+                "width": 65,
+                "height": 40,
+                "scaleType": 3
+              },
+              "position": {
+                "layoutGravity": "horCenter",
+                "layoutGravityEnable": true,
+                "leftMargin": 0,
+                "rightMargin": 0,
+                "topMargin": 0,
+                "bottomMargin": 0
+              }
+            },
+            {
+              "id": 3,
+              "visible": true,
+              "editable": false,
+              "content" : {
+                "type": "text",
+                "textSource": 0
+              },
+              "position": {
+                "layoutGravity": "horCenter",
+                "layoutGravityEnable": true,
+                "leftMargin": 0,
+                "rightMargin": 0,
+                "topMargin": 2.5,
+                "bottomMargin": 0
+              },
+              "paint": {
+                "fontType": 0,
+                "fontName":"OplusSans",
+                "fontFileType": 1,
+                "fontWeight": 600,
+                "font": "/system/fonts/SysSans-En-Regular.ttf",
+                "textSize": 10.5,
+                "letterSpacing": 0.02,
+                "lineHeight": 12,
+                "alpha": 1,
+                "gradientType": -1,
+                "colors": [
+                  "#000000"
+                ]
+              }
+            },
+            {
+              "id": 4,
+              "visible": true,
+              "editable": true,
+              "content" : {
+                "type": "text",
+                "textSource": 1
+              },
+              "position": {
+                "layoutGravity": "horCenter",
+                "layoutGravityEnable": true,
+                "leftMargin": 0,
+                "rightMargin": 0,
+                "topMargin": 2
+              },
+              "paint": {
+                "fontType": 0,
+                "fontName":"OplusSans",
+                "fontFileType": 1,
+                "fontWeight": 400,
+                "font": "/system/fonts/SysSans-En-Regular.ttf",
+                "textSize": 8,
+                "letterSpacing": 0.06,
+                "lineHeight": 9,
+                "alpha": 0.54,
+                "lightAlpha": 0.54,
+                "colors": [
+                  "#000000"
+                ],
+                "gradientType": -1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

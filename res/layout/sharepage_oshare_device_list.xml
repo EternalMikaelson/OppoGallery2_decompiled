@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.foundation.ui.widget.NestScrollRecyclerView android:id="@id/devices_recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/main_resolver_oshareing_recyclerview_padding_start" android:paddingEnd="@dimen/main_resolver_oshareing_recyclerview_padding_start" android:nestedScrollingEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/thumbnail_spread_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/edit_time_edit_timeline_add_tail_span_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/edit_timeline_cover_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="片尾" android:lines="3" android:layout_centerVertical="true" android:paddingStart="@dimen/edit_time_edit_timeline_add_tail_span_text_padding_start" android:paddingEnd="@dimen/edit_time_edit_timeline_add_tail_span_text_padding_end" android:layout_alignParentStart="true" />
+</RelativeLayout>

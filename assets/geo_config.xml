@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>2026011900</version>
+
+    <item name="台北市">
+        <match>|台北市|臺北市|Taipei City|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="新北市">
+        <match>|新北市|New Taipei City|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="桃园市">
+        <match>|桃园市|桃園市|Taoyuan City|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="台中市">
+        <match>|台中市|臺中市|Taichung City|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="台南市">
+        <match>|台南市|臺南市|Tainan City|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="高雄市">
+        <match>|高雄市|Kaohsiung City|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="基隆市">
+        <match>|基隆市|Keelung City|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="新竹市">
+        <match>|新竹市|Hsinchu City|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="嘉义市">
+        <match>|嘉义市|嘉義市|Chiayi City|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="嘉义县">
+        <match>|嘉义县|嘉義縣|Chiayi County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="花莲县">
+        <match>|花莲县|花蓮縣|Hualien County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="苗栗县">
+        <match>|苗栗县|苗栗縣|Miaoli County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="南投县">
+        <match>|南投县|南投縣|Nantou County</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="澎湖县">
+        <match>|澎湖县|澎湖縣|Penghu County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="屏东县">
+        <match>|屏东县|屏東縣|Pingtung County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="台东县">
+        <match>|台东县|台東縣|臺東縣|Taitung County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="新竹县">
+        <match>|新竹县|新竹縣|Hsinchu County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="宜兰县">
+        <match>|宜兰县|宜蘭縣|Yilan County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="云林县">
+        <match>|云林县|雲林縣|Yunlin County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="彰化县">
+        <match>|彰化县|彰化縣|Changhua County|</match>
+        <matchLevel>|2|</matchLevel>
+        <move>|2-3|</move>
+    </item>
+    <item name="天津市">
+        <match>|天津市|Tian Jin Shi|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="上海市">
+        <match>|上海市|Shang Hai Shi|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="北京市">
+        <match>|北京市|Bei Jing Shi|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="重庆市">
+        <match>|重庆市|重慶市|Chong Qing Shi|</match>
+        <matchLevel>|1|</matchLevel>
+        <move>|1-3|</move>
+    </item>
+    <item name="香港">
+        <match>|香港|香港特别行政区|香港特別行政區|Hong Kong|Hong Kong SAR|</match>
+        <matchLevel>|0|</matchLevel>
+        <move>|0-3|</move>
+    </item>
+    <item name="澳门">
+        <match>|澳门|澳門|澳门特别行政区|澳門特別行政區|Macao|Macau SAR|</match>
+        <matchLevel>|0|</matchLevel>
+        <move>|0-3|</move>
+    </item>
+    <!-- 亚洲 -->
+    <item name="西沙群岛">
+        <match>|西沙群岛|西沙群島|Xisha Islands|Trường Sa Quần đảo|Paracel Islands|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="中沙群岛">
+        <match>|中沙群岛|中沙群島|the Zhongsha Islands|Macclesfield Bank|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="中业岛">
+        <match>|中业岛|中業島|Zhongye Island|Pag-Asa Island|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="东沙群岛">
+        <match>|东沙群岛|東沙群島|Dongsha Islands|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="南沙群岛">
+        <match>|南沙群岛|南沙群島|Spratly Islands|Quần đảo Trường Sa|Kepulauan Spratly|Gugusan Semarang Peninjau|Kapuluan ng Kalayaan|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="钓鱼岛">
+        <match>|钓鱼岛|釣魚島|Diaoyu Dao|せんかくしょとう|尖阁群岛/钓鱼岛/钓鱼台群岛|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="阿克赛钦">
+        <match>|阿克赛钦|阿克賽欽|Aksai Chin|अक्साई चिन|日土县|日土縣|Ri Tu Xian|Rutog|和田县|和田縣|Hotan|Hotan County|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="藏南地区">
+        <match>|藏南地区|藏南地區|South Tibet|अरुणाचल प्रदेश|林芝市|林芝地區|Nyingchi|错那县|錯那縣|Cona County|山南市|山南地區|Shannan|Shan nan shi|隆子县|隆子縣|Longzi County|米林县|米林縣|Mi Lin Xian|朗县|朗縣|Lang Xian|墨脱县|墨脫縣|Mêdog County|哈阿宗|haazong|Haa|察隅县|察隅縣|Zayu|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="巴里加斯">
+        <match>|巴里加斯|巴裏加斯|碟木绰克|碟木綽克|Bali Jiasi|Parigas|Demchok|Dêmqog|देमचोक|噶尔县|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="苏岩礁">
+        <match>|苏岩礁|蘇岩礁|Suyan Islet|Ieodo|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="日向礁">
+        <match>|日向礁|新安郡|Gageo Reef|Sinan|Sinan-gun|신안군|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="鲁林争议区">
+        <match>|鲁林争议区|魯林爭議區|绒林|亚东县|亞東縣|Yadong County|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="洞郎争议区">
+        <match>|洞郎争议区|洞郎爭議區|Doklam|གདོང་ལམ|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="查玛浦争议区">
+        <match>|查玛浦争议区|查瑪浦爭議區|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="基伍争议区">
+        <match>|基伍争议区|基伍爭議區|帕羅|帕罗|百罗|百羅|Paro|韦斯滕|Western|帕羅宗|帕罗宗|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="白玉争议区">
+        <match>|白玉争议区|白玉爭議區|伦奇宗|倫奇宗|Lhuntse|洛扎县|洛紮縣|Loza County|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="墨拉萨丁争议区">
+        <match>|墨拉萨丁争议区|墨拉薩丁爭議區|Merag-Sagteng|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="卡拉帕尼">
+        <match>|卡拉帕尼|Kalapani|Uttaranchal|Kailash Mansarovar Track|DHARCHULA|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="利皮亚杜拉">
+        <match>|利皮亚杜拉|利皮亞杜拉|Lipiadura|Uttaranchal|比托拉格尔县|皮托拉加爾|比托拉格爾縣|Pithoragarh|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="利普勒赫">
+        <match>|利普勒赫|Liplach|比托拉格尔|Kalapani-Limpiyadhura|Lipulekh|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="苏斯塔">
+        <match>|苏斯塔|蘇斯塔|Susta|Nawalparasi West Of Bardaghat Susta|Pashchimanchal|Laxmipur Rampurwa|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="先生湾">
+        <match>|先生湾|先生灣|Sir Creek|锡尔克里克|錫爾克裏克|古吉拉特邦|古吉拉突邦|卡奇|喀奇縣|Kachchh|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|</block>
+    </item>
+    <item name="阿拉伯河">
+        <match>|阿拉伯河|شط العرب|روندرود|Shatt al-Arab|Al Faw|阿巴丹|Abadan|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="舍巴农场">
+        <match>|舍巴农场|舍巴農場|Shebaa farms|مزارع شبعا|חוות שבעא|库奈特拉|Al Qunaytirah|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="伊米亚群岛">
+        <match>|伊米亚群岛|伊米亞群島|Imia Island|Kardak|卡尔达克岛|卡爾達克島|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="独岛">
+        <match>|独岛|獨島|竹岛|竹島|里昂科礁|たけしま|독도|Rochers de Liancourt|利扬库尔岩|Gyeongsangbugdo|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="南达尔帕蒂岛">
+        <match>|南达尔帕蒂岛|南達爾帕蒂島|新摩尔岛|新摩爾島|新穆尔岛|新莫爾島|普尔巴沙岛|普爾巴沙島|दक्षिण तालपटि द्वीप|South Talpatti Island|夏穆纳戈|夏穆納戈|沙姆纳格尔|Shyamnagar|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="南千岛群岛">
+        <match>|南千岛群岛|南千島群島|South Kuril Islands|Южный Курильские острова|ほっぽうりょうど|ほっぽうよんとう|Кунашир|国後島|くなしりとう|Итуруп|択捉島|えとろふとう|Хабомай|歯舞群島|はぼまいぐんとう|Шикотан|色丹島|しこたんとう|Sakhalinskaya oblast'|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="克什米尔">
+        <match>|克什米尔|克什米爾|Kashmir Valley|कश्मीर|کشمیر|Jammu and Kashmir|Hard Pora|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="耶路撒冷">
+        <match>|耶路撒冷|الشريف|القدس|ירושלים|Yerushalayim|Yerushalaim|Jerusalem|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|</block>
+    </item>
+    <item name="北塞浦路斯">
+        <match>|北塞浦路斯|北賽普勒斯|Kuzey Kıbrıs Türk Cumhuriyeti|KKTC|Τουρκική Δημοκρατία της Βόρειας Κύπρου|ΤΔΒΚ|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <!-- 欧洲 -->
+    <item name="费迪南德岛">
+        <match>|费迪南德岛|費迪南德島|Ferdinandea|Julia Island|Ìsula Firdinandèa|Isla Ferdinand|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="直布罗陀海峡">
+        <match>|直布罗陀海峡|直布羅陀海峽|Gibraltar|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="奥利文萨">
+        <match>|奥利文萨|奧利文薩|Olivenza|Olivença|Extremadura|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="埃姆斯河河口">
+        <match>|埃姆斯河河口|Ems|Eems|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="多拉德湾西部">
+        <match>|多拉德湾西部|多拉德灣西部|Dollard Bay West|埃姆登|Emden|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="图兹拉岛">
+        <match>|图兹拉岛|圖茲拉島|Тузла (острів)|Tuzla Spit Island|Krymskiy most|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="刻赤海峡">
+        <match>|刻赤海峡|刻赤海峽|Kerch Strait|Керченский пролив|Керченська протока|Keriç boğazı|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="克里米亚">
+        <match>|克里米亚|克裡米亞|Кры́мский полуо́стров|Кримський півострів|Къырым ярымадасы|Qırım yarımadası|Crimea Republic|Respublika Krym|克里米亞自治共和國|乌克兰克里米亚自治共和国|Crimea|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="伊万哥罗德">
+        <match>|伊万哥罗德|伊万哥羅德|Ivangorod|Jaanilinn|Ивангород|Leningradskaya oblast'|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="皮兰湾">
+        <match>|皮兰湾|皮蘭灣|Piranski zaliv|Piranski zaljev|Savudrijska vala|Baia di Pirano|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="外喀尔巴阡州">
+        <match>|外喀尔巴阡州|外喀爾巴阡州|Kárpátalja|Закарпатська область|Zakarpats'ka oblast'|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="科索沃">
+        <match>|科索沃|Kosovo|Kosovë|Косово|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="阿布哈兹">
+        <match>|阿布哈兹|Abkhazia|Аҧсны|აფხაზეთი|Абхазия|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="南奥塞梯">
+        <match>|南奥塞梯|Ossetia|Хуссар Ирыстон|სამხრეთ ოსეთი|Южная Осетия|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="罗科尔岛">
+        <match>|罗科尔岛|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <!-- 美洲 -->
+    <item name="马尔维纳斯群岛">
+        <match>|马尔维纳斯群岛|馬爾維納斯群島|福克兰群岛 (马维纳斯群岛)|马尔维纳斯群岛(阿根、英争议)(英称福克兰群岛)|福克蘭群島 (馬維納斯群島)|福克兰群岛|福克蘭群島|Falkland Islands|Islas Malvinas|Falkland Islands (Islas Malvinas)|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|</block>
+    </item>
+    <item name="南乔治亚">
+        <match>|南乔治亚|南喬治亞|South Georgia Islands|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="南桑威奇群岛">
+        <match>|南桑威奇群岛|南桑威奇群島|南乔治亚岛和南桑威奇群岛|南喬治亞與南三明治群島|South Georgia and The South Sandwich Islands|SGSSI|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="圣胡安河省">
+        <match>|圣胡安河省|聖胡安河省|Río San Juan|里奥圣胡安|rio san juan|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="圣安德列斯-普罗维登西亚和圣卡塔利娜群岛">
+        <match>|圣安德列斯-普罗维登西亚和圣卡塔利娜群岛|聖安德列斯-普羅維登西亞和聖卡塔利娜群島|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="埃塞奎博地区">
+        <match>|埃塞奎博地区|埃塞奎博地區|Essequibo|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="纽河三角洲">
+        <match>|纽河三角洲|紐河三角洲|The New River Triangle|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="圭亚那海盆">
+        <match>|圭亚那海盆|蓋亞那海盆|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="海燕群岛">
+        <match>|海燕群岛|海燕群島|Bajo Nuevo Bank|Petrel Islands|新浅滩|新淺灘|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="南部伯利兹">
+        <match>|南部伯利兹|南部貝裡斯|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="阿韦斯岛">
+        <match>|阿韦斯岛|阿韋斯島|Isla Aves|Bird Island|鸟岛|鳥島|伯德岛|伯德島|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="巴西利亚岛">
+        <match>|巴西利亚岛|巴西利亞島|Brazilian Island|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="科内霍岛">
+        <match>|科内霍岛|科內霍島|Conejo Island|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="汉斯岛">
+        <match>|汉斯岛|漢斯島|Hans Island|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="纳弗沙岛">
+        <match>|纳弗沙岛|納弗沙島|Navassa Island|Lanavaz|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="萨博迪亚礁">
+        <match>|萨博迪亚礁|薩博迪亞礁|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="波弗特海">
+        <match>|波弗特海|Beaufort Sea|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="迪克森海峡">
+        <match>|迪克森海峡|迪克森海峽|Dixon Entrance|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="马基亚斯海豹岛">
+        <match>|马基亚斯海豹岛|馬基亞斯海豹島|玛基亚斯海豹岛|瑪基亞斯海豹島|Machias Seal Island|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="北岩岛">
+        <match>|北岩岛|北岩島|North Rock|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="胡安·德·富卡海峡">
+        <match>|胡安·德·富卡海峡|胡安·德·富卡海峽|Juan de Fuca Strait|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="西北水道">
+        <match>|西北水道|西北航道|Northwest Passage|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <!-- 非洲 -->
+    <item name="米戈利">
+        <match>|米戈利|Migori|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="西撒哈拉">
+        <match>|西撒哈拉|Tibesti|Tibesti Ouest|The Sahrawi Arab Democratic Republic|الصحراء الغربية|Sáhara Occidental|Taneẓroft Tutrimt|Western Sahara|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="休达">
+        <match>|休达|休達|Ceuta|Sebta|سبتة|Sabtah|Mahori|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="梅利利亚">
+        <match>|梅利利亚|梅利利亞|Melilla|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="米金戈岛">
+        <match>|米金戈岛|米金戈島|Migingo Island|尼安扎|尼安紮|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="Remba岛">
+        <match>|Remba岛|Remba島|Ilemba Island|霍马贝|霍馬貝|Homa Bay|Nyanza|霍马湾|霍馬灣|霍马湾郡|霍馬灣郡|Homa Bay County|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="Sigulu岛">
+        <match>|Sigulu岛|Sigulu島|Kisiwa cha Sigulu|纳马因戈区|纳马因戈|納馬因戈區|納馬因戈|Kisiwa cha Sigulu|东方省|东部区|Eastern|Eastern Region|SIGULU ISLANDS|布吉里|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="埃莱米三角">
+        <match>|埃莱米三角|埃萊米三角|Ilemi Triangle|Rift Valley|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="特罗姆兰岛">
+        <match>|特罗姆兰岛|特羅姆蘭島|Île Tromelin|French Southern and Antarctic Lands|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="格洛里厄斯群岛">
+        <match>|格洛里厄斯群岛|格洛裏厄斯群島|Îles Glorieuses|Islas Glorieuses|French Southern and Antarctic Lands|Îles Eparses|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="印度礁">
+        <match>|印度礁|Bassas da India|Basse de Judie|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="欧罗巴岛">
+        <match>|欧罗巴岛|歐羅巴島|Île Europa|French Southern and Antarctic Lands|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="新胡安岛">
+        <match>|新胡安岛|新胡安島|Île Juan-de-Nova|法属南部领地|法屬南部領地|French Southern and Antarctic Lands|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|6|</block>
+    </item>
+    <item name="盖瑟礁">
+        <match>|盖瑟礁|蓋瑟礁|Banc du Geyser|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="马约特">
+        <match>|马约特|馬約特|馬約特島|Mayotte|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="凯菲亚金吉">
+        <match>|凯菲亚金吉|凱菲亞金吉|Kafia Kingi|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="阿卜耶伊">
+        <match>|阿卜耶伊|阿蔔耶伊|Abyei|أبيي|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="哈拉伊卜三角区">
+        <match>|哈拉伊卜三角区|哈拉伊卜三角區|Hala'ib Triangle|Al Bahr al Ahmar|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="比尔泰维勒">
+        <match>|比尔泰维勒|比爾泰維勒|Bir Tawil|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="瓦迪哈勒法尖角">
+        <match>|瓦迪哈勒法尖角|واديحلفا|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="尼亚萨湖">
+        <match>|尼亚萨湖|尼亞薩湖|Lake Malawi|Lake Nyasa|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="查戈斯群岛">
+        <match>|查戈斯群岛|查戈斯群島|Chagos Archipelago|英属印度洋领地|英屬印度洋領地|British Indian Ocean Territory|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3||6|</block>
+    </item>
+    <item name="雷拉岛">
+        <match>|雷拉岛|雷拉島|Isla de Perejil|جزيرة تورة|Tura|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="卡恩格瓦尼">
+        <match>|卡恩格瓦尼|KaNgwane|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="姆巴涅岛">
+        <match>|姆巴涅岛|姆巴涅島|Mbane Island|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="欧加登">
+        <match>|欧加登|歐加登|奥加登|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="索科特拉岛">
+        <match>|索科特拉岛|索科特拉島|Socotra|سقطرى|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|</block>
+    </item>
+    <item name="杜梅伊拉岛">
+        <match>|杜梅伊拉岛|杜梅伊拉島|Doumeira Islands|杜梅伊拉角|Ras Doumeira|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|</block>
+    </item>
+    <item name="金吉谢普斯基区">
+        <match>|金吉谢普斯基区|Kingiseppskiy munitsipal'niy rayon|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="伊万哥罗德镇">
+        <match>|伊万哥罗德镇|伊萬哥羅德鎮|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="卡利姆诺斯岛">
+        <match>|卡利姆诺斯岛|Kalymnos|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="亚东县">
+        <match>|亚东县|Yadong|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+    <item name="洛扎县">
+        <match>|洛扎县|Lhozhag|</match>
+        <matchLevel>|0|1|2|3|4|5|6|</matchLevel>
+        <block>|0|1|2|3|4|5|6|</block>
+    </item>
+</filter-conf>

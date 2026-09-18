@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/base_ic_download_nas_selector" android:enabled="true" android:id="@id/action_download_from_nas" android:title="@string/base_original_download_mobile_yes" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_delete_selector" android:enabled="false" android:id="@id/action_delete_from_nas" android:visible="true" android:title="@string/base_delete" app:showAsAction="ifRoom" />
+</menu>

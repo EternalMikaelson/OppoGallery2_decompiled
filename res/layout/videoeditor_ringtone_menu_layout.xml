@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/start_safe_area" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_alignParentLeft="true" />
+    <View android:id="@id/end_safe_area" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    <include android:id="@id/toolbar_common_container" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_play_time_background_height" android:layout_marginTop="@dimen/videoeditor_ringtone_menu_margin_top" android:layout_above="@id/toolbar_container" android:forceDarkAllowed="false" layout="@layout/videoeditor_toolbar_common_container_layout" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/toolbar_container" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_ringtone_menu_container_height" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_above="@id/title_bar_container" android:forceDarkAllowed="false">
+        <FrameLayout android:id="@id/video_thumb_layout" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_ringtone_thumb_height">
+            <com.oplus.gallery.videoeditorpage.video.business.wallpaper.GalleryVideoThumbnailView android:layout_gravity="bottom" android:id="@id/video_thumb_view" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_ringtone_thumbnail_view_height" android:layout_marginBottom="@dimen/videoeditor_ringtone_thumbnail_margin_bottom" />
+            <com.oplus.gallery.videoeditorpage.widget.ringtone.GalleryVideoCustomTrimTouchView android:id="@id/trim_touch_view" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_ringtone_thumb_height" />
+        </FrameLayout>
+    </RelativeLayout>
+    <include android:id="@id/title_bar_container" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_bottom_bottom_bar_layout_height" android:layout_toLeftOf="@id/end_safe_area" android:layout_toRightOf="@id/start_safe_area" android:layout_alignParentBottom="true" layout="@layout/editor_bottom_action_bar_layout" />
+</RelativeLayout>

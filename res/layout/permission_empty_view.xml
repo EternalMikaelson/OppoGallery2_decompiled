@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.emptyview.EmptyStateAnimView android:id="@id/empty_view_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?couiTextAppearanceHeadline6" android:textSize="16.0sp" android:textColor="?couiColorPrimaryNeutral" android:id="@id/empty_view_title" android:layout_width="@dimen/coui_component_empty_group_width" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif-regular" android:textAlignment="center" />
+        <TextView android:textAppearance="?couiTextAppearanceDescription" android:textSize="12.0sp" android:textColor="?couiColorPrimaryNeutral" android:id="@id/empty_view_subtitle" android:layout_width="@dimen/coui_component_empty_group_width" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:maxLines="3" android:textAlignment="center" />
+    </LinearLayout>
+    <TextView android:textAppearance="?couiTextAppearanceButton" android:textSize="14.0sp" android:textColor="?couiColorPrimaryText" android:id="@id/empty_view_action" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:textAlignment="center" />
+</LinearLayout>

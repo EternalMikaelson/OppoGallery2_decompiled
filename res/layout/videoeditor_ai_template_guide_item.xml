@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.foundation.ui.coui.LimitSizeSquareView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_24" android:layout_marginEnd="@dimen/dp_24" app:maxSize="312.0dp" app:minSize="50.0dp">
+        <com.coui.appcompat.poplist.RoundFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:rfRadius="@dimen/dp_12">
+            <ImageView android:id="@id/effective_anim_view" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" />
+        </com.coui.appcompat.poplist.RoundFrameLayout>
+    </com.oplus.gallery.foundation.ui.coui.LimitSizeSquareView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/dp_18" android:textColor="@color/ai_videoeditor_guide_title" android:gravity="center_horizontal" android:id="@id/tv_introduction_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_26" style="@style/couiTextAppearanceHeadline5" />
+        <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/dp_14" android:textColor="@color/ai_videoeditor_guide_desc" android:gravity="center_horizontal" android:id="@id/tv_introduction_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginStart="@dimen/dp_24" android:layout_marginEnd="@dimen/dp_24" style="@style/gTextAppearanceBody" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/full_loading_loadingView" android:visibility="visible" android:layout_width="@dimen/coui_spinner_loading_anim_width" android:layout_height="@dimen/coui_spinner_loading_anim_width" android:layout_centerHorizontal="true" android:forceDarkAllowed="false" app:anim_autoPlay="true" app:anim_fileName="?couiRotatingSpinnerJsonName" app:anim_loop="true" />
+    <TextView android:textAppearance="@style/couiTextBodyM" android:textColor="@color/coui_color_label_secondary" android:gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coui_spinner_text_margin_horizontal" android:text="@string/cloudsync_msg_loading" android:layout_below="@id/full_loading_loadingView" android:layout_centerHorizontal="true" />
+</androidx.appcompat.widget.LinearLayoutCompat>

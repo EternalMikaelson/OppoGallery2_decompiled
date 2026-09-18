@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/base_menu_ic_create_memories" android:enabled="true" android:id="@id/action_create_memories" android:visible="false" app:showAsAction="always" />
+    <item android:icon="@drawable/main_ic_filter_unselect_dark" android:id="@id/action_filter" android:visible="true" android:title="@string/talkback_picture_filter" android:contentDescription="@string/talkback_picture_filter" app:showAsAction="always" />
+    <item android:icon="@drawable/base_menu_ic_add" android:enabled="true" android:id="@id/action_add_to_album" android:visible="false" android:title="@string/base_actionbar_action_add" app:showAsAction="always" />
+    <item android:id="@id/action_select" android:orderInCategory="2" android:title="@string/common_select" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_photo_present_type" android:visible="false" android:orderInCategory="3" android:title="@string/base_photos_present_type" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_set_album_cover" android:visible="false" android:orderInCategory="4" android:title="@string/base_album_modify_cover_title" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_rename_album" android:visible="false" android:orderInCategory="5" android:title="@string/base_rename_album" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_relation" android:visible="false" android:orderInCategory="6" android:title="@string/relationship_with_me" app:showAsAction="never" />
+    <item android:id="@id/action_disband" android:visible="false" android:orderInCategory="7" android:title="@string/remove_photo_group" app:showAsAction="never" />
+    <item android:id="@id/action_album_hide_on_time_line_page" android:visible="false" android:orderInCategory="6" android:title="@string/base_album_hide_on_album_home_page" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_sort" android:visible="false" android:orderInCategory="7" android:title="@string/base_album_sort_title" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_privacy_password" android:visible="false" android:orderInCategory="8" android:title="@string/base_recycle_password_menu" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_privacy_view_health_records" android:visible="false" android:orderInCategory="9" android:title="@string/view_health_records" app:showAsAction="collapseActionView" />
+</menu>

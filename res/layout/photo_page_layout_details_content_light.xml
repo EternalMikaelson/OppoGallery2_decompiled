@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/details_toolbar" android:background="@null" style="@style/Widget.COUI.Toolbar.Panel" />
+    <com.coui.appcompat.scrollview.COUINestedScrollView android:orientation="vertical" android:id="@id/details_sv_layout" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/photo_page_layout_details_content" />
+    </com.coui.appcompat.scrollview.COUINestedScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="80.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/black" android:id="@id/btn_capture" android:background="@color/white" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="开始抓取数据" />
+    <Button android:textColor="@color/black" android:id="@id/btn_process" android:background="@color/white" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="@dimen/dp_12" android:text="获取扫描进度" />
+    <Button android:textColor="@color/black" android:id="@id/btn_scan" android:background="@color/white" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="@dimen/dp_12" android:text="触发扫描" />
+    <TextView android:id="@id/process_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+    <TextView android:id="@id/scan_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+    <TextView android:id="@id/capture_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+    <Button android:textColor="@color/white" android:id="@id/btn_jump_file" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="12.0dp" android:text="点击查看文件" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+    <Space android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="导出数据据成功后会把数据保存在手机存储/Documents/Gallery/Gallery_xxxxxx.zip文件中，请将相关文件反馈给客服。反馈后可以将这些文件清理掉。" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" />
+</LinearLayout>

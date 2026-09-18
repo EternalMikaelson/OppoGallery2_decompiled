@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.videoeditorpage.video.business.cover.SettingsCoverFrameLayout android:id="@id/cover_btn" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" android:backgroundTint="@color/transparent" app:cardCornerRadius="@dimen/videoeditor_settings_cover_btn_radius">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/cover" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/videoeditor_bg_settings_cover_btn" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/videoeditor_settings_cover_btn_text_size" android:textColor="@color/videoeditor_settings_cover_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/cover_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/videoeditor_settings_cover_text" android:maxLines="3" android:layout_centerInParent="true" android:lineSpacingExtra="@dimen/videoeditor_settings_cover_btn_text_line_spacing_extra" android:lineSpacingMultiplier="@dimen/videoeditor_settings_cover_btn_text_line_spacing_multiplier" android:fontFamily="@string/videoeditor_font_family_oppo_sans_4.0_sc" android:paddingHorizontal="@dimen/videoeditor_settings_cover_btn_text_horizontal_padding" android:textFontWeight="@integer/font_weight_500" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</com.oplus.gallery.videoeditorpage.video.business.cover.SettingsCoverFrameLayout>

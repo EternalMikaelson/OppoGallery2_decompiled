@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_111111" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/live_window" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <com.oplus.gallery.foundation.ui.widget.caption.EditTextPreviewView android:id="@id/edit_rect_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.oplus.gallery.videoeditorpage.widget.EditorPipEditRectView android:id="@id/edit_pip_rect_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <com.oplus.gallery.videoeditorpage.widget.EditorMaskEditRectView android:id="@id/edit_mask_rect_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/pip_horizontal_reference_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <View android:background="?couiColorContainerTheme" android:layout_width="@dimen/editor_pip_reference_line_length" android:layout_height="@dimen/editor_pip_reference_line_width" android:layout_alignParentLeft="true" />
+        <View android:background="?couiColorContainerTheme" android:layout_width="@dimen/editor_pip_reference_line_length" android:layout_height="@dimen/editor_pip_reference_line_width" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pip_vertical_reference_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+        <View android:background="?couiColorContainerTheme" android:layout_width="@dimen/editor_pip_reference_line_width" android:layout_height="@dimen/editor_pip_reference_line_length" android:layout_alignParentTop="true" />
+        <View android:background="?couiColorContainerTheme" android:layout_width="@dimen/editor_pip_reference_line_width" android:layout_height="@dimen/editor_pip_reference_line_length" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

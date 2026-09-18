@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">%1$1s ^ આલ્બમ, જેમાં %2$2s આઇટમનો સમાવેશ થાય છે; તેને \"વારંવાર ઉપયોગમાં લેવાતા\"માં ઉમેરવા માટે ટેપ કરો.</item>
+        <item quantity="other">%1$1s આલ્બમ, જેમાં %2$2s આઇટમનો સમાવેશ થાય છે; તેને \"વારંવાર ઉપયોગમાં લેવાતા\"માં ઉમેરવા માટે ટેપ કરો.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s મેચ</item>
+        <item quantity="other">%s મેચ</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">તમારા મીડિયાની પસંદગી કરો અને ઝડપથી વિડિયો બનાવવા માટે નીચે દેખાતી \"AI ઇન્સ્ટન્ટ ક્લિપ\" ફ્લોટિંગ વિન્ડો પર ટૅપ કરો. વધારે સચોટ પરિણામો મેળવવા માટે, ઓછામાં ઓછા %1$s વસ્તુની પસંદગી કરો.</item>
+        <item quantity="other">તમારા મીડિયાની પસંદગી કરો અને ઝડપથી વિડિયો બનાવવા માટે નીચે દેખાતી \"AI ઇન્સ્ટન્ટ ક્લિપ\" ફ્લોટિંગ વિન્ડો પર ટૅપ કરો. વધારે સચોટ પરિણામો મેળવવા માટે,ઓછામાં ઓછી %1$s વસ્તુઓની પસંદગી કરો.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">તમારા મીડિયાની પસંદગી કરો અને ઝડપથી વિડિયો બનાવવા માટે નીચે આપેલા \"સંપાદિત કરો - AI ઇન્સ્ટન્ટ ક્લિપ\" પર ટૅપ કરો. વધારે સચોટ પરિણામો મેળવવા માટે, ઓછામાં ઓછા %1$s વસ્તુની પસંદગી કરો.</item>
+        <item quantity="other">તમારા મીડિયાની પસંદગી કરો અને ઝડપથી વિડિયો બનાવવા માટે નીચે આપેલા \"સંપાદિત કરો - AI ઇન્સ્ટન્ટ ક્લિપ\" પર ટૅપ કરો. વધારે સચોટ પરિણામો મેળવવા માટે,ઓછામાં ઓછી %1$s વસ્તુઓની પસંદગી કરો.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">%1$d સેકન્ડથી વધુ લાંબા મોશન ફોટા સમર્થિત નથી</item>
+        <item quantity="other">%1$d સેકન્ડથી વધુ લાંબા મોશન ફોટા સમર્થિત નથી</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">વિડિઓ %d સેકન્ડથી વધુ મોટો હોઈ શકે નહીં</item>
+        <item quantity="other">વિડિઓ %d સેકંડથી વધુ મોટો હોઈ શકે નહીં</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d લોક કરેલ એપ</item>
+        <item quantity="other">%d લૉક કરેલ એપ્સ</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">%1$1s આલ્બમ, જેમાં %2$2s આઇટમનો સમાવેશ થાય છે;\"વારંવાર ઉપયોગમાં લેવાતા\" માં ઉમેરવામાં આવ્યું.</item>
+        <item quantity="other">%1$1s આલ્બમ, જેમાં %2$2s આઇટમનો સમાવેશ થાય છે;\"વારંવાર ઉપયોગમાં લેવાતા\" માં ઉમેરવામાં આવ્યું.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">(%1$d) ઉમેરો</item>
+        <item quantity="other">(%1$d) ઉમેરો</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">(%1$d/%2$d) ઉમેરો</item>
+        <item quantity="other">(%1$d/%2$d) ઉમેરો</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d વસ્તુ એડજસ્ટ કરી</item>
+        <item quantity="other">%1$d વસ્તુ એડજસ્ટ કરી</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d ફોટો લોડ થઈ રહ્યો છે અને ઉમેરી શકાતો નથી.</item>
+        <item quantity="other">%d ફોટા લોડ થઈ રહ્યાં છે અને ઉમેરી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d દસ્તાવેજ</item>
+        <item quantity="other">%1$d દસ્તાવેજો</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d બેંક કાર્ડ</item>
+        <item quantity="other">%1$d બેંક કાર્ડો</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d આલ્બમમાંથી આઇટમ્સ આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલીક વસ્તુઓનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+        <item quantity="other">%d આલ્બમમાંથી વસ્તુઓ આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલીક વસ્તુઓનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d ફોટો શ્રેણી આ ડિવાઇસમાંથી હટાવવામાં આવશે અને \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી ઉપલબ્ધ રહેશે. તમામ ફોટો શ્રેણીઓનો ક્લાઉડ સંગ્રહ પૂર્ણ થયો છે અને ત્યાં સુરક્ષિત રહેશે.</item>
+        <item quantity="other">%d ફોટો શ્રેણીઓ આ ડિવાઇસમાંથી દૂર કરી દેવાશે અને \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી સંગ્રહિત રહેશે. તમામ ફોટો શ્રેણીઓનો ક્લાઉડ સંગ્રહ પૂર્ણ થયો છે અને ત્યાં સુરક્ષિત રહેશે.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d ફોટો શ્રેણી આ ડિવાઇસમાંથી હટાવવામાં આવશે અને \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી ઉપલબ્ધ રહેશે. કેટલાક ફોટાનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+        <item quantity="other">%d ફોટો શ્રેણીઓ આ ડિવાઇસમાંથી દૂર કરી દેવાશે અને \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી સંગ્રહિત રહેશે. કેટલાક ફોટાનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d વસ્તુ આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલીક વસ્તુઓનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+        <item quantity="other">આ ડિવાઇસમાંથી %d આઇટમ હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલીક વસ્તુઓનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">આ ડિવાઇસમાંથી %d ફોટો હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલાક ફોટાનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+        <item quantity="other">આ ડિવાઇસમાંથી %d ફોટા હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલાક ફોટાનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d વિડિઓ આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલાક વિડિઓઝનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+        <item quantity="other">આ ડિવાઇસમાંથી %d વિડિઓઝ હટાવી નાખવામાં આવશે અને 30 દિવસ સુધી \"તાજેતરમાં ડિલીટ કરેલ\" માં રહેશે. કેટલાક વિડિઓઝનો બેકઅપ લેવાયો નથી. તમે તેમને હટાવી નાખતા પહેલા તેમનો બેકઅપ લેવાનું વિચારી શકો છો.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s થમ્બનેલને તેના મૂળભૂત વર્ઝન વડે બદલવામાં આવશે.</item>
+        <item quantity="other">%1$s થમ્બનેલ્સને તેમની મૂળભૂત વર્ઝન્સ વડે બદલવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d IDs</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">શું %d વ્યક્તિને મર્જ કરીએ અને દૂર કરીએ?</item>
+        <item quantity="other">શું %d લોકોને મર્જ કરીએ અને દૂર કરીએ?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">આ આલ્બમમાંથી %d ફોટોને કાઢી નાખો?</item>
+        <item quantity="other">આ આલ્બમમાંથી %d ફોટોને કાઢી નાખો?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">આ આલ્બમમાંથી %d આઇટમને કાઢી નાખો?</item>
+        <item quantity="other">આ આલ્બમમાંથી %d આઇટમ્સને કાઢી નાખો?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">આ આલ્બમમાંથી %d વિડિઓને કાઢી નાખો?</item>
+        <item quantity="other">આ આલ્બમમાંથી %d વિડિઓઝને કાઢી નાખીએ?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">થંબનેલનો ઉપયોગ કરો</item>
+        <item quantity="other">થંબનેલ્સનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">મૂળનો ઉપયોગ કરો</item>
+        <item quantity="other">મૂળનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 ફોટો થમ્બનેઇલ છે. તમે તેના બદલે મૂળ ફોટો ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+        <item quantity="other">પસંદ કરાયેલા કેટલાક ફોટા થંબનેલ્સ છે. તમે તેના બદલે મૂળ ફોટા ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">એક સમયે વધુમાં વધુ %1$d ઇમેજને PDF-માં કન્વર્ટ કરી શકાય છે</item>
+        <item quantity="other">એક સમયે વધુમાં વધુ %1$d ઇમેજીસને PDF-માં કન્વર્ટ કરી શકાય છે</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">અપર્યાપ્ત ડિવાઇસ સ્ટોરેજ. %1$d આઇટમ કૉપિ કરી નથી.</item>
+        <item quantity="other">અપર્યાપ્ત ડિવાઇસ સ્ટોરેજ. %1$d આઇટમ્સ નકલ કરી નથી.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d આઇટમ કૉપિ કરી</item>
+        <item quantity="other">%d આઇટમ્સ કૉપિ કરી</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">%d થી વધુ આઇટમની નકલ કરી શકાતી નથી</item>
+        <item quantity="other">%d કરતાં વધુ આઇટમ્સની નકલ કરી શકાતી નથી</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">આ ડિવાઇસ માંથી %d ફોટો કાયમ માટે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">આ ડિવાઇસ માંથી %d ફોટા કાયમ માટે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d આઇટમને આ ડિવાઇસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d આઇટમ્સને આ ડિવાઇસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">આ ડિવાઇસ માંથી %d વિડિઓ કાયમ માટે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">આ ડિવાઇસ માંથી %d વિડિઓઝ કાયમ માટે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">આ ડિવાઇસ માંથી %d બર્સ્ટ ફોટો કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">આ ડિવાઇસ માંથી %d બર્સ્ટ ફોટા કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">આ ફોટો આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+        <item quantity="other">આ ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">આ ફોટો કાયમ માટે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+        <item quantity="other">આ ફોટા કાયમ માટે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">આ આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+        <item quantity="other">આ વસ્તુઓ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">આ આઇટમ કાયમ માટે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+        <item quantity="other">આ વસ્તુઓ કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસમાંથી %d ફોટો કાયમ માટે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d આઇટમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી %d વિડિઓ કાયમ માટે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d વિડિઓઝ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d બર્સ્ટ ફોટો આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">%d બર્સ્ટ ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">%d આલ્બમ હટાવીએ?</item>
+        <item quantity="other">%d આલ્બમ હટાવીએ?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">%d બર્સ્ટ ફોટો હટાવીએ?</item>
+        <item quantity="other">%d બર્સ્ટ ફોટા હટાવીએ?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d મેમરીને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. આ મેમરીમાં ફોટા \"ફોટોઝ\" એપમાં રાખવામાં આવશે.</item>
+        <item quantity="other">%d મેમરીઝને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. આ મેમરીઝમાં ફોટા \"ફોટોઝ\" એપમાં રાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">%d મેમરી હટાવીએ?</item>
+        <item quantity="other">%d મેમરી હટાવીએ?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">કાયમીરૂપે %d આઇટમ હટાવો</item>
+        <item quantity="other">કાયમીરૂપે %d આઇટમ્સ હટાવો</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d આઇટમ હટાવો</item>
+        <item quantity="other">%d આઇટમ્સ હટાવો</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">%d ફોટો હટાવીએ?</item>
+        <item quantity="other">%d ફોટા હટાવીએ?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">%d આઇટમ હટાવો?</item>
+        <item quantity="other">%d આઇટમ્સ હટાવીએ?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">%d વિડિઓ હટાવીએ?</item>
+        <item quantity="other">%d વિડિઓ હટાવીએ?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">%d સ્ટિકર હટાવી નાખીએ?</item>
+        <item quantity="other">%d સ્ટિકર્સ હટાવી નાખીએ?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">આ ફોટો હટાવો નાખો</item>
+        <item quantity="other">આ ફોટા હટાવો નાખો</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">આ વિડિઓને આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+        <item quantity="other">આ વિડિઓઝ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">આ વિડિઓ કાયમ માટે હટાવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+        <item quantity="other">આ વિડિઓઝ કાયમી ધોરણે કાઢી નાખવામાં આવશે. આ ક્રિયાને પૂર્વવત્ કરી શકાતી નથી.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d આઇટમ ડાઉનલોડ કરી રહ્યું છે…</item>
+        <item quantity="other">%d આઇટમ્સ ડાઉનલોડ કરી રહ્યાં છીએ…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d ફોટો ડાઉનલોડ કરી રહ્યાં છીએ…</item>
+        <item quantity="other">%d ફોટા ડાઉનલોડ કરી રહ્યાં છીએ…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d વિડીયો ડાઉનલોડ કરી રહ્યાં છીએ…</item>
+        <item quantity="other">%d વિડિઓઝ ડાઉનલોડ કરી રહ્યાં છીએ…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">%d ફાઇલને ખાનગી તરીકે સેટ કરીએ?</item>
+        <item quantity="other">%d ફાઇલો ખાનગી તરીકે સેટ કરીએ?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">આ ફોટાને ખાનગી તરીકે સેટ કરીએ?</item>
+        <item quantity="other">આ ફોટાઓને ખાનગી તરીકે સેટ કરીએ?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d ફાઇલ એનક્રિપ્ટ કરવામાં નિષ્ફળ</item>
+        <item quantity="other">%d ફાઇલો એનક્રિપ્ટ કરવાનું નિષ્ફળ થયું</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">શું %d આલ્બમને લૉક કરીએ?</item>
+        <item quantity="other">શું %d આલ્બમોને લૉક કરીએ?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">આ ડિવાઇસ માંથી %d બર્સ્ટ ફોટો કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">આ ડિવાઇસ માંથી %d બર્સ્ટ ફોટા કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d બર્સ્ટ ફોટો આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસેસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">%d બર્સ્ટ ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">આ %d આલ્બમને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આલ્બમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આલ્બમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">આ %d આલ્બમ્સને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આલ્બમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આલ્બમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">આ %d ફોટોને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">આ %d ફોટાને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">આ %d આઇટમને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આઇટમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આઇટમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">%d આઇટમ્સને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આઇટમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આઇટમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">આ ડિવાઇસ માંથી %d વિડિઓ કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા વિડિઓઝ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે વિડિઓઝનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">આ ડિવાઇસ માંથી %d વિડિઓઝ કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા વિડિઓઝ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે વિડિઓઝનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d આલ્બમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આલ્બમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આલ્બમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">%d આલ્બમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસેસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આલ્બમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આલ્બમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d આ ફોટો આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">%d આ ફોટા આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે. બેકઅપ લીધેલા ફોટા 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે ફોટાનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d આ આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસેસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આઇટમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આઇટમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">%d આ આઇટમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસેસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા આઇટમ્સ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે આઇટમ્સનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d આ વિડિઓ આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા વિડિઓઝ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે વિડિઓઝનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+        <item quantity="other">આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક ડિવાઇસ માંથી %d વિડિઓઝ કાઢી નાખવામાં આવશે. બેકઅપ લીધેલા વિડિઓઝ 60 દિવસ માટે \"તાજેતરમાં ડિલીટ કરેલ\" માં રહે છે; જે વિડિઓઝનું બેકઅપ લેવામાં આવ્યું નથી તે 30 દિવસ સુધી રહે છે.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">પસંદ કરેલ %d ફોટોને નિકાસ કરો</item>
+        <item quantity="other">પસંદ કરેલ %d ફોટાને નિકાસ કરો</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">%d ફોટોની નિકાસ કરીએ?</item>
+        <item quantity="other">%d ફોટાની નિકાસ કરીએ?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">મનપસંદમાં %1$d આઇટમ ઉમેરવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.</item>
+        <item quantity="other">મનપસંદમાં %1$d આઇટમ્સ ઉમેરવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">ફાઇલનું કદ: %1$s. અંદાજિત ડાઉનલોડ સમય: %2$s મિનિટ.</item>
+        <item quantity="other">ફાઇલનું કદ: %1$s. અંદાજિત ડાઉનલોડ સમય: %2$s મિનિટ.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">થંબનેલનો ઉપયોગ કરો</item>
+        <item quantity="other">થંબનેલ્સનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">મૂળનો ઉપયોગ કરો</item>
+        <item quantity="other">મૂળનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 ફોટો થમ્બનેઇલ છે. તમે તેના બદલે મૂળ ફોટો ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+        <item quantity="other">પસંદ કરાયેલા કેટલાક ફોટા થંબનેલ્સ છે. તમે તેના બદલે મૂળ ફોટા ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">%s નો ફોટોને મળ્યો. સરળ ઍક્સેસ માટે તેને \"કાર્ડ કેસ\" માં ખસેડી છો.</item>
+        <item quantity="other">%s ના ફોટા મળ્યો. સરળ ઍક્સેસ માટે તેમને \"કાર્ડ કેસ\" માં ખસેડો.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s ના ફોટોને \"કાર્ડ કેસ\" માં ખસેડવામાં આવ્યા</item>
+        <item quantity="other">%1$s ના ફોટા \"કાર્ડ કેસ\" માં ખસેડવામાં આવ્યા</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d ટિકિટ/રસીદ</item>
+        <item quantity="other">%1$d ટિકિટો/રસીદો</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">પસંદ કરેલી વસ્તુ પહેલેથી જ આલ્બમમાં હાજર છે</item>
+        <item quantity="other">પસંદ કરેલી વસ્તુઓ પહેલેથી જ આલ્બમમાં હાજર છે</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d આઇટમ</item>
+        <item quantity="other">%d આઇટમ્સ</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d વ્યક્તિ મર્જ કરવામાં આવશે અને \"%2$s\" માંથી દૂર કરવામાં આવશે.</item>
+        <item quantity="other">%1$d વ્યક્તિ મર્જ કરવામાં આવશે અને \"%2$s\" માંથી દૂર કરવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d ફોટો લોડ થઈ રહ્યો છે અને તેને ખસેડી શકાતો નથી</item>
+        <item quantity="other">%d ફોટાઓ લોડ થઈ રહ્યા છે અને તેમને ખસેડી શકાતા નથી</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d આઇટમ ખસેડાઈ</item>
+        <item quantity="other">%d આઇટમ્સ ખસેડી</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d લોકો</item>
+        <item quantity="other">%1$d લોકો</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">મૂળ ફોટો ડાઉનલોડ થઈ રહ્યો છે...</item>
+        <item quantity="other">મૂળ ફોટા ડાઉનલોડ થઈ રહ્યાં છે...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">ફોટો કોપી થયો. આ આલ્બમમાં વિડિઓઝ કોપી કરી શકાતો નથી.</item>
+        <item quantity="other">ફોટા કોપી થયો. આ આલ્બમમાં વિડિઓઝ કોપી કરી શકાતો નથી.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">ફોટો ખસેડ્યો. વિડિઓઝ આ આલ્બમમાં ખસેડી શકાતા નથી.</item>
+        <item quantity="other">ફોટાઓ ખસેડ્યા. વિડિઓઝ આ આલ્બમમાં ખસેડી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">આ %d આલ્બમને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">આ %d આલ્બમ્સને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">આ %d ફોટોને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">આ %d ફોટાને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">આ %d આઇટમને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">%d આઇટમ્સને આ ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">આ ડિવાઇસ માંથી %d વિડિઓ કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">આ ડિવાઇસ માંથી %d વિડિઓઝ કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">આ ફોટો આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+        <item quantity="other">આ ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">આ ફોટો આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે.</item>
+        <item quantity="other">આ ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">આલ્બમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+        <item quantity="other">આ આલ્બમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">આલ્બમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">આ આલ્બમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">આ આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+        <item quantity="other">આ વસ્તુઓ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">આ આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">આ વસ્તુઓ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d આલ્બમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">%d આલ્બમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d આલ્બમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d આલ્બમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d બર્સ્ટ ફોટો આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d બર્સ્ટ ફોટા આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલ ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d આ ફોટો આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">%d આ ફોટા આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d આ ફોટો આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે.</item>
+        <item quantity="other">%d આ ફોટા આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d આ આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">%d આ આઇટમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d આ આઇટમ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">%d આ આઇટમ્સ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસ માંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d આ વિડિઓ આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+        <item quantity="other">આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક ડિવાઇસ માંથી %d વિડિઓઝ કાઢી નાખવામાં આવશે. કાઢી નાંખેલી વસ્તુઓ \"તાજેતરમાં ડિલીટ કરેલ\" માં 30 દિવસ સુધી રાખવામાં આવી છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d આ વિડિઓ આ ડિવાઇસમાંથી કાઢી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી કાઢી નાખવામાં આવશે.</item>
+        <item quantity="other">આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક ડિવાઇસ માંથી %d વિડિઓઝ કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">આ વિડિઓ આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+        <item quantity="other">આ વિડિઓઝ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે. કાઢી નાખેલ આલ્બમ્સને \"તાજેતરમાં ડિલીટ કરેલ\" આલ્બમમાંથી 30 દિવસની અંદર રિકવર કરી શકાય છે.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">આ વિડિઓ આ ડિવાઇસમાંથી હટાવી નાખવામાં આવશે, ક્લાઉડ અને અન્ય સિંક કરેલા ડિવાઇસ માંથી હટાવી નાખવામાં આવશે.</item>
+        <item quantity="other">આ વિડિઓઝ આ ડિવાઇસ, ક્લાઉડ અને અન્ય સિંક થયેલા ડિવાઇસીસમાંથી કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">%d ફોટો પુનઃસ્થાપિત કરીએ?</item>
+        <item quantity="other">%d ફોટા પુનઃસ્થાપિત કરીએ?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">%d આઇટમ પુનઃસ્થાપિત કરીએ?</item>
+        <item quantity="other">%d આઇટમ પુનઃસ્થાપિત કરીએ?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">%d વિડિઓ પુનઃસ્થાપિત કરીએ?</item>
+        <item quantity="other">%d વિડિઓઝ પુનઃસ્થાપિત કરીએ?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d આઇટમ પુનઃસ્થાપિત કરો</item>
+        <item quantity="other">%d આઇટમ્સ પુનઃસ્થાપિત કરો</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d વિડિઓ સાચવવામાં નિષ્ફળ</item>
+        <item quantity="other">%d વિડિઓઝ સાચવવામાં નિષ્ફળ</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d વિડિઓ સાચવી</item>
+        <item quantity="other">%d વિડિઓઝ સાચવી</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">થંબનેલનો ઉપયોગ કરો</item>
+        <item quantity="other">થંબનેલ્સનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">મૂળનો ઉપયોગ કરો</item>
+        <item quantity="other">મૂળનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 ફોટો થમ્બનેઇલ છે. તમે તેના બદલે મૂળ ફોટો ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+        <item quantity="other">પસંદ કરાયેલા કેટલાક ફોટા થંબનેલ્સ છે. તમે તેના બદલે મૂળ ફોટા ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">પસંદ કરેલી આઇટમ (%1$d)-નું પૂર્વાવલોકન કરો</item>
+        <item quantity="other">પસંદ કરેલી આઇટમ્સ (%1$d)-નું પૂર્વાવલોકન કરો</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">1–%1$d ફોટો પસંદ કરો</item>
+        <item quantity="other">1–%1$d ફોટા પસંદ કરો</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">થંબનેલનો ઉપયોગ કરો</item>
+        <item quantity="other">થંબનેલ્સનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">મૂળનો ઉપયોગ કરો</item>
+        <item quantity="other">મૂળનો ઉપયોગ કરો</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 ફોટો થમ્બનેઇલ છે. તમે તેના બદલે મૂળ ફોટો ડાઉનલોડ કરી શકો છો અને તેનો ઉપયોગ કરી શકો છો.</item>
+        <item quantity="other">પસંદ કરાયેલા કેટલાક ફોટા થંબનેલ્સ છે. તમે તેના બદલે મૂળ ફોટા ડાઉનલોડ કરી શકો છો અને તેનો શેર કરી શકો છો.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d ફોટા શેર કરેલા આલ્બમ \"%2$s\" માંથી હટાવી નાંખવામાં આવશે.</item>
+        <item quantity="other">%1$d ફોટા શેર કરેલા આલ્બમ \"%2$s\" માંથી હટાવી નાંખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d આઇટમને શેર કરેલા આલ્બમ \"%2$s\" માંથી કાઢી નાંખવામાં આવશે.</item>
+        <item quantity="other">%1$d આઇટમ્સને શેર કરેલા આલ્બમ \"%2$s\" માંથી કાઢી નાંખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d વિડિઓ શેર કરેલા આલ્બમ \"%2$s\" માંથી હટાવી નાંખવામાં આવશે.</item>
+        <item quantity="other">%1$d વિડિઓઝ શેર કરેલા આલ્બમ \"%2$s\" માંથી હટાવી નાંખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">%1$d આઇટમ હટાવો</item>
+        <item quantity="other">%1$d આઇટમ્સ હટાવો</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">ડિવાઇસમાં સ્ટોરેજ ઓછું હોવાથી %1$d આઇટમ ડાઉનલોડ થવામાં નિષ્ફળ રહી છે.</item>
+        <item quantity="other">ડિવાઇસમાં સ્ટોરેજ ઓછું હોવાથી %1$d આઇટમ્સ ડાઉનલોડ થવામાં નિષ્ફળ રહી છે.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d વસ્તુ (%2$s) બાકી. મોબાઇલ ડેટાનો વપરાશ કરીને ડાઉનલોડને ફરીથી શરૂ કરીએ?</item>
+        <item quantity="other">%1$d વસ્તુઓ (%2$s) બાકી. મોબાઇલ ડેટાનો વપરાશ કરીને ડાઉનલોડને ફરીથી શરૂ કરીએ?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">નેટવર્ક ભૂલ. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">નેટવર્ક ભૂલ. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">એક સમયે %d સુધી મોશન ફોટો વિડીયો તરીકે સાચવી શકાય છે</item>
+        <item quantity="other">એક સમયે %d સુધી મોશન ફોટા વિડીયો તરીકે સાચવી શકાય છે</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ફોટા</item>
+        <item quantity="other">%1$d ફોટા</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d વિડિઓ</item>
+        <item quantity="other">%1$d વિડિઓઝ</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d પસંદ કરેલ છે</item>
+        <item quantity="other">આઇટમો હટાવો %1$d</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d આઇટમ</item>
+        <item quantity="other">%1$d આઇટમ્સ</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">મનપસંદમાંથી %1$d આઇટમ કાઢી નાખવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.</item>
+        <item quantity="other">મનપસંદમાંથી %1$d આઇટમ્સ કાઢી નાખવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">એક સરળ વસ્તુ દોરો અને તેના પર વર્તુળો દોરીને આર્ટવર્ક બનાવો. ઉપયોગ મર્યાદા: દિવસ દીઠ %1$d વખત.</item>
+        <item quantity="other">એક સરળ વસ્તુ દોરો અને તેના પર વર્તુળો દોરીને આર્ટવર્ક બનાવો. ઉપયોગ મર્યાદા: દિવસ દીઠ %1$d વખત.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d મોશન સ્ટિકર સેવ કરવાનું નિષ્ફળ થયું</item>
+        <item quantity="other">%d મોશન સ્ટિકર સેવ કરવાનું નિષ્ફળ થયું</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">તમે વધુ 1–%1$d ફોટો પસંદ કરી શકો છો</item>
+        <item quantity="other">તમે વધુ 1–%1$d ફોટા પસંદ કરી શકો છો</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">તમે વધુ 1–%1$d ફોટા (%2$s) પસંદ કરી શકો છો</item>
+        <item quantity="other">તમે વધુ 1–%1$d ફોટા (%2$s) પસંદ કરી શકો છો</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">%d મોશન ફોટો સહિત</item>
+        <item quantity="other">%d મોશન ફોટા સહિત</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">મૂળ ફોટા ડાઉનલોડ કરો</item>
+        <item quantity="other">મૂળ ફોટા ડાઉનલોડ કરો</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">તમારા ડિવાઇસ પર %1$d ફોટો નાની આવૃત્તિમાં છે. મૂળ ફુલ-રેઝલૂશન ફોટો (%2$s) ડાઉનલોડ કરીએ?</item>
+        <item quantity="other">તમારા ડિવાઇસ પરના %1$d ફોટા નાના આવૃત્તિમાં છે. મૂળ ફુલ-રેઝલૂશન ફોટા (%2$s) ડાઉનલોડ કરીએ?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">%1$d ઓરિજિનલ ફોટો ડાઉનલોડ થાય છે</item>
+        <item quantity="other">%1$d ઓરિજિનલ ફોટા ડાઉનલોડ થાય છે</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d ફોટો</item>
+        <item quantity="other">%1$d ફોટા</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">ડિવાઇસ સ્ટોરેજ અપર્યાપ્ત છે. %1$d મૂળ ફોટો ડાઉનલોડ થયો નથી.</item>
+        <item quantity="other">ડિવાઇસ સ્ટોરેજ અપર્યાપ્ત છે. %1$d મૂળ ફોટા ડાઉનલોડ થયા નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">ડિવાઇસ સ્ટોરેજ અપર્યાપ્ત છે. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">ડિવાઇસ સ્ટોરેજ અપર્યાપ્ત છે. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">માટે અપલોડ થોભાવ્યું %1$d આઇટમ ઇન્ટરનેટ કનેક્શન નથી.</item>
+        <item quantity="other">માટે અપલોડ થોભાવ્યું %1$d આઇટમ્સ ઇન્ટરનેટ કનેક્શન નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d આઇટમ માટે અપલોડ અટકી ગયું છે. Wi-Fi થી કનેક્ટ થયેલ નથી.</item>
+        <item quantity="other">%1$d આઇટમ્સ માટે અપલોડ અટકી ગયું છે. Wi-Fi થી કનેક્ટ થયેલ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">બૅટરીનો પાવર બચાવવા માટે %1$d આઇટમ્સ માટે અપલોડને અટકવવામાં આવ્યું છે.</item>
+        <item quantity="other">બૅટરીનો પાવર બચાવવા માટે %1$d આઇટમ્સ માટે અપલોડને અટકવવામાં આવ્યું છે.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d વસ્તુ માટે અપલોડ અટકી ગયું છે. ફોન ખૂબ ગરમ છે.</item>
+        <item quantity="other">%1$dવસ્તુ માટે અપલોડ અટકી ગયું છે. ફોન ખૂબ ગરમ છે.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d વસ્તુ માટે અપલોડ અટકી ગયું છે. ક્લાઉડનું મેન્ટેનન્સ ચાલી રહ્યું છે.</item>
+        <item quantity="other">%1$d વસ્તુ માટે અપલોડ અટકી ગયું છે. ક્લાઉડનું મેન્ટેનન્સ ચાલી રહ્યું છે.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d વસ્તુ માટે અપલોડ અટકી ગયું છે. ટેબ્લેટ ખૂબ ગરમ છે.</item>
+        <item quantity="other">%1$d વસ્તુ માટે અપલોડ અટકી ગયું છે. ટેબ્લેટ ખૂબ ગરમ છે.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">ક્લાઉડમાંથી %1$d આઇટમ સિંક કરી રહ્યા છીએ</item>
+        <item quantity="other">ક્લાઉડમાંથી %1$d આઇટમ્સ સિંક કરી રહ્યા છીએ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d ફોટો</item>
+        <item quantity="other">%1$d ફોટા</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d વિડિઓ</item>
+        <item quantity="other">%1$d વિડિઓઝ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">%1$sકરતા ઓછી બૅટરી. %2$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">%1$s. કરતા ઓછી બૅટરી %2$d આઇટમ્સ ડાઉનલોડ કરી નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">%1$s કરતા ઓછી બૅટરી. %2$d આઇટમ ડાઉનલોડ થઈ નથી. કૃપા કરીને તમારા ફોનને ચાર્જ કરો.</item>
+        <item quantity="other">%1$s કરતા ઓછી બૅટરી. %2$d આઇટમ્સ ડાઉનલોડ થઈ નથી. કૃપા કરીને તમારા ફોનને ચાર્જ કરો.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ ડાઉનલોડ થઈ નથી. ફરી શરૂ કરવા માટે પાવરથી કનેક્ટ કરો.</item>
+        <item quantity="other">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ્સ ડાઉનલોડ થઈ નથી. ફરી શરૂ કરવા માટે પાવરથી કનેક્ટ કરો.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">પાવર સેવિંગ મોડ ચાલુ. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">પાવર સેવિંગ મોડ ચાલુ છે. %1$d આઇટમ્સ ડાઉનલોડ કરી નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">પાવર સેવિંગ મોડ ચાલુ છે. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">પાવર સેવિંગ મોડ ચાલુ છે. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ ડાઉનલોડ થઈ નથી. %2$s.</item>
+        <item quantity="other">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ ડાઉનલોડ થઈ નથી. %2$s અથવા %3$s.</item>
+        <item quantity="other">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી. %2$s અથવા %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">અપૂરતું ક્લાઉડ સ્ટોરેજ. %1$d આઇટમ્સ ડાઉનલોડ કરી નથી.</item>
+        <item quantity="other">અપૂરતું ક્લાઉડ સ્ટોરેજ. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">ડિવાઇસનું સ્ટોરેજ અપર્યાપ્ત છે. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">ડિવાઇસનું સ્ટોરેજ અપર્યાપ્ત છે. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">નેટવર્ક ભૂલ. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">નેટવર્ક ભૂલ. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">નેટવર્ક ભૂલ. %1$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">નેટવર્ક ભૂલ. %1$d આઇટમ્સ ડાઉનલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">ડિવાઇસનું સ્ટોરેજ અપર્યાપ્ત છે. %1$d મૂળ ફોટો ડાઉનલોડ થયો નથી.</item>
+        <item quantity="other">ડિવાઇસનું સ્ટોરેજ અપર્યાપ્ત છે. %1$d મૂળ ફોટા ડાઉનલોડ થયા નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d ફોટો સમન્વયિત થયો નથી. કલાઉડ સ્ટોરેજ ભરાઈ ગયું છે.</item>
+        <item quantity="other">%1$d ફોટો સમન્વયિત થયા નથી. કલાઉડ સ્ટોરેજ ભરાઈ ગયું છે.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d ફોટો સમન્વયિત નથી. જ્યારે બેટરી %2$s કરતા ઓછી હોય ત્યારે ક્લાઉડ સિંકને અટકાવવામાં આવે છે.</item>
+        <item quantity="other">%1$d ફોટા સમન્વયિત નથી. જ્યારે બેટરી %2$s કરતા ઓછી હોય ત્યારે ક્લાઉડ સિંકને અટકાવવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d ફોટો સમન્વયિત નથી. પાવર સેવિંગ મોડમાં ક્લાઉડ સિંક અટકાવવામાં આવે છે.</item>
+        <item quantity="other">%1$d ફોટો સમન્વયિત નથી. પાવર સેવિંગ મોડમાં ક્લાઉડ સિંક અટકાવવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">કલાઉડ સંગ્રહ ભરાઈ ગઈ. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">ક્લાઉડ સ્ટોરેજ પૂર્ણ. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">%1$sકરતા ઓછી બૅટરી. %2$d આઇટમ ડાઉનલોડ થઈ નથી.</item>
+        <item quantity="other">%1$s. કરતા ઓછી બૅટરી %2$d આઇટમ્સ ડાઉનલોડ કરી નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">%1$s કરતા ઓછી બૅટરી. %2$d આઇટમ અપલોડ થઈ નથી. કૃપા કરીને તમારા ફોન ચાર્જ કરો.</item>
+        <item quantity="other">%1$s.કરતા ઓછી બૅટરી. %2$d આઇટમ્સ અપલોડ થઈ નથી. કૃપા કરીને તમારા ફોન ચાર્જ કરો.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ અપલોડ થઈ નથી. ફરી શરૂ કરવા માટે પાવરથી કનેક્ટ કરો.</item>
+        <item quantity="other">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ્સ અપલોડ થઈ નથી. ફરી શરૂ કરવા માટે પાવરથી કનેક્ટ કરો.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">બૅટરી %1$s કરતાં ઓછી છે. %2$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">પાવર સેવિંગ મોડ ચાલુ. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">પાવર સેવિંગ મોડ ચાલુ. %1$d આઇટમ્સ અપલોડ કરી નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">પાવર સેવિંગ મોડ ચાલુ છે. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">પાવર સેવિંગ મોડ ચાલુ છે. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">ક્લાઉડ સ્ટોરેજ ભરાઈ ગયું. %1$d આઇટમ અપલોડ કરી નથી.</item>
+        <item quantity="other">ક્લાઉડ સ્ટોરેજ ભરાઈ ગયું. %1$d આઇટમ્સ અપલોડ કરી નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d વિડિયો સમન્વયિત થયેલ નથી. ક્લાઉડ સ્ટોરેજ ભરાઈ ગયેલ છે.</item>
+        <item quantity="other">%1$d dવિડિઓઝ સમન્વયિત થયેલ નથી. ક્લાઉડ સ્ટોરેજ ભરાઈ ગયેલ છે.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d વિડિયો સમન્વયિત નથી. જ્યારે બેટરી %2$s કરતા ઓછી હોય ત્યારે ક્લાઉડ સિંકને અટકાવવામાં આવે છે.</item>
+        <item quantity="other">%1$d વિડિઓઝ સમન્વયિત નથી. જ્યારે બેટરી %2$s કરતા ઓછી હોય ત્યારે ક્લાઉડ સિંકને અટકાવવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d વિડિયો સમન્વયિત નથી. પાવર સેવિંગ મોડમાં ક્લાઉડ સિંક અટકાવવામાં આવે છે.</item>
+        <item quantity="other">%1$d વિડિઓઝ સમન્વયિત નથી. પાવર સેવિંગ મોડમાં ક્લાઉડ સિંક અટકાવવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d ફોટા સમન્વયિત નથી.</item>
+        <item quantity="other">%1$d ફોટો સમન્વયિત નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ અપલોડ થઈ નથી.%2$s.</item>
+        <item quantity="other">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ અપલોડ થઈ નથી. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ અપલોડ થઈ નથી. %2$s અથવા %3$s.</item>
+        <item quantity="other">નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ અપલોડ કરી નથી. %2$s અથવા %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">કોઇ નેટવર્ક કનેક્શન નથી. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d વિડિયો સમન્વયિત નથી</item>
+        <item quantity="other">%1$d વિડિયો સમન્વયિત નથી</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">નેટવર્ક ભૂલ. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">નેટવર્ક ભૂલ. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">નેટવર્ક કનેક્શન વિક્ષેપ થયો. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">નેટવર્ક ભૂલ. %1$d આઇટમ અપલોડ કરી નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">સેવા ભૂલ. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">સેવા ભૂલ. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">સેવા ભૂલ. %1$d આઇટમ અપલોડ થઈ નથી.</item>
+        <item quantity="other">સેવા ભૂલ. %1$d આઇટમ્સ અપલોડ થઈ નથી.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">%1$d આઇટમ સિંક થઈ રહી છે</item>
+        <item quantity="other">%1$d આઇટમ્સ સિંક થઈ રહી છે</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">%1$d વસ્તુ ક્લાઉડ સાથે સિંક થાય છે…</item>
+        <item quantity="other">%1$d વસ્તુઓ ક્લાઉડ સાથે સિંક થાય છે…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d વિડિઓ</item>
+        <item quantity="other">%1$d વિડિઓઝ</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">કેટલાક પ્લેટફોર્મ %d સેકન્ડથી વધારે લાંબા મોશન ફોટાને સમર્થન ન પણ કરે</item>
+        <item quantity="other">કેટલાક પ્લેટફોર્મ %d સેકન્ડથી વધારે લાંબા મોશન ફોટાને સમર્થન ન પણ કરે</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">તમે એક સમયે %1$d મોશન ફોટો પર પૉપઆઉટનો ઉપયોગ કરી શકો છો</item>
+        <item quantity="other">તમે એક જ સમયે %1$d જેટલા મોશન ફોટા પર પૉપઆઉટનો ઉપયોગ કરી શકો છો</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">%1$d સેકન્ડથી વધુ લાંબા મોશન ફોટા સમર્થિત નથી</item>
+        <item quantity="other">%1$d સેકન્ડથી વધુ લાંબા મોશન ફોટા સમર્થિત નથી</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">એકીસાથે %d થી વધુ વસ્તુને ડ્રેગ કરી શકાશે નહીં</item>
+        <item quantity="other">એકીસાથે %d થી વધુ આઇટમ્સ ડ્રેગ કરી શકાશે નહીં</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d આઇટમ ઉમેરવું નિષ્ફળ થયું</item>
+        <item quantity="other">%d આઇટમ્સ ઉમેરવું નિષ્ફળ થયું</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d ફોટો લોડ થઈ રહ્યો છે અને ખાનગી તરીકે સેટ કરી શકાતો નથી.</item>
+        <item quantity="other">%d ફોટા લોડ થઈ રહ્યાં છે અને ખાનગી તરીકે સેટ કરી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d કલાક</item>
+        <item quantity="other">%d કલાક</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d આઇટમ</item>
+        <item quantity="other">%d આઇટમ્સ</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d મિનિટ</item>
+        <item quantity="other">%d મિનિટ</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d સેકન્ડ</item>
+        <item quantity="other">%d સેકન્ડ</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d સેકન્ડ</item>
+        <item quantity="other">%d સેકન્ડ</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d આઇટમ વિડિયો એડિટિંગ માટે આયાત કરી શકાતી નથી</item>
+        <item quantity="other">વિડિયો એડિટિંગ માટે %d આઇટમ્સ આયાત કરી શકાતી નથી</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">પૃષ્ઠ %1$d નું %2$d</item>
+        <item quantity="other">પૃષ્ઠ %1$d નું %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">એક GIF માટે %1$d કરતાં વધુ ફોટો પસંદ કરશો નહીં</item>
+        <item quantity="other">એક GIF માટે %1$d કરતાં વધુ ફોટા પસંદ કરશો નહીં</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">માત્ર %1$d સેકન્ડ સુધીના મોશન ફોટાને જ સપોર્ટ કરવામાં આવે છે</item>
+        <item quantity="other">માત્ર %1$d સેકન્ડ સુધીના મોશન ફોટાને જ સપોર્ટ કરવામાં આવે છે</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">GIF બનાવવા માટે ઓછામાં ઓછા %1$d ફોટો પસંદ કરો</item>
+        <item quantity="other">GIF બનાવવા માટે ઓછામાં ઓછા %1$d ફોટા પસંદ કરો</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">એક GIF માટે %1$d કરતાં વધુ ફોટો પસંદ કરશો નહીં</item>
+        <item quantity="other">એક GIF માટે %1$d કરતાં વધુ ફોટા પસંદ કરશો નહીં</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">માત્ર %1$d ફોટો ફોર્મેટ આવશ્યકતાઓને પૂર્ણ કરે છે</item>
+        <item quantity="other">માત્ર %1$d ફોટા ફોર્મેટ આવશ્યકતાઓને પૂર્ણ કરે છે</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d ફોટોનો GIF માં સમાવેશ થશે નહી</item>
+        <item quantity="other">%1$d ફોટાનો GIF માં સમાવેશ થશે નહી</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d ફોટો સમર્થિત નથી</item>
+        <item quantity="other">%1$d ફોટા સમર્થિત નથી</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">\"Google ફોટા\" માંથી %1$s વસ્તુ લોડ થઈ રહી છે…</item>
+        <item quantity="other">\"Google ફોટા\" માંથી %1$s વસ્તુઓ લોડ થઈ રહી છે…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">અપર્યાપ્ત \"Google ફોટા\" સ્ટોરેજ. %1$d વસ્તુનું બૅક અપ લેવાયું નથી.</item>
+        <item quantity="other">અપર્યાપ્ત \"Google ફોટા\" સ્ટોરેજ. %1$d વસ્તુઓનું બૅક અપ લેવાયું નથી.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">\"Google ફોટા\" પર %1$s વસ્તુનું બૅક અપ લઈ રહ્યા છીએ…</item>
+        <item quantity="other">\"Google ફોટા\" પર %1$s વસ્તુઓનું બૅક અપ લઈ રહ્યા છીએ…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d આઇટમ HeyTap ક્લાઉડ સાથે સમન્વયિત કરવામાં આવી રહી છે. આને બંધ કરવાથી સ્વતઃ સિંક રદ થશે. તમારો ડેટા સુરક્ષિત રાખવા માટે, સિંક પૂર્ણ થાય ત્યાં સુધી રાહ જોવાની ભલામણ કરવામાં આવે છે.</item>
+        <item quantity="other">%1$d ડાઉનલોડ પૂર્ણ થયા બાદ HeyTap ક્લાઉડ સિંક બંધ થઈ જશે. આને બંધ કરવાથી સ્વતઃ સિંક રદ થશે. તમારો ડેટા સુરક્ષિત રાખવા માટે, સિંક પૂર્ણ થાય ત્યાં સુધી રાહ જોવાની ભલામણ કરવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">માત્ર %d આલ્બમ \"વારંવાર ઉપયોગમાં લેવાતા\" માં ઉમેરી શકાય છે</item>
+        <item quantity="other">\"વારંવાર વપરાતા\" માં %d જેટલા આલ્બમ ઉમેરી શકાય છે</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d ડિવાઇસ મળી છે</item>
+        <item quantity="other">%1$d કોઈ ડિવાઇસ મળ્યાં</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d દિવસ</item>
+        <item quantity="other">%1$d દિવસો</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ફોટા</item>
+        <item quantity="other">%1$d ફોટા</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d વિડિઓ</item>
+        <item quantity="other">%1$d વિડિઓઝ</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">%1$d કરતાં વધુ સ્ટીકર પસંદ કરી શકાતા નથી</item>
+        <item quantity="other">%1$d કરતાં વધુ સ્ટીકર પસંદ કરી શકાતા નથી</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">NAS માંથી %1$d સામગ્રીને હટાવી નાખો</item>
+        <item quantity="other">NAS માંથી %1$d વસ્તુઓ હટાવી નાખો</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">ડાઉનલોડ કરો પૂર્ણ થયું. %1$d આઇટમ ડાઉનલોડ કરવામાં નિષ્ફળ ગયેલ છે.</item>
+        <item quantity="other">ડાઉનલોડ કરો પૂર્ણ થયું. %1$d વસ્તુઓ ડાઉનલોડ કરવામાં નિષ્ફળ ગયેલ છે.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d આઈટેમ ડાઉનલોડ કરેલ છે.</item>
+        <item quantity="other">%1$d આઈટેમ ડાઉનલોડ થયેલ છે.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">%1$dના %2$d ડાઉનલોડ કરી રહ્યું છે…</item>
+        <item quantity="other">%1$d ના %2$d ડાઉનલોડ કરી રહ્યું છે…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">તમારે પસંદ કરેલો વિસ્તાર કેવી રીતે સંપાદિત કરવો છે?</item>
+        <item quantity="other">તમારે પસંદ કરેલા વિસ્તારો કેવી રીતે સંપાદિત કરવા છે?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">તમે વધુમાં વધુ %d સ્ટિકર ઉમેરી શકો છો</item>
+        <item quantity="other">તમે વધુમાં વધુ %d સ્ટિકર ઉમેરી શકો છો</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">સ્ટીકરોમાં, તમે ફક્ત %d મોશન સ્ટીકર ઉમેરી શકો છો. વધારાના સ્ટીકરોને સ્ટેટિક સ્ટીકરોમાં રૂપાંતરિત કરવામાં આવશે.</item>
+        <item quantity="other">સ્ટિકરોમાં, તમે વધુમાં વધુ %d મોશન સ્ટિકર ઉમેરી શકો છો. વધારાનાં સ્ટિકરો સ્થિર થઈ જશે.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">સરળતાથી શેર કરવા માટે સંપાદિત કરેલું વર્ઝન %d સેકન્ડ સુધી મર્યાદિત છે.</item>
+        <item quantity="other">સરળતાથી શેર કરવા માટે સંપાદિત કરેલું વર્ઝન %d સેકન્ડ સુધી મર્યાદિત છે.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">સ્ટીકરો %d સેકન્ડ સુધી લાંબા હોઈ શકે છે</item>
+        <item quantity="other">સ્ટીકરો %d સેકન્ડ સુધી લાંબા હોઈ શકે છે</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">સ્ટિકરો માત્ર %d સેકન્ડ લાંબાં હોઈ શકે છે.</item>
+        <item quantity="other">સ્ટિકરો %d સેકન્ડ સુધી લાંબા હોઈ શકે છે.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">વિડિઓઝ %d સેકન્ડ સુધી લાંબા હોઈ શકે છે</item>
+        <item quantity="other">વિડિઓઝ %d સેકન્ડ સુધી લાંબા હોઈ શકે છે</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">પસંદ કરેલા વિસ્તારમાં તમારે જે બદલવું હોય તેનું વર્ણન કરો</item>
+        <item quantity="other">પસંદ કરેલા વિસ્તારોમાં તમારે જે બદલવું હોય તેનું વર્ણન કરો</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">રેકોર્ડિંગ %1$d સેકન્ડમાં બંધ થાય છે</item>
+        <item quantity="other">રેકોર્ડિંગ %1$d સેકન્ડમાં બંધ થાય છે</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">તમે વધુમાં વધુ %1$d વિસ્તાર પસંદ કરી શકો છો</item>
+        <item quantity="other">તમે વધુમાં વધુ %1$d વિસ્તાર પસંદ કરી શકો છો</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">માત્ર %1$d સેકન્ડ સુધીના મોશન ફોટાને જ સપોર્ટ કરવામાં આવે છે</item>
+        <item quantity="other">માત્ર %1$d સેકન્ડ સુધીના મોશન ફોટાને જ સપોર્ટ કરવામાં આવે છે</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">મોટી ફાઇલ કદને લીધે અપેક્ષિત રાહ જોવાનો સમય %1$d મિનિટ છે</item>
+        <item quantity="other">મોટી ફાઇલ કદને લીધે અપેક્ષિત રાહ જોવાનો સમય %1$d મિનિટ છે</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">પસંદ કરેલ %d ફોટો નિકાસ કરો</item>
+        <item quantity="other">પસંદ કરેલ %d ફોટા નિકાસ કરો</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">px કરતા મોટું હોવું જોઈએ %1$d</item>
+        <item quantity="other">px કરતા મોટું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">px કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">px કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">KB કરતા મોટું હોવું જોઈએ %1$d</item>
+        <item quantity="other">KB કરતા મોટું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">KB કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">KB કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">px કરતા મોટું હોવું જોઈએ %1$d</item>
+        <item quantity="other">px કરતા મોટું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">મીમી કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">px કરતા નાનું હોવું જોઈએ %1$d</item>
+        <item quantity="other">px કરતા નાનું હોવું જોઈએ %1$d</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">માત્ર %d પસંદ કરેલ ફોટો રાખો</item>
+        <item quantity="other">માત્ર %d પસંદ કરેલ ફોટા રાખો</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d આઇટમ કાઢી નાખો</item>
+        <item quantity="other">%d આઇટમ્સ કાઢી નાખો</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d આઇટમ કાઢી નાખો</item>
+        <item quantity="other">%d આઇટમ્સ કાઢી નાખો</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d સ્ટિકર ઉમેરવામાં નિષ્ફળ</item>
+        <item quantity="other">%1$d સ્ટિકર્સ ઉમેરવામાં નિષ્ફળ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d સ્ટિકર ઉમેરવાનું નિષ્ફળ ગયું</item>
+        <item quantity="other">%d સ્ટિકર ઉમેરવાનું નિષ્ફળ ગયું</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s સ્ટિકર ઉમેરેલ છે</item>
+        <item quantity="other">%1$s સ્ટિકર ઉમેરેલ છે</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s સ્ટિકર ઉમેરેલ છે</item>
+        <item quantity="other">%1$s સ્ટિકર્સ ઉમેરેલ છે</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d સ્ટિકર ઉમેરવામાં આવ્યું</item>
+        <item quantity="other">%1$d સ્ટિકર ઉમેરવામાં આવ્યાં</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">AI રીમિક્સ ચિત્રસંગ્રહમાં, તમે વધુમાં વધુ %1$d મોશન સ્ટિકર ઉમેરી શકો છો. વધારાનાં સ્ટિકરો સ્થાયી થઈ જશે.</item>
+        <item quantity="other">AI રીમિક્સ ચિત્રસંગ્રહમાં, તમે વધુમાં વધુ %1$d મોશન સ્ટિકર ઉમેરી શકો છો. વધારાનાં સ્ટિકરો સ્થાયી થઈ જશે.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">તમે %1$d સુધી જ મોશન ફોટો ઉમેરી શકો છો</item>
+        <item quantity="other">તમે %1$d સુધી જ મોશન ફોટા ઉમેરી શકો છો</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">તમે વધુમાં વધુ %1$d ફોટો ઉમેરી શકશો</item>
+        <item quantity="other">તમે વધુમાં વધુ %1$d ફોટા ઉમેરી શકશો</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">તમારા ફોટામાંથી વસ્તુઓ દૂર કરવા માટે, રીમુવર પ્લગઇન ડાઉનલોડ કરો. ફાઇલનું કદ: %1$s. ડાઉનલોડ કરવાનો અંદાજિત સમય: %2$d મિનિટ.</item>
+        <item quantity="other">તમારા ફોટામાંથી વસ્તુઓ દૂર કરવા માટે, રીમુવર પ્લગઇન ડાઉનલોડ કરો. ફાઇલનું કદ: %1$s. ડાઉનલોડ કરવાનો અંદાજિત સમય: %2$d મિનિટ.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">ફાઇલનું કદ: %1$d. અંદાજિત ડાઉનલોડ સમય: %2$d.</item>
+        <item quantity="other">ફાઇલનું કદ: %1$d. અંદાજિત ડાઉનલોડ સમય: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$dફોટો સમર્થિત નથી</item>
+        <item quantity="other">%1$dફોટા સમર્થિત નથી</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d પસંદ કરેલ છે</item>
+        <item quantity="other">%1$d/%2$d પસંદ કરેલ છે</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d પસંદ કરેલ છે</item>
+        <item quantity="other">આઇટમો હટાવો %1$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d આલ્બમ પસંદ કર્યા</item>
+        <item quantity="other">%1$d આલ્બમ પસંદ કર્યા</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d પસંદ કરેલ છે</item>
+        <item quantity="other">આઇટમો હટાવો %1$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$dવિડીઓ પસંદ કર્યો</item>
+        <item quantity="other">%1$d વિડીઓ પસંદ કર્યા</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">%1$d થી વધુ સ્ટિકર ઉમેરી શકાતી નથી</item>
+        <item quantity="other">%1$d થી વધુ સ્ટિકરો ઉમેરી શકાતા નથી</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">માત્ર %1$d આઇટમ પસંદ કરી શકાય છે</item>
+        <item quantity="other">%1$d આઇટમ્સ સુધી પસંદ કરી શકાય છે</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d ફોટો લોડ થઈ રહ્યો છે અને કાઢી શકાતો નથી.</item>
+        <item quantity="other">%d ફોટા લોડ થઈ રહ્યાં છે અને કાઢી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d આઇટમ હટાવવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.</item>
+        <item quantity="other">%1$d આઇટમ્સ હટાવવામાં નિષ્ફળ. કૃપા કરીને ફરીથી પ્રયાસ કરો.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d નવા નોટીફીકેશન</item>
+        <item quantity="other">%d નવા નોટીફીકેશન્સ</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">%d વિષય કાઢી નાખીએ?</item>
+        <item quantity="other">%d વિષયો કાઢી નાખીએ?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d ફોટો</item>
+        <item quantity="other">%1$d ફોટા</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">તમે માત્ર %1$d મોશન સ્ટિકર ઉમેરી શકો છો. વધારાનાં સ્ટિકરો સ્થિર તરીકે બતાવવામાં આવશે.</item>
+        <item quantity="other">તમે વધુમાં વધુ %1$d મોશન સ્ટિકર ઉમેરી શકો છો. વધારાનાં સ્ટિકરો સ્થિર તરીકે બતાવવામાં આવશે.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">આ એપ પર માત્ર %d આઇટમ શેર કરી શકાય છે</item>
+        <item quantity="other">આ એપ પર %d જેટલી આઇટમ શેર કરી શકાય છે</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">%d વસ્તુ શેર કરો</item>
+        <item quantity="other">%d વસ્તુઓ શેર કરો</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">%d ફોટો શેર કરો</item>
+        <item quantity="other">%d ફોટા શેર કરો</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">%d વિડિયો શેર કરો</item>
+        <item quantity="other">%d વિડિઓઝ શેર કરો</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">%d પળો હટાવી નાખીએ?</item>
+        <item quantity="other">%d પળો હટાવી નાખવી છે?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">તમારા માટે તૈયાર કરેલી %d વાર્તા.</item>
+        <item quantity="other">તમારા માટે તૈયાર કરેલી %d વાર્તાઓ.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d પસંદ કરેલ છે</item>
+        <item quantity="other">%d પસંદ કરેલ છે</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">%d ડિગ્રી ફેરવો</item>
+        <item quantity="other">%d ડિગ્રી ફેરવો</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">તમે માત્ર %s ફાઇલ જ આયાત કરી શકો છો</item>
+        <item quantity="other">તમે %s સુધીની ફાઇલો આયાત કરી શકો છો</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1d વસ્તુ ઉમેરો</item>
+        <item quantity="other">%1d વસ્તુઓ ઉમેરો</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">મહત્તમ %s LUT ફાઇલ સામેલ કરી શકાય છે</item>
+        <item quantity="other">મહત્તમ %s LUT ફાઇલો સામેલ કરી શકાય છે</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">%d કરતાં વધુ ફોટો ઉમેરી શકાતા નથી</item>
+        <item quantity="other">%d કરતાં વધુ ફોટા ઉમેરી શકાશે નહીં</item>
+    </plurals>
+</resources>

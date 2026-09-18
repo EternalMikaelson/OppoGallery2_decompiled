@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/share_olive_layout" android:background="@drawable/share_olive_shape_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/olive_photo_icon_tag" android:layout_width="@dimen/share_olive_icon_width" android:layout_height="@dimen/share_olive_icon_width" android:layout_marginTop="@dimen/share_olive_margin_top" android:layout_marginBottom="@dimen/share_olive_margin_top" android:src="@drawable/share_olive_icon" android:scaleType="center" android:layout_marginStart="@dimen/share_olive_margin_start_width" android:forceDarkAllowed="false" />
+    <TextView android:textAppearance="@style/gTextAppearanceTag" android:textSize="@dimen/share_olive_title_size" android:textColor="@color/share_olive_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/olive_photo_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_olive_title" android:layout_marginStart="@dimen/share_olive_margin_start_width" android:layout_marginEnd="@dimen/share_olive_margin_end_width" />
+</LinearLayout>

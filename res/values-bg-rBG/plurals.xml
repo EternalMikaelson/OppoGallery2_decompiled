@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Албумът „%1$1s“, включващ %2$2s елемент; докоснете, за да го добавите към „Често използвани“.</item>
+        <item quantity="other">Албумът „%1$1s“, включващ %2$2s елемента; докоснете, за да го добавите към „Често използвани“.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s съвпадение</item>
+        <item quantity="other">%s съвпадения</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Изберете мултимедийния си файл и докоснете плаващия прозорец „Незабавен клип с AI“ по-долу, за да генерирате бързо видеоклип. Изберете поне %1$s елемент за по-добри резултати.</item>
+        <item quantity="other">Изберете мултимедийния си файл и докоснете плаващия прозорец „Незабавен клип с AI“ по-долу, за да генерирате бързо видеоклип. Изберете поне %1$s елемента за по-добри резултати.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Изберете мултимедийния си файл и докоснете „Редактиране – Незабавен клип с AI“ в долната част, за да генерирате бързо видеоклип. Изберете поне %1$s елемент за по-добри резултати.</item>
+        <item quantity="other">Изберете мултимедийния си файл и докоснете „Редактиране – Незабавен клип с AI“ в долната част, за да генерирате бързо видеоклип. Изберете поне %1$s елемента за по-добри резултати.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Не се поддържат снимки с движение, по-дълги от %1$d секунда</item>
+        <item quantity="other">Не се поддържат снимки с движение, по-дълги от %1$d секунди</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Видеото не може да бъде по-дълго от %d секунда</item>
+        <item quantity="other">Видеото не може да бъде по-дълго от %d секунди</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%dзаключено приложение</item>
+        <item quantity="other">%d заключени приложения</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Албумът „%1$1s“, включващ %2$2s елемент; добавен към „Често използвани“.</item>
+        <item quantity="other">Албумът „%1$1s“, включващ %2$2s елемента; добавен към „Често използвани“.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Добавяне (%1$d)</item>
+        <item quantity="other">Добавяне (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Добавяне (%1$d/%2$d)</item>
+        <item quantity="other">Добавяне (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d коригиран елемент</item>
+        <item quantity="other">%1$d коригирани елемента</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d снимка не може да се добави, защото се зарежда.</item>
+        <item quantity="other">%d снимки не могат да се добавят, защото се зареждат.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d документ</item>
+        <item quantity="other">%1$d документа</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d банкова карта</item>
+        <item quantity="other">%1$d банкови карти</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Елементите от %d албум ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. За някои елементи не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+        <item quantity="other">Елементите от %d албума ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. За някои елементи не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство и ще остане в „Наскоро изтрити“ за 30 дни. Всички серийни снимки са архивирани в облака и ще останат там.</item>
+        <item quantity="other">%d серийни снимки ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. Всички серийни снимки са архивирани в облака и ще останат там.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство и ще остане в „Наскоро изтрити“ за 30 дни. За някои снимки не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+        <item quantity="other">%d серийни снимки ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. За някои снимки не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d елемент ще бъде изтрит от това устройство и ще остане в „Наскоро изтрити“ за 30 дни. За някои елементи не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. За някои елементи не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d снимка ще бъде изтрита от това устройство и ще остане в „Наскоро изтрити“ за 30 дни. За някои снимки не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. За някои снимки не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d видеоклип ще бъде изтрит от това устройство и ще остане в „Наскоро изтрити“ за 30 дни. За някои видеоклипове не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+        <item quantity="other">%d видеоклипа ще бъдат изтрити от това устройство и ще останат в „Наскоро изтрити“ за 30 дни. За някои видеоклипове не са създадени резервни копия. Може да искате да създадете резервни копия, преди да ги изтриете.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s миниатюра ще бъде заменена с оригиналната ѝ версия.</item>
+        <item quantity="other">%1$s миниатюри ще бъдат заменени с оригиналните им версии.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ИД</item>
+        <item quantity="other">%1$d ИД</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Сливане и премахване на %d човек?</item>
+        <item quantity="other">Сливане и премахване на %d души?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Премахване на %d снимка от този албум?</item>
+        <item quantity="other">Премахване на %d снимки от този албум?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Премахване на %d елемент от този албум?</item>
+        <item quantity="other">Премахване на %d елемента от този албум?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Премахване на %d видеоклип от този албум?</item>
+        <item quantity="other">Премахване на %d видеоклипа от този албум?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Използв. миниатюра</item>
+        <item quantity="other">Използв. миниатюри</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Използв. оригинал</item>
+        <item quantity="other">Използв. оригинали</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 снимка е миниатюра. Вместо това можете да изтеглите и използвате оригиналната снимка.</item>
+        <item quantity="other">Някои от избраните снимки са миниатюри. Вместо това можете да изтеглите и използвате оригиналните снимки.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Максимум %1$d изображение може да бъде конвертирано в PDF наведнъж</item>
+        <item quantity="other">Максимум %1$d изображения могат да бъдат конвертирани в PDF наведнъж</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Недостатъчна памет на устройството. %1$d елемент не е копиран.</item>
+        <item quantity="other">Недостатъчна памет на устройството. %1$d елемента не са копирани.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d копиран елемент</item>
+        <item quantity="other">%d копирани елемента</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Не може да се копира повече от %d елемент</item>
+        <item quantity="other">Не могат да се копират повече от %d елемента</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d снимка ще бъде изтрита за постоянно от това устройство.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити за постоянно от това устройство.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d елемент ще бъде изтрит за постоянно от това устройство.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити за постоянно от това устройство.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d видеоклип ще бъде изтрит за постоянно от това устройство.</item>
+        <item quantity="other">%d серийна снимка ще бъде изтрита за постоянно от това устройство.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d серийни снимки ще бъдат изтрити за постоянно от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Тази снимка ще бъде изтрита за постоянно от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Това действие не може да бъде отменено.</item>
+        <item quantity="other">Тези снимки ще бъдат изтрити за постоянно от това устройство, облака и други синхронизирани устройства. Това действие не може да бъде отменено.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Тази снимка ще бъде изтрита за постоянно. Това действие не може да бъде отменено.</item>
+        <item quantity="other">Тези снимки ще бъдат изтрити за постоянно. Това действие не може да бъде отменено.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Този елемент ще бъде изтрит за постоянно от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Това действие не може да бъде отменено.</item>
+        <item quantity="other">Тези елементи ще бъдат изтрити за постоянно от това устройство, облака и други синхронизирани устройства. Това действие не може да бъде отменено.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Този елемент ще бъде изтрит за постоянно. Това действие не може да бъде отменено.</item>
+        <item quantity="other">Тези елементи ще бъдат изтрити за постоянно. Това действие не може да бъде отменено.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d снимка ще бъде изтрита за постоянно от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити за постоянно от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d елемент ще бъде изтрит за постоянно от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити за постоянно от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d видеоклип бъдат изтрит за постоянно от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d видеоклипа ще бъдат изтрити за постоянно от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d серийна снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Изтриване на %d албум?</item>
+        <item quantity="other">Изтриване на %d албума?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Изтриване на %d серийна снимка?</item>
+        <item quantity="other">Изтриване на %d серийни снимки?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d спомен ще бъде изтрит от това устройство. Снимките в този спомен ще се съхраняват в приложението „Снимки“.</item>
+        <item quantity="other">%d спомена ще бъдат изтрити от това устройство. Снимките в тези спомени ще се съхраняват в приложението „Снимки“.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Изтриване на %d спомен?</item>
+        <item quantity="other">Изтриване на %d спомена?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Окончателно изтриване на %d елемент</item>
+        <item quantity="other">Окончателно изтриване на %d елемента</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Изтриване на %d елемент</item>
+        <item quantity="other">Изтриване на %d елемента</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Изтриване на %d снимка?</item>
+        <item quantity="other">Изтриване на %d снимки?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Изтриване на %d елемент?</item>
+        <item quantity="other">Изтриване на %d елемента?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Изтриване на %d видеоклип?</item>
+        <item quantity="other">Изтриване на %d видеоклипа?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Изтриване на %d стикер?</item>
+        <item quantity="other">Изтриване на %d стикера?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Изтриване на тази снимка</item>
+        <item quantity="other">Изтриване на тези снимки</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Този видеоклип ще бъде изтрит за постоянно от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Това действие не може да бъде отменено.</item>
+        <item quantity="other">Тези видеоклипове ще бъдат изтрити за постоянно от това устройство, облака и други синхронизирани устройства. Това действие не може да бъде отменено.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Този видеоклип ще бъде изтрит за постоянно. Това действие не може да бъде отменено.</item>
+        <item quantity="other">Тези видеоклипове ще бъдат изтрити за постоянно. Това действие не може да бъде отменено.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Изтегляне на %d елемент...</item>
+        <item quantity="other">Изтегляне на %d елемента...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Изтегляне на %d снимка…</item>
+        <item quantity="other">Изтегляне на %d снимки…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Изтегляне на %d видеоклип…</item>
+        <item quantity="other">Изтегляне на %d видеоклипа…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Задаване на %d файл като личен?</item>
+        <item quantity="other">Задаване на %d файла като лични?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Задаване на тази снимка като лична?</item>
+        <item quantity="other">Задаване на тези снимки като лични?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">Неуспешно шифроване на %d файл</item>
+        <item quantity="other">Неуспешно шифроване на %d файла</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Заключване на %d албум?</item>
+        <item quantity="other">Заключване на %d албума?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d серийни снимки ще бъдат изтрити от това устройство. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d серийни снимки ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d албум ще бъде изтрит от това устройство. Архивираните албуми остават в „Наскоро изтрити“ за 60 дни; албумите, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d албума ще бъдат изтрити от това устройство. Архивираните албуми остават в „Наскоро изтрити“ за 60 дни; албумите, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d снимка ще бъде изтрита от това устройство. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити от това устройство. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d елемент ще бъде изтрит от това устройство. Архивираните елементи остават в „Наскоро изтрити“ за 60 дни; елементите, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити от това устройство. Архивираните елементи остават в „Наскоро изтрити“ за 60 дни; елементите, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d видеоклип ще бъде изтрит от това устройство. Архивираните видеоклипове остават в „Наскоро изтрити“ за 60 дни; видеоклиповете, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d видеоклипа ще бъдат изтрити от това устройство. Архивираните видеоклипове остават в „Наскоро изтрити“ за 60 дни; видеоклиповете, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d албум ще бъде изтрит от това устройство, облака и от други синхронизирани устройства. Архивираните албуми остават в „Наскоро изтрити“ за 60 дни; албумите, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d албума ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Архивираните албуми остават в „Наскоро изтрити“ за 60 дни; албумите, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Архивираните снимки остават в „Наскоро изтрити“ за 60 дни; снимките, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d елемент ще бъде изтрит от това устройство, облака и други синхронизирани устройства. Архивираните елементи остават в „Наскоро изтрити“ за 60 дни; елементите, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Архивираните елементи остават в „Наскоро изтрити“ за 60 дни; елементите, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d видеоклип бъде изтрит от това устройство, облака и други синхронизирани устройства. Архивираните видеоклипове остават в „Наскоро изтрити“ за 60 дни; видеоклиповете, които не са архивирани, остават 30 дни.</item>
+        <item quantity="other">%d видеоклипа бъдат изтрити от това устройство, облака и други синхронизирани устройства. Архивираните видеоклипове остават в „Наскоро изтрити“ за 60 дни; видеоклиповете, които не са архивирани, остават 30 дни.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Експортиране на %d избрана снимка</item>
+        <item quantity="other">Експортиране на %d избрани снимки</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Експортиране на %d снимка?</item>
+        <item quantity="other">Експортиране на %d снимки?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Неуспешно добавяне на %1$d елемент към любимите. Опитайте отново.</item>
+        <item quantity="other">Неуспешно добавяне на %1$d елемента към любимите. Опитайте отново.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Размер на файла: %1$s. Очаквано време за изтегляне: %2$s минута.</item>
+        <item quantity="other">Размер на файла: %1$s. Очаквано време за изтегляне: %2$s минути.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Използв. миниатюра</item>
+        <item quantity="other">Използв. миниатюри</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Използв. оригинал</item>
+        <item quantity="other">Използв. оригинали</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 снимка е миниатюра. Вместо това можете да изтеглите и използвате оригиналната снимка.</item>
+        <item quantity="other">Някои от избраните снимки са миниатюри. Вместо това можете да изтеглите и използвате оригиналните снимки.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Намерена е снимка на %s. Преместете я в „Албум за документи“ за по-лесен достъп.</item>
+        <item quantity="other">Намерени са снимки на %s. Преместите ги в „Албум за документи“ за по-лесен достъп.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Снимка на %1$s е преместена в „Албум за документи“</item>
+        <item quantity="other">Снимки на %1$s са преместени в „Албум за документи“</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d билет/разписка</item>
+        <item quantity="other">%1$d билети/разписки</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Избраният елемент вече съществува в албума</item>
+        <item quantity="other">Избраните елементи вече съществуват в албума</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d елемент</item>
+        <item quantity="other">%d елемента</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d лице ще бъде обединено и премахнато от „%2$s“.</item>
+        <item quantity="other">%1$d лица ще бъдат обединени и премахнати от „%2$s“.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d снимка се зарежда и не може да бъде преместена</item>
+        <item quantity="other">%d снимки се зареждат и не могат да бъдат преместени</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d преместен елемент</item>
+        <item quantity="other">%d преместени елемента</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d души</item>
+        <item quantity="other">%1$d души</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Изтегляне на оригиналното изображение…</item>
+        <item quantity="other">Изтегляне на оригиналните изображения…</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Снимката е копирана. Видеоклиповете не могат да бъдат копирани към този албум.</item>
+        <item quantity="other">Снимките са копирани. Видеоклиповете не могат да бъдат копирани към този албум.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Преместена снимка. Видеоклиповете не могат да бъдат преместени в този албум.</item>
+        <item quantity="other">Преместени снимки. Видеоклиповете не могат да бъдат преместени в този албум.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d албум ще бъде изтрит от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d албуми ще бъдат изтрити за постоянно от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d снимка ще бъде изтрита от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d снимки ще бъде изтрити от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d елемент ще бъдат изтрит за постоянно от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d елемента ще бъде изтрити от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d видеоклип ще бъде изтрит от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d видеоклипа ще бъдат изтрити от това устройство. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Тази снимка ще бъде изтрита от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+        <item quantity="other">Тези снимки ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Тази снимка ще бъде изтрита от устройство ви, HeyTap Cloud и от други синхронизирани устройства.</item>
+        <item quantity="other">Тези снимки ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Този албум ще бъде изтрита от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+        <item quantity="other">Тези албуми ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Този албум ще бъде изтрита от устройство ви, HeyTap Cloud и от други синхронизирани устройства.</item>
+        <item quantity="other">Тези албуми ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Този елемент ще бъде изтрит от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+        <item quantity="other">Тези елементи ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Този елемент ще бъде изтрит от устройство ви, HeyTap Cloud и от други синхронизирани устройства.</item>
+        <item quantity="other">Тези елементи ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d албум ще бъде изтрит от това устройство, облака и от други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d албума ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d албум ще бъде изтрит от това устройство, облака и от други синхронизирани устройства.</item>
+        <item quantity="other">%d албума ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d серийна снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d серийна снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d снимка ще бъде изтрита от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d снимки ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d елемент ще бъде изтрит от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d елемент ще бъде изтрит от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d елемента ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d видеоклип бъде изтрит от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+        <item quantity="other">%d видеоклипа бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи се съхраняват в „Наскоро изтрити“ за 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d видеоклип бъде изтрит от това устройство, облака и други синхронизирани устройства.</item>
+        <item quantity="other">%d видеоклипа бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Този видеоклип ще бъде изтрита от устройство ви, HeyTap Cloud и от други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+        <item quantity="other">Тези видеоклипове ще бъдат изтрити от това устройство, облака и други синхронизирани устройства. Изтритите елементи могат да бъдат възстановени от албума „Наскоро изтрити“ в рамките на 30 дни.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Този видеоклип ще бъде изтрита от устройство ви, HeyTap Cloud и от други синхронизирани устройства.</item>
+        <item quantity="other">Тези видеоклипове ще бъдат изтрити от това устройство, облака и други синхронизирани устройства.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Възстановяване на %d снимка?</item>
+        <item quantity="other">Възстановяване на %d снимки?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Възстановяване на %d елемент?</item>
+        <item quantity="other">Възстановяване на %d елемента?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Възстановяване на %d видеоклип?</item>
+        <item quantity="other">Възстановяване на %d видеоклипа?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Възстановяване на %d елемент</item>
+        <item quantity="other">Възстановяване на %d елемента</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Неуспешно запазване на %d видеоклип</item>
+        <item quantity="other">Неуспешно запазване на %d видеоклипа</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d запазен видеоклип</item>
+        <item quantity="other">%d запазени видеоклипа</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Използв. миниатюра</item>
+        <item quantity="other">Използв. миниатюри</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Използв. оригинал</item>
+        <item quantity="other">Използв. оригинали</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 снимка е миниатюра. Вместо това можете да изтеглите и използвате оригиналната снимка.</item>
+        <item quantity="other">Някои от избраните снимки са миниатюри. Вместо това можете да изтеглите и използвате оригиналните снимки.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Преглед на избрания елемент (%1$d)</item>
+        <item quantity="other">Визуализация на избраните елементи (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Избор на 1–%1$d снимка</item>
+        <item quantity="other">Избор на 1–%1$d снимки</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Използв. миниатюра</item>
+        <item quantity="other">Използв. миниатюри</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Използв. оригинал</item>
+        <item quantity="other">Използв. оригинали</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 снимка е миниатюра. Вместо това можете да изтеглите и използвате оригиналната снимка.</item>
+        <item quantity="other">Някои от избраните снимки са миниатюри. Вместо това можете да изтеглите и споделите оригиналните снимки.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d снимка ще бъде изтрита от споделения албум „%2$s“.</item>
+        <item quantity="other">%1$d снимки ще бъдат изтрити от споделения албум „%2$s“.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d елемент ще бъде изтрит от споделения албум „%2$s“.</item>
+        <item quantity="other">%1$d елемента ще бъдат изтрити от споделения албум „%2$s“.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d видеоклип ще бъде изтрит от споделения албум „%2$s“.</item>
+        <item quantity="other">%1$d видеоклипа ще бъдат изтрити от споделения албум „%2$s“.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Изтриване на %1$d елемент</item>
+        <item quantity="other">Изтриване на %1$d елемента</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Неуспешно изтегляне на %1$d елемент подари недостатъчно памет на устройството.</item>
+        <item quantity="other">Неуспешно изтегляне на %1$d елемента подари недостатъчно памет на устройството.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d елемент, (%2$s) свободни. Подновяване на изтегляне чрез мобилни данни?</item>
+        <item quantity="other">%1$d елемента, (%2$s) свободни. Подновяване на изтегляне чрез мобилни данни?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Грешка в мрежата. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Грешка в мрежата. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">До %d снимка с движение може да бъде запазена като видео наведнъж</item>
+        <item quantity="other">До %d снимки с движение могат да бъдат запазени като видео наведнъж</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d снимка</item>
+        <item quantity="other">%1$d снимки</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d видеоклип</item>
+        <item quantity="other">%1$d видеоклипа</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d избран елемент</item>
+        <item quantity="other">%1$d избрани елемента</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d елемент</item>
+        <item quantity="other">%1$d елемента</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Неуспешно премахване на %1$d елемент от любимите. Опитайте отново.</item>
+        <item quantity="other">Неуспешно премахване на %1$d елемента от любимите. Опитайте отново.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Нарисувайте обикновен предмет и го оградете, за да създадете произведение на изкуството. Лимит за използване: %1$d път на ден.</item>
+        <item quantity="other">Нарисувайте обикновен предмет и го оградете, за да създадете произведение на изкуството. Лимит за използване: %1$d пъти на ден.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Неуспешен запис на %d анимиран стикер</item>
+        <item quantity="other">Неуспешен запис на %d анимирани стикера</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Можете да изберете още 1 – %1$d снимка</item>
+        <item quantity="other">Можете да изберете още 1 – %1$d снимки</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Можете да изберете още 1–%1$d снимки (%2$s)</item>
+        <item quantity="other">Можете да изберете още 1–%1$d снимки (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">включително %d снимка с движение</item>
+        <item quantity="other">включително %d снимки с движение</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Изтегляне на оригиналната снимка</item>
+        <item quantity="other">Изтегляне на оригиналните снимки</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d снимка на вашето устройство е по-малка версия. Изтегляне на оригиналната снимка в пълна резолюция (%2$s)?</item>
+        <item quantity="other">%1$d снимки на устройството ви са по-малки версии. Изтегляне на оригиналните снимки в пълна резолюция (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Изтегляне на %1$d оригинална снимка</item>
+        <item quantity="other">Изтегляне на %1$d оригинални снимки</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d снимка</item>
+        <item quantity="other">%1$d снимки</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d оригинална снимка не е изтеглена. Недостатъчна памет на устройството.</item>
+        <item quantity="other">%1$d оригинални снимки не са изтеглени. Недостатъчна памет на устройството.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d елемент не е изтеглен. Недостатъчна памет на устройството.</item>
+        <item quantity="other">%1$d елемента не са изтеглени. Недостатъчна памет на устройството.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Качването е поставено на пауза за %1$d елемент. Няма връзка с интернет.</item>
+        <item quantity="other">Качването е поставено на пауза за %1$d елемента. Няма връзка с интернет.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Качването е поставено на пауза за %1$d елемент. Не сте свързани към Wi-Fi.</item>
+        <item quantity="other">Качването е поставено на пауза за %1$d елемента. Не сте свързани към Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Качването на %1$d елемент е поставено на пауза, за да се пести заряд на батерията.</item>
+        <item quantity="other">Качването на %1$d елемента е поставено на пауза, за да се пести заряд на батерията.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Качването е поставени на пауза за %1$d елемент. Телефонът е твърде горещ.</item>
+        <item quantity="other">Качването е поставени на пауза за %1$d елемента. Телефонът е твърде горещ.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Качването е поставени на пауза за %1$d елемент. Облакът е в процес на поддръжка.</item>
+        <item quantity="other">Качването е поставени на пауза за %1$d елемента. Облакът е в процес на поддръжка.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Качването е поставени на пауза за %1$d елемент. Таблетът е твърде горещ.</item>
+        <item quantity="other">Качването е поставени на пауза за %1$d елемента. Таблетът е твърде горещ.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Синхронизиране на %1$d елемент от облака</item>
+        <item quantity="other">Синхронизиране на %1$d елемента от облака</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d снимка</item>
+        <item quantity="other">%1$d снимки</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d видеоклип</item>
+        <item quantity="other">%1$d видеоклипа</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е изтеглен.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е изтеглен. Моля, заредете телефона си.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са изтеглени. Моля, заредете телефона си.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е изтеглен. Свържете към захранване, за да продължите.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са изтеглени. Свържете към захранване, за да продължите.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е изтеглен.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Включен икономичен режим. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Включен икономичен режим. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Включен енергоспестяващ режим. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Включен енергоспестяващ режим. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е изтеглен. %2$s.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са изтеглени. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е изтеглен. %2$s или %3$s.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са изтеглени. %2$s или %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Недостатъчно място за съхранение в облака. %1$d елемента не са изтеглени.</item>
+        <item quantity="other">Недостатъчно място за съхранение в облака. %1$d елемент не е изтеглен.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Недостатъчна памет на устройството. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Недостатъчна памет на устройството. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Грешка в мрежата. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Грешка в мрежата. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Грешка в мрежата. %1$d елемент не е изтеглен.</item>
+        <item quantity="other">Грешка в мрежата. %1$d елемента не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Недостатъчна памет на устройството. %1$d оригинална снимка не е изтеглена.</item>
+        <item quantity="other">Недостатъчна памет на устройството. %1$d оригинални снимки не са изтеглени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d снимка не е синхронизирана. Мястото за съхранение в облака е пълно.</item>
+        <item quantity="other">%1$d снимки не са синхронизирани. Паметта в облака е пълна.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d снимка не е синхронизирана. Синхронизирането в облака е поставено на пауза, когато батерията е по-малко от %2$s.</item>
+        <item quantity="other">%1$d снимки не са синхронизирани. Синхронизирането в облака е поставено на пауза, когато батерията е по-малко от %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d снимка не е синхронизирана. Синхронизирането в облака е поставено на пауза в Енергоспестяващ режим.</item>
+        <item quantity="other">%1$d снимки не са синхронизирани. Синхронизирането в облака е поставено на пауза в Енергоспестяващ режим.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Паметта в облака е пълна. %1$d елемент не е качен.</item>
+        <item quantity="other">Паметта в облака е пълна. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е качен.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е качен. Моля, заредете телефона си.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са качени. Моля, заредете телефона си.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е качен. Свържете към захранване, за да продължите.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са качени. Свържете към захранване, за да продължите.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Зарядът на батерията е по-малко от %1$s. %2$d елемент не е качен.</item>
+        <item quantity="other">Зарядът на батерията е по-малко от %1$s. %2$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Включен икономичен режим. %1$d елемент не е качен.</item>
+        <item quantity="other">Включен икономичен режим. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Включен енергоспестяващ режим. %1$d елемент не е качен.</item>
+        <item quantity="other">Включен енергоспестяващ режим. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Паметта в облака е пълна. %1$d елемент не е качен.</item>
+        <item quantity="other">Паметта в облака е пълна. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d видеоклип не е синхронизиран. Паметта в облака е пълна.</item>
+        <item quantity="other">%1$d видеоклипове не са синхронизирани. Паметта в облака е пълна.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d видеоклип не е синхронизиран. Синхронизирането в облака е поставено на пауза, когато батерията е по-малко от %2$s.</item>
+        <item quantity="other">%1$d видеоклипа не са синхронизирани. Синхронизирането в облака е поставено на пауза, когато батерията е по-малко от %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d видеоклип не е синхронизиран. Синхронизирането в облака е поставено на пауза в Енергоспестяващ режим.</item>
+        <item quantity="other">%1$d видеоклипа не са синхронизирани. Синхронизирането в облака е поставено на пауза в Енергоспестяващ режим.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d снимки не са синхронизирани.</item>
+        <item quantity="other">%1$d снимка не е синхронизирана.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е качен.%2$s.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са качени. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е качен. %2$s или %3$s.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са качени. %2$s или %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е качен.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Няма връзка с мрежата. %1$d елемент не е качен.</item>
+        <item quantity="other">Няма връзка с мрежата. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d видеоклип не е синхронизиран</item>
+        <item quantity="other">%1$d видеоклипа не са синхронизирани</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Грешка в мрежата. %1$d елемент не е качен.</item>
+        <item quantity="other">Грешка в мрежата. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Връзката с мрежата е прекъсната. %1$d елемент не е качен.</item>
+        <item quantity="other">Грешка в мрежата. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Грешка в услугата. %1$d елемент не е качен.</item>
+        <item quantity="other">Грешка в услугата. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Грешка в услугата. %1$d елемент не е качен.</item>
+        <item quantity="other">Грешка в услугата. %1$d елемента не са качени.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Синхронизиране на %1$d елемент</item>
+        <item quantity="other">Синхронизиране на %1$d елемента</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Синхронизиран %1$d елемент в облака…</item>
+        <item quantity="other">Синхронизирани %1$d елемента в облака…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d видеоклип</item>
+        <item quantity="other">%1$d видеоклипа</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Някои платформи може да не поддържат снимки с движение с продължителност над %d секунда</item>
+        <item quantity="other">Някои платформи може да не поддържат снимки с движение с продължителност над %d секунди</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Можете да използвате „Изпъкващо изображение“ върху %1$d снимка с движение едновременно</item>
+        <item quantity="other">Можете да използвате „Изпъкващо изображение“ върху до %1$d снимки с движение едновременно</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Не се поддържат снимки с движение, по-дълги от %1$d секунда</item>
+        <item quantity="other">Не се поддържат снимки с движение, по-дълги от %1$d секунди</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Наведнъж може да се плъзга не повече от %d елемент</item>
+        <item quantity="other">Наведнъж може да се плъзгат не повече от %d елемента</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Неуспешно добавяне %d на елемент</item>
+        <item quantity="other">Неуспешно добавяне на %d елемента</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d снимка не може да бъде зададена като лична, защото се зарежда.</item>
+        <item quantity="other">%d снимки не могат да бъдат зададени като лични, защото се зареждат.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d час</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d елемент</item>
+        <item quantity="other">%d елемента</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d минута</item>
+        <item quantity="other">%d минути</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d секунда</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d секунда</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d елемент не може да бъде импортиран за видеоредактиране</item>
+        <item quantity="other">%d елемента не могат да бъдат импортирани за видеоредактиране</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Страница %1$d от %2$d</item>
+        <item quantity="other">Страница %1$d от %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Изберете не повече от %1$d снимка за един GIF</item>
+        <item quantity="other">Изберете не повече от %1$d снимки за един GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Поддържат се само снимки с движение с продълж. до %1$d секунда</item>
+        <item quantity="other">Поддържат се само снимки с движение с продълж. до %1$d секунди</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Изберете поне %1$d снимка, за да създадете GIF</item>
+        <item quantity="other">Изберете поне %1$d снимки, за да създадете GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Изберете не повече от %1$d снимка за един GIF</item>
+        <item quantity="other">Изберете не повече от %1$d снимки за един GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Само %1$d снимка отговаря на изискванията за формат</item>
+        <item quantity="other">Само %1$d снимки отговарят на изискванията за формат</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d снимка няма да бъде включена в GIF</item>
+        <item quantity="other">%1$d снимки няма да бъдат включени в GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d снимка не се поддържа</item>
+        <item quantity="other">%1$d снимки не се поддържат</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Зареждане на %1$s елемент в „Google Снимки“…</item>
+        <item quantity="other">Зареждане на %1$s елемента в „Google Снимки“…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Недостатъчна памет в „Google Снимки“. %1$d елемент не е архивиран.</item>
+        <item quantity="other">Недостатъчна памет в „Google Снимки“. %1$d елемента не са архивирани.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Създаване на резервно копие на %1$s елемент в „Google Снимки“…</item>
+        <item quantity="other">Създаване на резервно копие на %1$s елемента в „Google Снимки“…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d елемент се синхронизира с HeyTap Cloud. Изключването на това ще отмени автоматичното синхронизиране. За да запазите данните си в безопасност, препоръчваме да изчакате синхронизирането да завърши.</item>
+        <item quantity="other">%1$d елемента се синхронизират с HeyTap Cloud. Изключването на това ще отмени автоматичното синхронизиране. За да запазите данните си в безопасност, препоръчваме да изчакате синхронизирането да завърши.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Само %d албум може да бъде добавен към „Често използвани“</item>
+        <item quantity="other">До %d албума могат да бъдат добавени към „Често използвани“</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d намерено устройство</item>
+        <item quantity="other">%1$d намерени устройства</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d ден</item>
+        <item quantity="other">%1$d дни</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d снимка</item>
+        <item quantity="other">%1$d снимки</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d видеоклип</item>
+        <item quantity="other">%1$d видеоклипа</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Не може да бъде избран повече от %1$d стикер</item>
+        <item quantity="other">Не могат да бъдат избрани повече от %1$d стикера</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Изтриване на %1$d елемент от NAS</item>
+        <item quantity="other">Изтриване на %1$d елемента от NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Изтеглянето завърши. Неуспешно изтегляне на %1$d елемент.</item>
+        <item quantity="other">Изтеглянето завърши. Неуспешно изтегляне на %1$d елемента.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">Изтеглен е %1$d елемент.</item>
+        <item quantity="other">Изтеглени са %1$d елемента.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Изтегляне на %1$d от %2$d…</item>
+        <item quantity="other">Изтегляне на %1$d от %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Как искате да редактирате избраната област?</item>
+        <item quantity="other">Как искате да редактирате избраните области?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Можете да добавите до %d стикер</item>
+        <item quantity="other">Можете да добавите до %d стикера</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">В „Стикери“ можете да добавите само %d анимиран стикер. Допълнителните стикери ще бъдат конвертирани в статични стикери.</item>
+        <item quantity="other">В „Стикери“ можете да добавите до %d анимирани стикера. Допълнителните стикери ще станат статични.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Редактираната версия е ограничена до %d секунда за лесно споделяне.</item>
+        <item quantity="other">Редактираната версия е ограничена до %d секунди за лесно споделяне.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Стикерите могат да бъдат с продължителност до %d секунда</item>
+        <item quantity="other">Стикерите могат да бъдат с продължителност до %d секунди</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Стикерите могат да бъдат с продължителност само %d секунда.</item>
+        <item quantity="other">Стикерите могат да бъдат с продължителност до %d секунди.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Видеоклиповете могат да бъдат с продължителност до %d секунда</item>
+        <item quantity="other">Видеоклиповете могат да бъдат с продължителност до %d секунди</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Опишете какво искате да промените в избраната област</item>
+        <item quantity="other">Опишете какво искате да промените в избраните области</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Записът спира след %1$d секунда</item>
+        <item quantity="other">Записът спира след %1$d секунди</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Можете да изберете до %1$d област</item>
+        <item quantity="other">Можете да изберете до %1$d области</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Поддържат се само снимки с движение с продължителност до %1$d секунда</item>
+        <item quantity="other">Поддържат се само снимки с движение с продълж. до %1$d секунди</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Очакваното време за изчакване е %1$d мин. поради големия размер на файла</item>
+        <item quantity="other">Очакваното време за изчакване е %1$d мин. поради големия размер на файла</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Експортиране на %d избрана снимка</item>
+        <item quantity="other">Експортиране на %d избрани снимки</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Трябва да надвишава %1$d мм</item>
+        <item quantity="other">Трябва да надвишава %1$d мм</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Трябва да надвишава %1$d px</item>
+        <item quantity="other">Трябва да надвишава %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Трябва да не надвишава %1$d мм</item>
+        <item quantity="other">Трябва да не надвишава %1$d мм</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Трябва да не надвишава %1$d px</item>
+        <item quantity="other">Трябва да не надвишава %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Трябва да надвишава %1$d KB</item>
+        <item quantity="other">Трябва да надвишава %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Трябва да не надвишава %1$d KB</item>
+        <item quantity="other">Трябва да не надвишава %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Трябва да надвишава %1$d мм</item>
+        <item quantity="other">Трябва да надвишава %1$d мм</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Трябва да надвишава %1$d px</item>
+        <item quantity="other">Трябва да надвишава %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Трябва да не надвишава %1$d мм</item>
+        <item quantity="other">Трябва да не надвишава %1$d мм</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Трябва да не надвишава %1$d px</item>
+        <item quantity="other">Трябва да не надвишава %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Запазване само на %d избраната снимка</item>
+        <item quantity="other">Запазване само на %d избраните снимки</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Изтриване на %d елемент</item>
+        <item quantity="other">Изтриване на %d елементи</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Изтриване на %d елемент</item>
+        <item quantity="other">Изтриване на %d елемента</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Неуспешно добавяне на %1$d стикер</item>
+        <item quantity="other">Неуспешно добавяне на %1$d стикера</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Неуспешно добавяне на %d стикер</item>
+        <item quantity="other">Неуспешно добавяне на %d стикера</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s добавен стикер</item>
+        <item quantity="other">%1$s добавени стикера</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s добавен стикер</item>
+        <item quantity="other">%1$s добавени стикера</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Добавен %1$d стикер</item>
+        <item quantity="other">Добавени %1$d стикера</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">В „AI ремикс колаж“ можете да добавите до %1$d анимиран стикер. Допълнителните стикери ще станат статични.</item>
+        <item quantity="other">В „AI ремикс колаж“ можете да добавите до %1$d анимирани стикера. Допълнителните стикери ще станат статични.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Можете да добавите до %1$d снимка с движение</item>
+        <item quantity="other">Можете да добавите до %1$d снимки с движение</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Можете да добавите до %1$d снимка</item>
+        <item quantity="other">Можете да добавите до %1$d снимки</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">За да премахнете обекти от снимките си, изтеглете добавката „Инструмент за премахване“. Размер на файла: %1$s. Очаквано време за изтегляне: %2$d минути.</item>
+        <item quantity="other">За да премахнете обекти от снимките си, изтеглете добавката „Инструмент за премахване“. Размер на файла: %1$s. Очаквано време за изтегляне: %2$d минути.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Размер на файла: %1$d. Очаквано време за изтегляне: %2$d.</item>
+        <item quantity="other">Размер на файла: %1$d. Очаквано време за изтегляне: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d снимка не се поддържа</item>
+        <item quantity="other">%1$d снимки не се поддържат</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d избрани</item>
+        <item quantity="other">%1$d/%2$d избрани</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d избран елемент</item>
+        <item quantity="other">%1$d избрани елемента</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">Избран е %1$d албум</item>
+        <item quantity="other">Избрани са %1$d албума</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d избран елемент</item>
+        <item quantity="other">%1$d избрани елемента</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">Избран е %1$d видеоклип</item>
+        <item quantity="other">Избрани са %1$d видеоклипа</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Не може да се добавя повече от %1$d стикер</item>
+        <item quantity="other">Не може да се добавят повече от %1$d стикера</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Може да се избере само %1$d елемент</item>
+        <item quantity="other">Могат да бъдат избрани до %1$d елемента</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d снимка не може да се изтрие, защото се зарежда.</item>
+        <item quantity="other">%d снимки не могат да се изтрият, защото се зареждат.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Неуспешно изтриване на %1$d елемент. Моля, опитайте отново.</item>
+        <item quantity="other">Неуспешно изтриване на %1$d елемента. Моля, опитайте отново.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Премахване на %d субект?</item>
+        <item quantity="other">Премахване на %d субекта?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d снимка</item>
+        <item quantity="other">%1$d снимки</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Можете да добавите само %1$d стикер с движение. Допълнителните стикери с движение ще бъдат показани като статични.</item>
+        <item quantity="other">Можете да добавите до %1$d стикера с движение. Допълнителните стикери с движение ще бъдат показани като статични.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Само %d елемент може да бъде споделен с това приложение</item>
+        <item quantity="other">До %d елемента могат да бъдат споделени с това приложение</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Споделяне на %d елемент</item>
+        <item quantity="other">Споделяне на %d елемента</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Споделяне на %d снимка</item>
+        <item quantity="other">Споделяне на %d снимки</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Споделяне на %d видеоклип</item>
+        <item quantity="other">Споделяне на %d видеоклипа</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Изтриване на %d момент?</item>
+        <item quantity="other">Изтриване на %d момента?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d история, подбрана за вас.</item>
+        <item quantity="other">%d истории, подбрани за вас.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d избран</item>
+        <item quantity="other">%d избрани</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Завъртане с %d градус</item>
+        <item quantity="other">Завъртане с %d градуса</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Можете да импортирате само %s файл</item>
+        <item quantity="other">Можете да импортирате до %s файла</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Добавяне на %1d елемент</item>
+        <item quantity="other">Добавяне на %1d елемента</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Може да се импортира до %s LUT файл</item>
+        <item quantity="other">Могат да се импортират до %s LUT файла</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Не може да бъде добавена повече от %d снимка</item>
+        <item quantity="other">Не може да се добавят повече от %d снимки</item>
+    </plurals>
+</resources>
