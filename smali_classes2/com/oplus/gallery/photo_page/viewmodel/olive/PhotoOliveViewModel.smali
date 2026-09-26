@@ -2542,6 +2542,8 @@
     move-result p0
 
     .line 63
+    const/4 p0, 0x1
+
     if-nez p0, :cond_3
 
     .line 64
