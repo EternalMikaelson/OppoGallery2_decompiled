@@ -1,0 +1,70 @@
+.class public interface abstract Lcom/coloros/encryption/EncyptionInterface;
+.super Ljava/lang/Object;
+.source "EncyptionInterface.java"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/coloros/encryption/EncyptionInterface$Stub;,
+        Lcom/coloros/encryption/EncyptionInterface$Default;
+    }
+.end annotation
+
+
+# static fields
+.field public static final DESCRIPTOR:Ljava/lang/String; = "com.coloros.encryption.EncyptionInterface"
+
+
+# virtual methods
+.method public abstract deleteBackupRestoreData()Z
+.end method
+
+.method public abstract deleteTask(Ljava/lang/String;)V
+.end method
+
+.method public abstract dencryptionTask(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Z)I
+.end method
+
+.method public abstract encryptionTask(Ljava/lang/String;IZ)I
+.end method
+
+.method public abstract encryptionTasks(Ljava/util/List;[IZLcom/coloros/encryption/IEncryptProgressListener;)I
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;[IZ",
+            "Lcom/coloros/encryption/IEncryptProgressListener;",
+            ")I"
+        }
+    .end annotation
+.end method
+
+.method public abstract getBitmap(Ljava/lang/String;Ljava/lang/String;)Landroid/graphics/Bitmap;
+.end method
+
+.method public abstract getBitmapForExternal(Ljava/lang/String;III)Landroid/graphics/Bitmap;
+.end method
+
+.method public abstract getSafeFile(Ljava/lang/String;JJLjava/lang/String;Ljava/lang/String;)Lcom/coloros/encryption/ImageInfo;
+.end method
+
+.method public abstract mergeBackupRestoreData()Z
+.end method
+
+.method public abstract registerCallback(Lcom/coloros/encryption/CallbackInterface;)V
+.end method
+
+.method public abstract savePasswordAndMode(ILjava/lang/String;)V
+.end method
+
+.method public abstract setStopEncryption(Z)V
+.end method
+
+.method public abstract viewTask(Ljava/lang/String;)Ljava/lang/String;
+.end method

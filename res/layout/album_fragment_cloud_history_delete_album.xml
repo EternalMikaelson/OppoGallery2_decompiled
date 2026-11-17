@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="?couiColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.basebiz.widget.scroller.RecyclerViewFastScroller android:id="@id/fastScroller" android:layout_width="match_parent" android:layout_height="match_parent" app:common_track_marginBottom="@dimen/common_bottom_navigation_menu_height" app:common_track_marginTop="@dimen/base_album_recyclerview_padding_top">
+        <com.oplus.gallery.basebiz.widget.AlbumRecycleView android:id="@id/recycler_view" android:paddingTop="@dimen/base_album_recyclerview_padding_top" android:paddingBottom="@dimen/base_album_recyclerview_padding_bottom" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+        <ImageView android:id="@id/album_top_translucent_view" android:background="@drawable/base_album_top_mask_repeat" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+    </com.oplus.gallery.basebiz.widget.scroller.RecyclerViewFastScroller>
+    <include layout="@layout/base_album_appbar_no_divider_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

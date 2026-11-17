@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/memories_background" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@color/coui_clickable_text_color_disabled" android:scaleType="fitXY" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/memories_cover" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/main_memories_album_set_cover_gradient" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <Button android:id="@id/memories_play_button" android:background="@drawable/main_memories_icon_play_btn_selector" android:layout_width="@dimen/main_memories_play_button_size" android:layout_height="@dimen/main_memories_play_button_size" android:layout_marginBottom="@dimen/main_memories_play_button_margin_bottom" android:contentDescription="@string/talkback_picture3d_editor_text_memories_play_button" android:layout_marginEnd="@dimen/main_memories_play_button_margin_end" android:forceDarkAllowed="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/main_memories_title_container_min_height" android:layout_marginStart="@dimen/main_memories_title_margin_start" android:layout_marginEnd="@dimen/main_memories_title_margin_end" app:layout_constraintBottom_toBottomOf="@id/memories_play_button" app:layout_constraintEnd_toStartOf="@id/memories_play_button" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textAppearance="@style/main_MemoryDetailsHeaderTitleTextAppearance" android:id="@id/memories_title_text" android:textDirection="locale" style="@style/main_MemoryDetailsHeaderText" />
+        <TextView android:textAppearance="@style/main_MemoryDetailsHeaderSubTitleTextAppearance" android:id="@id/memories_date_text" android:layout_marginTop="@dimen/main_memories_subtitle_margin_top" android:textDirection="locale" style="@style/main_MemoryDetailsHeaderText" />
+    </LinearLayout>
+</merge>

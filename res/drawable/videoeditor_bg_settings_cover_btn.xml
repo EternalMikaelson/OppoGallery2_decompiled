@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/videoeditor_bg_settings_cover_btn_color" />
+    <corners android:radius="@dimen/videoeditor_settings_cover_btn_radius" />
+</shape>

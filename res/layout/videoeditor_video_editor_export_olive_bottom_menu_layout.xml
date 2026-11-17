@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/export_olive_menu_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.videoeditorpage.video.business.exportolive.ExportPlayBackView android:id="@id/preview_export_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/video_editor_export_playback_btn_min_height" android:layout_centerHorizontal="true" app:playIcon="@drawable/videoeditor_button_export_playback_icon" app:playText="@string/videoeditor_editor_export_preview_playback" />
+    <FrameLayout android:id="@id/export_olive_thumb_layout" android:layout_width="match_parent" android:layout_height="@dimen/video_editor_export_olive_trim_view_height" android:layout_marginTop="@dimen/video_editor_export_olive_thumbnail_margin_top" android:layout_below="@id/preview_export_video">
+        <com.oplus.gallery.videoeditorpage.video.business.wallpaper.GalleryVideoThumbnailView android:id="@id/video_thumb_view" android:background="@null" android:layout_width="match_parent" android:layout_height="@dimen/video_editor_export_olive_thumbnail_view_height" android:layout_marginTop="@dimen/video_editor_export_olive_thumbnail_margin_top" android:layoutDirection="ltr" />
+        <com.oplus.gallery.videoeditorpage.video.business.exportolive.VideoOliveCoverView android:id="@id/video_cover_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

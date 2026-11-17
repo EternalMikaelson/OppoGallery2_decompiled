@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/choose_pop_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.cardview.COUICardView android:id="@id/choose_pop_cardview" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:outlineSpotShadowColor="@color/Black" android:forceDarkAllowed="false">
+        <androidx.recyclerview.widget.COUIRecyclerView android:layout_gravity="center" android:id="@id/choose_pop_recycerview" android:padding="@dimen/photo_editor_ai_best_take_choose_pop_view_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.coui.appcompat.cardview.COUICardView>
+</RelativeLayout>

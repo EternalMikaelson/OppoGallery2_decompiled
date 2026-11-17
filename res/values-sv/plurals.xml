@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Tryck för att lägga till albumet %1$1s och %2$2s i Ofta använt.</item>
+        <item quantity="other">Tryck för att lägga till albumet %1$1s och %2$2s i Ofta använt.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s match</item>
+        <item quantity="other">%s matcher</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Välj medier och tryck på det flytande fönstret Direktklipp med AI nedan för att generera en video snabbt. Välj minst %1$s objekt för bättre resultat.</item>
+        <item quantity="other">Välj medier och tryck på det flytande fönstret Direktklipp med AI nedan för att generera en video snabbt. Välj minst %1$s objekt för bättre resultat.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Välj medier och tryck på Ändra – Direktklipp med AI längst ner för att generera en video snabbt. Välj minst %1$s objekt för bättre resultat.</item>
+        <item quantity="other">Välj medier och tryck på Ändra – Direktklipp med AI längst ner för att generera en video snabbt. Välj minst %1$s objekt för bättre resultat.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Rörliga bilder som är längre än %1$d sekund stöds inte</item>
+        <item quantity="other">Rörliga bilder som är längre än %1$d sekunder stöds inte</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Videon får vara max. %d sekund lång</item>
+        <item quantity="other">Videon får vara max. %d sekunder lång</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d låst app</item>
+        <item quantity="other">%d låsta appar</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Albumet %1$1s och %2$2s har lagts till i Ofta använt.</item>
+        <item quantity="other">Albumet %1$1s och %2$2s har lagts till i Ofta använt.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Lägg till (%1$d)</item>
+        <item quantity="other">Lägg till (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Lägg till (%1$d/%2$d)</item>
+        <item quantity="other">Lägg till (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d justerat objekt</item>
+        <item quantity="other">%1$d justerade objekt</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d foto läses in och kan inte läggas till.</item>
+        <item quantity="other">%d foton läses in och kan inte läggas till.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d dokument</item>
+        <item quantity="other">%1$d dokument</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d bankkort</item>
+        <item quantity="other">%1$d bankkort</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Objekt från %d album raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa objekt är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+        <item quantity="other">Objekt från %d album raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa objekt är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d bildserie raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Alla bildserier har säkerhetskopierats till molnet och kommer att bevaras där.</item>
+        <item quantity="other">%d bildserier raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Alla bildserier har säkerhetskopierats till molnet och kommer att bevaras där.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d bildserie raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa foton är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+        <item quantity="other">%d bildserier raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa foton är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d objekt raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa objekt är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+        <item quantity="other">%d objekt raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa objekt är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d foto raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa foton är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+        <item quantity="other">%d foton raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa foton är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d video raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa videor är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+        <item quantity="other">%d videor raderas från den här enheten och blir kvar i Senast raderade i 30 dagar. Vissa videor är inte säkerhetskopierade. Du kanske vill säkerhetskopiera dem innan du raderar dem.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s miniatyrbild ersätts med den ursprungliga versionen.</item>
+        <item quantity="other">%1$s miniatyrbilder ersätts med sina ursprungliga versioner.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d id</item>
+        <item quantity="other">%1$d id:n</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Slå samman och ta bort %d person?</item>
+        <item quantity="other">Slå samman och ta bort %d personer?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Ta bort %d bild från detta album?</item>
+        <item quantity="other">Ta bort %d bilder från detta album?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Ta bort %d objekt från detta album?</item>
+        <item quantity="other">Ta bort %d objekt från detta album?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Ta bort %d video från detta album?</item>
+        <item quantity="other">Ta bort %d videor från detta album?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Använd miniatyr</item>
+        <item quantity="other">Använd miniatyrer</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Använd original</item>
+        <item quantity="other">Använd originalbilder</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 bild är en miniatyr. Du kan hämta och använda originalbilden istället.</item>
+        <item quantity="other">Vissa av de valda bilderna är miniatyrer. Du kan hämta och använda originalbilderna istället.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Maximalt %1$d bild kan konverteras till PDF åt gången</item>
+        <item quantity="other">Maximalt %1$d bilder kan konverteras till PDF åt gången</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Otillräckligt lagringsutrymme på enheten. %1$d objekt kopierades inte.</item>
+        <item quantity="other">Otillräckligt lagringsutrymme på enheten. %1$d objekt kopierades inte.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d objekt kopierades</item>
+        <item quantity="other">%d objekt kopierades</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Som mest kan %d objekt kopieras</item>
+        <item quantity="other">Som mest kan %d objekt kopieras</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d bild kommer att raderas permanent från denna enhet.</item>
+        <item quantity="other">%d bilder kommer att raderas permanent från denna enhet.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d objekt raderas permanent från denna enhet.</item>
+        <item quantity="other">%d objekt kommer att raderas permanent från denna enhet.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d video kommer att raderas permanent från denna enhet.</item>
+        <item quantity="other">%d videor kommer att raderas permanent från denna enhet.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d seriebild kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d seriebilder kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Denna bild raderas permanent från enheten, molnet och andra synkroniserade enheter. Åtgärden kan inte ångras.</item>
+        <item quantity="other">Dessa bilder raderas permanent från enheten, molnet och andra synkroniserade enheter. Åtgärden kan inte ångras.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Detta foto kommer att raderas permanent. Åtgärden kan inte ångras.</item>
+        <item quantity="other">Dessa foton kommer att raderas permanent. Åtgärden kan inte ångras.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Detta objekt raderas permanent från enheten, molnet och andra synkroniserade enheter. Åtgärden kan inte ångras.</item>
+        <item quantity="other">Dessa objekt raderas permanent från enheten, molnet och andra synkroniserade enheter. Åtgärden kan inte ångras.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Detta objekt kommer att raderas permanent. Åtgärden kan inte ångras.</item>
+        <item quantity="other">Dessa objekt kommer att raderas permanent. Åtgärden kan inte ångras.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d bild raderas permanent från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d bilder raderas permanent från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d objekt raderas permanent från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d objekt raderas permanent från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d video raderas permanent från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d videor raderas permanent från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d seriebild raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d seriebilder raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Vill du radera %d album?</item>
+        <item quantity="other">Vill du radera %d album?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Vill du radera %d bildserie?</item>
+        <item quantity="other">Radera %d bildserier?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d minne kommer att raderas från denna enhet. Bilder i detta minne sparas i appen Bilder.</item>
+        <item quantity="other">%d minnen kommer att raderas från denna enhet. Bilder i dessa minnen sparas i appen \"Bilder\".</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Vill du radera %d minne?</item>
+        <item quantity="other">Vill du radera %d minnen?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Radera %d objekt permanent</item>
+        <item quantity="other">Radera %d objekt permanent</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Radera %d objekt</item>
+        <item quantity="other">Radera %d objekt</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Vill du radera %d bild?</item>
+        <item quantity="other">Vill du radera %d bilder?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Vill du radera %d objekt?</item>
+        <item quantity="other">Radera %d objekt?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Vill du radera %d video?</item>
+        <item quantity="other">Vill du radera %d videor?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Vill du radera %d dekal?</item>
+        <item quantity="other">Vill du radera %d dekaler?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Ta bort den här bilden</item>
+        <item quantity="other">Ta bort de här bilderna</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Denna video raderas permanent från enheten, molnet och andra synkroniserade enheter. Åtgärden kan inte ångras.</item>
+        <item quantity="other">Dessa videor raderas permanent från enheten, molnet och andra synkroniserade enheter. Åtgärden kan inte ångras.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Denna video kommer att raderas permanent. Åtgärden kan inte ångras.</item>
+        <item quantity="other">Dessa videor kommer att raderas permanent. Åtgärden kan inte ångras.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Hämtar %d objekt ...</item>
+        <item quantity="other">Hämtar %d objekt ...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Hämtar %d bild …</item>
+        <item quantity="other">Hämtar %d bilder ...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Hämtar %d video …</item>
+        <item quantity="other">Hämtar %d videor ...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Vill du ställa in %d fil som privat?</item>
+        <item quantity="other">Vill du ställa in %d filer som privata?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Vill du ställa in den här bilden som privat?</item>
+        <item quantity="other">Vill du ställa in de här bilderna som privata?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d fil kunde inte krypteras</item>
+        <item quantity="other">%d filer kunde inte krypteras</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Vill du låsa %d album?</item>
+        <item quantity="other">Vill du låsa %d album?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d bildserie kommer att raderas från den här enheten. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d bildserier kommer att raderas från den här enheten. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d bildserie raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d bildserier raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album kommer att raderas från denna enhet. Säkerhetskopierade album sparas i \"Senast raderade\" i 60 dagar; album som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d album kommer att raderas från denna enhet. Säkerhetskopierade album sparas i \"Senast raderade\" i 60 dagar; album som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d bild kommer att raderas från denna enhet. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d bilder kommer att raderas från denna enhet. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d objekt kommer att raderas från denna enhet. Säkerhetskopierade objekt sparas i \"Senast raderade\" i 60 dagar; objekt som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d objekt kommer att raderas från denna enhet. Säkerhetskopierade objekt sparas i \"Senast raderade\" i 60 dagar; objekt som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video kommer att raderas från denna enhet. Säkerhetskopierade videor sparas i \"Senast raderade\" i 60 dagar; videor som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d videor kommer att raderas från denna enhet. Säkerhetskopierade videor sparas i \"Senast raderade\" i 60 dagar; videor som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade album sparas i \"Senast raderade\" i 60 dagar; album som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d album raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade album sparas i \"Senast raderade\" i 60 dagar; album som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d bild raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d bilder raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade bilder sparas i \"Senast raderade\" i 60 dagar; bilder som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d objekt raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade objekt sparas i \"Senast raderade\" i 60 dagar; objekt som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d objekt raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade objekt sparas i \"Senast raderade\" i 60 dagar; objekt som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade videor sparas i \"Senast raderade\" i 60 dagar; videor som inte säkerhetskopierats sparas i 30 dagar.</item>
+        <item quantity="other">%d videor raderas från enheten, molnet och andra synkroniserade enheter. Säkerhetskopierade videor sparas i \"Senast raderade\" i 60 dagar; videor som inte säkerhetskopierats sparas i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Exportera %d vald bild</item>
+        <item quantity="other">Exportera %d valda bilder</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Vill du exportera %d bild?</item>
+        <item quantity="other">Vill du exportera %d bilder?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Misslyckades med att lägga till %1$d objekt till favoriter. Försök igen.</item>
+        <item quantity="other">Kunde inte lägga till %1$d objekt till favoriter. Försök igen.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Filstorlek: %1$s. Beräknad hämtningstid: %2$s minut.</item>
+        <item quantity="other">Filstorlek: %1$s. Beräknad hämtningstid: %2$s minuter.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Använd miniatyr</item>
+        <item quantity="other">Använd miniatyrer</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Använd original</item>
+        <item quantity="other">Använd originalbilder</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 bild är en miniatyr. Du kan hämta och använda originalbilden istället.</item>
+        <item quantity="other">Vissa av de valda bilderna är miniatyrer. Du kan hämta och använda originalbilderna istället.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Hittade ett foto av %s. Flytta det till Kortfodral så att du enkelt kommer åt det.</item>
+        <item quantity="other">Hittade foton av %s. Flytta dem till Kortfodral så att du enklare kommer åt dem.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Ett foto av %1$s flyttades till Kortfodral</item>
+        <item quantity="other">Foton av %1$s flyttades till Kortfodral</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d biljett/kvitto</item>
+        <item quantity="other">%1$d biljetter/kvitton</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Det valda objektet finns redan i albumet</item>
+        <item quantity="other">De valda objekten finns redan i albumet</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d objekt</item>
+        <item quantity="other">%d objekt</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d person kommer att slås samman och tas bort från \"%2$s\".</item>
+        <item quantity="other">%1$d personer kommer att slås samman och tas bort från \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d bild läses in och kan inte flyttas</item>
+        <item quantity="other">%d bilder läses in och kan inte flyttas</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d objekt flyttades</item>
+        <item quantity="other">%d objekt flyttades</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d människor</item>
+        <item quantity="other">%1$d människor</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Hämtar originalfoto...</item>
+        <item quantity="other">Hämtar originalfoton...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Bild kopierad. Videor kan inte kopieras till i det här albumet.</item>
+        <item quantity="other">Bilder kopierade. Videor kan inte kopieras till i det här albumet.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Bild flyttad. Videor kan inte flyttas till det här albumet.</item>
+        <item quantity="other">Bilder flyttade. Videor kan inte flyttas till det här albumet.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d album kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d bild kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d bilder kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d objekt kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d objekt kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d videor kommer att raderas från denna enhet. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Denna bild raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+        <item quantity="other">Dessa bilder raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Denna bild raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">Dessa bilder raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Detta album raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+        <item quantity="other">Dessa album raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Detta album raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">Dessa album raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Detta objekt raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+        <item quantity="other">Dessa objekt raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Detta objekt raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">Dessa objekt raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d album raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d album raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d seriebild raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d seriebilder raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d bild raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d bilder raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d bild raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d bilder raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d objekt raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d objekt raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d objekt raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d objekt raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+        <item quantity="other">%d videor raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt finns kvar i \"Senast raderade\" i 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d video raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">%d videor raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Denna video raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+        <item quantity="other">Dessa videor raderas från enheten, molnet och andra synkroniserade enheter. Raderade objekt kan återställas från albumet \"Senast raderade\" inom 30 dagar.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Denna video raderas från enheten, molnet och andra synkroniserade enheter.</item>
+        <item quantity="other">Dessa videor raderas från enheten, molnet och andra synkroniserade enheter.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Vill du återställa %d bild?</item>
+        <item quantity="other">Vill du återställa %d bilder?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Vill du återställa %d objekt?</item>
+        <item quantity="other">Vill du återställa %d objekt?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Vill du återställa %d video?</item>
+        <item quantity="other">Vill du återställa %d videor?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Återställ %d objekt</item>
+        <item quantity="other">Återställ %d objekt</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Kunde inte spara %d video</item>
+        <item quantity="other">Kunde inte spara %d videor</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d video sparades</item>
+        <item quantity="other">%d videor sparades</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Använd miniatyr</item>
+        <item quantity="other">Använd miniatyrer</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Använd original</item>
+        <item quantity="other">Använd originalbilder</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 bild är en miniatyr. Du kan hämta och använda originalbilden istället.</item>
+        <item quantity="other">Vissa av de valda bilderna är miniatyrer. Du kan hämta och använda originalbilderna istället.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Förhandsvisning av valt objekt (%1$d)</item>
+        <item quantity="other">Förhandsvisning av valda objekt (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Välj 1–%1$d bild</item>
+        <item quantity="other">Välj 1–%1$d bilder</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Använd miniatyr</item>
+        <item quantity="other">Använd miniatyrer</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Använd original</item>
+        <item quantity="other">Använd originalbilder</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 bild är en miniatyr. Du kan hämta och använda originalbilden istället.</item>
+        <item quantity="other">Vissa av de valda bilderna är miniatyrer. Du kan hämta och dela originalbilderna istället.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d bild raderas från det delade albumet \"%2$s\".</item>
+        <item quantity="other">%1$d bilder raderas från det delade albumet \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d objekt raderas från det delade albumet \"%2$s\".</item>
+        <item quantity="other">%1$d objekt raderas från det delade albumet \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d video raderas från det delade albumet \"%2$s\".</item>
+        <item quantity="other">%1$d videor raderas från det delade albumet \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Radera %1$d objekt</item>
+        <item quantity="other">Radera %1$d objekt</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Det gick inte att hämta %1$d objekt på grund av lågt lagringsutrymme på enheten.</item>
+        <item quantity="other">Det gick inte att hämta %1$d objekt på grund av lågt lagringsutrymme på enheten.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d objekt (%2$s) kvar. Vill du återuppta hämtningen via mobildata?</item>
+        <item quantity="other">%1$d objekt (%2$s) kvar. Vill du återuppta hämtningen via mobildata?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Nätverksfel. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Nätverksfel. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Upp till %d rörlig bild kan sparas som en video på en gång</item>
+        <item quantity="other">Upp till %d rörliga bilder kan sparas som en video på en gång</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foton</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videor</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d objekt valt</item>
+        <item quantity="other">%1$d objekt valda</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d objekt</item>
+        <item quantity="other">%1$d objekt</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Kunde inte ta bort %1$d objekt från favoriter. Försök igen.</item>
+        <item quantity="other">Kunde inte ta bort %1$d objekt från favoriter. Försök igen.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Rita ett enkelt objekt och ringa in det för att skapa ett riktigt mästerverk. Användningsgräns: %1$d gång per dag.</item>
+        <item quantity="other">Rita ett enkelt objekt och ringa in det för att skapa ett riktigt mästerverk. Användningsgräns: %1$d gånger per dag.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Det gick inte att spara %d rörlig dekal</item>
+        <item quantity="other">Det gick inte att spara %d rörliga dekaler</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Du kan välja ytterligare 1–%1$d bild</item>
+        <item quantity="other">Du kan välja ytterligare 1–%1$d bilder</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Du kan välja ytterligare 1–%1$d bilder (%2$s)</item>
+        <item quantity="other">Du kan välja ytterligare 1–%1$d bilder (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">inklusive %d rörlig bild</item>
+        <item quantity="other">inklusive %d rörliga bilder</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Ladda ned originalbild</item>
+        <item quantity="other">Ladda ned originalbilder</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d bild på din enhet är en mindre version. Vill du ladda ned den fullskaliga originalbilden? (%2$s)</item>
+        <item quantity="other">%1$d bilder på din enhet är mindre versioner. Vill du ladda ned de fullskaliga originalbilderna? (%2$s)</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Hämtar %1$d originalbild</item>
+        <item quantity="other">Hämtar %1$d originalbilder</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d bild</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d originalbild hämtades inte. Otillräckligt med lagringsutrymme på enheten.</item>
+        <item quantity="other">%1$d originalbilder hämtades inte. Otillräckligt med lagringsutrymme på enheten.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d objekt hämtades inte. Otillräckligt med lagringsutrymme på enheten.</item>
+        <item quantity="other">%1$d objekt hämtades inte. Otillräckligt med lagringsutrymme på enheten.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Uppdateringen pausades för %1$d objekt. Ingen internetanslutning.</item>
+        <item quantity="other">Uppdateringen pausades för %1$d objekt. Ingen internetanslutning.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Uppdateringen pausades för %1$d objekt. Inte ansluten till Wi-Fi.</item>
+        <item quantity="other">Uppdateringen pausades för %1$d objekt. Inte ansluten till Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Uppladdningen av %1$d objekt pausades för att spara batteri.</item>
+        <item quantity="other">Uppladdningen av %1$d objekt pausades för att spara batteri.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Uppladdningen pausades för %1$d objekt. Telefonen är för varm.</item>
+        <item quantity="other">Uppladdningen pausades för %1$d objekt. Telefonen är för varm.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Uppladdningen pausades för %1$d objekt. Underhåll utförs i molnet.</item>
+        <item quantity="other">Uppladdningen pausades för %1$d objekt. Underhåll utförs i molnet.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Uppladdningen pausades för %1$d objekt. Surfplattan är för varm.</item>
+        <item quantity="other">Uppladdningen pausades för %1$d objekt. Surfplattan är för varm.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Synkroniserar %1$d objekt från molnet</item>
+        <item quantity="other">Synkroniserar %1$d objekt från molnet</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foton</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videor</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Batterinivån lägre än %1$s. %2$d objekt hämtades inte.</item>
+        <item quantity="other">Batterinivån lägre än %1$s. %2$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Batterinivå lägre än %1$s. %2$d objekt inte hämtat. Ladda telefonen.</item>
+        <item quantity="other">Batterinivå lägre än %1$s. %2$d objekt inte hämtade. Ladda telefonen.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Batterinivån är lägre än %1$s. %2$d objekt hämtades inte. Anslut till en strömförsörjningskälla för att fortsätta.</item>
+        <item quantity="other">Batterinivån är lägre än %1$s. %2$d objekt hämtades inte. Anslut till en strömförsörjningskälla för att fortsätta.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Batterinivån är lägre än %1$s. %2$d objekt hämtades inte.</item>
+        <item quantity="other">Batterinivån är lägre än %1$s. %2$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Energisparläge på. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Energisparläge på. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Energisparläget är på. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Energisparläget är på. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt hämtades inte. %2$s.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt hämtades inte. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt hämtades inte. %2$s eller %3$s.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt hämtades inte. %2$s eller %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">För lite molnlagringsutrymme. %1$d objekt hämtades inte.</item>
+        <item quantity="other">För lite molnlagringsutrymme. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Otillräckligt lagringsutrymme på enheten. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Otillräckligt lagringsutrymme på enheten. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Nätverksfel. %1$d objekt inte hämtat.</item>
+        <item quantity="other">Nätverksfel. %1$d objekt inte hämtade.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Nätverksfel. %1$d objekt hämtades inte.</item>
+        <item quantity="other">Nätverksfel. %1$d objekt hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Otillräckligt lagringsutrymme på enheten. %1$d originalbild hämtades inte.</item>
+        <item quantity="other">Otillräckligt lagringsutrymme på enheten. %1$d originalbilder hämtades inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d bild ej synkad. Molnlagring är fullt.</item>
+        <item quantity="other">%1$d bilder ej synkade. Molnlagring är fullt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d bild ej synkad. Molnsynkning pausas när batterinivån är lägre än %2$s.</item>
+        <item quantity="other">%1$d bilder ej synkade. Molnsynkning pausas när batteriet är mindre än %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d bild ej synkad. Molnsynkning har pausats i energisparläge.</item>
+        <item quantity="other">%1$d bilder ej synkade. Molnsynkning har pausats i energisparläge.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Molnlagring är fullt. %1$d objekt överfördes inte.</item>
+        <item quantity="other">Molnlagring är fullt. %1$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Batterinivån lägre än %1$s. %2$d objekt överfördes inte.</item>
+        <item quantity="other">Batterinivån lägre än %1$s. %2$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Batterinivå lägre än %1$s. %2$d objekt inte överfört. Ladda telefonen.</item>
+        <item quantity="other">Batterinivå lägre än %1$s. %2$d objekt inte överförda. Ladda telefonen.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Batterinivån är lägre än %1$s. %2$d objekt överfördes inte. Anslut till en strömförsörjningskälla för att fortsätta.</item>
+        <item quantity="other">Batterinivån är lägre än %1$s. %2$d objekt överfördes inte. Anslut till en strömförsörjningskälla för att fortsätta.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Batterinivån är lägre än %1$s. %2$d objekt överfördes inte.</item>
+        <item quantity="other">Batterinivån är lägre än %1$s. %2$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Energisparläge på. %1$d objekt överfördes inte.</item>
+        <item quantity="other">Energisparläge på. %1$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Energisparläget är på. %1$d objekt överfördes inte.</item>
+        <item quantity="other">Energisparläget är på. %1$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Molnlagringen är full. %1$d objekt överfördes inte.</item>
+        <item quantity="other">Molnlagringen är full. %1$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d video ej synkad. Molnlagring är fullt.</item>
+        <item quantity="other">%1$d videor ej synkade. Molnlagring är fullt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d video ej synkad. Molnsynkning pausas när batterinivån är lägre än %2$s.</item>
+        <item quantity="other">%1$d videor ej synkade. Molnsynkning pausas när batteriet är mindre än %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d video ej synkad. Molnsynkning har pausats i energisparläge.</item>
+        <item quantity="other">%1$d videor ej synkade. Molnsynkning har pausats i energisparläge.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d bilder ej synkade.</item>
+        <item quantity="other">%1$d bild ej synkad.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt överfördes inte.%2$s.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt överfördes inte. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt överfördes inte. %2$s eller %3$s.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt överfördes inte. %2$s eller %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt laddades inte upp.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt laddades inte upp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Ingen nätverksanslutning. %1$d objekt överfördes inte.</item>
+        <item quantity="other">Ingen nätverksanslutning. %1$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d video ej synkad</item>
+        <item quantity="other">%1$d videor ej synkade</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Nätverksfel. %1$d objekt inte skickat.</item>
+        <item quantity="other">Nätverksfel. %1$d objekt inte skickade.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Nätanslutningen avbröts. %1$d objekt överfördes inte.</item>
+        <item quantity="other">Nätverksfel. %1$d objekt överfördes inte.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Tjänstefel. %1$d objekt inte skickat.</item>
+        <item quantity="other">Tjänstefel. %1$d objekt inte skickade.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Tjänstefel. %1$d objekt inte skickat.</item>
+        <item quantity="other">Tjänstefel. %1$d objekt inte skickade.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Synkroniserar %1$d objekt</item>
+        <item quantity="other">Synkroniserar %1$d objekt</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Synkroniserar %1$d objekt till molnet...</item>
+        <item quantity="other">Synkroniserar %1$d objekt till molnet...</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videor</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Vissa plattformar kanske inte stöder rörliga bilder som är längre än %d sekund</item>
+        <item quantity="other">Vissa plattformar kanske inte stöder rörliga bilder som är längre än %d sekunder</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Du kan använda Popout på %1$d rörlig bild åt gången</item>
+        <item quantity="other">Du kan använda Popout på upp till %1$d rörliga bilder åt gången</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Rörliga bilder som är längre än %1$d sekund stöds inte</item>
+        <item quantity="other">Rörliga bilder som är längre än %1$d sekunder stöds inte</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Du kan endast dra %d objekt i taget</item>
+        <item quantity="other">Du kan endast dra %d objekt i taget</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Det gick inte att lägga till %d objekt</item>
+        <item quantity="other">Det gick inte att lägga till %d objekt</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d foto läses in och kan inte ställas in som privat.</item>
+        <item quantity="other">%d foton läses in och kan inte ställas in som privat.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d timme</item>
+        <item quantity="other">%d timmar</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d objekt</item>
+        <item quantity="other">%d objekt</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minuter</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d objekt kan inte importeras för videoredigering</item>
+        <item quantity="other">%d objekt kan inte importeras för videoredigering</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Sida %1$d av %2$d</item>
+        <item quantity="other">Sida %1$d av %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Välj inte mer än %1$d bild för en GIF</item>
+        <item quantity="other">Välj inte mer än %1$d bilder för en GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Endast rörliga bilder på upp till %1$d sekund stöds</item>
+        <item quantity="other">Endast rörliga bilder på upp till %1$d sekunder stöds</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Välj minst %1$d bild för att skapa en GIF</item>
+        <item quantity="other">Välj minst %1$d bilder för att skapa en GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Välj inte mer än %1$d bild för en GIF</item>
+        <item quantity="other">Välj inte mer än %1$d bilder för en GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Endast %1$d bild uppfyller formatkraven</item>
+        <item quantity="other">Endast %1$d bilder uppfyller formatkraven</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d bild inkluderas inte i GIF</item>
+        <item quantity="other">%1$d bilder inkluderas inte i GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d bild stöds inte</item>
+        <item quantity="other">%1$d bilder stöds inte</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Läser in %1$s objekt från \"Google Foto\"...</item>
+        <item quantity="other">Läser in %1$s objekt från \"Google Foto\"...</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Otillräckligt lagringsutrymme för \"Google Foto\". %1$d objekt säkerhetskopierades inte.</item>
+        <item quantity="other">Otillräckligt lagringsutrymme för \"Google Foto\". %1$d objekt säkerhetskopierades inte.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Säkerhetskopierar %1$s objekt till \"Google Foto\"...</item>
+        <item quantity="other">Säkerhetskopierar %1$s objekt till \"Google Foto\"...</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d objekt synkroniseras med HeyTap-moln. Om du stänger av detta avbryts den automatiska synkroniseringen. För att skydda dina data rekommenderar vi att du väntar tills synkroniseringen är klar.</item>
+        <item quantity="other">%1$d objekt synkroniseras med HeyTap-moln. Om du stänger av detta avbryts den automatiska synkroniseringen. För att skydda dina data rekommenderar vi att du väntar tills synkroniseringen är klar.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Du kan bara lägga till %d album i Ofta använda</item>
+        <item quantity="other">Du kan lägga till %d album i Ofta använda</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d enhet hittades</item>
+        <item quantity="other">%1$d enheter hittades</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foton</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videor</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Högst %1$d dekal kan väljas</item>
+        <item quantity="other">Högst %1$d dekaler kan väljas</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Radera %1$d objekt från NAS</item>
+        <item quantity="other">Radera %1$d objekt från NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Hämtning klar. Det gick inte att hämta %1$d objekt.</item>
+        <item quantity="other">Hämtning klar. Det gick inte att hämta %1$d objekt.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d objekt har hämtats.</item>
+        <item quantity="other">%1$d objekt har hämtats.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Hämtar %1$d av %2$d …</item>
+        <item quantity="other">Hämtar %1$d av %2$d …</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Hur vill du redigera det markerade området?</item>
+        <item quantity="other">Hur vill du redigera de markerade områdena?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Du kan lägga till upp till %d dekal</item>
+        <item quantity="other">Du kan lägga till upp till %d dekaler</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">I klistermärken kan du bara lägga %d rörelsedekal. Ytterligare dekaler kommer att konverteras till statiska dekaler.</item>
+        <item quantity="other">I Dekaler kan du lägga till upp till %d rörliga dekaler. Ytterligare dekaler blir statiska.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Den ändrade versionen är begränsad till %d sekund för enkel delning.</item>
+        <item quantity="other">Den redigerade versionen är begränsad till %d sekunder för enkel delning.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Dekaler kan vara upp till %d sekund</item>
+        <item quantity="other">Dekaler kan vara upp till %d sekunder långa</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Dekaler kan bara vara %d sekund lång.</item>
+        <item quantity="other">Dekaler kan vara upp till %d sekunder långa</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Videor kan vara upp till %d sekund</item>
+        <item quantity="other">Videor kan vara upp till %d sekunder långa</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Beskriv vad du vill ändra i det markerade området</item>
+        <item quantity="other">Beskriv vad du vill ändra i de markerade områdena</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Inspelningen stoppar om %1$d s</item>
+        <item quantity="other">Inspelningen stoppar om %1$d s</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Du kan välja upp till %1$d område</item>
+        <item quantity="other">Du kan välja upp till %1$d områden</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Endast rörliga bilder på upp till %1$d sekund stöds</item>
+        <item quantity="other">Endast rörliga bilder på upp till %1$d sekunder stöds</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Den förväntade väntetiden är %1$d min på grund av den stora filstorleken</item>
+        <item quantity="other">Den förväntade väntetiden är %1$d min på grund av den stora filstorleken</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Exportera %d vald bild</item>
+        <item quantity="other">Exportera %d valda bilder</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Måste vara större än %1$d mm</item>
+        <item quantity="other">Måste vara större än %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Måste vara större än %1$d px</item>
+        <item quantity="other">Måste vara större än %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Måste vara mindre än %1$d mm</item>
+        <item quantity="other">Måste vara mindre än %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Måste vara mindre än %1$d px</item>
+        <item quantity="other">Måste vara mindre än %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Måste vara större än %1$d KB</item>
+        <item quantity="other">Måste vara större än %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Måste vara mindre än %1$d KB</item>
+        <item quantity="other">Måste vara mindre än %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Måste vara större än %1$d mm</item>
+        <item quantity="other">Måste vara större än %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Måste vara större än %1$d px</item>
+        <item quantity="other">Måste vara större än %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Måste vara mindre än %1$d mm</item>
+        <item quantity="other">Måste vara mindre än %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Måste vara mindre än %1$d px</item>
+        <item quantity="other">Måste vara mindre än %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Behåll endast %d vald bild</item>
+        <item quantity="other">Behåll endast %d valda bilder</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Radera %d objekt</item>
+        <item quantity="other">Radera %d objekt</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Radera %d objekt</item>
+        <item quantity="other">Radera %d objekt</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Det gick inte att lägga till %1$d dekal</item>
+        <item quantity="other">Det gick inte att lägga till %1$d dekaler</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Det gick inte att lägga till %d dekal</item>
+        <item quantity="other">Det gick inte att lägga till %d dekaler</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s dekal lades till</item>
+        <item quantity="other">%1$s dekaler lades till</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s dekal lades till</item>
+        <item quantity="other">%1$s dekaler lades till</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Tillagd %1$d dekal</item>
+        <item quantity="other">Tillagda %1$d dekaler</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">I AI Remix Collage kan du lägga till upp till %1$d rörlig dekal. Ytterligare dekaler blir statiska.</item>
+        <item quantity="other">I AI Remix Collage kan du lägga till upp till %1$d rörliga dekaler. Ytterligare dekaler blir statiska.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Du kan lägga till upp till %1$d rörlig bild</item>
+        <item quantity="other">Du kan lägga till upp till %1$d rörliga bilder</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Du kan lägga till upp till %1$d bild</item>
+        <item quantity="other">Du kan lägga till upp till %1$d bilder</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Hämta Borttagningstillägget för att ta bort föremål från dina bilder. Filstorlek: %1$s. Beräknad tid för att hämta: %2$d minuter.</item>
+        <item quantity="other">Hämta Borttagningstillägget för att ta bort föremål från dina foton. Filstorlek: %1$s. Beräknad tid för att hämta: %2$d minuter.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Filstorlek: %1$d. Beräknad nedladdningstid: %2$d.</item>
+        <item quantity="other">Filstorlek: %1$d. Beräknad nedladdningstid: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d bild stöds inte</item>
+        <item quantity="other">%1$d bilder stöds inte</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d vald</item>
+        <item quantity="other">%1$d/%2$d valda</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d objekt valt</item>
+        <item quantity="other">%1$d objekt valda</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d album markerade</item>
+        <item quantity="other">%1$d album markerade</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d objekt valt</item>
+        <item quantity="other">%1$d objekt valda</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d video markerad</item>
+        <item quantity="other">%1$d videor markerade</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Maximalt %1$d dekal kan läggas till</item>
+        <item quantity="other">Maximalt %1$d dekaler kan läggas till</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Du kan endast välja upp till %1$d objekt</item>
+        <item quantity="other">Du kan välja upp till %1$d objekt</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d foto läses in och kan inte raderas.</item>
+        <item quantity="other">%d foton läses in och kan inte raderas.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Kunde inte radera %1$d objekt. Försök igen.</item>
+        <item quantity="other">Kunde inte radera %1$d objekt. Försök igen.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ny notis</item>
+        <item quantity="other">%d nya notiser</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Vill du ta bort %d motiv?</item>
+        <item quantity="other">Vill du ta bort %d motiv?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foton</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Du kan bara lägga till %1$d rörlig dekal. Ytterligare dekaler kommer att visas som statiska.</item>
+        <item quantity="other">Du kan lägga till upp till %1$d rörliga dekaler. Ytterligare dekaler kommer att visas som statiska.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Endast %d objekt kan delas med den här appen</item>
+        <item quantity="other">Upp till %d objekt kan delas med den här appen</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Dela %d objekt</item>
+        <item quantity="other">Dela %d objekt</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Dela %d foto</item>
+        <item quantity="other">Dela %d foton</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Dela %d video</item>
+        <item quantity="other">Dela %d videor</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Vill du radera %d ögonblick?</item>
+        <item quantity="other">Vill du radera %d ögonblick?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d story, sammanställd för dig.</item>
+        <item quantity="other">%d stories, utvalda för dig.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d har valts</item>
+        <item quantity="other">%d har valts</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Rotera %d grad</item>
+        <item quantity="other">Rotera %d grader</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Du kan bara importera %s filer</item>
+        <item quantity="other">Du kan importera upp till %s filer</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Lägg till %1d objekt</item>
+        <item quantity="other">Lägg till %1d objekt</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Upp till %s LUT-fil kan importeras</item>
+        <item quantity="other">Upp till %s LUT-filer kan importeras</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Du kan inte lägga till fler än %d bild</item>
+        <item quantity="other">Högst %d bilder kan läggas till</item>
+    </plurals>
+</resources>

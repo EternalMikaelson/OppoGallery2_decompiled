@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--OS 8.0 CN-->
+<filter-conf>
+    <version>2026041100</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_gallery_travel_album_config</filter-name>
+    <!-- 旅行图集控制 ui 和 scanner 是否可用的两个开关值。开关值：0为关，非0为开。 -->
+    <uiEnable>1</uiEnable>
+    <scannerEnable>1</scannerEnable>
+</filter-conf>

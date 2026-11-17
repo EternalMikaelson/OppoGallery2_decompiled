@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/videoeditor_music_play_pause_button_size" android:width="@dimen/videoeditor_music_play_pause_button_size" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:fillColor="@color/coui_color_hint_neutral" android:pathData="M18 0A18 18 0 1 0 18 36 18 18 0 1 0 18 0z" />
+    </group>
+    <path android:fillColor="#ffffffff" android:pathData="M14.57 12.43c-0.47 0-0.86 0.38-0.86 0.86v9.77c0 0.47 0.39 0.85 0.86 0.85h1.29c0.47 0 0.85-0.38 0.85-0.85v-9.77c0-0.48-0.38-0.86-0.85-0.86h-1.29Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M20.57 12.43c-0.47 0-0.86 0.38-0.86 0.86v9.77c0 0.47 0.39 0.85 0.86 0.85h1.29c0.47 0 0.85-0.38 0.85-0.85v-9.77c0-0.48-0.38-0.86-0.85-0.86h-1.29Z" />
+</vector>

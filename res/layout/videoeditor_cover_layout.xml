@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/editor_bottom_background_color" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_sub_menu_container_size" android:layout_marginTop="@dimen/videoeditor_settings_cover_slide_through_frames_top_margin" android:layout_alignParentTop="true">
+        <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/videoeditor_cover_title_size" android:textColor="@color/videoeditor_cover_title_color" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/videoeditor_cover_swipe_select_video_frame" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="@string/videoeditor_font_family_oppo_sans_4.0_sc" android:textFontWeight="@integer/font_weight_400" />
+    </RelativeLayout>
+    <include android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_bottom_bottom_bar_layout_height" android:layout_alignParentBottom="true" layout="@layout/editor_bottom_action_bar_layout" />
+</RelativeLayout>

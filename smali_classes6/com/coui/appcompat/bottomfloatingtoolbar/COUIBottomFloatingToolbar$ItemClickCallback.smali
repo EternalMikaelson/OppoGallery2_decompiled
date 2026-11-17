@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/coui/appcompat/bottomfloatingtoolbar/COUIBottomFloatingToolbar$ItemClickCallback;
+.super Ljava/lang/Object;
+.source "COUIBottomFloatingToolbar.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/coui/appcompat/bottomfloatingtoolbar/COUIBottomFloatingToolbar;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "ItemClickCallback"
+.end annotation
+
+
+# virtual methods
+.method public abstract onItemViewClick(Lcom/coui/appcompat/bottomfloatingtoolbar/COUIBottomFloatingToolbarItemView;)V
+.end method

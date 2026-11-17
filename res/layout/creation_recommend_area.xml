@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/recommend_area_root" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/creation_recommend_section_title_text_size" android:textColor="@color/coui_color_label_primary" android:id="@id/recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/creation_recommend_area_margin_top" android:text="@string/creation_recommend" android:contentDescription="@string/creation_recommend" android:fontFamily="sans-serif-semibold" android:paddingStart="@dimen/creation_recommend_title_padding_start" android:textFontWeight="600" />
+    <com.oplus.gallery.creationpage.view.CreationRecommendHorizontalScrollView android:id="@id/recommend_function_scroll" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/creation_recommend_list_margin_top" android:overScrollMode="never">
+        <androidx.constraintlayout.motion.widget.MotionLayout android:id="@id/recommend_function_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layoutDescription="@xml/creation_recommend_area_motion_scene" app:motionProgress="0.0">
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/recommend_center_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+        </androidx.constraintlayout.motion.widget.MotionLayout>
+    </com.oplus.gallery.creationpage.view.CreationRecommendHorizontalScrollView>
+    <FrameLayout android:id="@id/recommend_two_column_host" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/creation_recommend_list_margin_top" />
+</LinearLayout>

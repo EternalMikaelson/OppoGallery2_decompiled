@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.bottomnavigation.COUINavigationView android:theme="@style/Theme.COUI.Dark" android:id="@id/editor_id_menu" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" app:couiNaviBackground="@drawable/coui_bottom_tool_navigation_item_bg_dark" app:couiNaviIconTint="@null" app:couiNaviMenu="@menu/picture3d_state_tool_menu" app:couiNaviTextColor="@color/picture3d_editor_bottom_action_bar_text_color" app:couiNaviTextSize="@dimen/picture3d_bottom_action_bar_menu_text_size" app:navigationType="tool"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

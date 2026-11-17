@@ -1,0 +1,53 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/lzw;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Landroid/view/View$OnHoverListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/oplus/gallery/photo_page/ui/section/photopagersection/PhotoPagerSection$a;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/oplus/gallery/photo_page/ui/section/photopagersection/PhotoPagerSection$a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/lzw;->a:Lcom/oplus/gallery/photo_page/ui/section/photopagersection/PhotoPagerSection$a;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onHover(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    .locals 0
+
+    .line 1
+    sget-object p1, Lcom/oplus/gallery/photo_page/ui/section/photopagersection/PhotoPagerSection;->N0:Landroid/view/animation/PathInterpolator;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/lzw;->a:Lcom/oplus/gallery/photo_page/ui/section/photopagersection/PhotoPagerSection$a;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p2}, Landroidx/customview/widget/ExploreByTouchHelper;->dispatchHoverEvent(Landroid/view/MotionEvent;)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p0
+
+    .line 9
+    return p0
+.end method

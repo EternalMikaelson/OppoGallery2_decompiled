@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/idphoto_loading_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/loading_gif" android:layout_width="@dimen/picture3d_ai_repair_loading_size" android:layout_height="@dimen/picture3d_ai_repair_loading_size" android:src="@drawable/picture3d_ai_repair_loading_anim" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textAppearance="@style/gTextAppearanceBody" android:textSize="@dimen/common_TF07" android:textColor="@color/g_color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_ai_repair_loading_text_margin_top" android:text="@string/picture3d_aiidphoto_loading" />
+</LinearLayout>

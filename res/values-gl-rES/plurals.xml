@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">O álbum %1$1s, incluído %2$2s elemento; toca para engadilo a \"De uso frecuente\".</item>
+        <item quantity="other">O álbum %1$1s, incluídos %2$2s elementos; toca para engadilo a \"De uso frecuente\".</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s coincidencia</item>
+        <item quantity="other">%s coincidencias</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Selecciona os teus contidos multimedia e toca a ventá flotante de \"Clip instantáneo de IA\" que aparece a continuación para xerar un vídeo rapidamente. Selecciona polo menos %1$s elemento para obter mellores resultados.</item>
+        <item quantity="other">Selecciona os teus contidos multimedia e toca a ventá flotante de \"Clip instantáneo de IA\" que aparece a continuación para xerar un vídeo rapidamente. Selecciona polo menos %1$s elementos para obter mellores resultados.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Selecciona os teus contidos multimedia e toca \"Editar - Clip instantáneo de IA\" na parte inferior para xerar rapidamente un vídeo. Selecciona polo menos %1$s elemento para obter mellores resultados.</item>
+        <item quantity="other">Selecciona os teus contidos multimedia e toca \"Editar - Clip instantáneo de IA\" na parte inferior para xerar rapidamente un vídeo. Selecciona polo menos %1$s elementos para obter mellores resultados.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Non se admiten fotos en movemento de máis de %1$d segundo</item>
+        <item quantity="other">Non se admiten fotos en movemento de máis de %1$d segundos</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">O vídeo non pode durar máis de %d segundo</item>
+        <item quantity="other">O vídeo non pode durar máis de %d segundos</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d aplicación bloqueada</item>
+        <item quantity="other">%d aplicacións bloqueadas</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">O álbum %1$1s, incluído %2$2s elemento; engadido a \"De uso frecuente\".</item>
+        <item quantity="other">O álbum %1$1s, incluídos %2$2s elementos; engadido a \"De uso frecuente\".</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Engadir (%1$d)</item>
+        <item quantity="other">Engadir (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Engadir (%1$d/%2$d)</item>
+        <item quantity="other">Engadir (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d elemento axustado</item>
+        <item quantity="other">%1$d elementos axustados</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d foto e non se pode engadir.Están a cargarse</item>
+        <item quantity="other">%d fotos e non se poden engadir.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d documento</item>
+        <item quantity="other">%1$d documentos</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d tarxetas bancaria</item>
+        <item quantity="other">%1$d tarxetas bancarias</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Eliminaranse elementos de %d álbum deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Algúns elementos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalos.</item>
+        <item quantity="other">Eliminaranse elementos de %d álbums deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Algúns elementos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalos.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">Eliminarase %d foto en refacho deste dispositivo e permanecerá en \"Eliminados recentemente\" durante 30 días. Fixéronse copias de seguridade na nube de todas as fotos en refacho e permanecerán alí.</item>
+        <item quantity="other">Eliminaranse %d fotos en refacho deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Fixéronse copias de seguridade na nube de todas as fotos en refacho e permanecerán alí.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">Eliminarase %d foto en refacho deste dispositivo e permanecerá en \"Eliminados recentemente\" durante 30 días. Algunhas fotos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalas.</item>
+        <item quantity="other">Eliminaranse %d fotos en refacho deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Algunhas fotos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalas.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">Eliminarase %d elemento deste dispositivo e permanecerá en \"Eliminados recentemente\" durante 30 días. Algúns elementos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalos.</item>
+        <item quantity="other">Eliminaranse %d elementos deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Algúns elementos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalos.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">Eliminarase %d foto deste dispositivo e permanecerá en \"Eliminados recentemente\" durante 30 días. Algunhas fotos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalas.</item>
+        <item quantity="other">Eliminaranse %d fotos deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Algunhas fotos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalas.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">Eliminarase %d vídeo deste dispositivo e permanecerá en \"Eliminados recentemente\" durante 30 días. Algúns vídeos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalos.</item>
+        <item quantity="other">Eliminaranse %d vídeos deste dispositivo e permanecerán en \"Eliminados recentemente\" durante 30 días. Algúns vídeos non teñen copia de seguridade. Quizais queiras facer unha copia de seguridade antes de eliminalos.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">Substituirase %1$s miniatura pola súa versión orixinal.</item>
+        <item quantity="other">Substituiranse %1$s miniaturas polas súas versións orixinais.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Combinar e eliminar %d persoa?</item>
+        <item quantity="other">Combinar e eliminar %d persoas?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Eliminar %d foto deste álbum?</item>
+        <item quantity="other">Eliminar %d fotos deste álbum?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Eliminar %d elemento deste álbum?</item>
+        <item quantity="other">Eliminar %d elementos deste álbum?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Eliminar %d vídeo deste álbum?</item>
+        <item quantity="other">Eliminar %d vídeos deste álbum?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Usar miniatura</item>
+        <item quantity="other">Usar miniaturas</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Usar orixinal</item>
+        <item quantity="other">Usar orixinais</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 foto é unha miniatura. Podes descargar e usar a foto orixinal.</item>
+        <item quantity="other">Algunhas das fotos seleccionadas son miniaturas. Podes descargar e usar as fotos orixinais.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Pódese converter un máximo de %1$d imaxe a PDF á vez</item>
+        <item quantity="other">Pódense converter un máximo de %1$d imaxes a PDF á vez</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Almacenamento do dispositivo insuficiente. %1$d elemento non copiado.</item>
+        <item quantity="other">Almacenamento do dispositivo insuficiente. %1$d elementos non copiados.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d elemento copiado</item>
+        <item quantity="other">%d elementos copiados</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Non se pode copiar máis de %d elemento</item>
+        <item quantity="other">Non se poden copiar máis de %d elementos</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">Borrarase permanentemente %d foto deste dispositivo.</item>
+        <item quantity="other">Borraranse permanentemente %d fotos deste dispositivo.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">Borrarase %d elemento permanentemente deste dispositivo.</item>
+        <item quantity="other">Borraranse %d elementos permanentemente deste dispositivo.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">Borrarase permanentemente %d vídeo deste dispositivo.</item>
+        <item quantity="other">Borraranse permanentemente %d vídeos deste dispositivo.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">Borrarase %d foto con separador deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d fotos con separador deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Esta foto eliminarase permanentemente deste dispositivo, da nube e doutros dispositivos sincronizados. Esta acción non se poderá desfacer.</item>
+        <item quantity="other">Estas fotos eliminaranse permanentemente deste dispositivo, da nube e doutros dispositivos sincronizados. Esta acción non se poderá desfacer.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Esta foto eliminarase permanentemente. Esta acción non se poderá desfacer.</item>
+        <item quantity="other">Estas fotos eliminaranse permanentemente. Esta acción non se poderá desfacer.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Este elemento eliminarase permanentemente deste dispositivo, da nube e doutros dispositivos sincronizados. Esta acción non se poderá desfacer.</item>
+        <item quantity="other">Estes elementos eliminaranse permanentemente deste dispositivo, da nube e doutros dispositivos sincronizados. Esta acción non se poderá desfacer.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Este elemento eliminarase permanentemente. Esta acción non se poderá desfacer.</item>
+        <item quantity="other">Estes elementos eliminaranse permanentemente. Esta acción non se poderá desfacer.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">Borrarase permanentemente %d foto deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse permanentemente %d fotos deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">Borrarase permanentemente %d elemento deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse permanentemente %d elementos deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">Borrarase permanentemente %d vídeo deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse permanentemente %d vídeos deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">Borrarase %d foto con separador deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d fotos con separador deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Eliminar %d álbum?</item>
+        <item quantity="other">Eliminar %d álbums?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Eliminar %d foto en refacho?</item>
+        <item quantity="other">Eliminar %d fotos en refacho?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">Eliminarase %d lembranza deste dispositivo. As fotos desta lembranza conservaranse na aplicación \"Fotos\" .</item>
+        <item quantity="other">Eliminaranse %d lembranzas deste dispositivo. As fotos destas lembranzas conservaranse na aplicación \"Fotos\" .</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Eliminar %d lembranza?</item>
+        <item quantity="other">Eliminar %d lembranzas?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Eliminar permanentemente %d elemento</item>
+        <item quantity="other">Eliminar permanentemente %d elementos</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Eliminar %d elemento</item>
+        <item quantity="other">Eliminar %d elementos</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Eliminar %d foto?</item>
+        <item quantity="other">Eliminar %d fotos?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Eliminar %d elemento?</item>
+        <item quantity="other">Eliminar %d elementos?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Eliminar %d vídeo?</item>
+        <item quantity="other">Eliminar %d vídeos?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Eliminar %d adhesivo?</item>
+        <item quantity="other">Eliminar %d adhesivos?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Borrar esta foto</item>
+        <item quantity="other">Borrar estas fotos</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Este vídeo eliminarase permanentemente deste dispositivo, da nube e doutros dispositivos sincronizados. Esta acción non se poderá desfacer.</item>
+        <item quantity="other">Estes vídeos eliminaranse permanentemente deste dispositivo, da nube e doutros dispositivos sincronizados. Esta acción non se poderá desfacer.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Este vídeo eliminarase permanentemente. Esta acción non se poderá desfacer.</item>
+        <item quantity="other">Estes vídeos eliminaranse permanentemente. Esta acción non se poderá desfacer.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Descargando %d elemento…</item>
+        <item quantity="other">Descargando %d elementos…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Descargando %d foto…</item>
+        <item quantity="other">Descargando %d fotos…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Descargando %d vídeo…</item>
+        <item quantity="other">Descargando %d vídeos…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Establecer %d ficheiro como privado?</item>
+        <item quantity="other">Establecer %d ficheiros como privados?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Establecer esta foto como privada?</item>
+        <item quantity="other">Establecer estas fotos como privadas?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">Erro ao cifrar %d ficheiro</item>
+        <item quantity="other">Erro ao cifrar %d ficheiros</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Bloquear %d álbum?</item>
+        <item quantity="other">Bloquear %d álbums?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">Eliminarase %d foto en refacho deste dispositivo. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d fotos en refacho deste dispositivo. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">Eliminarase %d foto en refacho deste dispositivo, da nube e doutros dispositivos sincronizados. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d fotos en refacho deste dispositivo, da nube e doutros dispositivos sincronizados. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">Eliminarase %d álbum deste dispositivo. Os álbums que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d álbums deste dispositivo. Os álbums que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">Eliminarase %d foto deste dispositivo. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d fotos deste dispositivo. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">Eliminarase %d elemento deste dispositivo. Os elementos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d elementos deste dispositivo. Os elementos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">Eliminarase %d vídeo deste dispositivo. Os vídeos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d vídeos deste dispositivo. Os vídeos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">Eliminarase %d álbum deste dispositivo, da nube e doutros dispositivos sincronizados. Os álbums que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d álbums deste dispositivo, da nube e doutros dispositivos sincronizados. Os álbums que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">Eliminarase %d foto deste dispositivo, da nube e doutros dispositivos sincronizados. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d fotos deste dispositivo, da nube e doutros dispositivos sincronizados. As fotos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e as que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">Eliminarase %d elemento deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d elementos deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">Eliminarase %d vídeo deste dispositivo, da nube e doutros dispositivos sincronizados. Os vídeos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+        <item quantity="other">Eliminaranse %d vídeos deste dispositivo, da nube e doutros dispositivos sincronizados. Os vídeos que teñen unha copia de seguridade permanecen en \"Eliminados recentemente\" durante 60 días e os que non a teñen durante 30 días.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Exportar %d foto seleccionada</item>
+        <item quantity="other">Exportar %d fotos seleccionadas</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Exportar %d foto?</item>
+        <item quantity="other">Exportar %d fotos?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Erro ao engadir %1$d elemento aos favoritos. Téntao de novo.</item>
+        <item quantity="other">Erro ao engadir %1$d elementos aos favoritos. Téntao de novo.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Tamaño do ficheiro: %1$s. Tempo estimado para descargar: %2$s minuto.</item>
+        <item quantity="other">Tamaño do ficheiro: %1$s. Tempo estimado para descargar: %2$s minutos.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Usar miniatura</item>
+        <item quantity="other">Usar miniaturas</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Usar orixinal</item>
+        <item quantity="other">Usar orixinais</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 foto é unha miniatura. Podes descargar e usar a foto orixinal.</item>
+        <item quantity="other">Algunhas das fotos seleccionadas son miniaturas. Podes descargar e usar as fotos orixinais.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Atopouse unha foto de %s. Móvea a \"Estoxo de tarxetas\" para acceder facilmente a ela.</item>
+        <item quantity="other">Atopáronse fotos de %s. Móveas a \"Estoxo de tarxetas\" para acceder facilmente a elas.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">A foto de %1$s moveuse a \"Estoxo de tarxetas\"</item>
+        <item quantity="other">Fotos de %1$s movéronse a \"Estoxo de tarxetas\"</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d tícket/recibo</item>
+        <item quantity="other">%1$d tíckets/recibos</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">O elemento seleccionado xa existe no álbum</item>
+        <item quantity="other">Os elementos seleccionados xa existen no álbum</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d elemento</item>
+        <item quantity="other">%d elementos</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d persoa combinarase e eliminarase de \"%2$s\".</item>
+        <item quantity="other">%1$d persoas combinaranse e eliminaranse de \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">Estase a cargar %d foto e non se pode mover</item>
+        <item quantity="other">Estanse a cargar %d fotos e non se poden mover</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d elemento movido</item>
+        <item quantity="other">%d elementos movidos</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d persoas</item>
+        <item quantity="other">%1$d persoas</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Descargando a foto orixinal...</item>
+        <item quantity="other">Descargando as fotos orixinais...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Foto copiada. Non se poden copiar vídeos a este álbum.</item>
+        <item quantity="other">Fotos copiadas. Non se poden copiar vídeos a este álbum.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Foto movida. Non se poden mover vídeos a este álbum.</item>
+        <item quantity="other">Fotos movidas. Non se poden mover vídeos a este álbum.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">Borrarase %d álbum deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d álbums deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">Borrarase %d foto deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d fotos deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">Borrarase %d elemento deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d elementos deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">Borrarase %d vídeo deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d vídeos deste dispositivo. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Esta foto eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+        <item quantity="other">Estas fotos eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Esta foto eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Estas fotos eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Este álbum eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+        <item quantity="other">Estes álbums eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Este álbum eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Estes álbums eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Este elemento eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+        <item quantity="other">Estes elementos eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Este elemento eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Estes elementos eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">Borrarase %d álbum deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d álbums deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">Borrarase %d álbum deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse %d álbums deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">Borrarase %d foto con separador deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse %d fotos con separador deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">Borrarase %d foto deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d fotos deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">Borrarase %d foto deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse %d fotos deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">Borrarase %d elemento deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d elementos deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">Borrarase %d elemento deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse %d elementos deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">Borrarase %d vídeo deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+        <item quantity="other">Borraranse %d vídeos deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados conservaranse en \"Eliminados recentemente\" durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">Borrarase %d vídeo deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Borraranse %d vídeos deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Este vídeo eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+        <item quantity="other">Estes vídeos eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados. Os elementos eliminados poden recuperarse desde o álbum de Eliminados recentemente durante 30 días.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Este vídeo eliminarase deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+        <item quantity="other">Estes vídeos eliminaranse deste dispositivo, da nube e doutros dispositivos sincronizados.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Restaurar %d foto?</item>
+        <item quantity="other">Restaurar %d fotos?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Restaurar %d elemento?</item>
+        <item quantity="other">Restaurar %d elementos?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Restaurar %d vídeo?</item>
+        <item quantity="other">Restaurar %d vídeos?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Restaurar %d elemento</item>
+        <item quantity="other">Restaurar %d elementos</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Erro ao gardar %d vídeo</item>
+        <item quantity="other">Erro ao gardar %d vídeos</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d vídeo gardado</item>
+        <item quantity="other">%d vídeos gardados</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Usar miniatura</item>
+        <item quantity="other">Usar miniaturas</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Usar orixinal</item>
+        <item quantity="other">Usar orixinais</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 foto é unha miniatura. Podes descargar e usar a foto orixinal.</item>
+        <item quantity="other">Algunhas das fotos seleccionadas son miniaturas. Podes descargar e usar as fotos orixinais.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Vista previa do elemento seleccionado (%1$d)</item>
+        <item quantity="other">Vista previa dos elementos seleccionados (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Seleccionar 1–%1$d foto</item>
+        <item quantity="other">Seleccionar 1–%1$d fotos</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Usar miniatura</item>
+        <item quantity="other">Usar miniaturas</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Usar orixinal</item>
+        <item quantity="other">Usar orixinais</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 foto é unha miniatura. Podes descargar e usar a foto orixinal.</item>
+        <item quantity="other">Algunhas das fotos seleccionadas son miniaturas. Podes descargar e compartir as fotos orixinais.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">Eliminarase %1$d foto do álbum compartido \"%2$s\".</item>
+        <item quantity="other">Eliminaranse %1$d fotos do álbum compartido \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">Eliminarase %1$d elemento do álbum compartido \"%2$s\".</item>
+        <item quantity="other">Eliminaranse %1$d elementos do álbum compartido \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">Eliminarase %1$d vídeo do álbum compartido \"%2$s\".</item>
+        <item quantity="other">Eliminaranse %1$d vídeos do álbum compartido \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Eliminar %1$d elemento</item>
+        <item quantity="other">Eliminar %1$d elementos</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Erro ao descargar %1$d elemento debido ao baixo almacenamento do dispositivo.</item>
+        <item quantity="other">Erro ao descargar %1$d elementos debido ao baixo almacenamento do dispositivo.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d elemento (%2$s) restante. Queres retomar a descarga usando datos móbiles?</item>
+        <item quantity="other">%1$d elementos (%2$s) restantes. Queres retomar a descarga usando datos móbiles?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Erro de rede. Non se descargou %1$d elemento.</item>
+        <item quantity="other">Erro de rede. Non se descargaron %1$d elementos.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Non hai conexión de rede. %1$d elemento non descargado.</item>
+        <item quantity="other">Non hai conexión de rede. %1$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Pódese gardar ata %d foto en movemento como vídeo á vez</item>
+        <item quantity="other">Pódense gardar ata %d fotos en movemento como vídeo á vez</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d vídeo</item>
+        <item quantity="other">%1$d vídeos</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d elemento seleccionado</item>
+        <item quantity="other">%1$d elementos seleccionados</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d elemento</item>
+        <item quantity="other">%1$d elementos</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Erro ao eliminar %1$d elemento de favoritos. Téntao de novo.</item>
+        <item quantity="other">Erro ao eliminar %1$d elementos de favoritos. Téntao de novo.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Debuxa un obxecto sinxelo e rodéao para crear unha obra de arte. Límite de uso: %1$d vez ao día.</item>
+        <item quantity="other">Debuxa un obxecto sinxelo e rodéao para crear unha obra de arte. Límite de uso: %1$d veces ao día.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Erro ao gardar %d adhesivo de movemento</item>
+        <item quantity="other">Erro ao gardar %d adhesivos de movemento</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Podes escoller de 1 a %1$d foto máis</item>
+        <item quantity="other">Podes escoller de 1 a %1$d fotos máis</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Podes escoller de 1 a %1$d fotos máis (%2$s)</item>
+        <item quantity="other">Podes escoller de 1 a %1$d fotos máis (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">incluída %d foto en movemento</item>
+        <item quantity="other">incluídas %d fotos en movemento</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Descargar foto orixinal</item>
+        <item quantity="other">Descargar fotos orixinais</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d foto no dispositivo é unha versión cun tamaño menor. Queres descargar a foto de alta resolución orixinal (%2$s)?</item>
+        <item quantity="other">%1$d fotos no dispositivo son versións cun tamaño menor. Queres descargar as fotos de alta resolución orixinais (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Descargando %1$d foto orixinal</item>
+        <item quantity="other">Descargando %1$d fotos orixinais</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">Non se descargou %1$d foto orixinal. Almacenamento do dispositivo insuficiente.</item>
+        <item quantity="other">Non se descargaron %1$d fotos orixinais. Almacenamento do dispositivo insuficiente.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">Non se descargou %1$d elemento. Almacenamento do dispositivo insuficiente.</item>
+        <item quantity="other">Non se descargaron %1$d elementos. Almacenamento do dispositivo insuficiente.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">A carga está en pausa para %1$d elemento. Non hai conexión a Internet.</item>
+        <item quantity="other">A carga está en pausa para %1$d elementos. Non hai conexión a Internet.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">A carga está en pausa para %1$d elemento. Non estás conectado á Wi-Fi.</item>
+        <item quantity="other">A carga está en pausa para %1$d elementos. Non estás conectado á Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">A carga de %1$d elementos está en pausa para aforrar batería.</item>
+        <item quantity="other">A carga de %1$d elementos está en pausa para aforrar batería.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Carga en pausa para %1$d elemento. O teléfono está demasiado quente.</item>
+        <item quantity="other">Carga en pausa para %1$d elementos. O teléfono está demasiado quente.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Carga en pausa para %1$d elemento. A nube está en mantemento.</item>
+        <item quantity="other">Carga en pausa para %1$d elementos. A nube está en mantemento.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Carga en pausa para %1$d elemento. A tableta está demasiado quente.</item>
+        <item quantity="other">Carga en pausa para %1$d elementos. A tableta está demasiado quente.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Sincronizando %1$d elemento da nube</item>
+        <item quantity="other">Sincronizando %1$d elementos da nube</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d vídeo</item>
+        <item quantity="other">%1$d vídeos</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Batería inferior a %1$s. %2$d elemento non descargado.</item>
+        <item quantity="other">Batería inferior a %1$s. %2$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Batería inferior a %1$s. %2$d elemento non descargado. Carga o teléfono.</item>
+        <item quantity="other">Batería inferior a %1$s. %2$d elementos non descargados. Carga o teléfono.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Queda menos do %1$s de batería. Non se descargou %2$d elemento. Conéctao a unha fonte de alimentación para retomar.</item>
+        <item quantity="other">Queda menos do %1$s de batería. Non se descargaron %2$d elementos. Conéctao a unha fonte de alimentación para retomar.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Queda menos do %1$s de batería. Non se descargou %2$d elemento.</item>
+        <item quantity="other">Queda menos do %1$s de batería. Non se descargaron %2$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Modo de aforro de enerxía activado. %1$d elemento non descargado.</item>
+        <item quantity="other">Modo de aforro de enerxía activado. %1$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Modo de aforro de enerxía activado. Non se descargou %1$d elemento.</item>
+        <item quantity="other">Modo de aforro de enerxía activado. Non se descargaron %1$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Sen conexión de rede. %1$d elemento non descargado.%2$s.</item>
+        <item quantity="other">Sen conexión de rede. %1$d elementos non descargados. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Sen conexión de rede. %1$d elemento non descargado. %2$s ou %3$s.</item>
+        <item quantity="other">Sen conexión de rede. %1$d elementos non descargados. %2$s ou %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Non hai conexión de rede. %1$d elemento non descargado.</item>
+        <item quantity="other">Non hai conexión de rede. %1$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Non hai conexión de rede. %1$d elemento non descargado.</item>
+        <item quantity="other">Non hai conexión de rede. %1$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Almacenamento na nube insuficiente. %1$d elementos non descargados.</item>
+        <item quantity="other">Almacenamento na nube insuficiente. %1$d elemento non descargado.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Almacenamento do dispositivo insuficiente. %1$d elemento non descargado.</item>
+        <item quantity="other">Almacenamento do dispositivo insuficiente. %1$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Erro de rede. %1$d elemento non descargado.</item>
+        <item quantity="other">Erro de rede. %1$d elementos non descargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Erro de rede. Non se descargou %1$d elemento.</item>
+        <item quantity="other">Erro de rede. Non se descargaron %1$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Almacenamento do dispositivo insuficiente. Non se descargou %1$d foto orixinal.</item>
+        <item quantity="other">Almacenamento do dispositivo insuficiente. Non se descargaron %1$d fotos orixinais.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d foto non sincronizada. O almacenamento da nube está cheo.</item>
+        <item quantity="other">%1$d fotos non sincronizadas. O almacenamento da nube está cheo.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d foto non sincronizada. Sincro. da nube páusase cando queda menos do %2$s de batería.</item>
+        <item quantity="other">%1$d fotos non sincronizadas. Sincro. da nube páusase cando queda menos do %2$s de batería.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d foto sen sincronizar. A sincronización co almacenamento da nube está en pausa por mor do modo de aforro de enerxía.</item>
+        <item quantity="other">%1$d fotos sen sincronizar. co almacenamento da nube está en pausa por mor do modo de aforro de enerxía.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Almacenamento na nube cheo. %1$d elemento non cargado.</item>
+        <item quantity="other">Almacenamento na nube cheo. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Batería inferior a %1$s. %2$d elemento non cargado.</item>
+        <item quantity="other">Batería inferior a %1$s. %2$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Batería inferior a %1$s. %2$d elemento non cargado. Carga o teléfono.</item>
+        <item quantity="other">Batería inferior a %1$s. %2$d elementos non cargados. Carga o teléfono.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Queda menos do %1$s de batería. Non se cargou %2$d elemento. Conéctao a unha fonte de alimentación para retomar.</item>
+        <item quantity="other">Queda menos do %1$s de batería. Non se cargaron %2$d elementos. Conéctao a unha fonte de alimentación para retomar.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Queda menos do %1$s de batería. Non se cargou %2$d elemento.</item>
+        <item quantity="other">Queda menos do %1$s de batería. Non se cargaron %2$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Modo de aforro de enerxía activado. %1$d elemento non cargado.</item>
+        <item quantity="other">Modo de aforro de enerxía activado. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Modo de aforro de enerxía activado. Non se cargou %1$d elemento.</item>
+        <item quantity="other">Modo de aforro de enerxía activado. Non se cargaron %1$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">O almacenamento na nube está cheo. Non se cargou %1$d elemento.</item>
+        <item quantity="other">O almacenamento na nube está cheo. Non se puideron cargar %1$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d vídeo non sincronizado. Almacenamento da nube cheo.</item>
+        <item quantity="other">%1$d vídeos non sincronizados. Almacenamento da nube cheo.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d vídeo non sincronizado. Sincro. da nube páusase cando queda menos do %2$s de batería.</item>
+        <item quantity="other">%1$d vídeos non sincronizados. Sincro. da nube páusase cando queda menos do %2$s de batería.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d vídeo sen sincronizar. A sincronización co almacenamento da nube está en pausa por mor do modo de aforro de enerxía.</item>
+        <item quantity="other">%1$d vídeos sen sincronizar. A sincronización co almacenamento da nube está en pausa por mor do modo de aforro de enerxía.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d fotos sen sincronizar.</item>
+        <item quantity="other">%1$d foto sen sincronizar.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Sen conexión de rede. %1$d elemento non cargado.%2$s.</item>
+        <item quantity="other">Sen conexión de rede. %1$d elementos non cargados. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Sen conexión de rede. %1$d elemento non cargado. %2$s ou %3$s.</item>
+        <item quantity="other">Sen conexión de rede. %1$d elementos non cargados. %2$s ou %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Non hai conexión de rede. %1$d elemento non cargado.</item>
+        <item quantity="other">Non hai conexión de rede. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Non hai conexión de rede. %1$d elemento non cargado.</item>
+        <item quantity="other">Non hai conexión de rede. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d vídeo sen sincronizar</item>
+        <item quantity="other">%1$d vídeos sen sincronizar</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Erro de rede. %1$d elemento non cargado.</item>
+        <item quantity="other">Erro de rede. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Interrompeuse a conexión de rede. Non se cargou %1$d elemento.</item>
+        <item quantity="other">Erro de rede. Non se puideron cargar %1$d elementos.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Erro do servizo. %1$d elemento non cargado.</item>
+        <item quantity="other">Erro do servizo. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Erro do servizo. %1$d elemento non cargado.</item>
+        <item quantity="other">Erro do servizo. %1$d elementos non cargados.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Sincronizando %1$d elemento</item>
+        <item quantity="other">Sincronizando %1$d elementos</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Sincronizando %1$d elemento coa nube…</item>
+        <item quantity="other">Sincronizando %1$d elementos coa nube…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d vídeo</item>
+        <item quantity="other">%1$d vídeos</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">É posible que algunhas plataformas non admitan fotos en movemento de máis de %d segundo</item>
+        <item quantity="other">É posible que algunhas plataformas non admitan fotos en movemento de máis de %d segundos</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Podes usar Popout en %1$d foto en movemento á vez</item>
+        <item quantity="other">Podes usar Popout en ata %1$d fotos en movemento á vez</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Non se admiten fotos en movemento de máis de %1$d segundo</item>
+        <item quantity="other">Non se admiten fotos en movemento de máis de %1$d segundos</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Non se poden arrastrar máis de %d ficheiro á vez</item>
+        <item quantity="other">Non se poden arrastrar máis de %d ficheiros á vez</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Non se puido engadir %d elemento</item>
+        <item quantity="other">Non se puideron engadir %d elementos</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">Estase a cargar %d foto e non se pode establecer como privada.</item>
+        <item quantity="other">Estanse a cargar %d fotos e non se poden establecer como privadas.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d elemento</item>
+        <item quantity="other">%d elementos</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d elemento non se pode importar para a edición de vídeo</item>
+        <item quantity="other">%d elementos non se poden importar para a edición de vídeo</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Páxina %1$d de %2$d</item>
+        <item quantity="other">Páxina %1$d de %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Non selecciones máis de %1$d foto para un GIF</item>
+        <item quantity="other">Non selecciones máis de %1$d fotos para un GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Só se admiten fotos en movemento de ata %1$d segundo</item>
+        <item quantity="other">Só se admiten fotos en movemento de ata %1$d segundos</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Selecciona un mínimo de %1$d foto para crear un GIF</item>
+        <item quantity="other">Selecciona un mínimo de %1$d fotos para crear un GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Non selecciones máis de %1$d foto para un GIF</item>
+        <item quantity="other">Non selecciones máis de %1$d fotos para un GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Só %1$d foto cumpre os requisitos de formato</item>
+        <item quantity="other">Só %1$d fotos cumpren os requisitos de formato</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">Non se incluirá %1$d foto no GIF</item>
+        <item quantity="other">Non se incluirán %1$d fotos no GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d foto non é compatible</item>
+        <item quantity="other">%1$d fotos non son compatibles</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Cargando %1$s elemento de \"Google Fotos\"…</item>
+        <item quantity="other">Cargando %1$s elementos de \"Google Fotos\"…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Insuficiente espazo de almacenamento en \"Google Fotos\". Non se fixo a copia de seguridade de %1$d elemento.</item>
+        <item quantity="other">Insuficiente espazo de almacenamento en \"Google Fotos\". Non se fixo a copia de seguridade de %1$d elementos.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Facendo a copia de seguridade de %1$s elemento a \"Google Fotos\"…</item>
+        <item quantity="other">Facendo a copia de seguridade de %1$s elementos en \"Google Fotos\"…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d elemento estase sincronizando con Nube de HeyTap. Se desactivas esta opción, cancelarase a sincronización automática. Para protexer os teus datos, recoméndase agardar ata que se complete a sincronización.</item>
+        <item quantity="other">%1$d elementos estanse sincronizando con Nube de HeyTap. Se desactivas esta opción, cancelarase a sincronización automática. Para protexer os teus datos, recoméndase agardar ata que se complete a sincronización.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Só se pode engadir %d álbum a \"De uso frecuente\"</item>
+        <item quantity="other">Pódense engadir %d álbums como máximo a \"De uso frecuente\"</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d dispositivo atopado</item>
+        <item quantity="other">%1$d dispositivos atopados</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d día</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d vídeo</item>
+        <item quantity="other">%1$d vídeos</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Non se pode seleccionar máis de %1$d adhesivo</item>
+        <item quantity="other">Non se poden seleccionar máis de %1$d adhesivos</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Eliminar %1$d elemento de NAS</item>
+        <item quantity="other">Eliminar %1$d elementos de NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Descarga completa. Erro ao descargar %1$d elemento.</item>
+        <item quantity="other">Descarga completa. Erro ao descargar %1$d elementos.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">Descargouse %1$d elemento.</item>
+        <item quantity="other">Descargáronse %1$d elementos.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Descargando %1$d de %2$d…</item>
+        <item quantity="other">Descargando %1$d de %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Como queres editar a zona seleccionada?</item>
+        <item quantity="other">Como queres editar as zonas seleccionadas?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Podes engadir ata %d adhesivo</item>
+        <item quantity="other">Podes engadir ata %d adhesivos</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">En Adhesivos, só podes engadir %d adhesivo de movemento. Os adhesivos adicionais converteranse en adhesivos estáticos.</item>
+        <item quantity="other">En Adhesivos, podes engadir ata %d adhesivos en movemento. Os adhesivos adicionais converteranse en estáticos.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">A versión editada está limitada a %d segundo para que sexa fácil compartila.</item>
+        <item quantity="other">A versión editada está limitada a %d segundos para que sexa fácil compartila.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Os adhesivos poden durar ata %d segundo</item>
+        <item quantity="other">Os adhesivos poden durar ata %d segundos</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Os adhesivos poden só poden durar %d segundo.</item>
+        <item quantity="other">Os adhesivos poden durar ata %d segundos.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Os vídeos poden durar ata %d segundo</item>
+        <item quantity="other">Os vídeos poden durar ata %d segundos</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Describe o que queres cambiar na zona seleccionada</item>
+        <item quantity="other">Describe o que queres cambiar nas zonas seleccionadas</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">A gravación detense en %1$d segundo</item>
+        <item quantity="other">A gravación detense en %1$d segundos</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Podes seleccionar ata %1$d zona</item>
+        <item quantity="other">Podes seleccionar ata %1$d zonas</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Só se admiten fotos en movemento de ata %1$d segundo</item>
+        <item quantity="other">Só se admiten fotos en movemento de ata %1$d segundos</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">O tempo de espera previsto é %1$d minuto debido ao gran tamaño do ficheiro</item>
+        <item quantity="other">O tempo de espera previsto é %1$d minutos debido ao gran tamaño do ficheiro</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Exportar %d foto seleccionada</item>
+        <item quantity="other">Exportar %d fotos seleccionadas</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Debe ser superior a %1$d mm</item>
+        <item quantity="other">Debe ser superior a %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Debe ser superior a %1$d px</item>
+        <item quantity="other">Debe ser superior a %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Debe ser inferior a %1$d mm</item>
+        <item quantity="other">Debe ser inferior a %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Debe ser inferior a %1$d px</item>
+        <item quantity="other">Debe ser inferior a %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Debe ser superior a %1$d KB</item>
+        <item quantity="other">Debe ser superior a %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Debe ser inferior a %1$d KB</item>
+        <item quantity="other">Debe ser inferior a %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Debe ser superior a %1$d mm</item>
+        <item quantity="other">Debe ser superior a %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Debe ser superior a %1$d px</item>
+        <item quantity="other">Debe ser superior a %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Debe ser inferior a %1$d mm</item>
+        <item quantity="other">Debe ser inferior a %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Debe ser inferior a %1$d px</item>
+        <item quantity="other">Debe ser inferior a %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Manter a %d foto seleccionada só</item>
+        <item quantity="other">Manter as %d fotos seleccionadas só</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Eliminar %d elemento</item>
+        <item quantity="other">Eliminar %d elementos</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Eliminar %d elemento</item>
+        <item quantity="other">Eliminar %d elementos</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Erro ao engadir %1$d adhesivo</item>
+        <item quantity="other">Erro ao engadir %1$d adhesivos</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Erro ao engadir %d adhesivo</item>
+        <item quantity="other">Erro ao engadir %d adhesivos</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">Engadiuse %1$s sticker</item>
+        <item quantity="other">Engadíronse %1$s stickers</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">Engadiuse %1$s adhesivo</item>
+        <item quantity="other">Engadíronse %1$s adhesivos</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Engadiuse %1$d adhesivo</item>
+        <item quantity="other">Engadíronse %1$d adhesivos</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">En Colaxe de remesturas de IA, podes engadir ata %1$d adhesivo de movemento. Os adhesivos adicionais converteranse en estáticos.</item>
+        <item quantity="other">En Colaxe de remesturas de IA, podes engadir ata %1$d adhesivos de movemento. Os adhesivos adicionais converteranse en estáticos.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Podes engadir ata %1$d foto en movemento</item>
+        <item quantity="other">Podes engadir ata %1$d fotos en movemento</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Podes engadir ata %1$d foto</item>
+        <item quantity="other">Podes engadir ata %1$d fotos</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Para eliminar obxectos das túas fotos, descarga o complemento Remover. Tamaño do ficheiro: %1$s. Tempo estimado para descargar: %2$d minutos.</item>
+        <item quantity="other">Para eliminar obxectos das túas fotos, descarga o complemento Remover. Tamaño do ficheiro: %1$s. Tempo estimado para descargar: %2$d minutos.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Tamaño do ficheiro: %1$d. Tempo estimado de descarga: %2$d.</item>
+        <item quantity="other">Tamaño do ficheiro: %1$d. Tempo estimado de descarga: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d foto non compatible</item>
+        <item quantity="other">%1$d fotos non compatibles</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d seleccionada</item>
+        <item quantity="other">%1$d/%2$d seleccionadas</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d elemento seleccionado</item>
+        <item quantity="other">%1$d elementos seleccionados</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d álbum seleccionado</item>
+        <item quantity="other">%1$d álbums seleccionados</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d elemento seleccionado</item>
+        <item quantity="other">%1$d elementos seleccionados</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d vídeo seleccionado</item>
+        <item quantity="other">%1$d vídeos seleccionados</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Non se pode engadir máis de %1$d adhesivo.</item>
+        <item quantity="other">Non se poden engadir máis de %1$d adhesivos.</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Só se pode seleccionar %1$d elemento</item>
+        <item quantity="other">Poden seleccionarse ata %1$d elementos</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d foto e non se pode eliminar.Están a cargarse</item>
+        <item quantity="other">%d fotos e non se poden eliminar.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Erro ao eliminar %1$d elemento. Téntao de novo.</item>
+        <item quantity="other">Erro ao eliminar %1$d elementos. Téntao de novo.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d novas notificacións</item>
+        <item quantity="other">%d novas notificacións</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Eliminar %d suxeito?</item>
+        <item quantity="other">Eliminar %d suxeitos?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Só podes engadir %1$d adhesivo de movemento. Os adhesivos adicionais móstranse como estáticos.</item>
+        <item quantity="other">Podes engadir ata %1$d adhesivos de movemento. Os adhesivos adicionais móstranse como estáticos.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Só se pode compartir %d elemento con esta aplicación</item>
+        <item quantity="other">Pódense compartir ata %d elementos con esta aplicación</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Compartir %d elemento</item>
+        <item quantity="other">Compartir %d elementos</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Compartir %d foto</item>
+        <item quantity="other">Compartir %d fotos</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Compartir %d vídeo</item>
+        <item quantity="other">Compartir %d vídeos</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Eliminar %d momento?</item>
+        <item quantity="other">Eliminar %d momentos?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d historia, seleccionada para ti.</item>
+        <item quantity="other">%d historias, seleccionadas para ti.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d seleccionado</item>
+        <item quantity="other">%d seleccionados</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Xirar %d grao</item>
+        <item quantity="other">Xirar %d graos</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Só podes importar %s ficheiro</item>
+        <item quantity="other">Podes importar ata %s ficheiros</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Engadir %1d elemento</item>
+        <item quantity="other">Engadir %1d elementos</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Pódese importar ata %s ficheiro LUT</item>
+        <item quantity="other">Pódense importar ata %s ficheiros LUT</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Non se pode engadir máis de %d foto</item>
+        <item quantity="other">Non se poden engadir máis de %d fotos</item>
+    </plurals>
+</resources>

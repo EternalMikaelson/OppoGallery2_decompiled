@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, sh üksus %2$2s; toksake, et lisada see loendisse „Sagedasti kasutatavad“.</item>
+        <item quantity="other">Album %1$1s ,sh üksused %2$2s; toksake, et lisada see loendisse „Sagedasti kasutatavad“.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s vaste</item>
+        <item quantity="other">%s vastet</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Valige oma meedia ja puudutage allolevat hõljukakent „AI-kiirklipp“, et videot kiiresti genereerida. Paremate tulemuste saamiseks valige vähemalt %1$s üksus.</item>
+        <item quantity="other">Valige oma meedia ja puudutage allolevat hõljukakent „AI-kiirklipp“, et videot kiiresti genereerida. Paremate tulemuste saamiseks valige vähemalt %1$s üksust.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Valige oma meedia ja puudutage video kiireks loomiseks allosas valikuid Redigeeri – AI-kiirklipp. Paremate tulemuste saamiseks valige vähemalt %1$s üksus.</item>
+        <item quantity="other">Valige oma meedia ja puudutage video kiireks loomiseks allosas valikuid Redigeeri – AI-kiirklipp. Paremate tulemuste saamiseks valige vähemalt %1$s üksust.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Üle %1$d sekundi pikkuseid liikuvaid fotosid ei toetata</item>
+        <item quantity="other">Üle %1$d sekundi pikkuseid liikuvaid fotosid ei toetata</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Videoklipp ei tohi olla pikem kui %d sekund</item>
+        <item quantity="other">Videoklipp ei tohi olla pikem kui %d sekundit</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d lukustatud rakendus</item>
+        <item quantity="other">%d lukustatud rakendust</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Album, %1$1s sh üksused %2$2s lisatud loendisse „Sagedasti kasutatavad“.</item>
+        <item quantity="other">Album, %1$1s sh üksused %2$2s lisatud loendisse „Sagedasti kasutatavad“.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Lisa (%1$d)</item>
+        <item quantity="other">Lisa (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Lisa (%1$d/%2$d)</item>
+        <item quantity="other">Lisa (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d kohandatud üksus</item>
+        <item quantity="other">%1$d kohandatud üksust</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d foto lisamine nurjus, sest seda laaditakse.</item>
+        <item quantity="other">%d foto lisamine nurjus, sest neid laaditakse.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d dokument</item>
+        <item quantity="other">%1$d dokumenti</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d pangakaart</item>
+        <item quantity="other">%1$d pangakaarti</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d albumi üksused kustutatakse sellest seadmest ja need jäävad 30 päevaks kausta „Hiljuti kustutatud“. Osad üksused pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+        <item quantity="other">%d albumi üksused kustutatakse sellest seadmest ja need jäävad 30 päevaks kausta „Hiljuti kustutatud“. Osad üksused pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d sarivõte kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Kõik sarivõtted on varundatud pilve ja jäävad sinna.</item>
+        <item quantity="other">%d sarivõtet kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Kõik sarivõtted on varundatud pilve ja jäävad sinna.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d sarivõte kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Osad fotod pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+        <item quantity="other">%d sarivõtet kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Osad fotod pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Osad üksused pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest ja need jäävad 30 päevaks kausta „Hiljuti kustutatud“. Osad üksused pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d foto kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Osad fotod pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest ja need jäävad 30 päevaks kausta „Hiljuti kustutatud“. Osad fotod pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d video kustutatakse sellest seadmest ja see jääb 30 päevaks kausta „Hiljuti kustutatud“. Osad videod pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest ja need jäävad 30 päevaks kausta „Hiljuti kustutatud“. Osad videod pole varundatud. Soovi korral varundage need enne kustutamist.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s pisipilt asendatakse selle algse versiooniga.</item>
+        <item quantity="other">%1$s pisipilti asendatakse nende algse versiooniga.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d isikutunnistus</item>
+        <item quantity="other">%1$d isikutunnistust</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Mestin ja eemaldan %d isiku?</item>
+        <item quantity="other">Mestin ja eemaldan %d inimest?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Eemaldan sellest albumist %d foto?</item>
+        <item quantity="other">Eemaldan sellest albumist %d fotot?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Eemaldan sellest albumist %d üksuse?</item>
+        <item quantity="other">Eemaldan sellest albumist %d üksust?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Eemaldan sellest albumist %d video?</item>
+        <item quantity="other">Eemaldan sellest albumist %d videot?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Kasuta pisipilti</item>
+        <item quantity="other">Kasuta pisipilte</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Kasuta originaali</item>
+        <item quantity="other">Kasuta originaale</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">Üks foto on pisipilt. Selle asemel saate alla laadida ja kasutada originaalfotot.</item>
+        <item quantity="other">Mõned valitud fotodest on pisipildid. Nende asemel saate alla laadida ja kasutada originaalfotosid.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Korraga saab PDF-iks teisendada maksimaalselt %1$d pilti</item>
+        <item quantity="other">Korraga saab PDF-iks teisendada maksimaalselt %1$d pilti</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Seadmes pole piisavalt mäluruumi. %1$d üksust ei kopeeritud.</item>
+        <item quantity="other">Seadmes pole piisavalt mäluruumi. %1$d üksust ei kopeeritud.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d üksus kopeeritud</item>
+        <item quantity="other">%d üksust kopeeritud</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Kopeerida saab kuni %d üksuse</item>
+        <item quantity="other">Kopeerida saab kuni %d üksust</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d foto kustutatakse sellest seadmest püsivalt.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest püsivalt.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest püsivalt.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest püsivalt.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d video kustutatakse sellest seadmest püsivalt.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest püsivalt.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d sarivõte kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d sarivõtet kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">See foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+        <item quantity="other">Fotod kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">See foto kustutatakse püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+        <item quantity="other">Need fotod kustutatakse püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">See kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+        <item quantity="other">Need üksused kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">See kustutatakse püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+        <item quantity="other">Need üksused kustutatakse püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d foto kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt.</item>
+        <item quantity="other">%d fotot kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d üksus kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt.</item>
+        <item quantity="other">%d üksust kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d video kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt.</item>
+        <item quantity="other">%d videot kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d sarivõte kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d sarivõtet kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Kas kustutada %d album?</item>
+        <item quantity="other">Kas kustutada %d albumit?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Kas kustutada %d sarivõte?</item>
+        <item quantity="other">Kas kustutada %d sarivõtet?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">Sellest seadmest kustutatakse %d mälestus. Selle mälestuse juurde kuuluvaid fotosid hoitakse rakenduses „Fotod“.</item>
+        <item quantity="other">Sellest seadmest kustutatakse %d mälestust. Nende mälestuste juurde kuuluvaid fotosid hoitakse rakenduses „Fotod“.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Kas kustutada %d mälestus?</item>
+        <item quantity="other">Kas kustutada %d mälestust?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Kustuta jäädavalt %d üksus</item>
+        <item quantity="other">Kustuta jäädavalt %d üksust</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Kustuta %d üksus</item>
+        <item quantity="other">Kustuta %d üksust</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Kas kustutada %d foto?</item>
+        <item quantity="other">Kas kustutada %d fotot?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Kas kustutada %d üksus?</item>
+        <item quantity="other">Kas kustutada %d üksust?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Kas kustutada %d video?</item>
+        <item quantity="other">Kas kustutada %d videot?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Kas kustutada %d kleebis?</item>
+        <item quantity="other">Kas kustutada %d kleebist?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Kustuta see foto</item>
+        <item quantity="other">Kustuta need fotod</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">See video kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+        <item quantity="other">Need videod kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">See video kustutatakse püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+        <item quantity="other">Need videod kustutatakse püsivalt. Seda tegevust ei saa tagasi võtta.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d üksuse allalaadimine...</item>
+        <item quantity="other">%d üksuse allalaadimine...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d foto allalaadimine...</item>
+        <item quantity="other">%d foto allalaadimine…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d video allalaadimine…</item>
+        <item quantity="other">%d video allalaadimine…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Kas määrata %d fail privaatseks?</item>
+        <item quantity="other">Kas määrata %d faili privaatseks?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Kas määrata see foto privaatseks?</item>
+        <item quantity="other">Kas määrata need fotod privaatseks?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d faili krüptimine nurjus</item>
+        <item quantity="other">%d faili krüptimine nurjus</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Kas lukustada %d album?</item>
+        <item quantity="other">Kas lukustada %d albumid?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d sarifoto kustutatakse sellest seadmest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+        <item quantity="other">%d sarifotot kustutatakse sellest seadmest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d sarivõtte foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+        <item quantity="other">%d sarivõtte fotot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album kustutatakse sellest seadmest. Varundatud albumid jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata albumeid hoitakse 30 päeva.</item>
+        <item quantity="other">%d albumit kustutatakse sellest seadmest. Varundatud albumid jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata albumeid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d foto kustutatakse sellest seadmest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest. Varundatud üksused jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata üksuseid hoitakse 30 päeva.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest. Varundatud üksused jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata üksuseid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video kustutatakse sellest seadmest. Varundatud videod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata videoid hoitakse 30 päeva.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest. Varundatud videod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata videoid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud albumid jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata albumeid hoitakse 30 päeva.</item>
+        <item quantity="other">%d albumit kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud albumid jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata albumeid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud fotod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata fotosid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud üksused jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata üksuseid hoitakse 30 päeva.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud üksused jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata üksuseid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud videod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata videoid hoitakse 30 päeva.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Varundatud videod jäävad kausta „Hiljuti kustutatud“ 60 päevaks; varundamata videoid hoitakse 30 päeva.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Ekspordi %d valitud foto</item>
+        <item quantity="other">Ekspordi %d valitud fotot</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Kas eksportida %d foto?</item>
+        <item quantity="other">Kas eksportida %d fotot?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">%1$d üksuse lisamine lemmikute hulka ebaõnnestus. Proovige uuesti.</item>
+        <item quantity="other">%1$d üksuse lisamine lemmikute hulka ebaõnnestus. Proovige uuesti.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Faili suurus: %1$s. Hinnanguline allalaadimise aeg: %2$s minut.</item>
+        <item quantity="other">Faili suurus: %1$s. Hinnanguline allalaadimise aeg: %2$s minutit.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Kasuta pisipilti</item>
+        <item quantity="other">Kasuta pisipilte</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Kasuta originaali</item>
+        <item quantity="other">Kasuta originaale</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">Üks foto on pisipilt. Selle asemel saate alla laadida ja kasutada originaalfotot.</item>
+        <item quantity="other">Mõned valitud fotodest on pisipildid. Nende asemel saate alla laadida ja kasutada originaalfotosid.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Leitud on foto, mille on: %s. Hõlpsamaks juurdepääsuks teisaldage see „Kaarditaskusse“.</item>
+        <item quantity="other">Leitud on fotod, mille on %s. Hõlpsamaks juurdepääsuks teisaldage need „Kaarditaskusse“.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Foto, mille on %1$s, teisaldati „Kaarditaskusse“</item>
+        <item quantity="other">Fotod, millel on %1$s, teisaldati „Kaarditaskusse“</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d pilet/kviitung</item>
+        <item quantity="other">%1$d piletit/kviitungit</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Valitud üksus on albumis juba olemas</item>
+        <item quantity="other">Valitud üksused on albumis juba olemas</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d üksus</item>
+        <item quantity="other">%d üksust</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d isik ühendatakse ja eemaldatakse albumist %2$s.</item>
+        <item quantity="other">%1$d isikut ühendatakse ja eemaldatakse albumist %2$s.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d fotot laaditakse, seda ei saa teisaldada</item>
+        <item quantity="other">%d fotot laaditakse, neid ei saa teisaldada</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d üksus liigutatud</item>
+        <item quantity="other">%d üksust liigutatud</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Originaalfoto allalaadimine …</item>
+        <item quantity="other">Originaalfotode allalaadimine …</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Foto on kopeeritud. Videoid ei saa sellesse albumisse kopeerida.</item>
+        <item quantity="other">Fotod on kopeeritud. Videoid ei saa sellesse albumisse kopeerida.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Foto teisaldatud. Sellesse albumisse ei saa videoid teisaldada.</item>
+        <item quantity="other">Fotod teisaldatud. Sellesse albumisse ei saa videoid teisaldada.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d albumit kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d foto kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">See foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+        <item quantity="other">Fotod kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">See foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">Fotod kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">See album kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+        <item quantity="other">Need albumid kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">See album kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">Need albumid kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">See kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+        <item quantity="other">Need üksused kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">See kustutatakse seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">Need üksused kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d albumit kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">%d albumit kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d sarivõte kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">%d sarivõtet kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d foto kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">%d fotot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d üksus kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">%d üksust kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi hoitakse 30 päeva kaustas Hiljuti kustutatud.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d video kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">%d videot kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">See video kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+        <item quantity="other">Need videod kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest. Kustutatud üksusi saab albumist Hiljuti kustutatud 30 päeva jooksul taastada.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">See video kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+        <item quantity="other">Need videod kustutatakse sellest seadmest, pilvest ja muudest sünkroonitud seadmetest.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Kas taastada %d foto?</item>
+        <item quantity="other">Kas taastada %d fotot?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Kas taastada %d üksus?</item>
+        <item quantity="other">Kas taastada %d üksust?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Kas taastada %d video?</item>
+        <item quantity="other">Kas taastada %d videot?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Taasta %d üksus</item>
+        <item quantity="other">Taasta %d üksust</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d video salvestamine nurjus</item>
+        <item quantity="other">%d video salvestamine nurjus</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d video salvestatud</item>
+        <item quantity="other">%d videot salvestatud</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Kasuta pisipilti</item>
+        <item quantity="other">Kasuta pisipilte</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Kasuta originaali</item>
+        <item quantity="other">Kasuta originaale</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">Üks foto on pisipilt. Selle asemel saate alla laadida ja kasutada originaalfotot.</item>
+        <item quantity="other">Mõned valitud fotodest on pisipildid. Nende asemel saate alla laadida ja kasutada originaalfotosid.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Valitud eseme (%1$d) eelvaade</item>
+        <item quantity="other">Valitud esemete (%1$d) eelvaade</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Vali 1–%1$d fotot</item>
+        <item quantity="other">Vali 1–%1$d fotot</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Kasuta pisipilti</item>
+        <item quantity="other">Kasuta pisipilte</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Kasuta originaali</item>
+        <item quantity="other">Kasuta originaale</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">Üks foto on pisipilt. Selle asemel saate alla laadida ja kasutada originaalfotot.</item>
+        <item quantity="other">Mõned valitud fotodest on pisipildid. Nende asemel saate alla laadida ja jagada originaalfotosid.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d foto kustutatakse jagatud albumist „%2$s“.</item>
+        <item quantity="other">%1$d fotot kustutatakse jagatud albumist „%2$s“.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d üksus kustutatakse jagatud albumist „%2$s“.</item>
+        <item quantity="other">%1$d üksust kustutatakse jagatud albumist „%2$s“.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d video kustutatakse jagatud albumist „%2$s“.</item>
+        <item quantity="other">%1$d videot kustutatakse jagatud albumist „%2$s“.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Kustuta %1$d üksus</item>
+        <item quantity="other">Kustuta %1$d üksust</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">%1$d üksuse allalaadimine nurjus, sest seadmes pole piisavalt mäluruumi.</item>
+        <item quantity="other">%1$d üksuse allalaadimine nurjus, sest seadmes pole piisavalt mäluruumi.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">Jäänud on %1$d üksus (%2$s). Kas jätkata allalaadimist mobiilandmeside kaudu?</item>
+        <item quantity="other">Jäänud on %1$d üksust (%2$s). Kas jätkata allalaadimist mobiilandmeside kaudu?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Võrgu viga. %1$d üksust ei laaditud alla.</item>
+        <item quantity="other">Võrgu viga. %1$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Võrguühendus puudub. %1$d üksust ei laaditud alla.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Korraga saab videona salvestada kuni %d liikuva foto</item>
+        <item quantity="other">Korraga saab videona salvestada kuni %d liikuvat fotot</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotot</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videot</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d üksus on valitud</item>
+        <item quantity="other">%1$d üksust on valitud</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d üksus</item>
+        <item quantity="other">%1$d üksust</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">%1$d üksuse eemaldamine lemmikute hulgast ebaõnnestus. Proovige uuesti.</item>
+        <item quantity="other">%1$d üksuse eemaldamine lemmikute hulgast ebaõnnestus. Proovige uuesti.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Joonistage lihtne objekt ja tõmmake sellele ring ümber, et luua kunstiteos. Kasutuspiirang: %1$d kord päevas.</item>
+        <item quantity="other">Joonistage lihtne objekt ja tõmmake sellele ring ümber, et luua kunstiteos. Kasutuspiirang: %1$d korda päevas.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d liikuva kleebise salvestamine ebaõnnestus</item>
+        <item quantity="other">%d liikuva kleebise salvestamine ebaõnnestus</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Saate valida veel 1–%1$d fotot</item>
+        <item quantity="other">Saate valida veel 1–%1$d fotot</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Saate valida veel 1–%1$d fotot (%2$s)</item>
+        <item quantity="other">Saate valida veel 1–%1$d fotot (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">sh %d liikuv foto</item>
+        <item quantity="other">sh %d liikuvat fotot</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Laadi alla originaalfoto</item>
+        <item quantity="other">Laadi alla originaalfotod</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d teie seadmes olev foto on vähendatud suurusega. Kas laadida alla täiseraldusvõimega originaalfoto (%2$s)?</item>
+        <item quantity="other">%1$d teie seadmes olevatest fotodest on vähendatud suurusega. Kas laadida alla täiseraldusvõimega originaalfotod (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">%1$d originaalfoto allalaadimine</item>
+        <item quantity="other">%1$d originaalfoto allalaadimine</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotot</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d Algset fotot ei laaditud alla. Seadmes pole piisavalt mäluruumi.</item>
+        <item quantity="other">%1$d algset fotot ei laaditud alla. Seadmes pole piisavalt mäluruumi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d üksust ei laaditud alla. Seadmes pole piisavalt mäluruumi.</item>
+        <item quantity="other">%1$d üksust ei laaditud alla. Seadmes pole piisavalt mäluruumi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">%1$d üksuse üleslaadimine peatati. Internetiühendust pole.</item>
+        <item quantity="other">%1$d üksuse üleslaadimine peatati. Internetiühendust pole.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d üksuse üleslaadimine peatati. Wi-Fi pole ühendatud.</item>
+        <item quantity="other">%1$d üksuse üleslaadimine peatati. Wi-Fi pole ühendatud.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">%1$d üksuse üleslaadimine on akuenergia säästmiseks peatatud.</item>
+        <item quantity="other">%1$d üksuse üleslaadimine on akuenergia säästmiseks peatatud.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d üksuse üleslaadimine peatati. Telefon on liiga kuum.</item>
+        <item quantity="other">%1$d üksuse üleslaadimine peatati. Telefon on liiga kuum.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d üksuse üleslaadimine peatati. Pilve hooldatakse.</item>
+        <item quantity="other">%1$d üksuse üleslaadimine peatati. Pilve hooldatakse.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d üksuse üleslaadimine peatati. Tahvelarvuti on liiga kuum.</item>
+        <item quantity="other">%1$d üksuse üleslaadimine peatati. Tahvelarvuti on liiga kuum.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">%1$d üksuse sünkroonimine pilvest</item>
+        <item quantity="other">%1$d üksuse sünkroonimine pilvest</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotot</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videot</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Aku laetuse tase on madalam kui %1$s. %2$d üksus pole alla laaditud. Laadige oma telefoni.</item>
+        <item quantity="other">Aku laetuse tase on madalam kui %1$s. %2$d üksust pole alla laaditud. Laadige oma telefoni.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Aku energiavaru on madalam kui %1$s. %2$d üksust ei laaditud alla. Jätkamiseks ühendage vooluallikaga.</item>
+        <item quantity="other">Aku energiavaru on madalam kui %1$s. %2$d üksust ei laaditud alla. Jätkamiseks ühendage vooluallikaga.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Aku energiavaru on madalam kui %1$s. %2$d üksust ei laaditud alla.</item>
+        <item quantity="other">Aku energiavaru on madalam kui %1$s. %2$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Energiasäästurežiim on sisse lülitatud. %1$d üksust ei laaditud alla.</item>
+        <item quantity="other">Energiasäästurežiim on sisse lülitatud. %1$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole alla laaditud. %2$s.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole alla laaditud. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole alla laaditud. %2$s või %3$s.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole alla laaditud. %2$s või %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole alla laaditud.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole alla laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Võrguühendus puudub. %1$d üksust ei laaditud alla.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Seadmes pole piisavalt mäluruumi. %1$d üksust ei laaditud alla.</item>
+        <item quantity="other">Seadmes pole piisavalt mäluruumi. %1$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Võrgu viga. %1$d üksust ei laaditud alla.</item>
+        <item quantity="other">Võrgu viga. %1$d üksust ei laaditud alla.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Seadmes pole piisavalt mäluruumi. %1$d Algset fotot ei laaditud alla.</item>
+        <item quantity="other">Seadmes pole piisavalt mäluruumi. %1$d algset fotot ei laaditud alla.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d foto sünkroonimata. Pilve mäluruum on täis.</item>
+        <item quantity="other">%1$d fotot sünkroonimata. Pilve mäluruum on täis.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d foto on sünkroonimata. Pilvega sünkroonimine peatatakse, kui aku laetuse tase on alla %2$s.</item>
+        <item quantity="other">%1$d fotot on sünkroonimata. Pilvega sünkroonimine peatatakse, kui aku laetuse tase on alla %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d foto on sünkroonimata. Pilvega sünkroonimine on energiasäästurežiimis peatatud.</item>
+        <item quantity="other">%1$d fotot sünkroonimata. Pilvega sünkroonimine on energiasäästurežiimis peatatud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Aku laetuse tase on madalam kui %1$s. %2$d üksus pole üles laaditud. Laadige oma telefoni.</item>
+        <item quantity="other">Aku laetuse tase on madalam kui %1$s. %2$d üksust pole üles laaditud. Laadige oma telefoni.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Aku energiavaru on madalam kui %1$s. %2$d üksus pole üles laaditud. Jätkamiseks ühendage vooluallikaga.</item>
+        <item quantity="other">Aku energiavaru on madalam kui %1$s. %2$d üksust pole üles laaditud. Jätkamiseks ühendage vooluallikaga.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Aku energiavaru on madalam kui %1$s. %2$d üksus pole üles laaditud.</item>
+        <item quantity="other">Aku energiavaru on madalam kui %1$s. %2$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Energiasäästurežiim on sisse lülitatud. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Energiasäästurežiim on sisse lülitatud. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Pilve mäluruum on täis. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Pilve mäluruum on täis. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d videot ei sünkroonitud. Pilve mäluruum on täis.</item>
+        <item quantity="other">%1$d videot ei sünkroonitud. Pilve mäluruum on täis.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d video on sünkroonimata. Pilvega sünkroonimine peatatakse, kui aku laetuse tase on alla %2$s.</item>
+        <item quantity="other">%1$d videot on sünkroonimata. Pilvega sünkroonimine peatatakse, kui aku laetuse tase on alla %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d video on sünkroonimata. Pilvega sünkroonimine on energiasäästurežiimis peatatud.</item>
+        <item quantity="other">%1$d videot sünkroonimata. Pilvega sünkroonimine on energiasäästurežiimis peatatud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d fotot sünkroonimata.</item>
+        <item quantity="other">%1$d foto sünkroonimata.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole üles laaditud.%2$s.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole üles laaditud. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole üles laaditud. %2$s või %3$s.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole üles laaditud. %2$s või %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Võrguühendus puudub. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Võrguühendus puudub. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d video sünkroonimta</item>
+        <item quantity="other">%1$d videot sünkroonimata</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Võrguühendus katkes. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Võrgu viga. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Teenuse tõrge. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Teenuse tõrge. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Teenuse tõrge. %1$d üksus pole üles laaditud.</item>
+        <item quantity="other">Teenuse tõrge. %1$d üksust pole üles laaditud.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">%1$d üksuse sünkroonimine</item>
+        <item quantity="other">%1$d üksuse sünkroonimine</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">%1$d üksuse sünkroonimine pilve …</item>
+        <item quantity="other">%1$d üksuse sünkroonimine pilve …</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videot</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Mõned platvormid ei pruugi toetada liikuvaid fotosid, mis on pikemad kui %d sekund</item>
+        <item quantity="other">Mõned platvormid ei pruugi toetada liikuvaid fotosid, mis on pikemad kui %d sekundit</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Hüpikakent saab kasutada korraga ainult %1$d liikuval fotol</item>
+        <item quantity="other">Hüpikakent saab kasutada korraga kuni %1$d liikuval fotol</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Üle %1$d sekundi pikkuseid liikuvaid fotosid ei toetata</item>
+        <item quantity="other">Üle %1$d sekundi pikkuseid liikuvaid fotosid ei toetata</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Korraga saab lohistada %d üksust</item>
+        <item quantity="other">Korraga saab lohistada kuni %d üksust</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Ei lisatud %d üksust</item>
+        <item quantity="other">ei lisatud %d üksust</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d foto privaatseks määramine nurjus, sest seda laaditakse.</item>
+        <item quantity="other">%d foto privaatseks määramine nurjus, sest neid laaditakse.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d tund</item>
+        <item quantity="other">%d tundi</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d üksus</item>
+        <item quantity="other">%d üksus</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minutit</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekundit</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekundit</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d üksust ei saa videotöötluseks importida</item>
+        <item quantity="other">%d üksust ei saa videotöötluseks importida</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Leht %1$d/%2$d</item>
+        <item quantity="other">Leht %1$d/%2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Valige ühe GIF-i jaoks kuni %1$d foto</item>
+        <item quantity="other">Valige ühe GIF-i jaoks kuni %1$d fotot</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Toetatakse ainult kuni %1$d sekundilisi liikuvaid fotosid</item>
+        <item quantity="other">Toetatakse ainult kuni %1$d sekundilisi liikuvaid fotosid</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">GIF-i loomiseks valige vähemalt %1$d foto</item>
+        <item quantity="other">GIF-i loomiseks valige vähemalt %1$d fotot</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Valige ühe GIF-i jaoks kuni %1$d foto</item>
+        <item quantity="other">Valige ühe GIF-i jaoks kuni %1$d fotot</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Ainult %1$d foto vastab formaadi nõuetele</item>
+        <item quantity="other">Ainult %1$d fotot vastavad formaadi nõuetele</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d fotot ei lisata GIF-i</item>
+        <item quantity="other">%1$d fotot ei lisata GIF-i</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d fotot ei toetata</item>
+        <item quantity="other">%1$d fotot ei toetata</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">%1$s üksuse laadimine teenusest Google Fotod …</item>
+        <item quantity="other">%1$s üksuse laadimine teenusest Google Fotod …</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Teenuses Google Fotod pole piisavalt mäluruumi. %1$d üksust ei varundatud.</item>
+        <item quantity="other">Teenuses Google Fotod pole piisavalt mäluruumi. %1$d üksust ei varundatud.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">%1$s üksuse varundamine teenusesse Google Fotod …</item>
+        <item quantity="other">%1$s üksuse varundamine teenusesse Google Fotod …</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d üksus on sünkroonitud HeyTap Cloudi. Selle väljalülitamine tühistab automaatse sünkroonimise. Andmete turvalisuse tagamiseks on soovitatav oodata, kuni sünkroonimine on lõpule jõudnud.</item>
+        <item quantity="other">%1$d üksust sünkroonitakse HeyTap Cloudiga. Selle väljalülitamine tühistab automaatse sünkroonimise. Andmete turvalisuse tagamiseks on soovitatav oodata, kuni sünkroonimine on lõpule jõudnud.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Ainult %d albumi saab lisada kausta „Sageli kasutatud“</item>
+        <item quantity="other">Kuni %d albumit saab lisada kausta „Sageli kasutatud“</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">Leiti %1$d seade</item>
+        <item quantity="other">Leiti %1$d seadet</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d päev</item>
+        <item quantity="other">%1$d päeva</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotot</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videot</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Kustuta %1$d üksus NAS-ist</item>
+        <item quantity="other">Kustuta %1$d üksust NAS-ist</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Allalaadimine on lõpetatud. %1$d üksuse allalaadimine nurjus.</item>
+        <item quantity="other">Allalaadimine on lõpetatud. %1$d üksuse allalaadimine nurjus.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d üksus on alla laaditud.</item>
+        <item quantity="other">%1$d üksust on alla laaditud.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Aallalaadimine %1$d/%2$d…</item>
+        <item quantity="other">Aallalaadimine %1$d/%2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Kuidas soovite valitud ala muuta?</item>
+        <item quantity="other">Kuidas soovite valitud alasid muuta?</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Kirjeldage, mida soovite valitud alal muuta</item>
+        <item quantity="other">Kirjeldage, mida soovite valitud aladel muuta</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Salvestamine peatub %1$d sekundi pärast</item>
+        <item quantity="other">Salvestamine peatub %1$d sekundi pärast</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Saate valida kuni %1$d ala</item>
+        <item quantity="other">Saate valida kuni %1$d ala</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Toetatakse ainult kuni %1$d sekundilisi liikuvaid fotosid</item>
+        <item quantity="other">Toetatakse ainult kuni %1$d sekundilisi liikuvaid fotosid</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Eeldatav ooteaeg on faili suure mahu tõttu %1$d min</item>
+        <item quantity="other">Eeldatav ooteaeg on faili suure mahu tõttu %1$d min</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Ekspordi %d valitud foto</item>
+        <item quantity="other">Ekspordi %d valitud fotot</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Peab olema üle %1$d mm</item>
+        <item quantity="other">Peab olema üle %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Peab olema üle %1$d px</item>
+        <item quantity="other">Peab olema üle %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Peab olema alla %1$d mm</item>
+        <item quantity="other">Peab olema alla %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Peab olema alla %1$d px</item>
+        <item quantity="other">Peab olema alla %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Peab olema üle %1$d KB</item>
+        <item quantity="other">Peab olema üle %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Peab olema alla %1$d KB</item>
+        <item quantity="other">Peab olema alla %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Peab olema üle %1$d mm</item>
+        <item quantity="other">Peab olema üle %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Peab olema üle %1$d px</item>
+        <item quantity="other">Peab olema üle %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Peab olema alla %1$d mm</item>
+        <item quantity="other">Peab olema alla %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Peab olema alla %1$d px</item>
+        <item quantity="other">Peab olema alla %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Säilita ainult %d valitud foto</item>
+        <item quantity="other">Säilita ainult %d valitud fotot</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Kustuta %d üksus</item>
+        <item quantity="other">Kustuta %d üksust</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Kustuta %d üksus</item>
+        <item quantity="other">Kustuta %d üksust</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d kleebise lisamine nurjus</item>
+        <item quantity="other">%1$d kleebise lisamine nurjus</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d kleebise lisamine nurjus</item>
+        <item quantity="other">%d kleebise lisamine nurjus</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">Lisati %1$s kleebis</item>
+        <item quantity="other">Lisati %1$s kleebist</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">Lisati %1$s kleebis</item>
+        <item quantity="other">Lisati %1$s kleebist</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Lisati %1$d kleebis</item>
+        <item quantity="other">Lisati %1$d kleebist</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Saate lisada AI-remiksi kollaažis kuni %1$d liikuva kleebise. Lisakleebised muutuvad staatiliseks.</item>
+        <item quantity="other">Saate lisada AI-remiksi kollaažis kuni %1$d liikuvat kleebist. Lisakleebised muutuvad staatiliseks.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Saate lisada kuni %1$d liikuv foto</item>
+        <item quantity="other">Saate lisada kuni %1$d liikuvat fotot</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Saate lisada kuni %1$d foto</item>
+        <item quantity="other">Saate lisada kuni %1$d fotot</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Fotodelt objektide eemaldamiseks laadige alla plugin Eemaldi. Faili suurus: %1$s. Allalaadimisele kuluv hinnanguline aeg: %2$d minutit.</item>
+        <item quantity="other">Fotodelt objektide eemaldamiseks laadige alla plugin Eemaldi. Faili suurus: %1$s. Allalaadimisele kuluv hinnanguline aeg: %2$d minutit.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Faili suurus: %1$d. Hinnanguline allalaadimise aeg: %2$d.</item>
+        <item quantity="other">Faili suurus: %1$d. Hinnanguline allalaadimise aeg: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d fotot ei toetata</item>
+        <item quantity="other">%1$d fotot ei toetata</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">Valitud on %1$d/%2$d</item>
+        <item quantity="other">Valitud on %1$d/%2$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d üksus on valitud</item>
+        <item quantity="other">%1$d üksust on valitud</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d album on valitud</item>
+        <item quantity="other">%1$d albumit on valitud</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d üksus on valitud</item>
+        <item quantity="other">%1$d üksust on valitud</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d video on valitud</item>
+        <item quantity="other">%1$d videot on valitud</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Lisada saab kuni %1$d kleebist</item>
+        <item quantity="other">Lisada saab kuni %1$d kleebist</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Valida saab ainult %1$d üksuse</item>
+        <item quantity="other">Valida saab kuni %1$d üksust</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d foto kustutamine nurjus, sest seda laaditakse.</item>
+        <item quantity="other">%d foto kustutamine nurjus, sest neid laaditakse.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d üksuse kustutamine nurjus. Proovige uuesti.</item>
+        <item quantity="other">%1$d üksuse kustutamine nurjus. Proovige uuesti.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d uus teavitus</item>
+        <item quantity="other">%d uut teavitust</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Kas eemaldada %d objekt?</item>
+        <item quantity="other">Kas eemaldada %d objekti?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotot</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Selle rakendusega saab jagada ainult %d üksust</item>
+        <item quantity="other">Selle rakendusega saab jagada kuni %d üksust</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Jaga %d üksust</item>
+        <item quantity="other">Jaga %d üksusi</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Jaga %d fotosid</item>
+        <item quantity="other">Jaga %d fotosid</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Jaga %d video</item>
+        <item quantity="other">%d video jagamine</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Kas kustutada %d hetk?</item>
+        <item quantity="other">Kas kustutada %d hetke?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d lugu, teie jaoks kureeritud.</item>
+        <item quantity="other">%d lugu, teie jaoks kureeritud.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d on valitud</item>
+        <item quantity="other">%d on valitud</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Saate importida ainult %s faili</item>
+        <item quantity="other">Saate importida kuni %s faili</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Lisa %1d üksus</item>
+        <item quantity="other">Lisa %1d üksust</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Importida saab kuni %s LUT-i faili</item>
+        <item quantity="other">Importida saab kuni %s LUT-i faili</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Lisada saab kuni %d foto</item>
+        <item quantity="other">Lisada saab kuni %d fotot</item>
+    </plurals>
+</resources>

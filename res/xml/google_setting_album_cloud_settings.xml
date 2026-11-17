@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/google_cloud_setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.oplus.gallery.foundation.ui.TextButtonTopTipsPreference android:icon="@drawable/icon_info" android:title="@string/google_cloud_setting_top_tips_permission" android:key="pref_top_tips" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_main" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/google_cloud_setting_auto_sync" android:key="pref_key_cloud_setting_auto_sync" android:summary="@string/google_cloud_setting_auto_sync_summary_v2" android:defaultValue="false" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/google_cloud_setting_album_check" android:key="perf_key_cloud_setting_album_check" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/google_cloud_setting_mobile_data_usage" android:key="perf_key_cloud_setting_mobile_data_usage" android:defaultValue="false" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.gallery.foundation.ui.ImageButtonTopTipsPreference android:icon="@drawable/icon_info" android:key="pref_cloud_storage_tips" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_storage_space">
+        <com.oplus.gallery.cloudsyncpage.gcloud.StorageSpacePreference android:layout="@layout/preference_storage_space" android:title="@string/google_cloud_storage_space" android:defaultValue="true" app:key="perf_key_cloud_setting_storage_space" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

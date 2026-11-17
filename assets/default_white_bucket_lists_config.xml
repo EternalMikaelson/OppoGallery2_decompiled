@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--OS 8.0 CN-->
+<filter-conf>
+    <version>2026012700</version>
+    <isOpen>1</isOpen>
+    <filter-name>album-whitelist</filter-name>
+    <!-- virtual path in this list should start with ".", to be compatible with version before os 6.0-->
+    <!-- .SortMergePath 用于在多个路径合成同一图集时，生成排序唯一sortId -->
+    <tagblock name="white_bucket_lists_config" mediatypeswitch="1" version="2021091410">
+        <whiteset albumType="1" fixShow="1" mediaType="3" order="0">
+            <seturl>.AllPicture</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="1" mediaType="3" order="1">
+            <seturl>/DCIM/Camera</seturl>
+        </whiteset>
+        <whiteset albumType="1" fixShow="1" mediaType="3" order="2">
+            <seturl>.AllVideos</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="1" mediaType="3" order="3">
+            <seturl>.SortMergePath/Screenshots</seturl>
+            <seturl>/DCIM/Screenshots</seturl>
+            <seturl>/Pictures/Screenshots</seturl>
+        </whiteset>
+        <whiteset albumType="1" fixShow="1" mediaType="3" order="4">
+            <seturl>.Favorites</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="5">
+            <seturl>.SortMergePath/CardCase</seturl>
+            <seturl>/DCIM/MyAlbums/随身卡包（Card case）</seturl>
+            <seturl>/DCIM/MyAlbums/卡证档案</seturl>
+        </whiteset>
+        <whiteset albumType="1" fixShow="0" mediaType="3" order="6">
+            <seturl>.EnhanceText</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="7">
+            <seturl>.SortMergePath/WeiXin</seturl>
+            <seturl>/Pictures/WeiXin</seturl>
+            <seturl>/Pictures/WeChat</seturl>
+            <seturl>/Tencent/MicroMsg/WeiXin</seturl>
+            <seturl>/Tencent/MicroMsg/WeChat</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="8">
+            <seturl>/Pictures/TeamTalk</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="9">
+            <seturl>.SortMergePath/QQ</seturl>
+            <seturl>/Pictures/QQ</seturl>
+            <seturl>/Tencent/QQ_Images</seturl>
+            <seturl>/Tencent/MobileQQ/Photo</seturl>
+            <seturl>/Movies/QQ</seturl>
+            <seturl>/Movies/Tim</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="9">
+            <seturl>/Tencent/QQi_Images</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="9">
+            <seturl>/Tencent/QQfile_recv</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="9">
+            <seturl>/Tencent/QQ_Collection/pic</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="9">
+            <seturl>/QQ_Screenshot</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="10">
+            <seturl>/Pictures/Messenger</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="10">
+            <seturl>/Movies/Messenger</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="11">
+            <seturl>/Pictures/Instagram</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="12">
+            <seturl>/WhatsApp/Media/WhatsApp Image</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="12">
+            <seturl>/WhatsApp/Media/WhatsApp Video</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="13">
+            <seturl>/WhatsApp/Media/WhatsApp Images</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="13">
+            <seturl>/Pictures/Facebook</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="13">
+            <seturl>/Facebook</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="13">
+            <seturl>/DCIM/Facebook</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="14">
+            <seturl>/Pictures/LINE</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="14">
+            <seturl>/Pictures/LINE_MOVIE</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="15">
+            <seturl>/viber/media/Viber Images</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="16">
+            <seturl>.SortMergePath/ShareAlbum</seturl>
+            <seturl>/DCIM/HeyTapCloud/ShareAlbum</seturl>
+            <seturl>/ColorOS/OCloud/ShareAlbum</seturl>
+            <seturl>/DCIM/ShareAlbum</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="17">
+            <seturl>.SortMergePath/Multi-Screen Connect</seturl>
+            <seturl>/Download/Multi-Screen Connect</seturl>
+            <seturl>/Download/PC Connect</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/weibo</seturl>
+            <seturl>/sina/weibo/weibo</seturl>
+            <seturl>/sina/weibo/storage/photoalbum_save/weibo</seturl>
+            <seturl>/Pictures/weibo</seturl>
+            <seturl>/DCIM/weibovideo</seturl>
+            <seturl>/DCIM/weibo</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/JianYing</seturl>
+            <seturl>/DCIM/JianYing</seturl>
+            <seturl>/Pictures/JianYing</seturl>
+            <seturl>/Movies/JianYing</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/MeiTuan</seturl>
+            <seturl>/Pictures/meituan</seturl>
+            <seturl>/Pictures/largebuilding</seturl>
+            <seturl>/Pictures/paidian</seturl>
+            <seturl>/Pictures/enhancedcamera/pic</seturl>
+            <seturl>/Pictures/DaXiang_Chat</seturl>
+        </whiteset>
+        <whiteset albumType="1" fixShow="0" mediaType="1" order="-1">
+            <seturl>.Modeling</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/Bluetooth</seturl>
+            <seturl>/Bluetooth</seturl>
+            <seturl>/Download/Bluetooth</seturl>
+        </whiteset>
+
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/OPPO Share Pictures</seturl>
+            <seturl>/Pictures/OPPO Share</seturl>
+            <seturl>/OPPO Share/pictures</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/OPPO Share Movies</seturl>
+            <seturl>/Movies/OPPO Share</seturl>
+            <seturl>/OPPO Share/videos</seturl>
+        </whiteset>
+
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/OnePlus Share Pictures</seturl>
+            <seturl>/Pictures/OnePlus Share</seturl>
+            <seturl>/OnePlus Share/pictures</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/OnePlus Share Movies</seturl>
+            <seturl>/Movies/OnePlus Share</seturl>
+            <seturl>/OnePlus Share/videos</seturl>
+        </whiteset>
+
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/realme Share Pictures</seturl>
+            <seturl>/Pictures/realme Share</seturl>
+            <seturl>/realme Share/pictures</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/realme Share Movies</seturl>
+            <seturl>/Movies/realme Share</seturl>
+            <seturl>/realme Share/videos</seturl>
+        </whiteset>
+
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/DCIM/*</seturl>
+            <seturl>/Pictures/MyCollections/*</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Pictures</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Movies</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/DCIM/Collage</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/ColorOS/ThemeStore/Wallpapers</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Telegram/Telegram Images</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Telegram/Telegram video</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Pictures/OcrScanner</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/DCIM/BeautyPlus</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Photo Grid</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/PicsArt/PicsArtCamera</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/InstaCollage</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/pictures/Twitter</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Zello/pictures</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/SHAREit/picture</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/tencent/MicMsg/Wechat</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Pictures/BBM</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Pictures/PicsArt</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/baidu/searchbox/downloads</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/ColorOS/Browser/Download</seturl>
+        </whiteset>
+        <!--空代表根目录-->
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl></seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Tencent/QQ_Video</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/相机</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/qqmusic/mv</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/微博动图</seturl>
+            <seturl>/sina/weibo/微博动图</seturl>
+            <seturl>/sina/weibo/storage/photoalbum_save/微博动图</seturl>
+            <seturl>/Pictures/微博动图</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Download/Mms</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Download</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Snapseed</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/Pictures/O Family</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>/DCIM/Lift and shift</seturl>
+        </whiteset>
+        <whiteset albumType="0" fixShow="0" mediaType="3" order="-1">
+            <seturl>.SortMergePath/Highlights</seturl>
+            <seturl>/DCIM/Highlights/PUBG</seturl>
+            <seturl>/DCIM/Highlights/BGMI</seturl>
+            <seturl>/DCIM/Highlights/MLBB</seturl>
+        </whiteset>
+        <!-- 应产品要求，默认显示在系统图集最后一位，所以将999999设置超大数 -->
+        <whiteset albumType="1" fixShow="1" mediaType="3" order="999999">
+            <seturl>.CloudShareAlbumSet</seturl>
+        </whiteset>
+    </tagblock>
+
+    <tagblock name="black_bucket_lists_config" version="2018061800">
+        <seturl>/Tencent/tassistant/photon</seturl>
+        <seturl>/Tencent/tassistant/file</seturl>
+    </tagblock>
+</filter-conf>

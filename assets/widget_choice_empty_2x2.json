@@ -1,0 +1,59 @@
+{
+  "type": "constraint",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "id": "mainLayout",
+  "package": "com.oneplus.gallery",
+  "child": [
+    {
+      "type": "image",
+      "id": "image",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "src": "@drawable/widget_image_choice_2x2",
+      "adjustViewBounds": true,
+      "scaleType": "centerCrop"
+    },
+    {
+      "type": "text",
+      "id": "widget_title",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "paddingStart": "@dimen/widget_empty_title_padding",
+      "paddingEnd": "@dimen/widget_empty_title_padding",
+      "layout_marginBottom": "@dimen/widget_choice_margin_bottom",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintBottom_toTopOf": "widget_desc",
+      "text": "@string/widget_choice_empty_select_pictures_title",
+      "textColor": "@color/widget_choice_empty_title_text_color",
+      "fontFamily": "sans-serif-medium",
+      "textSize": "@dimen/widget_choice_small_card_title",
+      "gravity": "center_vertical",
+      "maxLines": "3",
+      "textStyle": "bold",
+      "ellipsize": "end"
+    },
+    {
+      "type": "text",
+      "id": "widget_desc",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "paddingStart": "@dimen/widget_empty_title_padding",
+      "paddingEnd": "@dimen/widget_empty_title_padding",
+      "layout_marginBottom": "@dimen/widget_dialog_recommended_btn_margin_bottom",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "text": "@string/widget_auto_generate_recommended_image_screen_charging",
+      "textColor": "@color/widget_choice_empty_desc_text_color",
+      "fontFamily": "sans-serif-medium",
+      "textSize": "@dimen/widget_desc_size_small",
+      "gravity": "center_vertical",
+      "maxLines": "5",
+      "ellipsize": "end"
+    }
+  ]
+}

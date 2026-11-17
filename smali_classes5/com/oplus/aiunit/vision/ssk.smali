@@ -1,0 +1,46 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/ssk;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/util/function/Consumer;
+
+
+# instance fields
+.field public final synthetic a:Lorg/apache/commons/io/function/IOConsumer;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lorg/apache/commons/io/function/IOConsumer;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/ssk;->a:Lorg/apache/commons/io/function/IOConsumer;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/ssk;->a:Lorg/apache/commons/io/function/IOConsumer;
+
+    .line 2
+    .line 3
+    invoke-static {p0, p1}, Lorg/apache/commons/io/function/IOStream;->h3(Lorg/apache/commons/io/function/IOConsumer;Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/main_direct_share_recycle_view_item_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_direct_share_recycle_view_item_margin_top" android:layout_marginEnd="@dimen/main_direct_share_recycle_view_item_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.sharepage.widget.GalleryFadeBackImageView android:id="@id/direct_item_icon" android:duplicateParentState="true" android:layout_width="@dimen/main_direct_share_recycle_view_icon_width" android:layout_height="@dimen/main_direct_share_recycle_view_icon_height" />
+    <TextView android:textSize="@dimen/common_TF03" android:textColor="?couiColorLabelPrimary" android:id="@id/direct_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_direct_share_recycle_view_item_tv_margin_top" android:singleLine="true" />
+</LinearLayout>

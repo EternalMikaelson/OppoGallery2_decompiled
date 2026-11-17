@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/editor_pip_select_tab_icon_height" android:width="@dimen/editor_pip_select_tab_icon_width" />
+    <corners android:radius="@dimen/editor_pip_select_tab_icon_radius" />
+    <stroke android:width="@dimen/editor_pip_select_tab_icon_thickness" android:color="@android:color/white" />
+</shape>

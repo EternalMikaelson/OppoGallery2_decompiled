@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#00000000" android:endColor="#33000000" android:angle="270.0" />
+    <corners android:bottomLeftRadius="@dimen/albumsetpage_person_pet_group_album_set_item_corner_radius" android:bottomRightRadius="@dimen/albumsetpage_person_pet_group_album_set_item_corner_radius" />
+</shape>

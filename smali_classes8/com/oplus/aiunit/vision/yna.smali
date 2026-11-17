@@ -1,0 +1,61 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/yna;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object p0, Lcom/oplus/aiunit/vision/gga;->a:Lcom/coloros/gallery3d/app/App;
+
+    if-eqz p0, :cond_0
+
+    goto :goto_0
+
+    .line 6
+    :cond_0
+    const-string p0, "context"
+
+    .line 8
+    invoke-static {p0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    .line 12
+    :goto_0
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    .line 16
+    const-string/jumbo v0, "getResources(...)"
+
+    .line 19
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 22
+    const-string/jumbo v0, "resources"
+
+    .line 25
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 28
+    sget v0, Lcom/oplus/gallery/creationpage/R$dimen;->creation_recommend_card_margin_guideline:I
+
+    .line 30
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
+    move-result p0
+
+    .line 34
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p0
+
+    return-object p0
+.end method

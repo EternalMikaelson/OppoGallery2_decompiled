@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, termasuk %2$2s item; ketuk untuk menambahkannya ke \"Sering digunakan\".</item>
+        <item quantity="other">Album %1$1s, termasuk %2$2s item; ketuk untuk menambahkannya ke \"Sering digunakan\".</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s cocok</item>
+        <item quantity="other">%s cocok</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Pilih media Anda dan ketuk jendela mengambang \"Klip Instan AI\" di bawah ini untuk membuat video dengan cepat. Pilih setidaknya %1$s item untuk hasil yang lebih baik.</item>
+        <item quantity="other">Pilih media Anda dan ketuk jendela mengambang \"Klip Instan AI\" di bawah ini untuk membuat video dengan cepat. Pilih setidaknya %1$s item untuk hasil yang lebih baik.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Pilih media Anda dan ketuk \"Edit - Klip Instan AI\" di bagian bawah untuk membuat video dengan cepat. Pilih setidaknya %1$s item untuk hasil yang lebih baik.</item>
+        <item quantity="other">Pilih media Anda dan ketuk \"Edit - Klip Instan AI\" di bagian bawah untuk membuat video dengan cepat. Pilih setidaknya %1$s item untuk hasil yang lebih baik.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Foto bergerak yang berdurasi lebih dari %1$d detik tidak didukung</item>
+        <item quantity="other">Foto bergerak yang berdurasi lebih dari %1$d detik tidak didukung</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Video tidak boleh lebih dari %d detik</item>
+        <item quantity="other">Video tidak boleh lebih dari %d detik</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d aplikasi terkunci</item>
+        <item quantity="other">%d aplikasi terkunci</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, termasuk %2$2s item; ditambahkan ke \"Sering digunakan\".</item>
+        <item quantity="other">Album %1$1s, termasuk %2$2s item; ditambahkan ke \"Sering digunakan\".</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Tambahkan (%1$d)</item>
+        <item quantity="other">Tambahkan (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Tambahkan (%1$d/%2$d)</item>
+        <item quantity="other">Tambahkan (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d item disesuaikan</item>
+        <item quantity="other">%1$d item disesuaikan</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d foto sedang dimuat dan tidak dapat ditambah.</item>
+        <item quantity="other">%d foto sedang dimuat dan tidak dapat ditambah.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d dokumen</item>
+        <item quantity="other">%1$d dokumen</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d kartu bank</item>
+        <item quantity="other">%1$d kartu bank</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Item dari %d album akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa item tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+        <item quantity="other">Item dari %d album akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa item tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d foto berurutan akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Semua foto berurutan telah dicadangkan ke cloud dan akan tetap berada di sana.</item>
+        <item quantity="other">%d foto berurutan akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Semua foto berurutan telah dicadangkan ke cloud dan akan tetap berada di sana.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d foto berurutan akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa foto tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+        <item quantity="other">%d foto berurutan akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa foto tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d item akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa item tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+        <item quantity="other">%d item akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa item tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d foto akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa foto tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+        <item quantity="other">%d foto akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa foto tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d video akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa video tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+        <item quantity="other">%d video akan dihapus dari perangkat ini dan tetap berada di \"Baru dihapus\" selama 30 hari. Beberapa video tidak dicadangkan. Anda mungkin ingin mencadangkannya sebelum menghapusnya.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s gambar mini akan diganti dengan versi aslinya.</item>
+        <item quantity="other">%1$s gambar mini akan diganti dengan versi aslinya.</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="one">Foto yang ditemukan: %s. Aktifkan fitur ini untuk menata foto yang relevan. Anda dapat mengaktifkan atau mematikannya kapan saja di Pengaturan.</item>
+        <item quantity="other">Foto yang ditemukan: %s. Aktifkan fitur ini untuk menata foto yang relevan. Anda dapat mengaktifkan atau mematikannya kapan saja di Pengaturan.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Gabungkan dan hapus %d orang?</item>
+        <item quantity="other">Gabungkan dan hapus %d orang?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Hapus %d foto dari album ini?</item>
+        <item quantity="other">Hapus %d foto dari album ini?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Hapus %d item dari album ini?</item>
+        <item quantity="other">Hapus %d item dari album ini?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Hapus %d video dari album ini?</item>
+        <item quantity="other">Hapus %d video dari album ini?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Gunakan gambar mini</item>
+        <item quantity="other">Gunakan gambar mini</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Gunakan aslinya</item>
+        <item quantity="other">Gunakan aslinya</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 foto adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+        <item quantity="other">Beberapa dari foto yang dipilih adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Maksimum %1$d gambar dapat dikonversi ke PDF sekaligus</item>
+        <item quantity="other">Maksimum %1$d gambar dapat dikonversi ke PDF sekaligus</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Penyimpanan di perangkat tidak cukup. %1$d item tidak disalin.</item>
+        <item quantity="other">Penyimpanan di perangkat tidak cukup. %1$d item tidak disalin.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d item disalin</item>
+        <item quantity="other">%d item disalin</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Maksimum %d item dapat disalin</item>
+        <item quantity="other">Maksimum %d item dapat disalin</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d foto akan dihapus secara permanen dari perangkat ini.</item>
+        <item quantity="other">%d foto akan dihapus secara permanen dari perangkat ini.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d item akan dihapus secara permanen dari perangkat ini.</item>
+        <item quantity="other">%d item akan dihapus secara permanen dari perangkat ini.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d video akan dihapus secara permanen dari perangkat ini.</item>
+        <item quantity="other">%d video akan dihapus secara permanen dari perangkat ini.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d foto berurutan akan dihapus secara permanen dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d foto berurutan akan dihapus secara permanen dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Foto ini akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Tindakan ini tidak dapat dibatalkan.</item>
+        <item quantity="other">Foto-foto ini akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Foto ini akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</item>
+        <item quantity="other">Foto ini akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Item ini akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Tindakan ini tidak dapat dibatalkan.</item>
+        <item quantity="other">Item ini akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Item ini akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</item>
+        <item quantity="other">Item ini akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d foto akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">%d foto akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d item akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">%d item akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d video akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">%d video akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d foto berurutan akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d foto berurutan akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Hapus %d album?</item>
+        <item quantity="other">Hapus %d album?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Hapus %d foto berurutan?</item>
+        <item quantity="other">Hapus %d foto berurutan?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d memori akan dihapus dari perangkat ini. Foto dalam memori ini akan disimpan dalam aplikasi \"Foto\".</item>
+        <item quantity="other">%d memori akan dihapus dari perangkat ini. Foto dalam memori ini akan disimpan di aplikasi \"Foto\".</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Hapus %d memori?</item>
+        <item quantity="other">Hapus %d memori?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Hapus %d item secara permanen</item>
+        <item quantity="other">Hapus %d item secara permanen</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Hapus %d item</item>
+        <item quantity="other">Hapus %d item</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Hapus %d foto?</item>
+        <item quantity="other">Hapus %d foto?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Hapus %d item?</item>
+        <item quantity="other">Hapus %d item?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Hapus %d video?</item>
+        <item quantity="other">Hapus %d video?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Hapus %d stiker?</item>
+        <item quantity="other">Hapus %d stiker?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Hapus foto ini</item>
+        <item quantity="other">Hapus foto ini</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Video ini akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Tindakan ini tidak dapat dibatalkan.</item>
+        <item quantity="other">Video ini akan dihapus secara permanen dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Video ini akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</item>
+        <item quantity="other">Video ini akan dihapus secara permanen. Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Mengunduh %d item...</item>
+        <item quantity="other">Mengunduh %d item...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Mengunduh %d foto...</item>
+        <item quantity="other">Mengunduh %d foto...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Mengunduh %d video...</item>
+        <item quantity="other">Mengunduh %d video...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Atur %d file sebagai privat?</item>
+        <item quantity="other">Atur %d file sebagai privat?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Jadikan foto ini privat?</item>
+        <item quantity="other">Jadikan foto ini privat?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d file gagal dienkripsi</item>
+        <item quantity="other">%d file gagal dienkripsi</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Kunci %d album?</item>
+        <item quantity="other">Kunci %d album?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d foto berurutan akan dihapus dari perangkat ini. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d foto berurutan akan dihapus dari perangkat ini. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d foto berurutan akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d foto berurutan akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album akan dihapus dari perangkat ini. Album yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; album yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d album akan dihapus dari perangkat ini. Album yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; album yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d foto akan dihapus dari perangkat ini. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d foto akan dihapus dari perangkat ini. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d item akan dihapus dari perangkat ini. Item yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; item yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d item akan dihapus dari perangkat ini. Item yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; item yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video akan dihapus dari perangkat ini. Video yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; video yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d video akan dihapus dari perangkat ini. Video yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; video yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Album yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; album yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d album akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Album yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; album yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d foto akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d foto akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Foto yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; foto yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d item akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; item yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d item akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; item yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Video yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; video yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+        <item quantity="other">%d video akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Video yang dicadangkan tetap ada di \"Baru dihapus\" selama 60 hari; video yang belum dicadangkan akan tetap ada selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Ekspor %d foto yang dipilih</item>
+        <item quantity="other">Ekspor %d foto yang dipilih</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Ekspor %d foto?</item>
+        <item quantity="other">Ekspor %d foto?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Gagal menambahkan %1$d item ke favorit. Coba lagi.</item>
+        <item quantity="other">Gagal menambahkan %1$d item ke favorit. Coba lagi.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Ukuran file: %1$s. Perkiraan waktu unduhan: %2$s menit.</item>
+        <item quantity="other">Ukuran file: %1$s. Perkiraan waktu unduhan: %2$s menit.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Gunakan gambar mini</item>
+        <item quantity="other">Gunakan gambar mini</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Gunakan aslinya</item>
+        <item quantity="other">Gunakan aslinya</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 foto adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+        <item quantity="other">Beberapa dari foto yang dipilih adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Foto %s ditemukan. Pindahkan ke \"Tempat Kartu\" agar lebih mudah diakses.</item>
+        <item quantity="other">Foto %s ditemukan. Pindahkan ke \"Tempat Kartu\" agar lebih mudah diakses.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Foto %1$s dipindahkan ke \"Tempat Kartu\"</item>
+        <item quantity="other">Foto %1$s dipindahkan ke \"Tempat Kartu\"</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d tiket/resi</item>
+        <item quantity="other">%1$d tiket/resi</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Item yang dipilih sudah ada di album</item>
+        <item quantity="other">Item yang dipilih sudah ada di album</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d item</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d orang akan digabungkan dan dihapus dari \"%2$s\".</item>
+        <item quantity="other">%1$d orang akan digabungkan dan dihapus dari \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d foto sedang dimuat dan tidak dapat dipindahkan</item>
+        <item quantity="other">%d foto sedang dimuat dan tidak dapat dipindahkan</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d item dipindahkan</item>
+        <item quantity="other">%d item dipindahkan</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d orang</item>
+        <item quantity="other">%1$d orang</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Mengunduh foto asli...</item>
+        <item quantity="other">Mengunduh foto asli...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Foto disalin. Video tidak dapat disalin ke album ini.</item>
+        <item quantity="other">Foto disalin. Video tidak dapat disalin ke album ini.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Foto dipindahkan. Video tidak dapat dipindahkan ke album ini.</item>
+        <item quantity="other">Foto dipindahkan. Video tidak dapat dipindahkan ke album ini.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d album akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d foto akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d foto akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d item akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d item akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d video akan dihapus dari perangkat ini. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Foto ini akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+        <item quantity="other">Foto-foto ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Foto ini akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+        <item quantity="other">Foto-foto ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Album ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+        <item quantity="other">Album ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Album ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">Album ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Item ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+        <item quantity="other">Item ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Item ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">Item ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d album akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">%d album akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d foto berurutan akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+        <item quantity="other">%d foto berurutan akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d foto akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d foto akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d foto akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+        <item quantity="other">%d foto akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d item akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d item akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d item akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+        <item quantity="other">%d item akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+        <item quantity="other">%d video akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus disimpan di \"Baru dihapus\" selama 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d video akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+        <item quantity="other">%d video akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Video ini akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+        <item quantity="other">Video ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan. Item yang dihapus dapat dipulihkan dari album \"Baru dihapus\" dalam waktu 30 hari.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Video ini akan dihapus dari perangkat ini, cloud, dan perangkat lainnya yang disinkronkan.</item>
+        <item quantity="other">Video ini akan dihapus dari perangkat ini, cloud, dan perangkat lain yang disinkronkan.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Kembalikan %d foto?</item>
+        <item quantity="other">Kembalikan %d foto?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Kembalikan %d item?</item>
+        <item quantity="other">Kembalikan %d item?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Kembalikan %d video?</item>
+        <item quantity="other">Kembalikan %d video?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Kembalikan %d item</item>
+        <item quantity="other">Kembalikan %d item</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Gagal menyimpan %d video</item>
+        <item quantity="other">Gagal menyimpan %d video</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d video disimpan</item>
+        <item quantity="other">%d video disimpan</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Gunakan gambar mini</item>
+        <item quantity="other">Gunakan gambar mini</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Gunakan aslinya</item>
+        <item quantity="other">Gunakan aslinya</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 foto adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+        <item quantity="other">Beberapa dari foto yang dipilih adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Pratinjau item yang dipilih (%1$d)</item>
+        <item quantity="other">Pratinjau item yang dipilih (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Pilih 1–%1$d foto</item>
+        <item quantity="other">Pilih 1–%1$d foto</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Gunakan gambar mini</item>
+        <item quantity="other">Gunakan gambar mini</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Gunakan aslinya</item>
+        <item quantity="other">Gunakan aslinya</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 foto adalah gambar mini. Anda dapat mengunduh dan menggunakan foto asli sebagai gantinya.</item>
+        <item quantity="other">Beberapa dari foto yang dipilih adalah gambar mini. Anda dapat mengunduh dan membagikan foto asli sebagai gantinya.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d foto akan dihapus dari album bersama \"%2$s\".</item>
+        <item quantity="other">%1$d foto akan dihapus dari album bersama \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d item akan dihapus dari album bersama \"%2$s\".</item>
+        <item quantity="other">%1$d item akan dihapus dari album bersama \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d video akan dihapus dari album bersama \"%2$s\".</item>
+        <item quantity="other">%1$d video akan dihapus dari album bersama \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Hapus %1$d item</item>
+        <item quantity="other">Hapus %1$d item</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Gagal mengunduh %1$d item karena ruang penyimpanan di perangkat tinggal sedikit.</item>
+        <item quantity="other">Gagal mengunduh %1$d item karena ruang penyimpanan di perangkat tinggal sedikit.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">Sisa %1$d item (%2$s). Lanjutkan mengunduh menggunakan data seluler?</item>
+        <item quantity="other">Sisa %1$d item (%2$s). Lanjutkan mengunduh menggunakan data seluler?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Kesalahan jaringan. %1$d item tidak diunduh.</item>
+        <item quantity="other">Kesalahan jaringan. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunduh.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Hingga %d foto bergerak dapat disimpan sebagai video pada satu waktu</item>
+        <item quantity="other">Hingga %d foto bergerak dapat disimpan sebagai video pada satu waktu</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d Foto</item>
+        <item quantity="other">%1$d Foto</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d item dipilih</item>
+        <item quantity="other">%1$d item dipilih</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d item</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Gagal menghapus %1$d item dari favorit. Coba lagi.</item>
+        <item quantity="other">Gagal menghapus %1$d item dari favorit. Coba lagi.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Gambarlah sebuah objek sederhana dan lingkari untuk menciptakan sebuah karya seni. Batas penggunaan: %1$d kali per hari.</item>
+        <item quantity="other">Gambarlah sebuah objek sederhana dan lingkari untuk menciptakan sebuah karya seni. Batas penggunaan: %1$d kali per hari.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Gagal menyimpan %d stiker bergerak</item>
+        <item quantity="other">Gagal menyimpan %d stiker bergerak</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Anda dapat memilih 1–%1$d foto lagi</item>
+        <item quantity="other">Anda dapat memilih 1–%1$d foto lagi</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Anda dapat memilih 1–%1$d foto lagi (%2$s)</item>
+        <item quantity="other">Anda dapat memilih 1–%1$d foto lagi (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">termasuk %d foto bergerak</item>
+        <item quantity="other">termasuk %d foto bergerak</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Unduh foto asli</item>
+        <item quantity="other">Unduh foto asli</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d foto pada perangkat Anda adalah versi kecilnya. Unduh foto asli resolusi penuh (%2$s)?</item>
+        <item quantity="other">%1$d foto pada perangkat Anda lebih kecil versinya. Unduh foto asli resolusi penuh (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudkit_upgrade_dialog_banner_message">
+        <item quantity="one">Sekitar %d foto resolusi tinggi</item>
+        <item quantity="other">Sekitar %d foto resolusi tinggi</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Mengunduh %1$d foto asli</item>
+        <item quantity="other">Mengunduh %1$d foto asli</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d foto asli tidak diunduh. Penyimpanan di perangkat tidak cukup.</item>
+        <item quantity="other">%1$d foto asli tidak diunduh. Penyimpanan di perangkat tidak cukup.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d item tidak diunduh. Penyimpanan di perangkat tidak cukup.</item>
+        <item quantity="other">%1$d item tidak diunduh. Penyimpanan di perangkat tidak cukup.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Pengunggahan dijeda untuk %1$d item. Tidak ada koneksi internet.</item>
+        <item quantity="other">Pengunggahan dijeda untuk %1$d item. Tidak ada koneksi internet.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Pengunggahan dijeda untuk %1$d item. Tidak terhubung ke Wi-Fi.</item>
+        <item quantity="other">Pengunggahan dijeda untuk %1$d item. Tidak terhubung ke Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Pengunggahan %1$d item dijeda untuk menghemat daya baterai.</item>
+        <item quantity="other">Pengunggahan %1$d item dijeda untuk menghemat daya baterai.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Pengunggahan dijeda untuk %1$d item. Ponsel terlalu panas.</item>
+        <item quantity="other">Pengunggahan dijeda untuk %1$d item. Ponsel terlalu panas.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Pengunggahan dijeda untuk %1$d item. Cloud sedang dalam pemeliharaan.</item>
+        <item quantity="other">Pengunggahan dijeda untuk %1$d item. Cloud sedang dalam pemeliharaan.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Pengunggahan dijeda untuk %1$d item. Tablet terlalu panas.</item>
+        <item quantity="other">Pengunggahan dijeda untuk %1$d item. Tablet terlalu panas.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Menyinkronkan %1$d item dari cloud</item>
+        <item quantity="other">Menyinkronkan %1$d item dari cloud</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunduh.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunduh. Isilah daya ponsel Anda.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunduh. Isilah daya ponsel Anda.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunduh. Hubungkan ke sumber listrik untuk melanjutkan.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunduh. Hubungkan ke sumber listrik untuk melanjutkan.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunduh.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Mode Hemat daya aktif. %1$d item tidak diunduh.</item>
+        <item quantity="other">Mode hemat daya aktif. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Mode hemat daya aktif. %1$d item tidak diunduh.</item>
+        <item quantity="other">Mode hemat daya aktif. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunduh. %2$s.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunduh. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunduh. %2$s atau %3$s.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunduh. %2$s atau %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunduh.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunduh.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Penyimpanan cloud tidak cukup. %1$d item tidak diunduh.</item>
+        <item quantity="other">Penyimpanan cloud tidak cukup. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Penyimpanan di perangkat tidak cukup. %1$d item tidak diunduh.</item>
+        <item quantity="other">Penyimpanan di perangkat tidak cukup. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Kesalahan jaringan. %1$d item tidak diunduh.</item>
+        <item quantity="other">Kesalahan jaringan. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Kesalahan jaringan. %1$d item tidak diunduh.</item>
+        <item quantity="other">Kesalahan jaringan. %1$d item tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Penyimpanan di perangkat tidak cukup. %1$d foto asli tidak diunduh.</item>
+        <item quantity="other">Penyimpanan di perangkat tidak cukup. %1$d foto asli tidak diunduh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d foto tidak disinkronkan. Memori awan sudah penuh.</item>
+        <item quantity="other">%1$d foto tidak disinkronkan. Memori awan sudah penuh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d foto tidak disinkronkan. Sinkro awan dijeda apabila daya baterai kurang dari %2$s.</item>
+        <item quantity="other">%1$d foto tidak disinkronkan. Sinkro awan dijeda apabila daya baterai kurang dari %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d foto tidak disinkronkan. Sinkronisasi cloud dijeda dalam mode hemat daya.</item>
+        <item quantity="other">%1$d foto tidak disinkronkan. Sinkronisasi cloud dijeda dalam mode hemat daya.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Penyimpanan cloud penuh. %1$d item tidak diunggah.</item>
+        <item quantity="other">Penyimpanan cloud penuh. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunggah.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunggah. Isilah daya ponsel Anda.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunggah. Isilah daya ponsel Anda.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunggah. Hubungkan ke sumber listrik untuk melanjutkan.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunggah. Hubungkan ke sumber listrik untuk melanjutkan.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Daya baterai kurang dari %1$s. %2$d item tidak diunggah.</item>
+        <item quantity="other">Daya baterai kurang dari %1$s. %2$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Mode Hemat daya aktif. %1$d item tidak diunggah.</item>
+        <item quantity="other">Mode Hemat daya aktif. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Mode hemat daya aktif. %1$d item tidak diunggah.</item>
+        <item quantity="other">Mode hemat daya aktif. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Penyimpanan cloud penuh. %1$d item tidak diunggah.</item>
+        <item quantity="other">Penyimpanan cloud penuh. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d video tidak disinkronkan. Memori awan sudah penuh.</item>
+        <item quantity="other">%1$d video tidak disinkronkan. Memori awan sudah penuh.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d video tidak disinkronkan. Sinkro awan dijeda apabila daya baterai kurang dari %2$s.</item>
+        <item quantity="other">%1$d video tidak disinkronkan. Sinkro awan dijeda apabila daya baterai kurang dari %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d video tidak disinkronkan. Sinkronisasi cloud dijeda dalam mode hemat daya.</item>
+        <item quantity="other">%1$d video tidak disinkronkan. Sinkronisasi cloud dijeda dalam mode hemat daya.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d foto tidak disinkronkan.</item>
+        <item quantity="other">%1$d foto tidak disinkronkan.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunggah.%2$s.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunggah. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunggah. %2$s atau %3$s.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunggah. %2$s atau %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunggah.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Tidak ada koneksi jaringan. %1$d item tidak diunggah.</item>
+        <item quantity="other">Tidak ada koneksi jaringan. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d video tidak disinkronkan</item>
+        <item quantity="other">%1$d video tidak disinkronkan</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Kesalahan jaringan. %1$d item tidak diunggah.</item>
+        <item quantity="other">Kesalahan jaringan. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Koneksi jaringan terputus. %1$d item tidak diunggah.</item>
+        <item quantity="other">Kesalahan jaringan. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Kesalahan layanan. %1$d item tidak diunggah.</item>
+        <item quantity="other">Kesalahan layanan. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Kesalahan layanan. %1$d item tidak diunggah.</item>
+        <item quantity="other">Kesalahan layanan. %1$d item tidak diunggah.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Menyinkronkan %1$d item</item>
+        <item quantity="other">Menyinkronkan %1$d item</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Menyinkronkan %1$d item ke cloud…</item>
+        <item quantity="other">Menyinkronkan %1$d item ke cloud…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Beberapa platform mungkin tidak mendukung foto bergerak lebih dari %d detik</item>
+        <item quantity="other">Beberapa platform mungkin tidak mendukung foto bergerak lebih dari %d detik</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Anda dapat menggunakan Popout di %1$d foto bergerak pada satu waktu</item>
+        <item quantity="other">Anda dapat menggunakan Popout hingga %1$d foto bergerak pada satu waktu</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Foto bergerak yang berdurasi lebih dari %1$d detik tidak didukung</item>
+        <item quantity="other">Foto bergerak yang berdurasi lebih dari %1$d detik tidak didukung</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Tidak dapat menyeret lebih dari %d item sekaligus</item>
+        <item quantity="other">Tidak dapat menyeret lebih dari %d item sekaligus</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Gagal menambahkan %d materi</item>
+        <item quantity="other">Gagal menambahkan %d item</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d foto sedang dimuat dan tidak dapat dijadikan pribadi.</item>
+        <item quantity="other">%d foto sedang dimuat dan tidak dapat dijadikan pribadi.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d jam</item>
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d item</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d menit</item>
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d item tidak dapat diimpor untuk pengeditan video</item>
+        <item quantity="other">%d item tidak dapat diimpor untuk pengeditan video</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Halaman %1$d dari %2$d</item>
+        <item quantity="other">Halaman %1$d dari %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Pilih tidak lebih dari %1$d foto untuk satu GIF</item>
+        <item quantity="other">Pilih tidak lebih dari %1$d foto untuk satu GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Hanya foto bergerak hingga %1$d detik yang didukung</item>
+        <item quantity="other">Hanya foto bergerak hingga %1$d detik yang didukung</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Pilih minimal %1$d foto untuk membuat GIF</item>
+        <item quantity="other">Pilih minimal %1$d foto untuk membuat GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Pilih tidak lebih dari %1$d foto untuk satu GIF</item>
+        <item quantity="other">Pilih tidak lebih dari %1$d foto untuk satu GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Hanya %1$d foto yang memenuhi persyaratan format</item>
+        <item quantity="other">Hanya %1$d foto yang memenuhi persyaratan format</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d foto tidak akan disertakan dalam GIF</item>
+        <item quantity="other">%1$d foto tidak akan disertakan dalam GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d foto tidak didukung</item>
+        <item quantity="other">%1$d foto tidak didukung</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Memuat %1$s item dari \"Google Photos\"…</item>
+        <item quantity="other">Memuat %1$s item dari \"Google Photos\"…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Penyimpanan \"Google Photos\" tidak memadai. %1$d item tidak dicadangkan.</item>
+        <item quantity="other">Penyimpanan \"Google Photos\" tidak memadai. %1$d item tidak dicadangkan.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Mencadangkan %1$s item ke \"Google Photos\"…</item>
+        <item quantity="other">Mencadangkan %1$s item ke \"Google Photos\"…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d item sedang disinkronisasikan ke HeyTap Cloud. Menonaktifkan ini akan membatalkan sinkronisasi otomatis. Untuk menjaga keamanan data Anda, sebaiknya tunggu hingga sinkronisasi selesai.</item>
+        <item quantity="other">%1$d item sedang disinkronisasikan ke HeyTap Cloud. Menonaktifkan ini akan membatalkan sinkronisasi otomatis. Untuk menjaga keamanan data Anda, sebaiknya tunggu hingga sinkronisasi selesai.</item>
+    </plurals>
+    <plurals name="image_to_ai_selected_image_quantity_beyond">
+        <item quantity="one">Maksimum %d gambar dapat dikonversi sekaligus</item>
+        <item quantity="other">Maksimum %d gambar dapat dikonversi sekaligus</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Hanya %d album yang dapat ditambahkan ke \"Sering digunakan\"</item>
+        <item quantity="other">Hingga %d album yang dapat ditambahkan ke \"Sering digunakan\"</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d perangkat ditemukan</item>
+        <item quantity="other">%1$d perangkat ditemukan</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d hari</item>
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d Foto</item>
+        <item quantity="other">%1$d Foto</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Tidak lebih dari %1$d stiker dapat dipilih</item>
+        <item quantity="other">Tidak lebih dari %1$d stiker dapat dipilih</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Menghapus %1$d item dari NAS</item>
+        <item quantity="other">Menghapus %1$d item dari NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Pengunduhan selesai. Gagal mengunduh %1$d item.</item>
+        <item quantity="other">Pengunduhan selesai. Gagal mengunduh %1$d item.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d item diunduh.</item>
+        <item quantity="other">%1$d item diunduh.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Mengunduh %1$d dari %2$d...</item>
+        <item quantity="other">Mengunduh %1$d dari %2$d...</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Bagaimana Anda ingin mengedit area yang dipilih?</item>
+        <item quantity="other">Bagaimana Anda ingin mengedit area yang dipilih?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Anda dapat menambahkan maksimum %d stiker</item>
+        <item quantity="other">Anda dapat menambahkan maksimum %d stiker</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">Di Stiker, Anda hanya dapat menambahkan %d stiker bergerak. Stiker tambahan akan diubah menjadi stiker statis.</item>
+        <item quantity="other">Di Stiker, Anda dapat menambahkan maksimum %d stiker bergerak. Stiker tambahan akan menjadi statis.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Versi yang diedit dibatasi hingga %d detik agar mudah dibagikan.</item>
+        <item quantity="other">Versi yang diedit dibatasi hingga %d detik agar mudah dibagikan.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Stiker dapat berdurasi hingga %d detik</item>
+        <item quantity="other">Stiker dapat berdurasi hingga %d detik</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Stiker hanya dapat berdurasi %d detik.</item>
+        <item quantity="other">Stiker dapat berdurasi hingga %d detik.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Video dapat berdurasi hingga %d detik</item>
+        <item quantity="other">Video dapat berdurasi hingga %d detik</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Jelaskan apa yang ingin Anda ubah di area yang dipilih</item>
+        <item quantity="other">Jelaskan apa yang ingin Anda ubah di area yang dipilih</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Perekaman berhenti dalam %1$d detik</item>
+        <item quantity="other">Perekaman berhenti dalam %1$d detik</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Anda dapat memilih hingga %1$d area</item>
+        <item quantity="other">Anda dapat memilih hingga %1$d area</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Hanya foto bergerak hingga %1$d detik yang didukung</item>
+        <item quantity="other">Hanya foto bergerak hingga %1$d detik yang didukung</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Waktu tunggu yang diharapkan adalah %1$d menit karena ukuran file yang besar</item>
+        <item quantity="other">Waktu tunggu yang diharapkan adalah %1$d menit karena ukuran file yang besar</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Ekspor %d foto yang dipilih</item>
+        <item quantity="other">Ekspor %d foto yang dipilih</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Harus lebih besar dari %1$d mm</item>
+        <item quantity="other">Harus lebih besar dari %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Harus lebih besar dari %1$d px</item>
+        <item quantity="other">Harus lebih besar dari %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Harus lebih kecil dari %1$d mm</item>
+        <item quantity="other">Harus lebih kecil dari %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Harus lebih kecil dari %1$d px</item>
+        <item quantity="other">Harus lebih kecil dari %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Harus lebih besar dari %1$d KB</item>
+        <item quantity="other">Harus lebih besar dari %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Harus lebih kecil dari %1$d KB</item>
+        <item quantity="other">Harus lebih kecil dari %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Harus lebih besar dari %1$d mm</item>
+        <item quantity="other">Harus lebih besar dari %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Harus lebih besar dari %1$d px</item>
+        <item quantity="other">Harus lebih besar dari %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Harus lebih kecil dari %1$d mm</item>
+        <item quantity="other">Harus lebih kecil dari %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Harus lebih kecil dari %1$d px</item>
+        <item quantity="other">Harus lebih kecil dari %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Simpan %d foto yang dipilih saja</item>
+        <item quantity="other">Simpan %d foto yang dipilih saja</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Hapus %d materi</item>
+        <item quantity="other">Hapus %d materi</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Hapus %d materi</item>
+        <item quantity="other">Hapus %d item</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Gagal menambahkan %1$d stiker</item>
+        <item quantity="other">Gagal menambahkan %1$d stiker</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Gagal menambahkan %d stiker</item>
+        <item quantity="other">Gagal menambahkan %d stiker</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s stiker ditambahkan</item>
+        <item quantity="other">%1$s stiker ditambahkan</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s stiker ditambahkan</item>
+        <item quantity="other">%1$s stiker ditambahkan</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d stiker ditambahkan</item>
+        <item quantity="other">%1$d stiker ditambahkan</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Di Kolase Remix AI, Anda dapat menambahkan maksimum %1$d stiker bergerak. Stiker tambahan akan menjadi statis.</item>
+        <item quantity="other">Di Kolase Remix AI, Anda dapat menambahkan maksimum %1$d stiker bergerak. Stiker tambahan akan menjadi statis.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Anda dapat menambahkan hingga %1$d foto bergerak</item>
+        <item quantity="other">Anda dapat menambahkan hingga %1$d foto bergerak</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Anda dapat menambahkan hingga %1$d foto</item>
+        <item quantity="other">Anda dapat menambahkan hingga %1$d foto</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Untuk menghapus objek dari foto Anda, unduh plugin Penghapus. Ukuran file: %1$s. Perkiraan waktu untuk mengunduh: %2$d menit.</item>
+        <item quantity="other">Untuk menghapus objek dari foto Anda, unduh plugin Penghapus. Ukuran file: %1$s. Perkiraan waktu untuk mengunduh: %2$d menit.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Ukuran file: %1$d. Perkiraan waktu unduhan: %2$d.</item>
+        <item quantity="other">Ukuran file: %1$d. Perkiraan waktu unduhan: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d foto tidak didukung</item>
+        <item quantity="other">%1$d foto tidak didukung</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d dipilih</item>
+        <item quantity="other">%1$d/%2$d dipilih</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d item dipilih</item>
+        <item quantity="other">%1$d item dipilih</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d Album Dipilih</item>
+        <item quantity="other">%1$d Album Dipilih</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d item dipilih</item>
+        <item quantity="other">%1$d item dipilih</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d Video Dipilih</item>
+        <item quantity="other">%1$d Video Dipilih</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Tidak lebih dari %1$d stiker dapat ditambahkan</item>
+        <item quantity="other">Tidak lebih dari %1$d stiker dapat ditambahkan</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Hanya %1$d item yang dapat dipilih</item>
+        <item quantity="other">Hingga %1$d item dapat dipilih</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d foto sedang dimuat dan tidak dapat dihapus.</item>
+        <item quantity="other">%d foto sedang dimuat dan tidak dapat dihapus.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Gagal menghapus %1$d item. Cobalah lagi.</item>
+        <item quantity="other">Gagal menghapus %1$d item. Cobalah lagi.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Hapus %d subjek?</item>
+        <item quantity="other">Hapus %d subjek?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d Foto</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Anda hanya dapat menambahkan %1$d stiker bergerak. Stiker tambahan akan ditampilkan sebagai statis.</item>
+        <item quantity="other">Anda dapat menambahkan hingga %1$d stiker bergerak. Stiker tambahan akan ditampilkan sebagai statis.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Hanya %d item yang dapat dibagikan ke aplikasi ini</item>
+        <item quantity="other">Hingga %d item dapat dibagikan ke aplikasi ini</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Bagikan %d item</item>
+        <item quantity="other">Bagikan %d item</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Bagikan %d foto</item>
+        <item quantity="other">Bagikan %d foto</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Bagikan %d video</item>
+        <item quantity="other">Bagikan %d video</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Hapus %d momen?</item>
+        <item quantity="other">Hapus %d momen?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d kisah, dikurasi untuk Anda.</item>
+        <item quantity="other">%d kisah, dikurasi untuk Anda.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d dipilih</item>
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Putar %d derajat</item>
+        <item quantity="other">Putar %d derajat</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Anda hanya dapat mengimpor %s file</item>
+        <item quantity="other">Anda dapat mengimpor hingga %s file</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Tambahkan %1d item</item>
+        <item quantity="other">Tambahkan %1d item</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Hingga %s file LUT dapat diimpor</item>
+        <item quantity="other">Hingga %s file LUT dapat diimpor</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Maksimum %d foto dapat ditambahkan</item>
+        <item quantity="other">Maksimal %d foto dapat ditambahkan</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/search_location_suggestion_container_padding_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/search_location_suggestion_title_group_height" android:paddingStart="@dimen/search_location_suggestion_title_group_padding_start" android:paddingEnd="@dimen/search_location_suggestion_title_group_padding_end">
+        <TextView android:textAppearance="@style/ItemTextMediumFontStyle" android:textColor="?gColorPrimaryNeutral" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_result_location_suggestion_title" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/img_arrow" android:background="@drawable/common_text_ripple_bg_nopadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_recommend_item_arrow" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/location_list" android:paddingTop="@dimen/search_location_suggestion_list_padding_top" android:focusable="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/search_location_suggestion_list_padding_horizontal" />
+</LinearLayout>

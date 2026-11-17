@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">A(z) %1$1s album, köztük %2$2s elem; koppintson a gombra, hogy hozzáadja a „Gyakran használt” listához.</item>
+        <item quantity="other">A(z) %1$1s album, köztük %2$2s elem; koppintson a gombra, hogy hozzáadja a „Gyakran használt” listához.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s egyezés</item>
+        <item quantity="other">%s egyezés</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Válassza ki a médiát, majd érintse meg az alul található „MI azonnali klip” lebegő ablakot a videó gyors létrehozásához. Válasszon legalább %1$s elemet a jobb eredményekért.</item>
+        <item quantity="other">Válassza ki a médiát, majd érintse meg az alul található „MI azonnali klip” lebegő ablakot a videó gyors létrehozásához. Válasszon legalább %1$s elemet a jobb eredményekért.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Válassza ki a médiát, majd érintse meg az alján található „Szerkesztés – MI azonnali klip” gombot a videó gyors létrehozásához. Válasszon legalább %1$s elemet a jobb eredményekért.</item>
+        <item quantity="other">Válassza ki a médiát, majd érintse meg az alján található „Szerkesztés – MI azonnali klip” gombot a videó gyors létrehozásához. Válasszon legalább %1$s elemet a jobb eredményekért.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">A(z) %1$d másodpercnél hosszabb mozgó fotók nem támogatottak</item>
+        <item quantity="other">A(z) %1$d másodpercnél hosszabb mozgó fotók nem támogatottak</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">A videó nem lehet hosszabb mint %d másodperc</item>
+        <item quantity="other">A videó nem lehet hosszabb mint %d másodperc</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d alkalmazás zárolva</item>
+        <item quantity="other">%d alkalmazás zárolva</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">A(z) %1$1s album, köztük %2$2s elem; hozzáadva a „Gyakran használt” listához.</item>
+        <item quantity="other">A(z) %1$1s album, köztük %2$2s elem; hozzáadva a „Gyakran használt” listához.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Hozzáadás (%1$d)</item>
+        <item quantity="other">Hozzáadás (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Hozzáadás (%1$d/%2$d)</item>
+        <item quantity="other">Hozzáadás (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d tétel korrigálva</item>
+        <item quantity="other">%1$d tétel korrigálva</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d fotó betöltése folyamatban van, és nem adható hozzá.</item>
+        <item quantity="other">%d fotó betöltése folyamatban van, és nem adhatók hozzá.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d dokumentum</item>
+        <item quantity="other">%1$d dokumentum</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d bankkártya</item>
+        <item quantity="other">%1$d bankkártya</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d album elemei törlésre kerülnek erről az eszközről, és 30 napig a „Nemrég törölt” mappában maradnak. Egyes elemekről nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+        <item quantity="other">%d album elemei törlésre kerülnek erről az eszközről, és 30 napig a „Nemrég törölt” mappában maradnak. Egyes elemekről nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d sorozatfotó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Az összes sorozatfotó biztonsági másolatát a felhőbe mentettük, és ott is maradnak.</item>
+        <item quantity="other">%d sorozatfotó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Az összes sorozatfotó biztonsági másolatát a felhőbe mentettük, és ott is maradnak.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d sorozatfotó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes fotókról nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+        <item quantity="other">%d sorozatfotó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes fotókról nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d elem törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes elemekről nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+        <item quantity="other">%d elem törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes elemekről nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d fotó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes fotókról nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+        <item quantity="other">%d fotó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes fotókról nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d videó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes videókról nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+        <item quantity="other">%d videó törlésre kerül erről az eszközről, és 30 napig a „Nemrég törölt” mappában marad. Egyes videókról nem készül biztonsági mentés. Lehet, hogy törlés előtt biztonsági mentést szeretne készíteni róluk.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s miniatűr helyére az eredeti verzió kerül.</item>
+        <item quantity="other">%1$s miniatűr helyére az eredeti verziók kerülnek.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d azonosító</item>
+        <item quantity="other">%1$d azonosító</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Egyesít és eltávolít %d személyt?</item>
+        <item quantity="other">Egyesít és eltávolít %d személyt?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Eltávolít %d fotót ebből az albumból?</item>
+        <item quantity="other">Eltávolít %d fotót ebből az albumból?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Eltávolít %d elemet ebből az albumból?</item>
+        <item quantity="other">Eltávolít %d elemet ebből az albumból?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Eltávolít %d videót ebből az albumból?</item>
+        <item quantity="other">Eltávolít %d videót ebből az albumból?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Miniatűr használata</item>
+        <item quantity="other">Miniatűrök használata</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Eredeti használata</item>
+        <item quantity="other">Eredetik használata</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 fotó miniatűr. Helyette letöltheti és használhatja az eredeti fotót.</item>
+        <item quantity="other">Néhány kiválasztott fotó miniatűr. Helyettük letöltheti és használhatja az eredeti fotókat.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Egyszerre legfeljebb %1$d kép konvertálható PDF-fájllá</item>
+        <item quantity="other">Egyszerre legfeljebb %1$d kép konvertálható PDF-fájllá</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Nincs elegendő tárhely az eszközön. %1$d elem nem lett átmásolva.</item>
+        <item quantity="other">Nincs elegendő tárhely az eszközön. %1$d elem nem lett átmásolva.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d elem átmásolva</item>
+        <item quantity="other">%d elem átmásolva</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Legfeljebb %d elem másolható át</item>
+        <item quantity="other">Legfeljebb %d elem másolható át</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d fotó végleg törölve lesz erről az eszközről.</item>
+        <item quantity="other">%d fotó végleg törölve lesz erről az eszközről.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d elem végleg törölve lesz erről az eszközről.</item>
+        <item quantity="other">%d elem végleg törölve lesz erről az eszközről.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d videó végleg törölve lesz erről az eszközről.</item>
+        <item quantity="other">%d videó végleg törölve lesz erről az eszközről.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d sorozatfelvétel végleg törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d sorozatfelvétel végleg törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Ez a fotó végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. Ez a művelet nem vonható vissza.</item>
+        <item quantity="other">Ezek a fotók végleg törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. Ez a művelet nem vonható vissza.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Ez a fotó végleg törölve lesz. Ez a művelet nem vonható vissza.</item>
+        <item quantity="other">Ezek a fotók végleg törölve lesznek. Ez a művelet nem vonható vissza.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Ez az elem végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. Ez a művelet nem vonható vissza.</item>
+        <item quantity="other">Ezek az elemek végleg törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. Ez a művelet nem vonható vissza.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Ez az elem végleg törölve lesz. Ez a művelet nem vonható vissza.</item>
+        <item quantity="other">Ezek az elemek végleg törölve lesznek. Ez a művelet nem vonható vissza.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d fotó végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d fotó végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d elem végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d elem végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d videó végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d videó végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d sorozatfelvétel törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d sorozatfelvétel törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Töröl %d albumot?</item>
+        <item quantity="other">Töröl %d albumot?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Töröl %d sorozatfotót?</item>
+        <item quantity="other">Töröl %d sorozatfotót?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d emlék törölve lesz erről az eszközről. Az ebben az emlékben lévő fényképek a „Fotók” alkalmazásban lesznek tárolva.</item>
+        <item quantity="other">%d emlék törölve lesz erről az eszközről. Az ezekben az emlékekben lévő fényképek a „Fotók” alkalmazásban lesznek tárolva.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Töröl %d emléket?</item>
+        <item quantity="other">Töröl %d emléket?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">%d tétel végleges törlése</item>
+        <item quantity="other">%d tétel maradandó törlése</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d elem törlése</item>
+        <item quantity="other">%d elem törlése</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Töröl %d fotót?</item>
+        <item quantity="other">Töröl %d fotót?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Töröl %d elemet?</item>
+        <item quantity="other">Töröl %d elemet?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Töröl %d videót?</item>
+        <item quantity="other">Töröl %d videót?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Töröl %d matricát?</item>
+        <item quantity="other">Töröl %d matricát?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Fénykép törlése</item>
+        <item quantity="other">Fényképek törlése</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Ez a videó végleg törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. Ez a művelet nem vonható vissza.</item>
+        <item quantity="other">Ezek a videók végleg törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. Ez a művelet nem vonható vissza.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Ez a videó végleg törölve lesz. Ez a művelet nem vonható vissza.</item>
+        <item quantity="other">Ezek a videók végleg törölve lesznek. Ez a művelet nem vonható vissza.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d elem letöltése…</item>
+        <item quantity="other">%d elem letöltése...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d fénykép letöltése...</item>
+        <item quantity="other">%d fénykép letöltése...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d videó letöltése...</item>
+        <item quantity="other">%d videó letöltése...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Beállít %d fájlt privátként?</item>
+        <item quantity="other">Beállít %d fájlt privátként?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Beállítja privátként ezt a fotót?</item>
+        <item quantity="other">Beállítja ezeket a fotókat privátként?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d fájl titkosítása sikertelen</item>
+        <item quantity="other">%d fájl titkosítása sikertelen</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Zárol %d albumot?</item>
+        <item quantity="other">Zárol %d albumot?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d sorozatfelvétel végleg törölve lesz erről az eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+        <item quantity="other">%d sorozatfelvétel végleg törölve lesz erről az eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d sorozatfelvétel törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+        <item quantity="other">%d sorozatfelvétel törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album törölve lesz erről az eszközről. A biztonsági másolatban tárolt albumok 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt albumok 30 napig megmaradnak.</item>
+        <item quantity="other">%d album törölve lesz erről az eszközről. A biztonsági másolatban tárolt albumok 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt albumok 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d fotó törölve lesz erről az eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+        <item quantity="other">%d fotó törölve lesz erről az eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d elem törölve lesz erről az eszközről. A biztonsági másolatban tárolt elemek 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt elemek 30 napig megmaradnak.</item>
+        <item quantity="other">%d elem törölve lesz erről az eszközről. A biztonsági másolatban tárolt elemek 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt elemek 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d videó törölve lesz erről az eszközről. A biztonsági másolatban tárolt videók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt videók 30 napig megmaradnak.</item>
+        <item quantity="other">%d videó törölve lesz erről az eszközről. A biztonsági másolatban tárolt videók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt videók 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt albumok 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt albumok 30 napig megmaradnak.</item>
+        <item quantity="other">%d album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt albumok 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt albumok 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+        <item quantity="other">%d fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt fotók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt fotók 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről. A biztonsági másolatban tárolt elemek 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt elemek 30 napig megmaradnak.</item>
+        <item quantity="other">%d elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről. A biztonsági másolatban tárolt elemek 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt elemek 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt videók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt videók 30 napig megmaradnak.</item>
+        <item quantity="other">%d videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A biztonsági másolatban tárolt videók 60 napig a „Nemrég törölt” mappában maradnak; a biztonsági másolatban nem tárolt videók 30 napig megmaradnak.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">%d kiválasztott fotó exportálása</item>
+        <item quantity="other">%d kiválasztott fotó exportálása</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Exportál %d fotót?</item>
+        <item quantity="other">Exportál %d fotót?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Nem sikerült hozzáadni %1$d elemet a kedvencekhez. Próbálja újra.</item>
+        <item quantity="other">Nem sikerült hozzáadni %1$d elemet a kedvencekhez. Próbálja újra.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Fájlméret: %1$s. A letöltés becsült ideje: %2$s perc.</item>
+        <item quantity="other">Fájlméret: %1$s. A letöltés becsült ideje: %2$s perc.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Miniatűr használata</item>
+        <item quantity="other">Miniatűrök használata</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Eredeti használata</item>
+        <item quantity="other">Eredetik használata</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 fotó miniatűr. Helyette letöltheti és használhatja az eredeti fotót.</item>
+        <item quantity="other">Néhány kiválasztott fotó miniatűr. Helyettük letöltheti és használhatja az eredeti fotókat.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">%s fotója található. Helyezze át a „Kártyatartó” albumba az egyszerűbb elérés érdekében.</item>
+        <item quantity="other">%s fotói találhatók. Helyezze át ezeket a „Kártyatartó” albumba az egyszerűbb elérés érdekében.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">A(z) %1$s fotója áthelyezve a „Kártyatartó” albumba</item>
+        <item quantity="other">A(z) %1$s fotói áthelyezve a „Kártyatartó” albumba</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d jegy/nyugta</item>
+        <item quantity="other">%1$d jegy/nyugta</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">A kiválasztott elem már létezik az albumban</item>
+        <item quantity="other">A kiválasztott elemek már léteznek az albumban</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d tétel</item>
+        <item quantity="other">%d elem</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d személy összevonása és eltávolítása innen: „%2$s”.</item>
+        <item quantity="other">%1$d személy összevonása és eltávolítása innen: „%2$s”.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d fotó betöltésre kerül, és nem helyezhető át</item>
+        <item quantity="other">%d fotó betöltésre kerül, és nem helyezhető át</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d elem áthelyezve</item>
+        <item quantity="other">%d elem áthelyezve</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d személy</item>
+        <item quantity="other">%1$d személy</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Az eredeti fénykép letöltése...</item>
+        <item quantity="other">Az eredeti fényképek letöltése...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Fotó átmásolva. Videók nem másolhatók át ebbe az albumba.</item>
+        <item quantity="other">Fotók átmásolva. Videók nem másolhatók át ebbe az albumba.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Fotó áthelyezve. Videó nem helyezhető át ebbe az albumba.</item>
+        <item quantity="other">Fotó áthelyezve. Videó nem helyezhető át ebbe az albumba.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d album törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d fotó törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d fotó törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d elem törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d elem törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d videó törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d videó törölve lesz erről az eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Ez a fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+        <item quantity="other">Ezek a fotók törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Ez a fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">Ezek a fotók törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Ez az album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+        <item quantity="other">Ezek az albumok törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Ez az album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">Ezek az albumok törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Ez az elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+        <item quantity="other">Ezek az elemek törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Ez az elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről.</item>
+        <item quantity="other">Ezek az elemek törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d album törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d sorozatfelvétel törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d sorozatfelvétel törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d fotó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről.</item>
+        <item quantity="other">%d elem törölve lesz az eszközről, a felhőből és más szinkronizált eszközökről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+        <item quantity="other">%d videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemeket a rendszer 30 napig megőrzi a „Nemrég törölt” részen.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">%d videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Ez a videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+        <item quantity="other">Ezek a videók törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről. A törölt elemek a „Nemrég törölt” albumból 30 napig visszaállíthatók.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Ez a videó törölve lesz erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+        <item quantity="other">Ezek a videók törölve lesznek erről az eszközről, a felhőből és a többi szinkronizált eszközről.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Visszaállít %d fotót?</item>
+        <item quantity="other">Visszaállít %d fotót?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Visszaállít %d elemet?</item>
+        <item quantity="other">Visszaállít %d elemet?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Visszaállít %d videót?</item>
+        <item quantity="other">Visszaállít %d videót?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d elem visszaállítása</item>
+        <item quantity="other">%d elem visszaállítása</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d videó mentése sikertelen</item>
+        <item quantity="other">%d videó mentése sikertelen</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d videó mentve</item>
+        <item quantity="other">%d videó mentve</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Miniatűr használata</item>
+        <item quantity="other">Miniatűrök használata</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Eredeti használata</item>
+        <item quantity="other">Eredetik használata</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 fotó miniatűr. Helyette letöltheti és használhatja az eredeti fotót.</item>
+        <item quantity="other">Néhány kiválasztott fotó miniatűr. Helyettük letöltheti és használhatja az eredeti fotókat.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">A kiválasztott elem előzetes megtekintése (%1$d)</item>
+        <item quantity="other">A kiválasztott elemek előzetes megtekintése (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Válasszon ki 1–%1$d fényképet</item>
+        <item quantity="other">Válasszon ki 1–%1$d fényképet</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Miniatűr használata</item>
+        <item quantity="other">Miniatűrök használata</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Eredeti használata</item>
+        <item quantity="other">Eredetik használata</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 fotó miniatűr. Helyette letöltheti és használhatja az eredeti fotót.</item>
+        <item quantity="other">Néhány kiválasztott fotó miniatűr. Helyettük letöltheti és megoszthatja az eredeti fotókat.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d fotó törölve lesz a következő megosztott albumból: „%2$s”.</item>
+        <item quantity="other">%1$d fotó törölve lesz a következő megosztott albumból: „%2$s”.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d elem törölve lesz a következő megosztott albumból: „%2$s”.</item>
+        <item quantity="other">%1$d elem törölve lesz a következő megosztott albumból: „%2$s”.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d videó törölve lesz a következő megosztott albumból: „%2$s”.</item>
+        <item quantity="other">%1$d videó törölve lesz a következő megosztott albumból: „%2$s”.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">%1$d elem törlése</item>
+        <item quantity="other">%1$d elem törlése</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Nem sikerült letölteni %1$d elemet az eszköz alacsony tárhelykapacitása miatt.</item>
+        <item quantity="other">Nem sikerült letölteni %1$d elemet az eszköz alacsony tárhelykapacitása miatt.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d tétel (%2$s) maradt. Folytatja a letöltést mobiladat-kapcsolaton keresztül?</item>
+        <item quantity="other">%1$d tétel (%2$s) maradt. Folytatja a letöltést mobiladat-kapcsolaton keresztül?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Hálózati hiba. %1$d tétel nincs letöltve.</item>
+        <item quantity="other">Hálózati hiba. %1$d tétel nincs letöltve.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d elem nem lett letöltve.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d elem nem lett letöltve.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Egyszerre legfeljebb %d mozgó fotó menthető videóként</item>
+        <item quantity="other">Egyszerre legfeljebb %d mozgó fotó menthető videóként</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d fotó</item>
+        <item quantity="other">%1$d fotó</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d videó</item>
+        <item quantity="other">%1$d videó</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d elem kijelölve</item>
+        <item quantity="other">%1$d elem kijelölve</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d tétel</item>
+        <item quantity="other">%1$d tétel</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Nem sikerült eltávolítani %1$d elemet a kedvencek közül. Próbálja újra.</item>
+        <item quantity="other">Nem sikerült eltávolítani %1$d elemet a kedvencek közül. Próbálja újra.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Rajzoljon egy egyszerű tárgyat, és karikázza be, hogy műalkotást hozzon létre. Használati korlátozás: %1$d naponta.</item>
+        <item quantity="other">Rajzoljon egy egyszerű tárgyat, és karikázza be, hogy műalkotást hozzon létre. Használati korlátozás: %1$d naponta.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d mozgó matricát nem sikerült menteni</item>
+        <item quantity="other">%d mozgó matricát nem sikerült menteni</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Még 1–%1$d fotót választhat</item>
+        <item quantity="other">Még 1–%1$d fotót választhat</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">1-et választhat –%1$d további fotó (%2$s)</item>
+        <item quantity="other">1-et választhat –%1$d további fotó (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">köztük %d mozgó fotó</item>
+        <item quantity="other">köztük %d mozgó fotó</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Eredeti fotó letöltése</item>
+        <item quantity="other">Eredeti fotók letöltése</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d fotó az eszközén kisebb verzióban található meg. Letölti az eredeti, teljes felbontású fotót (%2$s)?</item>
+        <item quantity="other">%1$d fotó a készüléken kisebb változat. Letölti az eredeti, teljes felbontású fotókat (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">%1$d eredeti fotó letöltése</item>
+        <item quantity="other">%1$d eredeti fotó letöltése</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d fotó</item>
+        <item quantity="other">%1$d fotó</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d eredeti fotó nincs letöltve. Nincs elegendő tárhely az eszközön.</item>
+        <item quantity="other">%1$d eredeti fotó nincs letöltve. Nincs elegendő tárhely az eszközön.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d elem nincs letöltve. Nincs elegendő tárhely az eszközön.</item>
+        <item quantity="other">%1$d elem nincs letöltve. Nincs elegendő tárhely az eszközön.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">%1$d elem feltöltése szüneteltetve. Nincs internetkapcsolat.</item>
+        <item quantity="other">%1$d elem feltöltése szüneteltetve. Nincs internetkapcsolat.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d elem feltöltése szüneteltetve. Nem csatlakozik Wi-Fi-hez.</item>
+        <item quantity="other">%1$d elem feltöltése szüneteltetve. Nem csatlakozik Wi-Fi-hez.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">%1$d elem feltöltése szüneteltetve az akkumulátor kímélése érdekében.</item>
+        <item quantity="other">%1$d elem feltöltése szüneteltetve az akkumulátor kímélése érdekében.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d elem feltöltése szüneteltetve. A telefon túl meleg.</item>
+        <item quantity="other">%1$d elem feltöltése szüneteltetve. A telefon túl meleg.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d elem feltöltése szüneteltetve. A felhő karbantartás alatt áll.</item>
+        <item quantity="other">%1$d elem feltöltése szüneteltetve. A felhő karbantartás alatt áll.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d elem feltöltése szüneteltetve. A táblagép túl meleg.</item>
+        <item quantity="other">%1$d elem feltöltése szüneteltetve. A táblagép túl meleg.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">%1$d tétel szinkronizálása a felhőből</item>
+        <item quantity="other">%1$d tétel szinkronizálása a felhőből</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d fotó</item>
+        <item quantity="other">%1$d fotó</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d videó</item>
+        <item quantity="other">%1$d videó</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Az akkumulátor töltése kevesebb mint %1$s. %2$d tétel nincs letöltve.</item>
+        <item quantity="other">Az akkumulátor töltése kevesebb mint %1$s. %2$d tétel nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Az akkumulátor töltöttsége alacsonyabb mint %1$s. %2$d elem nem lett letöltve. Töltse fel a telefont.</item>
+        <item quantity="other">Az akkumulátor töltöttsége alacsonyabb mint %1$s. %2$d elem nem lett letöltve. Töltse fel a telefont.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d elem nincs letöltve. A folyatáshoz csatlakoztasson egy töltőt.</item>
+        <item quantity="other">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d elem nincs letöltve. A folyatáshoz csatlakoztasson egy töltőt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d elem nincs letöltve.</item>
+        <item quantity="other">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d elem nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Energiatakarékos mód bekapcsolva. %1$d tétel nincs letöltve.</item>
+        <item quantity="other">Energiatakarékos mód bekapcsolva. %1$d tétel nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Energiatakarékos mód bekapcsolva. %1$d elem nincs letöltve.</item>
+        <item quantity="other">Energiatakarékos mód bekapcsolva. %1$d elem nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d elem nem lett letöltve. %2$s.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d elem nem lett letöltve. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d tétel nincs letöltve. %2$s vagy %3$s.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d tétel nincs letöltve. %2$s vagy %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d elem nem lett letöltve.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d elem nem lett letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d elem nincs letöltve.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d elem nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Nincs elegendő felhőtárhely. %1$d tétel nincs letöltve.</item>
+        <item quantity="other">Nincs elegendő felhőtárhely. %1$d tétel nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Nincs elegendő eszköztárhely. %1$d elem nincs letöltve.</item>
+        <item quantity="other">Nincs elegendő eszköztárhely. %1$d elem nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Hálózati hiba. %1$d tétel nincs letöltve.</item>
+        <item quantity="other">Hálózati hiba. %1$d tétel nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Hálózati hiba. %1$d elem nincs letöltve.</item>
+        <item quantity="other">Hálózati hiba. %1$d elem nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Nincs elegendő eszköztárhely. %1$d eredeti fénykép nincs letöltve.</item>
+        <item quantity="other">Nincs elegendő eszköztárhely. %1$d eredeti fénykép nincs letöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d fotó nincs szinkronizálva. A felhőtárhely megtelt.</item>
+        <item quantity="other">%1$d fotó nincs szinkronizálva. A felhőtárhely megtelt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d fotó nincs szinkronizálva. A felhővel történő szinkronizálás szünetel, ha az akkumulátor töltése kevesebb mint %2$s.</item>
+        <item quantity="other">%1$d fotó nincs szinkronizálva. A felhővel történő szinkronizálás szünetel, ha az akkumulátor töltése kevesebb mint %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d fotó nincs szinkronizálva. A felhőbe történő szinkronizálás Energiatakarékos módban szünetel.</item>
+        <item quantity="other">%1$d fotó nincs szinkronizálva. A felhőbe történő szinkronizálás Energiatakarékos módban szünetel.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">A felhőtárhely megtelt. %1$d tétel nincs feltöltve.</item>
+        <item quantity="other">A felhőtárhely megtelt. %1$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Az akkumulátor töltése kevesebb mint %1$s. %2$d tétel nincs feltöltve.</item>
+        <item quantity="other">Az akkumulátor töltése kevesebb mint %1$s. %2$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Az akkumulátor töltöttsége alacsonyabb mint %1$s. %2$d elem nem lett feltöltve. Töltse fel a telefont.</item>
+        <item quantity="other">Az akkumulátor töltöttsége alacsonyabb mint %1$s. %2$d elem nem lett feltöltve. Töltse fel a telefont.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d tétel nincs feltöltve. A folyatáshoz csatlakoztasson egy töltőt.</item>
+        <item quantity="other">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d tétel nincs feltöltve. A folyatáshoz csatlakoztasson egy töltőt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d elem nincs feltöltve.</item>
+        <item quantity="other">Az akkumulátor töltöttsége kevesebb, mint %1$s. %2$d elem nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Energiatakarékos mód bekapcsolva. %1$d tétel nincs feltöltve.</item>
+        <item quantity="other">Energiatakarékos mód bekapcsolva. %1$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Energiatakarékos mód bekapcsolva. %1$d elem nincs feltöltve.</item>
+        <item quantity="other">Energiatakarékos mód bekapcsolva. %1$d elem nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">A felhőtárhely megtelt. %1$d elem nincs feltöltve.</item>
+        <item quantity="other">A felhőtárhely megtelt. %1$d elem nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d videó nincs szinkronizálva. A felhőtárhely megtelt.</item>
+        <item quantity="other">%1$d videó nincs szinkronizálva. A felhőtárhely megtelt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d videó nincs szinkronizálva. A felhővel történő szinkronizálás szünetel, ha az akkumulátor töltése kevesebb mint %2$s.</item>
+        <item quantity="other">%1$d videó nincs szinkronizálva. A felhővel történő szinkronizálás szünetel, ha az akkumulátor töltése kevesebb mint %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d videó nincs szinkronizálva. A felhőbe történő szinkronizálás Energiatakarékos módban szünetel.</item>
+        <item quantity="other">%1$d videó nincs szinkronizálva. A felhőbe történő szinkronizálás Energiatakarékos módban szünetel.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d fotó nincs szinkronizálva.</item>
+        <item quantity="other">%1$d fotó nincs szinkronizálva.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d tétel nincs feltöltve. %2$s.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d tétel nincs feltöltve. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d tétel nincs feltöltve. %2$s vagy %3$s.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d tétel nincs feltöltve. %2$s vagy %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d elem nem lett feltöltve.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d elem nem lett feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Nincs hálózati kapcsolat. %1$d elem nincs feltöltve.</item>
+        <item quantity="other">Nincs hálózati kapcsolat. %1$d elem nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d videó nincs szinkronizálva</item>
+        <item quantity="other">%1$d videó nincs szinkronizálva</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Hálózati hiba. %1$d tétel nincs feltöltve.</item>
+        <item quantity="other">Hálózati hiba. %1$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">A hálózati kapcsolat megszakadt. %1$d elem nincs feltöltve.</item>
+        <item quantity="other">Hálózati hiba. %1$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Szolgáltatási hiba. %1$d tétel nincs feltöltve.</item>
+        <item quantity="other">Szolgáltatási hiba. %1$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Szolgáltatási hiba. %1$d tétel nincs feltöltve.</item>
+        <item quantity="other">Szolgáltatási hiba. %1$d tétel nincs feltöltve.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">%1$d elem szinkronizálása</item>
+        <item quantity="other">%1$d elem szinkronizálása</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">%1$d tétel szinkronizálása a felhőbe...</item>
+        <item quantity="other">%1$d tétel szinkronizálása a felhőbe...</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d videó</item>
+        <item quantity="other">%1$d videó</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Egyes platformok nem támogatják a(z) %d másodpercnél hosszabb mozgóképeket</item>
+        <item quantity="other">Egyes platformok nem támogatják a(z) %d másodpercnél hosszabb mozgóképeket</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">A Kiemelést egyszerre %1$d mozgóképen használhatja</item>
+        <item quantity="other">A Kiemelést egyszerre legfeljebb %1$d mozgóképen használhatja</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">A(z) %1$d másodpercnél hosszabb mozgó fotók nem támogatottak</item>
+        <item quantity="other">A(z) %1$d másodpercnél hosszabb mozgó fotók nem támogatottak</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Egyszerre maximum %d elem húzható át</item>
+        <item quantity="other">Egyszerre maximum %d elem húzható át</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d elem hozzáadása nem sikerült.</item>
+        <item quantity="other">%d elem hozzáadása nem sikerült</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d fotó betöltése folyamatban van, és nem állítható be privátként.</item>
+        <item quantity="other">%d fotó betöltése folyamatban van, és nem állíthatók be privátként.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d óra</item>
+        <item quantity="other">%d óra</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d tétel</item>
+        <item quantity="other">%d elem</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d perc</item>
+        <item quantity="other">%d perc</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d másodperc</item>
+        <item quantity="other">%d másodperc</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d másodperc</item>
+        <item quantity="other">%d másodperc</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d elem nem importálható a videószerkesztéshez</item>
+        <item quantity="other">%d elem nem importálható a videószerkesztéshez</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d/%2$d. oldal</item>
+        <item quantity="other">%1$d/%2$d. oldal</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Max. %1$d fotót válasszon ki egy GIF-hez</item>
+        <item quantity="other">Max. %1$d fotót válasszon ki egy GIF-hez</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Csak a(z) %1$d mp-ig terjedő mozgó fotók támogatottak</item>
+        <item quantity="other">Csak a(z) %1$d mp-ig terjedő mozgó fotók támogatottak</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">GIF létrehozásához jelöljön ki legalább %1$d fotót</item>
+        <item quantity="other">GIF létrehozásához jelöljön ki legalább %1$d fotót</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Max. %1$d fotót válasszon ki egy GIF-hez</item>
+        <item quantity="other">Max. %1$d fotót válasszon ki egy GIF-hez</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Csak %1$d fotó felel meg a formátumra vonatkozó követelményeknek</item>
+        <item quantity="other">Csak %1$d fotó felel meg a formátumra vonatkozó követelményeknek</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d fotó nem lesz benne a GIF-ben</item>
+        <item quantity="other">%1$d fotó nem lesz benne a GIF-ben</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d fotó nem támogatott</item>
+        <item quantity="other">%1$d fotó nem támogatott</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">%1$s elem letöltése a „Google Fotók” szolgáltatásból…</item>
+        <item quantity="other">%1$s elem letöltése a „Google Fotók” szolgáltatásból…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Nincs elegendő „Google Fotók”-tárhely. %1$d elemről nem készült biztonsági másolat.</item>
+        <item quantity="other">Nincs elegendő „Google Fotók”-tárhely. %1$d elemről nem készült biztonsági másolat.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">%1$s elem biztonsági mentése a „Google Fotók” szolgáltatásba...</item>
+        <item quantity="other">%1$s elem biztonsági mentése a „Google Fotók” szolgáltatásba...</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d elem szinkronizálása folyamatban van a HeyTap-felhővel. Ennek kikapcsolása megszakítja az automatikus szinkronizálást. Adatai biztonságának megőrzése érdekében javasolt megvárni, amíg a szinkronizálás befejeződik.</item>
+        <item quantity="other">%1$d elem szinkronizálása folyamatban van a HeyTap-felhővel. Ennek kikapcsolása megszakítja az automatikus szinkronizálást. Adatai biztonságának megőrzése érdekében javasolt megvárni, amíg a szinkronizálás befejeződik.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Csak %d album adható hozzá a „Gyakran használt” helyhez</item>
+        <item quantity="other">Legfeljebb %d album adható hozzá a „Gyakran használt” helyhez</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d eszköz észlelve</item>
+        <item quantity="other">%1$d eszköz észlelve</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d nap</item>
+        <item quantity="other">%1$d nap</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d fotó</item>
+        <item quantity="other">%1$d fotó</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d videó</item>
+        <item quantity="other">%1$d videó</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Legfeljebb %1$d matrica választható ki</item>
+        <item quantity="other">Legfeljebb %1$d matrica választható ki</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">%1$d elem törlése a NAS-ból</item>
+        <item quantity="other">%1$d elem törlése a NAS-ból</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">A letöltés kész. Nem sikerült letölteni %1$d elemet.</item>
+        <item quantity="other">A letöltés kész. Nem sikerült letölteni %1$d elemet.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d elem letöltve.</item>
+        <item quantity="other">%1$d elem letöltve.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">%1$d / %2$d letöltése…</item>
+        <item quantity="other">%1$d / %2$d letöltése…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Hogyan szeretné szerkeszteni a kiválasztott területet?</item>
+        <item quantity="other">Hogyan szeretné szerkeszteni a kijelölt területeket?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Legfeljebb %d matricát adhat hozzá</item>
+        <item quantity="other">Legfeljebb %d matricát adhat hozzá</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">A Matricák menüpontban csak %d mozgó matricát adhat hozzá. A további matricák statikus matricákká lesznek konvertálva.</item>
+        <item quantity="other">A Matricák menüpontban legfeljebb %d mozgó matricát adhat hozzá. A további matricák statikussá válnak.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">A szerkesztett verzió %d másodpercre van korlátozva az egyszerű megosztáshoz.</item>
+        <item quantity="other">A szerkesztett verzió %d másodpercre van korlátozva az egyszerű megosztáshoz.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">A matricák legfeljebb %d másodperc hosszúak lehetnek</item>
+        <item quantity="other">A matricák legfeljebb %d másodperc hosszúak lehetnek</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Matricák csak %d másodperc hosszúak lehetnek.</item>
+        <item quantity="other">A matricák legfeljebb %d másodperc hosszúak lehetnek.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">A videók legfeljebb %d másodperc hosszúak lehetnek</item>
+        <item quantity="other">A videók legfeljebb %d másodperc hosszúak lehetnek</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Írja le, mit szeretne megváltoztatni a kiválasztott területen</item>
+        <item quantity="other">Írja le, mit szeretne megváltoztatni a kiválasztott területeken</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">A felvétel %1$d másodperc múlva leáll</item>
+        <item quantity="other">A felvétel %1$d másodperc múlva leáll</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Legfeljebb %1$d területet választhat ki</item>
+        <item quantity="other">Legfeljebb %1$d területet választhat ki</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Csak a(z) %1$d mp-ig terjedő mozgó fotók támogatottak</item>
+        <item quantity="other">Csak a(z) %1$d mp-ig terjedő mozgó fotók támogatottak</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">A várható várakozási idő %1$d perc a nagy fájlméret miatt</item>
+        <item quantity="other">A várható várakozási idő %1$d perc a nagy fájlméret miatt</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">%d kiválasztott fotó exportálása</item>
+        <item quantity="other">%d kiválasztott fotó exportálása</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Nagyobb kell, hogy legyen, mint %1$d mm</item>
+        <item quantity="other">Nagyobb kell, hogy legyen, mint %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Nagyobb kell, hogy legyen, mint %1$d px</item>
+        <item quantity="other">Nagyobb kell, hogy legyen, mint %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Kisebb kell, hogy legyen, mint %1$d mm</item>
+        <item quantity="other">Kisebb kell, hogy legyen, mint %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Kisebb kell, hogy legyen, mint %1$d px</item>
+        <item quantity="other">Kisebb kell, hogy legyen, mint %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Nagyobb kell, hogy legyen, mint %1$d KB</item>
+        <item quantity="other">Nagyobb kell, hogy legyen, mint %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Kisebb kell, hogy legyen, mint %1$d KB</item>
+        <item quantity="other">Kisebb kell, hogy legyen, mint %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Nagyobb kell, hogy legyen, mint %1$d mm</item>
+        <item quantity="other">Nagyobb kell, hogy legyen, mint %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Nagyobb kell, hogy legyen, mint %1$d px</item>
+        <item quantity="other">Nagyobb kell, hogy legyen, mint %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Kisebb kell, hogy legyen, mint %1$d mm</item>
+        <item quantity="other">Kisebb kell, hogy legyen, mint %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Kisebb kell, hogy legyen, mint %1$d px</item>
+        <item quantity="other">Kisebb kell, hogy legyen, mint %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Csak a(z) %d kiválasztott fotó megtartása</item>
+        <item quantity="other">Csak a(z) %d kiválasztott fotó megtartása</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d elem törlése</item>
+        <item quantity="other">%d elem törlése</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d elem törlése</item>
+        <item quantity="other">%d elem törlése</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Nem sikerült hozzáadni %1$d matricát</item>
+        <item quantity="other">Nem sikerült hozzáadni %1$d matricát</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Nem sikerült hozzáadni %d matricát</item>
+        <item quantity="other">Nem sikerült hozzáadni %d matricát</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s matrica hozzáadva</item>
+        <item quantity="other">%1$s matrica hozzáadva</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s matrica hozzáadva</item>
+        <item quantity="other">%1$s matrica hozzáadva</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d matrica hozzáadva</item>
+        <item quantity="other">%1$d matrica hozzáadva</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Az MI-remix kollázsban legfeljebb %1$d mozgó matricát adhat hozzá. A további matricák statikussá válnak.</item>
+        <item quantity="other">Az MI-remix kollázsban legfeljebb %1$d mozgó matricát adhat hozzá. A további matricák statikussá válnak.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Legfeljebb %1$d mozgó fotót adhat hozzá</item>
+        <item quantity="other">Legfeljebb %1$d mozgó fotót adhat hozzá</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Legfeljebb %1$d fotót adhat hozzá</item>
+        <item quantity="other">Legfeljebb %1$d fotót adhat hozzá</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Ha objektumokat szeretne eltávolítani a fotókról, töltse le az Eltávolító beépülő modult. Fájlméret: %1$s. A letöltés becsült ideje: %2$d perc.</item>
+        <item quantity="other">Ha objektumokat szeretne eltávolítani a fotókról, töltse le az Eltávolító beépülő modult. Fájlméret: %1$s. A letöltés becsült ideje: %2$d perc.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Fájlméret: %1$d. A letöltés becsült ideje: %2$d.</item>
+        <item quantity="other">Fájlméret: %1$d. A letöltés becsült ideje: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d fotó nem támogatott</item>
+        <item quantity="other">%1$d fotó nem támogatott</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d kiválasztva</item>
+        <item quantity="other">%1$d/%2$d kiválasztva</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d elem kijelölve</item>
+        <item quantity="other">%1$d elem kijelölve</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d album kiválasztva</item>
+        <item quantity="other">%1$d album kiválasztva</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d elem kijelölve</item>
+        <item quantity="other">%1$d elem kijelölve</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d videó kiválasztva</item>
+        <item quantity="other">%1$d videó kiválasztva</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Legfeljebb %1$d matrica adható hozzá</item>
+        <item quantity="other">Legfeljebb %1$d matrica adható hozzá</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Legfeljebb %1$d elem választható ki</item>
+        <item quantity="other">Legfeljebb %1$d elem választható ki</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d fotó betöltése folyamatban van, és nem törölhető.</item>
+        <item quantity="other">%d fotó betöltése folyamatban van, és nem törölhetők.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d elem törlése sikertelen. Kérjük, próbálja újra.</item>
+        <item quantity="other">%1$d elem törlése sikertelen. Kérjük, próbálja újra.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Eltávolít %d alanyt?</item>
+        <item quantity="other">Eltávolít %d alanyt?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d fotó</item>
+        <item quantity="other">%1$d fotó</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Csak %1$d mozgó matricát adhat hozzá. A további matricák statikusként jelennek meg.</item>
+        <item quantity="other">Legfeljebb %1$d mozgó matricát adhat hozzá. A további matricák statikusként jelennek meg.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Csak %d elem osztható meg ezzel az alkalmazással</item>
+        <item quantity="other">Legfeljebb %d elem osztható meg ezzel az alkalmazással</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">%d elem megosztása</item>
+        <item quantity="other">%d elem megosztása</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">%d fotó megosztása</item>
+        <item quantity="other">%d fotó megosztása</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">%d videó megosztása</item>
+        <item quantity="other">%d videó megosztása</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Töröl %d pillanatot?</item>
+        <item quantity="other">Töröl %d pillanatot?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d történet, Önnek összeállítva.</item>
+        <item quantity="other">%d történet, Önnek összeállítva.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d kiválasztva</item>
+        <item quantity="other">%d kiválasztva</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Elforgatás %d fokkal</item>
+        <item quantity="other">Elforgatás %d fokkal</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Csak %s fájlt importálhat</item>
+        <item quantity="other">Legfeljebb %s fájlt importálhat</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1d elem hozzáadása</item>
+        <item quantity="other">%1d elem hozzáadása</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Legfeljebb %s LUT fájl importálható</item>
+        <item quantity="other">Legfeljebb %s LUT fájl importálható</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Maximum %d fotó adható hozzá</item>
+        <item quantity="other">Maximum %d fotó adható hozzá</item>
+    </plurals>
+</resources>

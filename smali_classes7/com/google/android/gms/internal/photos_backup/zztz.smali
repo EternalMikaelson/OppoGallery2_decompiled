@@ -1,0 +1,33 @@
+.class final Lcom/google/android/gms/internal/photos_backup/zztz;
+.super Ljava/lang/Object;
+.source "com.google.android.libraries.photos:photos-backup@@1.1.3"
+
+
+# instance fields
+.field zza:Lcom/google/android/gms/internal/photos_backup/zzvh;
+
+.field zzb:Ljava/util/concurrent/Executor;
+
+.field zzc:[[Ljava/lang/Object;
+
+.field zzd:Ljava/util/List;
+
+.field zze:Ljava/lang/Boolean;
+
+.field zzf:Ljava/lang/Integer;
+
+.field zzg:Ljava/lang/Integer;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

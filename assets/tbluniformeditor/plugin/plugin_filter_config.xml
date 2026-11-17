@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin-meta>
+    <!--插件版本，由插件开发者定义，建议格式：年/月/日/两位序号，如：2023112101-->
+    <long name="version">2024042501</long>
+
+    <!--插件编辑能力入口类，其实现export中定义的功能标准-->
+    <string name="identifier">com.oplus.tbluniformeditor.plugins.filter.function.FilterAlgoImpl</string>
+
+    <!--插件编辑能力入口类，其实现export中定义的功能标准-->
+    <string name="description">filter plugin meta description configuration</string>
+
+    <!--插件名称-->
+    <string name="name">filter_plugin</string>
+
+    <!--插件的copyright描述-->
+    <string name="copyright">OPLUS Mobile Comm Corp., Ltd.</string>
+
+    <!--插件的作者描述-->
+    <string name="creator">zhaohongjie@oppo.com</string>
+
+    <!--插件类型，指当前插件元信息是静态配置还是动态获取-->
+    <!--静态配置：插件的编辑能力，通过parameter标签配置-->
+    <!--动态配置：插件的编辑能力，通过插件接口动态获取-->
+    <boolean name="dynamic">false</boolean>
+
+    <!--插件编辑能力查询静态接口名，如：config -->
+    <!--静态配置的插件，磁场配置空字符串即可或者不配置-->
+    <string name="dynamic_identifier"></string>
+
+    <!--插件是否支持HDR编辑-->
+    <boolean name="hdr_support">true</boolean>
+
+    <!--插件支持的HDR编码方案-->
+    <string name="hdr_scheme">local_hdr,ultra_hdr</string>
+
+    <!--插件支持的HDR编辑方案-->
+    <string name="hdr_edit_scheme">independent,combine</string>
+
+    <!--插件参数信息，需要时配置, 配置信息由插件池解析完下发给具体插件，以便插件执行时查找， 有多个参数时，配置多个parameter-->
+    <parameters>
+        <!--美摄SDK滤镜功能清新滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_common_1</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Fresh Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能通透滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_common_3</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Clear Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能正片滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_g_gr3slide_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Warm Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能胶片滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_g_ssx04_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Film Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能摩登滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_oplus_black_gold_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Modern Gold Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能姜文电影一号滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_jiangwen_1</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">JiangWen Film I Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能姜文电影二号滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_jiangwen_2</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">JiangWen Film II Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能黑白滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_common_5</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Black And White Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能锐黑滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_g_gr3hc_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Contrast Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能灰调滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_common_6</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Gray Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能冷调滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_back_4</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Cool Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能复古滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_common_4</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Vintage Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能褪色滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_back_2</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Fade Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能薄雾滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_bowu_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Mist Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能美味滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_meiwei_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Food Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能秋日滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_qiuri_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Autumn Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能城市滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_f_back_3</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">City Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能田野滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_jiari_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Country Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能暖阳滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_yuanqi_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Sunset Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能旅途滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_lvtu_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Voyage Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能菲林滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_senlin_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Forest Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能燃情滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_oplus_infra_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Flamingo Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+
+        <!--美摄SDK滤镜功能赛博朋克滤镜参数-->
+        <parameter>
+            <!--参数名-->
+            <string name="identifier">key_oplus_cyberpunk_2020</string>
+
+            <!--参数类型描述-->
+            <!--使用JNI类型描述符，如 Z(boolean), I(int), F(float)-->
+            <string name="type">F</string>
+
+            <!--参数描述-->
+            <string name="description">Cyberpunk Filter</string>
+
+            <!--参数分布是否是离散-->
+            <boolean name="discrete">false</boolean>
+
+            <!--离散数据配置：参数范围，如比例范围等-->
+            <!--多个数据直接使用逗号隔开, 参数类型要和标签保持一致 -->
+            <float name="discrete_array"></float>
+
+            <!--参数最小值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="min">0</int>
+
+            <!--参数最大值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="max">1</int>
+
+            <!--参数默认值，选配，当参数有最大最小值时配置。需要设置时，此处标签要同参数类型保持一致-->
+            <int name="default">1</int>
+        </parameter>
+    </parameters>
+</plugin-meta>

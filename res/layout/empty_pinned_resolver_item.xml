@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/empty_pinned_item" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/empty_pinned_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.coui.appcompat.textview.COUITextView android:textAppearance="?couiTextBodyM" android:textColor="?couiColorLabelTertiary" android:ellipsize="end" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_pinned_apps_or_actions" android:maxLines="1" />
+        <com.coui.appcompat.textview.COUITextView android:textAppearance="?couiTextBodyXS" android:textColor="?couiColorLabelTertiary" android:ellipsize="end" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_pinned_apps_or_actions_content" android:maxLines="3" android:layout_marginHorizontal="@dimen/empty_pinned_tv_horizontal_margin" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

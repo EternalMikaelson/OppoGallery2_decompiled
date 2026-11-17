@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/collagepage_bg_color" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:name="com.oplus.gallery.collagepage.ui.preview.CollagePreviewFragment" android:id="@id/container_preview" android:tag="preview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:name="com.oplus.gallery.collagepage.ui.CollageMenuFragment" android:id="@id/container_menu" android:tag="menu" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:name="com.oplus.gallery.collagepage.ui.details.CollageDetailsMenuFragment" android:id="@id/container_details" android:tag="details" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:name="com.oplus.gallery.collagepage.ui.guide.CollagePopoutGuideFragment" android:id="@id/popout_guide" android:tag="popout_guide" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

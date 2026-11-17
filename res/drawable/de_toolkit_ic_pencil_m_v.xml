@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?de_toolkit_pencil_m_v" />
+    <item android:id="@id/pen_color" android:drawable="@drawable/de_toolkit_pencil_overlay_bg_m_v" />
+    <item android:id="@id/pen_center" android:drawable="@drawable/de_toolkit_pencil_overlay_center_m_v" />
+    <item android:id="@id/pen_edge" android:drawable="@drawable/de_toolkit_pencil_overlay_edge_m_v" />
+</layer-list>

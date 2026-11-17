@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="?gColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/base_appbar_no_divider_layout" />
+    <com.coui.appcompat.scrollview.COUIHorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/chip_group_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.coui.appcompat.chip.COUIChipGroup android:id="@id/travel_chip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/albumsetpage_travel_album_set_chip_group_padding" app:chipSpacing="@dimen/albumsetpage_travel_album_set_chip_spacing" app:selectionRequired="true" app:singleLine="true" app:singleSelection="true" />
+    </com.coui.appcompat.scrollview.COUIHorizontalScrollView>
+    <View android:layout_gravity="center_horizontal" android:id="@id/divider" android:background="@color/common_divider_line_color" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" android:forceDarkAllowed="false" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.coui.appcompat.viewpager.COUIViewPager2 android:orientation="horizontal" android:id="@id/coui_viewpager2" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

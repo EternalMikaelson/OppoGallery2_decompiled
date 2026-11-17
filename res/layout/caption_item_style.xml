@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/item_caption_style_parent" android:background="@drawable/caption_item_border_selector" android:layout_width="@dimen/caption_item_resource_outer_size" android:layout_height="@dimen/caption_item_resource_outer_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_item_caption_style_img" android:layout_width="@dimen/caption_item_style_icon_width" android:layout_height="@dimen/caption_item_style_icon_height" android:scaleType="centerCrop" />
+    <ViewAnimator android:layout_gravity="end|bottom" android:id="@id/va_caption_style_download_state" android:visibility="visible" android:layout_width="@dimen/caption_item_download_icon_wh" android:layout_height="@dimen/caption_item_download_icon_wh" android:layout_marginBottom="@dimen/caption_item_download_icon_margin_eb" android:layout_marginEnd="@dimen/caption_item_download_icon_margin_eb">
+        <ImageView android:id="@id/download_icon" android:layout_width="@dimen/caption_item_download_icon_wh" android:layout_height="wrap_content" android:src="@drawable/caption_item_download_icon" />
+        <com.oplus.gallery.foundation.ui.widget.RoundProgressView android:id="@id/download_progress" android:layout_width="@dimen/caption_item_download_icon_wh" android:layout_height="@dimen/caption_item_download_icon_wh" app:roundColor="@color/resource_download_progress_start_color" app:roundProgressColor="@color/resource_download_progress_finish_color" app:roundWidth="@dimen/caption_item_download_icon_progress_round_width" />
+    </ViewAnimator>
+</FrameLayout>

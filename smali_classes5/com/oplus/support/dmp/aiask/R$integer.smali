@@ -1,0 +1,28 @@
+.class public final Lcom/oplus/support/dmp/aiask/R$integer;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field public static final ai_ask_animate_text_delay:I = 0x7f0c0002
+
+.field public static final ai_ask_answer_ellipsize_line:I = 0x7f0c0003
+
+.field public static final ai_ask_chip_max_size:I = 0x7f0c0004
+
+.field public static final ai_ask_picture_panel_column:I = 0x7f0c0005
+
+.field public static final ai_ask_picture_panel_line:I = 0x7f0c0006
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Albumet %1$1s, inkludert %2$2s element, trykk for å legge det til i Ofte brukt.</item>
+        <item quantity="other">Albumet %1$1s, inkludert %2$2s elementer, trykk for å legge det til i Ofte brukt.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s treff</item>
+        <item quantity="other">%s treff</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Velg mediet, og trykk på det fristilte vinduet «KI-videoklipp» nedenfor for å generere en video raskt. Velg minst %1$s element for bedre resultater.</item>
+        <item quantity="other">Velg mediet, og trykk på det fristilte vinduet «KI-videoklipp» nedenfor for å generere en video raskt. Velg minst %1$s elementer for bedre resultater.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Velg mediet, og trykk på «Rediger – KI-videoklipp» nederst for å generere en video raskt. Velg minst %1$s element for bedre resultater.</item>
+        <item quantity="other">Velg mediet, og trykk på «Rediger – KI-videoklipp» nederst for å generere en video raskt. Velg minst %1$s elementer for bedre resultater.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Levende bilder på mer enn %1$d sekund støttes ikke</item>
+        <item quantity="other">Levende bilder på mer enn %1$d sekunder støttes ikke</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Videoen kan ikke vare lenger enn %d sekund</item>
+        <item quantity="other">Videoen kan ikke vare lenger enn %d sekunder</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d låst app</item>
+        <item quantity="other">%d låste apper</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Albumet %1$1s, inkludert %2$2s element, lagt til i Ofte brukt.</item>
+        <item quantity="other">Albumet %1$1s, inkludert %2$2s elementer, lagt til i Ofte brukt.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Legg til (%1$d)</item>
+        <item quantity="other">Legg til (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Legg til (%1$d/%2$d)</item>
+        <item quantity="other">Legg til (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d element justert</item>
+        <item quantity="other">%1$d elementer justert</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d bilde blir lastet inn og kan ikke legges til.</item>
+        <item quantity="other">%d bilder blir lastet inn og kan ikke legges til.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d dokument</item>
+        <item quantity="other">%1$d dokumenter</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d bankkort</item>
+        <item quantity="other">%1$d bankkort</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Elementer fra %d album slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte elementer er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+        <item quantity="other">Elementer fra %d album slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte elementer er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d seriebilde slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Alle seriebilder er sikkerhetskopiert til skyen og vil forbli der.</item>
+        <item quantity="other">%d seriebilder slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Alle seriebilder er sikkerhetskopiert til skyen og vil forbli der.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d seriebilde slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte bilder er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+        <item quantity="other">%d seriebilder slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte bilder er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d element slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte elementer er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+        <item quantity="other">%d elementer slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte elementer er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d bilde slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte bilder er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+        <item quantity="other">%d bilder slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte bilder er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d video slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte videoer er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+        <item quantity="other">%d videoer slettes fra denne enheten og forblir i Nylig slettet i 30 dager. Enkelte videoer er ikke sikkerhetskopiert. Det kan være lurt å sikkerhetskopiere dem før du sletter dem.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s miniatyrbilde erstattes med sin opprinnelige versjon.</item>
+        <item quantity="other">%1$s miniatyrbilder erstattes med sine opprinnelige versjoner.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID-er</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Slå sammen og fjerne %d person?</item>
+        <item quantity="other">Slå sammen og fjerne %d personer?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Fjerne %d bilde fra dette albumet?</item>
+        <item quantity="other">Fjerne %d bilder fra dette albumet?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Fjerne %d element fra dette albumet?</item>
+        <item quantity="other">Fjerne %d elementer fra dette albumet?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Fjerne %d video fra dette albumet?</item>
+        <item quantity="other">Fjerne %d videoer fra dette albumet?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Bruk miniatyrbilde</item>
+        <item quantity="other">Bruk miniatyrbilder</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Bruk original</item>
+        <item quantity="other">Bruk originaler</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 bilde er et miniatyrbilde. Du kan laste ned og bruke originalbildet i stedet.</item>
+        <item quantity="other">Noen av de valgte bildene er miniatyrbilder. Du kan laste ned og bruke originalbildene i stedet.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Maksimalt %1$d bilde kan konverteres til PDF om gangen</item>
+        <item quantity="other">Maksimalt %1$d bilder kan konverteres til PDF om gangen</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Ikke nok lagringsplass på enheten. %1$d element ble ikke kopiert.</item>
+        <item quantity="other">Ikke nok lagringsplass på enheten. %1$d elementer ble ikke kopiert.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d element kopiert</item>
+        <item quantity="other">%d elementer kopiert</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Du kan ikke kopiere mer enn %d element</item>
+        <item quantity="other">Du kan ikke kopiere mer enn %d elementer</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d bilde vil bli permanent slettet fra denne enheten.</item>
+        <item quantity="other">%d bilder vil bli permanent slettet fra denne enheten.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d element vil bli permanent slettet fra denne enheten.</item>
+        <item quantity="other">%d elementer vil bli permanent slettet fra denne enheten.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d video vil bli permanent slettet fra denne enheten.</item>
+        <item quantity="other">%d videoer vil bli permanent slettet fra denne enheten.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d seriebilde vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d seriebilder vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Dette bildet vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter. Denne handlingen kan ikke angres.</item>
+        <item quantity="other">Disse bildene vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter. Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Dette bildet vil bli slettet permanent. Denne handlingen kan ikke angres.</item>
+        <item quantity="other">Disse bildene vil bli slettet permanent. Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Dette elementet vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter. Denne handlingen kan ikke angres.</item>
+        <item quantity="other">Disse elementene vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter. Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Dette elementet vil bli slettet permanent. Denne handlingen kan ikke angres.</item>
+        <item quantity="other">Disse elementene vil bli slettet permanent. Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d bilde vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d bilder vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d element vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d elementer vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d video vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d videoer vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d seriebilde vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d seriebilder vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Slette %d album?</item>
+        <item quantity="other">Slette %d albumer?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Slette %d seriebilde?</item>
+        <item quantity="other">Slette %d seriebilder?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d minne vil bli slettet fra denne enheten. Bilder i dette minnet blir beholdt i \"Bilder\"-appen.</item>
+        <item quantity="other">%d minner vil bli slettet fra denne enheten. Bilder i disse minnene blir beholdt i \"Bilder\"-appen.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Slette %d minne?</item>
+        <item quantity="other">Slette %d minner?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Slett %d element permanent</item>
+        <item quantity="other">Slett %d elementer permanent</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Slett %d element</item>
+        <item quantity="other">Slett %d elementer</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Slette %d bilde?</item>
+        <item quantity="other">Slette %d bilder?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Slett %d element?</item>
+        <item quantity="other">Slett %d elementer?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Slette %d video?</item>
+        <item quantity="other">Slette %d videoer?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Vil du slette %d klistremerke?</item>
+        <item quantity="other">Vil du slette %d klistremerker?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Slett dette bildet</item>
+        <item quantity="other">Slett disse bildene</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Denne videoen vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter. Denne handlingen kan ikke angres.</item>
+        <item quantity="other">Disse videoene vil bli slettet permanent fra denne enheten, skyen og alle andre synkroniserte enheter. Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Denne videoen vil bli slettet permanent. Denne handlingen kan ikke angres.</item>
+        <item quantity="other">Disse videoene vil bli slettet permanent. Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Laster ned %d element ...</item>
+        <item quantity="other">Laster ned %d elementer ...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Laster ned %d bilde ...</item>
+        <item quantity="other">Laster ned %d bilder ...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Laster ned %d video ...</item>
+        <item quantity="other">Laster ned %d videoer ...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Angi %d fil som privat?</item>
+        <item quantity="other">Angi %d filer som private?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Angi dette bildet som privat?</item>
+        <item quantity="other">Angi disse bildene som private?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d fil kunne ikke krypteres</item>
+        <item quantity="other">%d filer kunne ikke krypteres</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Låse %d album?</item>
+        <item quantity="other">Låse %d album?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d seriebilde vil bli slettet fra denne enheten. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d seriebilder vil bli slettet fra denne enheten. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d seriebilde vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d seriebilder vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album vil bli slettet fra denne enheten. Sikkerhetskopierte albumer blir liggende i «Nylig slettet» i 60 dager. Albumer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d albumer vil bli slettet fra denne enheten. Sikkerhetskopierte albumer blir liggende i «Nylig slettet» i 60 dager. Albumer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d bilde vil bli slettet fra denne enheten. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d bilder vil bli slettet fra denne enheten. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d element vil bli slettet fra denne enheten. Sikkerhetskopierte elementer blir liggende i «Nylig slettet» i 60 dager. Elementer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d elementer vil bli slettet fra denne enheten. Sikkerhetskopierte elementer blir liggende i «Nylig slettet» i 60 dager. Elementer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video vil bli slettet fra denne enheten. Sikkerhetskopierte videoer blir liggende i «Nylig slettet» i 60 dager. Videoer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d videoer vil bli slettet fra denne enheten. Sikkerhetskopierte videoer blir liggende i «Nylig slettet» i 60 dager. Videoer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte albumer blir liggende i «Nylig slettet» i 60 dager. Albumer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d albumer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte albumer blir liggende i «Nylig slettet» i 60 dager. Albumer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d bilde vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d bilder vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte bilder blir liggende i «Nylig slettet» i 60 dager. Bilder som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d element vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte elementer blir liggende i «Nylig slettet» i 60 dager. Elementer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d elementer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte elementer blir liggende i «Nylig slettet» i 60 dager. Elementer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte videoer blir liggende i «Nylig slettet» i 60 dager. Videoer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+        <item quantity="other">%d videoer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Sikkerhetskopierte videoer blir liggende i «Nylig slettet» i 60 dager. Videoer som ikke er sikkerhetskopiert, blir liggende der i 30 dager.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Eksporter %d valgt bilde</item>
+        <item quantity="other">Eksporter %d valgte bilder</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Eksportere %d bilde?</item>
+        <item quantity="other">Eksportere %d bilder?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Kunne ikke legge til %1$d element i Favoritter. Prøv igjen.</item>
+        <item quantity="other">Kunne ikke legge til %1$d elementer i Favoritter. Prøv igjen.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Filstørrelse: %1$s. Beregnet nedlastingstid: %2$s minutt.</item>
+        <item quantity="other">Filstørrelse: %1$s. Beregnet nedlastingstid: %2$s minutter.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Bruk miniatyrbilde</item>
+        <item quantity="other">Bruk miniatyrbilder</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Bruk original</item>
+        <item quantity="other">Bruk originaler</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 bilde er et miniatyrbilde. Du kan laste ned og bruke originalbildet i stedet.</item>
+        <item quantity="other">Noen av de valgte bildene er miniatyrbilder. Du kan laste ned og bruke originalbildene i stedet.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Et bilde av %s ble funnet. Flytt det til Kortholder for å få enklere tilgang.</item>
+        <item quantity="other">Bilder av %s ble funnet. Flytt dem til Kortholder for å få enklere tilgang.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Bilde av %1$s er flyttet til Kortholder</item>
+        <item quantity="other">Bilder av %1$s er flyttet til Kortholder</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d billett/kvittering</item>
+        <item quantity="other">%1$d billetter/kvitteringer</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Det valgte elementet finnes allerede i albumet</item>
+        <item quantity="other">De valgte elementene finnes allerede i albumet</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d element</item>
+        <item quantity="other">%d elementer</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d person vil bli slått sammen og fjernet fra «%2$s».</item>
+        <item quantity="other">%1$d personer vil bli slått sammen og fjernet fra «%2$s».</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d bilde er under innlasting og kan ikke flyttes</item>
+        <item quantity="other">%d bilder er under innlasting og kan ikke flyttes</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d element flyttet</item>
+        <item quantity="other">%d elementer flyttet</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d personer</item>
+        <item quantity="other">%1$d personer</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Laster ned originalbildet...</item>
+        <item quantity="other">Laster ned originalbildene...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Bilde kopiert. Videoer kan ikke kopieres til dette albumet.</item>
+        <item quantity="other">Bilder kopiert. Videoer kan ikke kopieres til dette albumet.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Bilde flyttet. Videoer kan ikke flyttes til dette albumet.</item>
+        <item quantity="other">Bilder flyttet. Videoer kan ikke flyttes til dette albumet.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d albumer vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d bilde vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d bilder vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d element vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d elementer vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d videoer vil bli slettet fra denne enheten. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Dette bildet vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+        <item quantity="other">Disse bildene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Dette bildet vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">Disse bildene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Dette albumet vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+        <item quantity="other">Disse albumene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Dette albumet vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">Disse albumene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Dette elementet vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+        <item quantity="other">Disse elementene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Dette elementet vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">Disse elementene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d albumer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d albumer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d seriebilde vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d seriebilder vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d bilde vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d bilder vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d bilde vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d bilder vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d element vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d elementer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d element vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d elementer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+        <item quantity="other">%d videoer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer blir oppbevart i «Nylig slettet» i 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d video vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">%d videoer vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Denne videoen vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+        <item quantity="other">Disse videoene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter. Slettede elementer kan gjenopprettes fra albumet «Nylig slettet» innen 30 dager.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Denne videoen vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+        <item quantity="other">Disse videoene vil bli slettet fra denne enheten, skyen og alle andre synkroniserte enheter.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Gjenopprette %d bilde?</item>
+        <item quantity="other">Gjenopprette %d bilder?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Gjenopprette %d element?</item>
+        <item quantity="other">Gjenopprette %d elementer?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Gjenopprette %d video?</item>
+        <item quantity="other">Gjenopprette %d videoer?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Gjenopprett %d element</item>
+        <item quantity="other">Gjenopprett %d elementer</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Kunne ikke lagre %d video</item>
+        <item quantity="other">Kunne ikke lagre %d videoer</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d video lagret</item>
+        <item quantity="other">%d videoer lagret</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Bruk miniatyrbilde</item>
+        <item quantity="other">Bruk miniatyrbilder</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Bruk original</item>
+        <item quantity="other">Bruk originaler</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 bilde er et miniatyrbilde. Du kan laste ned og bruke originalbildet i stedet.</item>
+        <item quantity="other">Noen av de valgte bildene er miniatyrbilder. Du kan laste ned og bruke originalbildene i stedet.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Forhåndsvis valgt element (%1$d)</item>
+        <item quantity="other">Forhåndsvis valgte elementer (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Velg 1–%1$d bilde</item>
+        <item quantity="other">Velg 1–%1$d bilder</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Bruk miniatyrbilde</item>
+        <item quantity="other">Bruk miniatyrbilder</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Bruk original</item>
+        <item quantity="other">Bruk originaler</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 bilde er et miniatyrbilde. Du kan laste ned og bruke originalbildet i stedet.</item>
+        <item quantity="other">Noen av de valgte bildene er miniatyrbilder. Du kan laste ned og dele originalbildene i stedet.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d bilde vil bli slettet fra det delte albumet \"%2$s\".</item>
+        <item quantity="other">%1$d bilder vil bli slettet fra det delte albumet \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d element vil bli slettet fra det delte albumet \"%2$s\".</item>
+        <item quantity="other">%1$d elementer vil bli slettet fra det delte albumet \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d video vil bli slettet fra det delte albumet \"%2$s\".</item>
+        <item quantity="other">%1$d videoer vil bli slettet fra det delte albumet \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Slett %1$d element</item>
+        <item quantity="other">Slett %1$d elementer</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Kunne ikke laste ned %1$d element på grunn av for lite lagringsplass på enheten.</item>
+        <item quantity="other">Kunne ikke laste ned %1$d elementer på grunn av for lite lagringsplass på enheten.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d element %2$s) igjen. Fortsette nedlastingen via mobildata?</item>
+        <item quantity="other">%1$d elementer %2$s) igjen. Fortsette nedlastingen via mobildata?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Nettverksfeil. %1$d element ikke lastet ned.</item>
+        <item quantity="other">Nettverksfeil. %1$d elementer ikke lastet ned.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet ned.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Opptil %d levende bilde kan lagres som en video samtidig</item>
+        <item quantity="other">Opptil %d levende bilder kan lagres som en video samtidig</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d bilde</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videoer</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d element valgt</item>
+        <item quantity="other">%1$d elementer valgt</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d element</item>
+        <item quantity="other">%1$d elementer</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Kunne ikke fjerne %1$d element fra Favoritter. Prøv igjen.</item>
+        <item quantity="other">Kunne ikke fjerne %1$d elementer fra Favoritter. Prøv igjen.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Tegn et enkelt motiv, og tegn deretter en ring rundt det for å skape et kunstverk. Bruksgrense: %1$d gang om dagen.</item>
+        <item quantity="other">Tegn et enkelt motiv, og tegn deretter en ring rundt det for å skape et kunstverk. Bruksgrense: %1$d ganger om dagen.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Kunne ikke lagre %d levende klistremerke</item>
+        <item quantity="other">Kunne ikke lagre %d levende klistremerker</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Du kan velge 1–%1$d bilder til</item>
+        <item quantity="other">Du kan velge 1–%1$d bilder til</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Du kan velge 1–%1$d bilder til (%2$s)</item>
+        <item quantity="other">Du kan velge 1–%1$d bilder til (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">inkludert %d levende bilde</item>
+        <item quantity="other">inkludert %d levende bilder</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Last ned originalbildet</item>
+        <item quantity="other">Last ned originalbildene</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d bilde på enheten er en mindre versjon. Vil du laste ned bildet i full oppløsning (%2$s)?</item>
+        <item quantity="other">%1$d bilder på enheten er mindre versjoner. Vil du laste ned bildene i full oppløsning (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Laster ned %1$d originalbilde</item>
+        <item quantity="other">Laster ned %1$d originalbilder</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d bilde</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d originalbilde ikke lastet ned. Ikke nok enhetsminne.</item>
+        <item quantity="other">%1$d originalbilder ikke lastet ned. Ikke nok enhetsminne.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d element ble ikke lastet ned. Ikke nok enhetsminne.</item>
+        <item quantity="other">%1$d elementer ble ikke lastet ned. Ikke nok enhetsminne.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Opplasting midlertidig stoppet for %1$d element. Ingen Internett-forbindelse.</item>
+        <item quantity="other">Opplasting midlertidig stoppet for %1$d elementer. Ingen Internett-forbindelse.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Opplasting midlertidig stoppet for %1$d element. Ikke koblet til Wi-Fi.</item>
+        <item quantity="other">Opplasting midlertidig stoppet for %1$d elementer. Ikke koblet til Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Opplasting av %1$d element midlertidig stoppet for å spare strøm.</item>
+        <item quantity="other">Opplasting av %1$d elementer midlertidig stoppet for å spare strøm.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Opplasting midlertidig stoppet for %1$d element. Telefonen er for varm.</item>
+        <item quantity="other">Opplasting midlertidig stoppet for %1$d elementer. Telefonen er for varm.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Opplasting midlertidig stoppet for %1$d element. Skyen er under vedlikehold.</item>
+        <item quantity="other">Opplasting midlertidig stoppet for %1$d elementer. Skyen er under vedlikehold.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Opplasting midlertidig stoppet for %1$d element. Nettbrettet er for varmt.</item>
+        <item quantity="other">Opplasting midlertidig stoppet for %1$d elementer. Nettbrettet er for varmt.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Synkroniserer %1$d element fra skyen</item>
+        <item quantity="other">Synkroniserer %1$d elementer fra skyen</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d bilde</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videoer</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Batterikapasiteten er under %1$s. %2$d element ble ikke lastet ned.</item>
+        <item quantity="other">Batterikapasiteten er under %1$s. %2$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Batterinivået er lavere enn %1$s. %2$d element ikke lastet ned. Lad telefonen.</item>
+        <item quantity="other">Batterinivået er lavere enn %1$s. %2$d elementer ikke lastet ned. Lad telefonen.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Batterikapasiteten er under %1$s. %2$d element ble ikke lastet ned. Du må koble til strøm før du kan fortsette.</item>
+        <item quantity="other">Batterikapasiteten er under %1$s. %2$d elementer ble ikke lastet ned. Du må koble til strøm før du kan fortsette.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Batterikapasiteten er under %1$s. %2$d element ble ikke lastet ned.</item>
+        <item quantity="other">Batterikapasiteten er under %1$s. %2$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Strømsparingsmodus er på. %1$d element ble ikke lastet ned.</item>
+        <item quantity="other">Strømsparingsmodus er på. %1$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Strømsparingsmodus er på. %1$d element ble ikke lastet ned.</item>
+        <item quantity="other">Strømsparingsmodus er på. %1$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet ned. %2$s.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet ned. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet ned. %2$s eller %3$s.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet ned. %2$s eller %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet ned.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet ned.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Ikke nok lagringsplass i skyen. %1$d elementer ble ikke lastet ned.</item>
+        <item quantity="other">Ikke nok lagringsplass i skyen. %1$d element ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Ikke nok lagringsplass på enheten. %1$d element ble ikke lastet ned.</item>
+        <item quantity="other">Ikke nok lagringsplass på enheten. %1$d elementer ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Nettverksfeil. %1$d element ikke lastet ned.</item>
+        <item quantity="other">Nettverksfeil. %1$d elementer ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Nettverksfeil. %1$d element ikke lastet ned.</item>
+        <item quantity="other">Nettverksfeil. %1$d elementer ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Ikke nok lagringsplass på enheten. %1$d originalbilde ble ikke lastet ned.</item>
+        <item quantity="other">Ikke nok lagringsplass på enheten. %1$d originalbilder ble ikke lastet ned.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d bilde ikke synkronisert. Skylageret er fullt.</item>
+        <item quantity="other">%1$d bilder ikke synkronisert. Skylageret er fullt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d bilde ikke synkronisert. Skysynkronisering settes på pause når batteriet er under %2$s.</item>
+        <item quantity="other">%1$d bilder ikke synkronisert. Skysynkronisering settes på pause når batteriet er under %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d bilde ikke synkronisert. Skysynkronisering blir midlertidig stanset i strømsparingsmodus.</item>
+        <item quantity="other">%1$d bilder ikke synkronisert. Skysynkronisering blir midlertidig stanset i strømsparingsmodus.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Skylageret er fullt. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Skylageret er fullt. %1$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Batterikapasiteten er under %1$s. %2$d element ble ikke lastet opp.</item>
+        <item quantity="other">Batterikapasiteten er under %1$s. %2$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Batterinivået er lavere enn %1$s. %2$d element ikke lastet opp. Lad telefonen.</item>
+        <item quantity="other">Batterinivået er lavere enn %1$s. %2$d elementer ikke lastet opp. Lad telefonen.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Batterikapasiteten er under %1$s. %2$d element ble ikke lastet opp. Du må koble til strøm før du kan fortsette.</item>
+        <item quantity="other">Batterikapasiteten er under %1$s. %2$d elementer ble ikke lastet opp. Du må koble til strøm før du kan fortsette.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Batterikapasiteten er under %1$s. %2$d element ble ikke lastet opp.</item>
+        <item quantity="other">Batterikapasiteten er under %1$s. %2$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Strømsparingsmodus er på. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Strømsparingsmodus er på. %1$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Strømsparingsmodus er på. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Strømsparingsmodus er på. %1$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Skylageret er fullt. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Skylageret er fullt. %1$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d video ikke synkronisert. Skylageret er fullt.</item>
+        <item quantity="other">%1$d videoer ikke synkronisert. Skylageret er fullt.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d video ikke synkronisert. Skysynkronisering settes på pause når batteriet er under %2$s.</item>
+        <item quantity="other">%1$d videoer ikke synkronisert. Skysynkronisering settes på pause når batteriet er under %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d video ikke synkronisert. Skysynkronisering blir midlertidig stanset i strømsparingsmodus.</item>
+        <item quantity="other">%1$d videoer ikke synkronisert. Skysynkronisering blir midlertidig stanset i strømsparingsmodus.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d bilder ikke synkronisert.</item>
+        <item quantity="other">%1$d bilde ikke synkronisert.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet opp. %2$s.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet opp. %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet opp. %2$s eller %3$s.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet opp. %2$s eller %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Ingen nettverksforbindelse. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Ingen nettverksforbindelse. %1$d elementer ble ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d video ikke synkronisert</item>
+        <item quantity="other">%1$d videoer ikke synkronisert</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Nettverksfeil. %1$d element ikke lastet opp.</item>
+        <item quantity="other">Nettverksfeil. %1$d elementer ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Nettverksforbindelse brutt. %1$d element ble ikke lastet opp.</item>
+        <item quantity="other">Nettverksfeil. %1$d elementer ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Tjenestefeil. %1$d element ikke lastet opp.</item>
+        <item quantity="other">Tjenestefeil. %1$d elementer ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Tjenestefeil. %1$d element ikke lastet opp.</item>
+        <item quantity="other">Tjenestefeil. %1$d elementer ikke lastet opp.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Synkroniserer %1$d element</item>
+        <item quantity="other">Synkroniserer %1$d elementer</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Synkroniserer %1$d element til skyen…</item>
+        <item quantity="other">Synkroniserer %1$d elementer til skyen…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videoer</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Enkelte plattformer støtter kanskje ikke levende bilder på over %d sekund</item>
+        <item quantity="other">Enkelte plattformer støtter kanskje ikke levende bilder på over %d sekunder</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Du kan bruke Popp ut på %1$d levende bilde om gangen</item>
+        <item quantity="other">Du kan bruke Popp ut på opptil %1$d levende bilder om gangen</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Levende bilder på mer enn %1$d sekund støttes ikke</item>
+        <item quantity="other">Levende bilder på mer enn %1$d sekunder støttes ikke</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Du kan bare dra %d element om gangen</item>
+        <item quantity="other">Du kan bare dra %d elementer om gangen</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Kunne ikke legge til %d element</item>
+        <item quantity="other">Kunne ikke legge til %d elementer</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d bilde lastes inn og kan ikke angis som privat.</item>
+        <item quantity="other">%d bilder lastes inn og kan ikke angis som privat.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d element</item>
+        <item quantity="other">%d elementer</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d minutt</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d element kan ikke importeres for videoredigering</item>
+        <item quantity="other">%d elementer kan ikke importeres for videoredigering</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Side %1$d av %2$d</item>
+        <item quantity="other">Sidene %1$d av %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Ikke velg flere enn %1$d bilde for én GIF</item>
+        <item quantity="other">Ikke velg flere enn %1$d bilder for én GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Bare levende bilder på opptil %1$d sekund støttes</item>
+        <item quantity="other">Bare levende bilder på opptil %1$d sekunder støttes</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Velg minst %1$d bilde for å opprette en GIF</item>
+        <item quantity="other">Velg minst %1$d bilder for å opprette en GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Ikke velg flere enn %1$d bilde for én GIF</item>
+        <item quantity="other">Ikke velg flere enn %1$d bilder for én GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Bare %1$d bilde oppfyller formatkravene</item>
+        <item quantity="other">Bare %1$d bilder oppfyller formatkravene</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d bilde vil ikke bli inkludert i GIF-en</item>
+        <item quantity="other">%1$d bilder vil ikke bli inkludert i GIF-en</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d bilde støttes ikke</item>
+        <item quantity="other">%1$d bilder støttes ikke</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Laster inn %1$s element fra «Google Bilder»...</item>
+        <item quantity="other">Laster inn %1$s elementer fra «Google Bilder»...</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Ikke nok lagringsplass i «Google Bilder». %1$d element ble ikke sikkerhetskopiert.</item>
+        <item quantity="other">Ikke nok lagringsplass i «Google Bilder». %1$d elementer ble ikke sikkerhetskopiert.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Sikkerhetskopierer %1$s element til «Google Bilder»...</item>
+        <item quantity="other">Sikkerhetskopierer %1$s elementer til «Google Bilder»...</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d element synkroniseres med HeyTap skytjeneste. Hvis du slår av dette, vil den automatiske synkroniseringen bli avbrutt. For å beskytte dataene dine anbefales det at du venter til synkroniseringen er fullført.</item>
+        <item quantity="other">%1$d elementer synkroniseres med HeyTap skytjeneste. Hvis du slår av dette, vil den automatiske synkroniseringen bli avbrutt. For å beskytte dataene dine anbefales det at du venter til synkroniseringen er fullført.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Bare %d album kan legges til i «Ofte brukt»</item>
+        <item quantity="other">Opptil %d album kan legges til i «Ofte brukt»</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$denhet funnet</item>
+        <item quantity="other">%1$denheter funnet</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dager</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d bilde</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videoer</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Maksimalt %1$d klistremerke kan velges</item>
+        <item quantity="other">Maksimalt %1$d klistremerker kan velges</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Slett %1$d element fra NAS-enhet</item>
+        <item quantity="other">Slett %1$d elementer fra NAS-enhet</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Nedlastingen er fullført. Kunne ikke laste ned %1$d element.</item>
+        <item quantity="other">Nedlastingen er fullført. Kunne ikke laste ned %1$d elementer.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d element er lastet ned.</item>
+        <item quantity="other">%1$d elementer er lastet ned.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Laster ned %1$d av %2$d …</item>
+        <item quantity="other">Laster ned %1$d av %2$d …</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Hvordan vil du redigere det valgte området?</item>
+        <item quantity="other">Hvordan vil du redigere de valgte områdene?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Du kan legge til opptil %d klistremerke</item>
+        <item quantity="other">Du kan legge til opptil %d klistremerker</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">Du kan bare legge til %d levende klistremerke i Klistremerker. Overskytende klistremerker konverteres til statiske klistremerker.</item>
+        <item quantity="other">Du kan legge til opptil %d levende klistremerker i Klistremerker. Overskytende klistremerker blir statiske.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">For å kunne deles enkelt er den redigerte versjonen begrenset til %d sekund.</item>
+        <item quantity="other">For å kunne deles enkelt er den redigerte versjonen begrenset til %d sekunder.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Klistremerker kan være opptil %d sekund lange</item>
+        <item quantity="other">Klistremerker kan være opptil %d sekunder lange</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Klistremerker kan bare være %d sekund lange.</item>
+        <item quantity="other">Klistremerker kan være opptil %d sekunder lange.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Videoer kan være opptil %d sekund lange</item>
+        <item quantity="other">Videoer kan være opptil %d sekunder lange</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Beskriv hva du vil endre i det valgte området</item>
+        <item quantity="other">Beskriv hva du vil endre i de valgte områdene</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Lydopptak stopper om %1$d sekund</item>
+        <item quantity="other">Lydopptak stopper om %1$d sekunder</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Du kan velge opptil %1$d område</item>
+        <item quantity="other">Du kan velge opptil %1$d områder</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Bare levende bilder på opptil %1$d sekund støttes</item>
+        <item quantity="other">Bare levende bilder på opptil %1$d sekunder støttes</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Antatt ventetid er %1$d min på grunn av den store filstørrelsen</item>
+        <item quantity="other">Antatt ventetid er %1$d min på grunn av den store filstørrelsen</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Eksporter %d valgt bilde</item>
+        <item quantity="other">Eksporter %d valgte bilder</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Må være større enn %1$d mm</item>
+        <item quantity="other">Må være større enn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Må være større enn %1$d piksler</item>
+        <item quantity="other">Må være større enn %1$d piksler</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Må være mindre enn %1$d mm</item>
+        <item quantity="other">Må være mindre enn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Må være mindre enn %1$d piksler</item>
+        <item quantity="other">Må være mindre enn %1$d piksler</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Må være større enn %1$d kB</item>
+        <item quantity="other">Må være større enn %1$d kB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Må være mindre enn %1$d kB</item>
+        <item quantity="other">Må være mindre enn %1$d kB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Må være større enn %1$d mm</item>
+        <item quantity="other">Må være større enn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Må være større enn %1$d piksler</item>
+        <item quantity="other">Må være større enn %1$d piksler</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Må være mindre enn %1$d mm</item>
+        <item quantity="other">Må være mindre enn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Må være mindre enn %1$d piksler</item>
+        <item quantity="other">Må være mindre enn %1$d piksler</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Behold bare %d valgt bilde</item>
+        <item quantity="other">Behold bare %d valgte bilder</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Slett %d element</item>
+        <item quantity="other">Slett %d elementer</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Slett %d element</item>
+        <item quantity="other">Slett %d elementer</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Kunne ikke legge til %1$d klistremerke</item>
+        <item quantity="other">Kunne ikke legge til %1$d klistremerker</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Kunne ikke legge til %d klistremerke</item>
+        <item quantity="other">Kunne ikke legge til %d klistremerker</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s klistremerke er lagt til</item>
+        <item quantity="other">%1$s klistremerker er lagt til</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s klistremerke er lagt til</item>
+        <item quantity="other">%1$s klistremerker er lagt til</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">La til %1$d klistremerke</item>
+        <item quantity="other">La til %1$d klistremerker</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Du kan legge til opptil %1$d levende klistremerke i KI-drevet kollasjremiks. Overskytende klistremerker blir statiske.</item>
+        <item quantity="other">Du kan legge til opptil %1$d levende klistremerker i KI-drevet kollasjremiks. Overskytende klistremerker blir statiske.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Du kan legge til opptil %1$d levende bilde</item>
+        <item quantity="other">Du kan legge til opptil %1$d levende bilder</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Du kan legge til opptil %1$d bilde</item>
+        <item quantity="other">Du kan legge til opptil %1$d bilder</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Last ned «Fjerner»-pluginen for å fjerne gjenstander fra bildene dine. Filstørrelse: %1$s. Forventet nedlastingstid: %2$d minutter.</item>
+        <item quantity="other">Last ned «Fjerner»-pluginen for å fjerne gjenstander fra bildene dine. Filstørrelse: %1$s. Forventet nedlastingstid: %2$d minutter.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Filstørrelse: %1$d. Beregnet nedlastingstid: %2$d.</item>
+        <item quantity="other">Filstørrelse: %1$d. Beregnet nedlastingstid: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d bilde støttes ikke</item>
+        <item quantity="other">%1$d bilder støttes ikke</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d valgt</item>
+        <item quantity="other">%1$d/%2$d valgt</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d element valgt</item>
+        <item quantity="other">%1$d elementer valgt</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d album valgt</item>
+        <item quantity="other">%1$d album valgt</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d element valgt</item>
+        <item quantity="other">%1$d elementer valgt</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d video valgt</item>
+        <item quantity="other">%1$d videoer valgt</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Du kan ikke legge til mer enn %1$d klistremerke</item>
+        <item quantity="other">Du kan ikke legge til mer enn %1$d klistremerker</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Bare %1$d element kan velges</item>
+        <item quantity="other">Opptil %1$d elementer kan velges</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d bilde blir lastet inn og kan ikke slettes.</item>
+        <item quantity="other">%d bilder blir lastet inn og kan ikke slettes.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Kunne ikke slette %1$d element. Prøv igjen.</item>
+        <item quantity="other">Kunne ikke slette %1$d elementer. Prøv igjen.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Fjerne %d motiv?</item>
+        <item quantity="other">Fjerne %d motiver?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d bilde</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Du kan bare legge til %1$d levende klistremerke. Overskytende klistremerker vises som statiske.</item>
+        <item quantity="other">Du kan legge til opptil %1$d levende klistremerker. Overskytende klistremerker vises som statiske.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Bare %d element kan deles med denne appen</item>
+        <item quantity="other">Opptil %d elementer kan deles med denne appen</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Del %d element</item>
+        <item quantity="other">Del %d elementer</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Del %d bilde</item>
+        <item quantity="other">Del %d bilder</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Del %d video</item>
+        <item quantity="other">Del %d videoer</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Vil du slette %d øyeblikk?</item>
+        <item quantity="other">Vil du slette %d øyeblikk?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d historie, valgt spesielt for deg.</item>
+        <item quantity="other">%d historier, valgt spesielt for deg.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d valgt</item>
+        <item quantity="other">%d valgt</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Drei %d grad</item>
+        <item quantity="other">Drei %d grader</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Du kan bare importere %s filer</item>
+        <item quantity="other">Du kan importere opptil %s filer</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Legg til %1d element</item>
+        <item quantity="other">Legg til %1d elementer</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Opptil %s LUT-fil kan importeres</item>
+        <item quantity="other">Opptil %s LUT-filer kan importeres</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Du kan ikke legge til mer enn %d bilde</item>
+        <item quantity="other">Maksimum %d bilder kan legges til</item>
+    </plurals>
+</resources>

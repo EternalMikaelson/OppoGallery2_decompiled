@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_34000000" />
+            <corners android:radius="@dimen/videoeditor_track_timeline_axis_border_radius" />
+        </shape>
+    </item>
+    <item android:top="@dimen/videoeditor_track_timeline_axis_padding" android:bottom="@dimen/videoeditor_track_timeline_axis_padding" android:start="@dimen/videoeditor_track_timeline_axis_padding" android:end="@dimen/videoeditor_track_timeline_axis_padding">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/videoeditor_track_timeline_axis_fill_width" />
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/videoeditor_track_timeline_axis_fill_radius" />
+        </shape>
+    </item>
+</layer-list>

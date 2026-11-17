@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/view_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/load_img" android:layout_width="@dimen/data_load_image_size" android:layout_height="@dimen/data_load_image_size" android:src="@drawable/icon_network_error" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+        <com.oplus.gallery.foundation.ui.widget.SuitableSizeG2TextView android:textSize="@dimen/data_load_text_size" android:textColor="@color/data_load_text_color" android:gravity="center" android:id="@id/load_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载失败" android:layout_below="@id/load_img" android:layout_centerHorizontal="true" />
+        <com.oplus.gallery.foundation.ui.widget.SuitableSizeG2TextView android:textSize="@dimen/data_load_sub_text_size" android:textColor="@color/data_load_text_color" android:gravity="center" android:id="@id/load_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/data_load_sub_text_margin_top" android:text="请点击页面刷新" android:layout_below="@id/load_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</merge>

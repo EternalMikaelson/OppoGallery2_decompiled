@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardview.COUICardView android:id="@id/ai_pic_genie_generating_options_item_root" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/common_transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ai_pic_genie_generating_options_item_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ai_pic_genie_generating_options_item_icon_color" android:visibility="invisible" android:layout_width="@dimen/picture3d_ai_picgenie_generating_options_item_icon_size" android:layout_height="@dimen/picture3d_ai_picgenie_generating_options_item_icon_size" />
+            <ImageView android:id="@id/ai_pic_genie_generating_options_item_icon_white" android:layout_width="@dimen/picture3d_ai_picgenie_generating_options_item_icon_size" android:layout_height="@dimen/picture3d_ai_picgenie_generating_options_item_icon_size" />
+        </FrameLayout>
+        <com.oplus.gallery.photoeditor.editingvvm.aipicgenie.view.RainbowGradientTextView android:textSize="@dimen/picture3d_ai_picgenie_generating_options_item_text_size" android:ellipsize="end" android:gravity="center" android:id="@id/ai_pic_genie_generating_options_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_ai_picgenie_generating_options_item_name_margin_top" android:minWidth="@dimen/picture3d_ai_picgenie_generating_options_item_width" android:maxLines="@integer/main_memories_sub_title_text_max_line" android:fontFamily="OPPO Sans 4.0" android:textDirection="locale" android:letterSpacing="0.0" android:textFontWeight="500" />
+    </LinearLayout>
+</com.coui.appcompat.cardview.COUICardView>

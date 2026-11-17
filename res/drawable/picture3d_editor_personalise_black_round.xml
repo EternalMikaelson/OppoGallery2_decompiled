@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/picture3d_black" />
+    <stroke android:width="@dimen/picture3d_editor_personalise_black_round_border_width" android:color="@color/picture3d_editor_personalise_black_round_border_color" />
+    <size android:height="@dimen/picture3d_editor_personalise_bg_color_item_image_length" android:width="@dimen/picture3d_editor_personalise_bg_color_item_image_length" />
+</shape>

@@ -1,0 +1,50 @@
+.class Landroidx/appsearch/platformstorage/converter/SetSchemaRequestToPlatformConverter$ApiHelperForT;
+.super Ljava/lang/Object;
+.source "SetSchemaRequestToPlatformConverter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/appsearch/platformstorage/converter/SetSchemaRequestToPlatformConverter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ApiHelperForT"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static addRequiredPermissionsForSchemaTypeVisibility(Landroid/app/appsearch/SetSchemaRequest$Builder;Ljava/lang/String;Ljava/util/Set;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/app/appsearch/SetSchemaRequest$Builder;",
+            "Ljava/lang/String;",
+            "Ljava/util/Set<",
+            "Ljava/lang/Integer;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Landroid/app/appsearch/SetSchemaRequest$Builder;->addRequiredPermissionsForSchemaTypeVisibility(Ljava/lang/String;Ljava/util/Set;)Landroid/app/appsearch/SetSchemaRequest$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

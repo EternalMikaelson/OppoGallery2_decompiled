@@ -1,0 +1,1020 @@
+.class public final Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;
+.super Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase;
+.source "CloudPublicBase_Impl.java"
+
+
+# instance fields
+.field public volatile k:Lcom/oplus/aiunit/vision/rk8;
+
+.field public volatile l:Lcom/oplus/aiunit/vision/yr8;
+
+.field public volatile m:Lcom/oplus/aiunit/vision/l88;
+
+.field public volatile n:Lcom/oplus/aiunit/vision/v58;
+
+.field public volatile o:Lcom/oplus/aiunit/vision/dk8;
+
+.field public volatile p:Lcom/oplus/aiunit/vision/xs8;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static synthetic n(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic o(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic p(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic q(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic r(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic s(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic t(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic u(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;Landroidx/sqlite/db/SupportSQLiteDatabase;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Landroidx/room/RoomDatabase;->mDatabase:Landroidx/sqlite/db/SupportSQLiteDatabase;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public static synthetic v(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic w(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final clearAllTables()V
+    .locals 4
+
+    .line 1
+    const-string v0, "VACUUM"
+
+    .line 2
+    .line 3
+    const-string v1, "PRAGMA wal_checkpoint(FULL)"
+
+    .line 4
+    .line 5
+    invoke-super {p0}, Landroidx/room/RoomDatabase;->assertNotMainThread()V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-super {p0}, Landroidx/room/RoomDatabase;->getOpenHelper()Landroidx/sqlite/db/SupportSQLiteOpenHelper;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v2
+
+    .line 12
+    invoke-interface {v2}, Landroidx/sqlite/db/SupportSQLiteOpenHelper;->getWritableDatabase()Landroidx/sqlite/db/SupportSQLiteDatabase;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v2
+
+    .line 16
+    :try_start_0
+    invoke-super {p0}, Landroidx/room/RoomDatabase;->beginTransaction()V
+
+    .line 17
+    .line 18
+    .line 19
+    const-string v3, "DELETE FROM `CloudIOFile`"
+
+    .line 20
+    .line 21
+    invoke-interface {v2, v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 22
+    .line 23
+    .line 24
+    const-string v3, "DELETE FROM `CloudSliceRule`"
+
+    .line 25
+    .line 26
+    invoke-interface {v2, v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 27
+    .line 28
+    .line 29
+    const-string v3, "DELETE FROM `CloudKeyValue`"
+
+    .line 30
+    .line 31
+    invoke-interface {v2, v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 32
+    .line 33
+    .line 34
+    const-string v3, "DELETE FROM `CloudSliceFile`"
+
+    .line 35
+    .line 36
+    invoke-interface {v2, v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 37
+    .line 38
+    .line 39
+    const-string v3, "DELETE FROM `CloudTransferRecordEntity`"
+
+    .line 40
+    .line 41
+    invoke-interface {v2, v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 42
+    .line 43
+    .line 44
+    const-string v3, "DELETE FROM `CloudTrackEntity`"
+
+    .line 45
+    .line 46
+    invoke-interface {v2, v3}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-super {p0}, Landroidx/room/RoomDatabase;->setTransactionSuccessful()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 50
+    .line 51
+    .line 52
+    invoke-super {p0}, Landroidx/room/RoomDatabase;->endTransaction()V
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-interface {v2, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->query(Ljava/lang/String;)Landroid/database/Cursor;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object p0
+
+    .line 59
+    invoke-interface {p0}, Landroid/database/Cursor;->close()V
+
+    .line 60
+    .line 61
+    .line 62
+    invoke-interface {v2}, Landroidx/sqlite/db/SupportSQLiteDatabase;->inTransaction()Z
+
+    .line 63
+    .line 64
+    .line 65
+    move-result p0
+
+    .line 66
+    if-nez p0, :cond_0
+
+    .line 67
+    .line 68
+    invoke-interface {v2, v0}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 69
+    .line 70
+    .line 71
+    :cond_0
+    return-void
+
+    .line 72
+    :catchall_0
+    move-exception v3
+
+    .line 73
+    invoke-super {p0}, Landroidx/room/RoomDatabase;->endTransaction()V
+
+    .line 74
+    .line 75
+    .line 76
+    invoke-interface {v2, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->query(Ljava/lang/String;)Landroid/database/Cursor;
+
+    .line 77
+    .line 78
+    .line 79
+    move-result-object p0
+
+    .line 80
+    invoke-interface {p0}, Landroid/database/Cursor;->close()V
+
+    .line 81
+    .line 82
+    .line 83
+    invoke-interface {v2}, Landroidx/sqlite/db/SupportSQLiteDatabase;->inTransaction()Z
+
+    .line 84
+    .line 85
+    .line 86
+    move-result p0
+
+    .line 87
+    if-nez p0, :cond_1
+
+    .line 88
+    .line 89
+    invoke-interface {v2, v0}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
+
+    .line 90
+    .line 91
+    .line 92
+    :cond_1
+    throw v3
+.end method
+
+.method public final createInvalidationTracker()Landroidx/room/InvalidationTracker;
+    .locals 9
+
+    .line 1
+    new-instance v0, Ljava/util/HashMap;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    new-instance v2, Ljava/util/HashMap;
+
+    .line 8
+    .line 9
+    invoke-direct {v2, v1}, Ljava/util/HashMap;-><init>(I)V
+
+    .line 10
+    .line 11
+    .line 12
+    new-instance v1, Landroidx/room/InvalidationTracker;
+
+    .line 13
+    .line 14
+    const-string v7, "CloudTransferRecordEntity"
+
+    .line 15
+    .line 16
+    const-string v8, "CloudTrackEntity"
+
+    .line 17
+    .line 18
+    const-string v3, "CloudIOFile"
+
+    .line 19
+    .line 20
+    const-string v4, "CloudSliceRule"
+
+    .line 21
+    .line 22
+    const-string v5, "CloudKeyValue"
+
+    .line 23
+    .line 24
+    const-string v6, "CloudSliceFile"
+
+    .line 25
+    .line 26
+    filled-new-array/range {v3 .. v8}, [Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v3
+
+    .line 30
+    invoke-direct {v1, p0, v0, v2, v3}, Landroidx/room/InvalidationTracker;-><init>(Landroidx/room/RoomDatabase;Ljava/util/Map;Ljava/util/Map;[Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    return-object v1
+.end method
+
+.method public final createOpenHelper(Landroidx/room/DatabaseConfiguration;)Landroidx/sqlite/db/SupportSQLiteOpenHelper;
+    .locals 3
+
+    .line 1
+    new-instance v0, Landroidx/room/RoomOpenHelper;
+
+    .line 2
+    .line 3
+    new-instance v1, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl$a;
+
+    .line 4
+    .line 5
+    invoke-direct {v1, p0}, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl$a;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 6
+    .line 7
+    .line 8
+    const-string p0, "3e0a4a988fcaca9080953e0a52af299a"
+
+    .line 9
+    .line 10
+    const-string v2, "be413e246b0da32368c1837ba92b47c6"
+
+    .line 11
+    .line 12
+    invoke-direct {v0, p1, v1, p0, v2}, Landroidx/room/RoomOpenHelper;-><init>(Landroidx/room/DatabaseConfiguration;Landroidx/room/RoomOpenHelper$Delegate;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 13
+    .line 14
+    .line 15
+    iget-object p0, p1, Landroidx/room/DatabaseConfiguration;->context:Landroid/content/Context;
+
+    .line 16
+    .line 17
+    invoke-static {p0}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;->builder(Landroid/content/Context;)Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p0
+
+    .line 21
+    iget-object v1, p1, Landroidx/room/DatabaseConfiguration;->name:Ljava/lang/String;
+
+    .line 22
+    .line 23
+    invoke-virtual {p0, v1}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;->name(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object p0
+
+    .line 27
+    invoke-virtual {p0, v0}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;->callback(Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback;)Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object p0
+
+    .line 31
+    invoke-virtual {p0}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder;->build()Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object p0
+
+    .line 35
+    iget-object p1, p1, Landroidx/room/DatabaseConfiguration;->sqliteOpenHelperFactory:Landroidx/sqlite/db/SupportSQLiteOpenHelper$Factory;
+
+    .line 36
+    .line 37
+    invoke-interface {p1, p0}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Factory;->create(Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;)Landroidx/sqlite/db/SupportSQLiteOpenHelper;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object p0
+
+    .line 41
+    return-object p0
+.end method
+
+.method public final f()Lcom/oplus/aiunit/vision/k38;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->n:Lcom/oplus/aiunit/vision/v58;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->n:Lcom/oplus/aiunit/vision/v58;
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    monitor-enter p0
+
+    .line 9
+    :try_start_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->n:Lcom/oplus/aiunit/vision/v58;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/oplus/aiunit/vision/v58;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, p0}, Lcom/oplus/aiunit/vision/v58;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->n:Lcom/oplus/aiunit/vision/v58;
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catchall_0
+    move-exception v0
+
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->n:Lcom/oplus/aiunit/vision/v58;
+
+    .line 24
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 28
+    throw v0
+.end method
+
+.method public final g()Lcom/oplus/aiunit/vision/w78;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->m:Lcom/oplus/aiunit/vision/l88;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->m:Lcom/oplus/aiunit/vision/l88;
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    monitor-enter p0
+
+    .line 9
+    :try_start_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->m:Lcom/oplus/aiunit/vision/l88;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/oplus/aiunit/vision/l88;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, p0}, Lcom/oplus/aiunit/vision/l88;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->m:Lcom/oplus/aiunit/vision/l88;
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catchall_0
+    move-exception v0
+
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->m:Lcom/oplus/aiunit/vision/l88;
+
+    .line 24
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 28
+    throw v0
+.end method
+
+.method public final getRequiredTypeConverters()Ljava/util/Map;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Ljava/util/List<",
+            "Ljava/lang/Class<",
+            "*>;>;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p0, Ljava/util/HashMap;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
+
+    .line 7
+    .line 8
+    const-class v1, Lcom/oplus/aiunit/vision/ok8;
+
+    .line 9
+    .line 10
+    invoke-virtual {p0, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    .line 13
+    const-class v1, Lcom/oplus/aiunit/vision/vr8;
+
+    .line 14
+    .line 15
+    invoke-virtual {p0, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    const-class v1, Lcom/oplus/aiunit/vision/w78;
+
+    .line 19
+    .line 20
+    invoke-virtual {p0, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    .line 23
+    const-class v1, Lcom/oplus/aiunit/vision/k38;
+
+    .line 24
+    .line 25
+    invoke-virtual {p0, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 26
+    .line 27
+    .line 28
+    const-class v1, Lcom/oplus/aiunit/vision/zi8;
+
+    .line 29
+    .line 30
+    invoke-virtual {p0, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 31
+    .line 32
+    .line 33
+    const-class v1, Lcom/oplus/aiunit/vision/is8;
+
+    .line 34
+    .line 35
+    invoke-virtual {p0, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 36
+    .line 37
+    .line 38
+    return-object p0
+.end method
+
+.method public final h()Lcom/oplus/aiunit/vision/zi8;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->o:Lcom/oplus/aiunit/vision/dk8;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->o:Lcom/oplus/aiunit/vision/dk8;
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    monitor-enter p0
+
+    .line 9
+    :try_start_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->o:Lcom/oplus/aiunit/vision/dk8;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/oplus/aiunit/vision/dk8;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, p0}, Lcom/oplus/aiunit/vision/dk8;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->o:Lcom/oplus/aiunit/vision/dk8;
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catchall_0
+    move-exception v0
+
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->o:Lcom/oplus/aiunit/vision/dk8;
+
+    .line 24
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 28
+    throw v0
+.end method
+
+.method public final k()Lcom/oplus/aiunit/vision/is8;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->p:Lcom/oplus/aiunit/vision/xs8;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->p:Lcom/oplus/aiunit/vision/xs8;
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    monitor-enter p0
+
+    .line 9
+    :try_start_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->p:Lcom/oplus/aiunit/vision/xs8;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/oplus/aiunit/vision/xs8;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, p0}, Lcom/oplus/aiunit/vision/xs8;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->p:Lcom/oplus/aiunit/vision/xs8;
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catchall_0
+    move-exception v0
+
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->p:Lcom/oplus/aiunit/vision/xs8;
+
+    .line 24
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 28
+    throw v0
+.end method
+
+.method public final l()Lcom/oplus/aiunit/vision/ok8;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->k:Lcom/oplus/aiunit/vision/rk8;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->k:Lcom/oplus/aiunit/vision/rk8;
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    monitor-enter p0
+
+    .line 9
+    :try_start_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->k:Lcom/oplus/aiunit/vision/rk8;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/oplus/aiunit/vision/rk8;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, p0}, Lcom/oplus/aiunit/vision/rk8;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->k:Lcom/oplus/aiunit/vision/rk8;
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catchall_0
+    move-exception v0
+
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->k:Lcom/oplus/aiunit/vision/rk8;
+
+    .line 24
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 28
+    throw v0
+.end method
+
+.method public final m()Lcom/oplus/aiunit/vision/vr8;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->l:Lcom/oplus/aiunit/vision/yr8;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->l:Lcom/oplus/aiunit/vision/yr8;
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    monitor-enter p0
+
+    .line 9
+    :try_start_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->l:Lcom/oplus/aiunit/vision/yr8;
+
+    .line 10
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/oplus/aiunit/vision/yr8;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, p0}, Lcom/oplus/aiunit/vision/yr8;-><init>(Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;)V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->l:Lcom/oplus/aiunit/vision/yr8;
+
+    .line 19
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :catchall_0
+    move-exception v0
+
+    .line 22
+    goto :goto_1
+
+    .line 23
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Lcom/heytap/cloudkit/libcommon/db/CloudPublicBase_Impl;->l:Lcom/oplus/aiunit/vision/yr8;
+
+    .line 24
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :goto_1
+    monitor-exit p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 28
+    throw v0
+.end method

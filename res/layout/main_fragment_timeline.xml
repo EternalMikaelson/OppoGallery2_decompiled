@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.basebiz.widget.GalleryCoordinatorLayout android:background="?couiColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent" app:coordinator_tryRequestLayoutEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/timeline_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false">
+        <com.oplus.gallery.business_lib.timeline.view.TimelineView android:id="@id/timeline_view" android:paddingBottom="@dimen/main_timeline_view_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/talkback_picture3d_editor_text_album_selection_timeline" android:forceDarkAllowed="false" />
+        <com.oplus.gallery.basebiz.widget.scroller.FastScrollerButtonView android:layout_gravity="end" android:id="@id/timeline_fast_scroller" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:forceDarkAllowed="false" />
+    </FrameLayout>
+    <ImageView android:id="@id/album_top_translucent_view" android:background="@drawable/base_album_top_mask_repeat" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <ImageView android:id="@id/album_top_translucent_mask" android:background="@color/main_top_blur_mask" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" android:forceDarkAllowed="false" />
+    <include layout="@layout/base_album_appbar_no_divider_layout" />
+</com.oplus.gallery.basebiz.widget.GalleryCoordinatorLayout>

@@ -1,0 +1,424 @@
+.class public final Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;
+.super Ljava/lang/Object;
+.source "NormalFuncItemAnimator.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field public a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+.field public b:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+.field public c:I
+
+.field public d:I
+
+.field public e:I
+
+.field public f:I
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_1
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_1
+    check-cast p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;
+
+    .line 12
+    .line 13
+    iget-object v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 14
+    .line 15
+    iget-object v3, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 16
+    .line 17
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v1
+
+    .line 21
+    if-nez v1, :cond_2
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_2
+    iget-object v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->b:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 25
+    .line 26
+    iget-object v3, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->b:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 27
+    .line 28
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 29
+    .line 30
+    .line 31
+    move-result v1
+
+    .line 32
+    if-nez v1, :cond_3
+
+    .line 33
+    .line 34
+    return v2
+
+    .line 35
+    :cond_3
+    iget v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->c:I
+
+    .line 36
+    .line 37
+    iget v3, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->c:I
+
+    .line 38
+    .line 39
+    if-eq v1, v3, :cond_4
+
+    .line 40
+    .line 41
+    return v2
+
+    .line 42
+    :cond_4
+    iget v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->d:I
+
+    .line 43
+    .line 44
+    iget v3, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->d:I
+
+    .line 45
+    .line 46
+    if-eq v1, v3, :cond_5
+
+    .line 47
+    .line 48
+    return v2
+
+    .line 49
+    :cond_5
+    iget v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->e:I
+
+    .line 50
+    .line 51
+    iget v3, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->e:I
+
+    .line 52
+    .line 53
+    if-eq v1, v3, :cond_6
+
+    .line 54
+    .line 55
+    return v2
+
+    .line 56
+    :cond_6
+    iget p0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->f:I
+
+    .line 57
+    .line 58
+    iget p1, p1, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->f:I
+
+    .line 59
+    .line 60
+    if-eq p0, p1, :cond_7
+
+    .line 61
+    .line 62
+    return v2
+
+    .line 63
+    :cond_7
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    .line 6
+    move v0, v1
+
+    .line 7
+    goto :goto_0
+
+    .line 8
+    :cond_0
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    :goto_0
+    const/16 v2, 0x1f
+
+    .line 13
+    .line 14
+    mul-int/2addr v0, v2
+
+    .line 15
+    iget-object v3, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->b:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 16
+    .line 17
+    if-nez v3, :cond_1
+
+    .line 18
+    .line 19
+    goto :goto_1
+
+    .line 20
+    :cond_1
+    invoke-virtual {v3}, Ljava/lang/Object;->hashCode()I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v1
+
+    .line 24
+    :goto_1
+    add-int/2addr v0, v1
+
+    .line 25
+    mul-int/2addr v0, v2
+
+    .line 26
+    iget v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->c:I
+
+    .line 27
+    .line 28
+    invoke-static {v1, v0, v2}, Lcom/oplus/aiunit/vision/io3;->a(III)I
+
+    .line 29
+    .line 30
+    .line 31
+    move-result v0
+
+    .line 32
+    iget v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->d:I
+
+    .line 33
+    .line 34
+    invoke-static {v1, v0, v2}, Lcom/oplus/aiunit/vision/io3;->a(III)I
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v0
+
+    .line 38
+    iget v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->e:I
+
+    .line 39
+    .line 40
+    invoke-static {v1, v0, v2}, Lcom/oplus/aiunit/vision/io3;->a(III)I
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v0
+
+    .line 44
+    iget p0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->f:I
+
+    .line 45
+    .line 46
+    invoke-static {p0}, Ljava/lang/Integer;->hashCode(I)I
+
+    .line 47
+    .line 48
+    .line 49
+    move-result p0
+
+    .line 50
+    add-int/2addr p0, v0
+
+    .line 51
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->b:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    .line 4
+    .line 5
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 6
+    .line 7
+    const-string v3, "ChangeInfo(oldHolder="
+
+    .line 8
+    .line 9
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 13
+    .line 14
+    .line 15
+    const-string v0, ", newHolder="
+
+    .line 16
+    .line 17
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    const-string v0, ", fromX="
+
+    .line 24
+    .line 25
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 26
+    .line 27
+    .line 28
+    iget v0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->c:I
+
+    .line 29
+    .line 30
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 31
+    .line 32
+    .line 33
+    const-string v0, ", fromY="
+
+    .line 34
+    .line 35
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 36
+    .line 37
+    .line 38
+    iget v0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->d:I
+
+    .line 39
+    .line 40
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 41
+    .line 42
+    .line 43
+    const-string v0, ", toX="
+
+    .line 44
+    .line 45
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    iget v0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->e:I
+
+    .line 49
+    .line 50
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 51
+    .line 52
+    .line 53
+    const-string v0, ", toY="
+
+    .line 54
+    .line 55
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 56
+    .line 57
+    .line 58
+    iget p0, p0, Lcom/oplus/gallery/photo_page/ui/section/intelliRecommend/anim/NormalFuncItemAnimator$a;->f:I
+
+    .line 59
+    .line 60
+    const-string v0, ")"
+
+    .line 61
+    .line 62
+    invoke-static {v0, p0, v2}, Lcom/oplus/aiunit/vision/l9o;->a(Ljava/lang/String;ILjava/lang/StringBuilder;)Ljava/lang/String;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object p0
+
+    .line 66
+    return-object p0
+.end method

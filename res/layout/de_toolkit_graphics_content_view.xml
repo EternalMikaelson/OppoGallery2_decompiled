@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/dp_232" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.textview.COUITextView android:textSize="14.0sp" android:gravity="center" android:id="@id/title" android:paddingTop="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/de_toolkit_shape" android:paddingStart="@dimen/dp_12" android:paddingEnd="@dimen/dp_12" android:textFontWeight="500" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeToolkitPenPopupBaseText" />
+    <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/graphics_content_recycler_view" android:paddingTop="@dimen/dp_8" android:paddingBottom="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dp_8" android:paddingEnd="@dimen/dp_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

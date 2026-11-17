@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.scrollview.COUINestedScrollView android:id="@id/scroll_container" android:layout_width="0.0dp" android:layout_height="match_parent" android:overScrollMode="never" android:paddingHorizontal="@dimen/base_common_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/image_field" android:layout_width="@dimen/base_multiple_page_guides_image_field_min_size" android:layout_height="@dimen/base_multiple_page_guides_image_field_min_size" android:layout_marginTop="@dimen/base_multiple_page_guides_image_field_margin_top">
+                <ImageView android:gravity="center" android:id="@id/image_content" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" />
+            </LinearLayout>
+            <com.coui.appcompat.scrollview.COUIScrollView android:id="@id/text_field" android:scrollbars="none" android:fadingEdgeLength="@dimen/base_multiple_page_guides_fading_edge_length" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_multiple_page_guides_text_field_margin_top" android:fillViewport="true" android:requiresFadingEdge="vertical" android:nestedScrollingEnabled="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textSize="@dimen/base_multiple_page_guides_text_title_size" android:textColor="?couiColorPrimaryNeutral" android:gravity="center" android:id="@id/page_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:lineHeight="@dimen/base_multiple_page_guides_text_title_line_height" app:textSizeLevel="G4" />
+                    <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textSize="@dimen/base_multiple_page_guides_text_desc_size" android:textColor="?couiColorSecondNeutral" android:gravity="center" android:id="@id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_multiple_page_guides_text_desc_margin_top" android:fontFamily="sans-serif" android:lineHeight="@dimen/base_multiple_page_guides_text_desc_line_height" app:textSizeLevel="G4" />
+                </LinearLayout>
+            </com.coui.appcompat.scrollview.COUIScrollView>
+        </LinearLayout>
+    </com.coui.appcompat.scrollview.COUINestedScrollView>
+    <View android:id="@id/divider_line" android:background="?couiColorDivider" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/base_multiple_page_guides_divider_height" android:forceDarkAllowed="false" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/qt80;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    const-string p0, "[doTransformStopProcess] >>>>>>>>\u5f00\u59cb\u88c1\u526a\u65cb\u8f6c\u9875UI\u505c\u6b62\u6d41\u7a0b>>>>>>>>"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

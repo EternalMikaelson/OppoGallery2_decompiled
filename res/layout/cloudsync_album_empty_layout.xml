@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.emptyview.COUIEmptyStateView android:id="@id/empty_page_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" app:anim_autoPlay="true" app:anim_rawRes="@raw/base_empty_view_no_gallery" app:titleText="@string/cloudsync_no_album_tips"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

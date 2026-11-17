@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/setting_category_cloud_sync_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_g_cloud_channel">
+        <com.oplus.gallery.foundation.ui.RtlCOUIJumpPreference android:icon="@drawable/google_photo" android:title="@string/google_cloud_setting_title" android:key="pref_key_g_cloud_channel" android:summary="@string/setting_google_cloud_channel_tips" app:couiAssignment="@string/setting_sync_has_closed" app:couiShowDivider="false" app:preference_icon_radius="0.0dp" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_o_cloud_channel">
+        <com.oplus.gallery.foundation.ui.RtlCOUIJumpPreference android:icon="@drawable/heytap_photo" android:title="@string/setting_category_cloud_sync_title" android:key="pref_key_o_cloud_channel" app:couiAssignment="@string/setting_sync_has_closed" app:couiShowDivider="false" app:preference_icon_radius="0.0dp" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.oplus.gallery.cloudsyncpage.widget.preference.ChannelSelectActivityBottomPreference android:selectable="false" android:summary="@string/setting_cloud_channel_footer_tips" app:isPreferenceVisible="true" />
+</androidx.preference.PreferenceScreen>

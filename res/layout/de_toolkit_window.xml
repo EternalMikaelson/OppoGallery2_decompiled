@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplusos.vfxsdk.doodleengine.toolkit.Toolkit android:theme="@style/ToolkitTheme" android:orientation="horizontal" android:id="@id/toolkit" android:layout_width="match_parent" android:layout_height="match_parent" app:toolkit_type="movable" app:undo_redo_enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

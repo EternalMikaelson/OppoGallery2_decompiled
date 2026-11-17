@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/imageview_container" android:layout_width="@dimen/photo_editor_ai_best_take_expression_container_size" android:layout_height="@dimen/photo_editor_ai_best_take_expression_container_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/expression_imageview" android:clickable="true" android:layout_width="@dimen/photo_editor_ai_best_take_expression_image_size" android:layout_height="@dimen/photo_editor_ai_best_take_expression_image_size" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerInParent="true" app:couiHasDefaultPic="false" app:couiType="circle" />
+    <View android:id="@id/imageview_container_select_white_border" android:background="@drawable/photo_editor_ai_best_take_expression_selected_white_border" android:visibility="invisible" android:layout_width="@dimen/photo_editor_ai_best_take_expression_container_size" android:layout_height="@dimen/photo_editor_ai_best_take_expression_container_size" android:layout_centerInParent="true" />
+    <ViewStub android:layout_gravity="center" android:id="@id/expression_loading_lottie" android:layout="@layout/photo_editor_ai_best_take_choose_item_lottie_content" android:layout_width="@dimen/photo_editor_ai_best_take_expression_container_size" android:layout_height="@dimen/photo_editor_ai_best_take_expression_container_size" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/base_ic_rename_album_selector" android:enabled="false" android:id="@id/action_rename_album" android:title="@string/base_rename" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_encrypt_secrecy_normal" android:enabled="false" android:id="@id/action_encrypt_album" android:title="@string/base_safe_encryption_nemu" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_move_to_sidepane_selector" android:enabled="false" android:id="@id/action_move_to_sidepane" android:title="@string/base_put_in_side_pane" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_delete_selector" android:enabled="false" android:id="@id/action_recycle_album" android:title="@string/base_delete" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_action_more_selector" android:enabled="false" android:id="@id/action_more_info" android:title="@string/base_more" app:showAsAction="always" />
+</menu>

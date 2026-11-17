@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dp" android:width="20.0dp" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z" />
+        <path android:fillColor="@color/videoeditor_trim_submenu_item_selector" android:pathData="M2.498,5.4H4.898L4.898,3V2.4H6.098V3V5.4L14.498,5.4H15.098V6V12.75V13.35H13.898V12.75V6.6H6.098H4.898L2.498,6.6H1.898V5.4H2.498ZM13.898,18V18.6H15.098V18L15.098,15.6H17.498H18.098V14.4H17.498L15.098,14.4L6.098,14.4L6.098,8.25V7.65H4.898V8.25L4.898,15V15.6H5.498L13.898,15.6V18Z" android:fillType="evenOdd" />
+    </group>
+</vector>

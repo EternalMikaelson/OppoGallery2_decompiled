@@ -1,0 +1,23 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/f08;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    sget-object p0, Lcom/oplus/aiunit/vision/a18;->a:Lcom/oplus/cloudkitlib/metadata/CloudConfigResponseData$ConfigData;
+
+    .line 2
+    .line 3
+    const-string p0, "[isAllowToQueryDefaultServiceModeConfig] already changed service mode by manual"
+
+    .line 4
+    .line 5
+    return-object p0
+.end method

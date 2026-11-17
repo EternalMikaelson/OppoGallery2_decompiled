@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">آلبوم %1$1s، شامل %2$2s مورد؛ برای افزودن آن به «موارد پرکاربرد» ضربه بزنید.</item>
+        <item quantity="other">آلبوم %1$1s، شامل %2$2s مورد؛ برای افزودن آن به «موارد پرکاربرد» ضربه بزنید.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s مورد منطبق</item>
+        <item quantity="other">%s مورد منطبق</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">رسانه خود را انتخاب کنید و روی پنجره شناور «کلیپ فوری با هوش مصنوعی» در زیر ضربه بزنید تا به‌سرعت یک ویدیو ایجاد شود. برای نتایج بهتر حداقل %1$s مورد انتخاب کنید.</item>
+        <item quantity="other">رسانه خود را انتخاب کنید و روی پنجره شناور «کلیپ فوری با هوش مصنوعی» در زیر ضربه بزنید تا به‌سرعت یک ویدیو ایجاد شود. برای نتایج بهتر حداقل %1$s مورد انتخاب کنید.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">رسانه خود را انتخاب کنید و روی «ویرایش - کلیپ فوری با هوش مصنوعی» در پایین ضربه بزنید تا به‌سرعت یک ویدیو ایجاد شود. برای نتایج بهتر حداقل %1$s مورد انتخاب کنید.</item>
+        <item quantity="other">رسانه خود را انتخاب کنید و روی «ویرایش - کلیپ فوری با هوش مصنوعی» در پایین ضربه بزنید تا به‌سرعت یک ویدیو ایجاد شود. برای نتایج بهتر حداقل %1$s مورد انتخاب کنید.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">از عکس‌های حرکتی طولانی‌تر از %1$d ثانیه پشتیبانی نمی‌شود</item>
+        <item quantity="other">از عکس‌های حرکتی طولانی‌تر از %1$d ثانیه پشتیبانی نمی‌شود</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">ویدیو نباید طولانی‌تر از %d ثانیه باشد</item>
+        <item quantity="other">ویدیو نباید طولانی‌تر از %d ثانیه باشد</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d برنامه قفل‌شده</item>
+        <item quantity="other">%d برنامه قفل‌شده</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">آلبوم %1$1s، شامل %2$2s مورد؛ به «موارد پرکاربرد» اضافه شد.</item>
+        <item quantity="other">آلبوم %1$1s، شامل %2$2s مورد؛ به «موارد پرکاربرد» اضافه شد.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">افزودن (%1$d)</item>
+        <item quantity="other">افزودن (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">افزودن (%1$d/%2$d)</item>
+        <item quantity="other">افزودن (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d مورد تنظیم شد</item>
+        <item quantity="other">%1$d مورد تنظیم شد</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d عکس در حال بارگیری است و افزودن امکان‌پذیر نیست.</item>
+        <item quantity="other">%d عکس در حال بارگیری هستند و افزودن امکان‌پذیر نیست.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d سند</item>
+        <item quantity="other">%1$d سند</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d کارت بانکی</item>
+        <item quantity="other">%1$d کارت بانکی</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">موارد %d آلبوم از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» باقی خواهند ماند. بعضی از موارد پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+        <item quantity="other">موارد %d آلبوم از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» باقی خواهند ماند. بعضی از موارد پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%dعکس پی‌در‌پی از این دستگاه حذف خواهد شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهد شد. تمام عکس‌های پی‌در‌پی در فضای ابری پشتیبان‌گیری شده‌اند و در آنجا باقی خواهند ماند.</item>
+        <item quantity="other">%dعکس پی‌در‌پی از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهند شد. تمام عکس‌های پی‌در‌پی در فضای ابری پشتیبان‌گیری شده‌اند و در آنجا باقی خواهند ماند.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%dعکس پی‌در‌پی از این دستگاه حذف خواهد شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهد شد. بعضی از عکس‌ها پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+        <item quantity="other">%dعکس پی‌در‌پی از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهند شد. بعضی از عکس‌ها پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d مورد از این دستگاه حذف خواهد شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهد شد. بعضی از موارد پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+        <item quantity="other">%d مورد از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهند شد. بعضی از موارد پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d عکس از این دستگاه حذف خواهد شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهد شد. بعضی از عکس‌ها پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+        <item quantity="other">%d عکس از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهند شد. بعضی از عکس‌ها پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d ویدیو از این دستگاه حذف خواهد شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهد شد. بعضی از ویدیوها پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+        <item quantity="other">%d ویدیو از این دستگاه حذف خواهند شد و به‌مدت ۳۰ روز در بخش «اخیراً حذف‌شده» نگهداری خواهند شد. بعضی از ویدیوها پشتیبان‌گیری نشده‌اند. شاید بهتر باشد قبل از حذف، از آنها پشتیبان‌گیری کنید.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s تصویر بندانگشتی با نسخه اصلی‌اش جایگزین خواهد شد.</item>
+        <item quantity="other">%1$s تصویر بندانگشتی با نسخه اصلی‌‌شان جایگزین خواهند شد.</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="one">عکس‌های پیدا‌شده: %s. برای سازمان‌دهی عکس‌های مرتبط، این ویژگی را روشن کنید. هرزمان خواستید می‌توانید آن را در «تنظیمات» روشن یا کنید.</item>
+        <item quantity="other">عکس‌های پیدا‌شده: %s. برای سازمان‌دهی عکس‌های مرتبط، این ویژگی را روشن کنید. هرزمان خواستید می‌توانید آن را در «تنظیمات» روشن یا کنید.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d کارت شناسایی</item>
+        <item quantity="other">%1$d کارت شناسایی</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">%d شخص ادغام و حذف شود؟</item>
+        <item quantity="other">%d شخص ادغام و حذف شوند؟</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">%d عکس از این آلبوم حذف شود؟</item>
+        <item quantity="other">%d عکس از این آلبوم حذف شوند؟</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">%d مورد از این آلبوم حذف شود؟</item>
+        <item quantity="other">%d مورد از این آلبوم حذف شوند؟</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">%d ویدیو از این آلبوم حذف شود؟</item>
+        <item quantity="other">%d ویدیو از این آلبوم حذف شوند؟</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">استفاده از تصویر بندانگشتی</item>
+        <item quantity="other">استفاده از تصاویر بندانگشتی</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">استفاده از نسخه اصلی</item>
+        <item quantity="other">استفاده از نسخه‌های اصلی</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">۱ عکس تصویر بندانگشتی است. می‌توانید به جای آن، عکس اصلی را بارگیری و استفاده کنید.</item>
+        <item quantity="other">برخی از عکس‌های منتخب تصاویر بندانگشتی هستند. می‌توانید به جای آن‌ها، عکس‌های اصلی را بارگیری و استفاده کنید.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">حداکثر %1$d تصویر را می‌توان هر بار به PDF تبدیل کرد</item>
+        <item quantity="other">حداکثر %1$d تصویر را می‌توان هر بار به PDF تبدیل کرد</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">فضای ذخیره‌سازی دستگاه ناکافی است. %1$d مورد کپی نشد.</item>
+        <item quantity="other">فضای ذخیره‌سازی دستگاه ناکافی است. %1$d مورد کپی نشدند.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d مورد کپی شد</item>
+        <item quantity="other">%d مورد کپی شد</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">کپی کردن بیشتر از %d مورد امکان‌پذیر نیست</item>
+        <item quantity="other">کپی کردن بیشتر از %d مورد امکان‌پذیر نیست</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d عکس به طور دائم از این دستگاه حذف خواهد شد.</item>
+        <item quantity="other">%d عکس به طور دائم از این دستگاه حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">مورد %d به طور دائم از این دستگاه حذف خواهد شد.</item>
+        <item quantity="other">%d مورد به‌طور دائم از این دستگاه حذف خواهد شد.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d ویدیو به طور دائم از این دستگاه حذف خواهد شد.</item>
+        <item quantity="other">%d ویدئوها به طور دائم از این دستگاه حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d عکس پشت سر هم به طور دائم از این دستگاه حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d عکس پشت سر هم از این دستگاه حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">این عکس برای همیشه از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+        <item quantity="other">این عکس‌ها برای همیشه از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">این عکس برای هميشه حذف خواهد شد. این اقدام قابل‌برگشت نیست.</item>
+        <item quantity="other">این عکس‌ها برای هميشه حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">این مورد برای همیشه از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+        <item quantity="other">این موارد برای همیشه از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">این مورد برای هميشه حذف خواهد شد. این اقدام قابل‌برگشت نیست.</item>
+        <item quantity="other">این موارد برای هميشه حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d عکس به طور دائم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d عکس به طور دائم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d مورد به طور دائم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d مورد به طور دائم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d ویدیو به طور دائم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d ویدیوها به طور دائم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d عکس پشت سر هم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d عکس پشت سر هم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">%d آلبوم حذف شود؟</item>
+        <item quantity="other">%d آلبوم حذف شود؟</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">%d عکس پیاپی حذف شود؟</item>
+        <item quantity="other">%d عکس پیاپی حذف شود؟</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d خاطره از این دستگاه حذف خواهد شد. عکس‌های موجود در این خاطره در برنامه «عکس‌ها» باقی خواهند ماند.</item>
+        <item quantity="other">%d خاطره از این دستگاه حذف خواهند شد. عکس‌های موجود در خاطره‌ها در برنامه «عکس‌ها» باقی خواهند ماند.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">%d حافظه حذف شود؟</item>
+        <item quantity="other">%d خاطره حذف شود؟</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">حذف دائم %d مورد</item>
+        <item quantity="other">حذف دائم %d مورد</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">حذف %d مورد</item>
+        <item quantity="other">حذف %d مورد</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">%d عکس حذف شود؟</item>
+        <item quantity="other">%d عکس حذف شود؟</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">حذف %d مورد؟</item>
+        <item quantity="other">حذف %d مورد؟</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">%d ویدیو حذف شود؟</item>
+        <item quantity="other">%d ویدیو حذف شود؟</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">%d برچسب حذف شود؟</item>
+        <item quantity="other">%d برچسب حذف شوند؟</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">حذف این عکس</item>
+        <item quantity="other">حذف این عکس‌ها</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">این ویدئو برای همیشه از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+        <item quantity="other">این ویدئوها برای همیشه از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">این ویدئو برای هميشه حذف خواهد شد. این اقدام قابل‌برگشت نیست.</item>
+        <item quantity="other">این ویدئوها برای هميشه حذف خواهند شد. این اقدام قابل‌برگشت نیست.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">در حال بارگیری %d مورد...</item>
+        <item quantity="other">در حال بارگیری %d مورد...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">در حال بارگیری %d عکس...</item>
+        <item quantity="other">در حال بارگیری %d عکس...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">در حال بارگیری %d ویدئو...</item>
+        <item quantity="other">در حال بارگیری %d ویدئو...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">%d فایل به‌عنوان خصوصی تنظیم شود؟</item>
+        <item quantity="other">%d فایل به‌عنوان خصوصی تنظیم شود؟</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">این عکس به‌عنوان خصوصی تنظیم شود؟</item>
+        <item quantity="other">این عکس‌ها به‌عنوان خصوصی تنظیم شوند؟</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d فایل رمزگذاری نشد</item>
+        <item quantity="other">%d فایل رمزگذاری نشد</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">%d آلبوم قفل شود؟</item>
+        <item quantity="other">%d آلبوم قفل شود؟</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d عکس پی‌درپی به طور دائم از این دستگاه حذف خواهد شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌ماند؛ عکس‌هایی که پشتیبان‌گیری نشده است به مدت ۳۰ روز باقی می‌ماند.</item>
+        <item quantity="other">%d عکس پی‌درپی از این دستگاه حذف خواهد شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌ماند؛ عکس‌هایی که پشتیبان‌گیری نشده است به مدت ۳۰ روز باقی می‌ماند.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d عکس پی‌درپی از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌ماند؛ عکس‌هایی که پشتیبان‌گیری نشده است به مدت ۳۰ روز باقی می‌ماند.</item>
+        <item quantity="other">%d عکس پی‌درپی از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌ماند؛ عکس‌هایی که پشتیبان‌گیری نشده است به مدت ۳۰ روز باقی می‌ماند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d آلبوم از این دستگاه حذف خواهد شد. آلبوم‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌ماند؛ آلبوم‌هایی که پشتیبان‌گیری نشده است به مدت ۳۰ روز باقی می‌ماند.</item>
+        <item quantity="other">%d آلبوم از این دستگاه حذف خواهد شد. آلبوم‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌ماند؛ آلبوم‌هایی که پشتیبان‌گیری نشده است به مدت ۳۰ روز باقی می‌ماند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d عکس از این دستگاه حذف خواهد شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ عکس‌هایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d عکس از این دستگاه حذف خواهند شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ عکس‌هایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d مورد از این دستگاه حذف خواهد شد. موارد پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ مواردی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d مورد از این دستگاه حذف خواهند شد. موارد پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ مواردی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d ویدیو از این دستگاه حذف خواهد شد. ویدیوهای پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ ویدیوهایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d ویدیو از این دستگاه حذف خواهند شد. ویدیوهای پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ ویدیوهایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d آلبوم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. آلبوم‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ آلبوم‌هایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d آلبوم‌ از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. آلبوم‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ آلبوم‌هایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ عکس‌هایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. عکس‌های پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ عکس‌هایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. موارد پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ مواردی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ مواردی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d ویدیو از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. ویدیوهای پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ ویدیوهایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+        <item quantity="other">%d ویدیوها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. ویدیوهای پشتیبان‌گیری‌شده به مدت ۶۰ روز در پوشه «اخیراً حذف‌شده» باقی می‌مانند؛ ویدیوهایی که پشتیبان‌گیری نشده‌اند به مدت ۳۰ روز باقی می‌مانند.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">صادر کردن %d عکس انتخاب‌شده</item>
+        <item quantity="other">صادر کردن %d عکس انتخاب‌شده</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">%d عکس صادر شود؟</item>
+        <item quantity="other">%d عکس صادر شود؟</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">%1$d مورد به «علاقه‌مندی‌ها» افزوده نشد. دوباره امتحان کنید.</item>
+        <item quantity="other">%1$d مورد به «علاقه‌مندی‌ها» افزوده نشد. دوباره امتحان کنید.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">حجم فایل: %1$s. زمان تخمینی بارگیری: %2$s دقیقه.</item>
+        <item quantity="other">حجم فایل: %1$s. زمان تخمینی بارگیری: %2$s دقیقه.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">استفاده از تصویر بندانگشتی</item>
+        <item quantity="other">استفاده از تصاویر بندانگشتی</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">استفاده از نسخه اصلی</item>
+        <item quantity="other">استفاده از نسخه‌های اصلی</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">۱ عکس تصویر بندانگشتی است. می‌توانید به جای آن، عکس اصلی را بارگیری و استفاده کنید.</item>
+        <item quantity="other">برخی از عکس‌های منتخب تصاویر بندانگشتی هستند. می‌توانید به جای آن‌ها، عکس‌های اصلی را بارگیری و استفاده کنید.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">عکسی از %s پیدا شد. برای دسترسی آسان‌تر، می‌توانید آن را به «کیف مدارک» منتقل کنید.</item>
+        <item quantity="other">عکس‌هایی از %s پیدا شد. برای دسترسی آسان‌تر، می‌توانید آن‌ها را به «کیف مدارک» منتقل کنید.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">عکس %1$s به «کیف مدارک» منتقل شد</item>
+        <item quantity="other">عکس‌های %1$s به «کیف مدارک» منتقل شدند</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d بلیت/رسید</item>
+        <item quantity="other">%1$d بلیت/رسید</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">مورد انتخاب‌شده از قبل در آلبوم وجود دارد</item>
+        <item quantity="other">موارد انتخاب‌شده از قبل در آلبوم وجود دارند</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d مورد</item>
+        <item quantity="other">%d مورد</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d نفر ادغام شده و از «%2$s» حذف خواهد شد.</item>
+        <item quantity="other">%1$d نفر ادغام شده و از «%2$s» حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d عکس در حال بارگیری است و انتقال امکان‌پذیر نیست</item>
+        <item quantity="other">%d عکس در حال بارگیری هستند و انتقال امکان‌پذیر نیست</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d مورد منتقل شد</item>
+        <item quantity="other">%d مورد منتقل شد</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">در حال بارگیری عکس اصلی...</item>
+        <item quantity="other">در حال بارگیری عکس‌های اصلی...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">عکس کپی شد. ویدیوها را نمی‌توان در این آلبوم کپی کرد.</item>
+        <item quantity="other">عکس‌ها کپی شدند. ویدیوها را نمی‌توان در این آلبوم کپی کرد.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">عکس منتقل شد. ویدیوها را نمی‌توان به این آلبوم منتقل کرد.</item>
+        <item quantity="other">عکس‌ها منتقل شدند. ویدیوها را نمی‌توان به این آلبوم منتقل کرد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d آلبوم به طور دائم از این دستگاه حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d آلبوم به طور دائم از این دستگاه حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d عکس از این دستگاه حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d عکس از این دستگاه حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d مورد از این دستگاه حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d مورد از این دستگاه حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d ویدیو از این دستگاه حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d ویدیو از این دستگاه حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">این عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+        <item quantity="other">این عکس‌ها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">این عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+        <item quantity="other">این عکس‌ها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">این آلبوم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+        <item quantity="other">این آلبوم‌ها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">این آلبوم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+        <item quantity="other">این آلبوم‌ها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">این مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+        <item quantity="other">این موارد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">این مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+        <item quantity="other">این موارد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d آلبوم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d آلبوم‌ از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d آلبوم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d آلبوم‌ از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d عکس پشت سر هم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d عکس پشت سر هم از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d عکس از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d مورد از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d ویدیو از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+        <item quantity="other">%d ویدیوها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده به‌ مدت ۳۰ روز در «اخیراً حذف‌شده» نگه‌داری می‌شوند.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d ویدیو از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهد شد.</item>
+        <item quantity="other">%d ویدیوها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">این ویدئو از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+        <item quantity="other">این ویدئوها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد. موارد حذف‌شده را می‌توان ظرف ۳۰ روز از آلبوم «اخیراً حذف‌شده» بازیابی کرد.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">این ویدئو از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+        <item quantity="other">این ویدئوها از این دستگاه، فضای ابری و سایر دستگاه‌های همگام‌سازی‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">%d عکس بازگردانده شود؟</item>
+        <item quantity="other">%d عکس بازگردانده شود؟</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">%d مورد بازگردانده شود؟</item>
+        <item quantity="other">%d مورد بازگردانده شوند؟</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">%d ویدئو بازگردانده شود؟</item>
+        <item quantity="other">%d ویدئو بازگردانده شوند؟</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">بازگرداندن %d مورد</item>
+        <item quantity="other">بازگرداندن %d مورد</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d ویدیو ذخیره نشد</item>
+        <item quantity="other">%d ویدیو ذخیره نشد</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d ویدئو ذخیره شد</item>
+        <item quantity="other">%d ویدئو ذخیره شد</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">استفاده از تصویر بندانگشتی</item>
+        <item quantity="other">استفاده از تصاویر بندانگشتی</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">استفاده از نسخه اصلی</item>
+        <item quantity="other">استفاده از نسخه‌های اصلی</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">۱ عکس تصویر بندانگشتی است. می‌توانید به جای آن، عکس اصلی را بارگیری و استفاده کنید.</item>
+        <item quantity="other">برخی از عکس‌های منتخب تصاویر بندانگشتی هستند. می‌توانید به جای آن‌ها، عکس‌های اصلی را بارگیری و استفاده کنید.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">پیش‌نمایش مورد انتخاب‌شده (%1$d)</item>
+        <item quantity="other">پیش‌نمایش موارد انتخاب‌شده (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">1–%1$d عکس انتخاب کنید</item>
+        <item quantity="other">۱ تا %1$d عکس انتخاب کنید</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">استفاده از تصویر بندانگشتی</item>
+        <item quantity="other">استفاده از تصاویر بندانگشتی</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">استفاده از نسخه اصلی</item>
+        <item quantity="other">استفاده از نسخه‌های اصلی</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">۱ عکس تصویر بندانگشتی است. می‌توانید به جای آن، عکس اصلی را بارگیری و استفاده کنید.</item>
+        <item quantity="other">برخی از عکس‌های منتخب تصاویر بندانگشتی هستند. می‌توانید به جای آن، عکس‌های اصلی را بارگیری و هم‌رسانی کنید.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d عکس از آلبوم اشتراک‌گذاری شده «%2$s» حذف خواهد شد.</item>
+        <item quantity="other">%1$d عکس از آلبوم اشتراک‌گذاری شده «%2$s» حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d مورد از آلبوم اشتراک‌گذاری شده «%2$s» حذف خواهد شد.</item>
+        <item quantity="other">%1$d مورد از آلبوم اشتراک‌گذاری شده «%2$s» حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d ویدیو از آلبوم اشتراک‌گذاری شده «%2$s» حذف خواهد شد.</item>
+        <item quantity="other">%1$d ویدیو از آلبوم اشتراک‌گذاری شده «%2$s» حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">حذف %1$d مورد</item>
+        <item quantity="other">حذف %1$d مورد</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">به دلیل فضای ذخیره‌سازی کم در دستگاه، %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">به دلیل فضای ذخیره‌سازی کم در دستگاه، %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d مورد (%2$s) باقی مانده است. بارگیری با استفاده از اینترنت همراه ازسرگیری شود؟</item>
+        <item quantity="other">%1$d مورد (%2$s) باقی مانده است. بارگیری با استفاده از اینترنت همراه ازسرگیری شود؟</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">خطای شبکه. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">خطای شبکه. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">اتصال شبکه وجود ندارد. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">اتصال شبکه وجود ندارد. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">تا %d عکس حرکتی را هر بار می‌توان به عنوان یک ویدیو ذخیره کرد</item>
+        <item quantity="other">تا %d عکس حرکتی را هر بار می‌توان به عنوان یک ویدیو ذخیره کرد</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d عکس</item>
+        <item quantity="other">%1$d عکس</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d ویدیو</item>
+        <item quantity="other">%1$d ویدیو</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+        <item quantity="other">%1$d مورد انتخاب شدند</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d مورد</item>
+        <item quantity="other">%1$d مورد</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">%1$d مورد از «علاقه‌مندی‌ها» حذف نشد. دوباره امتحان کنید.</item>
+        <item quantity="other">%1$d مورد از «علاقه‌مندی‌ها» حذف نشد. دوباره امتحان کنید.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">یک شی ساده بکشید و دور آن یک دایره رسم کنید تا یک اثر هنری ایجاد شود. محدودیت استفاده: %1$d بار در روز.</item>
+        <item quantity="other">یک شی ساده بکشید و دور آن یک دایره رسم کنید تا یک اثر هنری ایجاد شود. محدودیت استفاده: %1$d بار در روز.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">ذخیره %d برچسب متحرک انجام نشد</item>
+        <item quantity="other">ذخیره %d برچسب متحرک انجام نشد</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">می‌توانید ۱ تا %1$d عکس دیگر انتخاب کنید</item>
+        <item quantity="other">می‌توانید ۱ تا %1$d عکس دیگر انتخاب کنید</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">می‌توانید ۱ تا %1$d عکس دیگر انتخاب کنید (%2$s)</item>
+        <item quantity="other">می‌توانید ۱ تا %1$d عکس دیگر انتخاب کنید (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">از جمله %d عکس حرکتی</item>
+        <item quantity="other">از جمله %d عکس حرکتی</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">بارگیری عکس اصلی</item>
+        <item quantity="other">بارگیری عکس‌های اصلی</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d عکس در دستگاهتان، نسخه کوچک‌تری است. عکس اصلی با وضوح کامل (%2$s) بارگیری شود؟</item>
+        <item quantity="other">%1$d عکس در دستگاهتان نسخه‌های کوچک‌تری هستند. عکس‌های اصلی با وضوح کامل بارگیری شوند (%2$s)؟</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">درحال بارگیری %1$d عکس اصلی</item>
+        <item quantity="other">درحال بارگیری %1$d عکس اصلی</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d عکس</item>
+        <item quantity="other">%1$d عکس</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d عکس اصلی بارگیری نشد. فضای ذخیره‌سازی دستگاه ناکافی است.</item>
+        <item quantity="other">%1$d عکس اصلی بارگیری نشد. فضای ذخیره‌سازی دستگاه ناکافی است.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d مورد بارگیری نشد. فضای ذخیره‌سازی دستگاه ناکافی است.</item>
+        <item quantity="other">%1$d مورد بارگیری نشد. فضای ذخیره‌سازی دستگاه ناکافی است.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">بارگذاری برای %1$d مورد موقتاً متوقف شد. اتصال اینترنت وجود ندارد.</item>
+        <item quantity="other">بارگذاری برای %1$d مورد موقتاً متوقف شد. اتصال اینترنت وجود ندارد.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">بارگذاری برای %1$d مورد موقتاً متوقف شد. اتصال Wi-Fi برقرار نیست.</item>
+        <item quantity="other">بارگذاری برای %1$d مورد موقتاً متوقف شد. اتصال Wi-Fi برقرار نیست.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">بارگذاری %1$d مورد برای صرفه‌جویی در باتری، موقتاً متوقف شد.</item>
+        <item quantity="other">بارگذاری %1$d مورد برای صرفه‌جویی در باتری، موقتاً متوقف شد.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">بارگذاری برای %1$d مورد موقتاً متوقف شد. تلفن بیش‌ازحد داغ است.</item>
+        <item quantity="other">بارگذاری برای %1$d مورد موقتاً متوقف شد. تلفن بیش‌ازحد داغ است.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">بارگذاری برای %1$d مورد موقتاً متوقف شد. ابر تحت تعمیر است.</item>
+        <item quantity="other">بارگذاری برای %1$d مورد موقتاً متوقف شد. فضای ابری تحت تعمیر است.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">بارگذاری برای %1$d مورد موقتاً متوقف شد. رایانه لوحی بیش‌ازحد داغ است.</item>
+        <item quantity="other">بارگذاری برای %1$d مورد موقتاً متوقف شد. رایانه لوحی بیش‌ازحد داغ است.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">در حال همگام‌سازی %1$d مورد از حافظه ابری</item>
+        <item quantity="other">درحال همگام‌سازی %1$d مورد از حافظه ابری</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d عکس</item>
+        <item quantity="other">%1$d عکس</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d ویدیو</item>
+        <item quantity="other">%1$d ویدیو</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشد.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشد. لطفاً تلفنتان را شارژ کنید.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشدند. لطفاً تلفنتان را شارژ کنید.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشد. برای ازسرگیری، دستگاه را به برق وصل کنید.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشد. برای ازسرگیری، دستگاه را به برق وصل کنید.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشد.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگیری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگیری نشد. %2$s.</item>
+        <item quantity="other">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگیری نشدند. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگیری نشد. %2$s یا %3$s.</item>
+        <item quantity="other">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگیری نشدند. %2$s یا %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگیری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">اتصال شبکه وجود ندارد. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">اتصال شبکه وجود ندارد. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">فضای ذخیره‌سازی ابری ناکافی است. %1$d مورد بارگیری نشدند.</item>
+        <item quantity="other">فضای ذخیره‌سازی ابری ناکافی است. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">فضای ذخیره‌سازی دستگاه ناکافی است. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">فضای ذخیره‌سازی دستگاه ناکافی است. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">خطای شبکه. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">خطای شبکه. %1$d مورد بارگیری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">خطای شبکه. %1$d مورد بارگیری نشد.</item>
+        <item quantity="other">خطای شبکه. %1$d مورد بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">فضای ذخیره‌سازی دستگاه ناکافی است. %1$d عکس اصلی بارگیری نشد.</item>
+        <item quantity="other">فضای ذخیره‌سازی دستگاه ناکافی است. %1$d عکس اصلی بارگیری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d عکس همگام‌سازی نشد. فضای ذخیره‌سازی ابری پر است.</item>
+        <item quantity="other">%1$d عکس همگام‌سازی نشدند. فضای ذخیره‌سازی ابری پر است.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d عکس همگام‌سازی نشد. هنگامی‌که شارژ باتری کمتر از %2$s باشد، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+        <item quantity="other">%1$d عکس همگام‌سازی نشدند. هنگامی‌که شارژ باتری کمتر از %2$s باشد، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d عکس همگام‌سازی نشد. در «حالت صرفه‌جویی باتری»، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+        <item quantity="other">%1$d عکس همگام‌سازی نشدند. در «حالت صرفه‌جویی باتری»، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">فضای ذخیره‌سازی ابری پر است. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">فضای ذخیره‌سازی ابری پر است. %1$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشد.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشد. لطفاً تلفنتان را شارژ کنید.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشدند. لطفاً تلفنتان را شارژ کنید.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشد. برای ازسرگیری، دستگاه را به برق وصل کنید.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشد. برای ازسرگیری، دستگاه را به برق وصل کنید.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشد.</item>
+        <item quantity="other">شارژ باتری کمتر از %1$s است. %2$d مورد بارگذاری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">«حالت صرفه‌جویی باتری» روشن شد. %1$d مورد بارگذاری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">فضای ذخیره‌سازی ابری پر است. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">فضای ذخیره‌سازی ابری پر است. %1$d مورد بارگذاری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d ویدیو همگام‌سازی نشد. فضای ذخیره‌سازی ابری پر است.</item>
+        <item quantity="other">%1$d ویدیو همگام‌سازی نشدند. فضای ذخیره‌سازی ابری پر است.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d ویدیو همگام‌سازی نشد. هنگامی‌که شارژ باتری کمتر از %2$s باشد، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+        <item quantity="other">%1$d ویدیو همگام‌سازی نشدند. هنگامی‌که شارژ باتری کمتر از %2$s باشد، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d ویدیو همگام‌سازی نشد. در «حالت صرفه‌جویی باتری»، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+        <item quantity="other">%1$d ویدیو همگام‌سازی نشدند. در «حالت صرفه‌جویی باتری»، همگام‌سازی ابری موقتاً متوقف می‌شود.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d عکس همگام‌سازی نشدند.</item>
+        <item quantity="other">%1$d عکس همگام‌سازی نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگذاری نشد.%2$s.</item>
+        <item quantity="other">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگذاری نشدند. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگذاری نشد. %2$s یا %3$s.</item>
+        <item quantity="other">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگذاری نشدند. %2$s یا %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">هیچ اتصال شبکه‌ای وجود ندارد. %1$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">اتصال شبکه وجود ندارد. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">اتصال شبکه وجود ندارد. %1$d مورد بارگذاری نشد.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d ویدیو همگام‌سازی نشد.</item>
+        <item quantity="other">%1$d ویدیو همگام‌سازی نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">خطای شبکه. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">خطای شبکه. %1$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">اتصال شبکه مختل شد. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">خطای شبکه. %1$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">خطای خدمات. %1$d مورد بارگذاری نشد.</item>
+        <item quantity="other">خطای خدمات. %1$d مورد بارگذاری نشدند.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">در حال همگام‌سازی %1$d مورد</item>
+        <item quantity="other">در حال همگام‌سازی %1$d مورد</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">در حال همگام‌سازی %1$d مورد با حافظه ابری...</item>
+        <item quantity="other">در حال همگام‌سازی %1$d مورد با حافظه ابری...</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d ویدئو</item>
+        <item quantity="other">%1$d ویدئو</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">ممکن است برخی پلتفرم‌‌ها از عکس‌های حرکتی طولانی‌تر از %d ثانیه پشتیبانی نکنند</item>
+        <item quantity="other">ممکن است برخی پلتفرم‌‌ها از عکس‌های حرکتی طولانی‌تر از %d ثانیه پشتیبانی نکنند</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">شما می‌توانید از Popout در %1$d عکس زنده به‌طور همزمان استفاده کنید</item>
+        <item quantity="other">شما می‌توانید از Popout تا سقف %1$d عکس زنده به‌طور همزمان استفاده کنید</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">از عکس‌های حرکتی طولانی‌تر از %1$d ثانیه پشتیبانی نمی‌شود</item>
+        <item quantity="other">از عکس‌های حرکتی طولانی‌تر از %1$d ثانیه پشتیبانی نمی‌شود</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">بیشتر از %d مورد را نمی‌توان در هر بار کشید</item>
+        <item quantity="other">بیشتر از %d مورد را نمی‌توان در هر بار کشید</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d مورد اضافه نشد</item>
+        <item quantity="other">%d مورد اضافه نشدند</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d عکس در حال بارگیری است و تنظیم به‌عنوان خصوصی امکان‌پذیر نیست.</item>
+        <item quantity="other">%d عکس در حال بارگیری هستند و تنظیم به‌عنوان خصوصی امکان‌پذیر نیست.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d ساعت</item>
+        <item quantity="other">%d ساعت</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d مورد</item>
+        <item quantity="other">%d مورد</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d دقیقه</item>
+        <item quantity="other">%d دقیقه</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="other">%d ثانیه</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="other">%d ثانیه</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">وارد کردن %d مورد برای ویرایش ویدیو، امکان‌پذیر نیست</item>
+        <item quantity="other">وارد کردن %d مورد برای ویرایش ویدیو، امکان‌پذیر نیست</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">صفحه %1$d از %2$d</item>
+        <item quantity="other">صفحه %1$d از %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">بیشتر از %1$d عکس برای هر GIF انتخاب نکنید</item>
+        <item quantity="other">بیشتر از %1$d عکس برای هر GIF انتخاب نکنید</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">فقط از عکس‌های زنده تا %1$d ثانیه پشتیبانی می‌شود</item>
+        <item quantity="other">فقط از عکس‌های حرکتی تا %1$d ثانیه پشتیبانی می‌شود</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">براي ايجاد GIF، حداقل %1$d عکس انتخاب کنيد</item>
+        <item quantity="other">براي ايجاد GIF حداقل %1$d عکس انتخاب کنيد</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">بیشتر از %1$d عکس برای هر GIF انتخاب نکنید</item>
+        <item quantity="other">بیشتر از %1$d عکس برای هر GIF انتخاب نکنید</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">فقط %1$d عکس الزامات قالب را برآورده می‌کند</item>
+        <item quantity="other">فقط %1$d عکس الزامات قالب را برآورده می‌کنند</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d عکس در GIF گنجانده نمی‌شود</item>
+        <item quantity="other">%1$d عکس در GIF گنجانده نمی‌شود</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d عکس پشتیبانی نمی‌شود</item>
+        <item quantity="other">%1$d عکس پشتیبانی نمی‌شود</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">در حال بارگذاری %1$s مورد از «Google Photos»…</item>
+        <item quantity="other">در حال بارگذاری %1$s مورد از «Google Photos»…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">فضای ذخیره‌سازی «Google Photos» ناکافی است. %1$d مورد پشتیبان‌گیری نشد.</item>
+        <item quantity="other">فضای ذخیره‌سازی «Google Photos» ناکافی است. %1$d مورد پشتیبان‌گیری نشد.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">در حال پشتیبان‌گیری %1$s مورد در «Google Photos»…</item>
+        <item quantity="other">در حال پشتیبان‌گیری %1$s مورد در «Google Photos»…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d مورد در حال همگام‌سازی‌شدن با فضای ابری HeyTap است. خاموش کردن آن موجب لغو همگام‌سازی خودکار خواهد شد. برای حفظ ایمنی داده‌های‌تان، توصیه می‌شود منتظر بمانید تا همگام‌سازی کامل شود.</item>
+        <item quantity="other">%1$d مورد در حال همگام‌سازی‌شدن با فضای ابری HeyTap هستند. خاموش کردن آن موجب لغو همگام‌سازی خودکار خواهد شد. برای حفظ ایمنی داده‌های‌تان، توصیه می‌شود منتظر بمانید تا همگام‌سازی کامل شود.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">فقط %d آلبوم می‌تواند به «پرکاربردها» اضافه شود</item>
+        <item quantity="other">تا %d آلبوم را می‌توان به «پرکاربردها» اضافه کرد</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d دستگاه پیدا شد</item>
+        <item quantity="other">%1$d دستگاه پیدا شد</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d روز</item>
+        <item quantity="other">%1$d روز</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d عکس</item>
+        <item quantity="other">%1$d عکس</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d ویدیو</item>
+        <item quantity="other">%1$d ویدیو</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">نمی‌توان بیشتر از %1$d برچسب را انتخاب کرد</item>
+        <item quantity="other">نمی‌توان بیشتر از %1$d برچسب را انتخاب کرد</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">حذف %1$d مورد از NAS</item>
+        <item quantity="other">حذف %1$d موارد از NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">بارگیری انجام شد. بارگیری %1$d مورد ناموفق بود.</item>
+        <item quantity="other">بارگیری انجام شد. بارگیری %1$d موارد ناموفق بود.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d مورد بارگیری شد.</item>
+        <item quantity="other">%1$d موارد بارگیری شد.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">در حال بارگیری %1$d از %2$d…</item>
+        <item quantity="other">در حال بارگیری %1$d از %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">دوست دارید ناحیه انتخاب‌شده را چطور ویرایش کنید؟</item>
+        <item quantity="other">دوست دارید ناحیه‌های انتخاب‌شده را چطور ویرایش کنید؟</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">می‌توانید تا %d برچسب اضافه کنید</item>
+        <item quantity="other">می‌توانید تا %d برچسب اضافه کنید</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">در «برچسب‌ها»، فقط می‌توانید %d برچسب متحرک اضافه کنید. برچسب‌های اضافه به برچسب‌های ثابت تبدیل خواهند شد.</item>
+        <item quantity="other">در «برچسب‌ها»، می‌توانید تا %d برچسب متحرک اضافه کنید. برچسب‌های اضافه به حالت ثابت تبدیل خواهند شد.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">نسخه ویرایش‌شده برای هم‌رسانی آسان، محدود به %d ثانیه است.</item>
+        <item quantity="other">نسخه ویرایش‌شده برای هم‌رسانی آسان، محدود به %d ثانیه است.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">طول برچسب‌ها می‌تواند تا %d ثانیه باشد</item>
+        <item quantity="other">طول برچسب‌ها می‌تواند تا %d ثانیه باشد</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">‏‫طول برچسب‌ها فقط می‌تواند %d ثانیه باشد.</item>
+        <item quantity="other">طول برچسب‌ها می‌تواند تا %d ثانیه باشد.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">طول ویدیوها می‌تواند تا %d ثانیه باشد</item>
+        <item quantity="other">طول ویدیوها می‌تواند تا %d ثانیه باشد</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">آنچه را که می‌خواهید در ناحیه انتخاب‌شده تغییر دهید، شرح دهید</item>
+        <item quantity="other">آنچه را که می‌خواهید در ناحیه‌های انتخاب‌شده تغییر دهید، شرح دهید</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">ضبط در %1$d ثانیه متوقف می‌شود</item>
+        <item quantity="other">ضبط در %1$d ثانیه متوقف می‌شود</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">می‌توانید تا %1$d ناحیه را انتخاب کنید</item>
+        <item quantity="other">می‌توانید تا %1$d ناحیه را انتخاب کنید</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">فقط عکس‌های حرکتی تا %1$d ثانیه پشتیبانی می‌شوند</item>
+        <item quantity="other">فقط از عکس‌های زنده تا %1$d ثانیه پشتیبانی می‌شود</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">به دلیل حجم بالای فایل، زمان انتظار پیش‌بینی شده %1$d دقیقه است</item>
+        <item quantity="other">به دلیل حجم بالای فایل، زمان انتظار پیش‌بینی شده %1$d دقیقه است</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">صادر کردن %d عکس انتخاب‌شده</item>
+        <item quantity="other">صادر کردن %d عکس انتخاب‌شده</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">باید بیشتر از %1$d میلی‌متر باشد</item>
+        <item quantity="other">باید بیشتر از %1$d میلی‌متر باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">باید بیشتر از %1$d پیکسل باشد</item>
+        <item quantity="other">باید بیشتر از %1$d پیکسل باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">باید کمتر از %1$d میلی‌متر باشد</item>
+        <item quantity="other">باید کمتر از %1$d میلی‌متر باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">باید کمتر از %1$d پیکسل باشد</item>
+        <item quantity="other">باید کمتر از %1$d پیکسل باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">باید بیشتر از %1$d کیلوبایت باشد</item>
+        <item quantity="other">باید بیشتر از %1$d کیلوبایت باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">باید کمتر از %1$d کیلوبایت باشد</item>
+        <item quantity="other">باید کمتر از %1$d کیلوبایت باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">باید بیشتر از %1$d میلی‌متر باشد</item>
+        <item quantity="other">باید بیشتر از %1$d میلی‌متر باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">باید بیشتر از %1$d پیکسل باشد</item>
+        <item quantity="other">باید بیشتر از %1$d پیکسل باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">باید کمتر از %1$d میلی‌متر باشد</item>
+        <item quantity="other">باید کمتر از %1$d میلی‌متر باشد</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">باید کمتر از %1$d پیکسل باشد</item>
+        <item quantity="other">باید کمتر از %1$d پیکسل باشد</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">فقط %d عکس انتخاب‌شده را نگه‌ دارید</item>
+        <item quantity="other">فقط %d عکس انتخاب‌شده را نگه‌ دارید</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">حذف %d مورد</item>
+        <item quantity="other">حذف %d مورد</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">حذف %d مورد</item>
+        <item quantity="other">حذف %d مورد</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">افزودن برچسب %1$d ناموفق بود</item>
+        <item quantity="other">افزودن برچسب‌های %1$d ناموفق بود</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d برچسب ‏‫افزوده نشد</item>
+        <item quantity="other">%d برچسب افزوده نشد</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s برچسب افزوده شد</item>
+        <item quantity="other">%1$s برچسب‌ افزوده شد</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s برچسب افزوده شد</item>
+        <item quantity="other">%1$s برچسب‌ افزوده شد</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d برچسب افزوده شد</item>
+        <item quantity="other">%1$d برچسب افزوده شد</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">در «کلاژ ریمیکس هوش مصنوعی»، می‌توانید حداکثر %1$d برچسب متحرک اضافه کنید. برچسب‌های اضافی ثابت خواهند شد.</item>
+        <item quantity="other">در «کلاژ ریمیکس هوش مصنوعی»، می‌توانید حداکثر %1$d برچسب متحرک اضافه کنید. برچسب‌های اضافی ثابت خواهند شد.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">شما می‌توانید تا %1$d عکس حرکتی بیفزایید</item>
+        <item quantity="other">شما می‌توانید تا %1$d عکس حرکتی بیفزایید</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">شما می‌توانید تا %1$d عکس بیفزایید</item>
+        <item quantity="other">شما می‌توانید تا %1$d عکس‌ بیفزایید</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">برای حذف اشیا از عکس‌ها، افزونه حذف‌کننده را بارگیری کنید. اندازه فایل: %1$s. زمان تخمینی بارگیری: %2$d دقیقه.</item>
+        <item quantity="other">برای حذف اشیا از عکس‌ها، افزونه حذف‌کننده را بارگیری کنید. اندازه فایل: %1$s. زمان تخمینی بارگیری: %2$d دقیقه.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">حجم فایل: %1$d. زمان تخمینی بارگیری: %2$d.</item>
+        <item quantity="other">حجم فایل: %1$d. زمان تخمینی بارگیری: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">از %1$d عکس پشتیبانی نمی‌شود</item>
+        <item quantity="other">از %1$d عکس پشتیبانی نمی‌شود</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d%2$d مورد انتخاب شد</item>
+        <item quantity="other">%1$d%2$d مورد انتخاب شدند</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+        <item quantity="other">%1$d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d آلبوم انتخاب شد</item>
+        <item quantity="other">%1$d آلبوم انتخاب شدند</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+        <item quantity="other">%1$d مورد انتخاب شدند</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d ویدیو انتخاب شد</item>
+        <item quantity="other">%1$d ویدیو انتخاب شدند</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">نمی‌توان بیشتر از %1$d برچسب اضافه کرد</item>
+        <item quantity="other">نمی‌توان بیشتر از %1$d برچسب اضافه کرد</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">فقط %1$d مورد می‌‍تواند انتخاب شود</item>
+        <item quantity="other">تا %1$d مورد قابل‌انتخاب است</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d عکس در حال بارگیری است و حذف امکان‌پذیر نیست.</item>
+        <item quantity="other">%d عکس در حال بارگیری هستند و حذف امکان‌پذیر نیست.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">حذف %1$d مورد ناموفق بود. لطفاً دوباره امتحان کنید.</item>
+        <item quantity="other">حذف %1$d مورد ناموفق بود. لطفاً دوباره امتحان کنید.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d اعلان‌ جدید</item>
+        <item quantity="other">%d اعلان‌ جدید</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">آیا %d سوژه را حذف می‌کنید؟</item>
+        <item quantity="other">آیا %d سوژه را حذف می‌کنید؟</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d عکس</item>
+        <item quantity="other">%1$d عکس</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">فقط می‌توانید %1$d برچسب متحرک اضافه کنید. برچسب‌های اضافه به صورت ثابت نشان داده خواهند شد.</item>
+        <item quantity="other">می‌توانید تا %1$d برچسب متحرک اضافه کنید. برچسب‌های اضافه به صورت ثابت نشان داده خواهند شد.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">فقط %d مورد را می‌توان با این برنامه هم‌رسانی کرد</item>
+        <item quantity="other">تا %d مورد را می‌توان با این برنامه هم‌رسانی کرد</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">هم‌رسانی %d مورد</item>
+        <item quantity="other">هم‌رسانی %d مورد</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">هم‌رسانی %d عکس‌</item>
+        <item quantity="other">هم‌رسانی %d عکس‌</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">هم‌رسانی %d ویدیو</item>
+        <item quantity="other">هم‌رسانی %d ویدیو</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">حذف %d لحظه؟</item>
+        <item quantity="other">%d لحظه حذف شود؟</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d داستان، انتخاب‌شده برای شما.</item>
+        <item quantity="other">%d داستان، انتخاب‌شده برای شما.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d مورد انتخاب شد</item>
+        <item quantity="other">%d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">%d درجه بچرخانید</item>
+        <item quantity="other">%d درجه بچرخانید</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">فقط می‌توانید %s فایل را وارد کنید</item>
+        <item quantity="other">حداکثر می‌توانید %s فایل را وارد کنید</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">افزودن %1d مورد</item>
+        <item quantity="other">افزودن %1d مورد</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">می‌توان حداکثر %s فایل LUT را وارد کرد</item>
+        <item quantity="other">می‌توان حداکثر %s فایل LUT را وارد کرد</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">افزودن بیشتر از %d عکس امکان‌پذیر نیست</item>
+        <item quantity="other">افزودن بیشتر از %d عکس امکان‌پذیر نیست</item>
+    </plurals>
+</resources>

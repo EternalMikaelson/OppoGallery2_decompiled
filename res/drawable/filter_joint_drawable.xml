@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/base_editor_tip_joint_color" />
+    <corners android:bottomLeftRadius="@dimen/base_editor_menu_item_tag_radius" android:bottomRightRadius="@dimen/base_editor_menu_item_tag_radius" />
+    <size android:height="@dimen/base_editor_menu_item_tip_height" android:width="@dimen/base_editor_menu_item_tip_width" />
+</shape>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dp" android:width="80.0dp" android:viewportWidth="80.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M16,0L64,0A16,16 0,0 1,80 16L80,64A16,16 0,0 1,64 80L16,80A16,16 0,0 1,0 64L0,16A16,16 0,0 1,16 0z" />
+        <group>
+            <clip-path android:pathData="M16,0L64,0A16,16 0,0 1,80 16L80,64A16,16 0,0 1,64 80L16,80A16,16 0,0 1,0 64L0,16A16,16 0,0 1,16 0z" />
+            <path android:fillColor="@drawable/$photo_logo__0" android:pathData="M0,0h80v80h-80z" />
+            <path android:fillColor="@drawable/$photo_logo__1" android:pathData="M0,0h80v80h-80z" />
+            <path android:fillColor="@drawable/$photo_logo__2" android:pathData="M22.933,31.842C27.853,31.842 31.841,27.853 31.841,22.933C31.841,18.013 27.853,14.025 22.933,14.025C18.013,14.025 14.024,18.013 14.024,22.933C14.024,27.853 18.013,31.842 22.933,31.842Z" />
+            <path android:fillColor="@drawable/$photo_logo__3" android:pathData="M-51.541,114.555C-56.429,106.087 -58.874,101.854 -57.762,97.704C-56.65,93.555 -52.417,91.111 -43.949,86.222L29.992,43.532C43.91,35.497 50.869,31.479 57.972,32.887C65.075,34.294 69.976,40.662 79.777,53.399L103.347,84.027C110.378,93.163 113.894,97.731 112.835,102.47C111.776,107.209 106.65,109.846 96.398,115.119L0.158,164.628C-8.159,168.906 -12.317,171.045 -16.297,169.875C-20.278,168.704 -22.616,164.654 -27.292,156.555L-51.541,114.555Z" />
+        </group>
+    </group>
+</vector>

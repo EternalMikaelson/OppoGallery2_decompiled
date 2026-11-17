@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/photopage_ic_menu_olive" android:alpha="0.61" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/photopage_ic_menu_olive" android:alpha="0.22" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/photopage_ic_menu_olive" android:alpha="1.0" />
+    </item>
+</selector>

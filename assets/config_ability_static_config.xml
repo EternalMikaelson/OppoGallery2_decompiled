@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--规范：要求配置的qualifiedKey，可以避免重复的可能-->
+<config>
+    <version>20240702</version>
+    <business_pages_photoPage_bubbleWindow_toast_duration type="integer">3000</business_pages_photoPage_bubbleWindow_toast_duration>
+
+
+    <!-- 提亮效果对比设置开关，默认值为true -->
+    <common_userProfile_viewBehavior_brighten_compare_switch type="boolean">true</common_userProfile_viewBehavior_brighten_compare_switch>
+</config>

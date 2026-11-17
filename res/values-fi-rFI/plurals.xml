@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Albumi %1$1s, jossa %2$2s kohde; lisää se usein käytettävien luetteloon napauttamalla.</item>
+        <item quantity="other">Albumi %1$1s, jossa %2$2s kohdetta; lisää se usein käytettävien luetteloon napauttamalla.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s hakutulos</item>
+        <item quantity="other">%s hakutulosta</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Luo video nopeasti valitsemalla mediatiedostot ja napauttamalla alla olevaa irrallista AI-pikaleike-ikkunaa. Saat parhaat tulokset, kun valitset vähintään %1$s kohteen.</item>
+        <item quantity="other">Luo video nopeasti valitsemalla mediatiedostot ja napauttamalla alla olevaa irrallista AI-pikaleike-ikkunaa. Saat parhaat tulokset, kun valitset vähintään %1$s kohdetta.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Luo video nopeasti valitsemalla media ja napauttamalla alareunassa Muokkaa – AI-pikaleike. Saat parhaat tulokset, kun valitset vähintään %1$s kohteen.</item>
+        <item quantity="other">Luo video nopeasti valitsemalla media ja napauttamalla alareunassa Muokkaa – AI-pikaleike. Saat parhaat tulokset, kun valitset vähintään %1$s kohdetta.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Yli %1$d sekunnin pituiset live-valokuvat eivät ole tuettuja</item>
+        <item quantity="other">Yli %1$d sekunnin pituiset live-valokuvat eivät ole tuettuja</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Videon pituus voi olla enintään %d sekunti</item>
+        <item quantity="other">Videon pituus voi olla enintään %d sekuntia</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d lukittu sovellus</item>
+        <item quantity="other">%d lukittua sovellusta</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Albumi %1$1s, jossa %2$2s kohde, lisättiin usein käytettävien luetteloon.</item>
+        <item quantity="other">Albumi %1$1s, jossa %2$2s kohdetta, lisättiin usein käytettävien luetteloon.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Lisää (%1$d)</item>
+        <item quantity="other">Lisää (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Lisää (%1$d/%2$d)</item>
+        <item quantity="other">Lisää (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d kohde muutettu</item>
+        <item quantity="other">%1$d kohdetta muutettu</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d valokuvaa ei voitu lisätä, koska sitä ladataan.</item>
+        <item quantity="other">%d valokuvaa ei voitu lisätä, koska niitä ladataan.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d asiakirja</item>
+        <item quantity="other">%1$d asiakirjaa</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d pankkikortti</item>
+        <item quantity="other">%1$d pankkikorttia</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d albumin kohteet poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin kohteita ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+        <item quantity="other">%d albumin kohteet poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin kohteita ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d sarjakuvauskuva poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Kaikki sarjakuvauskuvat on varmuuskopioitu pilveen, ja ne säilyvät siellä.</item>
+        <item quantity="other">%d sarjakuvauskuvaa poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Kaikki sarjakuvauskuvat on varmuuskopioitu pilveen, ja ne säilyvät siellä.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d sarjakuvauskuva poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin valokuvia ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+        <item quantity="other">%d sarjakuvauskuvaa poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin valokuvia ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d kohde poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin kohteita ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+        <item quantity="other">%d kohdetta poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin kohteita ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d valokuva poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin valokuvia ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+        <item quantity="other">%d valokuvaa poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin valokuvia ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d video poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin videoita ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+        <item quantity="other">%d videota poistetaan tästä laitteesta ja säilytetään Äskettäin poistetut -kansiossa 30 päivää. Joitakin videoita ei ole varmuuskopioitu. Ne kannattaa ehkä varmuuskopioida ennen poistamista.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s pienoiskuva korvataan sen alkuperäisellä versiolla.</item>
+        <item quantity="other">%1$s pienoiskuvaa korvataan alkuperäisillä versioilla.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d henkilökortti</item>
+        <item quantity="other">%1$d henkilökorttia</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Yhdistetäänkö ja poistetaanko %d henkilö?</item>
+        <item quantity="other">Yhdistetäänkö ja poistetaanko %d henkilöä?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Poistetaanko %d valokuva tästä albumista?</item>
+        <item quantity="other">Poistetaanko %d valokuvaa tästä albumista?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Poistetaanko %d kohde tästä albumista?</item>
+        <item quantity="other">Poistetaanko %d kohdetta tästä albumista?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Poistetaanko %d video tästä albumista?</item>
+        <item quantity="other">Poistetaanko %d videota tästä albumista?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Käytä pienoiskuvaa</item>
+        <item quantity="other">Käytä pienoiskuvia</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Käytä alkuperäistä</item>
+        <item quantity="other">Käytä alkuperäisiä</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 valokuva on pienoiskuva. Voit ladata alkuperäisen valokuvan ja käyttää sitä sen sijaan.</item>
+        <item quantity="other">Muutamat valituista valokuvista ovat pienoiskuvia. Voit ladata alkuperäiset valokuvat ja käyttää niitä sen sijaan.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Voit muuntaa PDF-muotoon kerrallaan enintään %1$d kuvan</item>
+        <item quantity="other">Voit muuntaa PDF-muotoon kerrallaan enintään %1$d kuvaa</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Laitteen tallennustila ei riitä. %1$d kohdetta ei kopioitu.</item>
+        <item quantity="other">Laitteen tallennustila ei riitä. %1$d kohdetta ei kopioitu.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d kohde kopioitu</item>
+        <item quantity="other">%d kohdetta kopioitu</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Enintään %d kohde voidaan kopioida</item>
+        <item quantity="other">Enintään %d kohdetta voidaan kopioida</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d valokuva poistetaan pysyvästi tästä laitteesta.</item>
+        <item quantity="other">%d valokuvaa poistetaan pysyvästi tästä laitteesta.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d kohde poistetaan pysyvästi tästä laitteesta.</item>
+        <item quantity="other">%d kohdetta poistetaan pysyvästi tästä laitteesta.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d video poistetaan pysyvästi tästä laitteesta.</item>
+        <item quantity="other">%d videota poistetaan pysyvästi tästä laitteesta.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d sarjakuvausvalokuva poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d sarjakuvausvalokuvaa poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Tämä valokuva poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Tätä toimenpidettä ei voi kumota.</item>
+        <item quantity="other">Nämä valokuvat poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Tätä toimenpidettä ei voi kumota.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Tämä valokuva poistetaan pysyvästi. Tätä toimenpidettä ei voi kumota.</item>
+        <item quantity="other">Nämä valokuvat poistetaan pysyvästi. Tätä toimenpidettä ei voi kumota.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Tämä kohde poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Tätä toimenpidettä ei voi kumota.</item>
+        <item quantity="other">Nämä kohteet poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Tätä toimenpidettä ei voi kumota.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Tämä kohde poistetaan pysyvästi. Tätä toimenpidettä ei voi kumota.</item>
+        <item quantity="other">Nämä kohteet valokuvaa poistetaan pysyvästi. Tätä toimenpidettä ei voi kumota.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d valokuva poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d valokuvaa poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d kohde poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d kohdetta poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d video poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d videota poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d sarjakuvausvalokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d sarjakuvausvalokuvaa poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Poistetaanko %d albumi?</item>
+        <item quantity="other">Poistetaanko %d albumia?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Poistetaanko %d sarjakuvauskuva?</item>
+        <item quantity="other">Poistetaanko %d sarjakuvauskuvaa?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d muisti poistetaan tästä laitteesta. Tässä muistissa olevia valokuvia säilytetään Valokuvat-sovelluksessa.</item>
+        <item quantity="other">%d muistia poistetaan tästä laitteesta. Näissä muisteissa olevia valokuvia säilytetään Valokuvat-sovelluksessa.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Poistetaanko %d muisto?</item>
+        <item quantity="other">Poistetaanko %d muistoa?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Poista pysyvästi %d kohde</item>
+        <item quantity="other">Poista pysyvästi %d kohdetta</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Poista %d kohde</item>
+        <item quantity="other">Poista %d kohdetta</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Poistetaanko %d valokuva?</item>
+        <item quantity="other">Poistetaanko %d valokuvaa?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Poistetaanko %d kohde?</item>
+        <item quantity="other">Poistetaanko %d kohdetta?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Poistetaanko %d video?</item>
+        <item quantity="other">Poistetaanko %d videota?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Poistetaanko %d tarra?</item>
+        <item quantity="other">Poistetaanko %d tarraa?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Poista tämä valokuva</item>
+        <item quantity="other">Poista nämä valokuvat</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Tämä video poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Tätä toimenpidettä ei voi kumota.</item>
+        <item quantity="other">Nämä videot poistetaan pysyvästi tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Tätä toimenpidettä ei voi kumota.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Tämä video poistetaan pysyvästi. Tätä toimenpidettä ei voi kumota.</item>
+        <item quantity="other">Nämä videot poistetaan pysyvästi. Tätä toimenpidettä ei voi kumota.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Ladataan %d kohde…</item>
+        <item quantity="other">Ladataan %d kohdetta…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Ladataan %d valokuva…</item>
+        <item quantity="other">Ladataan %d valokuvaa…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Ladataan %d video…</item>
+        <item quantity="other">Ladataan %d videota…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Asetetaanko %d tiedosto yksityiseksi?</item>
+        <item quantity="other">Asetetaanko %d tiedostoa yksityisiksi?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Asetetaanko tämä kuva yksityiseksi?</item>
+        <item quantity="other">Asetetaanko nämä kuvat yksityisiksi?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d tiedoston salaaminen epäonnistui</item>
+        <item quantity="other">%d tiedoston salaaminen epäonnistui</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Lukitaanko %d albumi?</item>
+        <item quantity="other">Lukitaanko %d albumia?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d sarjakuvausvalokuva poistetaan tästä laitteesta. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d sarjakuvausvalokuvaa poistetaan tästä laitteesta. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d sarjakuvausvalokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d sarjakuvausvalokuvaa poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d albumi poistetaan tästä laitteesta. Varmuuskopioituja albumeja säilytetään Äskettäin poistetut -kansiossa 60 päivää. Albumeja, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d albumia poistetaan tästä laitteesta. Varmuuskopioituja albumeja säilytetään Äskettäin poistetut -kansiossa 60 päivää. Albumeja, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d valokuva poistetaan tästä laitteesta. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d valokuvaa poistetaan tästä laitteesta. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d kohde poistetaan tästä laitteesta. Varmuuskopioituja kohteita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Kohteita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d kohdetta poistetaan tästä laitteesta. Varmuuskopioituja kohteita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Kohteita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video poistetaan tästä laitteesta. Varmuuskopioituja videoita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Videoita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d videota poistetaan tästä laitteesta. Varmuuskopioituja videoita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Videoita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d albumi poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja albumeja säilytetään Äskettäin poistetut -kansiossa 60 päivää. Albumeja, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d albumia poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja albumeja säilytetään Äskettäin poistetut -kansiossa 60 päivää. Albumeja, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d valokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d valokuvaa poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja valokuvia säilytetään Äskettäin poistetut -kansiossa 60 päivää. Valokuvia, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d kohde poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja kohteita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Kohteita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d kohdetta poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja kohteita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Kohteita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja videoita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Videoita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+        <item quantity="other">%d videota poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Varmuuskopioituja videoita säilytetään Äskettäin poistetut -kansiossa 60 päivää. Videoita, joita ei ole varmuuskopioitu, säilytetään 30 päivää.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Vie %d valittu valokuva</item>
+        <item quantity="other">Vie %d valittua valokuvaa</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Viedäänkö %d valokuva?</item>
+        <item quantity="other">Viedäänkö %d valokuvaa?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">%1$d kohteen lisääminen suosikkeihin epäonnistui. Yritä uudelleen.</item>
+        <item quantity="other">%1$d kohteen lisääminen suosikkeihin epäonnistui. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Tiedoston koko: %1$s. Arvioitu latausaika: %2$s minuutti.</item>
+        <item quantity="other">Tiedoston koko: %1$s. Arvioitu latausaika: %2$s minuuttia.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Käytä pienoiskuvaa</item>
+        <item quantity="other">Käytä pienoiskuvia</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Käytä alkuperäistä</item>
+        <item quantity="other">Käytä alkuperäisiä</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 valokuva on pienoiskuva. Voit ladata alkuperäisen valokuvan ja käyttää sitä sen sijaan.</item>
+        <item quantity="other">Muutamat valituista valokuvista ovat pienoiskuvia. Voit ladata alkuperäiset valokuvat ja käyttää niitä sen sijaan.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Löytyi kuva kohteesta %s. Siirrä se Korttikoteloon käytön helpottamiseksi.</item>
+        <item quantity="other">Löytyi kuvia kohteesta %s. Siirrä ne Korttikoteloon käytön helpottamiseksi.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Kohteen %1$s valokuva siirretty Korttikoteloon</item>
+        <item quantity="other">Kohteen %1$s valokuvat siirretty Korttikoteloon</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d lippu/kuitti</item>
+        <item quantity="other">%1$d lippua/kuittia</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Valittu kohde on jo olemassa albumissa</item>
+        <item quantity="other">Valitut kohteet ovat jo olemassa albumissa</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d kohde</item>
+        <item quantity="other">%d kohdetta</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d henkilö yhdistetään ja poistetaan kohteesta %2$s.</item>
+        <item quantity="other">%1$d henkilöä yhdistetään ja poistetaan kohteesta %2$s.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d valokuvaa ladataan, eikä sitä voi siirtää</item>
+        <item quantity="other">%d valokuvaa ladataan, eikä niitä voi siirtää</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d kohde siirretty</item>
+        <item quantity="other">%d kohdetta siirretty</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d henkilöä</item>
+        <item quantity="other">%1$d henkilöä</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Alkuperäistä valokuvaa ladataan…</item>
+        <item quantity="other">Alkuperäisiä valokuvia ladataan…</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Valokuva kopioitu. Tähän albumiin ei voi kopioida videoita.</item>
+        <item quantity="other">Valokuvat kopioitu. Tähän albumiin ei voi kopioida videoita.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Valokuva siirretty. Tähän albumiin ei voi siirtää videoita.</item>
+        <item quantity="other">Valokuvat siirretty. Tähän albumiin ei voi siirtää videoita.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d albumi poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d albumia poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d valokuva poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d valokuvaa poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d kohde poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d kohdetta poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d videota poistetaan tästä laitteesta. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Tämä valokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+        <item quantity="other">Nämä valokuvat poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Tämä valokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">Nämä valokuvat poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Tämä albumi poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+        <item quantity="other">Nämä albumit poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Tämä albumi poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">Nämä albumit poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Tämä kohde poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+        <item quantity="other">Nämä kohteet poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Tämä kohde poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">Nämä kohteet poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d albumi poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d albumia poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d albumi poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d albumia poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d sarjakuvausvalokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d sarjakuvausvalokuvaa poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d valokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d valokuvaa poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d valokuva poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d valokuvaa poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d kohde poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d kohdetta poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d kohde poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d kohdetta poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+        <item quantity="other">%d videota poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita säilytetään Äskettäin poistetut -kansiossa 30 päivää.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d video poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">%d videota poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Tämä video poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+        <item quantity="other">Nämä videot poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista. Poistettuja kohteita voidaan palauttaa Äskettäin poistetut -albumista 30 päivän ajan.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Tämä video poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+        <item quantity="other">Nämä videot poistetaan tästä laitteesta, pilvipalvelusta ja muista synkronoiduista laitteista.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Palautetaanko %d valokuva?</item>
+        <item quantity="other">Palautetaanko %d valokuvaa?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Palautetaanko %d kohde?</item>
+        <item quantity="other">Palautetaanko %d kohdetta?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Palautetaanko %d video?</item>
+        <item quantity="other">Palautetaanko %d videota?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Palauta %d kohde</item>
+        <item quantity="other">Palauta %d kohdetta</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d videon tallennus epäonnistui</item>
+        <item quantity="other">%d videon tallennus epäonnistui</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d video tallennettu</item>
+        <item quantity="other">%d videota tallennettu</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Käytä pienoiskuvaa</item>
+        <item quantity="other">Käytä pienoiskuvia</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Käytä alkuperäistä</item>
+        <item quantity="other">Käytä alkuperäisiä</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 valokuva on pienoiskuva. Voit ladata alkuperäisen valokuvan ja käyttää sitä sen sijaan.</item>
+        <item quantity="other">Muutamat valituista valokuvista ovat pienoiskuvia. Voit ladata alkuperäiset valokuvat ja käyttää niitä sen sijaan.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Esikatsele valittua kohdetta (%1$d)</item>
+        <item quantity="other">Esikatsele valittuja kohteita (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Valitse 1–%1$d valokuvaa</item>
+        <item quantity="other">Valitse 1–%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Käytä pienoiskuvaa</item>
+        <item quantity="other">Käytä pienoiskuvia</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Käytä alkuperäistä</item>
+        <item quantity="other">Käytä alkuperäisiä</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 valokuva on pienoiskuva. Voit ladata alkuperäisen valokuvan ja käyttää sitä sen sijaan.</item>
+        <item quantity="other">Muutamat valituista valokuvista ovat pienoiskuvia. Voit ladata ja jakaa alkuperäiset valokuvat niiden sijaan.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d valokuva poistetaan jaetusta albumista %2$s.</item>
+        <item quantity="other">%1$d valokuvaa poistetaan jaetusta albumista %2$s.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d kohde poistetaan jaetusta albumista %2$s.</item>
+        <item quantity="other">%1$d kohdetta poistetaan jaetusta albumista %2$s.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d video poistetaan jaetusta albumista %2$s.</item>
+        <item quantity="other">%1$d videota poistetaan jaetusta albumista %2$s.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Poista %1$d kohde</item>
+        <item quantity="other">Poista %1$d kohdetta</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">%1$d kohteen lataaminen epäonnistui, koska laitteen tallennustila on vähissä.</item>
+        <item quantity="other">%1$d kohteen lataaminen epäonnistui, koska laitteen tallennustila on vähissä.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d kohde (%2$s) jäljellä. Jatketaanko latausta käyttämällä mobiilidataa?</item>
+        <item quantity="other">%1$d kohdetta (%2$s) jäljellä. Jatketaanko latausta käyttämällä mobiilidataa?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Verkkovirhe. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Verkkovirhe. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Voit tallentaa videona kerrallaan enintään %d elävän valokuvan</item>
+        <item quantity="other">Voit tallentaa videona kerrallaan enintään %d elävää valokuvaa</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d valokuva</item>
+        <item quantity="other">%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videota</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d kohde valittu</item>
+        <item quantity="other">%1$d kohdetta valittu</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d kohde</item>
+        <item quantity="other">%1$d kohdetta</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">%1$d kohteen poistaminen suosikeista epäonnistui. Yritä uudelleen.</item>
+        <item quantity="other">%1$d kohteen poistaminen suosikeista epäonnistui. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Luo taideteos piirtämällä yksinkertainen esine ja ympyröimällä se. Käyttöraja: %1$d kerta päivässä.</item>
+        <item quantity="other">Luo taideteos piirtämällä yksinkertainen esine ja ympyröimällä se. Käyttöraja: %1$d kertaa päivässä.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d live-tarran tallennus epäonnistui</item>
+        <item quantity="other">%d live-tarran tallennus epäonnistui</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Voit valita vielä 1–%1$d valokuvaa</item>
+        <item quantity="other">Voit valita vielä 1–%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Voit valita vielä 1–%1$d valokuvaa (%2$s)</item>
+        <item quantity="other">Voit valita vielä 1–%1$d valokuvaa (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">mukaan lukien %d live-valokuva</item>
+        <item quantity="other">mukaan lukien %d live-valokuvaa</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Lataa alkuperäinen valokuva</item>
+        <item quantity="other">Lataa alkuperäiset valokuvat</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d laitteessa oleva valokuva on pienempi versio. Ladataanko alkuperäinen täyden tarkkuuden valokuva (%2$s)?</item>
+        <item quantity="other">%1$d laitteessa olevaa valokuvaa ovat pienempiä versioita. Ladataanko alkuperäiset täyden tarkkuuden valokuvat (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Ladataan %1$d alkuperäinen valokuva</item>
+        <item quantity="other">Ladataan %1$d alkuperäistä valokuvaa</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d valokuva</item>
+        <item quantity="other">%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d alkuperäistä valokuvaa ei ladattu. Laitteen tallennustila ei riitä.</item>
+        <item quantity="other">%1$d alkuperäistä valokuvaa ei ladattu. Laitteen tallennustila ei riitä.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d kohdetta ei ladattu. Laitteen tallennustila ei riitä.</item>
+        <item quantity="other">%1$d kohdetta ei ladattu. Laitteen tallennustila ei riitä.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">%1$d kohteen lähetys keskeytetty. Ei Internet-yhteyttä.</item>
+        <item quantity="other">%1$d kohteen lähetys keskeytetty. Ei Internet-yhteyttä.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d kohteen lähetys keskeytetty. Ei yhdistetty Wi-Fi-verkkoon.</item>
+        <item quantity="other">%1$d kohteen lähetys keskeytetty. Ei yhdistetty Wi-Fi-verkkoon.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">%1$d kohteen lähetys keskeytetty akun virran säästämiseksi.</item>
+        <item quantity="other">%1$d kohteen lähetys keskeytetty akun virran säästämiseksi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d kohteen lähetys keskeytetty. Puhelin liian kuuma.</item>
+        <item quantity="other">%1$d kohteen lähetys keskeytetty. Puhelin liian kuuma.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d kohteen lähetys keskeytetty. Pilvipalvelua ylläpidetään.</item>
+        <item quantity="other">%1$d kohteen lähetys keskeytetty. Pilvipalvelua ylläpidetään.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d kohteen lähetys keskeytetty. Tabletti liian kuuma.</item>
+        <item quantity="other">%1$d kohteen lähetys keskeytetty. Tabletti liian kuuma.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Synkronoidaan %1$d kohdetta pilvipalvelusta</item>
+        <item quantity="other">Synkronoidaan %1$d kohdetta pilvipalvelusta</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d valokuva</item>
+        <item quantity="other">%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videota</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei ladattu.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei ladattu. Lataa puhelin.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei ladattu. Lataa puhelin.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei ladattu. Jatka kytkemällä virtalähde.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei ladattu. Jatka kytkemällä virtalähde.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei ladattu.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Virransäästötila päällä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Virransäästötila päällä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Virransäästötila päällä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Virransäästötila päällä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu. %2$s.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu. %2$s tai %3$s.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu. %2$s tai %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Pilvitallennustila ei riitä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Pilvitallennustila ei riitä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Laitteen tallennustila ei riitä. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Laitteen tallennustila ei riitä. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Verkkovirhe. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Verkkovirhe. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Verkkovirhe. %1$d kohdetta ei ladattu.</item>
+        <item quantity="other">Verkkovirhe. %1$d kohdetta ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Laitteen tallennustila ei riitä. %1$d alkuperäistä valokuvaa ei ladattu.</item>
+        <item quantity="other">Laitteen tallennustila ei riitä. %1$d alkuperäistä valokuvaa ei ladattu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d kuvaa ei ole synkronoitu. Pilvitallennustila on täynnä.</item>
+        <item quantity="other">%1$d kuvaa ei ole synkronoitu. Pilvitallennustila on täynnä.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d valokuvaa ei synkronoitu. Pilvisynkronointi keskeytetään, kun akun taso on alle %2$s.</item>
+        <item quantity="other">%1$d valokuvaa ei synkronoitu. Pilvisynkronointi keskeytetään, kun akun taso on alle %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d kuvaa ei ole synkronoitu. Pilvisynkronointi keskeytetään virransäästötilassa.</item>
+        <item quantity="other">%1$d kuvaa ei ole synkronoitu. Pilvisynkronointi keskeytetään virransäästötilassa.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Pilvitallennustila täynnä. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Pilvitallennustila täynnä. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty. Lataa puhelin.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty. Lataa puhelin.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty. Jatka kytkemällä virtalähde.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty. Jatka kytkemällä virtalähde.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Akun varaus alle %1$s. %2$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Virransäästötila päällä. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Virransäästötila päällä. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Virransäästötila päällä. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Virransäästötila päällä. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Pilvitallennustila täynnä. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Pilvitallennustila täynnä. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d videota ei synkronoitu. Pilvitallennustila on täynnä.</item>
+        <item quantity="other">%1$d videota ei synkronoitu. Pilvitallennustila on täynnä.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d videota ei synkronoitu. Pilvisynkronointi keskeytetään, kun akun taso on alle %2$s.</item>
+        <item quantity="other">%1$d videota ei synkronoitu. Pilvisynkronointi keskeytetään, kun akun taso on alle %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d videota ei synkronoitu. Pilvisynkronointi keskeytetään virransäästötilassa.</item>
+        <item quantity="other">%1$d videota ei synkronoitu. Pilvisynkronointi keskeytetään virransäästötilassa.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d valokuvaa ei synkronoitu.</item>
+        <item quantity="other">%1$d valokuvaa ei synkronoitu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty.%2$s.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty. %2$s tai %3$s.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty. %2$s tai %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Ei verkkoyhteyttä. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d videota ei ole synkronoitu</item>
+        <item quantity="other">%1$d videota ei ole synkronoitu</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Verkkovirhe. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Verkkovirhe. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Verkkoyhteys katkesi. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Verkkovirhe. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Palveluvirhe. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Palveluvirhe. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Palveluvirhe. %1$d kohdetta ei lähetetty.</item>
+        <item quantity="other">Palveluvirhe. %1$d kohdetta ei lähetetty.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Synkronoidaan %1$d kohdetta</item>
+        <item quantity="other">Synkronoidaan %1$d kohdetta</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Synkronoidaan %1$d kohde pilvipalveluun…</item>
+        <item quantity="other">Synkronoidaan %1$d kohdetta pilvipalveluun…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videota</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Jotkin alustat eivät välttämättä tue yli %d sekunnin pituisia eläviä valokuvia</item>
+        <item quantity="other">Jotkin alustat eivät välttämättä tue yli %d sekunnin pituisia eläviä valokuvia</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Voit käyttää popout-tehostetta %1$d elävässä valokuvassa kerrallaan</item>
+        <item quantity="other">Voit käyttää popout-tehostetta enintään %1$d elävässä valokuvassa kerrallaan</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Yli %1$d sekunnin pituiset live-valokuvat eivät ole tuettuja</item>
+        <item quantity="other">Yli %1$d sekunnin pituiset live-valokuvat eivät ole tuettuja</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Enintään %d kohde voidaan vetää kerrallaan</item>
+        <item quantity="other">Enintään %d kohdetta voidaan vetää kerrallaan</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d kohdetta ei voitu lisätä</item>
+        <item quantity="other">%d kohdetta ei voitu lisätä</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d valokuvaa ei voitu asettaa yksityiseksi, koska sitä ladataan.</item>
+        <item quantity="other">%d valokuvaa ei voitu asettaa yksityiseksi, koska niitä ladataan.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d tunti</item>
+        <item quantity="other">%d tuntia</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d kohde</item>
+        <item quantity="other">%d kohdetta</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d minuuttia</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d kohteen tuonti videon muokkausta varten ei onnistu</item>
+        <item quantity="other">%d kohteen tuonti videon muokkausta varten ei onnistu</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Sivu %1$d/%2$d</item>
+        <item quantity="other">Sivu %1$d/%2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Valitse enintään %1$d valokuva yhtä GIF-tiedostoa varten</item>
+        <item quantity="other">Valitse enintään %1$d valokuvaa yhtä GIF-tiedostoa varten</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Vain enintään %1$d sekunnin pituiset elävät valokuvat ovat tuettuja</item>
+        <item quantity="other">Vain enintään %1$d sekunnin pituiset elävät valokuvat ovat tuettuja</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Luo GIF valitsemalla vähintään %1$d valokuva</item>
+        <item quantity="other">Luo GIF valitsemalla vähintään %1$d valokuvaa</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Valitse enintään %1$d valokuva yhtä GIF-tiedostoa varten</item>
+        <item quantity="other">Valitse enintään %1$d valokuvaa yhtä GIF-tiedostoa varten</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Vain %1$d valokuva täyttää muotovaatimukset</item>
+        <item quantity="other">Vain %1$d valokuvaa täyttää muotovaatimukset</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d valokuvaa ei oteta mukaan GIF-tiedostoon</item>
+        <item quantity="other">%1$d valokuvaa ei oteta mukaan GIF-tiedostoon</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d valokuvaa ei tueta</item>
+        <item quantity="other">%1$d valokuvaa ei tueta</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Ladataan %1$s kohdetta Google Kuvat -palvelusta…</item>
+        <item quantity="other">Ladataan %1$s kohdetta Google Kuvat -palvelusta…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Google Kuvat -tallennustila ei riitä. %1$d kohdetta ei varmuuskopioitu.</item>
+        <item quantity="other">Google Kuvat -tallennustila ei riitä. %1$d kohdetta ei varmuuskopioitu.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Varmuuskopioidaan %1$s kohde Google Kuvat -palveluun…</item>
+        <item quantity="other">Varmuuskopioidaan %1$s kohdetta -Google Kuvat -palveluun…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d kohde synkronoidaan HeyTap Cloudiin. Tämän käytöstäpoisto peruuttaa automaattisen synkronoinnin. Tietojesi turvaamiseksi on suositeltavaa odottaa, kunnes synkronointi on valmis.</item>
+        <item quantity="other">%1$d kohdetta synkronoidaan HeyTap Cloudiin. Tämän käytöstäpoisto peruuttaa automaattisen synkronoinnin. Tietojesi turvaamiseksi on suositeltavaa odottaa, kunnes synkronointi on valmis.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Vain %d albumi voidaan lisätä Usein käytetyt -luetteloon</item>
+        <item quantity="other">Enintään %d albumia voidaan lisätä Usein käytetyt -luetteloon</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d laite löytyi</item>
+        <item quantity="other">%1$d laitetta löytyi</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d päivä</item>
+        <item quantity="other">%1$d päivää</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d valokuva</item>
+        <item quantity="other">%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videota</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Voit valita enintään %1$d tarran</item>
+        <item quantity="other">Voit valita enintään %1$d tarraa</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Poista %1$d kohde NAS-laitteesta</item>
+        <item quantity="other">Poista %1$d kohdetta NAS-laitteesta</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Lataus valmis. %1$d kohteen lataus epäonnistui.</item>
+        <item quantity="other">Lataus valmis. %1$d kohteen lataus epäonnistui.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d kohde ladattu.</item>
+        <item quantity="other">%1$d kohdetta ladattu.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Ladataan: %1$d/%2$d…</item>
+        <item quantity="other">Ladataan: %1$d/%2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Miten haluat muokata valittua aluetta?</item>
+        <item quantity="other">Miten haluat muokata valittuja alueita?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Voit lisätä enintään %d tarran</item>
+        <item quantity="other">Voit lisätä enintään %d tarraa</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">Voit lisätä tarroihin vain %d live-tarran. Tämän määrän ylittävät tarrat muunnetaan staattisiksi tarroiksi.</item>
+        <item quantity="other">Tarroihin voit lisätä enintään %d live-tarraa. Tämän rajan ylittävistä tarroista tulee staattisia.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Muokattu versio on rajoitettu %d sekuntiin jakamisen helpottamiseksi.</item>
+        <item quantity="other">Muokattu versio on rajoitettu %d sekuntiin jakamisen helpottamiseksi.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Tarrojen pituus voi olla enintään %d sekunti</item>
+        <item quantity="other">Tarrojen pituus voi olla enintään %d sekuntia</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Tarrojen pituus voi olla enintään %d sekunti.</item>
+        <item quantity="other">Tarrojen pituus voi olla enintään %d sekuntia.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Videoiden pituus voi olla enintään %d sekunti</item>
+        <item quantity="other">Videoiden pituus voi olla enintään %d sekuntia</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Kuvaile, mitä haluat muuttaa valitulla alueella</item>
+        <item quantity="other">Kuvaile, mitä haluat muuttaa valituilla alueilla</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Tallennus päättyy %1$d sekunnin kuluttua</item>
+        <item quantity="other">Tallennus päättyy %1$d sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Voit valita enintään %1$d alueen</item>
+        <item quantity="other">Voit valita enintään %1$d aluetta</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Vain enintään %1$d sekunnin pituiset elävät valokuvat ovat tuettuja</item>
+        <item quantity="other">Vain enintään %1$d sekunnin pituiset elävät valokuvat ovat tuettuja</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Suuren tiedostokoon vuoksi odotusaika on noin %1$d min</item>
+        <item quantity="other">Suuren tiedostokoon vuoksi odotusaika on noin %1$d min</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Vie %d valittu valokuva</item>
+        <item quantity="other">Vie %d valittua valokuvaa</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Täytyy olla suurempi kuin %1$d mm</item>
+        <item quantity="other">Täytyy olla suurempi kuin %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Täytyy olla suurempi kuin %1$d px</item>
+        <item quantity="other">Täytyy olla suurempi kuin %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Täytyy olla pienempi kuin %1$d mm</item>
+        <item quantity="other">Täytyy olla pienempi kuin %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Täytyy olla pienempi kuin %1$d px</item>
+        <item quantity="other">Täytyy olla pienempi kuin %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Täytyy olla suurempi kuin %1$d kt</item>
+        <item quantity="other">Täytyy olla suurempi kuin %1$d kt</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Täytyy olla pienempi kuin %1$d kt</item>
+        <item quantity="other">Täytyy olla pienempi kuin %1$d kt</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Täytyy olla suurempi kuin %1$d mm</item>
+        <item quantity="other">Täytyy olla suurempi kuin %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Täytyy olla suurempi kuin %1$d px</item>
+        <item quantity="other">Täytyy olla suurempi kuin %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Täytyy olla pienempi kuin %1$d mm</item>
+        <item quantity="other">Täytyy olla pienempi kuin %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Täytyy olla pienempi kuin %1$d px</item>
+        <item quantity="other">Täytyy olla pienempi kuin %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Säilytä vain %d valittu valokuva</item>
+        <item quantity="other">Säilytä vain %d valittua valokuvaa</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Poista %d kohde</item>
+        <item quantity="other">Poista %d kohdetta</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Poista %d kohde</item>
+        <item quantity="other">Poista %d kohdetta</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d tarran lisääminen epäonnistui</item>
+        <item quantity="other">%1$d tarran lisääminen epäonnistui</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d tarran lisääminen epäonnistui</item>
+        <item quantity="other">%d tarran lisääminen epäonnistui</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s tarra lisätty</item>
+        <item quantity="other">%1$s tarraa lisätty</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s tarra lisätty</item>
+        <item quantity="other">%1$s tarraa lisätty</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d tarra lisätty</item>
+        <item quantity="other">%1$d tarraa lisätty</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Tekoälypohjainen remix-kollaasi -ominaisuuden avulla voit lisätä %1$d live-tarran. Tämän rajan ylittävistä tarroista tulee staattisia.</item>
+        <item quantity="other">Tekoälypohjainen remix-kollaasi -ominaisuuden avulla voit lisätä jopa %1$d live-tarraa. Tämän rajan ylittävistä tarroista tulee staattisia.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Voit lisätä enintään %1$d live-valokuvan</item>
+        <item quantity="other">Voit lisätä enintään %1$d live-valokuvaa</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Voit lisätä enintään %1$d valokuvan</item>
+        <item quantity="other">Voit lisätä enintään %1$d valokuvaa</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Jos haluat poistaa kohteita valokuvista, lataa Poistaja-lisäosa. Tiedoston koko: %1$s. Arvioitu latausaika: %2$d minuuttia.</item>
+        <item quantity="other">Jos haluat poistaa kohteita valokuvista, lataa Poistaja-lisäosa. Tiedoston koko: %1$s. Arvioitu latausaika: %2$d minuuttia.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Tiedoston koko: %1$d. Arvioitu latausaika: %2$d.</item>
+        <item quantity="other">Tiedoston koko: %1$d. Arvioitu latausaika: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d valokuvaa ei tueta</item>
+        <item quantity="other">%1$d valokuvaa ei tueta</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d valittu</item>
+        <item quantity="other">%1$d/%2$d valittu</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d kohde valittu</item>
+        <item quantity="other">%1$d kohdetta valittu</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d albumi valittu</item>
+        <item quantity="other">%1$d albumia valittu</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d kohde valittu</item>
+        <item quantity="other">%1$d kohdetta valittu</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d video valittu</item>
+        <item quantity="other">%1$d videota valittu</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Voit lisätä enintään %1$d tarran</item>
+        <item quantity="other">Voit lisätä enintään %1$d tarraa</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Voit valita vain %1$d kohteen</item>
+        <item quantity="other">Voit valita enintään %1$d kohdetta</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d valokuvaa ei voitu poistaa, koska sitä ladataan.</item>
+        <item quantity="other">%d valokuvaa ei voitu poistaa, koska niitä ladataan.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d kohdetta ei voitu poistaa. Yritä uudelleen.</item>
+        <item quantity="other">%1$d kohdetta ei voitu poistaa. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Poistetaanko %d kohde?</item>
+        <item quantity="other">Poistetaanko %d kohdetta?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d valokuva</item>
+        <item quantity="other">%1$d valokuvaa</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Voit lisätä vain %1$d live-tarran. Rajan ylittävät tarrat näytetään staattisina.</item>
+        <item quantity="other">Voit lisätä enintään %1$d live-tarraa. Rajan ylittävät tarrat näytetään staattisina.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Tähän sovellukseen voidaan jakaa vain %d kohde</item>
+        <item quantity="other">Tähän sovellukseen voidaan jakaa enintään %d kohdetta</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Jaa %d kohde</item>
+        <item quantity="other">Jaa %d kohdetta</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Jaa %d valokuva</item>
+        <item quantity="other">Jaa %d valokuvaa</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Jaa %d video</item>
+        <item quantity="other">Jaa %d videota</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Poistetaanko %d hetki?</item>
+        <item quantity="other">Poistetaanko %d hetkeä?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d tarina, valittu sinulle.</item>
+        <item quantity="other">%d tarinaa, valittu sinulle.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d valittu</item>
+        <item quantity="other">%d valittu</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Kierrä %d aste</item>
+        <item quantity="other">Kierrä %d astetta</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Voit tuoda vain %s tiedoston</item>
+        <item quantity="other">Voit tuoda enintään %s tiedostoa</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Lisää %1d kohde</item>
+        <item quantity="other">Lisää %1d kohdetta</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Voit tuoda enintään %s LUT-tiedoston</item>
+        <item quantity="other">Voit tuoda enintään %s LUT-tiedostoa</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Voit lisätä enintään %d valokuvan</item>
+        <item quantity="other">Voit lisätä enintään %d valokuvaa</item>
+    </plurals>
+</resources>

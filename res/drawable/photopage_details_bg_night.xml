@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/photo_page_details_bg_color_night" />
+        </shape>
+    </item>
+    <item android:left="@dimen/photopage_detail_outline_height_negative" android:right="@dimen/photopage_detail_outline_height_negative" android:bottom="@dimen/photopage_detail_outline_height_negative">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/photopage_detail_outline_height" android:color="@color/photopage_details_outline_black" />
+        </shape>
+    </item>
+</layer-list>

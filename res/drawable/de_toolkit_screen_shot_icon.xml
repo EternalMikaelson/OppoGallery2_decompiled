@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="40.0dp" android:width="40.0dp" android:drawable="@color/coui_transparence" />
+    <item android:gravity="center" android:height="25.0dp" android:width="25.0dp" android:drawable="@drawable/de_toolkit_screen_shot_origin" />
+</layer-list>

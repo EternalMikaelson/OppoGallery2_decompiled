@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.button.COUIButton android:textSize="16.0dp" android:id="@id/creation_collage_preview_confirm_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16" android:minWidth="@dimen/dp_172" android:minHeight="@dimen/dp_44" android:text="@string/base_album_selection_next" android:fontFamily="OPlus Sans SC 4.0" android:textFontWeight="500" app:drawableColor="?couiColorContainerTheme" style="@style/Widget.COUI.Button.Large.ButtonNew"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

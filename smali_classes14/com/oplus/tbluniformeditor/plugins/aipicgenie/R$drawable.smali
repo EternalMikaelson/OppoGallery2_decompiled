@@ -1,0 +1,545 @@
+.class public final Lcom/oplus/tbluniformeditor/plugins/aipicgenie/R$drawable;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/tbluniformeditor/plugins/aipicgenie/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static final abc_ab_share_pack_mtrl_alpha:I = 0x7f080337
+
+.field public static final abc_action_bar_item_background_material:I = 0x7f080338
+
+.field public static final abc_btn_borderless_material:I = 0x7f080339
+
+.field public static final abc_btn_check_material:I = 0x7f08033a
+
+.field public static final abc_btn_check_material_anim:I = 0x7f08033b
+
+.field public static final abc_btn_check_to_on_mtrl_000:I = 0x7f08033c
+
+.field public static final abc_btn_check_to_on_mtrl_015:I = 0x7f08033d
+
+.field public static final abc_btn_colored_material:I = 0x7f08033e
+
+.field public static final abc_btn_default_mtrl_shape:I = 0x7f08033f
+
+.field public static final abc_btn_radio_material:I = 0x7f080340
+
+.field public static final abc_btn_radio_material_anim:I = 0x7f080341
+
+.field public static final abc_btn_radio_to_on_mtrl_000:I = 0x7f080342
+
+.field public static final abc_btn_radio_to_on_mtrl_015:I = 0x7f080343
+
+.field public static final abc_btn_switch_to_on_mtrl_00001:I = 0x7f080344
+
+.field public static final abc_btn_switch_to_on_mtrl_00012:I = 0x7f080345
+
+.field public static final abc_cab_background_internal_bg:I = 0x7f080346
+
+.field public static final abc_cab_background_top_material:I = 0x7f080347
+
+.field public static final abc_cab_background_top_mtrl_alpha:I = 0x7f080348
+
+.field public static final abc_control_background_material:I = 0x7f080349
+
+.field public static final abc_dialog_material_background:I = 0x7f08034a
+
+.field public static final abc_edit_text_material:I = 0x7f08034b
+
+.field public static final abc_ic_ab_back_material:I = 0x7f08034c
+
+.field public static final abc_ic_arrow_drop_right_black_24dp:I = 0x7f08034d
+
+.field public static final abc_ic_clear_material:I = 0x7f08034e
+
+.field public static final abc_ic_commit_search_api_mtrl_alpha:I = 0x7f08034f
+
+.field public static final abc_ic_go_search_api_material:I = 0x7f080350
+
+.field public static final abc_ic_menu_copy_mtrl_am_alpha:I = 0x7f080351
+
+.field public static final abc_ic_menu_cut_mtrl_alpha:I = 0x7f080352
+
+.field public static final abc_ic_menu_overflow_material:I = 0x7f080353
+
+.field public static final abc_ic_menu_paste_mtrl_am_alpha:I = 0x7f080354
+
+.field public static final abc_ic_menu_selectall_mtrl_alpha:I = 0x7f080355
+
+.field public static final abc_ic_menu_share_mtrl_alpha:I = 0x7f080356
+
+.field public static final abc_ic_search_api_material:I = 0x7f080357
+
+.field public static final abc_ic_voice_search_api_material:I = 0x7f080358
+
+.field public static final abc_item_background_holo_dark:I = 0x7f080359
+
+.field public static final abc_item_background_holo_light:I = 0x7f08035a
+
+.field public static final abc_list_divider_material:I = 0x7f08035b
+
+.field public static final abc_list_divider_mtrl_alpha:I = 0x7f08035c
+
+.field public static final abc_list_focused_holo:I = 0x7f08035d
+
+.field public static final abc_list_longpressed_holo:I = 0x7f08035e
+
+.field public static final abc_list_pressed_holo_dark:I = 0x7f08035f
+
+.field public static final abc_list_pressed_holo_light:I = 0x7f080360
+
+.field public static final abc_list_selector_background_transition_holo_dark:I = 0x7f080361
+
+.field public static final abc_list_selector_background_transition_holo_light:I = 0x7f080362
+
+.field public static final abc_list_selector_disabled_holo_dark:I = 0x7f080363
+
+.field public static final abc_list_selector_disabled_holo_light:I = 0x7f080364
+
+.field public static final abc_list_selector_holo_dark:I = 0x7f080365
+
+.field public static final abc_list_selector_holo_light:I = 0x7f080366
+
+.field public static final abc_menu_hardkey_panel_mtrl_mult:I = 0x7f080367
+
+.field public static final abc_popup_background_mtrl_mult:I = 0x7f080368
+
+.field public static final abc_ratingbar_indicator_material:I = 0x7f080369
+
+.field public static final abc_ratingbar_material:I = 0x7f08036a
+
+.field public static final abc_ratingbar_small_material:I = 0x7f08036b
+
+.field public static final abc_scrubber_control_off_mtrl_alpha:I = 0x7f08036c
+
+.field public static final abc_scrubber_control_to_pressed_mtrl_000:I = 0x7f08036d
+
+.field public static final abc_scrubber_control_to_pressed_mtrl_005:I = 0x7f08036e
+
+.field public static final abc_scrubber_primary_mtrl_alpha:I = 0x7f08036f
+
+.field public static final abc_scrubber_track_mtrl_alpha:I = 0x7f080370
+
+.field public static final abc_seekbar_thumb_material:I = 0x7f080371
+
+.field public static final abc_seekbar_tick_mark_material:I = 0x7f080372
+
+.field public static final abc_seekbar_track_material:I = 0x7f080373
+
+.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f080374
+
+.field public static final abc_spinner_textfield_background_material:I = 0x7f080375
+
+.field public static final abc_star_black_48dp:I = 0x7f080376
+
+.field public static final abc_star_half_black_48dp:I = 0x7f080377
+
+.field public static final abc_switch_thumb_material:I = 0x7f080378
+
+.field public static final abc_switch_track_mtrl_alpha:I = 0x7f080379
+
+.field public static final abc_tab_indicator_material:I = 0x7f08037a
+
+.field public static final abc_tab_indicator_mtrl_alpha:I = 0x7f08037b
+
+.field public static final abc_text_cursor_material:I = 0x7f08037c
+
+.field public static final abc_text_select_handle_left_mtrl:I = 0x7f08037d
+
+.field public static final abc_text_select_handle_middle_mtrl:I = 0x7f08037e
+
+.field public static final abc_text_select_handle_right_mtrl:I = 0x7f08037f
+
+.field public static final abc_textfield_activated_mtrl_alpha:I = 0x7f080380
+
+.field public static final abc_textfield_default_mtrl_alpha:I = 0x7f080381
+
+.field public static final abc_textfield_search_activated_mtrl_alpha:I = 0x7f080382
+
+.field public static final abc_textfield_search_default_mtrl_alpha:I = 0x7f080383
+
+.field public static final abc_textfield_search_material:I = 0x7f080384
+
+.field public static final abc_vector_test:I = 0x7f080385
+
+.field public static final avd_hide_password:I = 0x7f080408
+
+.field public static final avd_show_password:I = 0x7f080409
+
+.field public static final bg_rm_watermark_makeup_visualization:I = 0x7f0804be
+
+.field public static final bg_rm_watermark_visualization:I = 0x7f0804bf
+
+.field public static final bg_watermark_makeup_visualization:I = 0x7f0804c5
+
+.field public static final bg_watermark_visualization:I = 0x7f0804c8
+
+.field public static final bg_watermark_visualization_folder:I = 0x7f0804c9
+
+.field public static final btn_checkbox_checked_mtrl:I = 0x7f0804d4
+
+.field public static final btn_checkbox_checked_to_unchecked_mtrl_animation:I = 0x7f0804d5
+
+.field public static final btn_checkbox_unchecked_mtrl:I = 0x7f0804d6
+
+.field public static final btn_checkbox_unchecked_to_checked_mtrl_animation:I = 0x7f0804d7
+
+.field public static final btn_radio_off_mtrl:I = 0x7f0804d8
+
+.field public static final btn_radio_off_to_on_mtrl_animation:I = 0x7f0804d9
+
+.field public static final btn_radio_on_mtrl:I = 0x7f0804da
+
+.field public static final btn_radio_on_to_off_mtrl_animation:I = 0x7f0804db
+
+.field public static final design_fab_background:I = 0x7f0808b5
+
+.field public static final design_ic_visibility:I = 0x7f0808b6
+
+.field public static final design_ic_visibility_off:I = 0x7f0808b7
+
+.field public static final design_password_eye:I = 0x7f0808b8
+
+.field public static final design_snackbar_background:I = 0x7f0808b9
+
+.field public static final expert_default_slogan_high_size:I = 0x7f0808fd
+
+.field public static final expert_default_slogan_little_size:I = 0x7f0808fe
+
+.field public static final expert_default_slogan_middle_size:I = 0x7f0808ff
+
+.field public static final expert_default_slogan_normal_size:I = 0x7f080900
+
+.field public static final expert_slogan_high_size:I = 0x7f080901
+
+.field public static final expert_slogan_little_size:I = 0x7f080902
+
+.field public static final expert_slogan_middle_size:I = 0x7f080903
+
+.field public static final expert_slogan_normal_size:I = 0x7f080904
+
+.field public static final face_beauty_custom_3d_dark:I = 0x7f08090e
+
+.field public static final face_beauty_custom_3d_dark_new:I = 0x7f08090f
+
+.field public static final face_beauty_custom_big_eye_new:I = 0x7f080910
+
+.field public static final face_beauty_custom_cheekbone:I = 0x7f080911
+
+.field public static final face_beauty_custom_chin_dark:I = 0x7f080912
+
+.field public static final face_beauty_custom_exfoliating_dark:I = 0x7f080913
+
+.field public static final face_beauty_custom_face_length:I = 0x7f080914
+
+.field public static final face_beauty_custom_face_whitening:I = 0x7f080915
+
+.field public static final face_beauty_custom_hairline:I = 0x7f080916
+
+.field public static final face_beauty_custom_little_face_dark:I = 0x7f080917
+
+.field public static final face_beauty_custom_little_head_dark:I = 0x7f080918
+
+.field public static final face_beauty_custom_makeup_dark:I = 0x7f080919
+
+.field public static final face_beauty_custom_narrow_face:I = 0x7f08091a
+
+.field public static final face_beauty_custom_reset:I = 0x7f08091b
+
+.field public static final face_beauty_custom_temple:I = 0x7f08091c
+
+.field public static final face_beauty_custom_thin_face_dark:I = 0x7f08091d
+
+.field public static final face_beauty_custom_thin_nasal_dark:I = 0x7f08091e
+
+.field public static final face_beauty_level_classical:I = 0x7f08091f
+
+.field public static final face_beauty_level_native:I = 0x7f080920
+
+.field public static final face_beauty_level_none_dark:I = 0x7f080921
+
+.field public static final face_beauty_menu_default:I = 0x7f080922
+
+.field public static final face_beauty_menu_effect_button:I = 0x7f080923
+
+.field public static final face_beauty_menu_reset:I = 0x7f080924
+
+.field public static final face_beauty_menu_reset_selected:I = 0x7f080925
+
+.field public static final festival_diwali_bg:I = 0x7f080936
+
+.field public static final festival_happy_diwali_icon:I = 0x7f080937
+
+.field public static final festival_oil_lamp_icon:I = 0x7f080938
+
+.field public static final festival_preview_bg:I = 0x7f080939
+
+.field public static final hasselblad_watermark_logo:I = 0x7f08095c
+
+.field public static final hasselblad_watermark_logo_picture:I = 0x7f08095d
+
+.field public static final hyper_image_icon:I = 0x7f080962
+
+.field public static final ic_arrow_back_black_24:I = 0x7f080985
+
+.field public static final ic_call_answer:I = 0x7f08098c
+
+.field public static final ic_call_answer_low:I = 0x7f08098d
+
+.field public static final ic_call_answer_video:I = 0x7f08098e
+
+.field public static final ic_call_answer_video_low:I = 0x7f08098f
+
+.field public static final ic_call_decline:I = 0x7f080990
+
+.field public static final ic_call_decline_low:I = 0x7f080991
+
+.field public static final ic_clear_black_24:I = 0x7f080999
+
+.field public static final ic_clock_black_24dp:I = 0x7f08099a
+
+.field public static final ic_copyright_default:I = 0x7f08099b
+
+.field public static final ic_copyright_large:I = 0x7f08099c
+
+.field public static final ic_copyright_small:I = 0x7f08099d
+
+.field public static final ic_hasselblad_watermark_logo_picture:I = 0x7f0809b0
+
+.field public static final ic_hs_watermark_logo:I = 0x7f0809b1
+
+.field public static final ic_keyboard_black_24dp:I = 0x7f0809b8
+
+.field public static final ic_launcher_background:I = 0x7f0809b9
+
+.field public static final ic_launcher_foreground:I = 0x7f0809ba
+
+.field public static final ic_m3_chip_check:I = 0x7f0809bd
+
+.field public static final ic_m3_chip_checked_circle:I = 0x7f0809be
+
+.field public static final ic_m3_chip_close:I = 0x7f0809bf
+
+.field public static final ic_mtrl_checked_circle:I = 0x7f0809c2
+
+.field public static final ic_mtrl_chip_checked_black:I = 0x7f0809c3
+
+.field public static final ic_mtrl_chip_checked_circle:I = 0x7f0809c4
+
+.field public static final ic_mtrl_chip_close_circle:I = 0x7f0809c5
+
+.field public static final ic_search_black_24:I = 0x7f0809d9
+
+.field public static final ic_watermark_logo_type_find:I = 0x7f0809fe
+
+.field public static final ic_watermark_logo_type_fold:I = 0x7f0809ff
+
+.field public static final ic_watermark_logo_type_reno:I = 0x7f080a00
+
+.field public static final ic_watermark_logo_unified:I = 0x7f080a01
+
+.field public static final m3_avd_hide_password:I = 0x7f080a3e
+
+.field public static final m3_avd_show_password:I = 0x7f080a3f
+
+.field public static final m3_bottom_sheet_drag_handle:I = 0x7f080a40
+
+.field public static final m3_password_eye:I = 0x7f080a41
+
+.field public static final m3_popupmenu_background_overlay:I = 0x7f080a42
+
+.field public static final m3_radiobutton_ripple:I = 0x7f080a43
+
+.field public static final m3_selection_control_ripple:I = 0x7f080a44
+
+.field public static final m3_tabs_background:I = 0x7f080a45
+
+.field public static final m3_tabs_line_indicator:I = 0x7f080a46
+
+.field public static final m3_tabs_rounded_line_indicator:I = 0x7f080a47
+
+.field public static final m3_tabs_transparent_background:I = 0x7f080a48
+
+.field public static final makeup_watermark_dream:I = 0x7f080a97
+
+.field public static final makeup_watermark_first_love:I = 0x7f080a98
+
+.field public static final makeup_watermark_groomed:I = 0x7f080a99
+
+.field public static final makeup_watermark_midnight:I = 0x7f080a9a
+
+.field public static final makeup_watermark_orange_crush:I = 0x7f080a9b
+
+.field public static final makeup_watermark_peach_pink:I = 0x7f080a9c
+
+.field public static final makeup_watermark_red_velvet:I = 0x7f080a9d
+
+.field public static final makeup_watermark_rosy_nude:I = 0x7f080a9e
+
+.field public static final makeup_watermark_smokey:I = 0x7f080a9f
+
+.field public static final makeup_watermark_snow:I = 0x7f080aa0
+
+.field public static final makeup_watermark_sparkling_sea:I = 0x7f080aa1
+
+.field public static final makeup_watermark_sparkling_sea_preview:I = 0x7f080aa2
+
+.field public static final makeup_watermark_unique_eyes:I = 0x7f080aa3
+
+.field public static final makeup_watermark_violet_shimmer:I = 0x7f080aa4
+
+.field public static final material_cursor_drawable:I = 0x7f080ac7
+
+.field public static final material_ic_calendar_black_24dp:I = 0x7f080ac8
+
+.field public static final material_ic_clear_black_24dp:I = 0x7f080ac9
+
+.field public static final material_ic_edit_black_24dp:I = 0x7f080aca
+
+.field public static final material_ic_keyboard_arrow_left_black_24dp:I = 0x7f080acb
+
+.field public static final material_ic_keyboard_arrow_next_black_24dp:I = 0x7f080acc
+
+.field public static final material_ic_keyboard_arrow_previous_black_24dp:I = 0x7f080acd
+
+.field public static final material_ic_keyboard_arrow_right_black_24dp:I = 0x7f080ace
+
+.field public static final material_ic_menu_arrow_down_black_24dp:I = 0x7f080acf
+
+.field public static final material_ic_menu_arrow_up_black_24dp:I = 0x7f080ad0
+
+.field public static final mtrl_bottomsheet_drag_handle:I = 0x7f080af8
+
+.field public static final mtrl_checkbox_button:I = 0x7f080af9
+
+.field public static final mtrl_checkbox_button_checked_unchecked:I = 0x7f080afa
+
+.field public static final mtrl_checkbox_button_icon:I = 0x7f080afb
+
+.field public static final mtrl_checkbox_button_icon_checked_indeterminate:I = 0x7f080afc
+
+.field public static final mtrl_checkbox_button_icon_checked_unchecked:I = 0x7f080afd
+
+.field public static final mtrl_checkbox_button_icon_indeterminate_checked:I = 0x7f080afe
+
+.field public static final mtrl_checkbox_button_icon_indeterminate_unchecked:I = 0x7f080aff
+
+.field public static final mtrl_checkbox_button_icon_unchecked_checked:I = 0x7f080b00
+
+.field public static final mtrl_checkbox_button_icon_unchecked_indeterminate:I = 0x7f080b01
+
+.field public static final mtrl_checkbox_button_unchecked_checked:I = 0x7f080b02
+
+.field public static final mtrl_dialog_background:I = 0x7f080b03
+
+.field public static final mtrl_dropdown_arrow:I = 0x7f080b04
+
+.field public static final mtrl_ic_arrow_drop_down:I = 0x7f080b05
+
+.field public static final mtrl_ic_arrow_drop_up:I = 0x7f080b06
+
+.field public static final mtrl_ic_cancel:I = 0x7f080b07
+
+.field public static final mtrl_ic_check_mark:I = 0x7f080b08
+
+.field public static final mtrl_ic_checkbox_checked:I = 0x7f080b09
+
+.field public static final mtrl_ic_checkbox_unchecked:I = 0x7f080b0a
+
+.field public static final mtrl_ic_error:I = 0x7f080b0b
+
+.field public static final mtrl_ic_indeterminate:I = 0x7f080b0c
+
+.field public static final mtrl_navigation_bar_item_background:I = 0x7f080b0d
+
+.field public static final mtrl_popupmenu_background:I = 0x7f080b0e
+
+.field public static final mtrl_popupmenu_background_overlay:I = 0x7f080b0f
+
+.field public static final mtrl_switch_thumb:I = 0x7f080b10
+
+.field public static final mtrl_switch_thumb_checked:I = 0x7f080b11
+
+.field public static final mtrl_switch_thumb_checked_pressed:I = 0x7f080b12
+
+.field public static final mtrl_switch_thumb_checked_unchecked:I = 0x7f080b13
+
+.field public static final mtrl_switch_thumb_pressed:I = 0x7f080b14
+
+.field public static final mtrl_switch_thumb_pressed_checked:I = 0x7f080b15
+
+.field public static final mtrl_switch_thumb_pressed_unchecked:I = 0x7f080b16
+
+.field public static final mtrl_switch_thumb_unchecked:I = 0x7f080b17
+
+.field public static final mtrl_switch_thumb_unchecked_checked:I = 0x7f080b18
+
+.field public static final mtrl_switch_thumb_unchecked_pressed:I = 0x7f080b19
+
+.field public static final mtrl_switch_track:I = 0x7f080b1a
+
+.field public static final mtrl_switch_track_decoration:I = 0x7f080b1b
+
+.field public static final mtrl_tabs_default_indicator:I = 0x7f080b1c
+
+.field public static final navigation_empty_icon:I = 0x7f080b1f
+
+.field public static final notification_action_background:I = 0x7f080b27
+
+.field public static final notification_bg:I = 0x7f080b28
+
+.field public static final notification_bg_low:I = 0x7f080b29
+
+.field public static final notification_bg_low_normal:I = 0x7f080b2a
+
+.field public static final notification_bg_low_pressed:I = 0x7f080b2b
+
+.field public static final notification_bg_normal:I = 0x7f080b2c
+
+.field public static final notification_bg_normal_pressed:I = 0x7f080b2d
+
+.field public static final notification_icon_background:I = 0x7f080b2e
+
+.field public static final notification_oversize_large_icon_bg:I = 0x7f080b2f
+
+.field public static final notification_template_icon_bg:I = 0x7f080b31
+
+.field public static final notification_template_icon_low_bg:I = 0x7f080b32
+
+.field public static final notification_tile_bg:I = 0x7f080b33
+
+.field public static final notify_panel_notification_icon_bg:I = 0x7f080b34
+
+.field public static final rm_oplusr_longly_planet:I = 0x7f080ee5
+
+.field public static final salah_logan:I = 0x7f080ee6
+
+.field public static final test_level_drawable:I = 0x7f08100c
+
+.field public static final tooltip_frame_dark:I = 0x7f08101f
+
+.field public static final tooltip_frame_light:I = 0x7f081020
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

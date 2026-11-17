@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ratio_item_container" android:background="@drawable/videoeditor_ratio_item_hover_bg" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_60" android:stateListAnimator="@animator/videoeditor_ratio_item_state_anim"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ratio_icon" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" app:tint="@color/videoeditor_transform_ratio_textview" app:tintMode="src_in" />
+    <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/dp_10" android:textColor="@color/videoeditor_transform_ratio_textview" android:ellipsize="end" android:gravity="center" android:id="@id/ratio_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_3" android:maxLines="1" android:paddingHorizontal="@dimen/video_editor_canvas_ration_name_horizontal_padding" android:textFontWeight="500" />
+</LinearLayout>

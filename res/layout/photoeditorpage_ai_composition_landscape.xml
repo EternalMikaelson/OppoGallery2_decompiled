@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ai_composition_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/coe_view_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.oplus.gallery.photoeditor.editingvvm.aicomposition.ui.AiCompositionLineView android:id="@id/line_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false" />
+    <com.oplus.gallery.photoeditor.editingvvm.aicomposition.ui.CommonRuleLottieView android:id="@id/composition_common_rule_lottie_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:forceDarkAllowed="false" app:lottie_autoPlay="true" app:lottie_fileName="ai_composition_common_loading.json" app:lottie_loop="true" />
+    <include layout="@layout/photo_editor_ai_composition_rules_view_landscape" />
+    <include layout="@layout/photoeditorpage_ai_composition_filter_list_layout" />
+    <com.oplus.gallery.business_lib.template.editor.widget.EditorLinearListView android:id="@id/composition_crop_list" android:paddingTop="@dimen/photo_editor_ai_composition_thumbnail_list_top_space_landscape" android:paddingBottom="@dimen/photo_editor_ai_composition_thumbnail_list_space_landscape" android:visibility="gone" android:layout_width="@dimen/photo_editor_ai_composition_thumbnail_list_container_width" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:listOrientation="vertical" app:noPaddingFadingEdge="@dimen/base_editor_fading_edge_width" />
+    <com.oplus.gallery.photoeditor.editingvvm.aicomposition.ui.AiCompositionRatioView android:id="@id/ratio_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false" app:isSmallLandscape="true" />
+</RelativeLayout>

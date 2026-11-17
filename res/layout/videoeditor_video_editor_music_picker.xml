@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/videoeditor_video_editor_loading_page" />
+    <com.coui.appcompat.list.COUIListView android:id="@android:id/list" android:background="@null" android:paddingBottom="@dimen/video_editor_trim_music_list_padding_bottom" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" />
+    <com.coui.appcompat.emptyview.COUIEmptyStateView android:id="@id/empty_page_view" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/videoeditor_no_music" android:overScrollMode="never" android:layout_marginVertical="@dimen/videoeditorpage_music_empty_padding_bottom" app:emptyViewSizeType="medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:titleText="@string/videoeditor_editor_text_music_none" />
+</androidx.constraintlayout.widget.ConstraintLayout>

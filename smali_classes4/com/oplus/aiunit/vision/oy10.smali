@@ -1,0 +1,56 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/oy10;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(Z)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-boolean p1, p0, Lcom/oplus/aiunit/vision/oy10;->a:Z
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 3
+    const-string/jumbo v1, "trackCaptionDownloadDialogUserClickAction. isClickCancel: "
+
+    .line 6
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 9
+    iget-boolean p0, p0, Lcom/oplus/aiunit/vision/oy10;->a:Z
+
+    .line 11
+    const-string v1, ", scene: 1"
+
+    .line 13
+    invoke-static {v0, p0, v1}, Lcom/oplus/aiunit/vision/lm3;->a(Ljava/lang/StringBuilder;ZLjava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

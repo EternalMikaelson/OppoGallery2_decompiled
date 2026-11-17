@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, uključujući %2$2s stavku; dodirnite za dodavanje u opciju „Često korišteno“.</item>
+        <item quantity="few">Album %1$1s, uključujući %2$2s stavke; dodirnite za dodavanje u opciju „Često korišteno“.</item>
+        <item quantity="other">Album %1$1s, uključujući %2$2s stavki; dodirnite za dodavanje u opciju „Često korišteno“.</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s podudaranje</item>
+        <item quantity="few">Broj podudaranja: %s</item>
+        <item quantity="other">Broj podudaranja: %s</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Odaberite medij i dodirnite plutajući prozor „AI trenutni isječak“ u nastavku za brzo generiranje videozapisa. Odaberite barem %1$s stavku za bolje rezultate.</item>
+        <item quantity="few">Odaberite medij i dodirnite plutajući prozor „AI trenutni isječak“ u nastavku za brzo generiranje videozapisa. Odaberite barem %1$s stavke za bolje rezultate.</item>
+        <item quantity="other">Odaberite medij i dodirnite plutajući prozor „AI trenutni isječak“ u nastavku za brzo generiranje videozapisa. Odaberite barem %1$s stavki za bolje rezultate.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Odaberite medij i dodirnite „Uredi – AI trenutni isječak“ pri dnu za brzo generiranje videozapisa. Odaberite barem %1$s stavku za bolje rezultate.</item>
+        <item quantity="few">Odaberite medij i dodirnite „Uredi – AI trenutni isječak“ pri dnu za brzo generiranje videozapisa. Odaberite barem %1$s stavke za bolje rezultate.</item>
+        <item quantity="other">Odaberite medij i dodirnite „Uredi – AI trenutni isječak“ pri dnu za brzo generiranje videozapisa. Odaberite barem %1$s stavki za bolje rezultate.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Dinamične fotografije dulje od %1$d sekunde nisu podržane</item>
+        <item quantity="few">Dinamične fotografije dulje od %1$d sekunde nisu podržane</item>
+        <item quantity="other">Dinamične fotografije dulje od %1$d sekundi nisu podržane</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Videozapis ne smije biti dulji od %d sekundu</item>
+        <item quantity="few">Videozapis ne smije biti dulji od %d sekunde</item>
+        <item quantity="other">Videozapis ne smije biti dulji od %d sekundi</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d zaključana aplikacija</item>
+        <item quantity="few">%d zaključane aplikacije</item>
+        <item quantity="other">%d zaključanih aplikacija</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, uključujući %2$2s stavku; dodano u opciju „Često korišteno“.</item>
+        <item quantity="few">Album %1$1s, uključujući %2$2s stavke; dodano u opciju „Često korišteno“.</item>
+        <item quantity="other">Album %1$1s, uključujući %2$2s stavki; dodano u opciju „Često korišteno“.</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Dodaj (%1$d)</item>
+        <item quantity="few">Dodaj (%1$d)</item>
+        <item quantity="other">Dodaj (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Dodaj (%1$d/%2$d)</item>
+        <item quantity="few">Dodaj (%1$d/%2$d)</item>
+        <item quantity="other">Dodaj (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">Prilagođena je %1$d stavka</item>
+        <item quantity="few">Prilagođene su %1$d stavke</item>
+        <item quantity="other">Prilagođeno je %1$d stavki</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">Nije uspjelo dodavanje %d fotografije jer se učitava.</item>
+        <item quantity="few">Broj fotografija koje se učitavaju i ne mogu dodati: %d.</item>
+        <item quantity="other">Nije uspjelo dodavanje fotografija %d jer se učitavaju.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d dokument</item>
+        <item quantity="few">%1$d dokumenta</item>
+        <item quantity="other">%1$d dokumenata</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">Bankovnih kartica: %1$d</item>
+        <item quantity="few">Bankovnih kartica: %1$d</item>
+        <item quantity="other">Bankovnih kartica: %1$d</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Stavke iz %d albuma bit će izbrisane s ovog uređaja i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke stavke nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="few">Stavke iz %d albuma bit će izbrisane s ovog uređaja i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke stavke nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="other">Stavke iz %d albuma bit će izbrisane s ovog uređaja i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke stavke nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">S ovog će uređaja biti izbrisana %d slijedna fotografija i ostat će u mapi „Nedavno izbrisano“ 30 dana. Sve slijedne fotografije sigurnosno su kopirane u oblak i tamo će ostati.</item>
+        <item quantity="few">S ovog će uređaja biti izbrisane %d slijedne fotografije i ostat će u mapi „Nedavno izbrisano“ 30 dana. Sve slijedne fotografije sigurnosno su kopirane u oblak i tamo će ostati.</item>
+        <item quantity="other">S ovog će uređaja biti izbrisano %d slijednih fotografija i ostat će u mapi „Nedavno izbrisano“ 30 dana. Sve slijedne fotografije sigurnosno su kopirane u oblak i tamo će ostati.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">S ovog će uređaja biti izbrisana %d slijedna fotografija i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke fotografije nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="few">S ovog će uređaja biti izbrisane %d slijedne fotografije i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke fotografije nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="other">S ovog će uređaja biti izbrisano %d slijednih fotografija i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke fotografije nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">S ovog će uređaja biti izbrisana %d stavka i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke stavke nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="few">S ovog će uređaja biti izbrisane %d stavke i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke stavke nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="other">S ovog će uređaja biti izbrisano %d stavki i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke stavke nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">S ovog će uređaja biti izbrisana %d fotografija i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke fotografije nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="few">S ovog će uređaja biti izbrisane %d fotografije i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke fotografije nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="other">S ovog će uređaja biti izbrisano %d fotografija i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neke fotografije nisu sigurnosno kopirane. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">S ovog će uređaja biti izbrisan %d videozapis i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neki videozapisi nisu sigurnosno kopirani. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="few">S ovog će uređaja biti izbrisana %d videozapisa i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neki videozapisi nisu sigurnosno kopirani. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+        <item quantity="other">S ovog će uređaja biti izbrisano %d videozapisa i ostat će u mapi „Nedavno izbrisano“ 30 dana. Neki videozapisi nisu sigurnosno kopirani. Možda biste ih željeli sigurnosno kopirati prije brisanja.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">Izvornom će se verzijom zamijeniti %1$s minijatura.</item>
+        <item quantity="few">Izvornim će se verzijama zamijeniti %1$s minijature.</item>
+        <item quantity="other">Izvornim će se verzijama zamijeniti %1$s minijatura.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">Broj osobnih iskaznica: %1$d</item>
+        <item quantity="few">Broj osobnih iskaznica: %1$d</item>
+        <item quantity="other">Broj osobnih iskaznica: %1$d</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Spojiti i ukloniti %d osobu?</item>
+        <item quantity="few">Spojiti i ukloniti %d ljudi?</item>
+        <item quantity="other">Spojiti i ukloniti %d ljudi?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Ukloniti %d fotografiju iz ovog albuma?</item>
+        <item quantity="few">Ukloniti %d fotografije iz ovog albuma?</item>
+        <item quantity="other">Ukloniti %d fotografija iz ovog albuma?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Ukloniti %d stavku iz ovog albuma?</item>
+        <item quantity="few">Ukloniti %d stavke iz ovog albuma?</item>
+        <item quantity="other">Ukloniti %d stavki iz ovog albuma?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Ukloniti %d videozapis iz ovog albuma?</item>
+        <item quantity="few">Ukloniti %d videozapisa iz ovog albuma?</item>
+        <item quantity="other">Ukloniti sljedeći broj videozapisa iz ovog albuma: %d?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Koristi minijaturu</item>
+        <item quantity="few">Koristi minijature</item>
+        <item quantity="other">Koristi minijature</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Koristi izvornik</item>
+        <item quantity="few">Koristi izvornike</item>
+        <item quantity="other">Koristi izvornike</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 fotografija je minijatura. Možete preuzeti i koristiti izvornu fotografiju.</item>
+        <item quantity="few">Neke odabrane fotografije su minijature. Možete preuzeti i koristiti izvorne fotografije.</item>
+        <item quantity="other">Neke odabrane fotografije su minijature. Možete preuzeti i koristiti izvorne fotografije.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Najveći broj slika koje se istodobno mogu pretvoriti u PDF: %1$d</item>
+        <item quantity="few">Najveći broj slika koje se istodobno mogu pretvoriti u PDF: %1$d</item>
+        <item quantity="other">Najveći broj slika koje se istodobno mogu pretvoriti u PDF: %1$d</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Nema dovoljno mjesta u pohrani na uređaju. %1$d stavka nije kopirana.</item>
+        <item quantity="few">Nedovoljno mjesta u pohrani uređaja. Sljedeći broj stavki nije kopiran: %1$d.</item>
+        <item quantity="other">Nedovoljno mjesta u pohrani uređaja. Sljedeći broj stavki nije kopiran: %1$d.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">Kopirana je %d stavka</item>
+        <item quantity="few">Kopiran je sljedeći broj stavki: %d</item>
+        <item quantity="other">Kopiran je sljedeći broj stavki: %d</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Najveći broj stavki koje je moguće kopirati: %d</item>
+        <item quantity="few">Najveći broj stavki koje je moguće kopirati: %d</item>
+        <item quantity="other">Najveći broj stavki koje je moguće kopirati: %d</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">S ovog uređaja trajno će se izbrisati %d fotografija.</item>
+        <item quantity="few">S ovog uređaja trajno će se izbrisati sljedeći broj fotografija: %d.</item>
+        <item quantity="other">S ovog uređaja trajno će se izbrisati sljedeći broj fotografija: %d.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d će se stavka trajno izbrisati s ovog uređaja.</item>
+        <item quantity="few">S ovog uređaja trajno će se izbrisati sljedeći broj stavki: %d.</item>
+        <item quantity="other">S ovog uređaja trajno će se izbrisati sljedeći broj stavki: %d.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">S ovog uređaja trajno će se izbrisati %d videozapis.</item>
+        <item quantity="few">S ovog uređaja trajno će se izbrisati sljedeći broj videozapisa: %d.</item>
+        <item quantity="other">S ovog uređaja trajno će se izbrisati sljedeći broj videozapisa: %d.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d uzastopna fotografija. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Ova fotografija bit će trajno izbrisana s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+        <item quantity="few">Ove fotografije bit će trajno izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+        <item quantity="other">Ove fotografije bit će trajno izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Ova fotografija bit će trajno izbrisana. Ta se radnja ne može poništiti.</item>
+        <item quantity="few">Ove fotografije bit će trajno izbrisane. Ta se radnja ne može poništiti.</item>
+        <item quantity="other">Ove fotografije bit će trajno izbrisane. Ta se radnja ne može poništiti.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Ova stavka bit će trajno izbrisana s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+        <item quantity="few">Ove stavke bit će trajno izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+        <item quantity="other">Ove stavke bit će trajno izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Ova stavka bit će trajno izbrisana. Ta se radnja ne može poništiti.</item>
+        <item quantity="few">Ove stavke bit će trajno izbrisane. Ta se radnja ne može poništiti.</item>
+        <item quantity="other">Ove stavke bit će trajno izbrisane. Ta se radnja ne može poništiti.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d fotografija trajno će se izbrisati s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja trajno će se izbrisati sljedeći broj fotografija: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja trajno će se izbrisati sljedeći broj fotografija: %d.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d stavka trajno će se izbrisati s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja trajno će se izbrisati sljedeći broj stavki: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja trajno će se izbrisati sljedeći broj stavki: %d.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d videozapis trajno će se izbrisati s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja trajno će se izbrisati sljedeći broj videozapisa: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja trajno će se izbrisati sljedeći broj videozapisa: %d.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d uzastopna fotografija izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Izbrisati %d album?</item>
+        <item quantity="few">Izbrisati sljedeći broj albuma: %d?</item>
+        <item quantity="other">Izbrisati sljedeći broj albuma: %d?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Izbrisati %d slijedno snimljenu fotografiju?</item>
+        <item quantity="few">Izbrisati sljedeći broj slijedno snimljenih fotografija: %d?</item>
+        <item quantity="other">Izbrisati sljedeći broj slijedno snimljenih fotografija: %d?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">S ovog uređaja izbrisat će se %d uspomena. Fotografije te uspomene čuvat će se u aplikaciji „Fotografije”.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se %d uspomene. Fotografije tih uspomena čuvat će se u aplikaciji „Fotografije”.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se %d uspomena. Fotografije tih uspomena čuvat će se u aplikaciji „Fotografije”.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Izbrisati %d uspomenu?</item>
+        <item quantity="few">Izbrisati sljedeći broj uspomena: %d?</item>
+        <item quantity="other">Izbrisati sljedeći broj uspomena: %d?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Trajno izbriši %d stavku</item>
+        <item quantity="few">Trajno izbriši stavki: %d</item>
+        <item quantity="other">Trajno izbriši stavke: %d</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Izbriši %d stavku</item>
+        <item quantity="few">Izbriši stavke: %d</item>
+        <item quantity="other">Izbriši stavke: %d</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Izbrisati %d fotografiju?</item>
+        <item quantity="few">Izbrisati sljedeći broj fotografija: %d?</item>
+        <item quantity="other">Izbrisati sljedeći broj fotografija: %d?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Izbrisati %d stavku?</item>
+        <item quantity="few">Izbrisati sljedeći broj stavki: %d?</item>
+        <item quantity="other">Želite li izbrisati sljedeći broj stavki: %d?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Izbrisati %d videozapis?</item>
+        <item quantity="few">Izbrisati sljedeći broj videozapisa: %d?</item>
+        <item quantity="other">Izbrisati sljedeći broj videozapisa: %d?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Želite li izbrisati %d naljepnicu?</item>
+        <item quantity="few">Želite li izbrisati %d naljepnice?</item>
+        <item quantity="other">Želite li izbrisati %d naljepnica?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Izbriši ovu fotografiju</item>
+        <item quantity="few">Izbriši ove fotografije</item>
+        <item quantity="other">Izbriši ove fotografije</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Ovaj videozapis bit će trajno izbrisan s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+        <item quantity="few">Ovi videozapisi bit će trajno izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+        <item quantity="other">Ovi videozapisi bit će trajno izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Ta se radnja ne može poništiti.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Ovaj videozapis bit će trajno izbrisan. Ta se radnja ne može poništiti.</item>
+        <item quantity="few">Ovi videozapisi bit će trajno izbrisani. Ta se radnja ne može poništiti.</item>
+        <item quantity="other">Ovi videozapisi bit će trajno izbrisani. Ta se radnja ne može poništiti.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Preuzimanje %d stavke...</item>
+        <item quantity="few">Preuzimanje sljedećeg broja stavki: %d...</item>
+        <item quantity="other">Preuzimanje sljedećeg broja stavki: %d...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Preuzimanje %d fotografije...</item>
+        <item quantity="few">Preuzimanje sljedećeg broja fotografija: %d...</item>
+        <item quantity="other">Preuzimanje sljedećeg broja fotografija: %d...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Preuzimanje %d videozapisa...</item>
+        <item quantity="few">Preuzimanje sljedećeg broja videozapisa: %d...</item>
+        <item quantity="other">Preuzimanje sljedećeg broja videozapisa: %d...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Postaviti %d datoteku kao privatnu?</item>
+        <item quantity="few">Postaviti sljedeći broj datoteka kao privatne: %d?</item>
+        <item quantity="other">Postaviti sljedeći broj datoteka kao privatne: %d?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Postaviti ovu fotografiju kao privatnu?</item>
+        <item quantity="few">Postaviti ove fotografije kao privatne?</item>
+        <item quantity="other">Postaviti ove fotografije kao privatne?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">Nije uspjelo šifriranje %d datoteke</item>
+        <item quantity="few">Nije uspjelo šifriranje sljedećeg broja datoteka: %d</item>
+        <item quantity="other">Nije uspjelo šifriranje sljedećeg broja datoteka: %d</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Želite li zaključati %d album?</item>
+        <item quantity="few">Želite li zaključati sljedeći broj albuma: %d?</item>
+        <item quantity="other">Želite li zaključati sljedeći broj albuma: %d?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d uzastopna fotografija. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d uzastopna fotografija izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d album. Arhivirani albumi ostaju u „Nedavno izbrisano” 60 dana; albumi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj albuma: %d. Arhivirani albumi ostaju u „Nedavno izbrisano” 60 dana; albumi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj albuma: %d. Arhivirani albumi ostaju u „Nedavno izbrisano” 60 dana; albumi koji nisu arhivirani ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d fotografija. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d stavka. Arhivirane stavke ostaju u „Nedavno izbrisano” 60 dana; stavke koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj stavki: %d. Arhivirane stavke ostaju u „Nedavno izbrisano” 60 dana; stavke koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj stavki: %d. Arhivirane stavke ostaju u „Nedavno izbrisano” 60 dana; stavke koje nisu arhivirane ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d videozapis. Arhivirani videozapisi ostaju u „Nedavno izbrisano” 60 dana; videozapisi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj videozapisa: %d. Arhivirani videozapisi ostaju u „Nedavno izbrisano” 60 dana; videozapisi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj videozapisa: %d. Arhivirani videozapisi ostaju u „Nedavno izbrisano” 60 dana; videozapisi koji nisu arhivirani ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Arhivirani albumi ostaju u „Nedavno izbrisano” 60 dana; albumi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj albuma: %d. Arhivirani albumi ostaju u „Nedavno izbrisano” 60 dana; albumi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj albuma: %d. Arhivirani albumi ostaju u „Nedavno izbrisano” 60 dana; albumi koji nisu arhivirani ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d fotografija izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj fotografija: %d. Arhivirane slike ostaju u „Nedavno izbrisano” 60 dana; fotografije koje nisu arhivirane ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d stavka izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Arhivirane stavke ostaju u „Nedavno izbrisano” 60 dana; stavke koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj stavki: %d. Arhivirane stavke ostaju u „Nedavno izbrisano” 60 dana; stavke koje nisu arhivirane ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj stavki: %d. Arhivirane stavke ostaju u „Nedavno izbrisano” 60 dana; stavke koje nisu arhivirane ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d videozapis izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Arhivirani videozapisi ostaju u „Nedavno izbrisano” 60 dana; videozapisi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj videozapisa: %d. Arhivirani videozapisi ostaju u „Nedavno izbrisano” 60 dana; videozapisi koji nisu arhivirani ostaju 30 dana.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj videozapisa: %d. Arhivirani videozapisi ostaju u „Nedavno izbrisano” 60 dana; videozapisi koji nisu arhivirani ostaju 30 dana.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Izvezi %d odabranu fotografiju</item>
+        <item quantity="few">Izvesti sljedeći broj odabranih fotografija: %d?</item>
+        <item quantity="other">Izvezi sljedeći broj odabranih fotografija: %d</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Izvesti %d fotografiju?</item>
+        <item quantity="few">Izvesti sljedeći broj fotografija: %d?</item>
+        <item quantity="other">Izvesti sljedeći broj fotografija: %d?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Dodavanje %1$d stavke u Favorite nije uspjelo. Pokušajte ponovno.</item>
+        <item quantity="few">Dodavanje %1$d stavke u Favorite nije uspjelo. Pokušajte ponovno.</item>
+        <item quantity="other">Dodavanje %1$d stavki u Favorite nije uspjelo. Pokušajte ponovno.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Veličina datoteke: %1$s. Procijenjeno vrijeme preuzimanja: %2$s min.</item>
+        <item quantity="few">Veličina datoteke: %1$s. Procijenjeno vrijeme preuzimanja: %2$s min.</item>
+        <item quantity="other">Veličina datoteke: %1$s. Procijenjeno vrijeme preuzimanja: %2$s min.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Koristi minijaturu</item>
+        <item quantity="few">Koristi minijature</item>
+        <item quantity="other">Koristi minijature</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Koristi izvornik</item>
+        <item quantity="few">Koristi izvornike</item>
+        <item quantity="other">Koristi izvornike</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 fotografija je minijatura. Možete preuzeti i koristiti izvornu fotografiju.</item>
+        <item quantity="few">Neke odabrane fotografije su minijature. Možete preuzeti i koristiti izvorne fotografije.</item>
+        <item quantity="other">Neke odabrane fotografije su minijature. Možete preuzeti i koristiti izvorne fotografije.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Pronađena je fotografija %s. Premjestite je u „Futrolu za kartice“ za jednostavniji pristup.</item>
+        <item quantity="few">Pronađene su fotografije %s. Premjestite ih u „Futrolu za kartice“ za jednostavniji pristup.</item>
+        <item quantity="other">Pronađene su fotografije %s. Premjestite ih u „Futrolu za kartice“ za jednostavniji pristup.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Fotografija %1$s premještena je u „Futrolu za kartice“</item>
+        <item quantity="few">Fotografije %1$s premještene su u „Futrolu za kartice“</item>
+        <item quantity="other">Fotografije %1$s premještene su u „Futrolu za kartice“</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">Broj ulaznica/potvrda: %1$d</item>
+        <item quantity="few">Broj ulaznica/potvrda: %1$d</item>
+        <item quantity="other">Broj ulaznica/potvrda: %1$d</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Odabrana stavka već postoji u albumu</item>
+        <item quantity="few">Odabrane stavke već postoje u albumu</item>
+        <item quantity="other">Odabrane stavke već postoje u albumu</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d stavka</item>
+        <item quantity="few">Stavki: %d</item>
+        <item quantity="other">Stavke: %d</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d osoba spojit će se i ukloniti iz aplikacije „%2$s”.</item>
+        <item quantity="few">Sljedeći broj osoba: %1$d spojit će se i ukloniti iz aplikacije „%2$s”.</item>
+        <item quantity="other">Sljedeći broj osoba: %1$d spojit će se i ukloniti iz aplikacije „%2$s”.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">Broj fotografija koje se učitavaju i ne mogu premjestiti: %d</item>
+        <item quantity="few">Broj fotografija koje se učitavaju i ne mogu premjestiti: %d</item>
+        <item quantity="other">Broj fotografija koje se učitavaju i ne mogu premjestiti: %d</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">Premještena je %d stavka</item>
+        <item quantity="few">Premješten je sljedeći broj stavki: %d</item>
+        <item quantity="other">Premješten je sljedeći broj stavki: %d</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">Broj osoba: %1$d</item>
+        <item quantity="few"></item>
+        <item quantity="other">Broj osoba: %1$d</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Preuzimanje izvorne fotografije…</item>
+        <item quantity="few">Preuzimanje izvornih fotografija…</item>
+        <item quantity="other">Preuzimanje izvornih fotografija…</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Fotografija je kopirana. Videozapis se ne može kopirati u ovaj album.</item>
+        <item quantity="few">Fotografije su kopirane. Videozapisi se ne mogu kopirati u ovaj album.</item>
+        <item quantity="other">Fotografije su kopirane. Videozapisi se ne mogu kopirati u ovaj album.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Fotografija je premještena. Videozapisi se ne mogu premjestiti u ovaj album.</item>
+        <item quantity="few">Fotografije su premještene. Videozapisi se ne mogu premjestiti u ovaj album.</item>
+        <item quantity="other">Fotografije su premještene. Videozapisi se ne mogu premjestiti u ovaj album.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d album. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj albuma: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj albuma: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d fotografija. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d stavka. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj stavki: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj stavki: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">S ovog uređaja izbrisat će se %d videozapis. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja izbrisat će se sljedeći broj videozapisa: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja izbrisat će se sljedeći broj videozapisa: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Ova fotografija bit će izbrisana s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="few">Ove fotografije bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="other">Ove fotografije bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Ova fotografija bit će izbrisana s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">Ove fotografije bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+        <item quantity="other">Ove fotografije bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Ovaj album bit će izbrisan s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="few">Ovi albumi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="other">Ovi albumi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Ovaj album bit će izbrisan s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">Ovi albumi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+        <item quantity="other">Ovi albumi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Ova stavka bit će izbrisana s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="few">Ove stavke bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="other">Ove stavke bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Ova stavka bit će izbrisana s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">Ove stavke bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+        <item quantity="other">Ove stavke bit će izbrisane s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj albuma: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj albuma: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj albuma: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj albuma: %d.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d uzastopna fotografija izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj uzastopnih fotografija: %d.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d fotografija izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj fotografija: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d fotografija izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj fotografija: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj fotografija: %d.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d stavka izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj stavki: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj stavki: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d stavka izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj stavki: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj stavki: %d.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d videozapis izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj videozapisa: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj videozapisa: %d. Izbrisane stavke čuvaju se 30 dana u mapi „Nedavno izbrisano”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d videozapis izbrisat će se s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj videozapisa: %d.</item>
+        <item quantity="other">S ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja izbrisat će se sljedeći broj videozapisa: %d.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Ovaj videozapis bit će izbrisan s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="few">Ovi videozapisi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+        <item quantity="other">Ovi videozapisi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja. Izbrisane stavke mogu se vratiti iz albuma „Nedavno izbrisano” u roku od 30 dana.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Ovaj videozapis bit će izbrisan s ovog uređaja, iz oblaka i s ostalih sinkroniziranih uređaja.</item>
+        <item quantity="few">Ovi videozapisi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+        <item quantity="other">Ovi videozapisi bit će izbrisani s ovog uređaja, iz oblaka i s drugih sinkroniziranih uređaja.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Vratiti %d fotografiju?</item>
+        <item quantity="few">Vratiti sljedeći broj fotografija: %d?</item>
+        <item quantity="other">Vratiti sljedeći broj fotografija: %d?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Vratiti %d stavku?</item>
+        <item quantity="few">Vratiti sljedeći broj stavki: %d?</item>
+        <item quantity="other">Vratiti sljedeći broj stavki: %d?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Vratiti %d videozapis?</item>
+        <item quantity="few">Vratiti sljedeći broj videozapisa: %d?</item>
+        <item quantity="other">Vratiti sljedeći broj videozapisa: %d?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Vrati %d stavku</item>
+        <item quantity="few">Vrati stavke: %d</item>
+        <item quantity="other">Vrati stavke: %d</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Spremanje %d videozapisa nije uspjelo</item>
+        <item quantity="few">Sljedeći broj videozapisa nije spremljen: %d</item>
+        <item quantity="other">Sljedeći broj videozapisa nije spremljen: %d</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">Spremljen je %d videozapis</item>
+        <item quantity="few">Spremljena su %d videozapisa</item>
+        <item quantity="other">Broj spremljenih videozapisa: %d</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Koristi minijaturu</item>
+        <item quantity="few">Koristi minijature</item>
+        <item quantity="other">Koristi minijature</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Koristi izvornik</item>
+        <item quantity="few">Koristi izvornike</item>
+        <item quantity="other">Koristi izvornike</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 fotografija je minijatura. Možete preuzeti i koristiti izvornu fotografiju.</item>
+        <item quantity="few">Neke odabrane fotografije su minijature. Možete preuzeti i koristiti izvorne fotografije.</item>
+        <item quantity="other">Neke odabrane fotografije su minijature. Možete preuzeti i koristiti izvorne fotografije.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Pregled odabrane stavke (%1$d)</item>
+        <item quantity="few">Pregled odabranih stavki (%1$d)</item>
+        <item quantity="other">Pregled odabranih stavki (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Odaberite 1 – %1$d fotografiju</item>
+        <item quantity="few">Odaberite 1 – %1$d fotografije</item>
+        <item quantity="other">Odaberite 1 – %1$d fotografija</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Koristi minijaturu</item>
+        <item quantity="few">Koristi minijature</item>
+        <item quantity="other">Koristi minijature</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Koristi izvornik</item>
+        <item quantity="few">Koristi izvornike</item>
+        <item quantity="other">Koristi izvornike</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 fotografija je minijatura. Možete preuzeti i koristiti izvornu fotografiju.</item>
+        <item quantity="few">Neke odabrane fotografije su minijature. Umjesto toga, Možete preuzeti i podijeliti izvorne fotografije.</item>
+        <item quantity="other">Neke odabrane fotografije su minijature. Umjesto toga, možete preuzeti i podijeliti izvorne fotografije.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d fotografija bit će izbrisana iz dijeljenog albuma „%2$s”.</item>
+        <item quantity="few">%1$d fotografije bit će izbrisane iz dijeljenog albuma „%2$s”.</item>
+        <item quantity="other">%1$d fotografija bit će izbrisano iz dijeljenog albuma „%2$s”.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d stavka bit će izbrisana iz dijeljenog albuma „%2$s”.</item>
+        <item quantity="few">%1$d stavke bit će izbrisane iz dijeljenog albuma „%2$s”.</item>
+        <item quantity="other">%1$d stavki bit će izbrisano iz dijeljenog albuma „%2$s”.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d videozapis bit će izbrisan iz dijeljenog albuma „%2$s”.</item>
+        <item quantity="few">%1$d videozapisa bit će izbrisana iz dijeljenog albuma „%2$s”.</item>
+        <item quantity="other">%1$d videozapisa bit će izbrisano iz dijeljenog albuma „%2$s”.</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Izbriši %1$d stavku</item>
+        <item quantity="few">Izbriši %1$d stavke</item>
+        <item quantity="other">Izbriši stavke: %1$d</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Nije uspjelo preuzimanje %1$d stavke zbog malo mjesta u pohrani uređaja.</item>
+        <item quantity="few">Nije uspjelo preuzimanje %1$d stavke zbog malo mjesta u pohrani uređaja.</item>
+        <item quantity="other">Nije uspjelo preuzimanje %1$d stavki zbog malo mjesta u pohrani uređaja.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">Broj preostalih stavki: %1$d (%2$s). Želite li nastaviti s preuzimanjem koristeći mobilne podatke?</item>
+        <item quantity="few">Broj preostalih stavki: %1$d (%2$s). Želite li nastaviti s preuzimanjem koristeći mobilne podatke?</item>
+        <item quantity="other">Broj preostalih stavki: %1$d (%2$s). Želite li nastaviti s preuzimanjem koristeći mobilne podatke?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Pogreška mreže. %1$d stavka nije preuzeta.</item>
+        <item quantity="few">Pogreška mreže. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Pogreška mreže. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije preuzeta.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Kao videozapis odjednom se može spremiti do %d dinamična fotografija</item>
+        <item quantity="few">Kao videozapis odjednom se može spremiti do %d dinamične fotografije</item>
+        <item quantity="other">Kao videozapis odjednom se može spremiti do %d dinamičnih fotografija</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">Broj fotografija: %1$d</item>
+        <item quantity="few">Fotografija: %1$d</item>
+        <item quantity="other">Broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">Broj videozapisa: %1$d</item>
+        <item quantity="few">%1$d videozapisa</item>
+        <item quantity="other">Broj videozapisa: %1$d</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">Broj odabranih stavki: %1$d</item>
+        <item quantity="few">Broj odabranih stavki: %1$d</item>
+        <item quantity="other">Broj odabranih stavki: %1$d</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d stavka</item>
+        <item quantity="few">%1$d stavke</item>
+        <item quantity="other">%1$d stavki</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Uklanjanje %1$d stavke iz Favorita nije uspjelo. Pokušajte ponovno.</item>
+        <item quantity="few">Uklanjanje %1$d stavke iz Favorita nije uspjelo. Pokušajte ponovno.</item>
+        <item quantity="other">Uklanjanje %1$d stavki iz Favorita nije uspjelo. Pokušajte ponovno.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Nacrtajte jednostavan predmet pa ga zaokružite da biste izradili umjetničko djelo. Ograničenje korištenja: %1$d put dnevno.</item>
+        <item quantity="few">Nacrtajte jednostavan predmet pa ga zaokružite da biste izradili umjetničko djelo. Ograničenje korištenja: %1$d puta dnevno.</item>
+        <item quantity="other">Nacrtajte jednostavan predmet pa ga zaokružite da biste izradili umjetničko djelo. Ograničenje korištenja: %1$d puta dnevno.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Spremanje %d dinamične naljepnice nije uspjelo</item>
+        <item quantity="few">Spremanje %d dinamične naljepnice nije uspjelo</item>
+        <item quantity="other">Spremanje %d dinamičnih naljepnica nije uspjelo</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Odabrati možete još 1 – %1$d fotografiju</item>
+        <item quantity="few">Odabrati možete još 1 – %1$d fotografije</item>
+        <item quantity="other">Odabrati možete još 1 – %1$d fotografija</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Odabrati možete još 1 – %1$d fotografiju (%2$s)</item>
+        <item quantity="few">Odabrati možete još 1 – %1$d fotografije (%2$s)</item>
+        <item quantity="other">Odabrati možete još 1 – %1$d fotografija (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">uključujući %d dinamičnu fotografiju</item>
+        <item quantity="few">uključujući %d dinamične fotografije</item>
+        <item quantity="other">uključujući %d dinamičnih fotografija</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Preuzmi originalnu fotografiju</item>
+        <item quantity="few">Preuzmi originalne fotografije</item>
+        <item quantity="other">Preuzmi originalne fotografije</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d fotografija na vašem uređaju je manja verzija. Želite li preuzeti fotografiju u izvornoj punoj razlučivosti (%2$s)?</item>
+        <item quantity="few">%1$d fotografije na uređaju su manje verzije. Želite li preuzeti fotografije u punoj razlučivosti (%2$s)?</item>
+        <item quantity="other">Fotografija na uređaju manje verzije: %1$d. Želite li preuzeti fotografije u punoj razlučivosti (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Preuzimanje %1$d izvorne fotografije</item>
+        <item quantity="few">Preuzimanje %1$d izvorne fotografije</item>
+        <item quantity="other">Preuzimanje sljedećeg broja izvornih fotografija: %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d fotografija</item>
+        <item quantity="few">%1$d fotografije</item>
+        <item quantity="other">%1$d fotografija</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d izvorna fotografija nije preuzeta. Nema dovoljno mjesta u pohrani na uređaju.</item>
+        <item quantity="few">%1$d izvorne fotografije nisu preuzete. Nema dovoljno mjesta u pohrani na uređaju.</item>
+        <item quantity="other">%1$d izvornih fotografija nije preuzeto. Nema dovoljno mjesta u pohrani na uređaju.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d stavka nije preuzeta. Nema dovoljno mjesta u pohrani na uređaju.</item>
+        <item quantity="few">%1$d stavke nisu preuzete. Nema dovoljno mjesta u pohrani na uređaju.</item>
+        <item quantity="other">%1$d stavki nisu preuzete. Nema dovoljno mjesta u pohrani na uređaju.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Prijenos je pauziran za %1$d stavku. Nema veze s internetom.</item>
+        <item quantity="few">Prijenos je pauziran za %1$d stavke. Nema veze s internetom.</item>
+        <item quantity="other">Prijenos je pauziran za %1$d stavki. Nema veze s internetom.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Prijenos je pauziran za %1$d stavku. Nije povezano na Wi-Fi mrežu.</item>
+        <item quantity="few">Prijenos je pauziran za %1$d stavke. Nije povezano na Wi-Fi mrežu.</item>
+        <item quantity="other">Prijenos je pauziran za %1$d stavki. Nije povezano na Wi-Fi mrežu.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Prijenos %1$d stavke pauziran je radi uštede energije.</item>
+        <item quantity="few">Prijenos %1$d stavke pauziran je radi uštede energije.</item>
+        <item quantity="other">Prijenos %1$d stavki pauziran je radi uštede energije.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Prijenos je pauziran za %1$d stavku. Telefon je prevruć.</item>
+        <item quantity="few">Prijenos je pauziran za %1$d stavke. Telefon je prevruć.</item>
+        <item quantity="other">Prijenos je pauziran za %1$d stavki. Telefon je prevruć.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Prijenos je pauziran za %1$d stavku. Oblak se održava.</item>
+        <item quantity="few">Prijenos je pauziran za %1$d stavke. Oblak se održava.</item>
+        <item quantity="other">Prijenos je pauziran za %1$d stavki. Oblak se održava.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Prijenos je pauziran za %1$d stavku. Tablet je prevruć.</item>
+        <item quantity="few">Prijenos je pauziran za %1$d stavke. Tablet je prevruć.</item>
+        <item quantity="other">Prijenos je pauziran za %1$d stavki. Tablet je prevruć.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Sinkronizacija %1$d stavke iz oblaka</item>
+        <item quantity="few">Sinkronizacija sljedećeg broja stavki: %1$d iz oblaka</item>
+        <item quantity="other">Sinkronizacija sljedećeg broja stavki iz oblaka: %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">Broj fotografija: %1$d</item>
+        <item quantity="few">Fotografija: %1$d</item>
+        <item quantity="other">Broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">Broj videozapisa: %1$d</item>
+        <item quantity="few">%1$d videozapisa</item>
+        <item quantity="other">Broj videozapisa: %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije preuzeta.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d.</item>
+        <item quantity="other">Baterija je ispod %1$s. Nije preuzeto stavki: %2$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije preuzeta. Molimo napunite telefon.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d. Napunite telefon.</item>
+        <item quantity="other">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d. Molimo napunite telefon.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije preuzeta. Priključite u napajanje da biste nastavili.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d. Priključite u napajanje da biste nastavili.</item>
+        <item quantity="other">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d. Priključite u napajanje da biste nastavili.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije preuzeta.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d.</item>
+        <item quantity="other">Baterija je ispod %1$s. Stavki nije preuzeto: %2$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Način za uštedu energije je uključen. %1$d stavka nije preuzeta.</item>
+        <item quantity="few">Način za uštedu energije je uključen. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Način za uštedu energije je uključen. Nije preuzeto stavki: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Način za uštedu energije je uključen. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="few">Način za uštedu energije je uključen. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Način za uštedu energije je uključen. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije preuzeta. %2$s.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preuzeto: %1$d. %2$s.</item>
+        <item quantity="other">Nema mrežne veze. Stavki nije preuzeto: %1$d. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije preuzeta. %2$s ili %3$s.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preuzeto: %1$d. %2$s ili %3$s.</item>
+        <item quantity="other">Nema mrežne veze. Nije preuzeto stavki: %1$d. %2$s ili %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije preuzeta.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Nema mrežne veze. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Nema dovoljno mjesta u pohrani u oblaku. Nije preuzeto stavki: %1$d.</item>
+        <item quantity="few">Nema dovoljno mjesta u pohrani u oblaku. %1$d stavka nije preuzete.</item>
+        <item quantity="other">Nema dovoljno mjesta u pohrani u oblaku. %1$d stavka nije preuzeta.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Nema dovoljno mjesta u pohrani na uređaju. Stavka nije preuzeta: %1$d.</item>
+        <item quantity="few">Nema dovoljno mjesta u pohrani na uređaju. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Nema dovoljno mjesta u pohrani na uređaju. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Pogreška mreže. %1$d stavka nije preuzeta.</item>
+        <item quantity="few">Pogreška mreže. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Pogreška mreže. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Pogreška mreže. Stavka nije preuzeta: %1$d.</item>
+        <item quantity="few">Pogreška mreže. Stavki nije preuzeto: %1$d.</item>
+        <item quantity="other">Pogreška mreže. Stavki nije preuzeto: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Nema dovoljno mjesta u pohrani na uređaju. Izvornih fotografija nije preuzeto: %1$d</item>
+        <item quantity="few">Nema dovoljno mjesta u pohrani na uređaju. Nije preuzeto izvornih fotografija: %1$d.</item>
+        <item quantity="other">Nema dovoljno mjesta u pohrani na uređaju. Nije preuzeto izvornih fotografija: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d fotografija nije sinkronizirana. Prostor za pohranu u oblaku je pun.</item>
+        <item quantity="few">Nesinkroniziranih fotografija: %1$d. Prostor za pohranu u oblaku je pun.</item>
+        <item quantity="other">%1$d fotografije nisu sinkronizirane. Prostor za pohranu u oblaku je pun.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d fotografija nije sinkronizirana. Sinkronizacija Oblaka je pauzirana kada je baterija manje od %2$s.</item>
+        <item quantity="few">Nesinkroniziranih fotografija: %1$d. Sinkronizacija Oblaka se pauzira kada je baterija slabija od %2$s.</item>
+        <item quantity="other">%1$d fotografije nisu sinkronizirane. Sinkronizacija Oblaka se pauzira kada je baterija manje od %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d fotografija nije sinkronizirana. Sinkronizacija Oblaka je pauzirana u načinu uštede energije.</item>
+        <item quantity="few">Nesinkroniziranih fotografija: %1$d. Sinkronizacija s oblakom je pauzirana u načinu rada za uštedu energije.</item>
+        <item quantity="other">Nesinkroniziranih fotografija: %1$d. Sinkronizacija Oblaka je pauzirana u načinu uštede energije.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Pohrana u oblaku je puna. %1$d stavka nije prenesena.</item>
+        <item quantity="few">Pohrana u oblaku je puna. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Pohrana u oblaku je puna. Nije preneseno stavki: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije prenesena.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preneseno: %2$d.</item>
+        <item quantity="other">Baterija je ispod %1$s. Nije preneseno stavki: %2$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije prenesena. Molimo napunite telefon.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preneseno: %2$d. Napunite telefon.</item>
+        <item quantity="other">Baterija je ispod %1$s. Stavki nije preneseno: %2$d. Molimo napunite telefon.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Baterija je ispod %1$s. Stavki nije preneseno: %2$d. Priključite u napajanje da biste nastavili.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preneseno: %2$d. Priključite u napajanje da biste nastavili.</item>
+        <item quantity="other">Baterija je ispod %1$s. Stavki nije preneseno: %2$d. Priključite u napajanje da biste nastavili.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Baterija je ispod %1$s. %2$d stavka nije prenesena.</item>
+        <item quantity="few">Baterija je ispod %1$s. Stavki nije preneseno: %2$d.</item>
+        <item quantity="other">Baterija je ispod %1$s. Stavki nije preneseno: %2$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Način za uštedu energije je uključen. %1$d stavka nije prenesena.</item>
+        <item quantity="few">Način za uštedu energije je uključen. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Način za uštedu energije je uključen. Nije preneseno stavki: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Način za uštedu energije je uključen. Stavka nije prenesena: %1$d.</item>
+        <item quantity="few">Način za uštedu energije je uključen. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Način za uštedu energije je uključen. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Pohrana u oblaku je puna. Stavka nije prenesena: %1$d.</item>
+        <item quantity="few">Pohrana u oblaku je puna. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Pohrana u oblaku je puna. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d videozapis nije sinkroniziran. Prostor za pohranu u oblaku je pun.</item>
+        <item quantity="few">%1$d videozapisa nisu sinkroniziran. Prostor za pohranu u oblaku je pun.</item>
+        <item quantity="other">%1$d videozapisi nisu sinkronizirani. Prostor za pohranu u oblaku je pun.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d videozapis nije sinkroniziran. Sink. Oblaka se pauzira kada je baterija manje od %2$s.</item>
+        <item quantity="few">%1$d videozapisa nisu sinkroniziran. Sinkronizacija Oblaka se pauzira kada je baterija slabija od %2$s.</item>
+        <item quantity="other">%1$d videa nisu sinkronizirana. Sink. Oblaka se pauzira kada je baterija manje od %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d videozapis nije sinkroniziran. Sinkronizacija Oblaka je pauzirana u načinu uštede energije.</item>
+        <item quantity="few">%1$d videozapisa nisu sinkroniziran. Sinkronizacija s oblakom je pauzirana u načinu rada za uštedu energije.</item>
+        <item quantity="other">Nesinkroniziranih videozapisa: %1$d. Sinkronizacija Oblaka je pauzirana u načinu uštede energije.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d fotografije nisu sinkronizirane.</item>
+        <item quantity="few">Nesinkroniziranih fotografija: %1$d</item>
+        <item quantity="other">%1$d fotografija nije sinkronizirana.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije prenesena.%2$s.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preneseno: %1$d. %2$s.</item>
+        <item quantity="other">Nema mrežne veze. Nije preneseno stavki: %1$d. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije prenesena. %2$s ili %3$s.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preneseno: %1$d. %2$s ili %3$s.</item>
+        <item quantity="other">Nema mrežne veze. Nije preneseno stavki: %1$d. %2$s ili %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Nema mrežne veze. %1$d stavka nije prenesena.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Nema mrežne veze. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Nema mrežne veze. Stavka nije prenesena: %1$d.</item>
+        <item quantity="few">Nema mrežne veze. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Nema mrežne veze. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d videozapis nije sinkroniziran</item>
+        <item quantity="few">%1$d videozapisa nisu sinkroniziran.</item>
+        <item quantity="other">Nesinkroniziranih videozapisa: %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Pogreška mreže. %1$d stavka nije prenesena.</item>
+        <item quantity="few">Pogreška mreže. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Pogreška mreže. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Prekinuta je veza s mrežom. Stavki nije preneseno: %1$d.</item>
+        <item quantity="few">Prekinuta je veza s mrežom. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Pogreška mreže. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Pogreška usluge. %1$d stavka nije prenesena.</item>
+        <item quantity="few">Pogreška usluge. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Pogreška usluge. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Pogreška usluge. %1$d stavka nije prenesena.</item>
+        <item quantity="few">Pogreška usluge. Stavki nije preneseno: %1$d.</item>
+        <item quantity="other">Pogreška usluge. Stavki nije preneseno: %1$d.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Sinkronizacija %1$d stavke</item>
+        <item quantity="few">Sinkronizacija %1$d stavke</item>
+        <item quantity="other">Sinkronizacija %1$d stavki</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Sinkronizacija %1$d stavke s oblakom…</item>
+        <item quantity="few">Sinkronizacija sljedećeg broja stavki: %1$d s oblakom…</item>
+        <item quantity="other">Sinkronizacija sljedećeg broja stavki s oblakom: %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d videozapis</item>
+        <item quantity="few">Broj videozapisa: %1$d</item>
+        <item quantity="other">%1$d videozapisa</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Neke platforme možda ne podržavaju dinamične fotografije dulje od %d sekunde</item>
+        <item quantity="few">Neke platforme možda ne podržavaju dinamične fotografije dulje od %d sekunde</item>
+        <item quantity="other">Neke platforme možda ne podržavaju dinamične fotografije dulje od %d sekundi</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Značajku Iskakanje možete upotrijebiti istovremeno na najviše %1$d dinamičnu fotografiju</item>
+        <item quantity="few">Značajku Iskakanje možete upotrijebiti istovremeno na najviše %1$d dinamične fotografije</item>
+        <item quantity="other">Značajku Iskakanje možete upotrijebiti istovremeno na najviše %1$d dinamičnih fotografija</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Dinamične fotografije dulje od %1$d sekunde nisu podržane</item>
+        <item quantity="few">Dinamične fotografije dulje od %1$d sekunde nisu podržane</item>
+        <item quantity="other">Dinamične fotografije dulje od %1$d sekundi nisu podržane</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Nije moguće istodobno povući više od %d stavke</item>
+        <item quantity="few">Nije moguće istodobno povući više od sljedećeg broja stavki: %d</item>
+        <item quantity="other">Nije moguće istodobno povući više od sljedećeg broja stavki: %d</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Nije uspjelo dodavanje %d stavke</item>
+        <item quantity="few">Broj neuspjelo dodanih stavki: %d</item>
+        <item quantity="other">Nije uspjelo dodavanje sljedećeg broja stavki: (%d)</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">Nije uspjelo postavljanje %d fotografije kao privatne jer se učitava.</item>
+        <item quantity="few">Broj fotografija koje se učitavaju i ne mogu postaviti kao osobne: %d.</item>
+        <item quantity="other">Broj fotografija koje se učitavaju i ne mogu se postaviti kao privatne: %d</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d stavka</item>
+        <item quantity="few">Stavki: %d</item>
+        <item quantity="other">Stavke: %d</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="other">%d sekundi</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">Nije moguć uvoz %d stavke za uređivanje videozapisa</item>
+        <item quantity="few">Nije moguć uvoz %d stavke za uređivanje videozapisa</item>
+        <item quantity="other">Nije moguć uvoz %d stavki za uređivanje videozapisa</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Stranica %1$d od %2$d</item>
+        <item quantity="few">Stranica %1$d od %2$d</item>
+        <item quantity="other">Stranica %1$d od %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Za jedan GIF odaberite najviše %1$d fotografiju</item>
+        <item quantity="few">Za jedan GIF odaberite najviše sljedeći broj fotografija: %1$d</item>
+        <item quantity="other">Za jedan GIF odaberite najviše sljedeći broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Podržane su samo dinamične fotografije do %1$d sekunde</item>
+        <item quantity="few">Podržane su samo dinamične fotografije do %1$d sekunde</item>
+        <item quantity="other">Podržane su samo dinamične fotografije do %1$d sekundi</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Za stvaranje GIF-a odaberite najmanje %1$d fotografiju</item>
+        <item quantity="few">Za stvaranje GIF-a odaberite najmanje sljedeći broj fotografija: %1$d</item>
+        <item quantity="other">Za stvaranje GIF-a odaberite najmanje sljedeći broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Za jedan GIF odaberite najviše %1$d fotografiju</item>
+        <item quantity="few">Za jedan GIF odaberite najviše sljedeći broj fotografija: %1$d</item>
+        <item quantity="other">Za jedan GIF odaberite najviše sljedeći broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Samo %1$d fotografija zadovoljava zahtjeve formata</item>
+        <item quantity="few">Samo %1$d fotografije zadovoljavaju zahtjeve formata</item>
+        <item quantity="other">Samo %1$d fotografija zadovoljava zahtjeve formata</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d fotografija neće biti uključena u GIF</item>
+        <item quantity="few">Sljedeći broj fotografija neće biti uključen u GIF: %1$d</item>
+        <item quantity="other">Sljedeći broj fotografija neće biti uključen u GIF: %1$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$d fotografija nije podržana</item>
+        <item quantity="few">Broj nepodržanih fotografija: %1$d</item>
+        <item quantity="other">Broj nepodržanih fotografija: %1$d</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Učitavanje %1$s stavke iz aplikacije „Google fotografije”…</item>
+        <item quantity="few">Učitavanje %1$s stavki iz aplikacije „Google fotografije”…</item>
+        <item quantity="other">Učitavanje %1$s stavki iz aplikacije „Google fotografije”…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Nedovoljna pohrana za „Google fotografije”. %1$d stavka nije sigurnosno kopirana.</item>
+        <item quantity="few">Nedovoljna pohrana za „Google fotografije”. %1$d stavki nije sigurnosno kopirano.</item>
+        <item quantity="other">Nedovoljna pohrana za „Google fotografije”. %1$d stavki nije sigurnosno kopirano.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Sigurnosno kopiranje %1$s stavke na „Google fotografije”…</item>
+        <item quantity="few">Sigurnosno kopiranje %1$s stavki na „Google fotografije”…</item>
+        <item quantity="other">Sigurnosno kopiranje sljedećeg broja stavki: %1$s na „Google fotografije”…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d stavka se sinkronizira s HeyTap oblakom. Ako isključite tu opciju, prekinut će se automatska sinkronizacija. Kako bi vaši podaci bili sigurni, preporučuje se pričekati dok sinkronizacija ne završi.</item>
+        <item quantity="few">%1$d stavke se sinkroniziraju s HeyTap oblakom. Ako isključite tu opciju, prekinut će se automatska sinkronizacija. Kako bi vaši podaci bili sigurni, preporučuje se pričekati dok sinkronizacija ne završi.</item>
+        <item quantity="other">%1$d stavaka se sinkronizira s HeyTap oblakom. Ako isključite tu opciju, prekinut će se automatska sinkronizacija. Kako bi vaši podaci bili sigurni, preporučuje se pričekati dok sinkronizacija ne završi.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">U mapu „Često korišteno“ možete dodati samo %d album</item>
+        <item quantity="few">U mapu „Često korišteno“ možete dodati do %d albuma</item>
+        <item quantity="other">U mapu „Često korišteno“ možete dodati do %d albuma</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">Pronađen %1$d uređaj</item>
+        <item quantity="few">Pronađena %1$d uređaja</item>
+        <item quantity="other">Pronađeno %1$d uređaja</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d dan</item>
+        <item quantity="few">%1$d dana</item>
+        <item quantity="other">%1$d dana</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">Broj fotografija: %1$d</item>
+        <item quantity="few">Fotografija: %1$d</item>
+        <item quantity="other">Broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">Broj videozapisa: %1$d</item>
+        <item quantity="few">%1$d videozapisa</item>
+        <item quantity="other">Broj videozapisa: %1$d</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Nije moguće odabrati više od %1$d naljepnice</item>
+        <item quantity="few">Nije moguće odabrati više od %1$d naljepnice</item>
+        <item quantity="other">Nije moguće odabrati više od %1$d naljepnica</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Izbriši %1$d stavku s NAS-a</item>
+        <item quantity="few">Izbriši %1$d stavke s NAS-a</item>
+        <item quantity="other">Izbriši %1$d stavke s NAS-a</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Preuzimanje je dovršeno. Preuzimanje %1$d stavke nije uspjelo.</item>
+        <item quantity="few">Preuzimanje je dovršeno. Preuzimanje %1$d stavke nije uspjelo.</item>
+        <item quantity="other">Preuzimanje je dovršeno. Preuzimanje %1$d stavki nije uspjelo.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">Preuzeta je %1$d stavka.</item>
+        <item quantity="few">Preuzete su %1$d stavke.</item>
+        <item quantity="other">Preuzeto je %1$d stavki.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Preuzimanje %1$d od %2$d…</item>
+        <item quantity="few">Preuzimanje %1$d od %2$d…</item>
+        <item quantity="other">Preuzimanje %1$d od %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Kako želite urediti odabrano područje?</item>
+        <item quantity="few">Kako želite urediti odabrana područja?</item>
+        <item quantity="other">Kako želite urediti odabrana područja?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Dodati možete do %d naljepnice</item>
+        <item quantity="few">Dodati možete do %d naljepnice</item>
+        <item quantity="other">Dodati možete do %d naljepnica</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">U značajci Naljepnice možete dodati samo %d dinamičnu naljepnicu. Dodatne naljepnice će postati statične.</item>
+        <item quantity="few">U načinu rada Naljepnica možete dodati do %d dinamične naljepnice. Dodatne naljepnice će postati statične.</item>
+        <item quantity="other">U načinu rada Naljepnica možete dodati do %d dinamičnih naljepnica. Dodatne naljepnice će postati statične.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Uređena verzija ograničena je na %d s radi lakšeg dijeljenja.</item>
+        <item quantity="few">Uređena verzija ograničena je na %d s radi lakšeg dijeljenja.</item>
+        <item quantity="other">Uređena verzija ograničena je na %d s radi lakšeg dijeljenja.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Naljepnice mogu trajati do %d s</item>
+        <item quantity="few">Naljepnice mogu trajati do %d s</item>
+        <item quantity="other">Naljepnice mogu trajati do %d s</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Naljepnice mogu trajati samo do %d s.</item>
+        <item quantity="few">Naljepnice mogu trajati do %d s.</item>
+        <item quantity="other">Naljepnice mogu trajati do %d s.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Videozapisi mogu trajati do %d s</item>
+        <item quantity="few">Videozapisi mogu trajati do %d s</item>
+        <item quantity="other">Videozapisi mogu trajati do %d s</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Opišite što želite promijeniti u odabranom području</item>
+        <item quantity="few">Opišite što želite promijeniti u odabranim područjima</item>
+        <item quantity="other">Opišite što želite promijeniti u odabranim područjima</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Snimanje se zaustavlja za %1$d sekundu</item>
+        <item quantity="few">Snimanje se zaustavlja za %1$d sekunde</item>
+        <item quantity="other">Snimanje se zaustavlja za %1$d sekundi</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Možete odabrati do %1$d područja</item>
+        <item quantity="few">Možete odabrati do %1$d područja</item>
+        <item quantity="other">Možete odabrati do %1$d područja</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Podržane su samo dinamične fotografije do %1$d sekunde</item>
+        <item quantity="few">Podržane su samo dinamične fotografije do %1$d sekunde</item>
+        <item quantity="other">Podržane su samo dinamične fotografije do %1$d sekundi</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Očekivano vrijeme čekanja je %1$d minuta zbog velike veličine datoteke</item>
+        <item quantity="few">Očekivano vrijeme čekanja je %1$d minute zbog velike veličine datoteke</item>
+        <item quantity="other">Očekivano vrijeme čekanja je %1$d minuta zbog velike veličine datoteke</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Izvezi %d odabranu fotografiju</item>
+        <item quantity="few">Izvezi sljedeći broj odabranih fotografija: %d</item>
+        <item quantity="other">Izvezi sljedeći broj odabranih fotografija: %d</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Mora biti veće od %1$d mm</item>
+        <item quantity="few">Mora biti veće od %1$d mm</item>
+        <item quantity="other">Mora biti veće od %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Mora biti veće od %1$d px</item>
+        <item quantity="few">Mora biti veće od %1$d px</item>
+        <item quantity="other">Mora biti veće od %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Mora biti manje od %1$d mm</item>
+        <item quantity="few">Mora biti manje od %1$d mm</item>
+        <item quantity="other">Mora biti manje od %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Mora biti manje od %1$d px</item>
+        <item quantity="few">Mora biti manje od %1$d px</item>
+        <item quantity="other">Mora biti manje od %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Mora biti veće od %1$d KB</item>
+        <item quantity="few">Mora biti veće od %1$d KB</item>
+        <item quantity="other">Mora biti veće od %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Mora biti manje od %1$d KB</item>
+        <item quantity="few">Mora biti manje od %1$d KB</item>
+        <item quantity="other">Mora biti manje od %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Mora biti veće od %1$d mm</item>
+        <item quantity="few">Mora biti veće od %1$d mm</item>
+        <item quantity="other">Mora biti veće od %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Mora biti veće od %1$d px</item>
+        <item quantity="few">Mora biti veće od %1$d px</item>
+        <item quantity="other">Mora biti veće od %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Mora biti manje od %1$d mm</item>
+        <item quantity="few">Mora biti manje od %1$d mm</item>
+        <item quantity="other">Mora biti manje od %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Mora biti manje od %1$d px</item>
+        <item quantity="few">Mora biti manje od %1$d px</item>
+        <item quantity="other">Mora biti manje od %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Zadrži samo %d odabranu fotografiju</item>
+        <item quantity="few">Zadrži samo %d odabrane fotografije</item>
+        <item quantity="other">Zadrži samo odabrane fotografije: %d</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Izbriši %d stavku</item>
+        <item quantity="few">Izbriši stavke: %d</item>
+        <item quantity="other">Izbriši stavki %d</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Izbriši %d stavku</item>
+        <item quantity="few">Izbriši stavke: %d</item>
+        <item quantity="other">Izbriši stavki %d</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Dodavanje %1$d naljepnice nije uspjelo</item>
+        <item quantity="few">Dodavanje %1$d naljepnice nije uspjelo</item>
+        <item quantity="other">Dodavanje %1$d naljepnica nije uspjelo</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Dodavanje %d naljepnice nije uspjelo</item>
+        <item quantity="few">Dodavanje %d naljepnice nije uspjelo</item>
+        <item quantity="other">Dodavanje %d naljepnica nije uspjelo</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">Dodana je %1$s naljepnica</item>
+        <item quantity="few">Dodane su %1$s naljepnice</item>
+        <item quantity="other">Dodano je %1$s naljepnica</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">Dodana je %1$s naljepnica</item>
+        <item quantity="few">Dodane su %1$s naljepnice</item>
+        <item quantity="other">Dodano je %1$s naljepnica</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Dodana je %1$d naljepnica</item>
+        <item quantity="few">Dodane su %1$d naljepnice</item>
+        <item quantity="other">Dodano je %1$d naljepnica</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">U značajci Remiks kolaža uz AI možete dodati do %1$d dinamičnu naljepnicu. Dodatne naljepnice će postati statične.</item>
+        <item quantity="few">U značajci Remiks kolaža uz AI možete dodati do %1$d dinamične naljepnice. Dodatne naljepnice će postati statične.</item>
+        <item quantity="other">U značajci Remiks kolaža uz AI možete dodati do %1$d dinamičnih naljepnica. Dodatne naljepnice će postati statične.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Moguće je dodati do %1$d dinamičnu fotografiju</item>
+        <item quantity="few">Moguće je dodati do %1$d dinamične fotografije</item>
+        <item quantity="other">Moguće je dodati do %1$d dinamičnih fotografija</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Moguće je dodati najviše %1$d fotografiju</item>
+        <item quantity="few">Moguće je dodati najviše %1$d fotografije</item>
+        <item quantity="other">Moguće je dodati najviše %1$d fotografija</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Da biste uklonili predmete/osobe sa svojih fotografija, preuzmite dodatak Odstranjivač. Veličina datoteke: %1$s. Procijenjeno trajanje preuzimanja: %2$d min.</item>
+        <item quantity="few">Da biste uklonili predmete/osobe sa svojih fotografija, preuzmite dodatak Odstranjivač. Veličina datoteke: %1$s. Procijenjeno trajanje preuzimanja: %2$d min.</item>
+        <item quantity="other">Da biste uklonili predmete/osobe sa svojih fotografija, preuzmite dodatak Odstranjivač. Veličina datoteke: %1$s. Procijenjeno trajanje preuzimanja: %2$d min.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Veličina datoteke: %1$d. Procijenjeno vrijeme preuzimanja: %2$d.</item>
+        <item quantity="few">Veličina datoteke: %1$d. Procijenjeno vrijeme preuzimanja: %2$d.</item>
+        <item quantity="other">Veličina datoteke: %1$d. Procijenjeno vrijeme preuzimanja: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$d fotografija nije podržana</item>
+        <item quantity="few">Broj nepodržanih fotografija: %1$d</item>
+        <item quantity="other">Broj nepodržanih fotografija: %1$d</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">Odabrano %1$d/%2$d</item>
+        <item quantity="few">Odabrano %1$d/%2$d</item>
+        <item quantity="other">Odabrano %1$d/%2$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">Broj odabranih stavki: %1$d</item>
+        <item quantity="few">Broj odabranih stavki: %1$d</item>
+        <item quantity="other">Broj odabranih stavki: %1$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d album odabran</item>
+        <item quantity="few">Broj odabranih albuma: %1$d</item>
+        <item quantity="other">Odabrano albuma: %1$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">Broj odabranih stavki: %1$d</item>
+        <item quantity="few">Broj odabranih stavki: %1$d</item>
+        <item quantity="other">Broj odabranih stavki: %1$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">Broj odabranih videozapisa: %1$d</item>
+        <item quantity="few">Broj odabranih videozapisa: %1$d</item>
+        <item quantity="other">Odabrani video: %1$d</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Moguće je dodati najviše %1$d naljepnicu</item>
+        <item quantity="few">Moguće je dodati najviše sljedeći broj naljepnica: %1$d</item>
+        <item quantity="other">Moguće je dodati najviše sljedeći broj naljepnica: %1$d</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Moguće je odabrati samo %1$d stavku</item>
+        <item quantity="few">Moguće je odabrati najviše %1$d stavke</item>
+        <item quantity="other">Moguće je odabrati najviše %1$d stavki</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">Nije uspjelo brisanje %d fotografije jer se učitava.</item>
+        <item quantity="few">Broj fotografija koje se učitavaju i ne mogu izbrisati: %d.</item>
+        <item quantity="other">Nije uspjelo brisanje fotografija %d jer se učitavaju.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Brisanje %1$d stavke nije uspjelo. Pokušajte opet.</item>
+        <item quantity="few">Brisanje stavki nije uspjelo: %1$d. Pokušajte opet.</item>
+        <item quantity="other">Brisanje stavki nije uspjelo: %1$d. Pokušajte opet.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">Novih obavijesti: %d</item>
+        <item quantity="other">Novih obavijesti: %d</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Želite li ukloniti %d subjekt?</item>
+        <item quantity="few">Želite li ukloniti %d subjekta?</item>
+        <item quantity="other">Želite li ukloniti %d subjekata?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">Broj fotografija: %1$d</item>
+        <item quantity="few">Fotografija: %1$d</item>
+        <item quantity="other">Broj fotografija: %1$d</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Dodati možete samo %1$d dinamičnu naljepnicu. Dodatne naljepnice bit će prikazane kao statične.</item>
+        <item quantity="few">Dodati možete do %1$d dinamične naljepnice. Dodatne naljepnice bit će prikazane kao statične.</item>
+        <item quantity="other">Dodati možete do %1$d dinamičnih naljepnica. Dodatne naljepnice bit će prikazane kao statične.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">S ovom aplikacijom moguće je podijeliti samo %d stavku</item>
+        <item quantity="few">S ovom aplikacijom moguće je podijeliti do %d stavke</item>
+        <item quantity="other">S ovom aplikacijom moguće je podijeliti do %d stavki</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Dijeli %d stavku</item>
+        <item quantity="few">Dijeli %d stavke</item>
+        <item quantity="other">Dijeli %d stavki</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Dijeli %d fotografiju</item>
+        <item quantity="few">Dijeli %d fotografije</item>
+        <item quantity="other">Dijeli %d fotografija</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Dijeli %d videozapis</item>
+        <item quantity="few">Dijeli %d videozapisa</item>
+        <item quantity="other">Dijeljenje sljedećeg broja videozapisa: %d</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Želite li izbrisati %d trenutak?</item>
+        <item quantity="few">Želite li izbrisati %d trenutka?</item>
+        <item quantity="other">Želite li izbrisati %d trenutaka?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d priča, odabrana za vas.</item>
+        <item quantity="few">%d priče, odabrane za vas.</item>
+        <item quantity="other">%d priča, odabrano za vas.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d odabran</item>
+        <item quantity="few">%d odabrana</item>
+        <item quantity="other">%d odabranih</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Zakreni za %d stupanj</item>
+        <item quantity="few">Zakreni za %d stupnjeva</item>
+        <item quantity="other">Zakreni za %d stupnjeva</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Možete uvesti samo %s datoteku</item>
+        <item quantity="few">Možete uvesti do %s datoteke</item>
+        <item quantity="other">Možete uvesti do %s datoteka</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Dodaj %1d stavku</item>
+        <item quantity="few">Dodaj %1d stavke</item>
+        <item quantity="other">Dodaj %1d stavki</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Moguće je uvesti do %s LUT datoteku</item>
+        <item quantity="few">Moguće je uvesti do %s LUT datoteke</item>
+        <item quantity="other">Moguće je uvesti do %s LUT datoteka</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Moguće je dodati najviše %d fotografiju</item>
+        <item quantity="few">Moguće je dodati najviše %d fotografije</item>
+        <item quantity="other">Moguće je dodati najviše %d fotografija</item>
+    </plurals>
+</resources>

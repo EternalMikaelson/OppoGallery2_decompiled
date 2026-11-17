@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">རྣམ་གྲངས་%1$1s་%2$2sསྣོན།</item>
+        <item quantity="other">རྣམ་གྲངས་%1$1s་%2$2sསྣོན།</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">འབྲེལ་ཡོད་ནང་དོན་%s</item>
+        <item quantity="other">འབྲེལ་ཡོད་ནང་དོན་%s</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">རྒྱུ་ཆ་བདམས་ནས་ཞབས་ཕྱོགས་ཀྱི་ AI མཐེབ་གཅིག་བརྙན་གྲུབ་ཅེས་པའི་གཡེང་སྒྲོམ་བརྡབས་ནས་མགྱོགས་མྱུར་ངང་བརྙན་གྲུབ། མ་མཐའ་ཡང་རྒྱུ་ཆ་ %1$s བདམས་ན། བརྙན་གྲུབ་པའི་ནུས་འབྲས་དེ་བས་བཟང་།</item>
+        <item quantity="other">རྒྱུ་ཆ་བདམས་ནས་ཞབས་ཕྱོགས་ཀྱི་ AI མཐེབ་གཅིག་བརྙན་གྲུབ་ཅེས་པའི་གཡེང་སྒྲོམ་བརྡབས་ནས་མགྱོགས་མྱུར་ངང་བརྙན་གྲུབ། མ་མཐའ་ཡང་རྒྱུ་ཆ་ %1$s བདམས་ན། བརྙན་གྲུབ་པའི་ནུས་འབྲས་དེ་བས་བཟང་།</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">རྒྱུ་ཆ་བདམས་ནས་ཞབས་ཀྱི་དྲས་སྒྲིག - AI མཐེབ་གཅིག་བརྙན་གྲུབ་ཅེས་པའི་གཡེང་སྒྲོམ་བརྡབས་ནས་མགྱོགས་མྱུར་ངང་བརྙན་གྲུབ། མ་མཐའ་ཡང་རྒྱུ་ཆ་ %1$s བདམས་ན། བརྙན་གྲུབ་པའི་ནུས་འབྲས་དེ་བས་བཟང་།</item>
+        <item quantity="other">རྒྱུ་ཆ་བདམས་ནས་ཞབས་ཀྱི་དྲས་སྒྲིག - AI མཐེབ་གཅིག་བརྙན་གྲུབ་ཅེས་པའི་གཡེང་སྒྲོམ་བརྡབས་ནས་མགྱོགས་མྱུར་ངང་བརྙན་གྲུབ། མ་མཐའ་ཡང་རྒྱུ་ཆ་ %1$s བདམས་ན། བརྙན་གྲུབ་པའི་ནུས་འབྲས་དེ་བས་བཟང་།</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">ཚུལ་དངོས་དུས་ཡུན་སྐར་ཆ་ %1$d ལས་བརྒལ་བས། བྱེད་ནུས་འདིར་གནས་སྐབས་སུ་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+        <item quantity="other">ཚུལ་དངོས་དུས་ཡུན་སྐར་ཆ་ %1$d ལས་བརྒལ་བས། བྱེད་ནུས་འདིར་གནས་སྐབས་སུ་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">བརྙན་ཟློས་ཀྱི་རིང་ཚད་སྐར་ཆ་ %d ལས་བརྒལ་མི་ཆོག</item>
+        <item quantity="other">བརྙན་ཟློས་ཀྱི་རིང་ཚད་སྐར་ཆ་ %d ལས་བརྒལ་མི་རུང་།</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">ཟྭ་བརྒྱབ་པའི་ཉེར་སྤྱོད་ %d ཡོད།</item>
+        <item quantity="other">ཟྭ་བརྒྱབ་པའི་ཉེར་སྤྱོད་ %d ཡོད།</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">རྣམ་གྲངས་%1$1s་%2$2sབསྣན་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་%1$1s་%2$2sབསྣན་ཟིན།</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">སྣོན་པ།(%1$d)</item>
+        <item quantity="other">སྣོན་པ།(%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">སྣོན་པ།(%1$d/%2$d)</item>
+        <item quantity="other">སྣོན་པ།(%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">རྣམ་གྲངས་ %1$d སྙོམ་སྒྲིག་ལེགས་འགྲུབ་བྱུང་བ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d སྙོམ་སྒྲིག་ལེགས་འགྲུབ་བྱུང་བ།</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">འདྲ་པར་ %d འདོན་འཇུག་བཞིན་པས་སྣོན་མ་ཐུབ།</item>
+        <item quantity="other">འདྲ་པར་ %d འདོན་འཇུག་བཞིན་པས་སྣོན་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">ཡིག་ཚགས་%1$d</item>
+        <item quantity="other">ཡིག་ཚགས་%1$d</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">དངུལ་བྱང་ %1$d</item>
+        <item quantity="other">དངུལ་བྱང་ %1$d</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">པར་ཚོགས་ %d རྣམ་གྲངས་ཚང་མ་སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། རྣམ་གྲངས་ཁག་ཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་ཡང་བསྐྱར་བསུབ་ན་ལེགས།</item>
+        <item quantity="other">པར་ཚོགས་ %d རྣམ་གྲངས་ཚང་མ་སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། རྣམ་གྲངས་ཁག་ཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་ཡང་བསྐྱར་བསུབ་ན་ལེགས།</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། བསྟུན་མར་བླངས་པའི་འདྲ་པར་ཚང་མ་སྤྲིན་སྣེའི་སྟེང་དུ་གྲབས་ཉར་བྱས་ཡོད། སྤྲིན་སྣེའི་ཡིག་ཆ་བསུབ་མི་སྲིད།</item>
+        <item quantity="other">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། བསྟུན་མར་བླངས་པའི་འདྲ་པར་ཚང་མ་སྤྲིན་སྣེའི་སྟེང་དུ་གྲབས་ཉར་བྱས་ཡོད། སྤྲིན་སྣེའི་ཡིག་ཆ་བསུབ་མི་སྲིད།</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། འདྲ་པར་ཁག་གཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་བསུབ་ན་ལེགས།</item>
+        <item quantity="other">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། འདྲ་པར་ཁག་གཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་བསུབ་ན་ལེགས།</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། རྣམ་གྲངས་ཁག་ཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་ཡང་བསྐྱར་བསུབ་ན་ལེགས།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། རྣམ་གྲངས་ཁག་ཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་ཡང་བསྐྱར་བསུབ་ན་ལེགས།</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། འདྲ་པར་ཁག་གཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་བསུབ་ན་ལེགས།</item>
+        <item quantity="other">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། འདྲ་པར་ཁག་གཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་བསུབ་ན་ལེགས།</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། བརྙན་ཟློས་ཁག་གཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་བསུབ་ན་དགའ།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད། བརྙན་ཟློས་ཁག་གཅིག་ད་དུང་སྤྲིན་སྣེ་རུ་གྲབས་ཉར་བྱས་མེད་པས། གྲབས་ཉར་བྱས་རྗེས་བསུབ་ན་དགའ།</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">མཐོ་གསལ་བསྡུས་རིས་%1$sཐོག་མའི་འདྲ་པར་དུ་སླར་གསོ་བྱ་རྒྱུ།</item>
+        <item quantity="other">མཐོ་གསལ་བསྡུས་རིས་%1$sཐོག་མའི་འདྲ་པར་དུ་སླར་གསོ་བྱ་རྒྱུ།</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="one">འདྲ་པར་ %s བཤེར་འབེབས་བྱུང་། ཁ་ཕྱེ་རྗེས་རིག་ལྡན་བདག་དམ་བྱ་སྲིད། སྒྲིག་བཀོད་ཁྲོད་དུ་ཁ་ཕྱེ་བའམ་ཁ་རྒྱག་ཆོག</item>
+        <item quantity="other">འདྲ་པར་ %s བཤེར་འབེབས་བྱུང་། ཁ་ཕྱེ་རྗེས་རིག་ལྡན་བདག་དམ་བྱ་སྲིད། སྒྲིག་བཀོད་ཁྲོད་དུ་ཁ་ཕྱེ་བའམ་ཁ་རྒྱག་ཆོག</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">ལག་ཁྱེར་ %1$d</item>
+        <item quantity="other">ལག་ཁྱེར་ %1$d</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">མི་སྣ%dཟླ་སྒྲིལ་དུ་གཏོང་བ་དང་སྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">མི་སྣ%dཟླ་སྒྲིལ་དུ་གཏོང་བ་དང་སྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">པར་ཚོགས་འདི་ནས་འདྲ་པར%dསྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">པར་ཚོགས་འདི་ནས་འདྲ་པར%dསྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">པར་ཚོགས་འདི་ནས་རྣམ་གྲངས%dསྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">པར་ཚོགས་འདི་ནས་རྣམ་གྲངས%dསྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">པར་ཚོགས་འདི་ནས་བརྙན་ཟློས%dསྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">པར་ཚོགས་འདི་ནས་བརྙན་ཟློས%dསྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">ཐད་ཀར་པར་སྒྲིག་བྱེད།</item>
+        <item quantity="other">ཐད་ཀར་པར་སྒྲིག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">མ་པར་ཕབ་ལེན་བྱས་ནས་པར་སྒྲིག་གསར་འཛུགས་བྱེད།</item>
+        <item quantity="other">མ་པར་ཕབ་ལེན་བྱས་ནས་པར་སྒྲིག་གསར་འཛུགས་བྱེད།</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་ནས་པར་སྒྲིག་གསར་འཛུགས་བྱ་ཆོག</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་ནས་པར་སྒྲིག་གསར་འཛུགས་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">མང་ཤོས་སུ་པར་རིས་%1$d ནི་ PDFལ་བསྒྱུར་བར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">མང་ཤོས་སུ་པར་རིས་%1$d ནི་ PDFལ་བསྒྱུར་བར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">ཉར་ཚགས་བར་སྟོང་མི་འདང་བས་རྣམ་གྲངས་ %1$d འདྲ་བཤུས་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">ཉར་ཚགས་བར་སྟོང་མི་འདང་བས་རྣམ་གྲངས་ %1$d འདྲ་བཤུས་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">རྣམ་གྲངས%dའདྲ་བཤུ་བྱས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས%dའདྲ་བཤུ་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">མང་ཤོས་སུ་ཁག་%dའདྲ་བཤུས་བྱེད།</item>
+        <item quantity="other">མང་ཤོས་སུ་ཁག་%dའདྲ་བཤུས་བྱེད།</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+        <item quantity="other">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">རྣམ་གྲངས་ %d འདི་སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d འདི་སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་རྩ་བ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་རྩ་བ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">བདམས་པའི་རྣམ་གྲངས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་རྣམ་གྲངས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">བདམས་པའི་རྣམ་གྲངས་རྩ་བ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་རྣམ་གྲངས་རྩ་བ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+        <item quantity="other">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་རྦད་དེ་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">པར་ཚོགས%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">པར་ཚོགས%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">བསྟུད་མར་བླངས་པའི་འདྲ་པར%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">བསྟུད་མར་བླངས་པའི་འདྲ་པར%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">དྲན་གསོ%dདེ་སྒྲིག་ཆས་འདིའི་ཐོག་ནས་བསུབ་སྲིད་པ་དང་། དྲན་གསོའི་ནང་གི་འདྲ་པར་པར་དེབ་ཏུ་ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">དྲན་གསོ%dདེ་སྒྲིག་ཆས་འདིའི་ཐོག་ནས་བསུབ་སྲིད་པ་དང་། དྲན་གསོའི་ནང་གི་འདྲ་པར་པར་དེབ་ཏུ་ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">དྲན་གསོ%dབསུབ་དགོས་སམ།</item>
+        <item quantity="other">དྲན་གསོ%dབསུབ་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">རྣམ་གྲངས་ %d རྩ་བ་ནས་སུབ་པ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d རྩ་བ་ནས་སུབ་པ།</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">རྣམ་གྲངས་ %d སུབ་པ།</item>
+        <item quantity="other">དོན་ཚན་ %d སུབ་པ།</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">འདྲ་པར%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">འདྲ་པར%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">རྣམ་གྲངས%dབསུབ་དགོས་སམ།</item>
+        <item quantity="other">རྣམ་གྲངས%dབསུབ་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">བརྙན་ཟློས%dབསུབ་དགོས་སམ།</item>
+        <item quantity="other">བརྙན་ཟློས%dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">སྦྱར་རིས་ %d བསུབ་དགོས་སམ།</item>
+        <item quantity="other">སྦྱར་རིས་ %d བསུབ་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">འདྲ་པར་འདི་རྩ་བ་ནས་སུབ་པ།</item>
+        <item quantity="other">འདྲ་པར་འདི་དག་རྩ་བ་ནས་སུབ་པ།</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">བདམས་པའི་བརྙན་ཟློས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་བརྙན་ཟློས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">བདམས་པའི་བརྙན་ཟློས་རྩ་བ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་བརྙན་ཟློས་རྩ་བ་ནས་གསུབ་སྲིད་ལ། སླར་གསོ་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">རྣམ་གྲངས%dཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">རྣམ་གྲངས%dཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">འདྲ་པར%dཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">འདྲ་པར%dཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">བརྙན་ཟློས%dཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">བརྙན་ཟློས%dཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">ཡིག་ཆ་ %d གསང་བར་སྒྲིག་འགོད་བྱེད་དམ།</item>
+        <item quantity="other">ཡིག་ཆ་ %d གསང་བར་སྒྲིག་འགོད་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">འདྲ་པར་འདི་གསང་བར་སྒྲིག་འགོད་བྱེད་དམ།</item>
+        <item quantity="other">འདྲ་པར་འདི་དག་གསང་བར་སྒྲིག་འགོད་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">ཡིག་ཆ་ %d ལ་གསང་སྡོམ་བྱེད་མ་ཐུབ།</item>
+        <item quantity="other">ཡིག་ཆ་ %d ལ་གསང་སྡོམ་བྱེད་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">པར་ཚོགས་%dགསང་བར་སྒྲིག་བཀོད་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">པར་ཚོགས་%dགསང་བར་སྒྲིག་བཀོད་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">བསྟུད་མར་པར་ལེན་བྱས་པའི་འདྲ་པར་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་སྲིད། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">བསྟུད་མར་པར་ལེན་བྱས་པའི་འདྲ་པར་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">བསྟུད་མར་པར་ལེན་བྱས་པའི་འདྲ་པར་%d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་སྲིད། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">བསྟུད་མར་པར་ལེན་བྱས་པའི་འདྲ་པར་%d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">པར་ཚོགས་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་སྲིད། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་པར་ཚོགས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">པར་ཚོགས་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་པར་ཚོགས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">འདྲ་པར་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་སྲིད། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">འདྲ་པར་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">རྣམ་གྲངས་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་སྲིད། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་རྣམ་གྲངས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">རྣམ་གྲངས་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་རྣམ་གྲངས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">བརྙན་ཟློས་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་སྲིད། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་བརྙན་ཟློས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+        <item quantity="other">བརྙན་ཟློས་%d སྒྲིག་ཆས་འདི་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་བརྙན་ཟློས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="other">པར་ཚོགས་%d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་པར་ཚོགས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="other">འདྲ་པར་%d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་འདྲ་པར་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="other">རྣམ་གྲངས་%d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་རྣམ་གྲངས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="other">བརྙན་ཟློས་%d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་བསུབ་པ་ཡིན་པས། སྤྲིན་སྣེར་གྲབས་ཉར་བྱས་ཟིན་པའི་བརྙན་ཟློས་བསུབ་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ནང་ཉིན་60འཇོག་སྲིད། གྲབས་ཉར་མ་བྱས་ན་ཉིན་30 ཉར་འཇོག་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">བདམས་ཟིན་པའི་འདྲ་པར%dཕྱིར་འདྲེན་བྱེད།</item>
+        <item quantity="other">བདམས་ཟིན་པའི་འདྲ་པར%dཕྱིར་འདྲེན་བྱེད།</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">འདྲ་པར%dཕྱིར་འདྲེན་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">འདྲ་པར%dཕྱིར་འདྲེན་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">རྣམ་གྲངས་ %1$d བསྡུ་ཉར་བྱེད་མ་ཐུབ། བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d བསྡུ་ཉར་བྱེད་མ་ཐུབ། བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">ཡིག་ཆའི་ཆེ་ཆུང་%1$sཡིན་པས། སྔོན་དཔག་བྱས་ན་ཕབ་ལེན་བྱེད་པར་དུས་ཚོད་སྐར་མ་%2$sདགོས།</item>
+        <item quantity="other">ཡིག་ཆའི་ཆེ་ཆུང་%1$sཡིན་པས། སྔོན་དཔག་བྱས་ན་ཕབ་ལེན་བྱེད་པར་དུས་ཚོད་སྐར་མ་%2$sདགོས།</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">ཐད་ཀར་གསར་འཛུགས་བྱེད།</item>
+        <item quantity="other">ཐད་ཀར་གསར་འཛུགས་བྱེད།</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">མ་པར་ཕབ་ལེན་བྱས་ནས་བརྙན་གསར་འཛུགས་བྱེད།</item>
+        <item quantity="other">མ་པར་ཕབ་ལེན་བྱས་ནས་བརྙན་གསར་འཛུགས་བྱེད།</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་ནས་བརྙན་གསར་འཛུགས་བྱ་ཆོག</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་ནས་བརྙན་གསར་འཛུགས་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">འདྲ་པར་%s བཤེར་འབེབས་བྱུང་། བྱང་འཛིན་ཡིག་ཚགས་ཏུ་སྤོ་ཆོག</item>
+        <item quantity="other">འདྲ་པར་%s བཤེར་འབེབས་བྱུང་། བྱང་འཛིན་ཡིག་ཚགས་ཏུ་སྤོ་ཆོག</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">འདྲ་པར་%1$s བྱང་འཛིན་ཡིག་ཚགས་ཏུ་སྤར་ཟིན།</item>
+        <item quantity="other">འདྲ་པར་%1$s བྱང་འཛིན་ཡིག་ཚགས་ཏུ་སྤར་ཟིན།</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">བྱང་འཛིན་ %1$d</item>
+        <item quantity="other">བྱང་འཛིན་ %1$d</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">བདམས་པའི་རྣམ་གྲངས་པར་ཚོགས་འདི་རུ་ཡོད།</item>
+        <item quantity="other">བདམས་པའི་རྣམ་གྲངས་པར་ཚོགས་འདི་རུ་ཡོད།</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">རྣམ་གྲངས་ %d</item>
+        <item quantity="other">རྣམ་གྲངས་ %d</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">མི་སྣ%1$d ཟླ་སྒྲིལ་བཏང་རྗེས། %2$sནས་སྤོ་འདོར་བྱེད་སྲིད།</item>
+        <item quantity="other">མི་སྣ%1$d ཟླ་སྒྲིལ་བཏང་རྗེས། %2$sནས་སྤོ་འདོར་བྱེད་སྲིད།</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">འདྲ་པར་ %d སྣོན་འཇུག་བྱེད་བཞིན་ཡོད། སྤོ་ཐབས་བྲལ།</item>
+        <item quantity="other">འདྲ་པར་ %d སྣོན་འཇུག་བྱེད་བཞིན་ཡོད། སྤོ་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">རྣམ་གྲངས%dསྤོ་འགུལ་བྱས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས%dསྤོ་འགུལ་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one"></item>
+        <item quantity="other">མི་ %1$d</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">མ་པར་ཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">མ་པར་ཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">འདྲ་པར་འདྲ་བཤུས་བྱེད་ཐུབ་སོང་། བརྙན་ཟློས་པར་ཚོགས་སུ་འདྲ་བཤུས་བྱེད་པར་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+        <item quantity="other">འདྲ་པར་འདྲ་བཤུས་བྱེད་ཐུབ་སོང་། བརྙན་ཟློས་པར་ཚོགས་སུ་འདྲ་བཤུས་བྱེད་པར་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">འདྲ་པར་སྤོ་བ་ལེགས་འགྲུབ་བྱུང་། བརྙན་ཟློས་སྤོ་བར་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+        <item quantity="other">འདྲ་པར་སྤོ་བ་ལེགས་འགྲུབ་བྱུང་། བརྙན་ཟློས་སྤོ་བར་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">པར་ཚོགས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">པར་ཚོགས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">བདམས་པའི་པར་ཚོགས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+        <item quantity="other">བདམས་པའི་པར་ཚོགས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">བདམས་པའི་པར་ཚོགས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">བདམས་པའི་པར་ཚོགས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">བདམས་པའི་རྣམ་གྲངས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+        <item quantity="other">བདམས་པའི་རྣམ་གྲངས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">བདམས་པའི་རྣམ་གྲངས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">བདམས་པའི་རྣམ་གྲངས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">པར་ཚོགས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">པར་ཚོགས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">པར་ཚོགས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">པར་ཚོགས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">བསྟུན་མར་བླངས་པའི་འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">འདྲ་པར་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད། བསུབས་རྗེས་ཉེ་ཆར་བསུབས་པ་ཞེས་པའི་ཁྲོད་དུ་ཉིན་ 30 ལ་སོར་ཉར་བྱེད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་བྱས་པའི་སྒྲིག་ཆས་གཞན་པ་བཅས་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">བདམས་པའི་བརྙན་ཟློས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+        <item quantity="other">བདམས་པའི་བརྙན་ཟློས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད། ཉིན་ 30 ནང་ཉེ་ཆར་བསུབས་པ་ཞེས་པ་ནས་སླར་གསོ་བྱེད་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">བདམས་པའི་བརྙན་ཟློས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+        <item quantity="other">བདམས་པའི་བརྙན་ཟློས་སྒྲིག་ཆས་འདི་དང་སྤྲིན་སྣེ། གོམ་མཉམ་སྒྲིག་ཆས་གཞན་པ་ནས་གསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">འདྲ་པར%dསླར་གསོ་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">འདྲ་པར%dསླར་གསོ་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">རྣམ་གྲངས%dསླར་གསོ་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">རྣམ་གྲངས%dསླར་གསོ་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">བརྙན་ཟློས%dསླར་གསོ་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">བརྙན་ཟློས%dསླར་གསོ་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">རྣམ་གྲངས་ %d སླར་གསོ་བྱེད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d སླར་གསོ་བྱེད།</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">བརྙན་ཟློས་%dཉར་ཚགས་བྱེད་མ་ཐུབ།</item>
+        <item quantity="other">བརྙན་ཟློས་%dཉར་ཚགས་བྱེད་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">བརྙན་ཟློས་%dཉར་ཚགས་བྱས་ཟིན།</item>
+        <item quantity="other">བརྙན་ཟློས་%dཉར་ཚགས་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">ཐད་ཀར་བེད་སྤྱོད།</item>
+        <item quantity="other">ཐད་ཀར་བེད་སྤྱོད།</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">མ་པར་ཕབ་ལེན་བྱས་རྗེས་བེད་སྤྱོད་པ།</item>
+        <item quantity="other">མ་པར་ཕབ་ལེན་བྱས་རྗེས་བེད་སྤྱོད་པ།</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་ནས་བེད་སྤྱོད་ཆོག</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་ནས་བེད་སྤྱོད་ཆོག</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">བདམས་པའི་རྣམ་གྲངས(%1$d)ལ་སྔོན་བལྟ་བྱེད།</item>
+        <item quantity="other">བདམས་པའི་རྣམ་གྲངས(%1$d)ལ་སྔོན་བལྟ་བྱེད།</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">འདྲ་པར་ 1 ནས་ %1$d འདེམས།</item>
+        <item quantity="other">འདྲ་པར་ 1 ནས་ %1$d འདེམས།</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">ཐད་ཀར་སྐུར།</item>
+        <item quantity="other">ཐད་ཀར་སྐུར།</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">མ་པར་ཕབ་ལེན་བྱས་རྗེས་སྐུར།</item>
+        <item quantity="other">མ་པར་ཕབ་ལེན་བྱས་རྗེས་སྐུར།</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་རྗེས་སྐུར་ཆོག</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་དུ་བསྡུས་པར་ཚུད་ཡོད། མ་པར་ཕབ་ལེན་བྱས་རྗེས་སྐུར་ཆོག</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">འདྲ་པར%1$dདེ་ཁྱེད་དང་ཁོངས་མི་ཚང་མའི%2$sནང་ནས་བསུབ་པ་ཡིན།</item>
+        <item quantity="other">འདྲ་པར%1$dདེ་ཁྱེད་དང་ཁོངས་མི་ཚང་མའི%2$sནང་ནས་བསུབ་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">རྣམ་གྲངས%1$dདེ་ཁྱེད་དང་ཁོངས་མི་ཚང་མའི%2$sནང་ནས་བསུབ་པ་ཡིན།</item>
+        <item quantity="other">རྣམ་གྲངས%1$dདེ་ཁྱེད་དང་ཁོངས་མི་ཚང་མའི%2$sནང་ནས་བསུབ་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">བརྙན་ཟློས%1$dདེ་ཁྱེད་དང་ཁོངས་མི་ཚང་མའི%2$sནང་ནས་བསུབ་པ་ཡིན།</item>
+        <item quantity="other">བརྙན་ཟློས%1$dདེ་ཁྱེད་དང་ཁོངས་མི་ཚང་མའི%2$sནང་ནས་བསུབ་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="other">རྣམ་གྲངས་ %1$d སུབ་པ།</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="other">སྒྲིག་ཆས་ཀྱི་བར་སྟོང་མི་འདང་། རྣམ་གྲངས་ %1$d མུ་མཐུད་དུ་ཕབ་ལེན་བྱེད་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད། སྤོ་རུང་གཞི་གྲངས་བཞུར་ཚད་ %2$s དགོས། མུ་མཐུད་དུ་ཕབ་ལེན་བྱེད་དམ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད། སྤོ་རུང་གཞི་གྲངས་བཞུར་ཚད་ %2$s དགོས། མུ་མཐུད་དུ་ཕབ་ལེན་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="other">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="other">དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">ཐེངས་རྐྱང་པར་མང་ཤོས་སུ་གནས་ཚུལ་དངོས་ཀྱི་འདྲ་པར་%dབརྙན་ཟློས་སུ་ཉར་ཚགས་བྱེད་ཆོག</item>
+        <item quantity="other">ཐེངས་རྐྱང་པར་མང་ཤོས་སུ་གནས་ཚུལ་དངོས་ཀྱི་འདྲ་པར་%dབརྙན་ཟློས་སུ་ཉར་ཚགས་བྱེད་ཆོག</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">འདྲ་པར། %1$d</item>
+        <item quantity="other">འདྲ་པར་ %1$d</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">བརྙན་ཟློས%1$d</item>
+        <item quantity="other">བརྙན་ཟློས%1$d</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d འདེམས་ཟིན།</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">རྣམ་གྲངས་ %1$d</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">རྣམ་གྲངས་ %1$d བསྡུ་ཉར་དོར་མ་ཐུབ། བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d བསྡུ་ཉར་དོར་མ་ཐུབ། བསྐྱར་དུ་ཚོད་ལྟ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">པར་རིས་སྟེང་དུ་དངོས་པོ་གཅིག་བྲིས་ནས། སྤུས་ལེགས་བརྩམས་ཆོས་གྲུབ། ཉིན་རེར་ཐེངས་%1$dགྲུབ་ཆོག</item>
+        <item quantity="other">པར་རིས་སྟེང་དུ་དངོས་པོ་གཅིག་བྲིས་ནས། སྤུས་ལེགས་བརྩམས་ཆོས་གྲུབ། ཉིན་རེར་ཐེངས་%1$dགྲུབ་ཆོག</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">ཚུལ་དངོས་སྦྱར་རིས་ %d ཉར་ཚགས་བྱེད་མ་ཐུབ།</item>
+        <item quantity="other">ཚུལ་དངོས་སྦྱར་རིས་ %d ཉར་ཚགས་བྱེད་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">ད་དུང་འདྲ་པར་ 1-%1$d འདེམ་ཆོག</item>
+        <item quantity="other">ད་དུང་འདྲ་པར་ 1-%1$d འདེམ་ཆོག</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">ད་དུང་འདྲ་པར་ 1-%1$d འདེམ་ཆོག (%2$s)</item>
+        <item quantity="other">ད་དུང་འདྲ་པར་ 1-%1$d འདེམ་ཆོག (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">ཆེས་མང་ན་ཚུལ་དངོས་འདྲ་པར་ %d ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་ཚུལ་དངོས་འདྲ་པར་ %d ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">གདོད་མའི་ཡིག་ཆ་ཕབ་ལེན་བྱེད།</item>
+        <item quantity="other">གདོད་མའི་ཡིག་ཆ་ཕབ་ལེན་བྱེད།</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">པར་དེབ་ཁྲོད་ཀྱི་པར་རིས་ %1$d ནི་སླ་གཏོང་བྱས་རྗེས་ཀྱི་ཡིག་ཆ་ཡིན། གདོད་མའི་ཡིག་ཆ་ (%2$s) ཕབ་ལེན་བྱེད་དམ།</item>
+        <item quantity="other">པར་དེབ་ཁྲོད་ཀྱི་པར་རིས་ %1$d ནི་སླ་གཏོང་བྱས་རྗེས་ཀྱི་ཡིག་ཆ་ཡིན། གདོད་མའི་ཡིག་ཆ་ (%2$s) ཕབ་ལེན་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="cloudkit_upgrade_dialog_banner_message">
+        <item quantity="one">མཐོ་གསལ་འདྲ་པར་ %d ཡས་མས་ཉར་ཚགས་བྱེད་ཆོག</item>
+        <item quantity="other">མཐོ་གསལ་འདྲ་པར་ %d ཡས་མས་ཉར་ཚགས་བྱེད་ཆོག</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">མ་པར་རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">མ་པར་རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">འདྲ་པར་ %1$d</item>
+        <item quantity="other">འདྲ་པར་ %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">ཉར་ཚགས་བར་སྟོང་མི་འདང་། མ་པར་རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">ཉར་ཚགས་བར་སྟོང་མི་འདང་། མ་པར་རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">ཉར་ཚགས་བར་སྟོང་མི་འདང་། རྣམ་གྲངས་ %1$d གསར་སྒྱུར་བྱས་མེད།</item>
+        <item quantity="other">ཉར་ཚགས་བར་སྟོང་མི་འདང་། རྣམ་གྲངས་ %1$d གསར་སྒྱུར་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས།</item>
+        <item quantity="other">དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">WLAN ལ་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས།</item>
+        <item quantity="other">WLAN ལ་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">གློག་ཚད་གྲོན་ཆུང་བྱ་ཆེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས།</item>
+        <item quantity="other">གློག་ཚད་གྲོན་ཆུང་བྱ་ཆེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">ལག་ཁྱེར་ཁ་པར་གྱི་དྲོད་ཚད་ཅུང་མཐོ། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས་ཟིན།</item>
+        <item quantity="other">ལག་ཁྱེར་ཁ་པར་གྱི་དྲོད་ཚད་ཅུང་མཐོ། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">སྤྲིན་ཞབས་ཞུའི་རྩོལ་ནུས་སྙོམ་སྒྲིག་བྱས། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས་ཟིན།</item>
+        <item quantity="other">སྤྲིན་ཞབས་ཞུའི་རྩོལ་ནུས་སྙོམ་སྒྲིག་བྱས། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">ངོས་སྙོམས་གློག་ཀླད་ཀྱི་དྲོད་ཚད་ཅུང་མཐོ། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས་ཟིན།</item>
+        <item quantity="other">ངོས་སྙོམས་གློག་ཀླད་ཀྱི་དྲོད་ཚད་ཅུང་མཐོ། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་སྐབས་སྡོད་བྱས་ཟིན།</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="other">སྤྲིན་སྣེ་ནས་ཐོན་པའི་རྣམ་གྲངས་ %1$d གོམ་མཉམ་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">འདྲ་པར་ %1$d</item>
+        <item quantity="other">འདྲ་པར། %1$d</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">བརྙན་ཟློས%1$d</item>
+        <item quantity="other">བརྙན་ཟློས%1$d</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">ཡི་གློག་ཚད་%1$sལས་དམའ་བ། རྣམ་གྲངས་%2$dཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">གློག་ཚད་%1$sལས་དམའ་བ། རྣམ་གྲངས་%2$dཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">གློག་ཚད་%1$sལས་དམའ། རྣམ་གྲངས་%2$dཕབ་ལེན་བྱས་མེད། གློག་ཁོངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+        <item quantity="other">གློག་ཚད་%1$sལས་དམའ། རྣམ་གྲངས་%2$dཕབ་ལེན་བྱས་མེད། གློག་ཁོངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཕབ་ལེན་བྱས་མེད། གློག་ཁུངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+        <item quantity="other">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཕབ་ལེན་བྱས་མེད། གློག་ཁུངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">ཡི་གློག་བསྲི་དཔེ་རྣམ་ཁ་ཕྱེས་ཟིན། རྣམ་གྲངས་%1$dཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">གློག་བསྲི་དཔེ་རྣམ་ཁ་ཕྱེས་ཟིན། རྣམ་གྲངས་%1$dཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">གློག་བསྲི་རྣམ་པ་ཁ་ཕྱེ་ཟིན། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">གློག་བསྲི་རྣམ་པ་ཁ་ཕྱེ་ཟིན། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད། %2$s</item>
+        <item quantity="other">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད། %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">ནི་དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་%1$dཕབ་ལེན་བྱས་མེད། %2$sཡང་ན་%3$s</item>
+        <item quantity="other">དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་%1$dཕབ་ལེན་བྱས་མེད། %2$sཡང་ན་%3$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">དྲ་རྒྱ་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱ་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">ཁ་པར་གྱི་བར་སྟོང་མི་འདང་བ། རྣམ་གྲངས་%1$dཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">ཁ་པར་གྱི་བར་སྟོང་མི་འདང་བ། རྣམ་གྲངས་%1$dཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">ཉར་ཚགས་བར་སྟོང་མི་འདང་། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">ཉར་ཚགས་བར་སྟོང་མི་འདང་། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། ཚན་པ་%1$dཕབ་འཇུག་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། ཚན་པ་%1$dཕབ་འཇུག་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">ཉར་ཚགས་བར་སྟོང་མི་འདང་། མ་པར་རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+        <item quantity="other">ཉར་ཚགས་བར་སྟོང་མི་འདང་། མ་པར་རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག ཀ་ལོ་དྲི་གསོག་ཆས་ཁེངས་འདུག</item>
+        <item quantity="other">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག ཀ་ལོ་དྲི་གསོག་ཆས་ཁེངས་འདུག</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་རྫས་དེ་ %2$s ལས་ཉུང་སྐབས། སྤྲིན་མཛོད་མཉམ་བགྲོད་བྱེད་རྒྱུ་བར་མཚམས་འཇོག་ངེས།</item>
+        <item quantity="other">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་རྫས་དེ་ %2$s ལས་ཉུང་སྐབས། སྤྲིན་མཛོད་མཉམ་བགྲོད་བྱེད་རྒྱུ་བར་མཚམས་འཇོག་ངེས།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་ཁུངས་ཉར་ཚགས་རྣམ་པ་ནང་ཀ་ལོ་དྲི་མཉམ་བགྲོད་བར་མཚམས་འཇོག་འདུག</item>
+        <item quantity="other">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་ཁུངས་ཉར་ཚགས་རྣམ་པ་ནང་ཀ་ལོ་དྲི་མཉམ་བགྲོད་བར་མཚམས་འཇོག་འདུག</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">སྤྲིན་བར་སྟོང་ཁེངས་ཟིན། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་མེད།</item>
+        <item quantity="other">སྤྲིན་བར་སྟོང་ཁེངས་ཟིན། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">ཡི་གློག་ཚད་%1$sལས་དམའ་བ།རྣམ་གྲངས་%2$dཡར་སྐྱེལ་མེད།</item>
+        <item quantity="other">གློག་ཚད་%1$sལས་དམའ་བ། རྣམ་གྲངས་%2$dཡར་སྐྱེལ་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">གློག་ཚད་%1$sལས་དམའ། རྣམ་གྲངས་%2$dཡར་སྐྱེལ་བྱས་མེད། གློག་ཁོངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+        <item quantity="other">གློག་ཚད་%1$sལས་དམའ། རྣམ་གྲངས་%2$dཡར་སྐྱེལ་བྱས་མེད། གློག་ཁོངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཡར་སྐྱེལ་བྱས་མེད། གློག་ཁུངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+        <item quantity="other">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཡར་སྐྱེལ་བྱས་མེད། གློག་ཁུངས་ལ་སྦྲེལ་མཐུད་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">གློག་ཚད་ %1$s ལས་དམའ། རྣམ་གྲངས་ %2$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">ཡི་གློག་བསྲི་དཔེ་རྣམ་ཁ་ཕྱེས་ཟིན། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་མེད།</item>
+        <item quantity="other">གློག་བསྲི་དཔེ་རྣམ་ཕྱེས་ཟིན། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">གློག་བསྲི་རྣམ་པ་ཁ་ཕྱེ་ཟིན། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">གློག་བསྲི་རྣམ་པ་ཁ་ཕྱེ་ཟིན། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">སྤྲིན་བར་སྟོང་ཁ་གང་ཟིན། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">སྤྲིན་བར་སྟོང་ཁ་གང་ཟིན། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག ཀ་ལོ་དྲི་གསོག་ཆས་ཁེངས་འདུག</item>
+        <item quantity="other">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག ཀ་ལོ་དྲི་གསོག་ཆས་ཁེངས་འདུག</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་རྫས་དེ་ %2$s ལས་ཉུང་སྐབས། སྤྲིན་མཛོད་མཉམ་བགྲོད་བྱེད་རྒྱུ་བར་མཚམས་འཇོག་ངེས།</item>
+        <item quantity="other">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་རྫས་དེ་ %2$s ལས་ཉུང་སྐབས། སྤྲིན་མཛོད་མཉམ་བགྲོད་བྱེད་རྒྱུ་བར་མཚམས་འཇོག་ངེས།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་ཁུངས་ཉར་ཚགས་རྣམ་པ་ནང་ཀ་ལོ་དྲི་མཉམ་བགྲོད་བར་མཚམས་འཇོག་འདུག</item>
+        <item quantity="other">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག གློག་ཁུངས་ཉར་ཚགས་རྣམ་པ་ནང་ཀ་ལོ་དྲི་མཉམ་བགྲོད་བར་མཚམས་འཇོག་འདུག</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག</item>
+        <item quantity="other">འདྲ་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">ནི་དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་བྱས་མེད། %2$s</item>
+        <item quantity="other">ནི་དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད།%1$dརྣམ་གྲངས་ཡར་སྐྱེལ་བྱས་མེད། %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">ནི་དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་བྱས་མེད། %2$sཡང་ན་%3$s</item>
+        <item quantity="other">དྲ་རྒྱར་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་བྱས་མེད། %2$sཡང་ན་%3$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">དྲ་རྒྱ་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱ་སྦྲེལ་མཐུད་བྱས་མེད། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག</item>
+        <item quantity="other">བརྙན་པར་ %1$d མཉམ་བགྲོད་བྱེད་མི་འདུག</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། ཚན་པ་%1$dཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། ཚན་པ་%1$dཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">དྲ་རྒྱ་རྒྱུན་ལྡན་མིན། རྣམ་གྲངས་ %1$d ཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">ཞབས་ཞུ་རྒྱུན་ལྡན་མིན། ཚན་པ་%1$dཡར་སྐྱེལ་བྱས་མེད།</item>
+        <item quantity="other">ཞབས་ཞུ་རྒྱུན་ལྡན་མིན། ཚན་པ་%1$dཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one"></item>
+        <item quantity="other">ཞབས་ཞུ་རྒྱུན་ལྡན་མིན། རྣམ་གྲངས་%1$dཡར་སྐྱེལ་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">རྣམ་གྲངས་ %1$d གོམ་མཉམ་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d གོམ་མཉམ་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">རྣམ་གྲངས་ %1$d སྤྲིན་སྣེར་གོམ་མཉམ་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d སྤྲིན་སྣེར་གོམ་མཉམ་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">བརྙན་ཟློས%1$d</item>
+        <item quantity="other">བརྙན་ཟློས%1$d</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">ཚུལ་དངོས་ཀྱི་དུས་ཡུན་སྐར་ཆ་ %d ལས་བརྒལ་བ་དང་ཕྱོགས་གསུམ་པའི་ལས་སྟེགས་ཁག་གཅིག་གིས་རྒྱབ་སྐྱོར་བྱེད་ཐབས་མེད་སྲིད།</item>
+        <item quantity="other">ཚུལ་དངོས་ཀྱི་དུས་ཡུན་སྐར་ཆ་ %d ལས་བརྒལ་བ་དང་ཕྱོགས་གསུམ་པའི་ལས་སྟེགས་ཁག་གཅིག་གིས་རྒྱབ་སྐྱོར་བྱེད་ཐབས་མེད་སྲིད།</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">ཆེས་མང་ན་ཚུལ་དངོས་ཀྱི་འདྲ་པར་ %1$d དུས་མཚུངས་སུ་ཚོམས་བརྒལ་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་ཚུལ་དངོས་ཀྱི་འདྲ་པར་ %1$d དུས་མཚུངས་སུ་ཚོམས་བརྒལ་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">ཚུལ་དངོས་དུས་ཡུན་སྐར་ཆ་ %1$d ལས་བརྒལ་བས། བྱེད་ནུས་འདིར་གནས་སྐབས་སུ་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+        <item quantity="other">ཚུལ་དངོས་དུས་ཡུན་སྐར་ཆ་ %1$d ལས་བརྒལ་བས། བྱེད་ནུས་འདིར་གནས་སྐབས་སུ་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">ཐེངས་རེར་ཆེས་མང་ན་རྣམ་གྲངས་ %d འདྲུད་འཐེན་བྱ་ཆོག</item>
+        <item quantity="other">ཐེངས་རེར་ཆེས་མང་ན་རྣམ་གྲངས་ %d འདྲུད་འཐེན་བྱ་ཆོག</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">རྣམ་གྲངས་ %d བསྣན་མ་ཐུབ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d བསྣན་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">འདྲ་པར་ %d སྣོན་འཇུག་བྱེད་བཞིན་ཡོད་པས་གསང་བར་སྒྲིག་འགོད་བྱེད་མ་ཐུབ།</item>
+        <item quantity="other">འདྲ་པར་ %d སྣོན་འཇུག་བྱེད་བཞིན་ཡོད་པས་གསང་བར་སྒྲིག་འགོད་བྱེད་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">ཆུ་ཚོད་ %d</item>
+        <item quantity="other">ཆུ་ཚོད་ %d</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">རྣམ་གྲངས་ %d</item>
+        <item quantity="other">རྣམ་གྲངས་ %d</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">སྐར་མ་ %d</item>
+        <item quantity="other">སྐར་མ་ %d</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">སྐར་ཆ་ %d</item>
+        <item quantity="other">སྐར་ཆ་ %d</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">སྐར་ཆ་ %d</item>
+        <item quantity="other">སྐར་ཆ་ %d</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">བརྙན་ཟློས་རྩོམ་སྒྲིག་ནང་འདྲེན་བྱེད་པར་རྒྱབ་སྐྱོར་མི་བྱེད་པའི་རྣམ་གྲངས་ %d ཡོད།</item>
+        <item quantity="other">བརྙན་ཟློས་རྩོམ་སྒྲིག་ནང་འདྲེན་བྱེད་པར་རྒྱབ་སྐྱོར་མི་བྱེད་པའི་རྣམ་གྲངས་ %d ཡོད།</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">ཤོག་ངོས་%1$d དང་ཁྱོན་ཤོག་ངོས་ %2$d ཡོད།</item>
+        <item quantity="other">ཤོག་ངོས་%1$d དང་ཁྱོན་ཤོག་ངོས་ %2$d ཡོད།</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">GIF གྲུབ་པར་ཆེས་མང་ན་འདྲ་པར་ %1$d འདེམས།</item>
+        <item quantity="other">GIF གྲུབ་པར་ཆེས་མང་ན་འདྲ་པར་ %1$d འདེམས།</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">སྐར་ཆ་ %1$d ནང་གི་གནས་ཚུལ་དངོས་ཀྱི་འདྲ་པར་ GIF ལ་བསྒྱུར་བ་ཁོ་ནར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">སྐར་ཆ་ %1$d ནང་གི་གནས་ཚུལ་དངོས་ཀྱི་འདྲ་པར་ GIF ལ་བསྒྱུར་བ་ཁོ་ནར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">འདྲ་པར་ %1$d ལས་མི་ཉུང་བ་བདམས་ནས་ GIF གྲུབ་པར་བྱེད་རོགས།</item>
+        <item quantity="other">འདྲ་པར་ %1$d ལས་མི་ཉུང་བ་བདམས་ནས་ GIF གྲུབ་པར་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">ཆེས་མང་ན་འདྲ་པར་ %1$d GIF ལ་གྲུབ་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་འདྲ་པར་ %1$d GIF ལ་གྲུབ་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">GIF གྲུབ་ཐབས་བྲལ། འདྲ་པར་ %1$d ཁོ་ན་རྣམ་གཞག་གི་བླང་བྱ་དང་མཐུན།</item>
+        <item quantity="other">GIF གྲུབ་ཐབས་བྲལ། འདྲ་པར་ %1$d ཁོ་ན་རྣམ་གཞག་གི་བླང་བྱ་དང་མཐུན།</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་ནང་དུ་ %1$d ལ་ GIF གྲུབ་ཐབས་བྲལ།</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་ནང་དུ་ %1$d GIF གྲུབ་ཐབས་བྲལ།</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">བདམས་ཟིན་པའི་འདྲ་པར་ལས་ %1$d ཡི་རྣམ་གཞག་གིས་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+        <item quantity="other">བདམས་ཟིན་པའི་འདྲ་པར་ནང་དུ་ %1$d ཡི་རྣམ་གཞག་གིས་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Google པར་དེབ་ནས་ཐོན་པའི་རྣམ་གྲངས་ %1$s སྣོན་འཇུག་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">Google པར་དེབ་ནས་ཐོན་པའི་རྣམ་གྲངས་ %1$s སྣོན་འཇུག་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Google པར་དེབ་ཀྱི་ཉར་ཚགས་བར་སྟོང་ཁ་གང་ཟིན། རྣམ་གྲངས་ %1$d གྲབས་ཉར་བྱས་མེད།</item>
+        <item quantity="other">Google པར་དེབ་ཀྱི་ཉར་ཚགས་བར་སྟོང་ཁ་གང་ཟིན། རྣམ་གྲངས་ %1$d གྲབས་ཉར་བྱས་མེད།</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">རྣམ་གྲངས་ %1$s Google པར་དེབ་ཏུ་གྲབས་ཉར་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$s Google པར་དེབ་ཏུ་གྲབས་ཉར་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">HeyTap སྤྲིན་སྣེར་གཞི་གྲངས་ %1$d གོམ་མཉམ་བྱེད་བཞིན་ཡོད་པ་ཞིབ་བཤེར་བྱུང་། ཁ་བརྒྱབ་རྗེས་རང་འགུལ་གྱིས་གོམ་མཉམ་མི་བྱེད། གཞི་གྲངས་ཀྱི་བདེ་འཇགས་ལ་འགན་སྲུང་བྱེད་ཆེད། གོམ་མཉམ་ལེགས་འགྲུབ་བྱུང་བ་སྒུག་རྗེས་ཁ་རྒྱག་རྒྱུའི་གྲོས་གཞི་འདོན།</item>
+        <item quantity="other">HeyTap སྤྲིན་སྣེར་གཞི་གྲངས་ %1$d གོམ་མཉམ་བྱེད་བཞིན་ཡོད་པ་ཞིབ་བཤེར་བྱུང་། ཁ་བརྒྱབ་རྗེས་རང་འགུལ་གྱིས་གོམ་མཉམ་མི་བྱེད། གཞི་གྲངས་ཀྱི་བདེ་འཇགས་ལ་འགན་སྲུང་བྱེད་ཆེད། གོམ་མཉམ་ལེགས་འགྲུབ་བྱུང་བ་སྒུག་རྗེས་ཁ་རྒྱག་རྒྱུའི་གྲོས་གཞི་འདོན།</item>
+    </plurals>
+    <plurals name="image_to_ai_selected_image_quantity_beyond">
+        <item quantity="one">མང་ཤོས་སུ་པར་རིས་%dལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">མང་ཤོས་སུ་པར་རིས་%dལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">ཆེས་མང་ན་རྒྱུན་སྤྱོད་པར་དེབ་ %d སྣོན་ཆོག</item>
+        <item quantity="other">ཆེས་མང་ན་རྒྱུན་སྤྱོད་པར་དེབ་ %d སྣོན་ཆོག</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">ཉེ་འགྲམ་གྱི་སྒྲིག་ཆས་ %1$d གསར་རྙེད་བྱུང་།</item>
+        <item quantity="other">ཉེ་འགྲམ་གྱི་སྒྲིག་ཆས་ %1$d གསར་རྙེད་བྱུང་།</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">ཉིན་ %1$d</item>
+        <item quantity="other">ཉིན་ %1$d</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">འདྲ་པར། %1$d</item>
+        <item quantity="other">འདྲ་པར་ %1$d</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">བརྙན་ཟློས%1$d</item>
+        <item quantity="other">བརྙན་ཟློས%1$d</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">ཆེས་མང་ན་སྦྱར་ཤོག་ %1$d འདེམས།</item>
+        <item quantity="other">ཆེས་མང་ན་སྦྱར་ཤོག་ %1$d འདེམས།</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">རྣམ་གྲངས་ %1$d སྒེར་དབང་སྤྲིན་ནས་བསུབ་རྒྱུ་ཡིན།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d སྒེར་དབང་སྤྲིན་ནས་བསུབ་རྒྱུ་ཡིན།</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">ཕབ་ལེན་ལེགས་འགྲུབ་བྱུང་། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱེད་མ་ཐུབ།</item>
+        <item quantity="other">ཕབ་ལེན་ལེགས་འགྲུབ་བྱུང་། རྣམ་གྲངས་ %1$d ཕབ་ལེན་བྱེད་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">རྣམ་གྲངས་%1$d ཕབ་ལེན་ལེགས་འགྲུབ་བྱུང་།</item>
+        <item quantity="other">རྣམ་གྲངས་%1$d ཕབ་ལེན་ལེགས་འགྲུབ་བྱུང་།</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">རྣམ་གྲངས་ %1$d/%2$d ཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d/%2$d ཕབ་ལེན་བྱེད་བཞིན་ཡོད།</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">བདམས་པའི་ས་ཁོངས་ལ་ཅི་ལྟར་བཟོ་བཅོས་བྱེད་འདོད།</item>
+        <item quantity="other">བདམས་པའི་ས་ཁོངས་ལ་ཅི་ལྟར་བཟོ་བཅོས་བྱེད་འདོད།</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">ཆེས་མང་ན་སྦྱར་རིས་ %d སྣོན་ཆོག</item>
+        <item quantity="other">ཆེས་མང་ན་སྦྱར་རིས་ %d སྣོན་ཆོག</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">གང་འདོད་སྦྱར་གྱི་ཁྲོད་དུ་ཆེས་མང་ན་ཚུལ་དངོས་འདྲ་པར་ %d སྣོན་ཆོག ཚད་ལས་བརྒལ་བའི་འགུལ་རྣམ་སྦྱར་རིས་དེ་རང་འགུལ་གྱིས་འགུལ་མེད་སྦྱར་རིས་སུ་བསྒྱུར་རྒྱུ་ཡིན།</item>
+        <item quantity="other">གང་འདོད་སྦྱར་གྱི་ཁྲོད་དུ་ཆེས་མང་ན་ཚུལ་དངོས་འདྲ་པར་ %d སྣོན་ཆོག ཚད་ལས་བརྒལ་བའི་འགུལ་རྣམ་སྦྱར་རིས་དེ་རང་འགུལ་གྱིས་འགུལ་མེད་སྦྱར་རིས་སུ་བསྒྱུར་རྒྱུ་ཡིན།</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">སྤྱི་འབྲེལ་སྟེགས་བུར་མཉམ་སྤྱོད་བྱེད་བདེ་ཡོང་བའི་ཆེད་དུ། སྐར་ཆ་ %d ནང་ཚུན་གྱི་གསར་རྩོམ་ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">སྤྱི་འབྲེལ་སྟེགས་བུར་མཉམ་སྤྱོད་བྱེད་བདེ་ཡོང་བའི་ཆེད་དུ། སྐར་ཆ་ %d ནང་ཚུན་གྱི་གསར་རྩོམ་ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">སྐར་ཆ་ %d ནང་གི་སྦྱར་རིས་གསར་རྩོམ་ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">སྐར་ཆ་ %d ནང་གི་སྦྱར་རིས་གསར་རྩོམ་ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">སྐར་ཆ་ %d ནང་གི་སྦྱར་རིས་ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">སྐར་ཆ་ %d ནང་གི་སྦྱར་རིས་ལ་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">སྐར་ཆ་ %d ནང་གི་བརྙན་ཟློས་གསར་རྩོམ་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">སྐར་ཆ་ %d ནང་གི་བརྙན་ཟློས་གསར་རྩོམ་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">བདམས་པའི་ས་ཁོངས་ཇི་ལྟར་བཟོ་བཅོས་བྱེད་པར་ཞིབ་བརྗོད་བྱེད།</item>
+        <item quantity="other">བདམས་པའི་ས་ཁོངས་ཇི་ལྟར་བཟོ་བཅོས་བྱེད་པར་ཞིབ་བརྗོད་བྱེད།</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">སྐར་ཆ་ %1$d རྗེས་ནས་སྒྲ་ཕབ་མཚམས་འཇོག</item>
+        <item quantity="other">སྐར་ཆ་ %1$d རྗེས་ནས་སྒྲ་ཕབ་མཚམས་འཇོག</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">ཆེས་མང་ན་ས་ཁོངས་ %1$d འདེམས།</item>
+        <item quantity="other">ཆེས་མང་ན་ས་ཁོངས་ %1$d འདེམས།</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">སྐར་ཆ་ %1$d ཡི་ནང་གི་ཚུལ་དངོས་ཁོ་ནར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">སྐར་ཆ་ %1$d ནང་གི་ཚུལ་དངོས་ཁོ་ནར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">རྒྱུ་ཆ་ཅུང་ཆེ་བས། ཧ་ལམ་སྐར་མ་ %1$d ལ་སྒུག་དགོས།</item>
+        <item quantity="other">རྒྱུ་ཆ་ཅུང་ཆེ་བས། ཧ་ལམ་སྐར་མ་ %1$d ལ་སྒུག་དགོས།</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">བདམས་ཟིན་པའི་འདྲ་པར་ %d ཕྱིར་འདྲེན།</item>
+        <item quantity="other">བདམས་ཟིན་པའི་འདྲ་པར་ %d ཕྱིར་འདྲེན།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">ཡི་མཐོ་ཚད་ %1$d mm ལས་ཆུང་མི་རུང་།</item>
+        <item quantity="other">ཡི་མཐོ་ཚད་ %1$d mm ལས་ཆུང་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">ཡི་མཐོ་ཚད་ %1$d px ལས་ཆུང་མི་རུང་།</item>
+        <item quantity="other">ཡི་མཐོ་ཚད་ %1$d px ལས་ཆུང་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">ཡི་མཐོ་ཚད་ %1$d mm ལས་ཆེ་མི་རུང་།</item>
+        <item quantity="other">ཡི་མཐོ་ཚད་ %1$d mm ལས་ཆེ་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">ཡི་མཐོ་ཚད་ %1$d px ལས་ཆེ་མི་རུང་།</item>
+        <item quantity="other">ཡི་མཐོ་ཚད་ %1$d px ལས་ཆེ་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">ཡི་ཆེ་ཆུང་ %1$d KB ལས་ཆུང་མི་རུང་།</item>
+        <item quantity="other">ཡི་ཆེ་ཆུང་ %1$d KB ལས་ཆུང་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">ཡི་ཆེ་ཆུང་ %1$d KB ལས་ཆེ་མི་རུང་།</item>
+        <item quantity="other">ཡི་ཆེ་ཆུང་ %1$d KB ལས་ཆེ་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">ཡི་ཞེང་ཚད་ %1$d mm ལས་ཆུང་མི་རུང་།</item>
+        <item quantity="other">ཡི་ཞེང་ཚད་ %1$d mm ལས་ཆུང་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">ཡི་ཞེང་ཚད་ %1$d px ལས་ཆུང་མི་རུང་།</item>
+        <item quantity="other">ཡི་ཞེང་ཚད་ %1$d px ལས་ཆུང་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">ཡི་ཞེང་ཚད་ %1$d mm ལས་ཆེ་མི་རུང་།</item>
+        <item quantity="other">ཡི་ཞེང་ཚད་ %1$d mm ལས་ཆེ་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">ཡི་ཞེང་ཚད་ %1$d px ལས་ཆེ་མི་རུང་།</item>
+        <item quantity="other">ཡི་ཞེང་ཚད་ %1$d px ལས་ཆེ་མི་རུང་།</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">བདམས་པའི་འདྲ་པར་ %d ཁོ་ན་ཉར་བར་བྱ།</item>
+        <item quantity="other">བདམས་པའི་འདྲ་པར་ %d ཁོ་ན་ཉར་བར་བྱ།</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">རྣམ་གྲངས་ %d བསུབ་འདོར་བྱ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d བསུབ་འདོར་བྱ།</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">རྣམ་གྲངས་ %d བསུབ་འདོར་བྱ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d བསུབ་འདོར་བྱ།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">སྦྱར་ཤོག་ %1$d སྣོན་མ་ཐུབ།</item>
+        <item quantity="other">སྦྱར་ཤོག་ %1$d སྣོན་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">སྦྱར་ཤོག་ %d སྣོན་མ་ཐུབ།</item>
+        <item quantity="other">སྦྱར་ཤོག་ %d སྣོན་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">སྦྱར་ཤོག་ %1$s སྣོན་པ་ལེགས་འགྲུབ་བྱུང་སོང་།</item>
+        <item quantity="other">སྦྱར་ཤོག་ %1$s སྣོན་པ་ལེགས་འགྲུབ་བྱུང་སོང་།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">སྦྱར་རིས་ %1$s སྣོན་ཐུབ་སོང་།</item>
+        <item quantity="other">སྦྱར་རིས་ %1$s སྣོན་ཐུབ་སོང་།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">སྦྱར་རིས་ %1$d བསྣན་ཟིན།</item>
+        <item quantity="other">སྦྱར་རིས་ %1$d བསྣན་ཟིན།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">ཚུལ་དངོས་གང་འདོད་སྦྱོར་བའི་ནང་ཆེས་མང་ན་ཚུལ་དངོས་ཀྱི་སྦྱར་རིས་ %1$d བསྣན་ཆོག དེ་ལས་བརྒལ་ན་རང་འགུལ་གྱིས་འཇགས་རྣམ་སྦྱར་རིས་སུ་བསྒྱུར་རྒྱུ་ཡིན།</item>
+        <item quantity="other">ཚུལ་དངོས་གང་འདོད་སྦྱོར་བའི་ནང་ཆེས་མང་ན་ཚུལ་དངོས་ཀྱི་སྦྱར་རིས་ %1$d བསྣན་ཆོག དེ་ལས་བརྒལ་ན་རང་འགུལ་གྱིས་འཇགས་རྣམ་སྦྱར་རིས་སུ་བསྒྱུར་རྒྱུ་ཡིན།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">ཆེས་མང་ན་ཚུལ་དངོས་འདྲ་པར་ %1$d སྣོན་ཐུབ།</item>
+        <item quantity="other">ཆེས་མང་ན་ཚུལ་དངོས་འདྲ་པར་ %1$d སྣོན་ཐུབ།</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">ཆེས་མང་ན་འདྲ་པར་ %1$d སྣོན་ཐུབ།</item>
+        <item quantity="other">ཆེས་མང་ན་འདྲ་པར་ %1$d སྣོན་ཐུབ།</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">འདོར་ནུས་བཀོལ་སྤྱོད་བྱེད་དགོས་ན། སྔོན་ལ་འདོར་ནུས་བར་འཇུག་ཆས་ཕབ་ལེན་གནང་རོགས།ཡིག་ཆའི་ཆེ་ཆུང%1$sཡིན་པ་དང་སྔོན་དཔག་བྱས་ན་སྐར་མ %2$dདགོས།</item>
+        <item quantity="other">འདོར་ནུས་བཀོལ་སྤྱོད་བྱེད་དགོས་ན། སྔོན་ལ་འདོར་ནུས་བར་འཇུག་ཆས་ཕབ་ལེན་གནང་རོགས།ཡིག་ཆའི་ཆེ་ཆུང%1$sཡིན་པ་དང་སྔོན་དཔག་བྱས་ན་སྐར་མ%2$d དགོས།</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">ཡིག་ཆའི་ཆེ་ཆུང་%1$dཡིན་པས། སྔོན་དཔག་བྱས་ན་ཕབ་ལེན་བྱེད་པར་དུས་ཚོད་%2$dདགོས།</item>
+        <item quantity="other">ཡིག་ཆའི་ཆེ་ཆུང་%1$dཡིན་པས། སྔོན་དཔག་བྱས་ན་ཕབ་ལེན་བྱེད་པར་དུས་ཚོད་%2$dདགོས།</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">བདམས་ཟིན་པའི་འདྲ་པར་ནང་དུ་ %1$d ཡི་རྣམ་གཞག་གིས་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+        <item quantity="other">བདམས་ཟིན་པའི་འདྲ་པར་ནང་དུ་ %1$d ཡི་རྣམ་གཞག་གིས་རྒྱབ་སྐྱོར་མི་བྱེད།</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">འདྲ་པར(%1$d/%2$d)འདེམས།</item>
+        <item quantity="other">འདྲ་པར(%1$d/%2$d)འདེམས།</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d འདེམས་ཟིན།</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">གསོག་དེབ་ %1$d འདེམས་ཟིན།</item>
+        <item quantity="other">གསོག་དེབ་ %1$d དག་འདེམས་ཟིན།</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d འདེམས་ཟིན།</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">བརྙན་པར་ %1$d བདམས་ཟིན།</item>
+        <item quantity="other">བརྙན་པར་ %1$d འདེམས་ཟིན།</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">མང་ཤོས་སུ་སྦྱར་ཤོག་%1$dསྣོན།</item>
+        <item quantity="other">མང་ཤོས་སུ་སྦྱར་ཤོག་%1$dསྣོན།</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">ཆེས་མང་ན་ %1$d འདེམས།</item>
+        <item quantity="other">ཆེས་མང་ན་ %1$d འདེམས།</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">འདྲ་པར་ %d འདོན་འཇུག་བཞིན་པས་བསུབ་འདོར་མ་ཐུབ།</item>
+        <item quantity="other">འདྲ་པར་ %d འདོན་འཇུག་བཞིན་པས་བསུབ་འདོར་མ་ཐུབ།</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">རྣམ་གྲངས་ %1$d གསུབ་མ་ཐུབ། བསྐྱར་དུ་འབད་རོགས་</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d གསུབ་མ་ཐུབ། བསྐྱར་དུ་འབད་རོགས་</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">བརྡ་ཐོ་གསར་བ་%dཡོད།</item>
+        <item quantity="other">བརྡ་ཐོ་གསར་བ་%dཡོད།</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">འཁྲབ་གཟུགས་ %d སྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">འཁྲབ་གཟུགས་ %d སྤོ་འབུད་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">འདྲ་པར་ %1$d</item>
+        <item quantity="other">འདྲ་པར་ %1$d</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">འགུལ་རྣམ་སྦྱར་རིས་ཆེས་མང་ན་ %1$d སྣོན་ཆོག དེ་ལས་མང་བའི་འགུལ་རྣམ་སྦྱར་རིས་རང་འགུལ་གྱིས་འགུལ་མེད་ངང་སྟོན་རྒྱུ་ཡིན།</item>
+        <item quantity="other">འགུལ་རྣམ་སྦྱར་རིས་ཆེས་མང་ན་ %1$d སྣོན་ཆོག དེ་ལས་མང་བའི་འགུལ་རྣམ་སྦྱར་རིས་རང་འགུལ་གྱིས་འགུལ་མེད་ངང་སྟོན་རྒྱུ་ཡིན།</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">ཆེས་མང་ན་རྣམ་གྲངས་ %d ཁོ་ན་ཉེར་སྤྱོད་འདིར་མཉམ་སྤྱོད་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་རྣམ་གྲངས་ %d ཁོ་ན་ཉེར་སྤྱོད་འདིར་མཉམ་སྤྱོད་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">རྣམ་གྲངས་ %d མཉམ་སྤྱོད་བྱེད།</item>
+        <item quantity="other">རྣམ་གྲངས་ %d མཉམ་སྤྱོད་བྱེད།</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">པར་རིས་ %d མཉམ་སྤྱོད་བྱེད།</item>
+        <item quantity="other">པར་རིས་ %d མཉམ་སྤྱོད་བྱེད།</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">བརྙན་ཟློས་ %d མཉམ་སྤྱོད་བྱེད།</item>
+        <item quantity="other">བརྙན་ཟློས་ %d མཉམ་སྤྱོད་བྱེད།</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">དུས་སྐབས་ %d བསུབ་དགོས་སམ།</item>
+        <item quantity="other">དུས་སྐབས་ %d བསུབ་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">ཁྱོད་དང་མཉམ་དུ་འགྲོ་མྱོང་བའི་གཏམ་རྒྱུད་ %d ཡོད།</item>
+        <item quantity="other">ཁྱོད་དང་མཉམ་དུ་འགྲོ་མྱོང་བའི་གཏམ་རྒྱུད་ %d ཡོད།</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">དུས་སྐབས་ %d བདམས་ཟིན།</item>
+        <item quantity="other">དུས་སྐབས་ %d བདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">ཏུའུ་%dབསྐོར་བ་རྒྱག</item>
+        <item quantity="other">ཏུའུ་%dབསྐོར་བ་རྒྱག</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">ཆེས་མང་ན་ཚན་པ་ %s ནང་འདྲེན་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་ཚན་པ་ %s ནང་འདྲེན་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">རྣམ་གྲངས་%1dསྣོན་པ།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1d སྣོན།</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">ཆེས་མང་ན་ LUT ཡིག་ཆ་ %s ནང་འདྲེན་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་ LUT ཡིག་ཆ་ %s ནང་འདྲེན་བྱེད་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">ཆེས་མང་ན་འདྲ་པར་ %d སྣོན་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+        <item quantity="other">ཆེས་མང་ན་འདྲ་པར་ %d སྣོན་པར་རྒྱབ་སྐྱོར་བྱེད།</item>
+    </plurals>
+</resources>

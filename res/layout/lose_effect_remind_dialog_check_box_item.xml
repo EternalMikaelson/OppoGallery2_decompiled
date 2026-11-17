@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/coui_alert_dialog_item_background" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_single_list_padding_left" android:paddingEnd="@dimen/alert_dialog_single_list_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.checkbox.COUICheckBox android:id="@id/checkbox" android:background="@null" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:paddingStart="0.0dp" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="?couiTextAppearanceDescription" android:textSize="12.0sp" android:textColor="@color/lose_effect_dialog_not_remind_color" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picture3d_editor_drop_olive_hdr_no_longer_remind_checkbox_desc" android:layout_centerVertical="true" android:lineSpacingMultiplier="1.15" android:layout_marginStart="30.0dp" android:layout_alignParentStart="true" />
+</RelativeLayout>

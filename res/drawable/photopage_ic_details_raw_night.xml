@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="19.0dp" android:width="19.0dp" android:viewportWidth="19.0" android:viewportHeight="19.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0.781,0.75h18v18h-18z" />
+        <path android:fillColor="#000000" android:pathData="M0.781,0.75h18v18h-18z" />
+        <group>
+            <clip-path android:pathData="M0.781,0.75h18v18h-18z" />
+            <path android:fillColor="#ffffff" android:pathData="M3.312,10.502H2.801V12.368H1.531V7.274H3.546C4.146,7.274 4.598,7.388 4.901,7.615C5.086,7.748 5.232,7.918 5.341,8.126C5.449,8.334 5.504,8.573 5.504,8.842C5.504,9.178 5.422,9.47 5.259,9.719C5.096,9.967 4.856,10.155 4.539,10.282L5.809,12.368H4.362L3.312,10.502ZM4.163,8.594C4.121,8.504 4.061,8.431 3.986,8.374C3.849,8.284 3.671,8.239 3.454,8.239H2.801V9.566H3.454C3.671,9.566 3.849,9.519 3.986,9.424C4.061,9.367 4.121,9.294 4.163,9.204C4.206,9.114 4.227,9.013 4.227,8.899C4.227,8.786 4.206,8.684 4.163,8.594Z" android:fillAlpha="0.3" />
+            <path android:fillColor="#ffffff" android:pathData="M9.249,11.403H7.454L7.157,12.368H5.908L7.632,7.274H9.171L10.895,12.368H9.547L9.249,11.403ZM7.745,10.417H8.958L8.356,8.473L7.745,10.417Z" android:fillAlpha="0.3" />
+            <path android:fillColor="#ffffff" android:pathData="M15.35,12.368L14.484,8.8L13.626,12.368H12.243L10.938,7.274H12.236L13.017,10.878L13.839,7.274H15.13L15.96,10.878L16.733,7.274H18.031L16.726,12.368H15.35Z" android:fillAlpha="0.3" />
+            <path android:fillColor="#00000000" android:pathData="M4.047,5.492C5.338,3.768 7.395,2.654 9.715,2.654C12.035,2.654 14.092,3.768 15.383,5.492" android:strokeColor="#ffffff" android:strokeWidth="0.993141" android:strokeAlpha="0.3" />
+            <path android:fillColor="#00000000" android:pathData="M4.047,14.004C5.338,15.728 7.395,16.841 9.715,16.841C12.035,16.841 14.092,15.728 15.383,14.004" android:strokeColor="#ffffff" android:strokeWidth="0.993141" android:strokeAlpha="0.3" />
+        </group>
+    </group>
+</vector>

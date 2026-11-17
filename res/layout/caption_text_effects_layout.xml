@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:paddingBottom="@dimen/caption_effect_selector_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/text_effects_linearlayout_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.oplus.gallery.basebiz.caption.widget.CaptionLinearListView android:id="@id/caption_color_recycler_view" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/caption_editor_color_selector_width" android:layout_marginTop="@dimen/caption_color_selector_margin_top" android:layout_marginBottom="@dimen/caption_color_selector_margin_bottom" app:noPaddingFadingEdge="@dimen/base_editor_fading_edge_width" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

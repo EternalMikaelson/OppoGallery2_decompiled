@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, bao gồm cả mục %2$2s; nhấn để thêm vào mục \"Thường dùng\".</item>
+        <item quantity="other">Album %1$1s, bao gồm cả các mục %2$2s; nhấn để thêm vào mục \"Thường dùng\".</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s kết quả trùng khớp</item>
+        <item quantity="other">%s kết quả trùng khớp</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Chọn nội dung đa phương tiện của bạn và nhấn vào cửa sổ nổi \"Tạo clip nhanh bằng AI\" bên dưới để tạo nhanh video. Hãy chọn ít nhất %1$s mục để có kết quả tốt hơn.</item>
+        <item quantity="other">Chọn nội dung đa phương tiện của bạn và nhấn vào cửa sổ nổi \"Tạo clip nhanh bằng AI\" bên dưới để tạo nhanh video. Hãy chọn ít nhất %1$s mục để có kết quả tốt hơn.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Chọn nội dung đa phương tiện của bạn và nhấn vào \"Sửa - Tạo clip nhanh bằng AI\" ở dưới cùng để tạo nhanh video. Hãy chọn ít nhất %1$s mục để có kết quả tốt hơn.</item>
+        <item quantity="other">Chọn nội dung đa phương tiện của bạn và nhấn vào \"Sửa - Tạo clip nhanh bằng AI\" ở dưới cùng để tạo nhanh video. Hãy chọn ít nhất %1$s mục để có kết quả tốt hơn.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Không hỗ trợ các ảnh động dài hơn %1$d giây</item>
+        <item quantity="other">Không hỗ trợ các ảnh động dài hơn %1$d giây</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Video không được dài quá %d giây</item>
+        <item quantity="other">Video không được dài quá %d giây</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d ứng dụng bị khóa</item>
+        <item quantity="other">%d ứng dụng bị khóa</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Album %1$1s, bao gồm cả mục %2$2s; đã thêm vào mục \"Thường dùng\".</item>
+        <item quantity="other">Album %1$1s, bao gồm cả các mục %2$2s; đã thêm vào mục \"Thường dùng\".</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Thêm (%1$d)</item>
+        <item quantity="other">Thêm (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Thêm (%1$d/%2$d)</item>
+        <item quantity="other">Thêm (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">Đã điều chỉnh %1$d mục</item>
+        <item quantity="other">Đã điều chỉnh %1$d mục</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d ảnh đang được tải và không thể thêm vào.</item>
+        <item quantity="other">%d ảnh đang được tải và không thể thêm vào.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d tài liệu</item>
+        <item quantity="other">%1$d tài liệu</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d thẻ ngân hàng</item>
+        <item quantity="other">%1$d thẻ ngân hàng</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Các mục từ %d album sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số mục không được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+        <item quantity="other">Các mục từ %d album sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số mục không được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Tất cả ảnh chụp liên tiếp đã được sao lưu lên đám mây và sẽ được lưu giữ ở đó.</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Tất cả ảnh chụp liên tiếp đã được sao lưu lên đám mây và sẽ được lưu giữ ở đó.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số ảnh chưa được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số ảnh chưa được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d mục sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số mục không được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+        <item quantity="other">%d mục sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số mục không được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d ảnh sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số ảnh chưa được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+        <item quantity="other">%d ảnh sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số ảnh chưa được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d video sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số video chưa được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+        <item quantity="other">%d video sẽ bị xóa khỏi thiết bị này và vẫn còn trong \"Xóa gần đây\" trong 30 ngày. Một số video chưa được sao lưu. Bạn có thể muốn sao lưu chúng trước khi xóa.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s hình thu nhỏ sẽ được thay thế bằng phiên bản gốc.</item>
+        <item quantity="other">%1$s hình thu nhỏ sẽ được thay thế bằng phiên bản gốc.</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="one">Ảnh được tìm thấy: %s. Bật tính năng này để sắp xếp các ảnh liên quan. Bạn có thể bật hoặc tắt tính năng này bất kỳ lúc nào trong Cài đặt.</item>
+        <item quantity="other">Ảnh được tìm thấy: %s. Bật tính năng này để sắp xếp các ảnh liên quan. Bạn có thể bật hoặc tắt tính năng này bất kỳ lúc nào trong Cài đặt.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d căn cước</item>
+        <item quantity="other">%1$d căn cước</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Hợp nhất và xóa %d người?</item>
+        <item quantity="other">Hợp nhất và xóa %d người?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Xóa %d ảnh khỏi album này?</item>
+        <item quantity="other">Xóa %d ảnh khỏi album này?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Xóa %d mục khỏi album này?</item>
+        <item quantity="other">Xóa %d mục khỏi album này?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Xóa %d video khỏi album này?</item>
+        <item quantity="other">Xóa %d video khỏi album này?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Dùng hình thu nhỏ</item>
+        <item quantity="other">Dùng hình thu nhỏ</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Dùng ảnh gốc</item>
+        <item quantity="other">Dùng ảnh gốc</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 ảnh là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+        <item quantity="other">Một số ảnh đã chọn là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Mỗi lần có thể chuyển đổi tối đa %1$d hình ảnh sang PDF</item>
+        <item quantity="other">Mỗi lần có thể chuyển đổi tối đa %1$d hình ảnh sang PDF</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Không đủ bộ nhớ thiết bị. Chưa sao chép %1$d mục.</item>
+        <item quantity="other">Không đủ bộ nhớ thiết bị. Chưa sao chép %1$d mục.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">Đã sao chép %d mục</item>
+        <item quantity="other">Đã sao chép %d mục</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Không thể sao chép quá %d mục</item>
+        <item quantity="other">Không thể sao chép quá %d mục</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d ảnh sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+        <item quantity="other">%d ảnh sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d mục sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+        <item quantity="other">%d mục sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d video sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+        <item quantity="other">%d video sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Ảnh này sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Không thể hoàn tác hành động này.</item>
+        <item quantity="other">Các ảnh này sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Không thể hoàn tác hành động này.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Ảnh này sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.</item>
+        <item quantity="other">Các ảnh này sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Mục này sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Không thể hoàn tác hành động này.</item>
+        <item quantity="other">Các mục này sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Không thể hoàn tác hành động này.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Mục này sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.</item>
+        <item quantity="other">Các mục này sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d ảnh sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d ảnh sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d mục sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d mục sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d video sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d video sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Xóa %d album?</item>
+        <item quantity="other">Xóa %d album?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Xóa %d ảnh chụp liên tiếp?</item>
+        <item quantity="other">Xóa %d ảnh chụp liên tiếp?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d kỷ niệm sẽ bị xóa khỏi thiết bị này. Ảnh trong kỷ niệm này sẽ được giữ lại trong ứng dụng \"Ảnh\".</item>
+        <item quantity="other">%d kỷ niệm sẽ bị xóa khỏi thiết bị này. Ảnh trong các kỷ niệm này sẽ được giữ lại trong ứng dụng \"Ảnh\".</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Xóa %d kỷ niệm?</item>
+        <item quantity="other">Xóa %d kỷ niệm?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Xóa vĩnh viễn %d mục</item>
+        <item quantity="other">Xóa vĩnh viễn %d mục</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Xóa %d mục</item>
+        <item quantity="other">Xóa %d mục</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Xóa %d ảnh?</item>
+        <item quantity="other">Xóa %d ảnh?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Xóa %d mục?</item>
+        <item quantity="other">Xóa %d mục?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Xóa %d video?</item>
+        <item quantity="other">Xóa %d video?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Xóa %d hình dán?</item>
+        <item quantity="other">Xóa %d hình dán?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Xóa ảnh này</item>
+        <item quantity="other">Xóa các ảnh này</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Video này sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Không thể hoàn tác hành động này.</item>
+        <item quantity="other">Các video này sẽ bị xóa vĩnh viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Không thể hoàn tác hành động này.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Video này sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.</item>
+        <item quantity="other">Các video này sẽ bị xóa vĩnh viễn. Không thể hoàn tác hành động này.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Đang tải xuống %d mục...</item>
+        <item quantity="other">Đang tải xuống %d mục...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Đang tải xuống %d ảnh…</item>
+        <item quantity="other">Đang tải xuống %d ảnh…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Đang tải xuống %d video…</item>
+        <item quantity="other">Đang tải xuống %d video…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Đặt %d tệp ở chế độ riêng tư?</item>
+        <item quantity="other">Đặt %d tệp ở chế độ riêng tư?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Đặt ảnh này ở chế độ riêng tư?</item>
+        <item quantity="other">Đặt các ảnh này ở chế độ riêng tư?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">Không mã hóa được %d tệp</item>
+        <item quantity="other">Không mã hóa được %d tệp</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Khóa %d album?</item>
+        <item quantity="other">Khóa %d album?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của album đã sao lưu là 60 ngày; album chưa sao lưu là 30 ngày.</item>
+        <item quantity="other">%d album sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của album đã sao lưu là 60 ngày; album chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d ảnh sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+        <item quantity="other">%d ảnh sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d mục sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của mục đã sao lưu là 60 ngày; mục chưa sao lưu là 30 ngày.</item>
+        <item quantity="other">%d mục sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của mục đã sao lưu là 60 ngày; mục chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của video đã sao lưu là 60 ngày; video chưa sao lưu là 30 ngày.</item>
+        <item quantity="other">%d video sẽ bị xóa khỏi thiết bị này. Thời gian tồn tại trong \"Xóa gần đây\" của video đã sao lưu là 60 ngày; video chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="other">%d album sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Thời gian tồn tại trong \"Xóa gần đây\" của album đã sao lưu là 60 ngày; album chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="other">%d ảnh sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Thời gian tồn tại trong \"Xóa gần đây\" của ảnh đã sao lưu là 60 ngày; ảnh chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="other">%d mục sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Thời gian tồn tại trong \"Xóa gần đây\" của mục đã sao lưu là 60 ngày; mục chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="other">%d video sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Thời gian tồn tại trong \"Xóa gần đây\" của video đã sao lưu là 60 ngày; video chưa sao lưu là 30 ngày.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Xuất %d ảnh đã chọn</item>
+        <item quantity="other">Xuất %d ảnh đã chọn</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Xuất %d ảnh?</item>
+        <item quantity="other">Xuất %d ảnh?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Không thêm được %1$d mục vào yêu thích. Vui lòng thử lại.</item>
+        <item quantity="other">Không thêm được %1$d mục vào yêu thích. Vui lòng thử lại.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Kích cỡ tệp: %1$s. Thời gian tải xuống ước tính: %2$s phút.</item>
+        <item quantity="other">Kích cỡ tệp: %1$s. Thời gian tải xuống ước tính: %2$s phút.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Dùng hình thu nhỏ</item>
+        <item quantity="other">Dùng hình thu nhỏ</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Dùng ảnh gốc</item>
+        <item quantity="other">Dùng ảnh gốc</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 ảnh là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+        <item quantity="other">Một số ảnh đã chọn là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Đã tìm thấy ảnh chụp %s. Hãy chuyển vào \"Hộp thẻ\" để dễ truy cập hơn.</item>
+        <item quantity="other">Đã tìm thấy các ảnh chụp %s. Hãy chuyển vào \"Hộp thẻ\" để dễ truy cập hơn.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Đã chuyển ảnh chụp %1$s vào \"Hộp thẻ\"</item>
+        <item quantity="other">Đã chuyển các ảnh chụp %1$s vào \"Hộp thẻ\"</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d vé/biên nhận</item>
+        <item quantity="other">%1$d vé/biên nhận</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Mục bạn chọn đã tồn tại trong album</item>
+        <item quantity="other">Các mục bạn chọn đã tồn tại trong album</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d mục</item>
+        <item quantity="other">%d mục</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d người sẽ được hợp nhất và xóa khỏi \"%2$s\".</item>
+        <item quantity="other">%1$d người sẽ được hợp nhất và xóa khỏi \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d ảnh đang tải và không thể di chuyển được</item>
+        <item quantity="other">%d ảnh đang tải và không thể di chuyển được</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">Đã di chuyển %d mục</item>
+        <item quantity="other">Đã di chuyển %d mục</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one"></item>
+        <item quantity="other">%1$d người</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Đang tải xuống ảnh gốc...</item>
+        <item quantity="other">Đang tải xuống ảnh gốc...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Đã sao chép ảnh. Không thể sao chép các video vào album này.</item>
+        <item quantity="other">Đã sao chép ảnh. Không thể sao chép các video vào album này.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Đã di chuyển ảnh. Không thể di chuyển video vào album này.</item>
+        <item quantity="other">Đã di chuyển các ảnh. Không thể di chuyển video vào album này.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d album sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d album sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d ảnh sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d ảnh sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d mục sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d mục sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d video sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d video sẽ bị xóa khỏi thiết bị này. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Ảnh này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+        <item quantity="other">Các ảnh này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Ảnh này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">Các ảnh này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Album này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+        <item quantity="other">Các album này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Album này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">Các album này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Mục này sẽ bị xóa viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+        <item quantity="other">Các mục này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Mục này sẽ bị xóa viễn khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">Các mục này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d album sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d album sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d album sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d album sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d ảnh chụp liên tiếp sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d ảnh sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d ảnh sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d ảnh sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d ảnh sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d mục sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d mục sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d mục sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d mục sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d video sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+        <item quantity="other">%d video sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Những mục đã xóa được giữ lại trong 30 ngày tại \"Xóa gần đây\".</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d video sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">%d video sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Video này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+        <item quantity="other">Các video này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác. Bạn có thể khôi phục các mục đã xóa từ album \"Xóa gần đây\" trong vòng 30 ngày.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Video này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+        <item quantity="other">Các video này sẽ bị xóa khỏi thiết bị này, đám mây và các thiết bị được đồng bộ hóa khác.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Khôi phục %d ảnh?</item>
+        <item quantity="other">Khôi phục %d ảnh?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Khôi phục %d mục?</item>
+        <item quantity="other">Khôi phục %d mục?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Khôi phục %d video?</item>
+        <item quantity="other">Khôi phục %d video?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Khôi phục %d mục</item>
+        <item quantity="other">Khôi phục %d mục</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Không lưu được %d video</item>
+        <item quantity="other">Không lưu được %d video</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">Đã lưu %d video</item>
+        <item quantity="other">Đã lưu %d video</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Dùng hình thu nhỏ</item>
+        <item quantity="other">Dùng hình thu nhỏ</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Dùng ảnh gốc</item>
+        <item quantity="other">Dùng ảnh gốc</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 ảnh là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+        <item quantity="other">Một số ảnh đã chọn là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Xem trước mục đã chọn (%1$d)</item>
+        <item quantity="other">Xem trước các mục đã chọn (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Chọn 1–%1$d ảnh</item>
+        <item quantity="other">Chọn 1–%1$d ảnh</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Dùng hình thu nhỏ</item>
+        <item quantity="other">Dùng hình thu nhỏ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Dùng ảnh gốc</item>
+        <item quantity="other">Dùng ảnh gốc</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 ảnh là hình thu nhỏ. Bạn có thể tải xuống và sử dụng ảnh gốc để thay cho hình thu nhỏ.</item>
+        <item quantity="other">Một số ảnh đã chọn là hình thu nhỏ. Bạn có thể tải xuống và chia sẻ ảnh gốc để thay cho hình thu nhỏ.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d ảnh sẽ bị xóa khỏi album được chia sẻ \"%2$s\".</item>
+        <item quantity="other">%1$d ảnh sẽ bị xóa khỏi album được chia sẻ \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d mục sẽ bị xóa khỏi album được chia sẻ \"%2$s\".</item>
+        <item quantity="other">%1$d mục sẽ bị xóa khỏi album được chia sẻ \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d video sẽ bị xóa khỏi album được chia sẻ \"%2$s\".</item>
+        <item quantity="other">%1$d video sẽ bị xóa khỏi album được chia sẻ \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="other">Xóa %1$d mục</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="other">Không tải xuống được %1$d mục do dung lượng bộ nhớ thiết bị thấp.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">Còn %1$d mục (%2$s). Tiếp tục tải xuống bằng dữ liệu di động?</item>
+        <item quantity="other">Còn %1$d mục (%2$s). Tiếp tục tải xuống bằng dữ liệu di động?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="other">Lỗi mạng. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Mỗi lần có thể lưu tối đa %d ảnh động dưới dạng video</item>
+        <item quantity="other">Mỗi lần có thể lưu tối đa %d ảnh động dưới dạng video</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ảnh</item>
+        <item quantity="other">%1$d ảnh</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">Đã chọn %1$d mục</item>
+        <item quantity="other">Đã chọn %1$d mục</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d mục</item>
+        <item quantity="other">%1$d mục</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Không thể xóa %1$d mục khỏi yêu thích. Vui lòng thử lại.</item>
+        <item quantity="other">Không thể xóa %1$d mục khỏi yêu thích. Vui lòng thử lại.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Vẽ một đối tượng đơn giản và khoanh tròn đối tượng đó để tạo một tác phẩm nghệ thuật. Giới hạn sử dụng: %1$d lần mỗi ngày.</item>
+        <item quantity="other">Vẽ một đối tượng đơn giản và khoanh tròn đối tượng đó để tạo một tác phẩm nghệ thuật. Giới hạn sử dụng: %1$d lần mỗi ngày.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Không thể lưu %d hình dán động</item>
+        <item quantity="other">Không thể lưu %d hình dán động</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Bạn có thể chọn thêm 1–%1$d ảnh</item>
+        <item quantity="other">Bạn có thể chọn thêm 1–%1$d ảnh</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Bạn có thể chọn thêm 1–%1$d ảnh (%2$s)</item>
+        <item quantity="other">Bạn có thể chọn thêm 1–%1$d ảnh (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">bao gồm %d ảnh động</item>
+        <item quantity="other">bao gồm %d ảnh động</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Tải xuống ảnh gốc</item>
+        <item quantity="other">Tải xuống ảnh gốc</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d ảnh trên thiết bị của bạn là phiên bản nhỏ hơn. Tải xuống ảnh gốc với độ phân giải đầy đủ (%2$s)?</item>
+        <item quantity="other">%1$d ảnh trên thiết bị của bạn là phiên bản nhỏ hơn. Tải xuống ảnh gốc với độ phân giải đầy đủ (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudkit_upgrade_dialog_banner_message">
+        <item quantity="one">Khoảng %d ảnh độ phân giải cao</item>
+        <item quantity="other">Khoảng %d ảnh độ phân giải cao</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Đang tải %1$d ảnh gốc xuống</item>
+        <item quantity="other">Đang tải %1$d ảnh gốc xuống</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d ảnh</item>
+        <item quantity="other">%1$d ảnh</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d ảnh gốc chưa tải xuống. Không đủ bộ nhớ thiết bị.</item>
+        <item quantity="other">%1$d ảnh gốc chưa tải xuống. Không đủ bộ nhớ thiết bị.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d mục chưa tải xuống. Không đủ bộ nhớ thiết bị.</item>
+        <item quantity="other">%1$d mục chưa tải xuống. Không đủ bộ nhớ thiết bị.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Đã tạm dừng tải lên %1$d mục. Không có kết nối internet.</item>
+        <item quantity="other">Đã tạm dừng tải lên %1$d mục. Không có kết nối internet.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Đã tạm dừng tải lên %1$d mục. Chưa kết nối với Wi-Fi.</item>
+        <item quantity="other">Đã tạm dừng tải lên %1$d mục. Chưa kết nối với Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Đã tạm dừng tải lên %1$d mục để tiết kiệm pin.</item>
+        <item quantity="other">Đã tạm dừng tải lên %1$d mục để tiết kiệm pin.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Đã tạm dừng tải lên %1$d mục. Điện thoại quá nóng.</item>
+        <item quantity="other">Đã tạm dừng tải lên %1$d mục. Điện thoại quá nóng.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Đã tạm dừng tải lên %1$d mục. Đang bảo trì đám mây.</item>
+        <item quantity="other">Đã tạm dừng tải lên %1$d mục. Đang bảo trì đám mây.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Đã tạm dừng tải lên %1$d mục. Máy tính bảng quá nóng.</item>
+        <item quantity="other">Đã tạm dừng tải lên %1$d mục. Máy tính bảng quá nóng.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="other">Đang đồng bộ hóa %1$d mục từ đám mây</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d ảnh</item>
+        <item quantity="other">%1$d ảnh</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải xuống.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải xuống. Vui lòng sạc điện thoại.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải xuống. Vui lòng sạc điện thoại.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải xuống. Hãy kết nối với nguồn điện để tiếp tục.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải xuống. Hãy kết nối với nguồn điện để tiếp tục.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải xuống.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Chế độ tiết kiệm pin bật. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Chế độ tiết kiệm pin bật. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Chế độ tiết kiệm pin bật. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Chế độ tiết kiệm pin bật. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải xuống. %2$s.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải xuống. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải xuống. %2$s hoặc %3$s.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải xuống. %2$s hoặc %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Không đủ dung lượng lưu trữ trên đám mây. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Không đủ dung lượng lưu trữ trên đám mây. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Không đủ bộ nhớ thiết bị. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Không đủ bộ nhớ thiết bị. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Lỗi mạng. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Lỗi mạng. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Lỗi mạng. %1$d mục chưa tải xuống.</item>
+        <item quantity="other">Lỗi mạng. %1$d mục chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Không đủ bộ nhớ thiết bị. %1$d ảnh gốc chưa tải xuống.</item>
+        <item quantity="other">Không đủ bộ nhớ thiết bị. %1$d ảnh gốc chưa tải xuống.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d ảnh không được đồng bộ. Lưu trữ đám mây đã đầy.</item>
+        <item quantity="other">%1$d ảnh không được đồng bộ. Lưu trữ đám mây đã đầy.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d ảnh không được đồng bộ. Đồng bộ đám mây tạm dừng khi pin thấp hơn %2$s.</item>
+        <item quantity="other">%1$d ảnh không được đồng bộ. Đồng bộ đám mây tạm dừng khi pin thấp hơn %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d ảnh không được đồng bộ. Đồng bộ đám mây tạm dừng trong chế độ tiết kiệm pin.</item>
+        <item quantity="other">%1$d ảnh không được đồng bộ. Đồng bộ đám mây tạm dừng trong chế độ tiết kiệm pin.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Bộ lưu trữ trên đám mây đã đầy. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Bộ lưu trữ trên đám mây đã đầy. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải lên.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải lên. Vui lòng sạc điện thoại.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải lên. Vui lòng sạc điện thoại.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải lên. Hãy kết nối với nguồn điện để tiếp tục.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải lên. Hãy kết nối với nguồn điện để tiếp tục.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Pin còn dưới %1$s. %2$d mục chưa tải lên.</item>
+        <item quantity="other">Pin còn dưới %1$s. %2$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Chế độ tiết kiệm pin bật. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Chế độ tiết kiệm pin bật. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Chế độ tiết kiệm pin bật. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Chế độ tiết kiệm pin bật. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Bộ nhớ trên đám mây đầy. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Bộ nhớ trên đám mây đầy. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d video không được đồng bộ. Lưu trữ đám mây đã đầy.</item>
+        <item quantity="other">%1$d video không được đồng bộ. Lưu trữ đám mây đã đầy.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d video không được đồng bộ. Đồng bộ đám mây tạm dừng khi pin thấp hơn %2$s.</item>
+        <item quantity="other">%1$d video không được đồng bộ. Đồng bộ đám mây tạm dừng khi pin thấp hơn %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d video không được đồng bộ. Đồng bộ đám mây tạm dừng trong chế độ tiết kiệm pin.</item>
+        <item quantity="other">%1$d video không được đồng bộ. Đồng bộ đám mây tạm dừng trong chế độ tiết kiệm pin.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d ảnh không được đồng bộ.</item>
+        <item quantity="other">%1$d ảnh không được đồng bộ.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải lên.%2$s.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải lên. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải lên. %2$s hoặc %3$s.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải lên. %2$s hoặc %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Không có kết nối mạng. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Không có kết nối mạng. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d video không được đồng bộ</item>
+        <item quantity="other">%1$d video không được đồng bộ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Lỗi mạng. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Lỗi mạng. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Kết nối mạng bị gián đoạn. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Lỗi mạng. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Lỗi dịch vụ. %1$d mục chưa tải lên.</item>
+        <item quantity="other">Lỗi dịch vụ. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one"></item>
+        <item quantity="other">Lỗi dịch vụ. %1$d mục chưa tải lên.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Đang đồng bộ hóa %1$d mục</item>
+        <item quantity="other">Đang đồng bộ hóa %1$d mục</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Đang đồng bộ hóa %1$d mục lên đám mây…</item>
+        <item quantity="other">Đang đồng bộ hóa %1$d mục lên đám mây…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Một số nền tảng có thể không hỗ trợ ảnh động dài hơn %d giây</item>
+        <item quantity="other">Một số nền tảng có thể không hỗ trợ ảnh động dài hơn %d giây</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Bạn có thể dùng tính năng Bật ra trên %1$d ảnh động tại một thời điểm</item>
+        <item quantity="other">Bạn có thể dùng tính năng Bật ra trên tối đa %1$d ảnh động tại một thời điểm</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Không hỗ trợ các ảnh động dài hơn %1$d giây</item>
+        <item quantity="other">Không hỗ trợ các ảnh động dài hơn %1$d giây</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Bạn không thể kéo quá %d mục một lúc</item>
+        <item quantity="other">Bạn không thể kéo quá %d mục một lúc</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Không thể thêm %d mục</item>
+        <item quantity="other">Không thêm được %d mục</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d ảnh đang được tải và không thể đặt thành riêng tư.</item>
+        <item quantity="other">%d ảnh đang được tải và không thể đặt thành riêng tư.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d mục</item>
+        <item quantity="other">%d mục</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d giây</item>
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d giây</item>
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">Không thể nhập %d mục để chỉnh sửa video</item>
+        <item quantity="other">Không thể nhập %d mục để chỉnh sửa video</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Trang %1$d/%2$d</item>
+        <item quantity="other">Trang %1$d/%2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Chọn không quá %1$d ảnh cho một GIF</item>
+        <item quantity="other">Chọn không quá %1$d ảnh cho một GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Chỉ hỗ trợ ảnh động lên đến %1$d giây</item>
+        <item quantity="other">Chỉ hỗ trợ ảnh động lên đến %1$d giây</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Chọn ít nhất %1$d ảnh để tạo GIF</item>
+        <item quantity="other">Chọn ít nhất %1$d ảnh để tạo GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Chọn không quá %1$d ảnh cho một GIF</item>
+        <item quantity="other">Chọn không quá %1$d ảnh cho một GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Chỉ %1$d đáp ứng các yêu cầu định dạng</item>
+        <item quantity="other">Chỉ %1$d đáp ứng các yêu cầu định dạng</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d ảnh sẽ không được đưa vào GIF</item>
+        <item quantity="other">%1$d ảnh sẽ không được đưa vào GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">Không hỗ trợ %1$d ảnh</item>
+        <item quantity="other">Không hỗ trợ %1$d ảnh</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Đang tải %1$s mục từ \"Google Ảnh\"…</item>
+        <item quantity="other">Đang tải %1$s mục từ \"Google Ảnh\"…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Không đủ bộ nhớ trên \"Google Ảnh\". Chưa sao lưu %1$d mục.</item>
+        <item quantity="other">Không đủ bộ nhớ trên \"Google Ảnh\". Chưa sao lưu %1$d mục.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Đang sao lưu %1$s ảnh lên \"Google Ảnh\"…</item>
+        <item quantity="other">Đang sao lưu %1$s mục lên \"Google Ảnh\"…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d mục đang được đồng bộ với Đám mây HeyTap. Nếu tắt tính năng này, quá trình tự động đồng bộ sẽ bị hủy. Để bảo đảm dữ liệu của bạn an toàn, bạn nên chờ cho đến khi đã đồng bộ xong.</item>
+        <item quantity="other">%1$d mục đang được đồng bộ với Đám mây HeyTap. Nếu tắt tính năng này, quá trình tự động đồng bộ sẽ bị hủy. Để bảo đảm dữ liệu của bạn an toàn, bạn nên chờ cho đến khi đã đồng bộ xong.</item>
+    </plurals>
+    <plurals name="image_to_ai_selected_image_quantity_beyond">
+        <item quantity="one">Có thể chuyển đổi tối đa %d hình ảnh một lần</item>
+        <item quantity="other">Có thể chuyển đổi tối đa %d hình ảnh một lần</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Chỉ có thể thêm %d album vào \"Thường dùng\"</item>
+        <item quantity="other">Có thể thêm tới %d album vào mục \"Thường dùng\"</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">Tìm thấy %1$d thiết bị</item>
+        <item quantity="other">Tìm thấy %1$d thiết bị</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d ngày</item>
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d ảnh</item>
+        <item quantity="other">%1$d ảnh</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Không thể chọn nhiều hơn %1$d hình dán</item>
+        <item quantity="other">Không thể chọn nhiều hơn %1$d hình dán</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Xóa %1$d mục khỏi NAS</item>
+        <item quantity="other">Xóa %1$d mục khỏi NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Đã tải xuống xong. Không tải xuống được %1$d mục.</item>
+        <item quantity="other">Đã tải xuống xong. Không tải xuống được %1$d mục.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">Đã tải xuống %1$d mục.</item>
+        <item quantity="other">Đã tải xuống %1$d mục.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Đang tải xuống %1$d / %2$d…</item>
+        <item quantity="other">Đang tải xuống %1$d / %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Bạn muốn sửa khu vực đã chọn như thế nào?</item>
+        <item quantity="other">Bạn muốn sửa các khu vực đã chọn như thế nào?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Bạn có thể thêm tối đa %d hình dán</item>
+        <item quantity="other">Bạn có thể thêm tối đa %d hình dán</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">Trong Hình dán, bạn chỉ có thể thêm %d hình dán động. Những hình dán khác sẽ được chuyển thành hình dán tĩnh.</item>
+        <item quantity="other">Trong Hình dán, bạn có thêm tối đa %d hình dán động. Những hình dán khác sẽ trở thành ảnh tĩnh.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Phiên bản đã sửa được giới hạn trong %d giây để dễ dàng chia sẻ.</item>
+        <item quantity="other">Phiên bản đã sửa được giới hạn trong %d giây để dễ dàng chia sẻ.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Hình dán có thể dài đến %d giây</item>
+        <item quantity="other">Hình dán có thể dài đến %d giây</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Hình dán chỉ có thể dài %d giây.</item>
+        <item quantity="other">Hình dán có thể dài đến %d giây.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Video có thể dài đến %d giây</item>
+        <item quantity="other">Video có thể dài đến %d giây</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Mô tả những gì bạn muốn thay đổi trong vùng đã chọn</item>
+        <item quantity="other">Mô tả những gì bạn muốn thay đổi trong các vùng đã chọn</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Quá trình ghi sẽ dừng sau %1$d giây</item>
+        <item quantity="other">Quá trình ghi sẽ dừng sau %1$d giây</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Bạn chỉ có thể chọn tối đa %1$d khu vực</item>
+        <item quantity="other">Bạn chỉ có thể chọn tối đa %1$d khu vực</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Chỉ hỗ trợ ảnh động lên đến %1$d giây</item>
+        <item quantity="other">Chỉ hỗ trợ ảnh động lên đến %1$d giây</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Thời gian chờ dự kiến là %1$d phút do kích thước tệp lớn</item>
+        <item quantity="other">Thời gian chờ dự kiến là %1$d phút do kích thước tệp lớn</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Xuất %d ảnh đã chọn</item>
+        <item quantity="other">Xuất %d ảnh đã chọn</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Phải lớn hơn %1$d mm</item>
+        <item quantity="other">Phải lớn hơn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Phải lớn hơn %1$d px</item>
+        <item quantity="other">Phải lớn hơn %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Phải nhỏ hơn %1$d mm</item>
+        <item quantity="other">Phải nhỏ hơn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Phải nhỏ hơn %1$d px</item>
+        <item quantity="other">Phải nhỏ hơn %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Phải lớn hơn %1$d KB</item>
+        <item quantity="other">Phải lớn hơn %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Phải nhỏ hơn %1$d KB</item>
+        <item quantity="other">Phải nhỏ hơn %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Phải lớn hơn %1$d mm</item>
+        <item quantity="other">Phải lớn hơn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Phải lớn hơn %1$d px</item>
+        <item quantity="other">Phải lớn hơn %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Phải nhỏ hơn %1$d mm</item>
+        <item quantity="other">Phải nhỏ hơn %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Phải nhỏ hơn %1$d px</item>
+        <item quantity="other">Phải nhỏ hơn %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Chỉ giữ lại %d ảnh đã chọn</item>
+        <item quantity="other">Chỉ giữ lại %d ảnh đã chọn</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Xóa %d mục</item>
+        <item quantity="other">Xóa %d mục</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Xóa %d mục</item>
+        <item quantity="other">Xóa %d mục</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Không thêm được %1$d hình dán</item>
+        <item quantity="other">Không thêm được %1$d hình dán</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Không thêm được %d hình dán</item>
+        <item quantity="other">Không thêm được %d hình dán</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">Đã thêm %1$s hình dán</item>
+        <item quantity="other">Đã thêm %1$s hình dán</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">Đã thêm %1$s hình dán</item>
+        <item quantity="other">Đã thêm %1$s hình dán</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Đã thêm %1$d hình dán</item>
+        <item quantity="other">Đã thêm %1$d hình dán</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Trong Cắt dán sáng tạo bằng AI, bạn có thêm đến %1$d hình dán động. Những hình dán khác sẽ trở thành ảnh tĩnh.</item>
+        <item quantity="other">Trong Cắt dán sáng tạo bằng AI, bạn có thêm đến %1$d hình dán động. Những hình dán khác sẽ trở thành ảnh tĩnh.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Bạn có thể thêm tối đa %1$d ảnh động</item>
+        <item quantity="other">Bạn có thể thêm tối đa %1$d ảnh động</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Bạn có thể thêm tối đa %1$d ảnh</item>
+        <item quantity="other">Bạn có thể thêm tối đa %1$d ảnh</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Để xóa đối tượng khỏi ảnh, hãy tải xuống trình cắm Công cụ xóa. Kích cỡ tệp: %1$s. Thời gian tải xuống ước tính: %2$d phút.</item>
+        <item quantity="other">Để xóa đối tượng khỏi ảnh, hãy tải xuống trình cắm Công cụ xóa. Kích cỡ tệp: %1$s. Thời gian tải xuống ước tính: %2$d phút.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Kích cỡ tệp: %1$d. Thời gian tải xuống ước tính: %2$d.</item>
+        <item quantity="other">Kích cỡ tệp: %1$d. Thời gian tải xuống ước tính: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">Không hỗ trợ %1$d ảnh</item>
+        <item quantity="other">Không hỗ trợ %1$d ảnh</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">Đã chọn %1$d/%2$d</item>
+        <item quantity="other">Đã chọn %1$d/%2$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">Đã chọn %1$d mục</item>
+        <item quantity="other">Đã chọn %1$d mục</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">Đã chọn %1$d album</item>
+        <item quantity="other">Đã chọn %1$d album</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">Đã chọn %1$d mục</item>
+        <item quantity="other">Đã chọn %1$d mục</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">Đã chọn %1$d video</item>
+        <item quantity="other">Đã chọn %1$d video</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Không thể thêm quá %1$d hình dán</item>
+        <item quantity="other">Không thể thêm quá %1$d hình dán</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Chỉ có thể chọn %1$d mục</item>
+        <item quantity="other">Chỉ có thể chọn tối đa %1$d mục</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d ảnh đang được tải và không thể xóa.</item>
+        <item quantity="other">%d ảnh đang được tải và không thể xóa.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Không xóa được %1$d mục. Vui lòng thử lại.</item>
+        <item quantity="other">Không xóa được %1$d mục. Vui lòng thử lại.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Xóa %d chủ thể?</item>
+        <item quantity="other">Xóa %d chủ thể?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d ảnh</item>
+        <item quantity="other">%1$d ảnh</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Bạn chỉ có thể thêm %1$d hình dán động. Những hình dán khác sẽ được hiển thị là hình dán tĩnh.</item>
+        <item quantity="other">Bạn có thể thêm tối đa %1$d hình dán động. Những hình dán khác sẽ được hiển thị là hình dán tĩnh.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Chỉ có thể chia sẻ %d mục cho ứng dụng này</item>
+        <item quantity="other">Có thể chia sẻ tối đa %d mục cho ứng dụng này</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Chia sẻ %d mục</item>
+        <item quantity="other">Chia sẻ %d mục</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Chia sẻ %d ảnh</item>
+        <item quantity="other">Chia sẻ %d ảnh</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Chia sẻ %d video</item>
+        <item quantity="other">Chia sẻ %d video</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Xóa %d khoảnh khắc?</item>
+        <item quantity="other">Xóa %d khoảnh khắc?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d câu chuyện, được tuyển chọn cho bạn.</item>
+        <item quantity="other">%d câu chuyện, được tuyển chọn cho bạn.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">Đã chọn %d</item>
+        <item quantity="other">Đã chọn %d</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Xoay %d độ</item>
+        <item quantity="other">Xoay %d độ</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Bạn chỉ có thể nhập %s tệp</item>
+        <item quantity="other">Bạn có thể nhập tối đa %s tệp</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Thêm %1d mục</item>
+        <item quantity="other">Thêm %1d mục</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Có thể nhập tối đa %s tệp LUT</item>
+        <item quantity="other">Có thể nhập tối đa %s tệp LUT</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Bạn không thể thêm quá %d ảnh</item>
+        <item quantity="other">Bạn không thể thêm quá %d ảnh</item>
+    </plurals>
+</resources>

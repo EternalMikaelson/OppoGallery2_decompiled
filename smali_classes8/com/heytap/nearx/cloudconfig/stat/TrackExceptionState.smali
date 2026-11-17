@@ -1,0 +1,164 @@
+.class public final Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;
+.super Ljava/lang/Object;
+.source "TrackExceptionState.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0007\u0018\u0000 \u000b2\u00020\u0001:\u0001\u000bB\u0017\u0008\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008R\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\t\u0010\n\u00a8\u0006\u000c"
+    }
+    d2 = {
+        "Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;",
+        "",
+        "context",
+        "Landroid/content/Context;",
+        "version",
+        "",
+        "(Landroid/content/Context;Ljava/lang/String;)V",
+        "getContext",
+        "()Landroid/content/Context;",
+        "getVersion",
+        "()Ljava/lang/String;",
+        "Companion",
+        "com.heytap.nearx.cloudconfig"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x1,
+        0x10
+    }
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$Companion;
+
+.field private static volatile instance:Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;
+
+
+# instance fields
+.field private final context:Landroid/content/Context;
+
+.field private final version:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$Companion;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->Companion:Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$Companion;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method private constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->context:Landroid/content/Context;
+
+    iput-object p2, p0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->version:Ljava/lang/String;
+
+    const/16 p2, 0x4f16
+
+    int-to-long v0, p2
+
+    .line 2
+    invoke-static {p1, v0, v1}, Lcom/oplus/aiunit/vision/vm80;->a(Landroid/content/Context;J)Lcom/oplus/aiunit/vision/vm80;
+
+    move-result-object p1
+
+    .line 3
+    new-instance p2, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$1;
+
+    invoke-direct {p2, p0}, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState$1;-><init>(Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;)V
+
+    invoke-virtual {p1, p2}, Lcom/oplus/aiunit/vision/vm80;->b(Lcom/heytap/nearx/track/IExceptionProcess;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Landroid/content/Context;Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 4
+    invoke-direct {p0, p1, p2}, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static final synthetic access$getInstance$cp()Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->instance:Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static final synthetic access$setInstance$cp(Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;)V
+    .locals 0
+
+    .line 1
+    sput-object p0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->instance:Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getContext()Landroid/content/Context;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->context:Landroid/content/Context;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getVersion()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/heytap/nearx/cloudconfig/stat/TrackExceptionState;->version:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

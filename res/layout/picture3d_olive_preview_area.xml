@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/olive_section_root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.olivesdk.view.OliveView android:id="@id/olive_edit_oliveview" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.coui.appcompat.progressbar.COUILottieLoadingView android:layout_gravity="end|bottom" android:id="@id/loading_view" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="@dimen/photoeditorpage_olive_no_navbar_loading_view_margin_bottom" android:layout_marginHorizontal="@dimen/photoeditorpage_olive_no_navbar_loading_view_margin_end" android:forceDarkAllowed="false" app:couiLottieLoadingJsonName="lottie_loading_view_loading.json" app:couiLottieLoadingViewHeight="16.0dp" app:couiLottieLoadingViewWidth="16.0dp" />
+</FrameLayout>

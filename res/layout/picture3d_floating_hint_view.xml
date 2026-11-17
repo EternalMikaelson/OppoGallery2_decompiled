@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/picture3d_floating_hint_bg" android:paddingTop="@dimen/photo_editor_margin_4_dp" android:paddingBottom="@dimen/photo_editor_margin_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/picture3d_floating_hint_max_width" android:paddingStart="@dimen/picture3d_floating_hint_padding_horizontal" android:paddingEnd="@dimen/picture3d_floating_hint_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/picture3d_floating_hint_text_size" android:textColor="@color/picture3d_white" android:gravity="center" android:id="@id/floating_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

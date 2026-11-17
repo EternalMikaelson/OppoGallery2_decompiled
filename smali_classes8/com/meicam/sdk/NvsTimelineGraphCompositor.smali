@@ -1,0 +1,16 @@
+.class public Lcom/meicam/sdk/NvsTimelineGraphCompositor;
+.super Lcom/meicam/sdk/NvsFx;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/meicam/sdk/NvsFx;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.standard_lib.ui.toolbar.actionview.MenuButton android:textColor="@color/coui_color_primary_text_blue" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_horizontal" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/toolbar_menu_item_checkButton_maxWidth" android:text="@string/common_cancel" android:maxLines="2" android:singleLine="false" style="@style/Toolbar.Menu.Select"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

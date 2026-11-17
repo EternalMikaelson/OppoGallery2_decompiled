@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="other">%1$2s 個のアイテムを含む%2$1sアルバム；タップして「頻繁に利用する項目」に追加します。</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="other">%s 件マッチ</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="other">メディアを選択し、下の「AI インスタントクリップ」をタップすれば動画を素早く生成できます。最適な結果には %1$s 項目以上を選択してください。</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="other">メディアを選択し、最下部で「編集」 ‐ 「AI インスタントクリップ」をタップすると、動画を素早く生成できます。より良い結果を得るには、%1$s 個以上の項目を選択してください。</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="other">%1$d 秒より長いモーションフォトには対応していません</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="other">動画は %d 秒以下でなければなりません</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="other">%d 個のロックされたアプリ</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="other">%1$2s 個のアイテムを含む%2$1sアルバム；「頻繁に利用する項目」に追加しました。</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="other">追加 (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="other">追加 (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="other">%1$d件の項目を調整しました</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="other">%d 枚の写真を読み込み中のため、追加できません。</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="other">%1$d 件のドキュメント</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="other">キャッシュカードが %1$d 枚あります</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="other">%d 個のアルバムの項目がこのデバイスから削除され、「最近削除した項目」に 30 日間保存されます。一部の項目はバックアップされません。削除する前にバックアップした方がよいかもしれません。</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="other">連写された %d 枚の写真がこのデバイスから削除され、「最近削除した項目」に 30 日間保存されます。連写された写真はすべて、クラウドにバックアップされており、そこに保管されます。</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="other">連写された %d 枚の写真がこのデバイスから削除され、「最近削除した項目」に 30 日間保存されます。一部の写真はバックアップされません。削除する前にバックアップした方がよいかもしれません。</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="other">%d 項目がこのデバイスから削除され、「最近削除した項目」に 30 日間保存されます。一部の項目はバックアップされません。削除する前にバックアップした方がよいかもしれません。</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="other">%d 枚の写真がこのデバイスから削除され、「最近削除した項目」に 30 日間保存されます。一部の写真はバックアップされません。削除する前にバックアップした方がよいかもしれません。</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="other">%d 件の動画がこのデバイスから削除され、「最近削除した項目」に 30 日間保存されます。一部の動画はバックアップされません。削除する前にバックアップした方がよいかもしれません。</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="other">%1$s 個のサムネイルが元のバージョンに置き換えられます。</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="other">見つかった写真：%s。この機能をオンにすると、関連する写真を整理することができます。「設定」でいつでもオン/オフを切り替えられます。</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="other">%1$d 件の ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="other">%d人の人をマージおよび削除しますか？</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="other">このアルバムから %d 枚の写真を削除しますか?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="other">このアルバムから %d 個の項目を削除しますか?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="other">このアルバムから %d 件の動画を削除しますか?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="other">サムネイルを使用する</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="other">元の写真を使用する</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="other">選択した写真の一部はサムネイルです。代わりに、元の写真をダウンロードして使用できます。</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="other">一度に PDF に変換できる画像の最大数は %1$d です</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="other">デバイスストレージ容量が不足しています。%1$d 項目がコピーされません。</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="other">%d 個の項目がコピーされました</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="other">項目は %d 個までコピーできます</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="other">%d 枚の写真がこの端末から完全に削除されます。</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="other">%d 個の項目がこのデバイスから完全に削除されます。</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="other">%d 本の動画がこの端末から完全に削除されます。</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="other">%d 枚のバースト写真がこの端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="other">これらの写真は、このデバイス、クラウド、同期されているその他のデバイスから完全に削除されます。この操作を取り消すことはできません。</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="other">これらの写真は完全に削除されます。この操作を取り消すことはできません。</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="other">これらの項目は、このデバイス、クラウド、同期されているその他のデバイスから完全に削除されます。この操作を取り消すことはできません。</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="other">これらの項目は完全に削除されます。この操作を取り消すことはできません。</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="other">%d 枚の写真が、この端末、クラウド、同期されているその他の端末から完全に削除されます。</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="other">%d 件の項目が、この端末、クラウド、同期されているその他の端末から完全に削除されます。</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="other">%d 本の動画が、この端末、クラウド、同期されているその他の端末から完全に削除されます。</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="other">%d 枚のバースト写真が、この端末、クラウド、同期されているその他の端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="other">%d 件のアルバムを削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="other">%d 枚の連続写真を削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="other">%d 個のメモリはこの端末から削除されます。これらのメモリの写真は「写真」アプリに保存されます。</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="other">%d 個の思い出を削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="other">%d 個の項目を完全に削除</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="other">%d 個の項目を削除</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="other">%d 枚の写真を削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="other">%d 個の項目を削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="other">%d 件の動画を削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="other">%d 個のステッカーを削除しますか？</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="other">これらの写真を削除する</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="other">これらの動画は、このデバイス、クラウド、同期されているその他のデバイスから完全に削除されます。この操作を取り消すことはできません。</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="other">これらの動画は完全に削除されます。この操作を取り消すことはできません。</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="other">%d 個の項目をダウンロード中…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="other">%d 個の写真をダウンロード中…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="other">%d 個の動画をダウンロード中…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="other">%d 個のファイルを非公開に設定しますか？</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="other">これらの写真をプライベートに設定しますか？</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="other">%d 個のファイルを暗号化できませんでした</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="other">%d枚のアルバムをロックしますか?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="other">%d 枚のバースト写真がこの端末から削除されます。バックアップ済みの写真は「最近削除した項目」に 60 日間保存され、バックアップされていない写真は 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="other">%d 枚のバースト写真が、この端末、クラウド、同期されているその他の端末から削除されます。バックアップ済みの写真は「最近削除した項目」に 60 日間保存され、バックアップされていない写真は 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="other">%d 個のアルバムがこの端末から削除されます。バックアップ済みのアルバムは「最近削除した項目」に 60 日間保存され、バックアップされていないアルバムは 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="other">%d 枚の写真がこの端末から削除されます。バックアップ済みの写真は「最近削除した項目」に 60 日間保存され、バックアップされていない写真は 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="other">%d 件の項目がこの端末から削除されます。バックアップ済みの項目は「最近削除した項目」に 60 日間、バックアップされていない項目は 30 日間保持されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="other">%d 本の動画がこの端末から削除されます。バックアップ済みの動画は「最近削除した項目」に 60 日間、バックアップされていない動画は 30 日間保持されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="other">%d 個のアルバムが、この端末、クラウド、同期されているその他の端末から削除されます。バックアップ済みのアルバムは「最近削除した項目」に 60 日間保存され、バックアップされていないアルバムは 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="other">%d 枚の写真が、この端末、クラウド、同期されているその他の端末から削除されます。バックアップ済みの写真は「最近削除した項目」に 60 日間保存され、バックアップされていない写真は 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="other">%d 件の項目が、この端末、クラウド、同期されているその他の端末から削除されます。バックアップ済みの項目は「最近削除した項目」に 60 日間、バックアップされていない項目は 30 日間保持されます。</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="other">%d 本の動画が、この端末、クラウド、同期されているその他の端末から削除されます。バックアップ済みの動画は「最近削除した項目」に 60 日間、バックアップされていない動画は 30 日間保持されます。</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="other">選択した%d枚の写真をエクスポート</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="other">%d件の写真をエクスポートしますか?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="other">%1$d 個の項目がお気に入りに追加できませんでした。再度お試しください。</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="other">ファイル サイズ：%1$s。推定ダウンロード時間：%2$s 分。</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="other">サムネイルを使用する</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="other">元の写真を使用する</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="other">選択した写真の一部はサムネイルです。代わりに、元の写真をダウンロードして使用できます。</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="other">%sの写真が見つかりました。これらを「カードケース」に移動すると、簡単にアクセスできるようになります。</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="other">%1$sの写真を「カードケース」に移動しました</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="other">%1$d 枚のチケット/レシート</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="other">選択した項目は、すでにアルバムの中に存在します</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="other">%d 個の項目</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="other">%1$d名が「%2$s」から統合され、削除されます。</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="other">%d 枚の写真は読み込み中のため、移動できません</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="other">%d 個の項目が移動されました</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="other">%1$d人</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="other">元の写真をダウンロード中...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="other">写真をコピーしました。このアルバムに動画はコピーできません。</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="other">写真を移動しました。動画はこのアルバムに移動できません。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="other">%d 個のアルバムがこの端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="other">%d 枚の写真がこの端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="other">%d 件の項目がこの端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="other">%d 本の動画がこの端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="other">これらの写真は、このデバイス、クラウド、同期されているその他のデバイスから削除されます。削除した項目は、30 日以内であれば「最近削除した項目」アルバムから復元できます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="other">これらの写真は、このデバイス、クラウド、同期されているその他のデバイスから削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="other">これらのアルバムは、このデバイス、クラウド、同期されているその他のデバイスから削除されます。削除した項目は、30 日以内であれば「最近削除した項目」アルバムから復元できます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="other">これらのアルバムは、このデバイス、クラウド、同期されているその他のデバイスから削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="other">これらの項目は、このデバイス、クラウド、同期されているその他のデバイスから削除されます。削除した項目は、30 日以内であれば「最近削除した項目」アルバムから復元できます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="other">これらの項目は、このデバイス、クラウド、同期されているその他のデバイスから削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="other">%d 個のアルバムが、この端末、クラウド、同期されているその他の端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="other">%d 個のアルバムが、この端末、クラウド、同期されているその他の端末から削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="other">%d 枚のバースト写真が、この端末、クラウド、同期されているその他の端末から削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="other">%d 枚の写真が、この端末、クラウド、同期されているその他の端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="other">%d 枚の写真が、この端末、クラウド、同期されているその他の端末から削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="other">%d 件の項目が、この端末、クラウド、同期されているその他の端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="other">%d 件の項目が、この端末、クラウド、同期されているその他の端末から削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="other">%d 本の動画が、この端末、クラウド、同期されているその他の端末から削除されます。削除された項目は「最近削除した項目」に 30 日間保存されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="other">%d 本の動画が、この端末、クラウド、同期されているその他の端末から削除されます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="other">これらの動画は、このデバイス、クラウド、同期されているその他のデバイスから削除されます。削除した項目は、30 日以内であれば「最近削除した項目」アルバムから復元できます。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="other">これらの動画は、このデバイス、クラウド、同期されているその他のデバイスから削除されます。</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="other">%d 枚の写真を復元しますか？</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="other">%d 個の項目を復元しますか？</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="other">%d 件の動画を復元しますか?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="other">%d 個の項目を復元</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="other">%d 件の動画を保存できませんでした</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="other">%d 本の動画が保存されました</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="other">サムネイルを使用する</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="other">元の写真を使用する</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="other">選択した写真の一部はサムネイルです。代わりに、元の写真をダウンロードして使用できます。</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="other">選択した項目のプレビュー (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="other">写真 1～%1$d 枚を選択してください</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="other">サムネイルを使用する</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="other">元の写真を使用する</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="other">選択した写真の一部はサムネイルです。代わりに、元の写真をダウンロードして共有できます。</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="other">%1$d写真は共有アルバム「%2$s」から削除されます。</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="other">%1$d件の項目が共有アルバム「%2$s」から削除されます。</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="other">%1$d件の動画が共有アルバム「%2$s」から削除されます。</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="other">%1$d 件の項目を削除</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="other">デバイスストレージが不足しているため、%1$d 個の項目をダウンロードできませんでした。</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="other">%1$d 個の項目 (%2$s) が残っています。モバイルデータ通信を使用してダウンロードを再開しますか？</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="other">ネットワークエラーです。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="other">一度に最大 %d 枚のモーションフォトを動画として保存できます</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="other">%1$d 枚の写真</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="other">%1$d 本の動画</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="other">%1$d件を選択中</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="other">%1$d 個の項目</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="other">%1$d 個の項目がお気に入りから削除できませんでした。再度お試しください。</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="other">シンプルなオブジェクトを描いて円で囲めば、アート作品が完成します。使用制限：1 日あたり %1$d 回。</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="other">%d 個のモーションステッカーの保存に失敗しました</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="other">あと 1 ～%1$d 枚の写真を選択できます</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="other">あと%1$d枚の写真を選択できます（%2$s）</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="other">モーションフォト%d枚を含む</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="other">元の写真をダウンロード</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="other">デバイスに %1$d 枚の縮小サイズの写真があります。フル解像度写真 (%2$s) をダウンロードしますか？</item>
+    </plurals>
+    <plurals name="cloudkit_upgrade_dialog_banner_message">
+        <item quantity="other">約 %d 枚の高解像度写真</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="other">元の写真 %1$d 枚をダウンロード中</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="other">%1$d枚の写真</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="other">元の写真 %1$d 枚をダウンロードできませんでした。デバイスのストレージ容量が不足しています。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="other">%1$d 個の項目がダウンロードされませんでした。デバイスのストレージ容量が不足しています。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="other">%1$d 個の項目のアップロードを一時停止しました。インターネット接続がありません。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="other">%1$d 個の項目のアップロードを一時停止しました。Wi-Fi に接続されていません。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="other">バッテリー節約のために %1$d 個のアイテムのアップロードを一時停止しました。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="other">%1$d 個の項目のアップロードが一時停止しました。端末が高温になっています。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="other">%1$d 個の項目のアップロードが一時停止しました。クラウドのメンテナンス中です。</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="other">%1$d 個の項目のアップロードが一時停止しました。タブレットが高温になっています。</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="other">クラウドから %1$d 項目を同期中…</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="other">%1$d枚の写真</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="other">%1$d 本の動画</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="other">バッテリー残量が %1$s 未満です。%2$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="other">バッテリー %1$s 未満。%2$d 件ダウンロードされませんでした。電話を充電してください。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="other">バッテリー残量が %1$s 未満です。%2$d 個の項目がダウンロードされませんでした。電源に接続すると再開します。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="other">バッテリー残量が %1$s 未満です。%2$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="other">省エネモードがオンです。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="other">省エネモードがオンです。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="other">ネットワークに接続していません。%1$d個の項目がダウンロードされませんでした。%2$s。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がダウンロードされませんでした。%2$s または %3$s。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="other">クラウドストレージの容量が足りません。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="other">デバイスのストレージ容量が不足しています。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="other">ネットワークエラーです。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="other">ネットワークエラーです。%1$d 個の項目がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="other">デバイスのストレージ容量が不足しています。%1$d 枚のオリジナルの写真がダウンロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="other">%1$d 枚の写真が同期されていません。クラウドストレージがいっぱいです。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="other">%1$d 枚の写真が同期されていません。バッテリーが %2$s 未満になるとクラウド同期が一時停止します。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="other">%1$d 枚の写真が同期されていません。省エネモードでクラウド同期が一時停止されます。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="other">クラウドストレージがいっぱいです。%1$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="other">バッテリー残量が %1$s 未満です。%2$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="other">バッテリー %1$s 未満。%2$d 件アップロードされませんでした。電話を充電してください。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="other">バッテリー残量が %1$s 未満です。%2$d 個の項目がまだアップロードされていません。電源に接続すると再開します。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="other">バッテリー残量が %1$s 未満です。%2$d 個の項目がまだアップロードされていません。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="other">省エネモードがオンです。%1$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="other">省エネモードがオンです。%1$d 個の項目がまだアップロードされていません。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="other">クラウドストレージに空き容量がありません。%1$d 個の項目がまだアップロードされていません。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="other">%1$d 件の動画が同期されていません。クラウドストレージがいっぱいです。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="other">%1$d 本の動画が同期されていません。バッテリーが %2$s 未満になるとクラウド同期が一時停止します。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="other">%1$d 本の動画が同期されていません。省エネモードでクラウド同期が一時停止されます。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="other">%1$d 枚の写真が同期されていません。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がアップロードされませんでした。%2$s。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がアップロードされませんでした。%2$s または %3$s。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="other">ネットワーク接続がありません。%1$d 個の項目がまだアップロードされていません。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="other">%1$d 本の動画が同期されていません</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="other">ネットワークエラーです。%1$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="other">ネットワークエラーです。%1$d 個の項目がまだアップロードされていません。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="other">サービスエラーです。%1$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="other">サービスエラーです。%1$d 個の項目がアップロードされませんでした。</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="other">%1$d 個のアイテムを同期しています</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="other">クラウドに %1$d 項目を同期中…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="other">%1$d 件の動画</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="other">一部のプラットフォームは、%d 秒を超えるモーションフォトに対応していない可能性があります</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="other">一度に最大 %1$d 件のモーションフォトでポップアップを利用できます</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="other">%1$d 秒より長いモーションフォトには対応していません</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="other">一度にドラッグできる項目数は %d 個までです</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="other">%d個の項目を追加できませんでした</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="other">%d 枚の写真を読み込み中のため、非公開に設定できません。</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="other">%d 時間</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="other">%d 個の項目</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="other">%d 個のアイテムを動画の編集用にインポートできません</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">%1$d / %2$d ページ</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="other">1つの GIF に選択できる写真は最大 %1$d 枚です</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="other">%1$d 秒までのモーションフォトのみに対応しています</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="other">GIF を作成するには写真を %1$d 枚以上選択します</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="other">1つの GIF に選択できる写真は最大 %1$d 枚です</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="other">%1$d 枚の写真のみが形式要件を満たしています</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="other">%1$d 枚の写真が GIF に含まれません</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="other">%1$d 枚の写真がサポートされていません</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="other">「Google フォト」から %1$s 項目を読み込んでいます…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="other">「Googleフォト」ストレージが不足しています。%1$dバックアップされていない項目。</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="other">「Googleフォト」 に %1$s 項目をバックアップ中...</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="other">%1$d 個の項目が HeyTap Cloud に同期されます。これをオフにすると自動同期がキャンセルされます。データを安全に保つため、同期が完了するまで待つことをお勧めします。</item>
+    </plurals>
+    <plurals name="image_to_ai_selected_image_quantity_beyond">
+        <item quantity="other">一度に変換できる画像の最大数は %d です</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="other">「頻繁に利用する情報」には最大 %d 個のアルバムを追加できます</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="other">%1$d 台のデバイスが見つかりました</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="other">%1$d 日</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="other">%1$d枚の写真</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="other">%1$d 本の動画</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="other">ステッカーは最大 %1$d 枚まで選択できます</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 件の新しい通知</item>
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="other">NAS から %1$d 個の項目を削除</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="other">ダウンロードが完了しました。%1$d 個の項目をダウンロードできませんでした。</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="other">%1$d 個の項目がダウンロードされました。</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="other">%1$d/%2$d 件をダウンロード中…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="other">選択した範囲をどのように編集しますか？</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="other">ステッカーは %d 枚まで追加できます</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="other">ステッカーでは、モーションステッカーを %d 個まで追加できます。追加したステッカーは静止表示になります。</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="other">共有しやすいよう、編集版は %d 秒間に限定されています。</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="other">ステッカーは最大で%d秒間</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="other">ステッカーの長さは最長 %d 秒間です。</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="other">動画は最大で%d秒間</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="other">選択した範囲で変更したい点を説明してください</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="other">%1$d 秒後に録画が停止します</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="other">最大%1$d箇所まで選択できます。</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="other">%1$d 秒までのモーションフォトのみに対応しています</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="other">ファイルサイズが大きいため、想定される待ち時間は %1$d 分です</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="other">選択した %d 枚の写真をエクスポート</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="other">%1$d mm 以上にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="other">%1$d px 以上にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="other">%1$d mm 未満にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="other">%1$d px 未満にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="other">%1$d KB 以上にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="other">%1$d KB 未満にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="other">%1$d mm 以上にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="other">%1$d px 以上にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="other">%1$d mm 未満にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="other">%1$d px 未満にする必要があります</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="other">選択した%d枚の写真だけを維持する</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="other">%d 個の項目を削除</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="other">%d 個の項目を削除</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="other">%1$d 枚のステッカー追加に失敗</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="other">%d 個のステッカーの追加に失敗しました</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="other">ステッカーが %1$s 枚追加されました</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="other">ステッカーが %1$s 枚追加されました</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="other">ステッカーを %1$d 件追加しました</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="other">AI モーションステッカーでは、モーションステッカーを最大 %1$d 件追加できます。追加したステッカーは静止表示になります。</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="other">最大 %1$d 件のモーションフォトを追加できます</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="other">最大 %1$d 枚の写真を追加できます</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="other">写真からオブジェクトを削除するには、リムーバープラグインをダウンロードします。ファイルサイズ：%1$s。推定ダウンロード時間：%2$d 分。</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="other">ファイルサイズ：%1$d。推定ダウンロード時間：%2$d。</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="other">%1$d 枚の写真がサポートされていません</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="other">%1$d/%2$d 個を選択</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="other">%1$d項目を選択中</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="other">%1$d 冊のアルバムを選択中</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="other">%1$d件を選択中</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="other">%1$d本の動画を選択中</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="other">追加できるステッカーは%1$d枚までです</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="other">最大 %1$d 個のアイテムを選択できます</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="other">%d 枚の写真を読み込み中のため、削除できません。</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="other">%1$d 個の項目を削除できませんでした。もう一度お試しください。</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="other">%d 件の被写体を削除しますか。</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="other">%1$d枚の写真</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="other">最大 %1$d 件のモーションステッカーを追加できます。追加のステッカーは静止画として表示されます。</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="other">このアプリには最大 %d 個のアイテムを共有できます</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="other">%d 個のアイテムを共有</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="other">%d 枚の写真を共有</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="other">%d 本の動画を共有</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="other">%d 件のモーメントを削除しますか？</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="other">あなたのために厳選した %d 件のストーリー。</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="other">%d ページが選択されました</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="other">%d 度回転</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="other">最大 %s 件のファイルまでインポートできます</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="other">%1d 個のアイテムを追加</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="other">最大 %s 件までの LUT ファイルをインポートできます</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="other">追加できる写真は %d 枚までです</item>
+    </plurals>
+</resources>

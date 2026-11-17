@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/common_app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreference android:layout="@layout/ocloudsyncability_open_devices_loading_layout" android:selectable="false" android:key="pref_key_loading_view" app:isBackgroundAnimationEnabled="false" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_select_sync_album" app:isPreferenceVisible="false">
+        <com.coui.appcompat.preference.COUIMarkPreference android:title="@string/cloud_service_all_albums" android:key="pref_key_sync_all_album" />
+        <com.coui.appcompat.preference.COUIMarkPreference android:title="@string/cloud_service_custom" android:key="pref_key_custom_sync_album" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_local_album_list" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_key_cloud_delete_not_backup_category" app:isPreferenceVisible="false">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/cloud_service_cloud_deleted_files" android:key="pref_key_cloud_delete_not_backup" android:summary="@string/cloud_service_rebackup_description" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPagerHeaderPreference android:selectable="false" android:key="pref_key_sync_select_summary" android:summary="@string/cloudsync_sync_album_without_sd" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIPagerFooterPreference android:selectable="false" android:key="pref_key_head_summary" android:summary="@string/cloudsync_sync_select_album_except_sdcard" app:isPreferenceVisible="false" />
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

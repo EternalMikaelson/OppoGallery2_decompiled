@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/photopage_details_scrollbar_black" />
+    <corners android:radius="@dimen/photopage_detail_view_dimen_10dp" />
+    <size android:width="@dimen/photopage_detail_scrollbar_with" />
+</shape>

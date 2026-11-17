@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/gTextAppearanceHeadline6" android:textColor="?gColorPrimaryNeutral" android:gravity="start|center" android:id="@id/media_type_title" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/common_media_type_title_text_height" android:text="@string/common_title_mediatype" android:importantForAccessibility="yes" android:textDirection="locale" android:paddingHorizontal="@dimen/media_type_title_padding_horizontal" />
+    <LinearLayout android:orientation="vertical" android:id="@id/media_type_data_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_media_type_title_text_margin_bottom">
+        <LinearLayout android:orientation="vertical" android:id="@id/media_type_album_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_media_type_albums_container_margin_bottom" />
+        <TextView android:textAppearance="@style/gTextAppearanceHeadline6" android:textColor="?gColorPrimaryNeutral" android:gravity="start|center" android:id="@id/more_projects_title" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/common_media_type_title_text_height" android:text="@string/album_group_more_project" android:importantForAccessibility="yes" android:textDirection="locale" android:paddingHorizontal="@dimen/media_type_title_padding_horizontal" />
+        <LinearLayout android:orientation="vertical" android:id="@id/media_album_set_bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

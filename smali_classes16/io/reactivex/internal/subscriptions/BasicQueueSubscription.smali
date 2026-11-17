@@ -1,0 +1,93 @@
+.class public abstract Lio/reactivex/internal/subscriptions/BasicQueueSubscription;
+.super Ljava/util/concurrent/atomic/AtomicLong;
+.source "BasicQueueSubscription.java"
+
+# interfaces
+.implements Lcom/oplus/aiunit/vision/cyz;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/concurrent/atomic/AtomicLong;",
+        "Lcom/oplus/aiunit/vision/cyz<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final serialVersionUID:J = -0x5c95ffaa2e3a1e66L
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract synthetic cancel()V
+.end method
+
+.method public abstract synthetic clear()V
+.end method
+
+.method public abstract synthetic isEmpty()Z
+.end method
+
+.method public final offer(Ljava/lang/Object;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)Z"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string p1, "Should not be called!"
+
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final offer(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;TT;)Z"
+        }
+    .end annotation
+
+    .line 2
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string p1, "Should not be called!"
+
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public abstract synthetic poll()Ljava/lang/Object;
+.end method
+
+.method public abstract synthetic request(J)V
+.end method
+
+.method public abstract synthetic requestFusion(I)I
+.end method

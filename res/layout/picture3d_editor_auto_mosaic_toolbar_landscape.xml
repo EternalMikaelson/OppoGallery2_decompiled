@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:id="@id/toolbar_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.business_lib.template.editor.widget.EditorLinearListView android:id="@id/auto_mosaic_pattern_horizontal_list" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/picture3d_auto_mosaic_horizontal_list_margin_right" app:base_itemSpacing="@dimen/picture3d_editor_menu_list_common_spacing" app:noPaddingFadingEdge="@dimen/picture3d_auto_mosaic_pattern_list_fading_edge" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?de_toolkit_alpha_seekbar_small_background_primary_layer" />
+    <item android:id="@id/de_toolkit_seekbar_bg_secondary_layer">
+        <shape>
+            <gradient android:startColor="#00f7c217" android:endColor="#fff7c217" android:angle="0.0" />
+            <corners android:radius="12.0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="10.0dp" />
+            <stroke android:width="0.6700001dp" android:color="?de_toolkit_alpha_seekbar_background_overlay_layer" />
+        </shape>
+    </item>
+</layer-list>

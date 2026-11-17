@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/divider" app:layout_constraintTop_toTopOf="parent" style="@style/CloudScrollViewStyle">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingTop="0.0dp" android:paddingBottom="32.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" app:divider="@drawable/cloudkit_divider_12dp" app:showDividers="middle">
+            <com.heytap.cloudkit.libpay.widget.CloudPayTitleLayout android:id="@id/title_layout" android:paddingTop="0.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.heytap.cloudkit.libpay.widget.CloudPayCategoryGroupLayout android:id="@id/category_layout" android:paddingTop="4.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.heytap.cloudkit.libpay.widget.CloudPayChannelGroupLayout android:id="@id/channel_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.heytap.cloudkit.libpay.widget.CloudPayPackageBenefitsGroupLayout android:id="@id/benefits_layout" android:paddingTop="10.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@id/divider" android:layout_width="0.0dp" app:layout_constraintBottom_toTopOf="@id/pay_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollView" style="@style/CloudHorizontalDividerStyle" />
+    <com.heytap.cloudkit.libpay.widget.CloudPayButtonLayout android:id="@id/pay_layout" android:paddingTop="16.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="32.0dp" android:paddingEnd="32.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

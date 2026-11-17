@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.foundation.ui.widget.GalleryHorizontalScrollView android:orientation="horizontal" android:id="@id/hsv_playback_progress_container" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/photopage_halfimmersive_playback_seekbar_section_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_playback_progress_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.oplus.gallery.photo_page.widget.seekbar.ThumbnailSeekBar android:id="@id/tsb_playback_progress" android:layout_width="wrap_content" android:layout_height="match_parent" app:sliceHeight="@dimen/photopage_halfimmersive_playback_seekbar_slice_height" app:sliceWidth="@dimen/photopage_halfimmersive_playback_seekbar_slice_width" />
+    </LinearLayout>
+</com.oplus.gallery.foundation.ui.widget.GalleryHorizontalScrollView>

@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">%1$1s，%2$2s項，新增</item>
+        <item quantity="other">%1$1s，%2$2s項，新增</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s 項相關內容</item>
+        <item quantity="other">%s 項相關內容</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">選擇素材，點擊下方「AI 一鍵成片」懸浮視窗快速成片。選擇至少 %1$s 個素材，成片效果更好。</item>
+        <item quantity="other">選擇素材，點擊下方「AI 一鍵成片」懸浮視窗快速成片。選擇至少 %1$s 個素材，成片效果更好。</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">選擇素材，點擊底部「剪輯 - AI 一鍵成片」快速成片。選擇至少 %1$s 個素材，成片效果更好。</item>
+        <item quantity="other">選擇素材，點擊底部「剪輯 - AI 一鍵成片」快速成片。選擇至少 %1$s 個素材，成片效果更好。</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">實況長度超過 %1$d 秒，暫不支援此功能</item>
+        <item quantity="other">實況長度超過 %1$d 秒，暫不支援此功能</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">影片長度不能超過 %d 秒</item>
+        <item quantity="other">影片長度不能超過 %d 秒</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d 個上鎖應用程式</item>
+        <item quantity="other">%d 個上鎖應用程式</item>
+    </plurals>
+    <plurals name="alert_time_num">
+        <item quantity="one">%s 次</item>
+        <item quantity="other">%s 次</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">%1$1s，%2$2s項，已新增</item>
+        <item quantity="other">%1$1s，%2$2s項，已新增</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">新增（%1$d）</item>
+        <item quantity="other">新增（%1$d）</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">新增（%1$d/%2$d）</item>
+        <item quantity="other">新增（%1$d/%2$d）</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d 個項目調整成功</item>
+        <item quantity="other">%1$d 個項目調整成功</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d張照片正在載入，無法新增。</item>
+        <item quantity="other">%d張照片正在載入，無法新增。</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d 張檔案</item>
+        <item quantity="other">%1$d 張檔案</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d 張銀行卡</item>
+        <item quantity="other">%1$d 張銀行卡</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%d 本相簿將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分項目尚未備份到雲端，建議備份後再刪除。</item>
+        <item quantity="other">%d 本相簿將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分項目尚未備份到雲端，建議備份後再刪除。</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d 張連拍照片將從本裝置刪除，刪除後在「最近刪除」保留 30 日。所有連拍照片已備份到雲端，雲端檔案不會刪除。</item>
+        <item quantity="other">%d 張連拍照片將從本裝置刪除，刪除後在「最近刪除」保留 30 日。所有連拍照片已備份到雲端，雲端檔案不會刪除。</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d 張連拍照片將從本裝置刪除，刪除後在「最近刪除」保留 30 日。部分照片尚未備份到雲端，建議備份後再刪除。</item>
+        <item quantity="other">%d 張連拍照片將從本裝置刪除，刪除後在「最近刪除」保留 30 日。部分照片尚未備份到雲端，建議備份後再刪除。</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d 個項目將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分項目尚未備份到雲端，建議備份後再刪除。</item>
+        <item quantity="other">%d 個項目將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分項目尚未備份到雲端，建議備份後再刪除。</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d 張照片將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分照片尚未備份到雲端，建議備份後再刪除。</item>
+        <item quantity="other">%d 張照片將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分照片尚未備份到雲端，建議備份後再刪除。</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d 段影片將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分影片尚未備份到雲端，建議備份後再刪除。</item>
+        <item quantity="other">%d 段影片將從本裝置刪除，其後將在「最近刪除」保留 30 日。部分影片尚未備份到雲端，建議備份後再刪除。</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s 項縮圖將還原為原始照片</item>
+        <item quantity="other">%1$s 項縮圖將還原為原始照片</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="one">掃描到 %s照片，開啟後將進行智能整理。可以在設定中開啟或關閉。</item>
+        <item quantity="other">掃描到 %s照片，開啟後將進行智能整理。可以在設定中開啟或關閉。</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d 張證件</item>
+        <item quantity="other">%1$d 張證件</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">要合併和移除 %d 個人物？</item>
+        <item quantity="other">要合併和移除 %d 個人物？</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">要從本相簿中移除 %d 張照片？</item>
+        <item quantity="other">要從本相簿中移除 %d 張照片？</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">要從本相簿中移除 %d 個項目？</item>
+        <item quantity="other">要從本相簿中移除 %d 個項目？</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">要從本相簿中移除 %d 段影片？</item>
+        <item quantity="other">要從本相簿中移除 %d 段影片？</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">直接拼圖</item>
+        <item quantity="other">直接拼圖</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">下載原圖以創作拼圖</item>
+        <item quantity="other">下載原圖以創作拼圖</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">所選照片包含縮略圖，可以下載原圖以創作拼圖</item>
+        <item quantity="other">所選照片包含縮略圖，可以下載原圖以創作拼圖</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">最多支援 %1$d 張圖片轉為 PDF</item>
+        <item quantity="other">最多支援 %1$d 張圖片轉為 PDF</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">儲存空間不足，%1$d 個項目無法複製</item>
+        <item quantity="other">儲存空間不足，%1$d 個項目無法複製</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">已複製 %d 項</item>
+        <item quantity="other">已複製 %d 項</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">最多複製 %d 項</item>
+        <item quantity="other">最多複製 %d 項</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">%d 張照片將從本裝置中徹底刪除</item>
+        <item quantity="other">%d 張照片將從本裝置中徹底刪除</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d 個項目將從本裝置中徹底刪除</item>
+        <item quantity="other">%d 個項目將從本裝置中徹底刪除</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">%d 個影片將從本裝置中徹底刪除</item>
+        <item quantity="other">%d 個影片將從本裝置中徹底刪除</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d 張連拍照片將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 張連拍照片將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">所選照片將從本裝置、雲端和其他同步裝置刪除，並無法還原</item>
+        <item quantity="other">所選照片將從本裝置、雲端和其他同步裝置刪除，並無法還原</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">所選照片將徹底刪除，並無法還原</item>
+        <item quantity="other">所選照片將徹底刪除，並無法還原</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">所選項目將從本裝置、雲端和其他同步裝置刪除，並無法還原</item>
+        <item quantity="other">所選項目將從本裝置、雲端和其他同步裝置刪除，並無法還原</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">所選項目將徹底刪除，並無法還原</item>
+        <item quantity="other">所選項目將徹底刪除，並無法還原</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d 張照片將從本裝置、雲端和其他同步裝置中徹底刪除</item>
+        <item quantity="other">%d 張照片將從本裝置、雲端和其他同步裝置中徹底刪除</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d 個項目將從本裝置、雲端和其他同步裝置中徹底刪除</item>
+        <item quantity="other">%d 個項目將從本裝置、雲端和其他同步裝置中徹底刪除</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d 段影片將從本裝置、雲端和其他同步裝置中徹底刪除</item>
+        <item quantity="other">%d 段影片將從本裝置、雲端和其他同步裝置中徹底刪除</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d 張連拍照片將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 張連拍照片將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">要刪除 %d 個相簿？</item>
+        <item quantity="other">要刪除 %d 個相簿？</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">要刪除 %d 張連拍照片？</item>
+        <item quantity="other">要刪除 %d 張連拍照片？</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">%d 個回憶將從本裝置上刪除，回憶中的照片將保留在相簿中</item>
+        <item quantity="other">%d 個回憶將從本裝置上刪除，回憶中的照片將保留在相簿中</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">要刪除 %d 個回憶？</item>
+        <item quantity="other">要刪除 %d 個回憶？</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">徹底刪除 %d 項</item>
+        <item quantity="other">徹底刪除 %d 項</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">刪除 %d 項</item>
+        <item quantity="other">刪除 %d 項</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">要刪除 %d 張照片？</item>
+        <item quantity="other">要刪除 %d 張照片？</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">要刪除 %d 個項目？</item>
+        <item quantity="other">要刪除 %d 個項目？</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">要刪除 %d 段影片？</item>
+        <item quantity="other">要刪除 %d 段影片？</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">要刪除 %d 個貼圖嗎？</item>
+        <item quantity="other">要刪除 %d 個貼圖嗎？</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">徹底刪除此照片</item>
+        <item quantity="other">徹底刪除這些照片</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">所選影片將從本裝置、雲端和其他同步裝置刪除，並無法還原</item>
+        <item quantity="other">所選影片將從本裝置、雲端和其他同步裝置刪除，並無法還原</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">所選影片將徹底刪除，並無法還原</item>
+        <item quantity="other">所選影片將徹底刪除，並無法還原</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">正在下載 %d 個項目…</item>
+        <item quantity="other">正在下載 %d 個項目…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">正在下載 %d 張照片…</item>
+        <item quantity="other">正在下載 %d 張照片…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">正在下載 %d 段影片…</item>
+        <item quantity="other">正在下載 %d 段影片…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">是否將 %d 個檔案設為私人？</item>
+        <item quantity="other">是否將 %d 個檔案設為私人？</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">是否將此照片設為私人？</item>
+        <item quantity="other">是否將這些照片設為私人？</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%d 個檔案加密失敗</item>
+        <item quantity="other">%d 個檔案加密失敗</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">要將 %d 個相簿設為私人？</item>
+        <item quantity="other">要將 %d 個相簿設為私人？</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">%d 張連拍照片將從本裝置刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+        <item quantity="other">%d 張連拍照片將從本裝置刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d 張連拍照片將從本裝置、雲端和其他同步裝置中刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+        <item quantity="other">%d 張連拍照片將從本裝置、雲端和其他同步裝置中刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d 本相簿將從本裝置刪除，已備份至雲端的相簿刪除後在「最近刪除」中留 60 天，未備份的則保留 30 天</item>
+        <item quantity="other">%d 本相簿將從本裝置刪除，已備份至雲端的相簿刪除後在「最近刪除」中留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d 張照片將從本裝置刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+        <item quantity="other">%d 張照片將從本裝置刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d 個項目將從本裝置刪除，已備份至雲端的項目刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+        <item quantity="other">%d 個項目將從本裝置刪除，已備份至雲端的項目刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d 段影片將從本裝置刪除，已備份至雲端的影片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+        <item quantity="other">%d 段影片將從本裝置刪除，已備份至雲端的影片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="other">%d 本相簿將從本裝置、雲端和其他同步裝置刪除，已備份至雲端的相簿刪除後在「最近刪除」中留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="other">%d 張照片將從本裝置、雲端和其他同步裝置中刪除，已備份至雲端的照片刪除後在「最近刪除」中保留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="other">%d 個項目將從本裝置、雲端和其他同步裝置刪除，已備份至雲端的項目刪除後在「最近刪除」中留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="other">%d 段影片將從本裝置、雲端和其他同步裝置刪除，已備份至雲端的影片刪除後在「最近刪除」中留 60 天，未備份的則保留 30 天</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">匯出選取的 %d 張照片</item>
+        <item quantity="other">匯出選取的 %d 張照片</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">要匯出 %d 張照片？</item>
+        <item quantity="other">要匯出 %d 張照片？</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">%1$d 個項目收藏失敗，請重試</item>
+        <item quantity="other">%1$d 個項目收藏失敗，請重試</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">檔案大小 %1$s，預計下載時間 %2$s 分鐘。</item>
+        <item quantity="other">檔案大小 %1$s，預計下載時間 %2$s 分鐘。</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">直接創作</item>
+        <item quantity="other">直接創作</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">下載原圖以創作影片</item>
+        <item quantity="other">下載原圖以創作影片</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">所選照片包含縮略圖，可以下載原圖以創作影片</item>
+        <item quantity="other">所選照片包含縮略圖，可以下載原圖以創作影片</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">掃描到 %s照片，可以移入卡證檔案</item>
+        <item quantity="other">掃描到 %s照片，可以移入卡證檔案</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s照片已移入卡證檔案</item>
+        <item quantity="other">%1$s照片已移入卡證檔案</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d 張單據</item>
+        <item quantity="other">%1$d 張單據</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">所選項目已在該相簿內</item>
+        <item quantity="other">所選項目已在該相簿內</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d 項</item>
+        <item quantity="other">%d 項</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d 個人物合併後，會從「%2$s」中移出</item>
+        <item quantity="other">%1$d 個人物合併後，會從「%2$s」中移出</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d 張照片正在載入，無法移動</item>
+        <item quantity="other">%d 張照片正在載入，無法移動</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">已移動 %d 項</item>
+        <item quantity="other">已移動 %d 項</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one"></item>
+        <item quantity="other">%1$d 位人物</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">正在下載原圖...</item>
+        <item quantity="other">正在下載原圖...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">照片複製成功，不支援複製影片到此相簿</item>
+        <item quantity="other">照片複製成功，不支援複製影片到此相簿</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">照片移動成功，影片不支援移動</item>
+        <item quantity="other">照片移動成功，影片不支援移動</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">%d 本相簿將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 本相簿將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">%d 張照片將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 張照片將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">%d 個項目將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 個項目將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">%d 段影片將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 段影片將從本裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">所選照片將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+        <item quantity="other">所選照片將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">所選照片將從本裝置、雲端和其他同步裝置刪除</item>
+        <item quantity="other">所選照片將從本裝置、雲端和其他同步裝置刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">所選相簿將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+        <item quantity="other">所選相簿將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">所選相簿將從本裝置、雲端和其他同步裝置刪除</item>
+        <item quantity="other">所選相簿將從本裝置、雲端和其他同步裝置刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">所選項目將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+        <item quantity="other">所選項目將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">所選項目將從本裝置、雲端和其他同步裝置刪除</item>
+        <item quantity="other">所選項目將從本裝置、雲端和其他同步裝置刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d 本相簿將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 本相簿將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d 本相簿將從本裝置、雲端和其他同步裝置中刪除</item>
+        <item quantity="other">%d 本相簿將從本裝置、雲端和其他同步裝置中刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d 張連拍照片將從本裝置、雲端和其他同步裝置中刪除</item>
+        <item quantity="other">%d 張連拍照片將從本裝置、雲端和其他同步裝置中刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d 張照片將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 張照片將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d 張照片將從本裝置、雲端和其他同步裝置中刪除</item>
+        <item quantity="other">%d 張照片將從本裝置、雲端和其他同步裝置中刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d 個項目將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 個項目將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d 個項目將從本裝置、雲端和其他同步裝置中刪除</item>
+        <item quantity="other">%d 個項目將從本裝置、雲端和其他同步裝置中刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d 段影片將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+        <item quantity="other">%d 段影片將從本裝置、雲端和其他同步裝置中刪除，刪除後在「最近刪除」中保留 30 天</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d 段影片將從本裝置、雲端和其他同步裝置中刪除</item>
+        <item quantity="other">%d 段影片將從本裝置、雲端和其他同步裝置中刪除</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">所選影片將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+        <item quantity="other">所選影片將從本裝置、雲端和其他同步裝置刪除。30 天內可從「最近刪除」中還原。</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">所選影片將從本裝置、雲端和其他同步裝置刪除</item>
+        <item quantity="other">所選影片將從本裝置、雲端和其他同步裝置刪除</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">要還原 %d 張照片？</item>
+        <item quantity="other">要還原 %d 張照片？</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">要還原 %d 個項目？</item>
+        <item quantity="other">要還原 %d 個項目？</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">要還原 %d 段影片？</item>
+        <item quantity="other">要還原 %d 段影片？</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">還原 %d 項</item>
+        <item quantity="other">還原 %d 項</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d 個影片儲存失敗</item>
+        <item quantity="other">%d 個影片儲存失敗</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">已儲存 %d 個影片</item>
+        <item quantity="other">已儲存 %d 個影片</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">直接使用</item>
+        <item quantity="other">直接使用</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">下載原圖後使用</item>
+        <item quantity="other">下載原圖後使用</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">所選照片包含縮略圖，可以下載原圖後使用</item>
+        <item quantity="other">所選照片包含縮略圖，可以下載原圖後使用</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">預覽所選項目 (%1$d)</item>
+        <item quantity="other">預覽所選項目 (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">挑選 1 - %1$d 張照片</item>
+        <item quantity="other">挑選 1 - %1$d 張照片</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">直接傳送</item>
+        <item quantity="other">直接傳送</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">下載原圖後傳送</item>
+        <item quantity="other">下載原圖後傳送</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">所選照片包含縮略圖，可以下載原圖後傳送</item>
+        <item quantity="other">所選照片包含縮略圖，可以下載原圖後傳送</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d 張照片將從你和所有成員的「%2$s」中刪除</item>
+        <item quantity="other">%1$d 張照片將從你和所有成員的「%2$s」中刪除</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d 個項目將從你和所有成員的「%2$s」中刪除</item>
+        <item quantity="other">%1$d 個項目將從你和所有成員的「%2$s」中刪除</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d 段影片將從你和所有成員的「%2$s」中刪除</item>
+        <item quantity="other">%1$d 段影片將從你和所有成員的「%2$s」中刪除</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="other">刪除 %1$d 項</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="other">裝置空間不足，%1$d 個項目無法繼續下載</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d 個項目未下載，需要 %2$s 流動數據，是否繼續下載？</item>
+        <item quantity="other">%1$d 個項目未下載，需要 %2$s 流動數據，是否繼續下載？</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="other">網絡異常，%1$d 個項目未下載</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="other">無網絡連線，%1$d 個項目未下載</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">單次最多可儲存 %d 張實況照片為影片</item>
+        <item quantity="other">單次最多可儲存 %d 張實況照片為影片</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d 張相片</item>
+        <item quantity="other">%1$d 張相片</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d 段影片</item>
+        <item quantity="other">%1$d 段影片</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">已選擇 %1$d 項</item>
+        <item quantity="other">已選擇 %1$d 個項目</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d 個項目</item>
+        <item quantity="other">%1$d 個項目</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">%1$d 個項目取消收藏失敗，請重試</item>
+        <item quantity="other">%1$d 個項目取消收藏失敗，請重試</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">在圖片上繪製一個物體，建立精美作品，每日可建立 %1$d 次</item>
+        <item quantity="other">在圖片上繪製一個物體，建立精美作品，每日可建立 %1$d 次</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d 張實況貼圖無法儲存</item>
+        <item quantity="other">%d 張實況貼圖無法儲存</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">還可選擇 1 - %1$d 張照片</item>
+        <item quantity="other">還可選擇 1 - %1$d 張照片</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">還可選擇 1 - %1$d 張照片 (%2$s)</item>
+        <item quantity="other">還可選擇 1 - %1$d 張照片 (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">最多支援 %d 張實況照片</item>
+        <item quantity="other">最多支援 %d 張實況照片</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">下載原始檔案</item>
+        <item quantity="other">下載原始檔案</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">相簿中的 %1$d 項圖片為瘦身後的檔案，是否下載原始檔案（%2$s）？</item>
+        <item quantity="other">相簿中的 %1$d 項圖片為瘦身後的檔案，是否下載原始檔案（%2$s）？</item>
+    </plurals>
+    <plurals name="cloudkit_upgrade_dialog_banner_message">
+        <item quantity="one">可儲存約 %d 張高清照片</item>
+        <item quantity="other">可儲存約 %d 張高清照片</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">正在下載 %1$d 個原圖</item>
+        <item quantity="other">正在下載 %1$d 個原圖</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d 張相片</item>
+        <item quantity="other">%1$d 張相片</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">儲存空間不足，%1$d 項原圖未下載</item>
+        <item quantity="other">儲存空間不足，%1$d 項原圖未下載</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">儲存空間不足，%1$d 項未更新</item>
+        <item quantity="other">儲存空間不足，%1$d 項未更新</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">未連接到網絡，%1$d 個項目已暫停上載</item>
+        <item quantity="other">未連接到網絡，%1$d 個項目已暫停上載</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">未連接到 Wi-Fi，%1$d 個項目已暫停上載</item>
+        <item quantity="other">未連接到 Wi-Fi，%1$d 個項目已暫停上載</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">為節省電量，%1$d 個項目已暫停上載</item>
+        <item quantity="other">為節省電量，%1$d 個項目已暫停上載</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">手機溫度較高，%1$d 個項目已暫停上載</item>
+        <item quantity="other">手機溫度較高，%1$d 個項目已暫停上載</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">雲端服務功能調整，%1$d 個項目已暫停上載</item>
+        <item quantity="other">雲端服務功能調整，%1$d 個項目已暫停上載</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">平板電腦溫度較高，%1$d 個項目已暫停上載</item>
+        <item quantity="other">平板電腦溫度較高，%1$d 個項目已暫停上載</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="other">正在同步來自雲端的 %1$d 個項目</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d 張相片</item>
+        <item quantity="other">%1$d 張相片</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d 段影片</item>
+        <item quantity="other">%1$d 段影片</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">電量低於%1$s，%2$d項未下載。</item>
+        <item quantity="other">電量低於%1$s，%2$d項未下載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">電量低於 %1$s，%2$d 項未下載。請連接電源。</item>
+        <item quantity="other">電量低於 %1$s，%2$d 項未下載。請連接電源。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">電量低於 %1$s，%2$d 項未下載，請連接電源</item>
+        <item quantity="other">電量低於 %1$s，%2$d 項未下載，請連接電源</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">電量低於 %1$s，%2$d 項未下載</item>
+        <item quantity="other">電量低於 %1$s，%2$d 項未下載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">已開啟省電模式，%1$d項未下載。</item>
+        <item quantity="other">已開啟省電模式，%1$d項未下載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">已開啟省電模式，%1$d 項未下載</item>
+        <item quantity="other">已開啟省電模式，%1$d 項未下載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">無網絡連線，%1$d 項未下載。 %2$s</item>
+        <item quantity="other">無網絡連線，%1$d 項未下載。 %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">無網絡連線，%1$d項未下載。 %2$s或%3$s</item>
+        <item quantity="other">無網絡連線，%1$d項未下載。 %2$s或%3$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">無網絡連線，%1$d 項未下載。</item>
+        <item quantity="other">無網絡連線，%1$d 項未下載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">無網絡連線，%1$d 項未下載</item>
+        <item quantity="other">無網絡連線，%1$d 項未下載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">手機空間不足，%1$d項未下載。</item>
+        <item quantity="other">手機儲存空間不足，%1$d項未下載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">儲存空間不足，%1$d 項未下載</item>
+        <item quantity="other">儲存空間不足，%1$d 項未下載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">網絡異常，%1$d 項未下載。</item>
+        <item quantity="other">網絡異常，%1$d 項未下載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">網絡異常，%1$d 項未下載</item>
+        <item quantity="other">網絡異常，%1$d 項未下載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">儲存空間不足，%1$d 項原圖未下載</item>
+        <item quantity="other">儲存空間不足，%1$d 項原圖未下載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d 張照片未上載，雲端儲存空間已滿。請</item>
+        <item quantity="other">%1$d 張照片未上載，雲端儲存空間已滿。請</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d 張照片未上載，電量低於 %2$s 時雲端同步將會暫停</item>
+        <item quantity="other">%1$d 張照片未上載，電量低於 %2$s 時雲端同步將會暫停</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d 張照片未上載，省電模式下雲端同步將會暫停</item>
+        <item quantity="other">%1$d 張照片未上載，省電模式下雲端同步將會暫停</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">雲端空間已滿，%1$d項未上載。</item>
+        <item quantity="other">雲端空間已滿，%1$d項未上載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">電量低於%1$s，%2$d項未上載。</item>
+        <item quantity="other">電量低於%1$s，%2$d項未上載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">電量低於 %1$s，%2$d 項未上載。請連接電源。</item>
+        <item quantity="other">電量低於 %1$s，%2$d 項未上載。請連接電源。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">電量低於 %1$s，%2$d 項未上載，請連接電源</item>
+        <item quantity="other">電量低於 %1$s，%2$d 項未上載，請連接電源</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">電量低於 %1$s，%2$d 項未上載</item>
+        <item quantity="other">電量低於 %1$s，%2$d 項未上載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">已開啟省電模式，%1$d項未上載。</item>
+        <item quantity="other">已開啟省電模式，%1$d項未上載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">已開啟省電模式，%1$d 項未上載</item>
+        <item quantity="other">已開啟省電模式，%1$d 項未上載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">雲端空間已滿，%1$d 項未上載</item>
+        <item quantity="other">雲端空間已滿，%1$d 項未上載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d 段影片未上載，雲端儲存空間已滿。請</item>
+        <item quantity="other">%1$d 段影片未上載，雲端儲存空間已滿。請</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d 段影片未上載，電量低於 %2$s 時雲端同步將會暫停</item>
+        <item quantity="other">%1$d 段影片未上載，電量低於 %2$s 時雲端同步將會暫停</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d 段影片未上載，省電模式下雲端同步將會暫停</item>
+        <item quantity="other">%1$d 段影片未上載，省電模式下雲端同步將會暫停</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d 張照片未上載，請</item>
+        <item quantity="other">%1$d 張照片未上載，請</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">無網絡連線，%1$d項未上載。 %2$s</item>
+        <item quantity="other">無網絡連線，%1$d項未上載。 %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">無網絡連線，%1$d項未上載。 %2$s或%3$s</item>
+        <item quantity="other">無網絡連線，%1$d項未上載。 %2$s或%3$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">無網絡連線，%1$d 項未上載。</item>
+        <item quantity="other">無網絡連線，%1$d 項未上載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">無網絡連線，%1$d 項未上載</item>
+        <item quantity="other">無網絡連線，%1$d 項未上載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d 段影片未上載，請</item>
+        <item quantity="other">%1$d 段影片未上載，請</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">網絡異常，%1$d 項未上載。</item>
+        <item quantity="other">網絡異常，%1$d 項未上載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">網絡異常，%1$d 項未上載</item>
+        <item quantity="other">網絡異常，%1$d 項未上載</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">服務異常，%1$d 項未上載。</item>
+        <item quantity="other">服務異常，%1$d 項未上載。</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one"></item>
+        <item quantity="other">服務異常，%1$d 項未上載</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">正在同步 %1$d 個項目</item>
+        <item quantity="other">正在同步 %1$d 個項目</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">正在將 %1$d 個項目同步到雲端</item>
+        <item quantity="other">正在將 %1$d 個項目同步到雲端</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d 段影片</item>
+        <item quantity="other">%1$d 段影片</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">實況長度超過 %d 秒，部分三方平台可能無法支援</item>
+        <item quantity="other">實況長度超過 %d 秒，部分三方平台可能無法支援</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">最多支援 %1$d 張實況照片同時出圈</item>
+        <item quantity="other">最多支援 %1$d 張實況照片同時出圈</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">實況長度超過 %1$d 秒，暫不支援此功能</item>
+        <item quantity="other">實況長度超過 %1$d 秒，暫不支援此功能</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">單次最多拖拽 %d 項</item>
+        <item quantity="other">單次最多拖拽 %d 項</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">新增%d個項目失敗</item>
+        <item quantity="other">新增%d個項目失敗</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d張照片正在載入，無法設為私人。</item>
+        <item quantity="other">%d張照片正在載入，無法設為私人。</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d 小時</item>
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d 項</item>
+        <item quantity="other">%d 項</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d 分</item>
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">有 %d 項目不支援匯入影片編輯</item>
+        <item quantity="other">有 %d 項目不支援匯入影片編輯</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">第 %1$d 頁，共 %2$d 頁</item>
+        <item quantity="other">第 %1$d 頁，共 %2$d 頁</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">最多可選擇 %1$d 張照片建立 GIF</item>
+        <item quantity="other">最多可選擇 %1$d 張照片建立 GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">僅支援 %1$d 秒內的實況照片轉為 GIF</item>
+        <item quantity="other">僅支援 %1$d 秒內的實況照片轉為 GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">請選擇不少於 %1$d 張照片建立 GIF</item>
+        <item quantity="other">請選擇不少於 %1$d 張照片建立 GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">最多支援 %1$d 張照片建立 GIF</item>
+        <item quantity="other">最多支援 %1$d 張照片建立 GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">無法建立 GIF，僅有 %1$d 張照片符合格式要求</item>
+        <item quantity="other">無法建立 GIF，僅有 %1$d 張照片符合格式要求</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">所選照片中有 %1$d 張無法建立 GIF</item>
+        <item quantity="other">所選照片中有 %1$d 張無法建立 GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">已選擇的照片中有 %1$d 張格式不支援</item>
+        <item quantity="other">已選擇的照片中有 %1$d 張格式不支援</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">正在載入來自「Google 相簿」的 %1$s 個項目…</item>
+        <item quantity="other">正在載入來自「Google 相簿」的 %1$s 個項目…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">「Google 相簿」儲存空間已滿，%1$d 個項目未備份</item>
+        <item quantity="other">「Google 相簿」儲存空間已滿，%1$d 個項目未備份</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">正在備份 %1$s 個項目至「Google 相簿」</item>
+        <item quantity="other">正在備份 %1$s 個項目至「Google 相簿」</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">檢測到 HeyTap 雲端有 %1$d 項數據正在同步，關閉後將不再自動同步。為保障數據安全，建議等待同步完成後關閉。</item>
+        <item quantity="other">檢測到 HeyTap 雲端有 %1$d 項數據正在同步，關閉後將不再自動同步。為保障數據安全，建議等待同步完成後關閉。</item>
+    </plurals>
+    <plurals name="image_to_ai_selected_image_quantity_beyond">
+        <item quantity="one">最多支援 %d 張圖片</item>
+        <item quantity="other">最多支援 %d 張圖片</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">最多新增 %d 個常用相簿</item>
+        <item quantity="other">最多新增 %d 個常用相簿</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">已發現附近 %1$d 個裝置</item>
+        <item quantity="other">已發現附近 %1$d 個裝置</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d 張相片</item>
+        <item quantity="other">%1$d 張相片</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d 段影片</item>
+        <item quantity="other">%1$d 段影片</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">最多選擇 %1$d 張貼紙</item>
+        <item quantity="other">最多選擇 %1$d 張貼紙</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 個新通知</item>
+        <item quantity="other">%d 個新通知</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">將從私人雲端刪除 %1$d 個項目</item>
+        <item quantity="other">將從私人雲端刪除 %1$d 個項目</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">下載完成，%1$d 個項目下載失敗</item>
+        <item quantity="other">下載完成，%1$d 個項目下載失敗</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d 個項目下載完成</item>
+        <item quantity="other">%1$d 個項目下載完成</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">正在下載 %1$d/%2$d 個項目...</item>
+        <item quantity="other">正在下載 %1$d/%2$d 個項目...</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">要怎樣修改選取的區域？</item>
+        <item quantity="other">要怎樣修改選取的區域？</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">最多可新增 %d 張貼圖</item>
+        <item quantity="other">最多可新增 %d 張貼圖</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">在「隨心貼」中，最多可新增 %d 張動態貼圖。超出的動態貼圖將自動轉為靜態貼圖。</item>
+        <item quantity="other">在「隨心貼」中，最多可新增 %d 張動態貼圖。超出的動態貼圖將自動轉為靜態貼圖。</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">支援 %d 秒內的創作，方便分享至社交平台</item>
+        <item quantity="other">支援 %d 秒內的創作，方便分享至社交平台</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">支援 %d 秒內的貼圖創作</item>
+        <item quantity="other">支援 %d 秒內的貼圖創作</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">支援 %d 秒內的貼圖</item>
+        <item quantity="other">支援 %d 秒內的貼圖</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">支援 %d 秒內的影片創作</item>
+        <item quantity="other">支援 %d 秒內的影片創作</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">描述如何修改選取的區域</item>
+        <item quantity="other">描述如何修改選取的區域</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">%1$d 秒後停止錄音</item>
+        <item quantity="other">%1$d 秒後停止錄音</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">最多選取 %1$d 個區域</item>
+        <item quantity="other">最多選取 %1$d 個區域</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">僅支援 %1$d 秒內的實況</item>
+        <item quantity="other">僅支援 %1$d 秒內的實況</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">素材較大，預計等待 %1$d 分鐘</item>
+        <item quantity="other">素材較大，預計等待 %1$d 分鐘</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">匯出已選擇的 %d 張照片</item>
+        <item quantity="other">匯出已選擇的 %d 張照片</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">高度不得小於 %1$dmm</item>
+        <item quantity="other">高度不得小於 %1$dmm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">高度不得小於 %1$dpx</item>
+        <item quantity="other">高度不得小於 %1$dpx</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">高度不得大於 %1$dmm</item>
+        <item quantity="other">高度不得大於 %1$dmm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">高度不得大於 %1$dpx</item>
+        <item quantity="other">高度不得大於 %1$dpx</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">大小不得小於 %1$dKB</item>
+        <item quantity="other">大小不得小於 %1$dKB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">大小不得大於 %1$dKB</item>
+        <item quantity="other">大小不得大於 %1$dKB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">寬度不得小於 %1$dmm</item>
+        <item quantity="other">寬度不得小於 %1$dmm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">寬度不得小於 %1$dpx</item>
+        <item quantity="other">寬度不得小於 %1$dpx</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">寬度不得大於 %1$dmm</item>
+        <item quantity="other">寬度不得大於 %1$dmm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">寬度不得大於 %1$dpx</item>
+        <item quantity="other">寬度不得大於 %1$dpx</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">僅保留已揀選的 %d 張相片</item>
+        <item quantity="other">僅保留已揀選的 %d 張相片</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">刪除 %d 項</item>
+        <item quantity="other">刪除 %d 項</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">刪除 %d 項</item>
+        <item quantity="other">刪除 %d 項</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$d 個貼紙新增失敗</item>
+        <item quantity="other">%1$d 個貼紙新增失敗</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d 個貼圖新增失敗</item>
+        <item quantity="other">%d 個貼圖新增失敗</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">已成功新增 %1$s 個貼紙</item>
+        <item quantity="other">已成功新增 %1$s 個貼紙</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">已成功新增 %1$s 貼圖</item>
+        <item quantity="other">已成功新增 %1$s 貼圖</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">已新增 %1$d 張貼圖</item>
+        <item quantity="other">已新增 %1$d 張貼圖</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">在實況隨心貼中，最多可新增 %1$d 張實況貼圖，若超出上限，將自動轉換為靜態貼圖</item>
+        <item quantity="other">在實況隨心貼中，最多可新增 %1$d 張實況貼圖，若超出上限，將自動轉換為靜態貼圖</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">最多可新增 %1$d 張實況照片</item>
+        <item quantity="other">最多可新增 %1$d 張實況照片</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">最多可新增 %1$d 張照片</item>
+        <item quantity="other">最多可新增 %1$d 張照片</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">要使用消除功能，請先下載消除功能程式套件。檔案大小 %1$s，預計需要 %2$d 分鐘。</item>
+        <item quantity="other">要使用消除功能，請先下載消除功能程式套件。檔案大小 %1$s，預計需要 %2$d 分鐘。</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">檔案大小 %1$d，預計下載時間 %2$d。</item>
+        <item quantity="other">檔案大小 %1$d，預計下載時間 %2$d。</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">已選擇的照片中有 %1$d 張格式不支援</item>
+        <item quantity="other">已選擇的照片中有 %1$d 張格式不支援</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">選擇照片 (%1$d/%2$d)</item>
+        <item quantity="other">選擇照片 (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">已選擇 %1$d 項</item>
+        <item quantity="other">已選擇 %1$d 個項目</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">已選擇 %1$d 個相簿</item>
+        <item quantity="other">已選擇 %1$d 個相簿</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">已選擇 %1$d 項</item>
+        <item quantity="other">已選擇 %1$d 個項目</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">已選取 %1$d 段影片</item>
+        <item quantity="other">已選取 %1$d 段影片</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">最多新增 %1$d 張貼紙</item>
+        <item quantity="other">最多新增 %1$d 張貼紙</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">最多選擇 %1$d 個</item>
+        <item quantity="other">最多選擇 %1$d 個</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d張照片正在載入，無法刪除。</item>
+        <item quantity="other">%d張照片正在載入，無法刪除。</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d 個項目刪除失敗，請重試</item>
+        <item quantity="other">%1$d 個項目刪除失敗，請重試</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">有 %d 個新通知</item>
+        <item quantity="other">有 %d 個新通知</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">要移除 %d 個角色嗎？</item>
+        <item quantity="other">要移除 %d 個角色嗎？</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d 張相片</item>
+        <item quantity="other">%1$d 張相片</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">最多可新增 %1$d 張動態貼圖，超出的動態貼圖將顯示為靜態</item>
+        <item quantity="other">最多可新增 %1$d 張動態貼圖，超出的動態貼圖將顯示為靜態</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">最多僅支援分享 %d 個項目至該應用程式</item>
+        <item quantity="other">最多僅支援分享 %d 個項目至該應用程式</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">分享 %d 個項目</item>
+        <item quantity="other">分享 %d 個項目</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">分享 %d 張照片</item>
+        <item quantity="other">分享 %d 張照片</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">分享 %d 個影片</item>
+        <item quantity="other">分享 %d 個影片</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">要刪除 %d 個時刻嗎？</item>
+        <item quantity="other">要刪除 %d 個時刻嗎？</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">陪您一起走過的 %d 個故事</item>
+        <item quantity="other">陪您一起走過的 %d 個故事</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">已選擇 %d 個時刻</item>
+        <item quantity="other">已選擇 %d 個時刻</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">旋轉 %d 度</item>
+        <item quantity="other">旋轉 %d 度</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">最多支援匯入 %s 項</item>
+        <item quantity="other">最多支援匯入 %s 項</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">新增 %1d 項</item>
+        <item quantity="other">新增 %1d 項</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">最多支援匯入 %s 個 LUT 檔案</item>
+        <item quantity="other">最多支援匯入 %s 個 LUT 檔案</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">最多支援新增 %d 張照片</item>
+        <item quantity="other">最多支援新增 %d 張照片</item>
+    </plurals>
+</resources>

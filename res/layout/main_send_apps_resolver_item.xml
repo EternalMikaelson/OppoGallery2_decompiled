@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/main_resolve_dialog_oshare_item_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_app_recycle_item_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.sharepage.widget.GalleryFadeBackImageView android:layout_gravity="center_horizontal" android:id="@id/resolver_item_icon" android:layout_width="@dimen/main_oplus_resolver_icon_width" android:layout_height="@dimen/app_resolver_icon_new_height" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/common_TF03" android:textColor="@color/common_resolve_dialog_item_textcolor" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/resolver_item_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/common_TF03" android:textColor="?couiColorLabelPrimary" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/resolver_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_resolve_dialog_oshare_item_user_name_padding_top" android:maxLines="2" android:lineSpacingMultiplier="0.99" />
+</LinearLayout>

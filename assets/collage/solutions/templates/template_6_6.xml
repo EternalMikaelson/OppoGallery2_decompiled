@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+          H0
+          ▼
+     ┌────┬─────────┐
+     │ A0 │         │        · H0 {{A1,A4}|{A0,A2,A3}}
+     ├────┤    A1   │ ◀ H1   · H1 {A0|A2}
+     │ A2 │         │        · H2 {{A1,A2}|{A3,A4,A5}}
+     ├────┼────┬────┤ ◀ H2   · H3 {A4|A5}
+     │ A3 │ A4 │ A5 │
+     └────┴────┴────┘
+               ▲
+               H3
+-->
+<Collage version="2.0">
+    <Solution name="template_6-6" capacity="6" type="template">
+        <Scene width="960" height="1280">
+            <Entity id="camera">
+                <Component type="CameraPose">
+                    <Value id="positionX">480</Value>
+                    <Value id="positionY">640</Value>
+                    <Value id="positionZ">1</Value>
+                    <Value id="targetX">480</Value>
+                    <Value id="targetY">640</Value>
+                    <Value id="targetZ">0</Value>
+                    <Value id="upAxisX">0</Value>
+                    <Value id="upAxisY">1</Value>
+                    <Value id="upAxisZ">0</Value>
+                </Component>
+                <Component type="RenderTarget">
+                    <Value id="viewportWidth">960</Value>
+                    <Value id="viewportHeight">1280</Value>
+                </Component>
+                <Component type="AudioTarget">
+                    <Value id="sampleRate">44100</Value>
+                    <Value id="sampleChannels">2</Value>
+                    <Value id="sampleBitDepth">16</Value>
+                </Component>
+            </Entity>
+            <Entity id="player">
+                <Component type="PlaybackCtrl" />
+            </Entity>
+
+            <Entity id="root">
+                <Component type="Background">
+                    <Value id="src">#FFFFFF</Value>
+                </Component>
+                <Component type="LayoutContainer">
+                    <Value id="type">Resizable</Value>
+                    <Value id="aspectRatio">Unspecified</Value>
+                </Component>
+                <Component type="Layout">
+                    <Value id="left">0</Value>
+                    <Value id="top">0</Value>
+                    <Value id="right">960</Value>
+                    <Value id="bottom">1280</Value>
+                </Component>
+                <Component type="Material"/>
+
+                <Entity id="asset0">
+                    <Component type="Layout">
+                        <Value id="left">0</Value>
+                        <Value id="top">0</Value>
+                        <Value id="right">320</Value>
+                        <Value id="bottom">426.7</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">0</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset1">
+                    <Component type="Layout">
+                        <Value id="left">320</Value>
+                        <Value id="top">0</Value>
+                        <Value id="right">960</Value>
+                        <Value id="bottom">853.3</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">1</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset2">
+                    <Component type="Layout">
+                        <Value id="left">0</Value>
+                        <Value id="top">426.7</Value>
+                        <Value id="right">320</Value>
+                        <Value id="bottom">853.3</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">2</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset3">
+                    <Component type="Layout">
+                        <Value id="left">0</Value>
+                        <Value id="top">853.3</Value>
+                        <Value id="right">320</Value>
+                        <Value id="bottom">1280</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">3</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset4">
+                    <Component type="Layout">
+                        <Value id="left">320</Value>
+                        <Value id="top">853.3</Value>
+                        <Value id="right">640</Value>
+                        <Value id="bottom">1280</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">4</Value>
+                    </Component>
+                </Entity>
+                <Entity id="asset5">
+                    <Component type="Layout">
+                        <Value id="left">640</Value>
+                        <Value id="top">853.3</Value>
+                        <Value id="right">960</Value>
+                        <Value id="bottom">1280</Value>
+                        <Value id="inset">0</Value>
+                        <Value id="spacing">0</Value>
+                        <Value id="cornerRadius">0</Value>
+                    </Component>
+                    <Component type="ContentTransform" />
+                    <Component type="ContentAnimation" />
+                    <Component type="Material" />
+                    <Component type="MaterialAnimation" />
+                    <Component type="Touchable" />
+                    <Component type="Playback" />
+                    <Component type="AssetPlaceholder">
+                        <Value id="index">5</Value>
+                    </Component>
+                </Entity>
+            </Entity>
+
+            <Entity id="handle0">
+                <Component type="Constraints">
+                    <Value id="slideDirection">Horizontal</Value>
+                    <ValueArray id="constraintBorder">
+                        <Item>@Entity/asset0:R</Item>
+                        <Item>@Entity/asset1:L</Item>
+                        <Item>@Entity/asset2:L</Item>
+                        <Item>@Entity/asset4:R</Item>
+                        <Item>@Entity/asset5:L</Item>
+                    </ValueArray>
+                </Component>
+            </Entity>
+            <Entity id="handle1">
+                <Component type="Constraints">
+                    <Value id="slideDirection">Vertical</Value>
+                    <ValueArray id="constraintBorder">
+                        <Item>@Entity/asset1:B</Item>
+                        <Item>@Entity/asset2:T</Item>
+                    </ValueArray>
+                </Component>
+            </Entity>
+            <Entity id="handle2">
+                <Component type="Constraints">
+                    <Value id="slideDirection">Vertical</Value>
+                    <ValueArray id="constraintBorder">
+                        <Item>@Entity/asset0:B</Item>
+                        <Item>@Entity/asset2:B</Item>
+                        <Item>@Entity/asset3:T</Item>
+                        <Item>@Entity/asset4:T</Item>
+                        <Item>@Entity/asset5:T</Item>
+                    </ValueArray>
+                </Component>
+            </Entity>
+            <Entity id="handle3">
+                <Component type="Constraints">
+                    <Value id="slideDirection">Horizontal</Value>
+                    <ValueArray id="constraintBorder">
+                        <Item>@Entity/asset3:R</Item>
+                        <Item>@Entity/asset4:L</Item>
+                    </ValueArray>
+                </Component>
+            </Entity>
+        </Scene>
+    </Solution>
+</Collage>

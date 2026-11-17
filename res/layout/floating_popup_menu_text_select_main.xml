@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="@dimen/dp_6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.scrollview.COUIHorizontalScrollView android:id="@id/hsv_mark_main" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/dp_6">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_main" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </com.coui.appcompat.scrollview.COUIHorizontalScrollView>
+    <View android:layout_gravity="start|center" android:id="@id/v_left_fade_main" android:background="@drawable/floating_popup_ic_toolbar_text_select_fade_left_main" android:layout_width="@dimen/dp_26" android:layout_height="@dimen/dp_54" android:alpha="0.0" android:forceDarkAllowed="false" />
+    <View android:layout_gravity="end|center" android:id="@id/v_right_fade_main" android:background="@drawable/floating_popup_ic_toolbar_text_select_fade_right_main" android:layout_width="@dimen/dp_26" android:layout_height="@dimen/dp_54" android:alpha="0.0" android:forceDarkAllowed="false" />
+</FrameLayout>

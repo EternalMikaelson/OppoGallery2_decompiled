@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/albumsetpage_rename_group" android:enabled="false" android:id="@id/action_rename" android:title="@string/base_rename" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/albumsetpage_disband_the_group" android:enabled="false" android:id="@id/action_disband_group" android:title="@string/remove_photo_group" app:showAsAction="ifRoom" />
+</menu>

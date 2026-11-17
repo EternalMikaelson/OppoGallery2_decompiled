@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <smooth-rect />
+    <solid android:color="@color/coui_color_card_background" />
+    <corners android:radius="@dimen/common_font_size_16" />
+</shape>

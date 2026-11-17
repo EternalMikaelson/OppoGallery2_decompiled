@@ -1,0 +1,123 @@
+.class public final Lcom/oplus/aiunit/vision/nh9$a;
+.super Lcom/oplus/aiunit/vision/nh9;
+.source "CollageError.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/aiunit/vision/nh9;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    const-string v0, "busy"
+
+    .line 3
+    const-string/jumbo v1, "msg"
+
+    .line 5
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 8
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    if-ne p0, p1, :cond_0
+
+    .line 2
+    .line 3
+    goto :goto_1
+
+    .line 4
+    :cond_0
+    instance-of p0, p1, Lcom/oplus/aiunit/vision/nh9$a;
+
+    .line 5
+    .line 6
+    if-nez p0, :cond_1
+
+    .line 7
+    .line 8
+    goto :goto_0
+
+    .line 9
+    :cond_1
+    check-cast p1, Lcom/oplus/aiunit/vision/nh9$a;
+
+    .line 10
+    .line 11
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 12
+    .line 13
+    .line 14
+    const-string p0, "busy"
+
+    .line 15
+    .line 16
+    invoke-static {p0, p0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result p0
+
+    .line 20
+    if-nez p0, :cond_2
+
+    .line 21
+    .line 22
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 23
+    return p0
+
+    .line 24
+    :cond_2
+    :goto_1
+    const/4 p0, 0x1
+
+    .line 25
+    return p0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    .line 1
+    const p0, 0x2e51f9
+
+    .line 2
+    .line 3
+    .line 4
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "PopoutBusyError(msg=busy)"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

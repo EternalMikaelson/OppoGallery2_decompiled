@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/status_image" android:padding="@dimen/photoeditorpage_olive_icon_padding" android:layout_width="@dimen/photoeditorpage_olive_sound_icon_size" android:layout_height="@dimen/photoeditorpage_olive_sound_icon_size" android:layout_centerHorizontal="true" android:forceDarkAllowed="false" />
+    <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:gravity="center_horizontal" android:id="@id/status_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/status_image" style="@style/olive_EditorSoundSwitchTextStyle" />
+</merge>

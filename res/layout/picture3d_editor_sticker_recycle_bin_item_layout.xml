@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/picture3d_sticker_grid_view_column_width" android:layout_height="@dimen/picture3d_sticker_grid_view_column_width" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.photoeditor.common.FilePathImageView android:id="@id/sticker_thumbnail" android:background="@drawable/picture3d_editor_menu_item_background" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" />
+    <ImageView android:id="@id/sticker_check_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picture3d_shape_btn_check" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+</RelativeLayout>

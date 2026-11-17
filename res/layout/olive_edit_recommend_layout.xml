@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.photoeditor.editingvvm.olive.widget.OliveOrignalRecommendView android:id="@id/olive_edit_olive_original_recommend_view" android:background="@drawable/olive_edit_cover_recommend_bg" android:layout_width="@dimen/olive_edit_recommend_view_size" android:layout_height="@dimen/olive_edit_recommend_view_size" android:layout_marginBottom="@dimen/olive_edit_recommend_margin_bottom" android:forceDarkAllowed="false" />
+    <com.oplus.gallery.photoeditor.editingvvm.olive.widget.OliveCoverRecommendView android:id="@id/olive_edit_olive_cover_recommend_view" android:background="@drawable/olive_edit_cover_recommend_bg" android:layout_width="@dimen/olive_edit_recommend_view_size" android:layout_height="@dimen/olive_edit_recommend_view_size" android:layout_marginBottom="@dimen/olive_edit_recommend_margin_bottom" android:forceDarkAllowed="false" />
+</merge>

@@ -1,0 +1,19 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/fs50;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    const-string p0, "[onSaveRep] push sticker async, notify TOPIC_OPERATING_SAVE_READY when done"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

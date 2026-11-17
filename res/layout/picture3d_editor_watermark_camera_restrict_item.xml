@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/camera_restrict_item_style_layout" android:paddingBottom="@dimen/picture3d_editor_watermark_camera_switch_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/picture3d_editor_watermark_camera_series_item_title_size" android:textColor="@color/picture3d_editor_watermark_camera_item_title_text_color" android:gravity="left" android:id="@id/camera_restrict_item_style_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/picture3d_editor_watermark_camera_text_item_title_margin_bottom" android:text="@string/picture_editor_text_watermark_master_restrict" android:layout_marginHorizontal="@dimen/picture3d_editor_watermark_camera_series_item_title_margin_horizontal" />
+    <com.oplus.gallery.photoeditor.widget.CameraNestedRecyclerView android:id="@id/camera_restrict_item_style_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

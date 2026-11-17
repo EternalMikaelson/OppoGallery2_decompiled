@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">%1$2s ଆଇଟମ୍ ସହିତ %2$1s ଆଲବମ୍; ଏହାକୁ \"ବାରମ୍ବାର ବ୍ୟବହୃତ\" ରେ ଯୋଡିବା ପାଇଁ ଟ୍ୟାପ୍ କରନ୍ତୁ।</item>
+        <item quantity="other">%1$2s ଆଇଟମ୍‌ଗୁଡ଼ିକ ସହିତ %2$1s ଆଲବମ୍; ଏହାକୁ \"ବାରମ୍ବାର ବ୍ୟବହୃତ\" ରେ ଯୋଡିବା ପାଇଁ ଟ୍ୟାପ୍ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s ମେଳ ହୋଇଛି</item>
+        <item quantity="other">%s ଟା ମେଳ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">ଶୀଘ୍ର ଏକ ଭିଡିଓ ଉତ୍ପନ୍ନ କରିବା ପାଇଁ ଆପଣଙ୍କ ମିଡିଆ ଚୟନ କରନ୍ତୁ ଏବଂ ତଳେ ଥିବା \"AI ଇନଷ୍ଟାଣ୍ଟ କ୍ଲିପ୍‌\" ଭାସମାନ ୱିଣ୍ଡୋରେ ଟ୍ୟାପ୍ କରନ୍ତୁ। ଉତ୍ତମ ଫଳାଫଳଗୁଡ଼ିକ ପାଇଁ ଅତି କମରେ %1$s ଟା ଆଇଟମ୍‌ ଚୟନ କରନ୍ତୁ।</item>
+        <item quantity="other">ଶୀଘ୍ର ଏକ ଭିଡିଓ ଉତ୍ପନ୍ନ କରିବା ପାଇଁ ଆପଣଙ୍କ ମିଡିଆ ଚୟନ କରନ୍ତୁ ଏବଂ ତଳେ ଥିବା \"AI ଇନଷ୍ଟାଣ୍ଟ କ୍ଲିପ୍‌\" ଭାସମାନ ୱିଣ୍ଡୋରେ ଟ୍ୟାପ୍ କରନ୍ତୁ। ଉତ୍ତମ ଫଳାଫଳଗୁଡ଼ିକ ପାଇଁ ଅତି କମରେ %1$s ଟା ଆଇଟମ୍‌ ଚୟନ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">ଆପଣଙ୍କ ମିଡିଆ ଚୟନ କରନ୍ତୁ ଏବଂ ଦ୍ରୁତ ଏକ ଭିଡିଓ ସୃଷ୍ଟି କରିବାକୁ ନିମ୍ନରେ \"ସମ୍ପାଦନ - AI ଇନଷ୍ଟାଣ୍ଟ କ୍ଲିପ୍‌\" ଟ୍ୟାପ୍ କରନ୍ତୁ। ଉତ୍ତମ ଫଳାଫଳଗୁଡ଼ିକ ପାଇଁ ଅତି କମରେ %1$s ଟା ଆଇଟମ୍‌ ଚୟନ କରନ୍ତୁ।</item>
+        <item quantity="other">ଆପଣଙ୍କ ମିଡିଆ ଚୟନ କରନ୍ତୁ ଏବଂ ଦ୍ରୁତ ଏକ ଭିଡିଓ ସୃଷ୍ଟି କରିବାକୁ ନିମ୍ନରେ \"ସମ୍ପାଦନ - AI ଇନଷ୍ଟାଣ୍ଟ କ୍ଲିପ୍‌\" ଟ୍ୟାପ୍ କରନ୍ତୁ। ଉତ୍ତମ ଫଳାଫଳଗୁଡ଼ିକ ପାଇଁ ଅତି କମରେ %1$s ଟା ଆଇଟମ୍ ଚୟନ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">%1$d ସେକେଣ୍ଡରୁ ଅଧିକ ଲମ୍ବା ମୋସନ୍ ଫଟୋସମୂହ ସମର୍ଥିତ ନୁହେଁ</item>
+        <item quantity="other">%1$d ସେକେଣ୍ଡରୁ ଅଧିକ ଲମ୍ବା ମୋସନ୍ ଫଟୋସମୂହ ସମର୍ଥିତ ନୁହେଁ</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">ଭିଡିଓଟି %d ସେକେଣ୍ଡରୁ ଅଧିକ ହୋଇପାରିବ ନାହିଁ</item>
+        <item quantity="other">ଭିଡିଓଟି %d ସେକେଣ୍ଡରୁ ଅଧିକ ହୋଇପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d ଟା ଲକ୍ ଥିବା ଆପ୍</item>
+        <item quantity="other">%d ଟା ଲକ୍‌ ଥିବା ଆପ୍ ଗୁଡ଼ିକ</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">%1$2s ଆଇଟମ୍ ସହିତ %2$1s ଆଲବମ୍; \"ବାରମ୍ବାର ବ୍ୟବହୃତ\" ରେ ଯୋଗ କରାଯାଇଛି।</item>
+        <item quantity="other">%1$2s ଆଇଟମ୍‌ଗୁଡ଼ିକ ସହିତ %2$1s ଆଲବମ୍; \"ବାରମ୍ବାର ବ୍ୟବହୃତ\" ରେ ଯୋଗ କରାଯାଇଛି।</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">(%1$d) ଯୋଗ କରନ୍ତୁ</item>
+        <item quantity="other">(%1$d) ଯୋଗ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">(%1$d/%2$d) ଯୋଗ କରନ୍ତୁ</item>
+        <item quantity="other">(%1$d/%2$d) ଯୋଗ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">%1$d ଆଇଟମ୍ ଆଡ୍‌ଜଷ୍ଟ୍‌ କରାହୋଇଛି</item>
+        <item quantity="other">%1$d ଟି ଆଇଟମ୍ ଆଡ୍‌ଜଷ୍ଟ୍‌ କରାହୋଇଛି</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">%d ଫଟୋ ଲୋଡ୍‌ ହେଉଛି ଏବଂ ଯୋଡ଼ାଯାଇପାରିବ ନାହିଁ |</item>
+        <item quantity="other">%d ଫଟୋଗୁଡ଼ିକ ଲୋଡ ହେଉଛି ଏବଂ ଯୋଡ଼ାଯାଇ ପାରିବ ନାହିଁ |</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d ଟା ଡକ୍ୟୁମେଣ୍ଟ୍</item>
+        <item quantity="other">%1$d ଟା ଡକ୍ୟୁମେଣ୍ଟ୍</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d ବ୍ୟାଙ୍କ୍ କାର୍ଡ୍‌</item>
+        <item quantity="other">%1$d ଟା ବ୍ୟାଙ୍କ୍ କାର୍ଡ୍‌</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">%dଟି ଆଲବମ୍‌ରୁ ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଆଇଟମ୍‌ଗୁଡ଼ିକ‌ର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+        <item quantity="other">%d ଆଲବମ୍‌ଗୁଡ଼ିକରୁ ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଆଇଟମ୍‌ଗୁଡ଼ିକ‌ର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%dଟି ବ୍ରଷ୍ଟ ଫଟୋ ଏହି ଡିଭାଇସ୍‌ରୁ ବିଲୋପ ହୋଇଯିବ ଏବଂ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ 30 ଦିନ ପାଇଁ ରହିବ। ସମସ୍ତ ବ୍ରଷ୍ଟ ଫଟୋସମୂହ କ୍ଲାଉଡକୁ ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇଛି ଏବଂ ସେଠାରେ ରହିବ।</item>
+        <item quantity="other">%d ବ୍ରଷ୍ଟ ଫଟୋସମୂହ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। ସମସ୍ତ ବ୍ରଷ୍ଟ ଫଟୋସମୂହ କ୍ଲାଉଡକୁ ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇଛି ଏବଂ ସେଠାରେ ରହିବ।</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d ବ୍ରଷ୍ଟ ଫଟୋ ଏହି ଡିଭାଇସ୍‌ରୁ ବିଲୋପ ହୋଇଯିବ ଏବଂ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ 30 ଦିନ ପାଇଁ ରହିବ। କିଛି ଫଟୋସମୂହର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+        <item quantity="other">%d ବ୍ରଷ୍ଟ ଫଟୋସମୂହ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଫଟୋସମୂହର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d ଆଇଟମ୍ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଆଇଟମ୍‌ଗୁଡ଼ିକ‌ର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+        <item quantity="other">%d ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଆଇଟମ୍‌ଗୁଡ଼ିକ‌ର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d ଫଟୋ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଫଟୋସମୂହର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+        <item quantity="other">%d ଫଟୋସମୂହ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଫଟୋସମୂହର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହୋଇଯିବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଭିଡିଓସମୂହ‌ର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+        <item quantity="other">%d ଭିଡିଓସମୂହ ଏହି ଡିଭାଇସ୍ରୁ ବିଲୋପିତ ହେବ ଏବଂ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରହିବ। କିଛି ଭିଡିଓସମୂହ‌ର ବ୍ୟାକ୍ ଅପ୍ ନିଆଯାଇନାହିଁ। ଆପଣ ସେଗୁଡ଼ିକୁ ବିଲୋପ କରିବା ପୂର୍ବରୁ ବ୍ୟାକ୍ ଅପ୍ ନେବାକୁ ଚାହିଁପାରନ୍ତି।</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s ଥମ୍ବନେଲ୍ ଏହାର ମୂଳ ସଂସ୍କରଣ ଦ୍ୱାରା ବିସ୍ଥାପନ ହେବ।</item>
+        <item quantity="other">%1$s ଥମ୍ବନେଲ୍‌ଗୁଡ଼ିକ ସେମାନଙ୍କ ମୂଳ ସଂସ୍କରଣ ଦ୍ୱାରା ବିସ୍ଥାପନ ହେବ।</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ଟା ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">%d ବ୍ୟକ୍ତିଙ୍କୁ ମର୍ଜ୍ ଏବଂ ଅପସାରିତ କରିବେ କି?</item>
+        <item quantity="other">%d ଜଣ ଲୋକଙ୍କୁ ମର୍ଜ୍ ଏବଂ ଅପସାରିତ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">ଏହି ଆଲବମ୍ ରୁ %d ଫଟୋ ଅପସାରଣ କରିବେ କି?</item>
+        <item quantity="other">ଏହି ଆଲବମ୍ ରୁ %d ଟା ଫଟୋ ଅପସାରଣ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">ଏହି ଆଲବମ୍ ରୁ %d ଆଇଟମ୍ ଅପସାରଣ କରିବେ କି?</item>
+        <item quantity="other">ଏହି ଆଲବମ୍ ରୁ %d ଟା ଆଇଟମ୍ ଅପସାରଣ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">ଏହି ଆଲବମ୍ ରୁ %d ଭିଡିଓ ଅପସାରଣ କରିବେ କି?</item>
+        <item quantity="other">ଏହି ଆଲବମ୍ ରୁ %d ଟା ଭିଡିଓ ଅପସାରଣ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">ଥମ୍ବନେଲ୍‌ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ଥମ୍ବନେଲ୍‌ଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">ପ୍ରକୃତଟି ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ପ୍ରକୃତଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">1 ଫଟୋ ଏକ ଥମ୍ବନେଲ୍ ଅଟେ। ଏହା ବଦଳରେ ଆପଣ ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ବ୍ୟବହାର କରିପାରିବେ।</item>
+        <item quantity="other">କିଛିଟା ଚୟନିତ ଫଟୋ ହେଉଛନ୍ତି ଥମ୍ବନେଲ୍। ଏହା ବଦଳରେ ଆପଣ ପ୍ରକୃତ ଫଟୋଗୁଡ଼ିକ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ବ୍ୟବହାର କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">ଗୋଟିଏ ସମୟରେ ସର୍ବାଧିକ %1$d ଛବିକୁ PDF ରେ ରୂପାନ୍ତର କରାଯାଇପାରିବ</item>
+        <item quantity="other">ଗୋଟିଏ ସମୟରେ ସର୍ବାଧିକ %1$d ଟା ଛବିକୁ PDF ରେ ରୂପାନ୍ତର କରାଯାଇପାରିବ</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍। %1$d ଆଇଟମ୍ କପି ହୋଇନାହିଁ।</item>
+        <item quantity="other">ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍। %1$dଟି ଆଇଟମ୍ କପି ହୋଇନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">%d ଆଇଟମ୍ କପି କରାହୋଇଛି</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ କପି କରାହୋଇଛି</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">%d ରୁ ଅଧିକ ଆଇଟମ୍ କପି କରାଯାଇ ପାରିବ ନାହିଁ</item>
+        <item quantity="other">%d ଟା ରୁ ଅଧିକ ଆଇଟମ୍ କପି କରାଯାଇ ପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଫଟୋ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଫଟୋ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଆଇଟମ୍‌ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଆଇଟମ୍‌ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଭିଡିଓ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଭିଡିଓ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ବ୍ରଷ୍ଟ ଫଟୋ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ବ୍ରଷ୍ଟ ଫଟୋ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">ଏହି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଏହି ଫଟୋସମୂହ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">ଏହି ଫଟୋ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଏହି ଫଟୋସମୂହ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">ଏହି ଆଇଟମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଏହି ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">ଏହି ଆଇଟମ୍ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଏହି ଆଇଟମଗୁଡ଼ିକ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%dଟି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%dଟି ଆଇଟମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଆଇଟମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବେ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%dଟି ବ୍ରଷ୍ଟ ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">%dଟି ବ୍ରଷ୍ଟ ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">%d ଆଲବମ୍ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଆଲବମ୍ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">%d ବର୍ଷ୍ଟ୍ ଫଟୋ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ବର୍ଷ୍ଟ୍ ଫଟୋ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %d ମେମୋରୀ ବିଲୋପ କରାହୋଇଯିବ। ଏହି ମେମୋରୀରେ ଥିବା ଫଟୋଗୁଡ଼ିକ \"ଫଟୋସମୂହ\" ଆପ୍ ରେ ରଖାଯିବ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %d ଟା ମେମୋରୀ ବିଲୋପ କରାହୋଇଯିବ। ଏହି ମେମୋରୀଗୁଡ଼ିକରେ ଥିବା ଫଟୋଗୁଡ଼ିକ \"ଫଟୋସମୂହ\" ଆପ୍ ରେ ରଖାଯିବ।</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">%d ମେମୋରୀ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ମେମୋରୀ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">ସ୍ଥାୟୀ ଭାବେ %d ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+        <item quantity="other">ସ୍ଥାୟୀ ଭାବେ %d ଟା ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">%d ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">%d ଫଟୋ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଫଟୋ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">%d ଆଇଟମ୍‌ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">%d ଭିଡିଓ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଭିଡିଓ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">%d ଷ୍ଟିକର୍ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଷ୍ଟିକର୍ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">ଏହି ଫଟୋ ବିଲୋପ କରନ୍ତୁ</item>
+        <item quantity="other">ଏହି ଫଟୋସମୂହକୁ ବିଲୋପ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">ଏହି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ଏହି ଭିଡିଓସମୂହ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">ଏହି ଭିଡିଓ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଏହି ଭିଡିଓସମୂହ ସ୍ଥାୟୀ ଭାବରେ ବିଲୋପ ହେବ। ଏହି କ୍ରିୟା ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">%d ଡାଉନ୍​ଲୋଡ୍ କରାହେଉଛି…</item>
+        <item quantity="other">%d ଟା ଡାଉନ୍​ଲୋଡ୍ କରାହେଉଛି…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">%d ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରାହେଉଛି…</item>
+        <item quantity="other">%d ଟା ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରାହେଉଛି…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">%d ଭିଡିଓ ଡାଉନ୍​ଲୋଡ୍ କରାହେଉଛି…</item>
+        <item quantity="other">%d ଟା ଭିଡିଓ ଡାଉନ୍​ଲୋଡ୍ କରାହେଉଛି…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">%dଟି ଫାଇଲ୍ କୁ ବ୍ୟକ୍ତିଗତ ଭାବରେ ସେଟ୍ କରିବେ?</item>
+        <item quantity="other">%dଟି ଫାଇଲ୍‌ ବ୍ୟକ୍ତିଗତ ଭାବରେ ସେଟ୍ କରିବେ?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">ଏହି ଫଟୋକୁ ବ୍ୟକ୍ତିଗତ ଭାବରେ ସେଟ୍ କରନ୍ତୁ?</item>
+        <item quantity="other">ଏହି ଫଟୋସମୂହକୁ ବ୍ୟକ୍ତିଗତ ଭାବରେ ସେଟ୍ କରନ୍ତୁ?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">%dଟି ଫାଇଲ୍ ଏନକ୍ରିପ୍ଟ ହେବାରେ ବିଫଳ ହୋଇଛି</item>
+        <item quantity="other">%dଟି ଫାଇଲ୍ ଏନକ୍ରିପ୍ଟ ହେବାରେ ବିଫଳ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">%d ଆଲବମ୍ ଲକ୍ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଆଲବମ୍ ଲକ୍ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %d ବର୍ଷ୍ଟ୍ ଫଟୋ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %d ଟା ବର୍ଷ୍ଟ୍ ଫଟୋ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟାନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ବର୍ଷ୍ଟ୍ ଫଟୋ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଟା ବର୍ଷ୍ଟ୍ ଫଟୋ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %d ଆଲବମ୍‌ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %d ଟା ଆଲବମ୍‌ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %d ଫଟୋ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %d ଟା ଫଟୋ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %d ଆଇଟମ୍ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %d ଟା ଆଇଟମ୍ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %d ଭିଡିଓ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %d ଟା ଭିଡିଓ ବିଲୋପ କରାହୋଇଯିବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଆଲବମ୍ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଟା ଆଲବମ୍ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଆଲବମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଫଟୋ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଟା ଫଟୋ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଫଟୋସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଫଟୋସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଆଇଟମ୍ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଟା ଆଇଟମ୍ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଭିଡିଓ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍-ଅପ୍ ନ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍, ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ଗୁଡ଼ିକରୁ %d ଟା ଭିଡିଓ ବିଲୋପ କରାହେବ। ବ୍ୟାକ୍-ଅପ୍ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 60 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖା ଯାଇଥାଏ; ବ୍ୟାକ୍ ଅପ୍ ନ କରାହୋଇଥିବା ଭିଡିଓସମୂହ 30 ଦିନ ପାଇଁ ରଖା ଯାଇଥାଏ।</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">%d ଚୟନିତ ଫଟୋ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ</item>
+        <item quantity="other">%d ଟା ଚୟନିତ ଫଟୋ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">%d ଫଟୋ ଏକ୍ସପୋର୍ଟ୍ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଫଟୋ ଏକ୍ସପୋର୍ଟ୍ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">ପସନ୍ଦଗୁଡ଼ିକରେ %1$d ଆଇଟମ୍ ଯୋଗ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନଃ ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item quantity="other">ପସନ୍ଦଗୁଡ଼ିକରେ %1$dଟି ଆଇଟମ୍ ଯୋଗ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନଃ ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">ଫାଇଲ୍‌ ଆକାର: %1$s। ଅନୁମାନିତ ଡାଉନ୍​ଲୋଡ୍ ସମୟ: %2$s ମିନିଟ୍‌।</item>
+        <item quantity="other">ଫାଇଲ୍‌ ଆକାର: %1$s। ଅନୁମାନିତ ଡାଉନ୍​ଲୋଡ୍ ସମୟ: %2$s ମିନିଟ୍‌।</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">ଥମ୍ବନେଲ୍‌ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ଥମ୍ବନେଲ୍‌ଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">ପ୍ରକୃତଟି ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ପ୍ରକୃତଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">1 ଫଟୋ ଏକ ଥମ୍ବନେଲ୍ ଅଟେ। ଏହା ବଦଳରେ ଆପଣ ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ବ୍ୟବହାର କରିପାରିବେ।</item>
+        <item quantity="other">ଚୟନିତ ଫଟୋସମୂହରୁ କିଛିଟା ଫଟୋ ଥମ୍ବନେଲ୍ ଅଟେ। ଏହା ବ୍ୟତିତ ଆପଣ ପ୍ରକୃତ ଫଟୋସମୂହକୁ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ଅଂଶୀଦାର କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">%s ର ଏକ ଫଟୋ ମିଳିଛି। ସହଜରେ ଆକସେସ୍ ପାଇଁ ଏହାକୁ \"କାର୍ଡ୍ କେସ୍‌\" କୁ ଘୁଞ୍ଚାନ୍ତୁ।</item>
+        <item quantity="other">%s ର ଫଟୋସମୂହ ମିଳିଛି। ସହଜରେ ପ୍ରବେଶ ପାଇଁ ସେଗୁଡ଼ିକୁ \"କାର୍ଡ୍ କେସ୍‌\" କୁ ଘୁଞ୍ଚାନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">%1$s ର ଫଟୋ କାର୍ଡ୍ କେସ୍‌କୁ ସ୍ଥାନାନ୍ତରିତ କରାହୋଇଛି</item>
+        <item quantity="other">%1$s ର ଫଟୋସମୂହ କାର୍ଡ୍ କେସ୍‌କୁ ସ୍ଥାନାନ୍ତରିତ କରାହୋଇଛି</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d ଟିକେଟ୍/ରସିଦ</item>
+        <item quantity="other">%1$d ଟା ଟିକେଟ୍/ରସିଦ</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">ଚୟନିତ ଆଇଟମ୍ ଟି ଆଲବମ୍ ରେ ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି</item>
+        <item quantity="other">ଚୟନିତ ଆଇଟମ୍ ଗୁଡ଼ିକ ଆଲବମ୍ ରେ ପୂର୍ବରୁ ବିଦ୍ୟମାନ ଅଛି</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d ଆଇଟମ୍</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d ବ୍ୟକ୍ତିଙ୍କୁ ମର୍ଜ୍ କରାହେବ ଏବଂ \"%2$s\" ରୁ ଅପସାରିତ କରାହୋଇଯିବ।</item>
+        <item quantity="other">%1$d ଜଣ ବ୍ୟକ୍ତିଙ୍କୁ ମର୍ଜ୍ କରାହେବ ଏବଂ \"%2$s\" ରୁ ଅପସାରିତ କରାହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">%d ଫଟୋ ଲୋଡ୍ ହେଉଛି ଏବଂ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+        <item quantity="other">%d ଟା ଫଟୋ ଲୋଡ୍ ହେଉଛି ଏବଂ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">%d ଆଇଟମ୍‍ ସ୍ଥାନାନ୍ତରିତ</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍‍ ସ୍ଥାନାନ୍ତରିତ</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d ଲୋକ</item>
+        <item quantity="other">%1$d ଲୋକ</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରୁଛି...</item>
+        <item quantity="other">ପ୍ରକୃତ ଫଟୋସମୂହ ଡାଉନ୍​ଲୋଡ୍ କରୁଛି...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">ଫଟୋ କପି ହୋଇଛି। ଭିଡିଓସମୂହ ଏହି ଆଲବମ୍ କୁ କପି କରାଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଫଟୋସମୂହ କପି ହୋଇଛି। ଭିଡିଓସମୂହ ଏହି ଆଲବମ୍ କୁ କପି କରାଯାଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">ଫଟୋ ସ୍ଥାନାନ୍ତରିତ କରାହୋଇଛି। ଏହି ଅଲବମ୍ ରେ ଭିଡିଓସମୂହ ସ୍ଥାନାନ୍ତରିତ କରା ଯାଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">ଫଟୋସମୂହ ସ୍ଥାନାନ୍ତରିତ କରାହୋଇଛି। ଏହି ଅଲବମ୍ ରେ ଭିଡିଓସମୂହ ସ୍ଥାନାନ୍ତରିତ କରା ହୋଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଆଲବମ୍‌ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଆଲବମ୍‌ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଫଟୋ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଫଟୋ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଆଇଟମ୍ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଆଇଟମ୍ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଭିଡିଓ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">ଏହି ଡିଭାଇସ୍ ରୁ %dଟି ଭିଡିଓ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">ଏହି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+        <item quantity="other">ଏହି ଫଟୋସମୂହ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">ଏହି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଫଟୋସମୂହ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">ଏହି ଆଲବମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+        <item quantity="other">ଏହି ଆଲବମ୍ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">ଏହି ଆଲବମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଆଲବମ୍ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">ଏହି ଆଇଟମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+        <item quantity="other">ଏହି ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">ଏହି ଆଇଟମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଆଇଟମ୍‌ଗୁଡ଼ିକ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d ଆଲବମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">%dଟି ଆଲବମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d ଆଲବମ୍ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଆଲବମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%dଟି ବ୍ରଷ୍ଟ ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ବ୍ରଷ୍ଟ ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%dଟି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">%dଟି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%dଟି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଫଟୋ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%dଟି ଆଇଟମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">%dଟି ଆଇଟମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%dଟି ଆଇଟମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଆଇଟମ୍‌ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+        <item quantity="other">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମଗୁଡ଼ିକ 30 ଦିନ ପାଇଁ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ରେ ରଖାଯାଏ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">%dଟି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">ଏହି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+        <item quantity="other">ଏହି ଭିଡିଓସମୂହ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ। ବିଲୋପ ହୋଇଥିବା ଆଇଟମ୍‌ଗୁଡ଼ିକ 30 ଦିନ ମଧ୍ୟରେ \"ସମ୍ପ୍ରତିକରେ ବିଲୋପିତ\" ଆଲବମ୍ ରୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ।</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">ଏହି ଭିଡିଓ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+        <item quantity="other">ଏହି ଭିଡିଓସମୂହ ଏହି ଡିଭାଇସ୍, କ୍ଲାଉଡ୍ ଏବଂ ଅନ୍ୟ ସିଙ୍କ୍ ହୋଇଥିବା ଡିଭାଇସ୍ ରୁ ବିଲୋପ ହେବ।</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">%d ଫଟୋ ରିଷ୍ଟୋର୍‌ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଫଟୋ ରିଷ୍ଟୋର୍ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">%d ଆଇଟମ୍ ରିଷ୍ଟୋର୍ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ରିଷ୍ଟୋର୍ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">%d ଭିଡିଓ ରିଷ୍ଟୋର୍‌ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଭିଡିଓ ରିଷ୍ଟୋର୍‌ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">%d ଆଇଟମ୍ ରିଷ୍ଟୋର୍ କରନ୍ତୁ</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ରିଷ୍ଟୋର୍ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">%d ଭିଡିଓ ସଞ୍ଚୟ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+        <item quantity="other">%d ଟା ଭିଡିଓ ସଞ୍ଚୟ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d ଭିଡିଓ ସଞ୍ଚୟ କରାହୋଇଛି</item>
+        <item quantity="other">%d ଟା ଭିଡିଓଗୁଡ଼ିକ ସଞ୍ଚୟ କରାହୋଇଛି</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">ଥମ୍ବନେଲ୍‌ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ଥମ୍ବନେଲ୍‌ଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">ପ୍ରକୃତଟି ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ପ୍ରକୃତଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">1 ଫଟୋ ଏକ ଥମ୍ବନେଲ୍ ଅଟେ। ଏହା ବଦଳରେ ଆପଣ ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ବ୍ୟବହାର କରିପାରିବେ।</item>
+        <item quantity="other">କିଛିଟା ଚୟନିତ ଫଟୋ ହେଉଛନ୍ତି ଥମ୍ବନେଲ୍। ଏହା ବଦଳରେ ଆପଣ ପ୍ରକୃତ ଫଟୋଗୁଡ଼ିକ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ବ୍ୟବହାର କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">ଚୟନିତ ଆଇଟମ୍ ଟି ପ୍ରିଭିଉ କରନ୍ତୁ (%1$d)</item>
+        <item quantity="other">ମନୋନୀତ ଆଇଟମ୍ ଗୁଡ଼ିକ ପ୍ରିଭିଉ କରନ୍ତୁ (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">1–%1$d ଫଟୋର ଚୟନ କରନ୍ତୁ</item>
+        <item quantity="other">1–%1$d ଫଟୋସମୂହର ଚୟନ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">ଥମ୍ବନେଲ୍‌ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ଥମ୍ବନେଲ୍‌ଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">ପ୍ରକୃତଟି ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item quantity="other">ପ୍ରକୃତଗୁଡ଼ିକ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">1 ଫଟୋ ଏକ ଥମ୍ବନେଲ୍ ଅଟେ। ଏହା ବଦଳରେ ଆପଣ ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ବ୍ୟବହାର କରିପାରିବେ।</item>
+        <item quantity="other">ଚୟନିତ ଫଟୋସମୂହରୁ କିଛିଟା ଫଟୋ ଥମ୍ବନେଲ୍ ଅଟେ। ଏହା ବ୍ୟତିତ ଆପଣ ପ୍ରକୃତ ଫଟୋସମୂହକୁ ଡାଉନ୍​ଲୋଡ୍ ଏବଂ ଅଂଶୀଦାର କରିପାରିବେ।</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">\"%2$s\" ଅଂଶୀଦାରୀତ ଆଲବମ୍ ରୁ %1$d ଫଟୋ ବିଲୋପ କରାହୋଇଯିବ।</item>
+        <item quantity="other">\"%2$s\" ଅଂଶୀଦାରୀତ ଆଲବମ୍ ରୁ %1$d ଟା ଫଟୋ ବିଲୋପ କରାହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d ଆଇଟମ୍ \"%2$s\" ଅଂଶୀଦାରୀତ ଆଲବମ୍ ରୁ ବିଲୋପ କରାହୋଇଯିବ।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ \"%2$s\" ଅଂଶୀଦାରୀତ ଆଲବମ୍ ରୁ ବିଲୋପ କରାହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">\"%2$s\" ଅଂଶୀଦାରୀତ ଆଲବମ୍ ରୁ %1$d ଭିଡିଓ ବିଲୋପ କରାହୋଇଯିବ।</item>
+        <item quantity="other">\"%2$s\" ଅଂଶୀଦାରୀତ ଆଲବମ୍ ରୁ %1$d ଟା ଭିଡିଓ ବିଲୋପ କରାହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">%1$d ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">କମ୍ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍ କାରଣରୁ %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରିବାରେ ବିଫଳ।</item>
+        <item quantity="other">କମ୍ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍ କାରଣରୁ %1$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରିବାରେ ବିଫଳ।</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">%1$d ଆଇଟମ୍ (%2$s) ବାକି ଅଛି। ମୋବାଇଲ୍ ଡାଟା ବ୍ୟବହାର କରି ଡାଉନ୍​ଲୋଡ୍ କରିବା ରିଜ୍ୟୁମ୍ କରିବେ କି?</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ (%2$s) ବାକି ଅଛି। ମୋବାଇଲ୍ ଡାଟା ବ୍ୟବହାର କରି ଡାଉନ୍​ଲୋଡ୍ କରିବା ରିଜ୍ୟୁମ୍ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">କୌଣସି ନେଟୱାର୍କ୍‌ ସଂଯୋଜନା ନାହିଁ, %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+        <item quantity="other">କୌଣସି ନେଟୱାର୍କ୍‌ ସଂଯୋଜନା ନାହିଁ, %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">ଏକ ସମୟରେ %dଟି ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ଭିଡିଓ ଭାବରେ ସଞ୍ଚୟ କରାଯାଇପାରିବ</item>
+        <item quantity="other">ଏକ ସମୟରେ %dଟି ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ଭିଡିଓ ଭାବରେ ସଞ୍ଚୟ କରାଯାଇପାରିବ</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$dଟି ଫଟୋ</item>
+        <item quantity="other">%1$dଟି ଫଟୋ</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$d ଆଲବମଗୁଡିକ</item>
+        <item quantity="other">%1$d ଆଲବମଗୁଡିକ</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">%1$d ଚୟନିତ</item>
+        <item quantity="other">%1$d ଆଇଟମ୍‍ ଚୟନିତ</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d ଆଇଟମ୍</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">ପସନ୍ଦଗୁଡ଼ିକରୁ %1$d ଆଇଟମ୍ ଅପସାରଣ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନଃ ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item quantity="other">ପସନ୍ଦଗୁଡ଼ିକରୁ %1$dଟି ଆଇଟମ୍ ଅପସାରଣ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନଃ ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">ଏକ ସରଳ ବସ୍ତୁ ଅଙ୍କନ କରନ୍ତୁ ଏବଂ ଏକ କଳା କାର୍ଯ୍ୟ ସୃଷ୍ଟି କରିବାକୁ ଏହାକୁ ବୃତ୍ତ କରନ୍ତୁ। ବ୍ୟବହାର ସୀମା: ପ୍ରତିଦିନ %1$d ଥର.</item>
+        <item quantity="other">ଏକ ସରଳ ବସ୍ତୁ ଅଙ୍କନ୍ତୁ ଏବଂ ଏକ କଳା କାର୍ଯ୍ୟ ସୃଷ୍ଟି କରିବାକୁ ଏହାକୁ ବୃତ୍ତ କରନ୍ତୁ। ବ୍ୟବହାରର ସୀମା: ପ୍ରତିଦିନ %1$d ଥର.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">%d ମୋସନ୍ ଷ୍ଟିକର୍ ସଞ୍ଚୟ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+        <item quantity="other">%d ଟା ମୋସନ୍ ଷ୍ଟିକର୍ ସଞ୍ଚୟ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">ଆପଣ ଆଉ 1–%1$d ଟା ଫଟୋ ବାଛିପାରିବେ</item>
+        <item quantity="other">ଆପଣ ଆଉ 1–%1$d ଟା ଫଟୋ ବାଛିପାରିବେ</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">ଆପଣ ଆଉ 1–%1$d ଟା ଫଟୋ ବାଛିପାରିବେ (%2$s)</item>
+        <item quantity="other">ଆପଣ ଆଉ 1–%1$d ଟା ଫଟୋ ବାଛିପାରିବେ (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">%d ମୋସନ୍ ଫଟୋ ଅନ୍ତର୍ଭୁକ୍ତ କରୁଛି</item>
+        <item quantity="other">%d ଟା ମୋସନ୍ ଫଟୋ ଅନ୍ତର୍ଭୁକ୍ତ କରୁଛି</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରନ୍ତୁ</item>
+        <item quantity="other">ପ୍ରକୃତ ଫଟୋସମୂହ ଡାଉନ୍​ଲୋଡ୍ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">ଆପଣଙ୍କର ଡିଭାଇସ୍ ରେ ଥିବା %1$d ଫଟୋଟି ଏକ ଛୋଟ ସଂସ୍କରଣ ଅଟେ। ପ୍ରକୃତ ପୂର୍ଣ୍ଣ-ରିଜୋଲ୍ୟୁସନ୍ ଫଟୋ (%2$s) ଡାଉନ୍​ଲୋଡ୍ କରିବେ କି?</item>
+        <item quantity="other">ଆପଣଙ୍କର ଡିଭାଇସ୍ ରେ %1$d ଟା ଫଟୋର ଛୋଟ ସଂସ୍କରଣଗୁଡ଼ିକ ଅଟେ। ପ୍ରକୃତ ପୂର୍ଣ୍ଣ-ରିଜୋଲ୍ୟୁସନ୍ ଫଟୋଗୁଡ଼ିକ ଡାଉନ୍​ଲୋଡ୍ କରିବେ କି (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">%1$d ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରୁଛି</item>
+        <item quantity="other">%1$d ଟା ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରୁଛି</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d ଫଟୋ</item>
+        <item quantity="other">%1$d ଟା ଫଟୋ</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">%1$d ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରା ହୋଇ ନାହିଁ। ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍।</item>
+        <item quantity="other">%1$d ଟା ପ୍ରକୃତ ଫଟୋ ଡାଉନଲୋଡ୍ କରା ହୋଇ ନାହିଁ। ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">%1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରା ହୋଇ ନାହିଁ। ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ କରା ହୋଇ ନାହିଁ। ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">%1$d ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। କୌଣସି ଇଣ୍ଟର୍‌ନେଟ୍‌ ସଂଯୋଜନା ନାହିଁ।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। କୌଣସି ଇଣ୍ଟର୍‌ନେଟ୍‌ ସଂଯୋଜନା ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">%1$d ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। Wi-Fi ସହ ସଂଯୋଜିତ ନାହିଁ।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। Wi-Fi ସହ ସଂଯୋଜିତ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">ବ୍ୟାଟେରୀ ପାୱାର୍‌ ସଞ୍ଚୟ କରିବାକୁ %1$d ଟା ଆଇଟମ୍ ର ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ ପାୱାର୍‌ ସଞ୍ଚୟ କରିବାକୁ %1$d ଟା ଆଇଟମ୍ ର ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">%1$d ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। ଫୋନ୍ ଅତ୍ୟଧିକ ଗରମ।</item>
+        <item quantity="other">%1$d ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। ଫୋନ୍ ଅତ୍ୟଧିକ ଗରମ।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">%1$d ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। କ୍ଲାଉଡ୍ ରକ୍ଷଣାବେକ୍ଷଣ ଅଧୀନରେ ଅଛି।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। କ୍ଲାଉଡ୍ ରକ୍ଷଣାବେକ୍ଷଣ ଅଧୀନରେ ଅଛି।</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">%1$d ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। ଟ୍ୟାବଲେଟ୍ ଅତ୍ୟଧିକ ଗରମ।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ପାଇଁ ଅପଲୋଡ୍ ପଜ୍ କରାହୋଇଛି। ଟ୍ୟାବଲେଟ୍ ଅତ୍ୟଧିକ ଗରମ।</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">କ୍ଲାଉଡ୍ ରୁ %1$dଟି ଆଇଟମ୍ ସିଙ୍କ୍ ହେଉଛି</item>
+        <item quantity="other">କ୍ଲାଉଡ୍ ରୁ %1$dଟି ଆଇଟମ୍ ସିଙ୍କ୍ ହେଉଛି</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d ଫଟୋ</item>
+        <item quantity="other">%1$d ଫଟୋ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$d ଆଲବମଗୁଡିକ</item>
+        <item quantity="other">%1$d ଆଲବମଗୁଡିକ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ। ଦୟାକରି ନିଜର ଫୋନ୍ ଟି ଚାର୍ଜ୍ କରନ୍ତୁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ। ଦୟାକରି ନିଜର ଫୋନ୍ ଟି ଚାର୍ଜ୍ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ। ରିଜ୍ୟୁମ୍ କରିବାକୁ ପାୱାର୍‌ ସହ ସଂଯୋଗ କରନ୍ତୁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ। ରିଜ୍ୟୁମ୍ କରିବାକୁ ପାୱାର୍‌ ସହ ସଂଯୋଗ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍ ଅଛି। %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍। %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">ପାୱାର୍‌ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍ ଅଛି। %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ପାୱାର୍‌ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍ ଅଛି। %1$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।%2$s।</item>
+        <item quantity="other">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ। %2$s।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ। %2$s କିମ୍ବା %3$s।</item>
+        <item quantity="other">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ। %2$s କିମ୍ବା %3$s।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">କୌଣସି ନେଟୱାର୍କ୍‌ ସଂଯୋଜନା ନାହିଁ, %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+        <item quantity="other">କୌଣସି ନେଟୱାର୍କ୍‌ ସଂଯୋଜନା ନାହିଁ, %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଜନା ନାହିଁ। %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଜନା ନାହିଁ। %1$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">ଅପର୍ଯ୍ୟାପ୍ତ କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍। %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ଅପର୍ଯ୍ୟାପ୍ତ କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍। %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍। %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରା ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍। %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ କରା ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+        <item quantity="other">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଡାଉନଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍। %1$d ପ୍ରକୃତ ଫଟୋ ଡାଉନ୍​ଲୋଡ୍ କରା ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ଅପର୍ଯ୍ୟାପ୍ତ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍। %1$d ଟା ପ୍ରକୃତ ଫଟୋ ଡାଉନଲୋଡ୍ କରା ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">%1$d ଫଟୋ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ ହୋଇଯାଇଛି।</item>
+        <item quantity="other">%1$d ଟା ଫଟୋ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ ହୋଇଯାଇଛି।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">%1$d ଫଟୋ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ବ୍ୟାଟେରୀ %2$s ଠାରୁ କମ୍ ଥିଲେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯିବ।</item>
+        <item quantity="other">%1$d ଟା ଫଟୋ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ବ୍ୟାଟେରୀ %2$s ଠାରୁ କମ୍ ଥିଲେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">%1$d ଫଟୋ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ରେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯାଇଛି।</item>
+        <item quantity="other">%1$d ଟା ଫଟୋ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ରେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯାଇଛି।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ ହୋଇଯାଇଛି। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ ହୋଇଯାଇଛି। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ। ଦୟାକରି ନିଜର ଫୋନ୍ ଟି ଚାର୍ଜ୍ କରନ୍ତୁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ। ଦୟାକରି ନିଜର ଫୋନ୍ ଟି ଚାର୍ଜ୍ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ। ରିଜ୍ୟୁମ୍ କରିବାକୁ ପାୱାର୍‌ ସହ ସଂଯୋଗ କରନ୍ତୁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ। ରିଜ୍ୟୁମ୍ କରିବାକୁ ପାୱାର୍‌ ସହ ସଂଯୋଗ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ବ୍ୟାଟେରୀ %1$s ଠାରୁ କମ୍ ଅଛି। %2$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍ ଅଛି। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">ପାୱାର୍‌ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍ ଅଛି। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ପାୱାର୍‌ ସଞ୍ଚୟ ମୋଡ୍ ଅନ୍ ଅଛି। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">%1$d ଭିଡିଓ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ ହୋଇଯାଇଛି।</item>
+        <item quantity="other">%1$d ଟା ଭିଡିଓ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। କ୍ଲାଉଡ୍ ଷ୍ଟୋରେଜ୍ ପୂର୍ଣ୍ଣ ହୋଇଯାଇଛି।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">%1$d ଭିଡିଓ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ବ୍ୟାଟେରୀ %2$s ଠାରୁ କମ୍ ଥିଲେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯିବ।</item>
+        <item quantity="other">%1$d ଟା ଭିଡିଓ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ବ୍ୟାଟେରୀ %2$s ଠାରୁ କମ୍ ଥିଲେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">%1$d ଭିଡିଓ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ରେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯାଇଛି।</item>
+        <item quantity="other">%1$d ଟା ଭିଡିଓ ସିଙ୍କ୍ ହୋଇ ନାହିଁ। ପାୱାର୍ ସଞ୍ଚୟ ମୋଡ୍ ରେ କ୍ଲାଉଡ୍ ସିଙ୍କ୍ ପଜ୍ ହୋଇଯାଇଛି।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">%1$d ଟା ଫଟୋ ସିଙ୍କ୍ ହୋଇନାହିଁ।</item>
+        <item quantity="other">%1$d ଫଟୋ ସିଙ୍କ୍ ହୋଇନାହିଁ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ।%2$s।</item>
+        <item quantity="other">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ। %2$s।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ। %2$s କିମ୍ବା %3$s।</item>
+        <item quantity="other">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଗ ନାହିଁ। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହୋଇ ନାହିଁ। %2$s କିମ୍ବା %3$s।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">କୌଣସି ନେଟୱାର୍କ୍‌ ସଂଯୋଜନା ନାହିଁ, %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+        <item quantity="other">କୌଣସି ନେଟୱାର୍କ୍‌ ସଂଯୋଜନା ନାହିଁ, %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଜନା ନାହିଁ। %1$d ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">କୌଣସି ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଜନା ନାହିଁ। %1$d ଟା ଆଇଟମ୍ ଡାଉନ୍​ଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">%1$d ଭିଡିଓ ସିଙ୍କ୍ ହୋଇନାହିଁ</item>
+        <item quantity="other">%1$d ଟା ଭିଡିଓ ସିଙ୍କ୍ ହୋଇନାହିଁ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+        <item quantity="other">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">ନେଟ୍‌ୱାର୍କ୍ ସଂଯୋଜନା ବାଧାଗ୍ରସ୍ତ। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ କରାହୋଇ ନାହିଁ।</item>
+        <item quantity="other">ନେଟ୍‌ୱାର୍କ୍ ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ କରାଯାଇ ପାରି ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">ସେବା ତୃଟି। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+        <item quantity="other">ସେବା ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">ସେବା ତୃଟି। %1$d ଆଇଟମ୍ ଅପଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+        <item quantity="other">ସେବା ତୃଟି। %1$d ଟା ଆଇଟମ୍ ଅପଲୋଡ୍ ହେଲା ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">%1$d ଆଇଟମ୍ ସିଙ୍କ୍ କରାହେଉଛି</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ସିଙ୍କ୍ କରାହେଉଛି</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">କ୍ଲାଉଡ୍ କୁ %1$dଟି ଆଇଟମ୍ ସିଙ୍କ୍ ହେଉଛି…</item>
+        <item quantity="other">କ୍ଲାଉଡ୍ କୁ %1$dଟି ଆଇଟମ୍ ସିଙ୍କ୍ ହେଉଛି…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d ଭିଡିଓ</item>
+        <item quantity="other">%1$d ଟା ଭିଡିଓ</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">କିଛି ପ୍ଲାଟଫର୍ମ୍ %d ସେକେଣ୍ଡରୁ ଅଧିକ ଲମ୍ୱା ମୋସନ୍ ଫଟୋସମୂହ ସମର୍ଥନ କରିନପାରେ</item>
+        <item quantity="other">କିଛି ପ୍ଲାଟଫର୍ମ୍ %d ସେକେଣ୍ଡରୁ ଅଧିକ ଲମ୍ୱା ମୋସନ୍ ଫଟୋସମୂହ ସମର୍ଥନ କରିନପାରେ</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">ଆପଣ ଥରକେ %1$dଟି ମୋସନ୍ ଫଟୋରେ ପପଆଉଟ୍ ବ୍ୟବହାର କରିପାରିବେ</item>
+        <item quantity="other">ଆପଣ ଥରକେ %1$d ଟି ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋରେ ପପଆଉଟ୍ ବ୍ୟବହାର କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">%1$d ସେକେଣ୍ଡରୁ ଅଧିକ ଲମ୍ବା ମୋସନ୍ ଫଟୋସମୂହ ସମର୍ଥିତ ନୁହେଁ</item>
+        <item quantity="other">%1$d ସେକେଣ୍ଡରୁ ଅଧିକ ଲମ୍ବା ମୋସନ୍ ଫଟୋସମୂହ ସମର୍ଥିତ ନୁହେଁ</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">ଏକ ସମୟରେ %dଟି ରୁ ଅଧିକ ଆଇଟମ୍ ଡ୍ରାଗ୍‌ କରିପାରିବେ ନାହିଁ</item>
+        <item quantity="other">ଏକ ସମୟରେ %dଟି ରୁ ଅଧିକ ଆଇଟମ୍ ଡ୍ରାଗ୍‌ କରିପାରିବେ ନାହିଁ</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">%d ଆଇଟମ୍ ଯୋଗ କରିବା ପାଇଁ ବିଫଳ ହେଲା</item>
+        <item quantity="other">%dଟି ଆଇଟମ୍ ଯୋଗ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">%d ଟି ଫଟୋ ଲୋଡ୍ ହେଉଛି ଏବଂ ପ୍ରାଇଭେଟ୍ ଭାବେ ସେଟ୍ ହୋଇପାରିବ ନାହିଁ।</item>
+        <item quantity="other">%d ଫଟୋ ଗୁଡ଼ିକ ଲୋଡ୍ ହେଉଛି ଏବଂ ପ୍ରାଇଭେଟ୍ ଭାବେ ସେଟ୍ ହୋଇପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d ଆଇଟମ୍</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d ମିନିଟ୍‌</item>
+        <item quantity="other">%d ମିନିଟ୍‌</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d ସେକେଣ୍ଡ</item>
+        <item quantity="other">%d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d ସେକେଣ୍ଡ୍</item>
+        <item quantity="other">%d ସେକେଣ୍ଡ୍</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">ଭିଡିଓ ସମ୍ପାଦନ ପାଇଁ %dଟି ଆଇଟମ୍ ଇମ୍ପୋର୍ଟ କରାଯାଇପାରିବ ନାହିଁ</item>
+        <item quantity="other">ଭିଡିଓ ସମ୍ପାଦନ ପାଇଁ %dଟି ଆଇଟମ୍ ଇମ୍ପୋର୍ଟ କରାଯାଇପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">ପୃଷ୍ଠା %2$d ର %1$d</item>
+        <item quantity="other">ପୃଷ୍ଠା %2$d ର %1$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">ଗୋଟିଏ GIF ପାଇଁ %1$dଟି ରୁ ଅଧିକ ଫଟୋ ଚୟନ କରନ୍ତୁ ନାହିଁ</item>
+        <item quantity="other">ଗୋଟିଏ GIF ପାଇଁ %1$dଟି ରୁ ଅଧିକ ଫଟୋ ଚୟନ କରନ୍ତୁ ନାହିଁ</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">କେବଳ %1$d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ସମର୍ଥିତ</item>
+        <item quantity="other">କେବଳ %1$d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ସମର୍ଥିତ</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">ଗୋଟିଏ GIF ତିଆରି କରିବାକୁ ଅତି କମରେ %1$dଟି ଫଟୋ ଚୟନ କରନ୍ତୁ</item>
+        <item quantity="other">ଗୋଟିଏ GIF ତିଆରି କରିବାକୁ ଅତି କମରେ %1$dଟି ଫଟୋ ଚୟନ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">ଗୋଟିଏ GIF ପାଇଁ %1$dଟି ରୁ ଅଧିକ ଫଟୋ ଚୟନ କରନ୍ତୁ ନାହିଁ</item>
+        <item quantity="other">ଗୋଟିଏ GIF ପାଇଁ %1$dଟି ରୁ ଅଧିକ ଫଟୋ ଚୟନ କରନ୍ତୁ ନାହିଁ</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">କେବଳ %1$d ଫଟୋ ଫର୍ମାଟ୍ ଆବଶ୍ୟକତାଗୁଡ଼ିକୁ ପୂରଣ କରୁଛନ୍ତି</item>
+        <item quantity="other">କେବଳ %1$d ଟା ଫଟୋ ଫର୍ମାଟ୍ ଆବଶ୍ୟକତାଗୁଡ଼ିକୁ ପୂରଣ କରୁଛନ୍ତି</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d ଫଟୋ GIF ରେ ଅନ୍ତର୍ଭୁକ୍ତ ହେବ ନାହିଁ</item>
+        <item quantity="other">%1$d ଟି ଫଟୋ GIF ରେ ଅନ୍ତର୍ଭୁକ୍ତ ହେବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">%1$dଟି ଫଟୋ ସମର୍ଥିତ ନୁହେଁ</item>
+        <item quantity="other">%1$dଟି ଫଟୋ ସମର୍ଥିତ ନୁହେଁ</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">\"Google Photos\" ରୁ %1$s ଆଇଟମ୍ ଲୋଡ୍ ହେଉଛି…</item>
+        <item quantity="other">\"Google Photos\" ରୁ %1$sଟି ଆଇଟମ୍ ଲୋଡ୍ ହେଉଛି…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">ଅପର୍ଯ୍ୟାପ୍ତ \"Google Photos\" ଷ୍ଟୋରେଜ୍। %1$d ଆଇଟମ୍‌ ବ୍ୟାକ୍ଅପ୍ କରାହୋଇନାହିଁ।</item>
+        <item quantity="other">ଅପର୍ଯ୍ୟାପ୍ତ \"Google Photos\" ଷ୍ଟୋରେଜ୍। %1$d ଟା ଆଇଟମ୍‌ ବ୍ୟାକ୍ଅପ୍ କରାହୋଇନାହିଁ।</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">%1$s ଟା ଆଇଟମ୍ \"Google Photos\" ରେ ବ୍ୟାକ୍ ଅପ୍ ନିଆ ହେଉଛି…</item>
+        <item quantity="other">\"Google Photos\" କୁ %1$sଟି ଆଇଟମ୍ ବ୍ୟାକ୍ ଅପ୍ କରାହେଉଛି…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">HeyTap କ୍ଲାଉଡ୍‌ ସହ %1$d ଆଇଟମ୍‌ ସିଙ୍କ୍ କରାହେଉଛି। ଏହାକୁ ଅଫ୍ କରିଦେଲେ ଅଟୋ ସିଙ୍କ୍ ବାତିଲ୍ କରାହୋଇଯିବ। ଆପଣଙ୍କ ଡାଟାକୁ ସୁରକ୍ଷିତ ରଖିବା ପାଇଁ, ସିଙ୍କ୍ ସମ୍ପୂର୍ଣ୍ଣ ନ ହେବା ପର୍ଯ୍ୟନ୍ତ ଅପେକ୍ଷା କରିବାକୁ ସୁପାରିଶ କରାଯାଉଛି।</item>
+        <item quantity="other">HeyTap କ୍ଲାଉଡ୍‌ ସହ %1$d ଟା ଆଇଟମ୍‌ ସିଙ୍କ୍ କରାହେଉଛି। ଏହାକୁ ଅଫ୍ କରିଦେଲେ ଅଟୋ ସିଙ୍କ୍ ବାତିଲ୍ କରାହୋଇଯିବ। ଆପଣଙ୍କ ଡାଟାକୁ ସୁରକ୍ଷିତ ରଖିବା ପାଇଁ, ସିଙ୍କ୍ ସମ୍ପୂର୍ଣ୍ଣ ନ ହେବା ପର୍ଯ୍ୟନ୍ତ ଅପେକ୍ଷା କରିବାକୁ ସୁପାରିଶ କରାଯାଇଛି।</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">\"ବାରମ୍ବାର ବ୍ୟବହୃତ ସୂଚନା\" ରେ କେବଳ %d ଟି ଆଲବମ୍ ଯୋଡାଯାଇପାରିବ।</item>
+        <item quantity="other">\"ବାରମ୍ବାର ବ୍ୟବହୃତ ସୂଚନା\" ରେ %d ଟା ପର୍ଯ୍ୟନ୍ତ ଆଲବମ୍ ଯୋଗ କରାଯାଇ ପାରିବ।</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">%1$d ଡିଭାଇସ୍ ମିଳିଛି</item>
+        <item quantity="other">%1$d ଟା ଡିଭାଇସ୍ ମିଳିଛି</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d ଦିନ</item>
+        <item quantity="other">%1$d ଦିନ</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$dଟି ଫଟୋ</item>
+        <item quantity="other">%1$dଟି ଫଟୋ</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$d ଆଲବମଗୁଡିକ</item>
+        <item quantity="other">%1$d ଆଲବମଗୁଡିକ</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">%1$d ଷ୍ଟିକର୍ ରୁ ଅଧିକ ଚୟନ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+        <item quantity="other">%1$d ଟା ଷ୍ଟିକର୍ ରୁ ଅଧିକ ଚୟନ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">NAS ଠାରୁ %1$d ଟି ଆଇଟମ୍ ବିଲୋପ ହୋଇଛି</item>
+        <item quantity="other">NAS ଠାରୁ %1$d ଟି ଆଇଟମ୍ ବିଲୋପ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">ଡାଉନ୍‌ଲୋଡ୍ ସମ୍ପୂର୍ଣ୍ଣ। %1$d ଟା ଆଇଟମ୍​ଡାଉନ୍‌ଲୋଡ୍ କରିବାରେ ବିଫଳ ହୋଇଛି।</item>
+        <item quantity="other">ଡାଉନ୍‌ଲୋଡ୍ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି। %1$d ଟା ଆଇଟମ୍​ଡାଉନ୍‌ଲୋଡ୍ କରିବାରେ ବିଫଳ ହୋଇଛି।</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">%1$d ଟା ଆଇଟମ୍ ଡାଉନ୍‌ଲୋଡ୍ ହୋଇଛି।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ଡାଉନ୍‌ଲୋଡ୍ ହୋଇଛି।</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">%2$dଟି ରୁ %1$d ଡାଉନ୍‌ଲୋଡ୍ ହେଉଛି...</item>
+        <item quantity="other">%2$dଟି ରୁ %1$d ଡାଉନ୍‌ଲୋଡ୍ ହେଉଛି...</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">ଆପଣ ଚୟନିତ କ୍ଷେତ୍ରକୁ କିପରି ସମ୍ପାଦନ କରିବାକୁ ଚାହିଁବେ?</item>
+        <item quantity="other">ଆପଣ ଚୟନିତ କ୍ଷେତ୍ରଗୁଡ଼ିକୁ କିପରି ସମ୍ପାଦନ କରିବାକୁ ଚାହିଁବେ?</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">ଆପଣ %d ଟା ପର୍ଯ୍ୟନ୍ତ ଷ୍ଟିକର୍ ଯୋଗ କରିପାରିବେ</item>
+        <item quantity="other">ଆପଣ %d ଟା ପର୍ଯ୍ୟନ୍ତ ଷ୍ଟିକର୍ ଯୋଗ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">ଷ୍ଟିକର୍ ଗୁଡ଼ିକରେ, ଆପଣ କେବଳ %d ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଷ୍ଟିକର ଯୋଗ କରିପାରିବେ। ଅତିରିକ୍ତ ଷ୍ଟିକର୍ ଗୁଡ଼ିକ ସ୍ଥିର ଷ୍ଟିକର୍ ରେ ରୂପାନ୍ତରିତ କରିଦିଆଯିବ।</item>
+        <item quantity="other">ଷ୍ଟିକର୍ ଗୁଡ଼ିକରେ, ଆପଣ %d ଟା ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଷ୍ଟିକର ଯୋଗ କରିପାରିବେ। ଅତିରିକ୍ତ ଷ୍ଟିକର୍ ଗୁଡ଼ିକ ସ୍ଥିର ହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">ସହଜ ଭାବେ ଅଂଶୀଦାର କରିବା ପାଇଁ ସମ୍ପାଦିତ ସଂସ୍କରଣଟି %d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ସୀମିତ।</item>
+        <item quantity="other">ସହଜ ଭାବରେ ଅଂଶୀଦାର କରିବା ପାଇଁ ସମ୍ପାଦିତ ସଂସ୍କରଣଟି %d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ସୀମିତ।</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">ଷ୍ଟିକର୍ ଗୁଡ଼ିକ %d ସେକେଣ୍ଡ୍ ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ହୋଇପାରିବ</item>
+        <item quantity="other">ଷ୍ଟିକର୍ ଗୁଡ଼ିକ %d ସେକେଣ୍ଡ୍ ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ହୋଇପାରିବ</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">ଷ୍ଟିକର୍ ଗୁଡ଼ିକ କେବଳ %d ସେକେଣ୍ଡ୍ ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ହୋଇପାରିବ।</item>
+        <item quantity="other">ଷ୍ଟିକର୍ ଗୁଡ଼ିକ %d ସେକେଣ୍ଡ୍ ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ହୋଇପାରିବ।</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">ଭିଡିଓସମୂହ %d ସେକେଣ୍ଡ୍ ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ହୋଇପାରିବ</item>
+        <item quantity="other">ଭିଡିଓସମୂହ %d ସେକେଣ୍ଡ୍ ପର୍ଯ୍ୟନ୍ତ ଲମ୍ବା ହୋଇପାରିବ</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">ଚୟନିତ କ୍ଷେତ୍ରରେ ଆପଣ କଣ ବଦଳିବାକୁ ଚାହୁଁଛନ୍ତି ତାହାର ବର୍ଣ୍ଣନା କରନ୍ତୁ</item>
+        <item quantity="other">ଚୟନିତ କ୍ଷେତ୍ରଗୁଡ଼ିକରେ ଆପଣ କଣ ବଦଳିବାକୁ ଚାହୁଁଛନ୍ତି ତାହାର ବର୍ଣ୍ଣନା କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">%1$d ସେକେଣ୍ଡ୍ ରେ ରେକର୍ଡିଂ ବନ୍ଦ ହେବ</item>
+        <item quantity="other">%1$d ସେକେଣ୍ଡ୍ ରେ ରେକର୍ଡିଂ ବନ୍ଦ ହେବ</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">ଆପଣ %1$d ପର୍ଯ୍ୟନ୍ତ କ୍ଷେତ୍ରର ଚୟନ କରିପାରିବେ</item>
+        <item quantity="other">ଆପଣ %1$d ଟା ପର୍ଯ୍ୟନ୍ତ କ୍ଷେତ୍ରର ଚୟନ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">କେବଳ %1$d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ସମର୍ଥିତ</item>
+        <item quantity="other">କେବଳ %1$d ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ସମର୍ଥିତ</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">ବଡ଼ ଫାଇଲ୍ ଆକାର ଯୋଗୁଁ ଆଶା କରାଯାଉଥିବା ଅପେକ୍ଷା ସମୟ %1$d ମିନିଟ୍ ହେବ</item>
+        <item quantity="other">ବଡ଼ ଫାଇଲ୍ ଆକାର ଯୋଗୁଁ ଆଶା କରାଯାଉଥିବା ଅପେକ୍ଷା ସମୟ %1$d ମିନିଟ୍ ହେବ</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">%dଟି ଚୟନିତ ଫଟୋ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ</item>
+        <item quantity="other">%dଟି ଚୟନିତ ଫଟୋ ଏକ୍ସପୋର୍ଟ୍ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">%1$d mm ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d mm ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">%1$d px ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d px ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">%1$d mm ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d mm ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">%1$d px ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d px ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">%1$d KB ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d KB ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">%1$d KB ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d KB ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">%1$d mm ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d mm ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">%1$d px ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d px ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">%1$d mm ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d mm ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">%1$d px ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+        <item quantity="other">%1$d px ରୁ ଛୋଟ ହେବା ଆବଶ୍ୟକ</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">କେବଳ %d ଚୟନିତ ଫଟୋ ରଖନ୍ତୁ</item>
+        <item quantity="other">କେବଳ %d ଚୟନିତ ଫଟୋଗୁଡ଼ିକ ରଖନ୍ତୁ</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">%d ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+        <item quantity="other">%dଟା ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">%d ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+        <item quantity="other">%dଟା ଆଇଟମ୍ ବିଲୋପ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">%1$dଟି ଷ୍ଟିକର୍ ଯୋଗ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+        <item quantity="other">%1$dଟି ଷ୍ଟିକର୍ ଯୋଗ କରିବାରେ ବିଫଳ ହୋଇଛି</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">%d ଷ୍ଟିକର୍ ଯୋଡ଼ିପାରିଲା ନାହିଁ</item>
+        <item quantity="other">%d ଷ୍ଟିକରଗୁଡ଼ିକୁ ଯୋଡ଼ିପାରିଲା ନାହିଁ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">%1$s ଷ୍ଟିକର୍ ଯୋଗ କରାହେଲା</item>
+        <item quantity="other">%1$s ଷ୍ଟିକର୍ ଗୁଡ଼ିକ ଯୋଗ କରାହେଲା</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">%1$s ଷ୍ଟିକର୍ ଯୋଗ କରାହେଲା</item>
+        <item quantity="other">%1$s ଟା ଷ୍ଟିକର୍ ଯୋଗ କରାହେଲା</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">%1$d ଷ୍ଟିକର୍ ଯୋଗ କରାହେଲା</item>
+        <item quantity="other">%1$d ଟା ଷ୍ଟିକର୍ ଯୋଗ କରାହେଲା</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">AI ରିମିକ୍ସ କୋଲାଜ୍‌ରେ, ଆପଣ %1$d ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଷ୍ଟିକର୍ ଯୋଗ କରିପାରିବେ। ଅତିରିକ୍ତ ଷ୍ଟିକର୍‌ଗୁଡ଼ିକ ସ୍ଥିର ହୋଇଯିବ।</item>
+        <item quantity="other">AI ରିମିକ୍ସ କୋଲାଜ୍‌ରେ, ଆପଣ %1$d ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଷ୍ଟିକର୍ ଯୋଗ କରିପାରିବେ। ଅତିରିକ୍ତ ଷ୍ଟିକର୍‌ଗୁଡ଼ିକ ସ୍ଥିର ହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">ଆପଣ %1$d ଟା ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋ ଯୋଗ କରିପାରିବେ</item>
+        <item quantity="other">ଆପଣ %1$d ଟା ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଫଟୋସମୂହ ଯୋଗ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">ଆପଣ %1$d ଟା ପର୍ଯ୍ୟନ୍ତ ଫଟୋ ଯୋଗ କରିପାରିବେ</item>
+        <item quantity="other">ଆପଣ %1$d ଟା ପର୍ଯ୍ୟନ୍ତ ଫଟୋସମୂହ ଯୋଗ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">ନିଜର ଫଟୋସମୂହରୁ ବସ୍ତୁଗୁଡ଼ିକ ଅପସାରିତ କରିବାକୁ, ଅପସାରଣକାରୀ ପ୍ଲଗ୍ଇନ୍ ଡାଉନ୍​ଲୋଡ୍ କରନ୍ତୁ। ଫାଇଲ୍‌ ଆକାର: %1$s। ଡାଉନ୍​ଲୋଡ୍ କରିବାକୁ ଆନୁମାନିତ ସମୟ: %2$d ମିନିଟ୍‌।</item>
+        <item quantity="other">ନିଜର ଫଟୋସମୂହରୁ ବସ୍ତୁଗୁଡ଼ିକ ଅପସାରିତ କରିବାକୁ, ଅପସାରଣକାରୀ ପ୍ଲଗ୍ଇନ୍ ଡାଉନ୍​ଲୋଡ୍ କରନ୍ତୁ। ଫାଇଲ୍‌ ଆକାର: %1$s। ଡାଉନ୍​ଲୋଡ୍ କରିବାକୁ ଆନୁମାନିତ ସମୟ: %2$d ମିନିଟ୍‌।</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">ଫାଇଲ ଆକାର: %1$d। ଅନୁମାନିତ ଡାଉନ୍​ଲୋଡ୍ ସମୟ: %2$d।</item>
+        <item quantity="other">ଫାଇଲ ଆକାର: %1$d। ଅନୁମାନିତ ଡାଉନ୍​ଲୋଡ୍ ସମୟ: %2$d।</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">%1$dଟି ଫଟୋ ସମର୍ଥିତ ନୁହେଁ</item>
+        <item quantity="other">%1$dଟି ଫଟୋ ସମର୍ଥିତ ନୁହେଁ</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">%1$d/%2$d ଚୟନିତ</item>
+        <item quantity="other">%1$d/%2$d ଚୟନିତ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">%1$d ଚୟନିତ</item>
+        <item quantity="other">%1$d ଆଇଟମ୍‍ ଚୟନିତ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$dଟି ଆଲବମ୍‌ ଚୟନିତ</item>
+        <item quantity="other">%1$dଟି ଆଲବମ୍‌ ଚୟନିତ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">%1$d ଚୟନିତ</item>
+        <item quantity="other">%1$d ଆଇଟମ୍‍ ଚୟନିତ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d ଭିଡିଓ ବଛାହେଲା</item>
+        <item quantity="other">%1$d ଭିଡିଓ ବଛାହେଲା</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">%1$d ଷ୍ଟିକର୍ ରୁ ଅଧିକ ଯୋଗ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+        <item quantity="other">%1$d ଟା ଷ୍ଟିକର୍ ରୁ ଅଧିକ ଯୋଗ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">କେବଳ %1$d ଆଇଟମ୍ ର ଚୟନ କରାଯାଇ ପାରିବ</item>
+        <item quantity="other">%1$d ଟି ପର୍ଯ୍ୟନ୍ତ ଆଇଟମ୍ ଚୟନ କରାଯାଇ ପାରିବ</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">%d ଫଟୋ ଲୋଡ୍‌ ହେଉଛି ଏବଂ ଡିଲିଟ୍‌ କରାଯାଇପାରିବ ନାହିଁ |</item>
+        <item quantity="other">%d ଫଟୋଗୁଡ଼ିକ ଲୋଡ ହେଉଛି ଏବଂ ଡିଲିଟ୍‌ କରାଯାଇ ପାରିବ ନାହିଁ |</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">%1$d ଆଇଟମ୍ ବିଲୋପ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</item>
+        <item quantity="other">%1$d ଟା ଆଇଟମ୍ ବିଲୋପ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ନୂତନ ବିଜ୍ଞପ୍ତି</item>
+        <item quantity="other">%d ନୂତନ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">%d ବିଷୟ ଅପସାରିତ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ବିଷୟ ଅପସାରିତ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d ଫଟୋ</item>
+        <item quantity="other">%1$dଟି ଫଟୋ</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">ଆପଣ କେବଳ %1$d ମୋସନ୍ ଷ୍ଟିକର୍ ଯୋଗ କରିପାରିବେ। ଅତିରିକ୍ତ ଷ୍ଟିକର୍ ଗୁଡ଼ିକ ସ୍ଥିର ଭାବେ ପ୍ରଦର୍ଶିତ କରାହେବ।</item>
+        <item quantity="other">ଆପଣ %1$d ଟା ପର୍ଯ୍ୟନ୍ତ ମୋସନ୍ ଷ୍ଟିକର୍ ଯୋଗ କରିପାରିବେ। ଅତିରିକ୍ତ ଷ୍ଟିକର୍ ଗୁଡ଼ିକ ସ୍ଥିର ଭାବେ ପ୍ରଦର୍ଶିତ କରାହେବ।</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">କେବଳ %d ଟା ଆଇଟମ୍ ଏହି ଆପ୍‌ରେ ଅଂଶୀଦାର କରାଯାଇପାରିବ</item>
+        <item quantity="other">କେବଳ %d ଟା ପର୍ଯ୍ୟନ୍ତ ଆଇଟମ୍ ଏହି ଆପ୍‌ରେ ଅଂଶୀଦାର କରାଯାଇପାରିବ</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">%d ଟା ଆଇଟମ୍ ଅଂଶୀଦାର କରନ୍ତୁ</item>
+        <item quantity="other">%d ଟା ଆଇଟମ୍ ଅଂଶୀଦାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">%d ଟା ଫଟୋ ଅଂଶୀଦାର କରନ୍ତୁ</item>
+        <item quantity="other">%d ଟା ଫଟୋ ଅଂଶୀଦାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">%d ଟା ଭିଡିଓ ଅଂଶୀଦାର କରନ୍ତୁ</item>
+        <item quantity="other">%d ଟା ଭିଡିଓ ଅଂଶୀଦାର କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">%d ଟି ମୂହୁର୍ତ୍ତ ବିଲୋପ କରିବେ କି?</item>
+        <item quantity="other">%dଟି ମୂହୁର୍ତ୍ତ ବିଲୋପ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d କାହାଣୀ, ଆପଣଙ୍କ ପାଇଁ କ୍ୟୁରେଟ୍ କରାହୋଇଛି।</item>
+        <item quantity="other">%d ଟା କାହାଣୀ, ଆପଣଙ୍କ ପାଇଁ କ୍ୟୁରେଟ୍ କରାହୋଇଛି।</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">%d ମନୋନୀତ</item>
+        <item quantity="other">%d ଟା ମନୋନୀତ</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">%d ଡିଗ୍ରୀ ଘୁରାନ୍ତୁ</item>
+        <item quantity="other">%d ଡିଗ୍ରୀ ଘୁରାନ୍ତୁ</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">ଆପଣ କେବଳ %s ଫାଇଲ୍ ଇମ୍ପୋର୍ଟ୍ କରିପାରିବେ</item>
+        <item quantity="other">ଆପଣ %s ଟା ପର୍ଯ୍ୟନ୍ତ ଫାଇଲ୍ ଇମ୍ପୋର୍ଟ୍ କରିପାରିବେ</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">%1dଟି ଆଇଟମ୍ ଯୋଗ କରନ୍ତୁ</item>
+        <item quantity="other">%1dଟି ଆଇଟମ୍ ଯୋଗ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">%sଟି ପର୍ଯ୍ୟନ୍ତ LUT ଫାଇଲ୍ ଇମ୍ପୋର୍ଟ୍ ହୋଇପାରିବ</item>
+        <item quantity="other">%sଟି ପର୍ଯ୍ୟନ୍ତ LUT ଫାଇଲ୍ ଗୁଡ଼ିକ ଇମ୍ପୋର୍ଟ୍ ହୋଇପାରିବ</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">%d ଟା ରୁ ଅଧିକ ଫଟୋକୁ ଯୋଗ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+        <item quantity="other">%d ଟା ରୁ ଅଧିକ ଫଟୋକୁ ଯୋଗ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+    </plurals>
+</resources>

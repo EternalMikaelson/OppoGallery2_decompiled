@@ -1,0 +1,195 @@
+{
+    "styleId": "hassel_style_xpan_1",
+    "baseImageSize": 291,
+    "size": {
+        "bottomMargin": 95,
+        "leftMargin": 15,
+        "rightMargin": 15,
+        "topMargin": 95
+    },
+    "imageOffset": {
+        "startX": 15,
+        "startY": 95
+    },
+    "background": {
+        "backgroundType": 0,
+        "color": "#FFFFFF"
+    },
+    "bitmaps": [
+        {
+            "direction": 1,
+            "elements": [
+                {
+                    "isXpanImage": true,
+                    "xpanMaxScale": 2.75,
+                    "xpanMinScale": 2.65,
+                    "content": {
+                        "bitmap": "xpan_watermark_dark",
+                        "bitmapResName": "xpan_watermark_dark",
+                        "bitmapSourceType": 0,
+                        "height": 35,
+                        "scaleType": 3,
+                        "type": "image",
+                        "width": 86
+                    },
+                    "editable": false,
+                    "id": 1,
+                    "position": {
+                        "bottomMargin": 0,
+                        "layoutGravity": "leftVerticalCenter",
+                        "layoutGravityEnable": true,
+                        "leftMargin": 25.5,
+                        "rightMargin": 0,
+                        "topMargin": 0
+                    },
+                    "visible": true
+                }
+            ],
+            "height": 95,
+            "orientation": 0,
+            "position": {
+                "borderX": 0,
+                "borderY": 95,
+                "gravity": "leftVerticalCenter"
+            },
+            "width": -1
+        },
+        {
+            "direction": 3,
+            "elements": [
+                {
+                    "xpanMaxScale": 2.75,
+                    "xpanMinScale": 2.65,
+                    "content": {
+                        "bitmap": "hasselblad_watermark_dark",
+                        "bitmapResName": "hasselblad_watermark_dark",
+                        "bitmapSourceType": 0,
+                        "scaleType": 5,
+                        "type": "image",
+                        "width": 117.15,
+                        "height": 9.31,
+                        "xpanWidth": 184.28,
+                        "xpanHeight": 14.65
+                    },
+                    "id": 2,
+                    "position": {
+                        "layoutGravity": "rightVerticalCenter",
+                        "layoutGravityEnable": true,
+                        "rightMargin": 26,
+                        "topMargin": 4.58
+                    },
+                    "visible": true
+                },
+                {
+                    "content": {
+                        "orientation": 1,
+                        "type": "elements",
+                        "width": -1
+                    },
+                    "elements": [
+                        {
+                            "content": {
+                                "textSource": 0,
+                                "type": "text"
+                            },
+                            "editable": false,
+                            "id": 3,
+                            "paint": {
+                                "alpha": 1,
+                                "colors": [
+                                    "#000000"
+                                ],
+                                "font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+                                "md5": "33ca1145fa326691413fa356abb82753",
+                                "fontFileType": 0,
+                                "ttcIndex": 5,
+                                "fontName": "AvenirNext.zip",
+                                "fontType": 2,
+                                "fontWeight": 500,
+                                "gradientType": -1,
+                                "letterSpacing": 0,
+                                "lineHeight": 16.82,
+                                "textSize": 13.86,
+                                "xpanMaxScale": 2.75,
+                                "xpanMinScale": 2.65,
+                                "fontWeightXpan": 500,
+                                "textSizeXpan": 19.53,
+                                "letterSpacingXpan": 0,
+                                "lineHeightXpan": 0
+                            },
+                            "position": {
+                                "bottomMargin": 0,
+                                "layoutGravity": "leftTop",
+                                "layoutGravityEnable": true,
+                                "leftMargin": 0,
+                                "rightMargin": 0,
+                                "topMargin": 0
+                            },
+                            "visible": true
+                        },
+                        {
+                            "content": {
+                                "textSource": 1,
+                                "type": "text",
+                                "maxWidth": 150,
+                                "maxWidthHorizontal": 300
+                            },
+                            "editable": true,
+                            "id": 4,
+                            "paint": {
+                                "alpha": 1,
+                                "colors": [
+                                    "#99000000"
+                                ],
+                                "font": "https://videoclipfsg.coloros.com/dirfile/icon/2024/11/06/d0f56219-1be1-41b5-84ca-847857d8bff3.zip",
+                                "md5": "33ca1145fa326691413fa356abb82753",
+                                "fontFileType": 0,
+                                "fontName": "AvenirNext.zip",
+                                "ttcIndex": 7,
+                                "fontType": 2,
+                                "fontWeight": 400,
+                                "gradientType": -1,
+                                "letterSpacing": 0,
+                                "lightAlpha": 1,
+                                "textSize": 9.9,
+                                "xpanMaxScale": 2.75,
+                                "xpanMinScale": 2.65,
+                                "fontWeightXpan": 400,
+                                "textSizeXpan": 13.97,
+                                "letterSpacingXpan": 0,
+                                "lineHeightXpan": 0
+                            },
+                            "position": {
+                                "bottomMargin": 0,
+                                "layoutGravity": "leftTop",
+                                "layoutGravityEnable": true,
+                                "leftMargin": 0,
+                                "rightMargin": 0,
+                                "topMargin": -3
+                            },
+                            "visible": true
+                        }
+                    ],
+                    "id": 5,
+                    "position": {
+                        "bottomMargin": 0,
+                        "layoutGravity": "leftVerticalCenter",
+                        "layoutGravityEnable": true,
+                        "leftMargin": 24,
+                        "rightMargin": 0,
+                        "topMargin": 0
+                    }
+                }
+            ],
+            "height": 95,
+            "heightIncludeMargin": false,
+            "layout": 1,
+            "position": {
+                "borderX": 0,
+                "borderY": 0
+            },
+            "width": -1,
+            "widthIncludeMargin": true
+        }
+    ]
+}

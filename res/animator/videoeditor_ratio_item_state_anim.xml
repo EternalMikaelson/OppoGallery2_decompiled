@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="100" android:valueFrom="0.6" android:valueTo="1.0" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="100" android:valueFrom="0.6" android:valueTo="1.0" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item android:state_focused="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="100" android:valueFrom="0.6" android:valueTo="1.0" android:propertyName="alpha" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="100" android:valueFrom="0.6" android:valueTo="1.0" android:propertyName="alpha" />
+        </set>
+    </item>
+</selector>

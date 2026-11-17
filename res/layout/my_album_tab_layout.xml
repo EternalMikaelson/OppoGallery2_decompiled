@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:theme="@style/CommonDefaultTheme" android:orientation="vertical" android:background="?couiColorBackgroundWithCard" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false">
+        <com.coui.appcompat.viewpager.COUIViewPager2 android:orientation="horizontal" android:id="@id/coui_viewpager2" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/my_album_appbar_layout" android:background="?couiColorBackgroundWithCard" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" app:elevation="0.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.coui.appcompat.toolbar.COUIToolbar android:id="@id/my_album_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/toolbar_min_height" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+            <ViewStub android:id="@id/chipLinearLayout" android:layout="@layout/my_album_chip_tab_layout" android:layout_width="match_parent" android:layout_height="@dimen/my_album_chip_group_height" />
+            <View android:layout_gravity="center_horizontal" android:id="@id/divider" android:background="@color/common_divider_line_color" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_divider_height" android:alpha="0.0" android:layout_marginHorizontal="@dimen/common_toolbar_divider_margin_horizontal" android:forceDarkAllowed="false" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

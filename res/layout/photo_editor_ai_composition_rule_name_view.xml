@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ai_composition_rule_name_1" android:padding="0.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:includeFontPadding="false" android:fontFamily="OPPO Sans 4.0 SC" android:letterSpacing="0.02" android:textFontWeight="600" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ai_composition_rule_name_2" android:padding="0.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:includeFontPadding="false" android:fontFamily="OPPO Sans 4.0 SC" android:letterSpacing="0.02" android:textFontWeight="600" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.button.COUIButton android:textSize="@dimen/map_mode_switch_text_size" android:textColor="?couiColorLabelTheme" android:id="@id/mode_switch" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sans-serif-medium" app:drawableColor="@color/switch_button_fill_color" app:strokeColor="@color/switch_button_stroke_color" app:strokeWidth="@dimen/button_stroke_width" style="@style/Widget.COUI.Button.Large.ButtonNew.HalfColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

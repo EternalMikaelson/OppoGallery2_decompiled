@@ -1,0 +1,904 @@
+{
+  "v": "5.9.6",
+  "fr": 60,
+  "ip": 0,
+  "op": 720,
+  "w": 72,
+  "h": 72,
+  "nm": "正在生成单星黑背景",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 140,
+      "h": 140,
+      "u": "",
+      "p": "data:image/jpeg;base64,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",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 72,
+      "h": 72,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 4,
+      "nm": "单星",
+      "td": 1,
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            36,
+            36,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            32.689,
+            38.539,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [
+                          0.748,
+                          2.426
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.304,
+                          -0.989
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          2.426,
+                          -0.748
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.989,
+                          -0.305
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.748,
+                          -2.426
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.305,
+                          0.989
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -2.426,
+                          0.748
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.989,
+                          0.305
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      "o": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.305,
+                          -0.989
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.748,
+                          2.426
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.989,
+                          0.305
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          2.426,
+                          0.748
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.305,
+                          0.989
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.748,
+                          -2.426
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.989,
+                          -0.305
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -2.426,
+                          -0.748
+                        ]
+                      ],
+                      "v": [
+                        [
+                          1.283,
+                          -6.356
+                        ],
+                        [
+                          1.005,
+                          -7.258
+                        ],
+                        [
+                          -1.005,
+                          -7.258
+                        ],
+                        [
+                          -1.283,
+                          -6.356
+                        ],
+                        [
+                          -6.356,
+                          -1.283
+                        ],
+                        [
+                          -7.258,
+                          -1.005
+                        ],
+                        [
+                          -7.258,
+                          1.005
+                        ],
+                        [
+                          -6.356,
+                          1.283
+                        ],
+                        [
+                          -1.283,
+                          6.356
+                        ],
+                        [
+                          -1.005,
+                          7.258
+                        ],
+                        [
+                          1.005,
+                          7.258
+                        ],
+                        [
+                          1.283,
+                          6.356
+                        ],
+                        [
+                          6.356,
+                          1.283
+                        ],
+                        [
+                          7.258,
+                          1.005
+                        ],
+                        [
+                          7.258,
+                          -1.005
+                        ],
+                        [
+                          6.356,
+                          -1.283
+                        ]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "路径 1",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "rd",
+                  "nm": "圆角 1",
+                  "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 1
+                  },
+                  "ix": 2,
+                  "mn": "ADBE Vector Filter - RC",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": {
+                    "a": 0,
+                    "k": [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    "ix": 4
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 5
+                  },
+                  "r": 1,
+                  "bm": 0,
+                  "nm": "填充 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 2
+                  },
+                  "a": {
+                    "a": 0,
+                    "k": [
+                      0,
+                      0
+                    ],
+                    "ix": 1
+                  },
+                  "s": {
+                    "a": 0,
+                    "k": [
+                      300,
+                      300
+                    ],
+                    "ix": 3
+                  },
+                  "r": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 6
+                  },
+                  "o": {
+                    "a": 0,
+                    "k": 100,
+                    "ix": 7
+                  },
+                  "sk": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 4
+                  },
+                  "sa": {
+                    "a": 0,
+                    "k": 0,
+                    "ix": 5
+                  },
+                  "nm": "变换"
+                }
+              ],
+              "nm": "Vector",
+              "np": 3,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  32.689,
+                  38.539
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "变换"
+            }
+          ],
+          "nm": "Vector 2",
+          "np": 1,
+          "cix": 2,
+          "bm": 0,
+          "ix": 2,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 730,
+      "st": 0,
+      "ct": 1,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "带高光渐变图.png",
+      "cl": "png",
+      "tt": 1,
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.67
+                ],
+                "y": [
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.33
+                ],
+                "y": [
+                  0
+                ]
+              },
+              "t": 0,
+              "s": [
+                0
+              ]
+            },
+            {
+              "t": 719,
+              "s": [
+                360
+              ]
+            }
+          ],
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 0,
+              "s": [
+                34.25,
+                45.25,
+                0
+              ],
+              "to": [
+                -2.767,
+                3.345,
+                0
+              ],
+              "ti": [
+                -3.233,
+                2.384,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 180.125,
+              "s": [
+                30.332,
+                44.219,
+                0
+              ],
+              "to": [
+                7.35,
+                -5.42,
+                0
+              ],
+              "ti": [
+                -7.305,
+                0.66,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 361.752,
+              "s": [
+                35.412,
+                35.419,
+                0
+              ],
+              "to": [
+                3.486,
+                -0.315,
+                0
+              ],
+              "ti": [
+                6.14,
+                -1.104,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 538.875,
+              "s": [
+                37.625,
+                37.095,
+                0
+              ],
+              "to": [
+                -6.522,
+                1.172,
+                0
+              ],
+              "ti": [
+                2.938,
+                -3.551,
+                0
+              ]
+            },
+            {
+              "t": 719,
+              "s": [
+                34.25,
+                45.25,
+                0
+              ]
+            }
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            70,
+            70,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            95,
+            95,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 730,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "正在生成Mask.png",
+      "cl": "png",
+      "td": 1,
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            36,
+            36,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            36,
+            36,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 730,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 2,
+      "nm": "带高光渐变图.png",
+      "cl": "png",
+      "tt": 1,
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.67
+                ],
+                "y": [
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.33
+                ],
+                "y": [
+                  0
+                ]
+              },
+              "t": 0,
+              "s": [
+                0
+              ]
+            },
+            {
+              "t": 719,
+              "s": [
+                360
+              ]
+            }
+          ],
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 0,
+              "s": [
+                34.25,
+                45.25,
+                0
+              ],
+              "to": [
+                -2.767,
+                3.345,
+                0
+              ],
+              "ti": [
+                -3.371,
+                -2.184,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 180.125,
+              "s": [
+                26.457,
+                47.844,
+                0
+              ],
+              "to": [
+                8.225,
+                5.33,
+                0
+              ],
+              "ti": [
+                -7.261,
+                -1.037,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 361.752,
+              "s": [
+                31.6,
+                34.106,
+                0
+              ],
+              "to": [
+                2.611,
+                0.373,
+                0
+              ],
+              "ti": [
+                4.512,
+                4.136,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 538.875,
+              "s": [
+                28,
+                40.47,
+                0
+              ],
+              "to": [
+                -4.191,
+                -3.842,
+                0
+              ],
+              "ti": [
+                2.938,
+                -3.551,
+                0
+              ]
+            },
+            {
+              "t": 719,
+              "s": [
+                34.25,
+                45.25,
+                0
+              ]
+            }
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            70,
+            70,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            95,
+            95,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 730,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

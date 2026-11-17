@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_search_guide" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/search_card_padding_horizontal" android:paddingVertical="@dimen/search_no_result_card_margin_top">
+        <TextView android:textSize="@dimen/search_no_result_guide_text_size" android:textColor="@color/search_no_result_guide_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_no_result_guide" style="@style/ItemTextMediumFontStyle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_guide_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/search_card_guide_padding_top" />
+    </LinearLayout>
+</FrameLayout>

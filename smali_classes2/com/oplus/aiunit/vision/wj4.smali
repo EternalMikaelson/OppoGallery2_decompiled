@@ -1,0 +1,96 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/wj4;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lcom/oplus/gallery/business_lib/ui/fragment/BaseAlbumFragment;
+
+.field public final synthetic b:Lcom/oplus/gallery/basebiz/sidepane/SidePaneState;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/oplus/gallery/business_lib/ui/fragment/BaseAlbumFragment;Lcom/oplus/gallery/basebiz/sidepane/SidePaneState;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/oplus/aiunit/vision/wj4;->a:Lcom/oplus/gallery/business_lib/ui/fragment/BaseAlbumFragment;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/oplus/aiunit/vision/wj4;->b:Lcom/oplus/gallery/basebiz/sidepane/SidePaneState;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    sget v0, Lcom/oplus/gallery/business_lib/ui/fragment/BaseAlbumFragment;->O2:I
+
+    .line 3
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/wj4;->a:Lcom/oplus/gallery/business_lib/ui/fragment/BaseAlbumFragment;
+
+    .line 5
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->isResumed()Z
+
+    move-result v1
+
+    .line 9
+    invoke-virtual {v0}, Lcom/oplus/gallery/basebiz/uikit/fragment/BaseFragment;->y1()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 13
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 15
+    const-string/jumbo v3, "onSidePaneSlideStart: isResumed:"
+
+    .line 18
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 21
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 24
+    const-string v1, " newState="
+
+    .line 26
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 29
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/wj4;->b:Lcom/oplus/gallery/basebiz/sidepane/SidePaneState;
+
+    .line 31
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 34
+    const-string p0, " "
+
+    .line 36
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 39
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 42
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

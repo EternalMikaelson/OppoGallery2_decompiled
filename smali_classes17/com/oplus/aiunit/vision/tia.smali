@@ -1,0 +1,69 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/tia;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    new-instance p0, Lcom/oplus/aiunit/vision/gti;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcom/oplus/aiunit/vision/gti;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object v0, Lcom/oplus/aiunit/vision/z930;->r:Lcom/oplus/aiunit/vision/z930;
+
+    .line 7
+    .line 8
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/gti;->e(Lcom/oplus/aiunit/vision/z930;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sget-object v0, Lcom/oplus/aiunit/vision/z930;->s:Lcom/oplus/aiunit/vision/z930;
+
+    .line 12
+    .line 13
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/gti;->e(Lcom/oplus/aiunit/vision/z930;)V
+
+    .line 14
+    .line 15
+    .line 16
+    sget-object v0, Lcom/oplus/aiunit/vision/z930;->p:Lcom/oplus/aiunit/vision/z930;
+
+    .line 17
+    .line 18
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/gti;->e(Lcom/oplus/aiunit/vision/z930;)V
+
+    .line 19
+    .line 20
+    .line 21
+    sget-object v0, Lcom/oplus/aiunit/vision/z930;->S0:Lcom/oplus/aiunit/vision/z930;
+
+    .line 22
+    .line 23
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/gti;->d(Lcom/oplus/aiunit/vision/z930;)V
+
+    .line 24
+    .line 25
+    .line 26
+    sget-object v0, Lcom/oplus/aiunit/vision/z930;->U0:Lcom/oplus/aiunit/vision/z930;
+
+    .line 27
+    .line 28
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/gti;->c(Lcom/oplus/aiunit/vision/z930;)V
+
+    .line 29
+    .line 30
+    .line 31
+    return-object p0
+.end method

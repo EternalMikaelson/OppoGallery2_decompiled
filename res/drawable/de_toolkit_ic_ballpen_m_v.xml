@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?de_toolkit_ball_m_v" />
+    <item android:id="@id/pen_color" android:drawable="@drawable/de_toolkit_ballpen_overlay_m_v" />
+</layer-list>

@@ -1,0 +1,302 @@
+.class public final Lcom/oplus/aiunit/vision/vpi;
+.super Lcom/oplus/aiunit/vision/u7d;
+.source "GifSynthesisSpeedState.kt"
+
+
+# virtual methods
+.method public final g(Landroid/view/View;)V
+    .locals 2
+
+    .line 1
+    invoke-super {p0, p1}, Lcom/oplus/aiunit/vision/u7d;->g(Landroid/view/View;)V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p1, 0x0
+
+    .line 5
+    const-string v0, "GifSynthesisSpeedState"
+
+    .line 6
+    .line 7
+    const-string v1, "clickCancel"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1, p1}, Lcom/oplus/aiunit/vision/w9h;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 10
+    .line 11
+    .line 12
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/u7d;->b:Lcom/oplus/aiunit/vision/xyc;
+
+    .line 13
+    .line 14
+    if-eqz p0, :cond_0
+
+    .line 15
+    .line 16
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/xyc;->u0:Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/common/GifSynthesisDataManager;
+
+    .line 17
+    .line 18
+    if-eqz p0, :cond_0
+
+    .line 19
+    .line 20
+    invoke-virtual {p0}, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/common/GifSynthesisDataManager;->b()Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p0
+
+    .line 24
+    if-eqz p0, :cond_0
+
+    .line 25
+    .line 26
+    sget-object p1, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;->CANCEL:Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;
+
+    .line 27
+    .line 28
+    iget v0, p0, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;->b:F
+
+    .line 29
+    .line 30
+    invoke-virtual {p0, p1, v0}, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;->d0(Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;F)V
+
+    .line 31
+    .line 32
+    .line 33
+    :cond_0
+    return-void
+.end method
+
+.method public final h()V
+    .locals 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const-string v1, "GifSynthesisSpeedState"
+
+    .line 3
+    .line 4
+    const-string v2, "clickDone"
+
+    .line 5
+    .line 6
+    invoke-static {v1, v2, v0}, Lcom/oplus/aiunit/vision/w9h;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 7
+    .line 8
+    .line 9
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/u7d;->b:Lcom/oplus/aiunit/vision/xyc;
+
+    .line 10
+    .line 11
+    if-eqz v0, :cond_0
+
+    .line 12
+    .line 13
+    iget-object v0, v0, Lcom/oplus/aiunit/vision/xyc;->u0:Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/common/GifSynthesisDataManager;
+
+    .line 14
+    .line 15
+    if-eqz v0, :cond_0
+
+    .line 16
+    .line 17
+    invoke-virtual {v0}, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/common/GifSynthesisDataManager;->b()Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    if-eqz v0, :cond_0
+
+    .line 22
+    .line 23
+    sget-object v1, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;->APPLY:Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;
+
+    .line 24
+    .line 25
+    iget v2, v0, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;->b:F
+
+    .line 26
+    .line 27
+    invoke-virtual {v0, v1, v2}, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;->d0(Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;F)V
+
+    .line 28
+    .line 29
+    .line 30
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 31
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/u7d;->K(Z)V
+
+    .line 32
+    .line 33
+    .line 34
+    invoke-virtual {p0, v0}, Lcom/oplus/aiunit/vision/u7d;->J(Z)V
+
+    .line 35
+    .line 36
+    .line 37
+    iget-object v0, p0, Lcom/oplus/aiunit/vision/u7d;->b:Lcom/oplus/aiunit/vision/xyc;
+
+    .line 38
+    .line 39
+    iget-object v0, v0, Lcom/oplus/aiunit/vision/xyc;->k0:Lcom/oplus/aiunit/vision/r4e;
+
+    .line 40
+    .line 41
+    invoke-virtual {v0, p0}, Lcom/oplus/aiunit/vision/r4e;->h(Lcom/oplus/aiunit/vision/u7d;)V
+
+    .line 42
+    .line 43
+    .line 44
+    return-void
+.end method
+
+.method public final i()V
+    .locals 2
+
+    .line 1
+    invoke-super {p0}, Lcom/oplus/aiunit/vision/u7d;->i()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/u7d;->b:Lcom/oplus/aiunit/vision/xyc;
+
+    .line 5
+    .line 6
+    if-eqz p0, :cond_0
+
+    .line 7
+    .line 8
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/xyc;->u0:Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/common/GifSynthesisDataManager;
+
+    .line 9
+    .line 10
+    if-eqz p0, :cond_0
+
+    .line 11
+    .line 12
+    invoke-virtual {p0}, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/common/GifSynthesisDataManager;->b()Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p0
+
+    .line 16
+    if-eqz p0, :cond_0
+
+    .line 17
+    .line 18
+    sget-object v0, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;->EDIT:Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;
+
+    .line 19
+    .line 20
+    iget v1, p0, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;->b:F
+
+    .line 21
+    .line 22
+    invoke-virtual {p0, v0, v1}, Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/viewmodel/GifSynthesisViewModel;->d0(Lcom/oplus/gallery/pictureeditorpage/app/gifsynthesis/OperateMode;F)V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_0
+    return-void
+.end method
+
+.method public final j()Lcom/oplus/aiunit/vision/ro30;
+    .locals 0
+
+    .line 1
+    new-instance p0, Lcom/oplus/aiunit/vision/upi;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcom/oplus/aiunit/vision/ro30;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method
+
+.method public final k()Lcom/oplus/aiunit/vision/v8d;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/oplus/aiunit/vision/bqi;
+
+    .line 3
+    iget-object v1, p0, Lcom/oplus/aiunit/vision/u7d;->d:Lcom/oplus/aiunit/vision/r1y;
+
+    .line 5
+    const-string/jumbo v2, "mPictureContext"
+
+    .line 7
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 10
+    iget-object v2, p0, Lcom/oplus/aiunit/vision/u7d;->f:Landroid/view/ViewGroup;
+
+    .line 12
+    invoke-direct {v0, v1, v2, p0}, Lcom/oplus/aiunit/vision/bqi;-><init>(Lcom/oplus/aiunit/vision/r1y;Landroid/view/ViewGroup;Lcom/oplus/aiunit/vision/vpi;)V
+
+    return-object v0
+.end method
+
+.method public final t()Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method
+
+.method public final u()Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x1
+
+    .line 2
+    return p0
+.end method
+
+.method public final w()Z
+    .locals 3
+
+    const/4 v0, 0x0
+
+    .line 2
+    const-string v1, "GifSynthesisSpeedState"
+
+    .line 4
+    const-string/jumbo v2, "onBackPressed"
+
+    .line 6
+    invoke-static {v1, v2, v0}, Lcom/oplus/aiunit/vision/w9h;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 9
+    invoke-super {p0}, Lcom/oplus/aiunit/vision/u7d;->w()Z
+
+    const/4 p0, 0x1
+
+    return p0
+.end method

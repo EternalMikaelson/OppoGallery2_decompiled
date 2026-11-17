@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/watermark_item_view_container" android:background="@drawable/picture3d_editor_watermark_item_bg_shape" android:layout_width="@dimen/watermark_info_list_item_width" android:layout_height="match_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/watermark_item_view_select_bg" android:background="@drawable/picture3d_editor_watermark_item_select_bg_shape" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/watermark_item_view_image" android:layout_width="@dimen/watermark_info_list_item_image_width" android:layout_height="@dimen/watermark_info_list_item_image_width" android:contentDescription="@null" android:layout_marginStart="0.0dp" />
+        <com.oplus.gallery.standard_lib.ui.SuitableSizeTextView android:textSize="@dimen/watermark_info_list_item_text_size" android:textColor="@color/coui_color_primary_neutral_dark" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/watermark_item_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/watermark_info_list_item_text_margin_start" app:textSizeLevel="G2" />
+    </LinearLayout>
+</RelativeLayout>

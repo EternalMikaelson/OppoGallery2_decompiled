@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/picture3d_sticker_stroke_style_item_width" android:layout_height="@dimen/picture3d_sticker_stroke_style_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/stroke_style_container" android:background="@drawable/picture3d_sticker_stroke_style_item_background" android:clipChildren="true" android:layout_width="@dimen/picture3d_sticker_stroke_style_item_thumbnail_width" android:layout_height="@dimen/picture3d_sticker_stroke_style_item_thumbnail_height" android:clipToOutline="true">
+        <ImageView android:id="@id/stroke_style_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <View android:layout_gravity="bottom" android:id="@id/stroke_style_label_scrim" android:background="@drawable/picture3d_sticker_stroke_style_item_label_scrim" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/picture3d_sticker_stroke_style_label_gradient_height" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/picture3d_sticker_stroke_style_label_text_size" android:textColor="@color/picture3d_sticker_stroke_style_label_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/stroke_style_label" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:fontFamily="OPPO Sans 4.0 SC" android:paddingHorizontal="2.0dp" android:textFontWeight="500" />
+    </FrameLayout>
+    <View android:id="@id/stroke_style_border" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+</FrameLayout>

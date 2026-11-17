@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.photoeditor.editingvvm.watermarkpersonalized.widget.WatermarkPersonalizedEditMenuItemView android:id="@id/watermark_position_item_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_rounded_corners_ring" android:layout_width="@dimen/picture3d_editor_personalise_composition_list_watermark_item_ring_height" android:layout_height="@dimen/picture3d_editor_personalise_composition_list_watermark_item_ring_height" android:src="@drawable/picture3d_editor_personalise_watermark_position_ring" />
+    <com.coui.appcompat.cardview.COUICardView android:layout_gravity="center" android:id="@id/card_view_picture" android:layout_width="@dimen/picture3d_editor_personalise_bg_color_item_card_size" android:layout_height="@dimen/picture3d_editor_personalise_bg_color_item_card_size" app:cardBackgroundColor="@color/coui_transparence" app:cardCornerRadius="@dimen/picture3d_editor_personalise_bg_cardview_radius">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_watermark_position" android:layout_width="@dimen/picture3d_editor_personalise_composition_list_watermark_item_height" android:layout_height="@dimen/picture3d_editor_personalise_composition_list_watermark_item_height" android:scaleType="fitXY" />
+    </com.coui.appcompat.cardview.COUICardView>
+</com.oplus.gallery.photoeditor.editingvvm.watermarkpersonalized.widget.WatermarkPersonalizedEditMenuItemView>

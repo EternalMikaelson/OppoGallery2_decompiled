@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/main_tab_selected_icon_black" android:height="24.0dp" android:width="24.0dp" android:alpha="0.54" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="#000000" android:pathData="M16.366,2.617C16.27,2.453 16.111,2.335 15.926,2.291C15.741,2.246 15.546,2.279 15.385,2.382L6.13,8.299H4.997C4.279,8.299 3.697,7.717 3.697,6.999C3.697,6.281 4.279,5.699 4.997,5.699H7.624L9.864,4.299H4.997C3.506,4.299 2.297,5.508 2.297,6.999V17.999C2.297,19.49 3.506,20.699 4.997,20.699H20.997C21.383,20.699 21.697,20.385 21.697,19.999V8.999C21.697,8.612 21.383,8.299 20.997,8.299H19.703L16.366,2.617ZM18.079,8.299L15.527,3.953L8.729,8.299H18.079ZM3.697,9.366V17.999C3.697,18.717 4.279,19.299 4.997,19.299H20.297V9.699H4.997C4.526,9.699 4.083,9.578 3.697,9.366Z" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M18.297,12.998V15.998" android:strokeColor="#000000" android:strokeWidth="1.4" android:strokeLineCap="round" />
+    </group>
+</vector>

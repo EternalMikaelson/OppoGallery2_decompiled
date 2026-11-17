@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/panel_dialog_root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/panel_dialog_outside" android:background="@color/cloudkit_color_mask" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no" />
+    <com.heytap.cloudkit.libpay.coui.panel.CloudPanelPercentFrameLayout android:layout_gravity="center_horizontal" android:id="@id/panel_dialog_design_bottom_sheet" android:background="@color/cloudkit_color_background_elevatedWithCard" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/cloudkit_bottom_sheet_dialog_layout_margin_top" android:layout_marginBottom="@dimen/cloudkit_bottom_sheet_dialog_layout_margin_bottom" />
+</FrameLayout>

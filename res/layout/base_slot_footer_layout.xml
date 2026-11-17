@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|bottom" android:orientation="vertical" android:paddingTop="@dimen/base_album_count_string_padding_top" android:paddingBottom="@dimen/base_album_count_string_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/base_album_count_string_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/gTextAppearanceDescription" android:textColor="?gColorHintNeutral" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_recycle_text_top" />
+    <TextView android:textAppearance="@style/gTextAppearanceDescription" android:textColor="?gColorHintNeutral" android:gravity="center" android:id="@id/recycle_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_recycle_text_top" android:text="@string/base_recycle_hint" />
+</LinearLayout>

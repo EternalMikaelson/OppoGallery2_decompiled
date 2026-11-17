@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/base_ic_indicator_arrow_down" android:contentDescription="@null" app:layout_constraintBottom_toTopOf="@id/rv_list" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.oplus.gallery.albumsetpage.selection.pictures.preview.view.SelectionPreviewRecyclerView android:id="@id/rv_list" android:layout_width="match_parent" android:layout_height="@dimen/album_item_selection_little_cover_size" app:layout_constraintBottom_toTopOf="@id/selection_preview_bottom_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <include android:id="@id/selection_preview_bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/album_fragment_selection_preview_bottom_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

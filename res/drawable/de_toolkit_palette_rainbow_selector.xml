@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:height="42.0dp" android:width="42.0dp" android:drawable="@drawable/de_toolkit_palette_rainbow" />
+        </layer-list>
+    </item>
+</selector>

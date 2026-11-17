@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/thumbnail_view_container" android:layout_width="match_parent" android:layout_height="@dimen/editor_extract_video_thumbnail_height" android:layout_marginLeft="@dimen/editor_extract_video_thumbnail_marginLeft" android:layout_marginTop="@dimen/thumbnail_view_margin_top" android:layout_marginRight="@dimen/editor_extract_video_thumbnail_marginLeft" android:foreground="@drawable/edit_drawable_extract_background">
+        <ImageView android:id="@id/editor_extract_im_view0" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+        <ImageView android:id="@id/editor_extract_im_view1" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+        <ImageView android:id="@id/editor_extract_im_view2" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+        <ImageView android:id="@id/editor_extract_im_view3" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+        <ImageView android:id="@id/editor_extract_im_view4" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+        <ImageView android:id="@id/editor_extract_im_view5" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+        <ImageView android:id="@id/editor_extract_im_view6" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0.125" />
+    </LinearLayout>
+</merge>

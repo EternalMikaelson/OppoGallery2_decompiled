@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="40.0dp" android:width="40.0dp" android:drawable="@color/coui_transparence" />
+    <item android:gravity="center" android:height="24.0dp" android:width="24.0dp" android:drawable="?de_toolkit_lasso_operation_icon" />
+</layer-list>

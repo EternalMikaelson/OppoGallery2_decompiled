@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene app:defaultDuration="300"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/creation_recommend_area_transition" app:constraintSetEnd="@id/recommend_area_wide" app:constraintSetStart="@id/recommend_area_narrow" app:duration="300" />
+    <ConstraintSet android:id="@id/recommend_area_narrow" />
+    <ConstraintSet android:id="@id/recommend_area_wide" />
+</MotionScene>

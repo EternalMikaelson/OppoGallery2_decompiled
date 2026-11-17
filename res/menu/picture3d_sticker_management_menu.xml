@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_sticker_enter_custom" android:id="@id/sticker_manage_add" android:title="" app:showAsAction="always" />
+    <item android:id="@id/sticker_manage_select_all" android:checked="true" android:orderInCategory="1" android:title="" android:checkable="true" app:actionLayout="@layout/sticker_management_toolbar_menu_item_select_checkbox" app:showAsAction="always" />
+    <item android:id="@id/sticker_manage_edit" android:title="@string/common_select" android:iconTint="@color/white" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitExtractorShadow android:id="@id/color_extractor_shadow" android:layout_width="136.0dp" android:layout_height="136.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitColorExtractorView android:id="@id/color_extractor_display" android:layout_width="120.0dp" android:layout_height="120.0dp" android:layout_marginTop="8.0dp" android:layout_marginStart="8.0dp" app:layout_constraintStart_toStartOf="@id/color_extractor_shadow" app:layout_constraintTop_toTopOf="@id/color_extractor_shadow" />
+</com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitConstraintLayout>

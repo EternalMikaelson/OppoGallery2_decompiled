@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/base_ic_merge_face_album_selector" android:enabled="false" android:id="@id/action_merge_person_pet_album" android:title="@string/base_merge_face_album" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/albumsetpage_rename_group" android:enabled="false" android:id="@id/action_rename_person_pet_album" android:title="@string/base_rename" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_create_group_selector" android:enabled="false" android:id="@id/action_create_group" android:title="@string/create_group_photo" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/base_ic_remove_link_selector" android:enabled="false" android:id="@id/action_remove" android:title="@string/base_side_pane_remove" app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/editor_trim_toolbar_menu_layout" android:layout_width="match_parent" android:layout_height="72.0dp" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_thumb_layout" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_trim_touch_view_height">
+        <com.oplus.gallery.videoeditorpage.video.business.wallpaper.GalleryVideoThumbnailView android:layout_gravity="bottom" android:id="@id/video_thumb_view" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_trim_bottom_menu_thumb_view_height" android:layout_marginBottom="@dimen/videoeditor_trim_bottom_menu_slow_thumbnail_margin_bottom" />
+        <com.oplus.gallery.videoeditorpage.widget.VideoTrimTouchView android:id="@id/trim_touch_view" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_trim_touch_view_height" />
+    </FrameLayout>
+</FrameLayout>

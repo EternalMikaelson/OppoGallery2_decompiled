@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplusos.vfxsdk.doodleengine.toolkit.penviews.UndoOperationView android:id="@id/undo_button" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="?de_toolkit_undo_drawable_m" android:contentDescription="@string/de_toolkit_undo" android:forceDarkAllowed="false" />
+    <com.oplusos.vfxsdk.doodleengine.toolkit.penviews.RedoOperationView android:id="@id/redo_button" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="?de_toolkit_redo_drawable_m" android:contentDescription="@string/de_toolkit_redo" android:layout_marginStart="@dimen/dp_4" android:forceDarkAllowed="false" />
+    <View android:layout_gravity="center_vertical" android:id="@id/undo_redo_divider" android:background="?de_toolkit_line" android:layout_width="0.39999998dp" android:layout_height="28.0dp" android:contentDescription="@null" android:layout_marginStart="@dimen/dp_8" android:forceDarkAllowed="false" />
+</merge>

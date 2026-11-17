@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/common_app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.aboutpage.COUIAppInfoPreference android:layout="@layout/setting_about_preference_appinfo" android:selectable="false" android:key="pref_app_info" app:appName="@string/app_name" app:copyFinishText="@string/base_copied" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="pref_category_key_main">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/authorizing_user_agreement" android:key="pref_key_user_agreement" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/setting_pref_privacy_policy_title" android:key="pref_key_privacy_policy" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/setting_pref_open_source_code_licenses_key" android:key="pref_key_open_source_licenses" app:couiShowDivider="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIBottomPreference />
+</androidx.preference.PreferenceScreen>

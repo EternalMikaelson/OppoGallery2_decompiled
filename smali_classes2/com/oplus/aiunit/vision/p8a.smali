@@ -1,0 +1,31 @@
+.class public final synthetic Lcom/oplus/aiunit/vision/p8a;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    sget-object p0, Lcom/oplus/aiunit/vision/o9a;->c0:Lkotlin/Lazy;
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Ljava/util/List;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method

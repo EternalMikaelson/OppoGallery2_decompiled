@@ -1,0 +1,63 @@
+.class public Lcom/oplus/log/uploader/UploadManager$UploadCheckBody;
+.super Ljava/lang/Object;
+.source "UploadManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/log/uploader/UploadManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "UploadCheckBody"
+.end annotation
+
+
+# instance fields
+.field public business:Ljava/lang/String;
+
+.field public subType:Ljava/lang/String;
+
+.field public final synthetic this$0:Lcom/oplus/log/uploader/UploadManager;
+
+.field public uploadCheckerListener:Lcom/oplus/log/uploader/UploadManager$UploadCheckerListener;
+
+
+# direct methods
+.method public constructor <init>(Lcom/oplus/log/uploader/UploadManager;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/log/uploader/UploadManager$UploadCheckBody;->this$0:Lcom/oplus/log/uploader/UploadManager;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/oplus/log/uploader/UploadManager$UploadCheckBody;->business:Ljava/lang/String;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lcom/oplus/log/uploader/UploadManager$UploadCheckBody;->subType:Ljava/lang/String;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public setUploadCheckerListener(Lcom/oplus/log/uploader/UploadManager$UploadCheckerListener;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/oplus/log/uploader/UploadManager$UploadCheckBody;->uploadCheckerListener:Lcom/oplus/log/uploader/UploadManager$UploadCheckerListener;
+
+    .line 2
+    .line 3
+    return-void
+.end method

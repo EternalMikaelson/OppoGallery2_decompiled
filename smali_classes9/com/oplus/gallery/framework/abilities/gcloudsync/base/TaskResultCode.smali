@@ -1,0 +1,861 @@
+.class public final enum Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+.super Ljava/lang/Enum;
+.source "TaskResultCode.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\u001c\u0008\u0086\u0081\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005j\u0002\u0008\u0006j\u0002\u0008\u0007j\u0002\u0008\u0008j\u0002\u0008\tj\u0002\u0008\nj\u0002\u0008\u000bj\u0002\u0008\u000cj\u0002\u0008\rj\u0002\u0008\u000ej\u0002\u0008\u000fj\u0002\u0008\u0010j\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014j\u0002\u0008\u0015j\u0002\u0008\u0016j\u0002\u0008\u0017j\u0002\u0008\u0018j\u0002\u0008\u0019j\u0002\u0008\u001aj\u0002\u0008\u001bj\u0002\u0008\u001c\u00a8\u0006\u001d"
+    }
+    d2 = {
+        "Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;",
+        "",
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        "NOT_INIT",
+        "META_DATA_SYNC_ERROR",
+        "META_DATA_SYNC_SUCCESS",
+        "META_DATA_SYNC_HAS_MORE",
+        "RESULT_FAIL",
+        "RESULT_SUCCESS",
+        "FILE_TRANSFER_SUCCESS",
+        "FILE_TRANSFERING",
+        "FILE_TRANSFER_FAILED",
+        "FILE_STOP_DOWNLOAD_MANUAL",
+        "RESULT_NETWORK_ERROR",
+        "RESULT_IO_ERROR",
+        "RESULT_METADATA_ERROR",
+        "RESULT_LOCAL_INSUFFICIENT_SPACE",
+        "RESULT_THIRD_APP_FULL_FRONT",
+        "RESULT_POWER_SAVING_MODE",
+        "RESULT_LOW_BATTERY",
+        "RESULT_LITTLE_LOW_BATTERY_NOT_CHARGING",
+        "RESULT_TEMPERATURE_HIGH",
+        "RESULT_PERMISSION_DENIED",
+        "RESULT_NOT_LOGIN_OR_SWITCH_CLOSE",
+        "RESULT_NO_NETWORK_PERMISSION",
+        "RESULT_NETWORK_NO_CONNECT",
+        "RESULT_TRAFFIC_LIMIT",
+        "RESULT_SYNC_META_DATA_START",
+        "gcloudsyncability_oneplusDeviceallExportApilevelallRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field private static final synthetic $ENTRIES:Lkotlin/enums/EnumEntries;
+
+.field private static final synthetic $VALUES:[Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum FILE_STOP_DOWNLOAD_MANUAL:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum FILE_TRANSFERING:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum FILE_TRANSFER_FAILED:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum FILE_TRANSFER_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum META_DATA_SYNC_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum META_DATA_SYNC_HAS_MORE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum META_DATA_SYNC_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum NOT_INIT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_FAIL:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_IO_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_LITTLE_LOW_BATTERY_NOT_CHARGING:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_LOCAL_INSUFFICIENT_SPACE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_LOW_BATTERY:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_METADATA_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_NETWORK_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_NETWORK_NO_CONNECT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_NOT_LOGIN_OR_SWITCH_CLOSE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_NO_NETWORK_PERMISSION:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_PERMISSION_DENIED:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_POWER_SAVING_MODE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_SYNC_META_DATA_START:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_TEMPERATURE_HIGH:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_THIRD_APP_FULL_FRONT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+.field public static final enum RESULT_TRAFFIC_LIMIT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+
+# direct methods
+.method private static final synthetic $values()[Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+    .locals 26
+
+    .line 1
+    sget-object v1, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->NOT_INIT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 2
+    .line 3
+    sget-object v2, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->META_DATA_SYNC_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 4
+    .line 5
+    sget-object v3, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->META_DATA_SYNC_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 6
+    .line 7
+    sget-object v4, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->META_DATA_SYNC_HAS_MORE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 8
+    .line 9
+    sget-object v5, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_FAIL:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 10
+    .line 11
+    sget-object v6, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 12
+    .line 13
+    sget-object v7, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_TRANSFER_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 14
+    .line 15
+    sget-object v8, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_TRANSFERING:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 16
+    .line 17
+    sget-object v9, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_TRANSFER_FAILED:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 18
+    .line 19
+    sget-object v10, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_STOP_DOWNLOAD_MANUAL:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 20
+    .line 21
+    sget-object v11, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NETWORK_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 22
+    .line 23
+    sget-object v12, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_IO_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 24
+    .line 25
+    sget-object v13, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_METADATA_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 26
+    .line 27
+    sget-object v14, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_LOCAL_INSUFFICIENT_SPACE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 28
+    .line 29
+    sget-object v15, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_THIRD_APP_FULL_FRONT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 30
+    .line 31
+    sget-object v16, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_POWER_SAVING_MODE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 32
+    .line 33
+    sget-object v17, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_LOW_BATTERY:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 34
+    .line 35
+    sget-object v18, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_LITTLE_LOW_BATTERY_NOT_CHARGING:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 36
+    .line 37
+    sget-object v19, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_TEMPERATURE_HIGH:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 38
+    .line 39
+    sget-object v20, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_PERMISSION_DENIED:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 40
+    .line 41
+    sget-object v21, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NOT_LOGIN_OR_SWITCH_CLOSE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 42
+    .line 43
+    sget-object v22, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NO_NETWORK_PERMISSION:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 44
+    .line 45
+    sget-object v23, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NETWORK_NO_CONNECT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 46
+    .line 47
+    sget-object v24, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_TRAFFIC_LIMIT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 48
+    .line 49
+    sget-object v25, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_SYNC_META_DATA_START:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 50
+    .line 51
+    filled-new-array/range {v1 .. v25}, [Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object v0
+
+    .line 55
+    return-object v0
+.end method
+
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 2
+    .line 3
+    const-string v1, "NOT_INIT"
+
+    .line 4
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 7
+    .line 8
+    .line 9
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->NOT_INIT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 10
+    .line 11
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 12
+    .line 13
+    const-string v1, "META_DATA_SYNC_ERROR"
+
+    .line 14
+    .line 15
+    const/4 v2, 0x1
+
+    .line 16
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 17
+    .line 18
+    .line 19
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->META_DATA_SYNC_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 20
+    .line 21
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 22
+    .line 23
+    const-string v1, "META_DATA_SYNC_SUCCESS"
+
+    .line 24
+    .line 25
+    const/4 v2, 0x2
+
+    .line 26
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 27
+    .line 28
+    .line 29
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->META_DATA_SYNC_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 30
+    .line 31
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 32
+    .line 33
+    const-string v1, "META_DATA_SYNC_HAS_MORE"
+
+    .line 34
+    .line 35
+    const/4 v2, 0x3
+
+    .line 36
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 37
+    .line 38
+    .line 39
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->META_DATA_SYNC_HAS_MORE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 40
+    .line 41
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 42
+    .line 43
+    const-string v1, "RESULT_FAIL"
+
+    .line 44
+    .line 45
+    const/4 v2, 0x4
+
+    .line 46
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 47
+    .line 48
+    .line 49
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_FAIL:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 50
+    .line 51
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 52
+    .line 53
+    const-string v1, "RESULT_SUCCESS"
+
+    .line 54
+    .line 55
+    const/4 v2, 0x5
+
+    .line 56
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 57
+    .line 58
+    .line 59
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 60
+    .line 61
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 62
+    .line 63
+    const-string v1, "FILE_TRANSFER_SUCCESS"
+
+    .line 64
+    .line 65
+    const/4 v2, 0x6
+
+    .line 66
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 67
+    .line 68
+    .line 69
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_TRANSFER_SUCCESS:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 70
+    .line 71
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 72
+    .line 73
+    const-string v1, "FILE_TRANSFERING"
+
+    .line 74
+    .line 75
+    const/4 v2, 0x7
+
+    .line 76
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 77
+    .line 78
+    .line 79
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_TRANSFERING:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 80
+    .line 81
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 82
+    .line 83
+    const-string v1, "FILE_TRANSFER_FAILED"
+
+    .line 84
+    .line 85
+    const/16 v2, 0x8
+
+    .line 86
+    .line 87
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 88
+    .line 89
+    .line 90
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_TRANSFER_FAILED:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 91
+    .line 92
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 93
+    .line 94
+    const-string v1, "FILE_STOP_DOWNLOAD_MANUAL"
+
+    .line 95
+    .line 96
+    const/16 v2, 0x9
+
+    .line 97
+    .line 98
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 99
+    .line 100
+    .line 101
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->FILE_STOP_DOWNLOAD_MANUAL:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 102
+    .line 103
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 104
+    .line 105
+    const-string v1, "RESULT_NETWORK_ERROR"
+
+    .line 106
+    .line 107
+    const/16 v2, 0xa
+
+    .line 108
+    .line 109
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 110
+    .line 111
+    .line 112
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NETWORK_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 113
+    .line 114
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 115
+    .line 116
+    const-string v1, "RESULT_IO_ERROR"
+
+    .line 117
+    .line 118
+    const/16 v2, 0xb
+
+    .line 119
+    .line 120
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 121
+    .line 122
+    .line 123
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_IO_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 124
+    .line 125
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 126
+    .line 127
+    const-string v1, "RESULT_METADATA_ERROR"
+
+    .line 128
+    .line 129
+    const/16 v2, 0xc
+
+    .line 130
+    .line 131
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 132
+    .line 133
+    .line 134
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_METADATA_ERROR:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 135
+    .line 136
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 137
+    .line 138
+    const-string v1, "RESULT_LOCAL_INSUFFICIENT_SPACE"
+
+    .line 139
+    .line 140
+    const/16 v2, 0xd
+
+    .line 141
+    .line 142
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 143
+    .line 144
+    .line 145
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_LOCAL_INSUFFICIENT_SPACE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 146
+    .line 147
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 148
+    .line 149
+    const-string v1, "RESULT_THIRD_APP_FULL_FRONT"
+
+    .line 150
+    .line 151
+    const/16 v2, 0xe
+
+    .line 152
+    .line 153
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 154
+    .line 155
+    .line 156
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_THIRD_APP_FULL_FRONT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 157
+    .line 158
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 159
+    .line 160
+    const-string v1, "RESULT_POWER_SAVING_MODE"
+
+    .line 161
+    .line 162
+    const/16 v2, 0xf
+
+    .line 163
+    .line 164
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 165
+    .line 166
+    .line 167
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_POWER_SAVING_MODE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 168
+    .line 169
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 170
+    .line 171
+    const-string v1, "RESULT_LOW_BATTERY"
+
+    .line 172
+    .line 173
+    const/16 v2, 0x10
+
+    .line 174
+    .line 175
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 176
+    .line 177
+    .line 178
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_LOW_BATTERY:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 179
+    .line 180
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 181
+    .line 182
+    const-string v1, "RESULT_LITTLE_LOW_BATTERY_NOT_CHARGING"
+
+    .line 183
+    .line 184
+    const/16 v2, 0x11
+
+    .line 185
+    .line 186
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 187
+    .line 188
+    .line 189
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_LITTLE_LOW_BATTERY_NOT_CHARGING:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 190
+    .line 191
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 192
+    .line 193
+    const-string v1, "RESULT_TEMPERATURE_HIGH"
+
+    .line 194
+    .line 195
+    const/16 v2, 0x12
+
+    .line 196
+    .line 197
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 198
+    .line 199
+    .line 200
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_TEMPERATURE_HIGH:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 201
+    .line 202
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 203
+    .line 204
+    const-string v1, "RESULT_PERMISSION_DENIED"
+
+    .line 205
+    .line 206
+    const/16 v2, 0x13
+
+    .line 207
+    .line 208
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 209
+    .line 210
+    .line 211
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_PERMISSION_DENIED:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 212
+    .line 213
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 214
+    .line 215
+    const-string v1, "RESULT_NOT_LOGIN_OR_SWITCH_CLOSE"
+
+    .line 216
+    .line 217
+    const/16 v2, 0x14
+
+    .line 218
+    .line 219
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 220
+    .line 221
+    .line 222
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NOT_LOGIN_OR_SWITCH_CLOSE:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 223
+    .line 224
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 225
+    .line 226
+    const-string v1, "RESULT_NO_NETWORK_PERMISSION"
+
+    .line 227
+    .line 228
+    const/16 v2, 0x15
+
+    .line 229
+    .line 230
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 231
+    .line 232
+    .line 233
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NO_NETWORK_PERMISSION:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 234
+    .line 235
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 236
+    .line 237
+    const-string v1, "RESULT_NETWORK_NO_CONNECT"
+
+    .line 238
+    .line 239
+    const/16 v2, 0x16
+
+    .line 240
+    .line 241
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 242
+    .line 243
+    .line 244
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_NETWORK_NO_CONNECT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 245
+    .line 246
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 247
+    .line 248
+    const-string v1, "RESULT_TRAFFIC_LIMIT"
+
+    .line 249
+    .line 250
+    const/16 v2, 0x17
+
+    .line 251
+    .line 252
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 253
+    .line 254
+    .line 255
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_TRAFFIC_LIMIT:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 256
+    .line 257
+    new-instance v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 258
+    .line 259
+    const-string v1, "RESULT_SYNC_META_DATA_START"
+
+    .line 260
+    .line 261
+    const/16 v2, 0x18
+
+    .line 262
+    .line 263
+    invoke-direct {v0, v1, v2}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;-><init>(Ljava/lang/String;I)V
+
+    .line 264
+    .line 265
+    .line 266
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->RESULT_SYNC_META_DATA_START:Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 267
+    .line 268
+    invoke-static {}, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->$values()[Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 269
+    .line 270
+    .line 271
+    move-result-object v0
+
+    .line 272
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->$VALUES:[Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 273
+    .line 274
+    invoke-static {v0}, Lkotlin/enums/EnumEntriesKt;->enumEntries([Ljava/lang/Enum;)Lkotlin/enums/EnumEntries;
+
+    .line 275
+    .line 276
+    .line 277
+    move-result-object v0
+
+    .line 278
+    sput-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->$ENTRIES:Lkotlin/enums/EnumEntries;
+
+    .line 279
+    .line 280
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static getEntries()Lkotlin/enums/EnumEntries;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/enums/EnumEntries<",
+            "Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->$ENTRIES:Lkotlin/enums/EnumEntries;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+    .locals 1
+
+    .line 1
+    const-class v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method
+
+.method public static values()[Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;->$VALUES:[Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, [Lcom/oplus/gallery/framework/abilities/gcloudsync/base/TaskResultCode;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/caption_editor_submenu_edit_bg_color" />
+    <corners android:radius="@dimen/caption_input_edit_text_bg" />
+</shape>

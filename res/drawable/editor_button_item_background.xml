@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/editor_item_text_height" android:width="@dimen/editor_item_text_width" />
+            <corners android:radius="@dimen/editor_item_text_corner_radius" />
+            <solid android:color="@color/editor_bottom_menu_item_background_pressed_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/editor_item_text_height" android:width="@dimen/editor_item_text_width" />
+            <corners android:radius="@dimen/editor_item_text_corner_radius" />
+            <solid android:color="@color/editor_bottom_menu_item_background_color" />
+        </shape>
+    </item>
+</selector>

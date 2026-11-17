@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/photopage_detail_text_view_adjust_background_radius" />
+    <solid android:color="@color/photopage_details_adjust_black" />
+</shape>

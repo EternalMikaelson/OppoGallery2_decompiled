@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/tv_title" android:paddingTop="24.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="center" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" android:textFontWeight="500" />
+    <ScrollView android:scrollbarThumbVertical="@null" android:scrollbarStyle="insideOverlay" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/dialog_spacing_multiplier_body" android:textAlignment="textStart" android:paddingHorizontal="24.0dp" android:paddingVertical="8.0dp" android:textFontWeight="400" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="22.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/tv_negative" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textFontWeight="500" />
+        <View android:layout_gravity="center_vertical" android:id="@id/dialog_separator" android:background="@color/feedback_dialog_separator_line_light" android:layout_width="1.0dp" android:layout_height="20.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/tv_positive" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textFontWeight="500" />
+    </LinearLayout>
+</LinearLayout>

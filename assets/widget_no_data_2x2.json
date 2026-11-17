@@ -1,0 +1,70 @@
+{
+  "type": "constraint",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "id": "mainLayout",
+  "background": "@color/widget_color_card_background",
+  "package": "com.oneplus.gallery",
+  "child": [
+    {
+      "type": "image",
+      "id": "widget_image_logo",
+      "layout_width": "@dimen/widget_logo_width",
+      "layout_height": "@dimen/widget_logo_height",
+      "layout_marginStart": "@dimen/widget_logo_margin",
+      "layout_marginTop": "@dimen/widget_logo_margin",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintTop_toTopOf": "parent",
+      "src": "@drawable/photo_logo",
+      "adjustViewBounds": true,
+      "scaleType": "fitXY"
+    },
+    {
+      "type": "text",
+      "id": "app_name",
+      "layout_width": "wrap_content",
+      "layout_height": "@dimen/widget_logo_height",
+      "layout_marginTop": "@dimen/widget_logo_margin",
+      "paddingStart": "@dimen/widget_title_padding_left",
+      "layout_constraintStart_toEndOf": "widget_image_logo",
+      "layout_constraintTop_toTopOf": "parent",
+      "text": "@string/app_name",
+      "textColor": "@color/widget_mode_item_subtitle_color",
+      "fontFamily": "sans-serif-medium",
+      "textSize": "@dimen/widget_desc_size",
+      "gravity": "center_vertical",
+      "maxLines": "1",
+      "ellipsize": "end"
+    },
+    {
+      "type": "constraint",
+      "id": "innerLayout",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintEnd_toEndOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "layout_constraintTop_toTopOf": "parent",
+      "layout_margin": "22dp",
+      "child": [
+        {
+          "type": "text",
+          "id": "widget_desc",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "layout_marginTop": "@dimen/widget_desc_margin_top",
+          "layout_constraintBottom_toBottomOf": "parent",
+          "layout_constraintEnd_toEndOf": "parent",
+          "layout_constraintStart_toStartOf": "parent",
+          "layout_constraintTop_toTopOf": "parent",
+          "text": "@string/widget_custom_empty_pictures",
+          "textColor": "@color/widget_mode_item_title_color",
+          "fontFamily": "sans-serif-medium",
+          "textSize": "@dimen/widget_desc_size",
+          "maxLines": "2",
+          "ellipsize": "end"
+        }
+      ]
+    }
+  ]
+}

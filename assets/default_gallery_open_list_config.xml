@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>2025120800</version>
+    <!-- Add by wangrunxin@Rom.Apps.Gallery in 20190905 for limit access open provider-->
+    <tagblock name="gallery_open_package_lists_config" version="2022022316">
+        <allow_package_name packageName="com.tencent.mm">
+            <!-- signature sha1 summary -->
+            <signature_summary name="CC:80:D7:6A:A9:FE:94:EC:20:5E:F0:C3:36:BF:C4:24:59:6D:A2:90" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.teamtalk.im">
+            <signature_summary name="0D:B7:47:CB:7A:58:65:BE:EF:9A:8F:6E:07:65:E6:CC:03:99:8A:A9" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.coloros.encryption">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oplus.encryption">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.heytap.speechassist">
+            <signature_summary name="CA:91:53:B4:0B:AE:03:13:08:1C:2F:F2:EC:AE:E7:1F:45:AE:00:FA" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oplus.ai.assistant">
+            <signature_summary name="CA:91:53:B4:0B:AE:03:13:08:1C:2F:F2:EC:AE:E7:1F:45:AE:00:FA" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.heytap.health">
+            <signature_summary name="B5:8D:9A:4C:E2:94:AB:E1:AB:8E:57:7D:20:23:31:22:B1:A4:91:99" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="QueryHealthInfo" />
+        </allow_package_name>
+        <allow_package_name packageName="com.heytap.health.international">
+            <signature_summary name="B5:8D:9A:4C:E2:94:AB:E1:AB:8E:57:7D:20:23:31:22:B1:A4:91:99" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oneplus.health.international">
+            <signature_summary name="B5:8D:9A:4C:E2:94:AB:E1:AB:8E:57:7D:20:23:31:22:B1:A4:91:99" />
+            <signature_summary name="F2:E7:D0:F1:15:B0:21:AA:74:AD:6A:84:9C:3D:CF:EE:23:87:AA:F7" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+        <!-- add for story[104423] start -->
+        <allow_package_name packageName="com.coloros.phonemanager">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="TimelineCount" />
+            <tag name="RecycleFiles" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oplus.phonemanager">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="TimelineCount" />
+            <tag name="RecycleFiles" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oppo.camera">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="LockedPictures" />
+            <tag name="FastCaptures" />
+        </allow_package_name>
+        <allow_package_name packageName="com.nineton.shouzhang">
+            <signature_summary name="29:8F:EA:D9:D2:32:A8:BA:8F:26:C1:02:C7:17:2B:12:77:93:33:24"/>
+            <tag name="QueryStickerCategories" />
+            <tag name="QueryStickers" />
+        </allow_package_name>
+        <allow_package_name packageName="com.newskyer.draw">
+            <signature_summary name="39:AC:C6:B0:81:4C:E1:18:53:CC:C9:B7:D8:57:B7:5A:49:BA:50:68" />
+            <tag name="QueryStickerCategories" />
+            <tag name="QueryStickers" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oplus.camera">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <signature_summary name="F2:C2:2D:4C:31:23:73:EB:29:0E:C4:42:C5:3E:99:BA:3A:F5:A8:49" />
+            <tag name="LockedPictures" />
+            <tag name="FastCaptures" />
+        </allow_package_name>
+        <allow_package_name packageName="com.oneplus.camera">
+            <signature_summary name="B7:91:45:D7:9F:8F:14:C2:6C:68:EC:BB:27:8D:56:AE:43:65:B1:61" />
+            <tag name="LockedPictures" />
+            <tag name="FastCaptures" />
+        </allow_package_name>
+        <!-- add for story[104423] end -->
+
+        <!-- add for story[192510] start -->
+        <allow_package_name packageName="com.coloros.ocs.opencapabilityservice">
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="OcsWritePermit" />
+        </allow_package_name>
+        <!-- 一加使用 -->
+        <allow_package_name packageName="com.oplus.ocs">
+            <signature_summary name="F2:C2:2D:4C:31:23:73:EB:29:0E:C4:42:C5:3E:99:BA:3A:F5:A8:49" />
+            <tag name="OcsWritePermit" />
+        </allow_package_name>
+        <!-- add for story[192510] end -->
+
+        <!-- add for story[567030] start -->
+        <allow_package_name packageName="com.coloros.videoeditor">
+            <signature_summary name="57:A1:BC:09:A1:82:9E:6E:1C:63:A7:93:64:3A:C0:67:99:21:36:63" />
+            <signature_summary name="16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.oplus.videoeditor">
+            <signature_summary name="F2:C2:2D:4C:31:23:73:EB:29:0E:C4:42:C5:3E:99:BA:3A:F5:A8:49" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.oplus.dmp">
+            <signature_summary name="F2:C2:2D:4C:31:23:73:EB:29:0E:C4:42:C5:3E:99:BA:3A:F5:A8:49" />
+            <tag name="SearchInfo" />
+            <tag name="SearchInfoVersion" />
+        </allow_package_name>
+        <!-- add for story[567030] end -->
+
+        <allow_package_name packageName="com.heytap.quicksearchbox">
+            <signature_summary name="53:A9:EF:55:C7:FB:96:90:67:A2:59:CD:24:17:47:AD:05:3C:93:34" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="SearchInfo" />
+            <tag name="SearchInfoVersion" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.oppo.quicksearchbox">
+            <signature_summary name="3A:DF:D2:F3:B7:20:09:EA:3E:E1:A8:E2:1F:8C:01:8F:85:DF:C1:1C" />
+            <signature_summary name="12:B3:7F:98:97:2A:BD:7C:6C:CE:EE:09:41:8E:93:39:72:7E:F6:9B" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="SearchInfo" />
+            <tag name="SearchInfoVersion" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 壁纸 -->
+        <allow_package_name packageName="com.oplus.wallpapers">
+            <signature_summary name="F2:C2:2D:4C:31:23:73:EB:29:0E:C4:42:C5:3E:99:BA:3A:F5:A8:49" />
+
+            <!-- 获取标签id、美学评分 -->
+            <tag name="getLabelIdsAndSeniorScore" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.smile.gifmaker">
+            <signature_summary name="FA:61:DF:24:6A:72:19:EC:14:CE:1E:03:76:95:F4:88:9E:3E:A5:52" />
+            <tag name="GetThumbnail" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.ss.android.ugc.aweme">
+            <signature_summary name="00:A5:84:E3:75:B5:57:3C:89:E1:F0:6F:5C:F6:0D:0D:65:DD:B6:32" />
+            <tag name="GetThumbnail" />
+        </allow_package_name>
+        <allow_package_name packageName="com.android.galleryopendemo">
+            <signature_summary name="02:ED:FB:3A:AE:43:6C:F7:A5:98:B1:DF:D0:ED:65:A3:DB:93:BC:B7" />
+            <tag name="GetThumbnail" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualOlive" />
+            <tag name="TimelineCount" />
+            <tag name="RecycleFiles" />
+            <tag name="LockedPictures" />
+            <tag name="FastCaptures" />
+            <tag name="SearchInfo" />
+            <tag name="SearchInfoVersion" />
+            <tag name="SupportQuery" />
+            <tag name="filterOlivePictures" />
+            <tag name="getLabelIdsAndSeniorScore" />
+        </allow_package_name>
+        <allow_package_name packageName="com.mt.mtxx.mtxx">
+            <signature_summary name="AE:49:F6:B9:BD:CA:F6:E8:CF:A5:6A:AB:7E:FE:13:AD:BC:B3:E4:5A" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+        </allow_package_name>
+        <allow_package_name packageName="com.android.providers.media.module">
+            <signature_summary name="E5:0F:1D:5D:01:6F:C8:36:A4:CD:39:C3:8B:F7:D5:B8:F8:0A:2E:FF" />
+            <!-- OS17上媒体库修改了签名，这里需要重新配置上媒体库的新签名 -->
+            <signature_summary name="2B:B8:F4:B3:5F:1D:FB:57:4C:37:4D:4A:46:82:FC:BF:E9:08:99:4A" />
+            <tag name="getProtectedDirs" />
+            <tag name="getTrustedPackageNames" />
+            <tag name="insertRecycleBin" />
+        </allow_package_name>
+        <allow_package_name packageName="net.oneplus.forums">
+            <signature_summary name="CF:EB:88:8C:07:85:DE:D8:85:12:1C:30:1B:BC:FA:A5:05:A0:FE:4C" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.oneplus.bbs">
+            <signature_summary name="40:D3:F8:2C:9A:7A:8E:6A:E5:3D:37:E4:04:04:F2:61:B4:A4:0D:61" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- oppo社区-->
+        <allow_package_name packageName="com.oppo.community.global">
+            <signature_summary name="F2:C2:2D:4C:31:23:73:EB:29:0E:C4:42:C5:3E:99:BA:3A:F5:A8:49" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 小红书-->
+        <allow_package_name packageName="com.xingin.xhs">
+            <signature_summary name="4A:E9:49:B4:43:ED:2E:33:B7:1F:02:4A:F9:EF:24:FF:14:F2:E4:D0" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 得物 -->
+        <allow_package_name packageName="com.shizhuang.duapp">
+            <signature_summary name="92:24:06:46:6F:76:54:48:40:C4:D2:A1:36:44:52:90:43:0E:84:42" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 大众点评 -->
+        <allow_package_name packageName="com.dianping.v1">
+            <signature_summary name="E6:89:64:67:20:BC:A2:E3:E3:E8:B3:B5:88:EF:3F:7F:44:A6:BB:F7" />
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 互传，oshare -->
+        <allow_package_name packageName="com.coloros.oshare">
+            <signature_summary name = "16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC"/>
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="SearchInfo" />
+            <tag name="SearchInfoVersion" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 使用ocs接口访问相册开放能力的应用，由于已经鉴权过，使用这个虚拟的PackageBean配置 -->
+        <allow_package_name packageName="com.fake.ocs">
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 相册接口的自测demo：com.oplus.galleryopendemo -->
+        <allow_package_name packageName="com.oplus.galleryopendemo">
+            <signature_summary name = "16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC"/>
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+            <tag name="QueryStickerCategories" />
+            <tag name="QueryStickers" />
+        </allow_package_name>
+
+        <!-- 剪映 -->
+        <allow_package_name packageName="com.lemon.lv">
+            <signature_summary name = "52:CD:57:3E:F0:AA:FF:4C:18:8A:72:6D:37:40:1A:73:DF:7E:B0:6D"/>
+            <tag name="IgnoreChildLabel" />
+            <tag name="IgnoreSearchOrder" />
+            <tag name="IgnoreSearchRecycle" />
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="VirtualOlive" />
+            <tag name="filterOlivePictures" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <!-- 互传，oshare。一加外销 -->
+        <allow_package_name packageName="com.oneplus.oshare">
+            <signature_summary name = "16:EC:BD:5B:FA:0C:96:01:D5:D4:69:DC:2A:E4:99:39:C5:40:6C:FC"/>
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="VirtualAllPicture" />
+            <tag name="VirtualFavorites" />
+            <tag name="VirtualVideo" />
+            <tag name="VirtualGif" />
+            <tag name="VirtualPortraitBlur" />
+            <tag name="VirtualCshot" />
+            <tag name="VirtualPanorama" />
+            <tag name="VirtualFastVideo" />
+            <tag name="VirtualSlowMotion" />
+            <tag name="SearchInfo" />
+            <tag name="SearchInfoVersion" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+
+        <allow_package_name packageName="com.oplus.keyboard">
+            <signature_summary name="57:15:2B:DF:BA:78:F4:35:FA:88:45:85:FD:F2:85:96:84:BA:03:16"/>
+            <tag name="RecommendYear" />
+            <tag name="RecommendFestival" />
+            <tag name="RecommendMonth" />
+            <tag name="RecommendPerson" />
+            <tag name="RecommendLocation" />
+            <tag name="RecommendLabel" />
+            <tag name="RecommendMemories" />
+            <tag name="SupportQuery" />
+        </allow_package_name>
+    </tagblock>
+    <!-- Add end -->
+
+</filter-conf>

@@ -1,0 +1,94 @@
+{
+  "type": "constraint",
+  "layout_width": "match_parent",
+  "layout_height": "match_parent",
+  "id": "mainLayout",
+  "package": "com.oneplus.gallery",
+  "child": [
+    {
+      "type": "image",
+      "id": "previousImage",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "adjustViewBounds": true,
+      "scaleType": "centerCrop",
+      "forceDarkAllowed": false
+    },
+    {
+      "type": "image",
+      "id": "currentImage",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "adjustViewBounds": true,
+      "scaleType": "centerCrop",
+      "forceDarkAllowed": false
+    },
+    {
+      "type": "image",
+      "id": "maskingImage",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "adjustViewBounds": true,
+      "forceDarkAllowed": false,
+      "scaleType": "centerCrop",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "src": "@drawable/widget_masking_layer_2x2",
+      "visibility": "gone"
+    },
+    {
+      "type": "constraint",
+      "id": "innerLayout",
+      "layout_width": "match_parent",
+      "layout_height": "match_parent",
+      "padding": "@dimen/widget_card_padding",
+      "layout_constraintBottom_toBottomOf": "parent",
+      "layout_constraintStart_toStartOf": "parent",
+      "child": [
+        {
+          "type": "text",
+          "id": "timeTitle",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "typeface": "monospace",
+          "textStyle": "bold",
+          "fontFamily": "sans-serif-semibold",
+          "textColor": "@color/coui_color_on_primary_light",
+          "layout_constraintStart_toStartOf": "innerLayout",
+          "layout_constraintBottom_toTopOf": "locationText",
+          "layout_marginStart": "@dimen/widget_time_margin",
+          "layout_marginEnd": "@dimen/widget_time_margin",
+          "maxLines": "1",
+          "textSize": "@dimen/widget_recommended_title_size_2x2",
+          "ellipsize": "end",
+          "visibility": "gone"
+        },
+        {
+          "type": "image",
+          "id": "locationImage",
+          "layout_width": "16dp",
+          "layout_height": "16dp",
+          "layout_constraintTop_toTopOf": "locationText",
+          "layout_constraintBottom_toBottomOf": "locationText",
+          "layout_constraintStart_toStartOf": "innerLayout",
+          "src": "@drawable/widget_location",
+          "visibility": "gone"
+        },
+        {
+          "type": "text",
+          "id": "locationText",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "layout_constraintBottom_toBottomOf": "innerLayout",
+          "layout_constraintStart_toEndOf": "locationImage",
+          "paddingEnd": "@dimen/widget_card_padding",
+          "fontFamily": "sans-serif-medium",
+          "textColor": "@color/coui_color_primary_neutral_dark",
+          "maxLines": "2",
+          "textSize": "@dimen/widget_location_text_size",
+          "ellipsize": "end",
+          "visibility": "gone"
+        }
+      ]
+    }
+  ]
+}

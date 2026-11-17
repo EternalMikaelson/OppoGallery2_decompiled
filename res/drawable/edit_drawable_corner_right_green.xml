@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topRightRadius="@dimen/edit_time_edit_timeline_span_line_thumbnail_rect_corners" android:bottomRightRadius="@dimen/edit_time_edit_timeline_span_line_thumbnail_rect_corners" />
+            <solid android:color="@color/edit_waveform_trans_color" />
+        </shape>
+    </item>
+</layer-list>

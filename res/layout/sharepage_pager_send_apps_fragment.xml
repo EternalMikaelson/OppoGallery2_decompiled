@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/main_resolver_dialog_send_by_apps_fragment_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/apps_viewpager" android:layout_width="match_parent" android:layout_height="@dimen/main_resolver_share_recycle_view_height" android:layout_marginTop="@dimen/main_resolver_gallery_menu_pager_margin_top" />
+    <com.coui.appcompat.indicator.COUIPageIndicator android:id="@id/resolver_dot_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_resolver_gallery_menu_dot_margin_top" android:layout_marginBottom="@dimen/main_resolver_dialog_dots_margin_bottom" android:layout_below="@id/apps_viewpager" android:layout_centerHorizontal="true" app:dotSize="@dimen/main_resolver_dialog_dot_size" app:dotSpacing="@dimen/main_resolver_dialog_dot_spacing" app:dotStrokeWidth="@dimen/main_resolver_dialog_dot_stroke_width" />
+</RelativeLayout>

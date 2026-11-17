@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="zero">%1$1s albums, kurā iekļauti %2$2s vienumi; pieskarieties, lai to pievienotu sarakstam \"Bieži izmantotie\".</item>
+        <item quantity="one">%1$1s albums, kurā iekļauts %2$2s vienums; pieskarieties, lai to pievienotu sarakstam \"Bieži izmantotie\".</item>
+        <item quantity="other">%1$1s albums, kurā iekļauti %2$2s vienumi; pieskarieties, lai to pievienotu sarakstam \"Bieži izmantotie\".</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="zero">%s atbilstības</item>
+        <item quantity="one">%s atbilstība</item>
+        <item quantity="other">%s atbilstības</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="zero">Atlasiet multividi un pieskarieties zemāk esošajam peldošajam logam \"AI tūlītējais klips\", lai ātri ģenerētu video. Lai iegūtu labākus rezultātus, atlasiet vismaz %1$s vienumus.</item>
+        <item quantity="one">Atlasiet multividi un pieskarieties zemāk esošajam peldošajam logam \"AI tūlītējais klips\", lai ātri ģenerētu video. Lai iegūtu labākus rezultātus, atlasiet vismaz %1$s vienumu.</item>
+        <item quantity="other">Atlasiet multividi un pieskarieties zemāk esošajam peldošajam logam \"AI tūlītējais klips\", lai ātri ģenerētu video. Lai iegūtu labākus rezultātus, atlasiet vismaz %1$s vienumus.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="zero">Atlasiet multividi un pieskarieties \"Rediģēt – AI tūlītējs klips\" apakšā, lai ātri ģenerētu video. Lai iegūtu labākus rezultātus, atlasiet vismaz %1$s vienumus.</item>
+        <item quantity="one">Atlasiet multividi un pieskarieties \"Rediģēt – AI tūlītējs klips\" apakšā, lai ātri ģenerētu video. Lai iegūtu labākus rezultātus, atlasiet vismaz %1$s vienumu.</item>
+        <item quantity="other">Atlasiet multividi un pieskarieties \"Rediģēt – AI tūlītējs klips\" apakšā, lai ātri ģenerētu video. Lai iegūtu labākus rezultātus, atlasiet vismaz %1$s vienumus.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="zero">Netiek atbalstīti kustības fotoattēli, kuru ilgums pārsniedz %1$d sekundes</item>
+        <item quantity="one">Netiek atbalstīti kustības fotoattēli, kuru ilgums pārsniedz %1$d sekundi</item>
+        <item quantity="other">Netiek atbalstīti kustības fotoattēli, kuru ilgums pārsniedz %1$d sekundes</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="zero">Video nevar būt ilgāks par %d sekundēm</item>
+        <item quantity="one">Video nevar būt ilgāks par %d sekundi</item>
+        <item quantity="other">Video nevar būt ilgāks par %d sekundēm</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="zero">%d bloķētās lietotnes</item>
+        <item quantity="one">%d bloķētā lietotne</item>
+        <item quantity="other">%d bloķētās lietotnes</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="zero">%1$1s albums, ieskaitot %2$2s vienumus, ir pievienots sarakstam \"Bieži izmantotie\".</item>
+        <item quantity="one">%1$1s albums, ieskaitot %2$2s vienumu, ir pievienots sarakstam \"Bieži izmantotie\".</item>
+        <item quantity="other">%1$1s albums, ieskaitot %2$2s vienumus, ir pievienots sarakstam \"Bieži izmantotie\".</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="zero">Pievienot (%1$d)</item>
+        <item quantity="one">Pievienot (%1$d)</item>
+        <item quantity="other">Pievienot (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="zero">Pievienot (%1$d/%2$d)</item>
+        <item quantity="one">Pievienot (%1$d/%2$d)</item>
+        <item quantity="other">Pievienot (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="zero">%1$d vienumi koriģēti</item>
+        <item quantity="one">%1$d vienums koriģēts</item>
+        <item quantity="other">%1$d vienumi koriģēti</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="zero">Tiek ielādēti %d fotoattēli, un tos nevar pievienot.</item>
+        <item quantity="one">Neizdevās pievienot %d fotoattēlu, jo tas tiek ielādēts.</item>
+        <item quantity="other">Neizdevās pievienot %d fotoattēlus, jo tie tiek ielādēti.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="zero">%1$d dokumenti</item>
+        <item quantity="one">%1$d dokuments</item>
+        <item quantity="other">%1$d dokumenti</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="zero">%1$d bankas karte(-es)</item>
+        <item quantity="one">%1$d bankas karte</item>
+        <item quantity="other">%1$d bankas karte(-es)</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="zero">Vienumi no %d albumiem tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži vienumi nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="one">Vienumi no %d albuma tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži vienumi nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="other">Vienumi no %d albumiem tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži vienumi nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="zero">%d nepārtrauktas uzņemšanas fotoattēli tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Visi nepārtrauktas uzņemšanas fotoattēli ir dublēti mākonī un paliks tur.</item>
+        <item quantity="one">%d nepārtrauktas uzņemšanas fotoattēls tiks dzēsts no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Visi nepārtrauktas uzņemšanas fotoattēli ir dublēti mākonī un paliks tur.</item>
+        <item quantity="other">%d nepārtrauktas uzņemšanas fotoattēli tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Visi nepārtrauktas uzņemšanas fotoattēli ir dublēti mākonī un paliks tur.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="zero">%d nepārtrauktas uzņemšanas fotoattēli tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži fotoattēli nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="one">%d nepārtrauktas uzņemšanas fotoattēls tiks dzēsts no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži fotoattēli nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="other">%d nepārtrauktas uzņemšanas fotoattēli tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži fotoattēli nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="zero">%d vienumi tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži vienumi nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="one">%d vienums tiks dzēsts no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži vienumi nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="other">%d vienumi tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži vienumi nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="zero">%d fotoattēli tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži fotoattēli nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="one">%d fotoattēls tiks dzēsts no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži fotoattēli nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="other">%d fotoattēli tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži fotoattēli nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="zero">%d video tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži video nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="one">%d video tiks dzēsts no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži video nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+        <item quantity="other">%d video tiks dzēsti no šīs ierīces un paliks tajā kategorijā \"Nesen izdzēstie\" 30 dienas. Daži video nav dublēti. Pirms dzēšanas, iespējams, vēlēsieties tos dublēt.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="zero">%1$s sīktēli tiks aizstāti ar to sākotnējām versijām.</item>
+        <item quantity="one">%1$s sīktēls tiks aizstāts ar tā sākotnējo versiju.</item>
+        <item quantity="other">%1$s sīktēli tiks aizstāti ar to sākotnējām versijām.</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="zero">Atrastie fotoattēli: %s. Ieslēdziet šo funkciju, lai sakārtotu fotoattēlus. To vienmēr var ieslēgt vai izslēgt sadaļā “Iestatījumi”.</item>
+        <item quantity="one">Atrastie fotoattēli: %s. Ieslēdziet šo funkciju, lai sakārtotu fotoattēlus. To vienmēr var ieslēgt vai izslēgt sadaļā “Iestatījumi”.</item>
+        <item quantity="other">Atrastie fotoattēli: %s. Ieslēdziet šo funkciju, lai sakārtotu fotoattēlus. To vienmēr var ieslēgt vai izslēgt sadaļā “Iestatījumi”.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="zero">%1$d ID</item>
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="zero">Vai apvienot un noņemt %d personas?</item>
+        <item quantity="one">Vai apvienot un noņemt %d personu?</item>
+        <item quantity="other">Vai apvienot un noņemt %d personas?</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="zero">Vai noņemt %d fotoattēlus no šī albuma?</item>
+        <item quantity="one">Vai noņemt %d fotoattēlu no šī albuma?</item>
+        <item quantity="other">Vai noņemt %d fotoattēlus no šī albuma?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="zero">Vai noņemt %d vienumus no šī albuma?</item>
+        <item quantity="one">Vai noņemt %d vienumu no šī albuma?</item>
+        <item quantity="other">Vai noņemt %d vienumus no šī albuma?</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="zero">Vai noņemt %d video no šī albuma?</item>
+        <item quantity="one">Vai noņemt %d video no šī albuma?</item>
+        <item quantity="other">Vai noņemt %d video no šī albuma?</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="zero">Lietot sīktēlus</item>
+        <item quantity="one">Lietot sīktēlu</item>
+        <item quantity="other">Lietot sīktēlus</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="zero">Lietot oriģinālus</item>
+        <item quantity="one">Lietot oriģinālu</item>
+        <item quantity="other">Lietot oriģinālus</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="zero">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā varat lejupielādēt un izmantot oriģinālos fotoattēlus.</item>
+        <item quantity="one">1 fotoattēls ir sīktēls. Tā vietā varat lejupielādēt un izmantot oriģinālo fotoattēlu.</item>
+        <item quantity="other">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā varat lejupielādēt un izmantot oriģinālos fotoattēlus.</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="zero">Maksimāli %1$d attēlus vienlaikus var pārvērst PDF formātā</item>
+        <item quantity="one">Maksimāli %1$d attēlu vienlaikus var pārvērst PDF formātā</item>
+        <item quantity="other">Maksimāli %1$d attēlus vienlaikus var pārvērst PDF formātā</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="zero">Nepietiek vietas ierīces krātuvē. %1$d vienumu nav nokopēti.</item>
+        <item quantity="one">Nepietiek vietas ierīces krātuvē. %1$d vienums nav nokopēts.</item>
+        <item quantity="other">Nepietiek vietas ierīces krātuvē. %1$d vienumi nav nokopēti.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="zero">%d vienumi nokopēti</item>
+        <item quantity="one">%d vienums nokopēts</item>
+        <item quantity="other">%d vienumi nokopēti</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="zero">Kopēt var ne vairāk kā %d vienumus</item>
+        <item quantity="one">Kopēt var ne vairāk kā %d vienumu</item>
+        <item quantity="other">Kopēt var ne vairāk kā %d vienumus</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="zero">%d fotoattēli tiks neatgriezeniski izdzēsti no šīs ierīces.</item>
+        <item quantity="one">%d fotoattēls tiks neatgriezeniski izdzēsts no šīs ierīces.</item>
+        <item quantity="other">%d fotoattēli tiks neatgriezeniski izdzēsti no šīs ierīces.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="zero">%d vienumi tiks neatgriezeniski dzēsti no šīs ierīces.</item>
+        <item quantity="one">%d vienums tiks neatgriezeniski izdzēsts no šīs ierīces.</item>
+        <item quantity="other">%d vienumi tiks neatgriezeniski dzēsti no šīs ierīces.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="zero">%d video tiks neatgriezeniski izdzēsti no šīs ierīces.</item>
+        <item quantity="one">%d video tiks neatgriezeniski izdzēsts no šīs ierīces.</item>
+        <item quantity="other">%d video tiks neatgriezeniski izdzēsti no šīs ierīces.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="zero">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d sērijveida fotoattēls tiks izdzēsts no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="zero">Šie fotoattēli tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+        <item quantity="one">Šis fotoattēls tiks neatgriezeniski izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+        <item quantity="other">Šie fotoattēli tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="zero">Šie fotoattēli tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.</item>
+        <item quantity="one">Šis fotoattēls tiks neatgriezeniski izdzēsts. Šo darbību nevar atsaukt.</item>
+        <item quantity="other">Šie fotoattēli tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="zero">Šie vienumi tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+        <item quantity="one">Šis vienums tiks neatgriezeniski izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+        <item quantity="other">Šie vienumi tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="zero">Šie vienumi tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.</item>
+        <item quantity="one">Šis vienums tiks neatgriezeniski izdzēsts. Šo darbību nevar atsaukt.</item>
+        <item quantity="other">Šie vienumi tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="zero">%d fotoattēli tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d fotoattēls tiks neatgriezeniski izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d fotoattēli tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="zero">%d vienumi tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d vienums tiks neatgriezeniski izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d vienumi tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="zero">%d video tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d video tiks neatgriezeniski izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d video tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="zero">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d sērijveida fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="zero">Vai dzēst %d albumus?</item>
+        <item quantity="one">Vai dzēst %d albumu?</item>
+        <item quantity="other">Vai dzēst %d albumus?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="zero">Vai dzēst %d nepārtrauktās uzņemšanas fotoattēlus?</item>
+        <item quantity="one">Vai dzēst %d nepārtrauktās uzņemšanas fotoattēlu?</item>
+        <item quantity="other">Vai dzēst %d nepārtrauktās uzņemšanas fotoattēlus?</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="zero">%d atmiņas tiks izdzēstas no šīs ierīces. Šajās atmiņās esošie fotoattēli tiks saglabāti lietotnē \"Fotoattēli\".</item>
+        <item quantity="one">%d atmiņa tiks izdzēsta no šīs ierīces. Šajā atmiņā esošie fotoattēli tiks saglabāti lietotnē \"Fotoattēli\".</item>
+        <item quantity="other">%d atmiņas tiks izdzēstas no šīs ierīces. Šajās atmiņās esošie fotoattēli tiks saglabāti lietotnē \"Fotoattēli\".</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="zero">Vai dzēst %d atmiņas?</item>
+        <item quantity="one">Vai dzēst %d atmiņu?</item>
+        <item quantity="other">Vai dzēst %d atmiņas?</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="zero">Neatgriezeniski dzēst %d vienumus</item>
+        <item quantity="one">Neatgriezeniski dzēst %d vienumu</item>
+        <item quantity="other">Neatgriezeniski dzēst %d vienumu(-us)</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="zero">Dzēst %d vienumu</item>
+        <item quantity="one">Dzēst %d vienumu</item>
+        <item quantity="other">Dzēst %d vienumu(-us)</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="zero">Vai dzēst %d fotoattēlus?</item>
+        <item quantity="one">Vai dzēst %d fotoattēlu?</item>
+        <item quantity="other">Vai dzēst %d fotoattēlus?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="zero">Dzēst %d vienumus?</item>
+        <item quantity="one">Dzēst %d vienumu?</item>
+        <item quantity="other">Dzēst %d vienumus?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="zero">Vai dzēst %d videoklipus?</item>
+        <item quantity="one">Vai dzēst %d videoklipu?</item>
+        <item quantity="other">Vai dzēst %d videoklipus?</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="zero">Vai izdzēst %d uzlīmes?</item>
+        <item quantity="one">Vai izdzēst %d uzlīmi?</item>
+        <item quantity="other">Vai izdzēst %d uzlīmes?</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="zero">Dzēst šos fotoattēlus</item>
+        <item quantity="one">Dzēst šo fotoattēlu</item>
+        <item quantity="other">Dzēst šos fotoattēlus</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="zero">Šie video tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+        <item quantity="one">Šis video tiks neatgriezeniski izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+        <item quantity="other">Šie video tiks neatgriezeniski izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Šo darbību nevar atsaukt.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="zero">Šie video tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.</item>
+        <item quantity="one">Šis video tiks neatgriezeniski izdzēsts. Šo darbību nevar atsaukt.</item>
+        <item quantity="other">Šie video tiks neatgriezeniski izdzēsti. Šo darbību nevar atsaukt.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="zero">Tiek lejupielādēti %d vienumi…</item>
+        <item quantity="one">Tiek lejupielādēts %d vienums…</item>
+        <item quantity="other">Tiek lejupielādēti %d vienumi…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="zero">Tiek lejupielādēti %d fotoattēli…</item>
+        <item quantity="one">Tiek lejupielādēts %d fotoattēls…</item>
+        <item quantity="other">Tiek lejupielādēti %d fotoattēli…</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="zero">Tiek lejupielādēti %d videoklipi…</item>
+        <item quantity="one">Tiek lejupielādēts %d video…</item>
+        <item quantity="other">Tiek lejupielādēti %d videoklipi…</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="zero">Vai iestatīt %d failus kā privātus?</item>
+        <item quantity="one">Vai iestatīt %d failu kā privātu?</item>
+        <item quantity="other">Vai iestatīt %d failus kā privātus?</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="zero">Vai iestatīt šos fotoattēlus kā privātus?</item>
+        <item quantity="one">Vai iestatīt šo fotoattēlu kā privātu?</item>
+        <item quantity="other">Vai iestatīt šos fotoattēlus kā privātus?</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="zero">%d failus neizdevās šifrēt</item>
+        <item quantity="one">%dfailu neizdevās šifrēt</item>
+        <item quantity="other">%d failus neizdevās šifrēt</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="zero">Vai bloķēt %d albumus?</item>
+        <item quantity="one">Vai bloķēt %d albumu?</item>
+        <item quantity="other">Vai bloķēt %d albumus?</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="zero">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d sērijveida fotoattēls tiks izdzēsts no šīs ierīces. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="zero">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d sērijveida fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="zero">%d albumi tiks izdzēsti no šīs ierīces. Dublētie albumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; albumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d albums tiks izdzēsts no šīs ierīces. Dublētie albumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; albumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d albumi tiks izdzēsti no šīs ierīces. Dublētie albumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; albumi, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="zero">%d fotoattēli tiks izdzēsti no šīs ierīces. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d fotoattēls tiks izdzēsts no šīs ierīces. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d fotoattēli tiks izdzēsti no šīs ierīces. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="zero">%d vienumi tiks izdzēsti no šīs ierīces. Dublētie vienumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; vienumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d vienums tiks izdzēsts no šīs ierīces. Dublētie vienumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; vienumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d vienumi tiks izdzēsti no šīs ierīces. Dublētie vienumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; vienumi, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="zero">%d video tiks izdzēsti no šīs ierīces. Dublētie videoklipi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; videoklipi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d video tiks izdzēsts no šīs ierīces. Dublētie videoklipi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; videoklipi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d video tiks izdzēsti no šīs ierīces. Dublētie videoklipi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; videoklipi, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="zero">%d albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie albumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; albumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d albums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie albumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; albumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie albumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; albumi, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="zero">%d fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie fotoattēli mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; fotoattēli, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="zero">%d vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie vienumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; vienumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d vienums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie vienumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; vienumi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie vienumi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; vienumi, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="zero">%d video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie videoklipi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; videoklipi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="one">%d video tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie videoklipi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; videoklipi, kas nav dublēti, paliek 30 dienas.</item>
+        <item quantity="other">%d video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Dublētie videoklipi mapē \"Nesen izdzēstie\" tiek saglabāti 60 dienas; videoklipi, kas nav dublēti, paliek 30 dienas.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="zero">Vai eksp. %d atl. fotoatt.?</item>
+        <item quantity="one">Eksportēt %d atlasīto foto</item>
+        <item quantity="other">Eksportēt %d atlasītos foto</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="zero">Vai eksportēt %d fotoattēlus?</item>
+        <item quantity="one">Vai eksportēt %d fotoattēlu?</item>
+        <item quantity="other">Vai eksportēt %d fotoattēlus?</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="zero">Neizdevās pievienot %1$d vienumus izlasei. Mēģiniet vēlreiz.</item>
+        <item quantity="one">Neizdevās pievienot %1$d vienumu izlasei. Mēģiniet vēlreiz.</item>
+        <item quantity="other">Neizdevās pievienot %1$d vienumus izlasei. Mēģiniet vēlreiz.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="zero">Faila lielums: %1$s. Paredzētais lejupielādes laiks: %2$s minūtes.</item>
+        <item quantity="one">Faila lielums: %1$s. Paredzētais lejupielādes laiks: %2$s minūte.</item>
+        <item quantity="other">Faila lielums: %1$s. Paredzētais lejupielādes laiks: %2$s minūtes.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="zero">Lietot sīktēlus</item>
+        <item quantity="one">Lietot sīktēlu</item>
+        <item quantity="other">Lietot sīktēlus</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="zero">Lietot oriģinālus</item>
+        <item quantity="one">Lietot oriģinālu</item>
+        <item quantity="other">Lietot oriģinālus</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="zero">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā varat lejupielādēt un izmantot oriģinālos fotoattēlus.</item>
+        <item quantity="one">1 fotoattēls ir sīktēls. Tā vietā varat lejupielādēt un izmantot oriģinālo fotoattēlu.</item>
+        <item quantity="other">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā varat lejupielādēt un izmantot oriģinālos fotoattēlus.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="zero">Atrasti %s fotoattēli. Pārvietojiet tos uz albumu \"Karšu ietvars\", lai atvieglotu piekļuvi.</item>
+        <item quantity="one">Atrasts %s fotoattēls. Pārvietojiet to uz albumu \"Karšu ietvars\", lai atvieglotu piekļuvi.</item>
+        <item quantity="other">Atrasti %s fotoattēli. Pārvietojiet tos uz albumu \"Karšu ietvars\", lai atvieglotu piekļuvi.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="zero">%1$s fotoattēli ir pārvietoti uz albumu \"Karšu ietvars\"</item>
+        <item quantity="one">%1$s fotoattēls ir pārvietots uz albumu \"Karšu ietvars\"</item>
+        <item quantity="other">%1$s fotoattēli ir pārvietoti uz albumu \"Karšu ietvars\"</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="zero">%1$d biļešu/kvīšu</item>
+        <item quantity="one">%1$d biļete/kvīts</item>
+        <item quantity="other">%1$d biļete(-es)/kvīts(-is)</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="zero">Atlasītais(-ie) vienums(-i) albumā jau pastāv</item>
+        <item quantity="one">Atlasītais vienums albumā jau pastāv</item>
+        <item quantity="other">Atlasītais(-ie) vienums(-i) albumā jau pastāv</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="zero">%d vienumi</item>
+        <item quantity="one">%d vienums</item>
+        <item quantity="other">%d vienumi</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="zero">%1$d personu dati tiks sapludināti un noņemti no %2$s.</item>
+        <item quantity="one">%1$d personas dati tiks sapludināti un noņemti no %2$s.</item>
+        <item quantity="other">%1$d personu dati tiks sapludināti un noņemti no %2$s.</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="zero">%d fotoattēlu tiek ielādēti un tos nevar pārvietot</item>
+        <item quantity="one">%d fotoattēls tiek ielādēts un to nevar pārvietot</item>
+        <item quantity="other">%d fotoattēls(-i) tiek ielādēts(-i) un to/tos nevar pārvietot</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="zero">%d vienumi pārvietoti</item>
+        <item quantity="one">%d vienums pārvietots</item>
+        <item quantity="other">%d vienumi pārvietoti</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="zero">Lejupielādē oriģinālos fotoattēlus…</item>
+        <item quantity="one">Lejupielādē oriģinālo fotoattēlu…</item>
+        <item quantity="other">Lejupielādē oriģinālos fotoattēlus…</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="zero">Fotoattēli nokopēti. Videoklipus nevar kopēt šajā albumā.</item>
+        <item quantity="one">Fotoattēls nokopēts. Videoklipus nevar kopēt šajā albumā.</item>
+        <item quantity="other">Fotoattēli nokopēti. Videoklipus nevar kopēt šajā albumā.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="zero">Fotoattēli pārvietoti. Videoklipus nevar pārvietot uz šo albumu.</item>
+        <item quantity="one">Fotoattēls pārvietots. Videoklipus nevar pārvietot uz šo albumu.</item>
+        <item quantity="other">Fotoattēli pārvietoti. Videoklipus nevar pārvietot uz šo albumu.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="zero">%d albumi tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d albums tiks izdzēsts no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d albumi tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="zero">%d fotoattēli tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d fotoattēls tiks izdzēsts no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d fotoattēli tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="zero">%d vienumi tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d vienums tiks izdzēsts no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d vienumi tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="zero">%d video tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d video tiks izdzēsts no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d video tiks izdzēsti no šīs ierīces. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="zero">Šie fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="one">Šis fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="other">Šie fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="zero">Šie fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">Šis fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">Šie fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="zero">Šie albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="one">Šis albums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="other">Šie albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="zero">Šie albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">Šis albums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">Šie albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="zero">Šie vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="one">Šis vienums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="other">Šie vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="zero">Šie vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">Šis vienums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">Šie vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="zero">%d albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d albums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="zero">%d albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d albums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d albumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="zero">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d sērijveida fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d sērijveida fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="zero">%d fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="zero">%d fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d fotoattēls tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d fotoattēli tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="zero">%d vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d vienums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="zero">%d vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d vienums tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d vienumi tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="zero">%d video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="one">%d video tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+        <item quantity="other">%d video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstie vienumi tiek saglabāti mapē \"Nesen izdzēstie\" 30 dienas.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="zero">%d video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">%d video tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">%d video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="zero">Šie video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="one">Šis video tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+        <item quantity="other">Šie video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm. Izdzēstos vienumus 30 dienu laikā var atkopt no albuma “Nesen izdzēstie”.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="zero">Šie video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="one">Šis video tiks izdzēsts no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+        <item quantity="other">Šie video tiks izdzēsti no šīs ierīces, mākoņa un citām sinhronizētajām ierīcēm.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="zero">Vai atjaunot %d fotoattēlus?</item>
+        <item quantity="one">Vai atjaunot %d fotoattēlu?</item>
+        <item quantity="other">Vai atjaunot %d fotoattēlus?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="zero">Vai atjaunot %d vienumus?</item>
+        <item quantity="one">Vai atjaunot %d vienumu?</item>
+        <item quantity="other">Vai atjaunot %d vienumus?</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="zero">Vai atjaunot %d videoklipus?</item>
+        <item quantity="one">Vai atjaunot %d videoklipu?</item>
+        <item quantity="other">Vai atjaunot %d videoklipus?</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="zero">Atjaunot %d vienumu</item>
+        <item quantity="one">Atjaunot %d vienumu</item>
+        <item quantity="other">Atjaunot %d vienumu(-us)</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="zero">Neizdevās saglabāt %d videoklipus</item>
+        <item quantity="one">Neizdevās saglabāt %d videoklipu</item>
+        <item quantity="other">Neizdevās saglabāt %d videoklipus</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="zero">%d video saglabāti</item>
+        <item quantity="one">%d video saglabāts</item>
+        <item quantity="other">%d video saglabāti</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="zero">Lietot sīktēlus</item>
+        <item quantity="one">Lietot sīktēlu</item>
+        <item quantity="other">Lietot sīktēlus</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="zero">Lietot oriģinālus</item>
+        <item quantity="one">Lietot oriģinālu</item>
+        <item quantity="other">Lietot oriģinālus</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="zero">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā varat lejupielādēt un izmantot oriģinālos fotoattēlus.</item>
+        <item quantity="one">1 fotoattēls ir sīktēls. Tā vietā varat lejupielādēt un izmantot oriģinālo fotoattēlu.</item>
+        <item quantity="other">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā varat lejupielādēt un izmantot oriģinālos fotoattēlus.</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="zero">Priekšskatīt atlasītos vienumus (%1$d)</item>
+        <item quantity="one">Priekšskatīt atlasīto vienumu (%1$d)</item>
+        <item quantity="other">Priekšskatīt atlasītos vienumus (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="zero">Atlasīt 1–%1$d fotoattēlus</item>
+        <item quantity="one">Atlasīt 1–%1$d fotoattēlu</item>
+        <item quantity="other">Atlasīt 1–%1$d fotoattēlus</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="zero">Lietot sīktēlus</item>
+        <item quantity="one">Lietot sīktēlu</item>
+        <item quantity="other">Lietot sīktēlus</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="zero">Lietot oriģinālus</item>
+        <item quantity="one">Lietot oriģinālu</item>
+        <item quantity="other">Lietot oriģinālus</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="zero">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā jūs varat lejupielādēt un kopīgot oriģinālos fotoattēlus.</item>
+        <item quantity="one">1 fotoattēls ir sīktēls. Tā vietā varat lejupielādēt un izmantot oriģinālo fotoattēlu.</item>
+        <item quantity="other">Daži no atlasītajiem fotoattēliem ir sīktēli. Tā vietā jūs varat lejupielādēt un kopīgot oriģinālos fotoattēlus.</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="zero">%1$d fotoattēli tiks dzēsti no koplietojamā albuma \"%2$s\".</item>
+        <item quantity="one">%1$d fotoattēls tiks dzēsts no koplietojamā albuma \"%2$s\".</item>
+        <item quantity="other">%1$d fotoattēli tiks dzēsti no koplietojamā albuma \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="zero">%1$d vienumi tiks dzēsti no koplietojamā albuma \"%2$s\".</item>
+        <item quantity="one">%1$d vienums tiks dzēsts no koplietojamā albuma \"%2$s\".</item>
+        <item quantity="other">%1$d vienumi tiks dzēsti no koplietojamā albuma \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="zero">%1$d video tiks dzēsti no koplietojamā albuma \"%2$s\".</item>
+        <item quantity="one">%1$d video tiks dzēsts no koplietojamā albuma \"%2$s\".</item>
+        <item quantity="other">%1$d video tiks dzēsti no koplietojamā albuma \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="zero">Dzēst %1$d vienumus</item>
+        <item quantity="one">Dzēst %1$d vienumu</item>
+        <item quantity="other">Dzēst %1$d vienumus</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="zero">Neizdevās lejupielādēt %1$d vienumus, jo ierīcē ir maz vietas.</item>
+        <item quantity="one">Neizdevās lejupielādēt %1$d vienumu, jo ierīcē ir maz vietas.</item>
+        <item quantity="other">Neizdevās lejupielādēt %1$d vienumus, jo ierīcē ir maz vietas.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="zero">Atlikuši %1$d vienumi (%2$s). Vai atsākt lejupielādi, izmantojot mobilos datus?</item>
+        <item quantity="one">Atlicis %1$d vienums (%2$s). Vai atsākt lejupielādi, izmantojot mobilos datus?</item>
+        <item quantity="other">Atlikuši %1$d vienumi (%2$s). Vai atsākt lejupielādi, izmantojot mobilos datus?</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="zero">Tīkla kļūda. %1$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Tīkla kļūda. %1$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Tīkla kļūda. %1$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="zero">Vienlaicīgi kā video var saglabāt līdz %d kustības fotoattēliem</item>
+        <item quantity="one">Vienlaicīgi kā video var saglabāt līdz %d kustības fotoattēlam</item>
+        <item quantity="other">Vienlaicīgi kā video var saglabāt līdz %d kustības fotoattēliem</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="zero">%1$d fotoattēli</item>
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="zero">%1$d videoklipi</item>
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">%1$d vienums atlasīts</item>
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="zero">%1$d vienumu</item>
+        <item quantity="one">%1$d vienums</item>
+        <item quantity="other">%1$d vienumi</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="zero">Neizdevās noņemt %1$d vienumus no izlases. Mēģiniet vēlreiz.</item>
+        <item quantity="one">Neizdevās noņemt %1$d vienumu no izlases. Mēģiniet vēlreiz.</item>
+        <item quantity="other">Neizdevās noņemt %1$d vienumus no izlases. Mēģiniet vēlreiz.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="zero">Uzzīmējiet vienkāršu objektu un apvelciet to, lai izveidotu mākslas darbu. Lietojuma ierobežojums: %1$d reizes dienā.</item>
+        <item quantity="one">Uzzīmējiet vienkāršu objektu un apvelciet to, lai izveidotu mākslas darbu. Lietojuma ierobežojums: %1$d reize dienā.</item>
+        <item quantity="other">Uzzīmējiet vienkāršu objektu un apvelciet to, lai izveidotu mākslas darbu. Lietojuma ierobežojums: %1$d reizes dienā.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="zero">Neizdevās saglabāt %d kustības uzlīmes</item>
+        <item quantity="one">Neizdevās saglabāt %d kustības uzlīmi</item>
+        <item quantity="other">Neizdevās saglabāt %d kustības uzlīmes</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="zero">Varat izvēlēties vēl 1–%1$d fotoattēlus</item>
+        <item quantity="one">Varat izvēlēties vēl 1–%1$d fotoattēlu</item>
+        <item quantity="other">Varat izvēlēties vēl 1–%1$d fotoattēlus</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="zero">Varat izvēlēties vēl 1–%1$d fotoattēlus (%2$s)</item>
+        <item quantity="one">Varat izvēlēties vēl 1–%1$d fotoattēlus (%2$s)</item>
+        <item quantity="other">Varat izvēlēties vēl 1–%1$d fotoattēlus (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="zero">ieskaitot %d kustības fotoattēlus</item>
+        <item quantity="one">ieskaitot %d kustības fotoattēlu</item>
+        <item quantity="other">ieskaitot %d kustības fotoattēlus</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="zero">Lejupielādēt oriģinālos fotoattēlus</item>
+        <item quantity="one">Lejupielādēt oriģinālo fotoattēlu</item>
+        <item quantity="other">Lejupielādēt oriģinālos fotoattēlus</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="zero">%1$d fotoattēli jūsu ierīcē ir mazāka izmēra versijas. Vai lejupielādēt oriģinālos pilnas izšķirtspējas fotoattēlus (%2$s)?</item>
+        <item quantity="one">%1$d fotoattēli jūsu ierīcē ir mazāka izmēra versijas. Vai lejupielādēt oriģinālo pilnas izšķirtspējas fotoattēlu (%2$s)?</item>
+        <item quantity="other">%1$d fotoattēli jūsu ierīcē ir mazāka izmēra versijas. Vai lejupielādēt oriģinālos pilnas izšķirtspējas fotoattēlus (%2$s)?</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="zero">Lejupielādē %1$d oriģinālo fotoattēlu</item>
+        <item quantity="one">Lejupielādē %1$d oriģinālo fotoattēlu</item>
+        <item quantity="other">Lejupielādē %1$d oriģinālos fotoattēlus</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="zero">%1$d fotoattēli</item>
+        <item quantity="one">%1$d fotoattēls</item>
+        <item quantity="other">%1$d fotoattēli</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="zero">%1$d oriģinālie fotoattēli netika lejupielādēti. Nepietiek vietas ierīces krātuvē.</item>
+        <item quantity="one">%1$d oriģinālais fotoattēls netika lejupielādēts. Nepietiek vietas ierīces krātuvē.</item>
+        <item quantity="other">%1$d oriģinālie fotoattēli netika lejupielādēti. Nepietiek vietas ierīces krātuvē.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="zero">%1$d vienumu nav lejupielādēti. Nepietiek vietas ierīces krātuvē.</item>
+        <item quantity="one">%1$d vienums nav lejupielādēts. Nepietiek vietas ierīces krātuvē.</item>
+        <item quantity="other">%1$d vienumi nav lejupielādēti. Nepietiek vietas ierīces krātuvē.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="zero">%1$d vienumu augšupielāde pauzēta. Nav interneta savienojuma.</item>
+        <item quantity="one">%1$d vienuma augšupielāde pauzēta. Nav interneta savienojuma.</item>
+        <item quantity="other">%1$d vienumu augšupielāde pauzēta. Nav interneta savienojuma.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="zero">%1$d vienumu augšupielāde pauzēta. Nav izveidots savienojums ar Wi-Fi tīklu.</item>
+        <item quantity="one">%1$d vienuma augšupielāde pauzēta. Nav izveidots savienojums ar Wi-Fi tīklu.</item>
+        <item quantity="other">%1$d vienumu augšupielāde pauzēta. Nav izveidots savienojums ar Wi-Fi tīklu.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="zero">%1$d vienumu augšupielāde ir apturēta, lai saglabātu akumulatora enerģiju.</item>
+        <item quantity="one">%1$d vienuma augšupielāde ir apturēta, lai saglabātu akumulatora enerģiju.</item>
+        <item quantity="other">%1$d vienumu augšupielāde ir apturēta, lai saglabātu akumulatora enerģiju.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="zero">%1$d vienumu augšupielāde pauzēta. Tālrunis ir pārāk karsts.</item>
+        <item quantity="one">%1$d vienuma augšupielāde pauzēta. Tālrunis ir pārāk karsts.</item>
+        <item quantity="other">%1$d vienumu augšupielāde pauzēta. Tālrunis ir pārāk karsts.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="zero">%1$d vienumu augšupielāde pauzēta. Notiek mākoņa uzturēšana.</item>
+        <item quantity="one">%1$d vienuma augšupielāde pauzēta. Notiek mākoņa uzturēšana.</item>
+        <item quantity="other">%1$d vienumu augšupielāde pauzēta. Notiek mākoņa uzturēšana.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="zero">%1$d vienumu augšupielāde pauzēta. Planšetdators ir pārāk karsts.</item>
+        <item quantity="one">%1$d vienuma augšupielāde pauzēta. Planšetdators ir pārāk karsts.</item>
+        <item quantity="other">%1$d vienumu augšupielāde pauzēta. Planšetdators ir pārāk karsts.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="zero">Sinhronizē %1$d vienumus no mākoņa</item>
+        <item quantity="one">Sinhronizē %1$d vienumu no mākoņa</item>
+        <item quantity="other">Sinhronizē %1$d vienumus no mākoņa</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="zero">%1$d fotoattēli</item>
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="zero">%1$d videoklipi</item>
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="zero">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi netika lejupielādēti. Lūdzu, uzlādējiet savu tālruni.</item>
+        <item quantity="one">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienums netika lejupielādēts. Lūdzu, uzlādējiet savu tālruni.</item>
+        <item quantity="other">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi netika lejupielādēti. Lūdzu, uzlādējiet savu tālruni.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="zero">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav lejupielādēti. Pievienojiet barošanas avotam, lai atsāktu.</item>
+        <item quantity="one">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienums nav lejupielādēts. Pievienojiet barošanas avotam, lai atsāktu.</item>
+        <item quantity="other">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav lejupielādēti. Pievienojiet barošanas avotam, lai atsāktu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="zero">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="zero">Enerģijas taupīšanas režīms ir ieslēgts. %1$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Enerģijas taupīšanas režīms ir ieslēgts. %1$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Enerģijas taupīšanas režīms ir ieslēgts. %1$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi netika lejupielādēti. %2$s.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums netika lejupielādēts. %2$s.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi netika lejupielādēti. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi netika lejupielādēti. %2$s vai %3$s.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums netika lejupielādēts. %2$s vai %3$s.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi netika lejupielādēti. %2$s vai %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi netika lejupielādēti.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums netika lejupielādēts.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi netika lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="zero">Nepietiek vietas ierīces krātuvē. %1$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Nepietiek vietas ierīces krātuvē. %1$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Nepietiek vietas ierīces krātuvē. %1$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="zero">Tīkla kļūda. %1$d vienumi nav lejupielādēti.</item>
+        <item quantity="one">Tīkla kļūda. %1$d vienums nav lejupielādēts.</item>
+        <item quantity="other">Tīkla kļūda. %1$d vienumi nav lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="zero">Nepietiek vietas ierīces krātuvē. %1$d oriģinālie fotoattēli netika lejupielādēti.</item>
+        <item quantity="one">Nepietiek vietas ierīces krātuvē. %1$d oriģinālais fotoattēls netika lejupielādēts.</item>
+        <item quantity="other">Nepietiek vietas ierīces krātuvē. %1$d oriģinālie fotoattēli netika lejupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="zero">%1$d fotoattēli nav sinhronizēti. Mākoņa krātuve ir pilna.</item>
+        <item quantity="one">%1$d fotoattēls nav sinhronizēts. Mākoņa krātuve ir pilna.</item>
+        <item quantity="other">%1$d fotoattēli nav sinhronizēti. Mākoņa krātuve ir pilna.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="zero">%1$d fotoattēli nav sinhronizēti. Sinhronizācija mākonī tiek apturēta, kad akumulatora uzlādes līmenis ir zemāks par %2$s.</item>
+        <item quantity="one">%1$d fotoattēls netika sinhronizēts. Sinhronizācija mākonī tiek apturēta, kad akumulatora uzlādes līmenis ir zemāks par %2$s.</item>
+        <item quantity="other">%1$d fotoattēli netika sinhronizēti. Sinhronizācija mākonī tiek apturēta, kad akumulatora uzlādes līmenis ir zemāks par %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="zero">%1$d fotoattēli nav sinhronizēti. Enerģijas taupīšanas režīmā sinhronizācija mākonī ir apturēta.</item>
+        <item quantity="one">%1$d fotoattēls nav sinhronizēts. Enerģijas taupīšanas režīmā sinhronizācija mākonī ir apturēta.</item>
+        <item quantity="other">%1$d fotoattēli nav sinhronizēti. Enerģijas taupīšanas režīmā sinhronizācija mākonī ir apturēta.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="zero">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi netika augšupielādēti. Lūdzu, uzlādējiet savu tālruni.</item>
+        <item quantity="one">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienums netika augšupielādēts. Lūdzu, uzlādējiet savu tālruni.</item>
+        <item quantity="other">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav augšupielādēti. Lūdzu, uzlādējiet savu tālruni.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="zero">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav augšupielādēti. Pievienojiet barošanas avotam, lai atsāktu.</item>
+        <item quantity="one">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienums nav augšupielādēts. Pievienojiet barošanas avotam, lai atsāktu.</item>
+        <item quantity="other">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav augšupielādēti. Pievienojiet barošanas avotam, lai atsāktu.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="zero">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav augšupielādēti.</item>
+        <item quantity="one">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienums nav augšupielādēts.</item>
+        <item quantity="other">Akumulatora uzlādes līmenis ir zemāks par %1$s. %2$d vienumi nav augšupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="zero">Enerģijas taupīšanas režīms ir ieslēgts. %1$d vienumi nav augšupielādēti.</item>
+        <item quantity="one">Enerģijas taupīšanas režīms ir ieslēgts. %1$d vienums nav augšupielādēts.</item>
+        <item quantity="other">Enerģijas taupīšanas režīms ir ieslēgts. %1$d vienumi nav augšupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="zero">Mākoņkrātuve ir pilna. %1$d vienumi nav augšupielādēti.</item>
+        <item quantity="one">Mākoņkrātuve ir pilna. %1$d vienums nav augšupielādēts.</item>
+        <item quantity="other">Mākoņkrātuve ir pilna. %1$d vienumi nav augšupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="zero">%1$d videoklipi nav sinhronizēti. Mākoņa krātuve ir pilna.</item>
+        <item quantity="one">%1$d videoklips nav sinhronizēts. Mākoņa atmiņa ir pilna.</item>
+        <item quantity="other">%1$d videoklipi nav sinhronizēti. Mākoņa atmiņa ir pilna.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="zero">%1$d videoklipi nav sinhronizēti. Sinhronizācija mākonī tiek apturēta, kad akumulatora uzlādes līmenis ir zemāks par %2$s.</item>
+        <item quantity="one">%1$d videoklips netika sinhronizēts. Sinhronizācija mākonī tiek apturēta, kad akumulatora uzlādes līmenis ir zemāks par %2$s.</item>
+        <item quantity="other">%1$d videoklipi netika sinhronizēti. Sinhronizācija mākonī tiek apturēta, kad akumulatora uzlādes līmenis ir zemāks par %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="zero">%1$d videoklipi nav sinhronizēti. Enerģijas taupīšanas režīmā sinhronizācija mākonī ir apturēta.</item>
+        <item quantity="one">%1$d videoklips nav sinhronizēts. Enerģijas taupīšanas režīmā sinhronizācija mākonī ir apturēta.</item>
+        <item quantity="other">%1$d videoklipi netika sinhronizēti. Enerģijas taupīšanas režīmā sinhronizācija mākonī ir apturēta.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="zero">%1$d fotoattēls netika sinhronizēts.</item>
+        <item quantity="one">%1$d fotoattēli nav sinhronizēti.</item>
+        <item quantity="other">%1$d fotoattēls nav sinhronizēts.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi netika augšupielādēti. %2$s.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums netika augšupielādēts.%2$s.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi netika augšupielādēti. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi netika augšupielādēti. %2$s vai %3$s.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums netika augšupielādēts. %2$s vai %3$s.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi netika augšupielādēti. %2$s vai %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi netika augšupielādēti.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums netika augšupielādēts.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi netika augšupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="zero">Nav tīkla savienojuma. %1$d vienumi nav augšupielādēti.</item>
+        <item quantity="one">Nav tīkla savienojuma. %1$d vienums nav augšupielādēts.</item>
+        <item quantity="other">Nav tīkla savienojuma. %1$d vienumi nav augšupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="zero">%1$d videoklipi nav sinhronizēti.</item>
+        <item quantity="one">%1$d videoklips nav sinhronizēts.</item>
+        <item quantity="other">%1$d videoklipi nav sinhronizēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="zero">Tīkla savienojums pārtraukts. %1$d vienumi nav augšupielādēti.</item>
+        <item quantity="one">Tīkla savienojums pārtraukts. %1$d vienums nav augšupielādēts.</item>
+        <item quantity="other">Tīkla kļūda. %1$d vienumi nav augšupielādēti.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="zero">Pakalpojuma kļūda. %1$d vienumi netika augšupielādēti.</item>
+        <item quantity="one">Pakalpojuma kļūda. %1$d vienums netika augšupielādēts.</item>
+        <item quantity="other">Pakalpojuma kļūda. %1$d vienums(-i) netika augšupielādēts(-i).</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="zero">Pakalpojuma kļūda. %1$d vienumi netika augšupielādēti.</item>
+        <item quantity="one">Pakalpojuma kļūda. %1$d vienums netika augšupielādēts.</item>
+        <item quantity="other">Pakalpojuma kļūda. %1$d vienums(-i) netika augšupielādēts(-i).</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="zero">Notiek %1$d vienumu sinhronizēšana</item>
+        <item quantity="one">Notiek %1$d vienuma sinhronizēšana</item>
+        <item quantity="other">Notiek %1$d vienumu sinhronizēšana</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="zero">Sinhronizē %1$d vienumus mākonī…</item>
+        <item quantity="one">Sinhronizē %1$d vienumu mākonī…</item>
+        <item quantity="other">Sinhronizē %1$d vienumus mākonī…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="zero">%1$d video</item>
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="zero">Dažas platformas var neatbalstīt kustības fotoattēlus, kas ir ilgāki par %d sekundēm</item>
+        <item quantity="one">Dažas platformas var neatbalstīt kustības fotoattēlus, kas ir ilgāki par %d sekundi</item>
+        <item quantity="other">Dažas platformas var neatbalstīt kustības fotoattēlus, kas ir ilgāki par %d sekundēm</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="zero">Vienlaikus varat izmantot uznirstošo logu līdz pat %1$d kustības fotoattēliem</item>
+        <item quantity="one">Vienlaikus varat izmantot uznirstošo logu vienam %1$d vienam fotoattēlam</item>
+        <item quantity="other">Vienlaikus varat izmantot uznirstošo logu līdz pat %1$d kustības fotoattēliem</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="zero">Netiek atbalstīti kustības fotoattēli, kuru ilgums pārsniedz %1$d sekundes</item>
+        <item quantity="one">Netiek atbalstīti kustības fotoattēli, kuru ilgums pārsniedz %1$d sekundi</item>
+        <item quantity="other">Netiek atbalstīti kustības fotoattēli, kuru ilgums pārsniedz %1$d sekundes</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="zero">Vienlaikus var vilkt ne vairāk kā %d vienumu</item>
+        <item quantity="one">Vienlaikus var vilkt ne vairāk kā %d vienumu</item>
+        <item quantity="other">Vienlaikus var vilkt ne vairāk kā %d vienumus</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="zero">Neizdevās pievienot %d vienumus</item>
+        <item quantity="one">Neizdevās pievienot %d vienumu</item>
+        <item quantity="other">Neizdevās pievienot %d vienumus</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="zero">%d tiek ielādēti fotoattēli, un tos nevar iestatīt kā privātus.</item>
+        <item quantity="one">Neizdevās iestatīt %d fotoattēlu kā privātu, jo tas tiek ielādēts.</item>
+        <item quantity="other">Neizdevās iestatīt %d fotoattēlus kā privātus, jo tie tiek ielādēti.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+        <item quantity="other">%d stundas</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="zero">%d vienumi</item>
+        <item quantity="one">%d vienums</item>
+        <item quantity="other">%d vienums</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="other">%d minūtes</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="other">%d sekundes</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="other">%d sekundes</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="zero">%d vienumus nevar importēt video rediģēšanai</item>
+        <item quantity="one">%d vienumu nevar importēt video rediģēšanai</item>
+        <item quantity="other">%d vienumus nevar importēt video rediģēšanai</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">%1$d. no %2$d lapas(-ām)</item>
+        <item quantity="one">%1$d. no %2$d lapas(-ām)</item>
+        <item quantity="other">%1$d. no %2$d lapas(-ām)</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="zero">Atlasiet ne vairāk kā %1$d fotoattēlus viena GIF veidošanai</item>
+        <item quantity="one">Atlasiet ne vairāk kā %1$d fotoattēlu viena GIF veidošanai</item>
+        <item quantity="other">Atlasiet ne vairāk kā %1$d fotoattēlus viena GIF veidošanai</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="zero">Tiek atbalstīti tikai kustības fotoattēli līdz %1$d sekundēm</item>
+        <item quantity="one">Tiek atbalstīti tikai kustības fotoattēli līdz %1$d sekundei</item>
+        <item quantity="other">Tiek atbalstīti tikai kustības fotoattēli līdz %1$d sekundēm</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="zero">Atlasiet vismaz %1$d fotoattēlus, lai izveidotu GIF</item>
+        <item quantity="one">Atlasiet vismaz %1$d fotoattēlu, lai izveidotu GIF</item>
+        <item quantity="other">Atlasiet vismaz %1$d fotoattēlus, lai izveidotu GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="zero">Atlasiet ne vairāk kā %1$d fotoattēlus viena GIF veidošanai</item>
+        <item quantity="one">Atlasiet ne vairāk kā %1$d fotoattēlu viena GIF veidošanai</item>
+        <item quantity="other">Atlasiet ne vairāk kā %1$d fotoattēlus viena GIF veidošanai</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="zero">Tikai %1$d fotoattēlu atbilst formāta prasībām</item>
+        <item quantity="one">Tikai %1$d fotoattēls atbilst formāta prasībām</item>
+        <item quantity="other">Tikai %1$d fotoattēli atbilst formāta prasībām</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="zero">GIF netiks iekļauti %1$d fotoattēli</item>
+        <item quantity="one">GIF netiks iekļauts %1$d fotoattēls</item>
+        <item quantity="other">GIF netiks iekļauti %1$d fotoattēli</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="zero">%1$d fotoattēli netiek atbalstīti</item>
+        <item quantity="one">%1$d fotoattēls netiek atbalstīts</item>
+        <item quantity="other">%1$d fotoattēli netiek atbalstīti</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="zero">Notiek %1$s vienumu ielāde no lietotnes “Google fotoattēli”…</item>
+        <item quantity="one">Notiek %1$s vienuma ielāde no lietotnes “Google fotoattēli”…</item>
+        <item quantity="other">Notiek %1$s vienumu ielāde no lietotnes “Google fotoattēli”…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="zero">Lietotnē “Google fotoattēli” nepietiek vietas. %1$d vienumi netika dublēti.</item>
+        <item quantity="one">Lietotnē “Google fotoattēli” nepietiek vietas. %1$d vienums netika dublēts.</item>
+        <item quantity="other">Lietotnē “Google fotoattēli” nepietiek vietas. %1$d vienumi netika dublēti.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="zero">Notiek %1$s vienumu dublēšana lietotnē “Google fotoattēli”…</item>
+        <item quantity="one">Notiek %1$s vienuma dublēšana lietotnē “Google fotoattēli”…</item>
+        <item quantity="other">Notiek %1$s vienumu dublēšana lietotnē “Google fotoattēli”…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="zero">%1$d vienumi tiek sinhronizēti ar lietotni HeyTap mākonis. Tā izslēgšana atceļ automātisko sinhronizāciju. Lai garantētu datu drošību, ieteicams uzgaidīt, līdz sinhronizācija ir pabeigta.</item>
+        <item quantity="one">%1$d vienums tiek sinhronizēts ar lietotni HeyTap mākonis. Tā izslēgšana atceļ automātisko sinhronizāciju. Lai garantētu datu drošību, ieteicams uzgaidīt, līdz sinhronizācija ir pabeigta.</item>
+        <item quantity="other">%1$d vienumi tiek sinhronizēti ar lietotni HeyTap mākonis. Tā izslēgšana atceļ automātisko sinhronizāciju. Lai garantētu datu drošību, ieteicams uzgaidīt, līdz sinhronizācija ir pabeigta.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="zero">\"Bieži izmantotajiem\" var pievienot līdz pat %d albumiem</item>
+        <item quantity="one">\"Bieži lietotajiem\" var pievienot tikai %d albumu</item>
+        <item quantity="other">\"Bieži izmantotajiem\" var pievienot līdz pat %d albumiem</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="zero">Atrastas %1$d ierīces</item>
+        <item quantity="one">Atrasta %1$d ierīce</item>
+        <item quantity="other">Atrastas %1$d ierīces</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="zero">%1$d dienu</item>
+        <item quantity="one">%1$d diena</item>
+        <item quantity="other">%1$d diena(-as)</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="zero">%1$d fotoattēli</item>
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="zero">%1$d videoklipi</item>
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="zero">Dzēst %1$d vienumus no NAS</item>
+        <item quantity="one">Dzēst %1$d vienumu no NAS</item>
+        <item quantity="other">Dzēst %1$d vienumus no NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="zero">Lejupielāde pabeigta. Neizdevās lejupielādēt %1$d vienumus.</item>
+        <item quantity="one">Lejupielāde pabeigta. Neizdevās lejupielādēt %1$d vienumu.</item>
+        <item quantity="other">Lejupielāde pabeigta. Neizdevās lejupielādēt %1$d vienumus.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="zero">%1$d vienumi lejupielādēti.</item>
+        <item quantity="one">%1$d vienums lejupielādēts.</item>
+        <item quantity="other">%1$d vienumi lejupielādēti.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="zero">Lejupielādē %1$d no %2$d…</item>
+        <item quantity="one">Lejupielādē %1$d no %2$d…</item>
+        <item quantity="other">Lejupielādē %1$d no %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="zero">Kā vēlaties rediģēt atlasītos apgabalus?</item>
+        <item quantity="one">Kā vēlaties rediģēt atlasīto apgabalu?</item>
+        <item quantity="other">Kā vēlaties rediģēt atlasītos apgabalus?</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="zero">Aprakstiet, ko vēlaties mainīt atlasītajos apgabalos</item>
+        <item quantity="one">Aprakstiet, ko vēlaties mainīt atlasītajā apgabalā</item>
+        <item quantity="other">Aprakstiet, ko vēlaties mainīt atlasītajos apgabalos</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="zero">Ierakstīšana apstājas pēc %1$d s</item>
+        <item quantity="one">Ierakstīšana apstājas pēc %1$d s</item>
+        <item quantity="other">Ierakstīšana apstājas pēc %1$d s</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="zero">Varat atlasīt līdz pat %1$d apgabaliem</item>
+        <item quantity="one">Varat atlasīt līdz pat %1$d apgabalam</item>
+        <item quantity="other">Varat atlasīt līdz pat %1$d apgabaliem</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="zero">Tiek atbalstīti tikai kustības fotoattēli līdz %1$d sekundēm</item>
+        <item quantity="one">Tiek atbalstīti tikai kustības fotoattēli līdz %1$d sekundei</item>
+        <item quantity="other">Tiek atbalstīti tikai kustības fotoattēli līdz %1$d sekundēm</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="zero">Paredzamais gaidīšanas laiks ir %1$d min. lielā faila lieluma dēļ</item>
+        <item quantity="one">Paredzamais gaidīšanas laiks ir %1$d min. lielā faila lieluma dēļ</item>
+        <item quantity="other">Paredzamais gaidīšanas laiks ir %1$d min. lielā faila lieluma dēļ</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="zero">Eksportēt %d atlasīto(s) fotoattēlu(s)</item>
+        <item quantity="one">Eksportēt %d atlasīto fotoattēlu</item>
+        <item quantity="other">Eksportēt %d atlasīto(s) fotoattēlu(s)</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="zero">Jābūt vairāk par %1$d mm</item>
+        <item quantity="one">Jābūt lielākam par %1$d mm</item>
+        <item quantity="other">Jābūt lielākam par %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="zero">Jābūt vairāk par %1$d px</item>
+        <item quantity="one">Jābūt lielākam par %1$d px</item>
+        <item quantity="other">Jābūt lielākam par %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="zero">Jābūt mazāk par %1$d mm</item>
+        <item quantity="one">Jābūt mazākam par %1$d mm</item>
+        <item quantity="other">Jābūt mazākam par %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="zero">Jābūt mazāk par %1$d px</item>
+        <item quantity="one">Jābūt mazākam par %1$d px</item>
+        <item quantity="other">Jābūt mazākam par %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="zero">Jābūt vairāk par %1$d KB</item>
+        <item quantity="one">Jābūt lielākam par %1$d KB</item>
+        <item quantity="other">Jābūt lielākam par %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="zero">Jābūt mazāk par %1$d KB</item>
+        <item quantity="one">Jābūt mazākam par %1$d KB</item>
+        <item quantity="other">Jābūt mazākam par %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="zero">Jābūt vairāk par %1$d mm</item>
+        <item quantity="one">Jābūt lielākam par %1$d mm</item>
+        <item quantity="other">Jābūt lielākam par %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="zero">Jābūt vairāk par %1$d px</item>
+        <item quantity="one">Jābūt lielākam par %1$d px</item>
+        <item quantity="other">Jābūt lielākam par %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="zero">Jābūt mazāk par %1$d mm</item>
+        <item quantity="one">Jābūt mazākam par %1$d mm</item>
+        <item quantity="other">Jābūt mazākam par %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="zero">Jābūt mazāk par %1$d px</item>
+        <item quantity="one">Jābūt mazākam par %1$d px</item>
+        <item quantity="other">Jābūt mazākam par %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="zero">Paturēt tikai %d atlasītos fotoattēlus</item>
+        <item quantity="one">Paturēt tikai %d atlasīto fotoattēlu</item>
+        <item quantity="other">Paturēt tikai %d atlasītos fotoattēlus</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="zero">Dzēst %d vienumus</item>
+        <item quantity="one">Dzēst %d vienumu</item>
+        <item quantity="other">Dzēst %d vienumus</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="zero">Dzēst %d vienumus</item>
+        <item quantity="one">Dzēst %d vienumu</item>
+        <item quantity="other">Dzēst %d vienumus</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="zero">Neizdevās pievienot %1$d uzlīmes</item>
+        <item quantity="one">Neizdevās pievienot %1$d uzlīmi</item>
+        <item quantity="other">Neizdevās pievienot %1$d uzlīmes</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="zero">Neizdevās pievienot %d uzlīmes</item>
+        <item quantity="one">Neizdevās pievienot %d uzlīmi</item>
+        <item quantity="other">Neizdevās pievienot %d uzlīmes</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="zero">%1$s uzlīmes pievienotas</item>
+        <item quantity="one">%1$s uzlīme pievienota</item>
+        <item quantity="other">%1$s uzlīmes pievienotas</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="zero">%1$s uzlīmes pievienotas</item>
+        <item quantity="one">%1$s uzlīme pievienota</item>
+        <item quantity="other">%1$s uzlīmes pievienotas</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="zero">%1$d uzlīmes pievienotas</item>
+        <item quantity="one">%1$d uzlīme pievienota</item>
+        <item quantity="other">%1$d uzlīmes pievienotas</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="zero">Lietotnē AI remiksa kolāža varat pievienot līdz pat %1$d kustīgām uzlīmēm. Papildu uzlīmes kļūs statiskas.</item>
+        <item quantity="one">Lietotnē AI remiksa kolāža varat pievienot līdz pat %1$d kustīgai uzlīmei. Papildu uzlīmes kļūs statiskas.</item>
+        <item quantity="other">Lietotnē AI remiksa kolāža varat pievienot līdz pat %1$d kustīgām uzlīmēm. Papildu uzlīmes kļūs statiskas.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="zero">Varat pievienot līdz %1$d kustības fotoattēliem</item>
+        <item quantity="one">Varat pievienot līdz %1$d kustības fotoattēlam</item>
+        <item quantity="other">Varat pievienot līdz %1$d kustības fotoattēliem</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="zero">Var pievienot līdz %1$d fotoattēliem</item>
+        <item quantity="one">Var pievienot līdz %1$d fotoattēlam</item>
+        <item quantity="other">Var pievienot līdz %1$d fotoattēliem</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="zero">Lai no fotoattēliem noņemtu objektus, lejupielādējiet noņēmēja spraudni. Faila lielums: %1$s. Aprēķinātais lejupielādes laiks: %2$d minūtes.</item>
+        <item quantity="one">Lai no fotoattēliem noņemtu objektus, lejupielādējiet noņēmēja spraudni. Faila lielums: %1$s. Aprēķinātais lejupielādes laiks: %2$d minūtes.</item>
+        <item quantity="other">Lai no fotoattēliem noņemtu objektus, lejupielādējiet noņēmēja spraudni. Faila lielums: %1$s. Aprēķinātais lejupielādes laiks: %2$d minūtes.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="zero">Faila lielums: %1$d. Paredzētais lejupielādes laiks: %2$d.</item>
+        <item quantity="one">Faila lielums: %1$d. Paredzētais lejupielādes laiks: %2$d.</item>
+        <item quantity="other">Faila lielums: %1$d. Paredzētais lejupielādes laiks: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="zero">%1$d fotoattēli nav atbalstīti</item>
+        <item quantity="one">%1$d fotoattēls nav atbalstīts</item>
+        <item quantity="other">%1$d fotoattēli nav atbalstīti</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="zero">%1$d/%2$d atlasīts</item>
+        <item quantity="one">%1$d/%2$d atlasīts</item>
+        <item quantity="other">%1$d/%2$d atlasīti</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">%1$d vienums atlasīts</item>
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="zero">Atlasīti %1$d albumi</item>
+        <item quantity="one">Ir atlasīts %1$d albums</item>
+        <item quantity="other">Ir atlasīti %1$d albumi</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">%1$d vienums atlasīts</item>
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="zero">Atlasīti %1$d videoklipi</item>
+        <item quantity="one">Ir atlasīts %1$d videoklips</item>
+        <item quantity="other">Ir atlasīti %1$d videoklipi</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="zero">Var pievienot ne vairāk kā %1$d uzlīmes</item>
+        <item quantity="one">Var pievienot ne vairāk kā %1$d uzlīmi</item>
+        <item quantity="other">Var pievienot ne vairāk kā %1$d uzlīmes</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="zero">Var atlasīt līdz %1$d vienumiem</item>
+        <item quantity="one">Var atlasīt tikai %1$d vienumu</item>
+        <item quantity="other">Var atlasīt līdz %1$d vienumiem</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="zero">%d tiek ielādēti fotoattēli, un tos nevar dzēst.</item>
+        <item quantity="one">Neizdevās dzēst %d fotoattēlu, jo tas tiek ielādēts.</item>
+        <item quantity="other">Neizdevās dzēst %d fotoattēlus, jo tie tiek ielādēti.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="zero">Neizdevās dzēst %1$d vienumus. Lūdzu, mēģiniet vēlreiz.</item>
+        <item quantity="one">Neizdevās dzēst %1$d vienumu. Lūdzu, mēģiniet vēlreiz.</item>
+        <item quantity="other">Neizdevās dzēst %1$d vienumus. Lūdzu, mēģiniet vēlreiz.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d jauni paziņojumi</item>
+        <item quantity="one">Jauns %d paziņojums</item>
+        <item quantity="other">Jauni %d paziņojumi</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="zero">Vai noņemt %d objektus?</item>
+        <item quantity="one">Vai noņemt %d objektu?</item>
+        <item quantity="other">Vai noņemt %d objektus?</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="zero">%1$d fotoattēli</item>
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="zero">Šajā lietotnē var kopīgot līdz %d vienumiem</item>
+        <item quantity="one">Šajā lietotnē var kopīgot tikai %d vienumu</item>
+        <item quantity="other">Šajā lietotnē var kopīgot līdz %d vienumiem</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="zero">Kopīgot %d vienumus</item>
+        <item quantity="one">Kopīgot %d vienumu</item>
+        <item quantity="other">Kopīgot %d vienumus</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="zero">Kopīgot %d fotoattēlus</item>
+        <item quantity="one">Kopīgot %d fotoattēlu</item>
+        <item quantity="other">Kopīgot %d fotoattēlus</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="zero">Kopīgot %d video</item>
+        <item quantity="one">Kopīgot %d video</item>
+        <item quantity="other">Kopīgot %d video</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="zero">Vai dzēst %d mirkli?</item>
+        <item quantity="one">Vai dzēst %d mirkli?</item>
+        <item quantity="other">Vai dzēst %d mirkli?</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="zero">%d stāsti, kas atlasīti tieši jums.</item>
+        <item quantity="one">%d stāsts, kas veidots tieši jums.</item>
+        <item quantity="other">%d stāsti, kas atlasīti tieši jums.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="zero">%d atlasīts</item>
+        <item quantity="one">%d atlasīts</item>
+        <item quantity="other">%d atlasīts</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="zero">Varat importēt līdz %s failiem</item>
+        <item quantity="one">Jūs varat importēt tikai %s failu</item>
+        <item quantity="other">Varat importēt līdz %s failiem</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="zero">Pievienot %1d vienumus</item>
+        <item quantity="one">Pievienot %1d vienumu</item>
+        <item quantity="other">Pievienot %1d vienumus</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="zero">Var importēt līdz pat %s LUT failiem</item>
+        <item quantity="one">Var importēt līdz pat %s LUT failam</item>
+        <item quantity="other">Var importēt līdz pat %s LUT failiem</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="zero">Var pievienot ne vairāk kā %d fotoattēlus</item>
+        <item quantity="one">Var pievienot ne vairāk kā %d fotoattēlu</item>
+        <item quantity="other">Var pievienot ne vairāk kā %d fotoattēlus</item>
+    </plurals>
+</resources>

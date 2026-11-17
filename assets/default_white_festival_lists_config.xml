@@ -1,0 +1,2695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--branch: rom/master/Q-->
+<filter-conf>
+    <!--
+    版本号：2025122310
+    更新内容：新增印度、印尼、泰国、西班牙的节日数据，支持融合搜索功能
+    更新日期：2025-12-23
+    -->
+    <version>2025122310</version>
+<!--
+日期的属性filterType用于过滤日期的用途，对应的定义使用二进制，数据库查询时使用位运算
+当前的定义有：
+通用：common
+精选日：pickedDay
+单个日期支持多个定义，用“|”分隔，不区分先后，即filterType="common|pickedDay"，表示该日期可用于通用和精选日
+-->
+    <country name="中国" nickName="China" region="CN,OC">
+        <festival name="春节" level="5" nickName="新年" type="2">
+            <date filterType="common">12-24</date>
+            <date filterType="common">12-25</date>
+            <date filterType="common">12-26</date>
+            <date filterType="common">12-27</date>
+            <date filterType="common">12-28</date>
+            <date filterType="common">12-29</date>
+            <date filterType="common">12-30</date>
+            <date filterType="common|pickedDay">01-01</date>
+            <date filterType="common|pickedDay">01-02</date>
+            <date filterType="common|pickedDay">01-03</date>
+            <date filterType="common|pickedDay">01-04</date>
+            <date filterType="common|pickedDay">01-05</date>
+            <date filterType="common|pickedDay">01-06</date>
+            <date filterType="common">01-07</date>
+            <date filterType="common">01-08</date>
+            <date filterType="common">01-09</date>
+            <date filterType="common">01-10</date>
+            <date filterType="common">01-11</date>
+            <date filterType="common">01-12</date>
+            <date filterType="common">01-13</date>
+            <date filterType="common">01-14</date>
+            <date filterType="common">01-15</date>
+        </festival>
+
+        <festival name="元旦" level="4" nickName="元旦节" type="1">
+            <date filterType="common|pickedDay">01-01</date>
+        </festival>
+
+        <festival name="中秋节" level="3" nickName="" type="2">
+            <date filterType="common|pickedDay">08-15</date>
+        </festival>
+
+        <festival name="国庆节" level="2" nickName="" type="1">
+            <date filterType="common">09-30</date>
+            <date filterType="common|pickedDay">10-01</date>
+            <date filterType="common|pickedDay">10-02</date>
+            <date filterType="common|pickedDay">10-03</date>
+            <date filterType="common|pickedDay">10-04</date>
+            <date filterType="common|pickedDay">10-05</date>
+            <date filterType="common|pickedDay">10-06</date>
+            <date filterType="common|pickedDay">10-07</date>
+        </festival>
+
+        <festival name="圣诞节" level="1" nickName="" type="1">
+            <date filterType="common|pickedDay">12-24</date>
+            <date filterType="common|pickedDay">12-25</date>
+            <date filterType="common|pickedDay">12-26</date>
+        </festival>
+
+        <!-- 阴历每年的最后一天可能是1229也可能是1230，故除夕使用阳历穷举方案 -->
+        <festival name="除夕" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">1971-01-26</date>
+            <date filterType="common|pickedDay">1972-02-14</date>
+            <date filterType="common|pickedDay">1973-02-02</date>
+            <date filterType="common|pickedDay">1974-01-22</date>
+            <date filterType="common|pickedDay">1975-02-10</date>
+            <date filterType="common|pickedDay">1976-01-30</date>
+            <date filterType="common|pickedDay">1977-02-17</date>
+            <date filterType="common|pickedDay">1978-02-06</date>
+            <date filterType="common|pickedDay">1979-01-27</date>
+            <date filterType="common|pickedDay">1980-02-15</date>
+            <date filterType="common|pickedDay">1981-02-04</date>
+            <date filterType="common|pickedDay">1982-01-24</date>
+            <date filterType="common|pickedDay">1983-02-12</date>
+            <date filterType="common|pickedDay">1984-02-01</date>
+            <date filterType="common|pickedDay">1985-02-19</date>
+            <date filterType="common|pickedDay">1986-02-08</date>
+            <date filterType="common|pickedDay">1987-01-28</date>
+            <date filterType="common|pickedDay">1988-02-16</date>
+            <date filterType="common|pickedDay">1989-02-05</date>
+            <date filterType="common|pickedDay">1990-01-26</date>
+            <date filterType="common|pickedDay">1991-02-14</date>
+            <date filterType="common|pickedDay">1992-02-03</date>
+            <date filterType="common|pickedDay">1993-01-22</date>
+            <date filterType="common|pickedDay">1994-02-09</date>
+            <date filterType="common|pickedDay">1995-01-30</date>
+            <date filterType="common|pickedDay">1996-02-18</date>
+            <date filterType="common|pickedDay">1997-02-06</date>
+            <date filterType="common|pickedDay">1998-01-27</date>
+            <date filterType="common|pickedDay">1999-02-15</date>
+            <date filterType="common|pickedDay">2000-02-04</date>
+            <date filterType="common|pickedDay">2001-01-23</date>
+            <date filterType="common|pickedDay">2002-02-11</date>
+            <date filterType="common|pickedDay">2003-01-31</date>
+            <date filterType="common|pickedDay">2004-01-21</date>
+            <date filterType="common|pickedDay">2005-02-08</date>
+            <date filterType="common|pickedDay">2006-01-28</date>
+            <date filterType="common|pickedDay">2007-02-17</date>
+            <date filterType="common|pickedDay">2008-02-06</date>
+            <date filterType="common|pickedDay">2009-01-25</date>
+            <date filterType="common|pickedDay">2010-02-13</date>
+            <date filterType="common|pickedDay">2011-02-02</date>
+            <date filterType="common|pickedDay">2012-01-22</date>
+            <date filterType="common|pickedDay">2013-02-09</date>
+            <date filterType="common|pickedDay">2014-01-30</date>
+            <date filterType="common|pickedDay">2015-02-18</date>
+            <date filterType="common|pickedDay">2016-02-07</date>
+            <date filterType="common|pickedDay">2017-01-27</date>
+            <date filterType="common|pickedDay">2018-02-15</date>
+            <date filterType="common|pickedDay">2019-02-04</date>
+            <date filterType="common|pickedDay">2020-01-24</date>
+            <date filterType="common|pickedDay">2021-02-11</date>
+            <date filterType="common|pickedDay">2022-01-31</date>
+            <date filterType="common|pickedDay">2023-01-21</date>
+            <date filterType="common|pickedDay">2024-02-09</date>
+            <date filterType="common|pickedDay">2025-01-28</date>
+            <date filterType="common|pickedDay">2026-02-16</date>
+            <date filterType="common|pickedDay">2027-02-05</date>
+            <date filterType="common|pickedDay">2028-01-25</date>
+            <date filterType="common|pickedDay">2029-02-12</date>
+            <date filterType="common|pickedDay">2030-02-02</date>
+        </festival>
+
+        <festival name="元宵节" level="0" nickName="" type="2">
+            <date filterType="common|pickedDay">01-15</date>
+        </festival>
+
+        <festival name="端午节" level="0" nickName="" type="2">
+            <date filterType="common">05-03</date>
+            <date filterType="common">05-04</date>
+            <date filterType="common|pickedDay">05-05</date>
+            <date filterType="common">05-06</date>
+            <date filterType="common">05-07</date>
+        </festival>
+
+        <festival name="七夕节" level="0" nickName="" type="2">
+            <date filterType="common">07-06</date>
+            <date filterType="common|pickedDay">07-07</date>
+            <date filterType="common">07-08</date>
+        </festival>
+
+        <festival name="重阳节" level="0" nickName="" type="2">
+            <date filterType="common|pickedDay">09-09</date>
+        </festival>
+
+        <festival name="情人节" level="0" nickName="" type="1">
+            <date filterType="common">02-13</date>
+            <date filterType="common|pickedDay">02-14</date>
+            <date filterType="common">02-15</date>
+        </festival>
+
+        <festival name="妇女节" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">03-08</date>
+        </festival>
+
+        <festival name="愚人节" level="0" nickName="" type="1">
+            <date filterType="common">04-01</date>
+        </festival>
+
+        <festival name="清明节" level="0" nickName="" type="1">
+            <date filterType="common">04-02</date>
+            <date filterType="common">04-03</date>
+            <date filterType="common">04-04</date>
+            <date filterType="common">04-05</date>
+            <date filterType="common">04-06</date>
+            <date filterType="common">04-07</date>
+            <date filterType="common">04-08</date>
+        </festival>
+
+        <festival name="劳动节" level="0" nickName="五一" type="1">
+            <date filterType="common">04-29</date>
+            <date filterType="common">04-30</date>
+            <date filterType="common|pickedDay">05-01</date>
+            <date filterType="common">05-02</date>
+            <date filterType="common">05-03</date>
+        </festival>
+
+        <festival name="儿童节" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">06-01</date>
+        </festival>
+
+        <festival name="教师节" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">09-10</date>
+        </festival>
+
+        <festival name="万圣节" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">10-31</date>
+            <date filterType="common|pickedDay">11-01</date>
+        </festival>
+
+        <festival name="母亲节" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">1970-05-10</date>
+            <date filterType="common|pickedDay">1971-05-09</date>
+            <date filterType="common|pickedDay">1972-05-14</date>
+            <date filterType="common|pickedDay">1973-05-13</date>
+            <date filterType="common|pickedDay">1974-05-12</date>
+            <date filterType="common|pickedDay">1975-05-11</date>
+            <date filterType="common|pickedDay">1976-05-09</date>
+            <date filterType="common|pickedDay">1977-05-08</date>
+            <date filterType="common|pickedDay">1978-05-14</date>
+            <date filterType="common|pickedDay">1979-05-13</date>
+            <date filterType="common|pickedDay">1980-05-11</date>
+            <date filterType="common|pickedDay">1981-05-10</date>
+            <date filterType="common|pickedDay">1982-05-09</date>
+            <date filterType="common|pickedDay">1983-05-08</date>
+            <date filterType="common|pickedDay">1984-05-13</date>
+            <date filterType="common|pickedDay">1985-05-12</date>
+            <date filterType="common|pickedDay">1986-05-11</date>
+            <date filterType="common|pickedDay">1987-05-10</date>
+            <date filterType="common|pickedDay">1988-05-08</date>
+            <date filterType="common|pickedDay">1989-05-14</date>
+            <date filterType="common|pickedDay">1990-05-13</date>
+            <date filterType="common|pickedDay">1991-05-12</date>
+            <date filterType="common|pickedDay">1992-05-10</date>
+            <date filterType="common|pickedDay">1993-05-09</date>
+            <date filterType="common|pickedDay">1994-05-08</date>
+            <date filterType="common|pickedDay">1995-05-14</date>
+            <date filterType="common|pickedDay">1996-05-12</date>
+            <date filterType="common|pickedDay">1997-05-11</date>
+            <date filterType="common|pickedDay">1998-05-10</date>
+            <date filterType="common|pickedDay">1999-05-09</date>
+            <date filterType="common|pickedDay">2000-05-14</date>
+            <date filterType="common|pickedDay">2001-05-13</date>
+            <date filterType="common|pickedDay">2002-05-12</date>
+            <date filterType="common|pickedDay">2003-05-11</date>
+            <date filterType="common|pickedDay">2004-05-09</date>
+            <date filterType="common|pickedDay">2005-05-08</date>
+            <date filterType="common|pickedDay">2006-05-14</date>
+            <date filterType="common|pickedDay">2007-05-13</date>
+            <date filterType="common|pickedDay">2008-05-11</date>
+            <date filterType="common|pickedDay">2009-05-10</date>
+            <date filterType="common|pickedDay">2010-05-09</date>
+            <date filterType="common|pickedDay">2011-05-08</date>
+            <date filterType="common|pickedDay">2012-05-13</date>
+            <date filterType="common|pickedDay">2013-05-12</date>
+            <date filterType="common|pickedDay">2014-05-11</date>
+            <date filterType="common|pickedDay">2015-05-10</date>
+            <date filterType="common|pickedDay">2016-05-08</date>
+            <date filterType="common|pickedDay">2017-05-14</date>
+            <date filterType="common|pickedDay">2018-05-13</date>
+            <date filterType="common|pickedDay">2019-05-12</date>
+            <date filterType="common|pickedDay">2020-05-10</date>
+            <date filterType="common|pickedDay">2021-05-09</date>
+            <date filterType="common|pickedDay">2022-05-08</date>
+            <date filterType="common|pickedDay">2023-05-14</date>
+            <date filterType="common|pickedDay">2024-05-12</date>
+            <date filterType="common|pickedDay">2025-05-11</date>
+            <date filterType="common|pickedDay">2026-05-10</date>
+            <date filterType="common|pickedDay">2027-05-09</date>
+            <date filterType="common|pickedDay">2028-05-14</date>
+            <date filterType="common|pickedDay">2029-05-13</date>
+            <date filterType="common|pickedDay">2030-05-12</date>
+            <date filterType="common|pickedDay">2031-05-11</date>
+            <date filterType="common|pickedDay">2032-05-09</date>
+            <date filterType="common|pickedDay">2033-05-08</date>
+            <date filterType="common|pickedDay">2034-05-14</date>
+            <date filterType="common|pickedDay">2035-05-13</date>
+            <date filterType="common|pickedDay">2036-05-11</date>
+        </festival>
+
+        <festival name="父亲节" level="0" nickName="" type="1">
+            <date filterType="common|pickedDay">1970-06-21</date>
+            <date filterType="common|pickedDay">1971-06-20</date>
+            <date filterType="common|pickedDay">1972-06-18</date>
+            <date filterType="common|pickedDay">1973-06-17</date>
+            <date filterType="common|pickedDay">1974-06-16</date>
+            <date filterType="common|pickedDay">1975-06-15</date>
+            <date filterType="common|pickedDay">1976-06-20</date>
+            <date filterType="common|pickedDay">1977-06-19</date>
+            <date filterType="common|pickedDay">1978-06-18</date>
+            <date filterType="common|pickedDay">1979-06-17</date>
+            <date filterType="common|pickedDay">1980-06-15</date>
+            <date filterType="common|pickedDay">1981-06-21</date>
+            <date filterType="common|pickedDay">1982-06-20</date>
+            <date filterType="common|pickedDay">1983-06-19</date>
+            <date filterType="common|pickedDay">1984-06-17</date>
+            <date filterType="common|pickedDay">1985-06-16</date>
+            <date filterType="common|pickedDay">1986-06-15</date>
+            <date filterType="common|pickedDay">1987-06-21</date>
+            <date filterType="common|pickedDay">1988-06-19</date>
+            <date filterType="common|pickedDay">1989-06-18</date>
+            <date filterType="common|pickedDay">1990-06-17</date>
+            <date filterType="common|pickedDay">1991-06-16</date>
+            <date filterType="common|pickedDay">1992-06-21</date>
+            <date filterType="common|pickedDay">1993-06-20</date>
+            <date filterType="common|pickedDay">1994-06-19</date>
+            <date filterType="common|pickedDay">1995-06-18</date>
+            <date filterType="common|pickedDay">1996-06-16</date>
+            <date filterType="common|pickedDay">1997-06-15</date>
+            <date filterType="common|pickedDay">1998-06-21</date>
+            <date filterType="common|pickedDay">1999-06-20</date>
+            <date filterType="common|pickedDay">2000-06-18</date>
+            <date filterType="common|pickedDay">2001-06-17</date>
+            <date filterType="common|pickedDay">2002-06-16</date>
+            <date filterType="common|pickedDay">2003-06-15</date>
+            <date filterType="common|pickedDay">2004-06-20</date>
+            <date filterType="common|pickedDay">2005-06-19</date>
+            <date filterType="common|pickedDay">2006-06-18</date>
+            <date filterType="common|pickedDay">2007-06-17</date>
+            <date filterType="common|pickedDay">2008-06-15</date>
+            <date filterType="common|pickedDay">2009-06-21</date>
+            <date filterType="common|pickedDay">2010-06-20</date>
+            <date filterType="common|pickedDay">2011-06-19</date>
+            <date filterType="common|pickedDay">2012-06-17</date>
+            <date filterType="common|pickedDay">2013-06-16</date>
+            <date filterType="common|pickedDay">2014-06-15</date>
+            <date filterType="common|pickedDay">2015-06-21</date>
+            <date filterType="common|pickedDay">2016-06-19</date>
+            <date filterType="common|pickedDay">2017-06-18</date>
+            <date filterType="common|pickedDay">2018-06-17</date>
+            <date filterType="common|pickedDay">2019-06-16</date>
+            <date filterType="common|pickedDay">2020-06-21</date>
+            <date filterType="common|pickedDay">2021-06-20</date>
+            <date filterType="common|pickedDay">2022-06-19</date>
+            <date filterType="common|pickedDay">2023-06-18</date>
+            <date filterType="common|pickedDay">2024-06-16</date>
+            <date filterType="common|pickedDay">2025-06-15</date>
+            <date filterType="common|pickedDay">2026-06-21</date>
+            <date filterType="common|pickedDay">2027-06-20</date>
+            <date filterType="common|pickedDay">2028-06-18</date>
+            <date filterType="common|pickedDay">2029-06-17</date>
+            <date filterType="common|pickedDay">2030-06-16</date>
+            <date filterType="common|pickedDay">2031-06-15</date>
+            <date filterType="common|pickedDay">2032-06-20</date>
+            <date filterType="common|pickedDay">2033-06-19</date>
+            <date filterType="common|pickedDay">2034-06-18</date>
+            <date filterType="common|pickedDay">2035-06-17</date>
+            <date filterType="common|pickedDay">2036-06-15</date>
+        </festival>
+
+        <festival name="小年" level="0" nickName="" type="2">
+            <date filterType="common">12-23</date>
+            <date filterType="common">12-24</date>
+        </festival>
+
+        <festival name="中和节" level="0" nickName="龙抬头" type="2">
+            <date filterType="common">02-02</date>
+        </festival>
+
+        <festival name="上巳节" level="0" nickName="" type="2">
+            <date filterType="common">03-03</date>
+        </festival>
+
+        <festival name="中元节" level="0" nickName="Hungry Ghost Festival" type="2">
+            <date filterType="common">07-15</date>
+        </festival>
+
+        <festival name="下元节" level="0" nickName="" type="2">
+            <date filterType="common">10-15</date>
+        </festival>
+
+        <festival name="植树节" level="0" nickName="" type="1">
+            <date filterType="common">03-12</date>
+        </festival>
+
+        <festival name="青年节" level="0" nickName="" type="1">
+            <date filterType="common">05-04</date>
+        </festival>
+
+        <festival name="建党节" level="0" nickName="" type="1">
+            <date filterType="common">07-01</date>
+        </festival>
+
+        <festival name="建军节" level="0" nickName="" type="1">
+            <date filterType="common">08-01</date>
+        </festival>
+
+        <festival name="消费者权益日" level="0" nickName="" type="1">
+            <date filterType="common">03-15</date>
+        </festival>
+
+        <festival name="中国人民警察节" level="0" nickName="" type="1">
+            <date filterType="common">01-10</date>
+        </festival>
+
+        <festival name="护士节" level="0" nickName="" type="1">
+            <date filterType="common">05-12</date>
+        </festival>
+
+        <festival name="护士节" level="0" nickName="" type="1">
+            <date filterType="common">05-12</date>
+        </festival>
+
+        <festival name="七七事变" level="0" nickName="" type="1">
+            <date filterType="common">07-07</date>
+        </festival>
+
+        <festival name="九一八事变" level="0" nickName="" type="1">
+            <date filterType="common">09-18</date>
+        </festival>
+
+        <festival name="抗战胜利纪念日" level="0" nickName="" type="1">
+            <date filterType="common">09-03</date>
+        </festival>
+
+        <festival name="国家公祭日" level="0" nickName="" type="1">
+            <date filterType="common">12-13</date>
+        </festival>
+        <festival name="彝族火把节" level="0" nickName="" type="2">
+            <date filterType="common">06-24</date>
+        </festival>
+        <festival name="傣族泼水节" level="0" nickName="" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+        </festival>
+        <festival name="蒙古族那达慕大会" level="0" nickName="" type="2">
+            <date filterType="common">06-04</date>
+            <date filterType="common">06-05</date>
+            <date filterType="common">06-06</date>
+            <date filterType="common">06-07</date>
+            <date filterType="common">06-08</date>
+            <date filterType="common">06-09</date>
+        </festival>
+        <festival name="藏族雪顿节" level="0" nickName="" type="2">
+            <date filterType="common">06-30</date>
+            <date filterType="common">07-01</date>
+            <date filterType="common">07-02</date>
+            <date filterType="common">07-03</date>
+            <date filterType="common">07-04</date>
+            <date filterType="common">07-05</date>
+            <date filterType="common">07-06</date>
+            <date filterType="common">07-07</date>
+        </festival>
+        <festival name="壮族三月三" level="0" nickName="" type="2">
+            <date filterType="common">03-03</date>
+        </festival>
+
+        <festival name="立春" level="0" nickName="" type="1">
+            <date filterType="common">02-03</date>
+            <date filterType="common">02-04</date>
+            <date filterType="common">02-05</date>
+        </festival>
+        <festival name="春分" level="0" nickName="" type="1">
+            <date filterType="common">03-19</date>
+            <date filterType="common">03-20</date>
+            <date filterType="common">03-21</date>
+            <date filterType="common">03-22</date>
+        </festival>
+        <festival name="小寒" level="0" nickName="" type="1">
+            <date filterType="common">01-05</date>
+            <date filterType="common">01-06</date>
+            <date filterType="common">01-07</date>
+        </festival>
+        <festival name="腊八节" level="0" nickName="" type="2">
+            <date filterType="common">12-08</date>
+        </festival>
+        <festival name="大寒" level="0" nickName="" type="1">
+            <date filterType="common">01-20</date>
+            <date filterType="common">01-21</date>
+        </festival>
+        <festival name="雨水" level="0" nickName="" type="1">
+            <date filterType="common">02-18</date>
+            <date filterType="common">02-19</date>
+            <date filterType="common">02-20</date>
+        </festival>
+        <festival name="惊蛰" level="0" nickName="" type="1">
+            <date filterType="common">03-05</date>
+            <date filterType="common">03-06</date>
+        </festival>
+        <festival name="谷雨" level="0" nickName="" type="1">
+            <date filterType="common">04-19</date>
+            <date filterType="common">04-20</date>
+            <date filterType="common">04-21</date>
+        </festival>
+        <festival name="立夏" level="0" nickName="" type="1">
+            <date filterType="common">05-05</date>
+            <date filterType="common">05-06</date>
+            <date filterType="common">05-07</date>
+        </festival>
+        <festival name="小满" level="0" nickName="" type="1">
+            <date filterType="common">05-20</date>
+            <date filterType="common">05-21</date>
+            <date filterType="common">05-22</date>
+        </festival>
+        <festival name="芒种" level="0" nickName="" type="1">
+            <date filterType="common">06-05</date>
+            <date filterType="common">06-06</date>
+            <date filterType="common">06-07</date>
+        </festival>
+        <festival name="夏至" level="0" nickName="" type="1">
+            <date filterType="common">06-21</date>
+            <date filterType="common">06-22</date>
+        </festival>
+        <festival name="小暑" level="0" nickName="" type="1">
+            <date filterType="common">07-06</date>
+            <date filterType="common">07-07</date>
+            <date filterType="common">07-08</date>
+        </festival>
+        <festival name="大暑" level="0" nickName="" type="1">
+            <date filterType="common">07-22</date>
+            <date filterType="common">07-23</date>
+            <date filterType="common">07-24</date>
+        </festival>
+        <festival name="立秋" level="0" nickName="" type="1">
+            <date filterType="common">08-07</date>
+            <date filterType="common">08-08</date>
+            <date filterType="common">08-09</date>
+        </festival>
+        <festival name="处暑" level="0" nickName="" type="1">
+            <date filterType="common">08-22</date>
+            <date filterType="common">08-23</date>
+            <date filterType="common">08-24</date>
+        </festival>
+        <festival name="白露" level="0" nickName="" type="1">
+            <date filterType="common">09-07</date>
+            <date filterType="common">09-08</date>
+            <date filterType="common">09-09</date>
+        </festival>
+        <festival name="秋分" level="0" nickName="" type="1">
+            <date filterType="common">09-22</date>
+            <date filterType="common">09-23</date>
+            <date filterType="common">09-24</date>
+        </festival>
+        <festival name="寒露" level="0" nickName="" type="1">
+            <date filterType="common">10-08</date>
+            <date filterType="common">10-09</date>
+        </festival>
+        <festival name="霜降" level="0" nickName="" type="1">
+            <date filterType="common">10-23</date>
+            <date filterType="common">10-24</date>
+        </festival>
+        <festival name="立冬" level="0" nickName="" type="1">
+            <date filterType="common">11-07</date>
+            <date filterType="common">11-08</date>
+        </festival>
+        <festival name="小雪" level="0" nickName="" type="1">
+            <date filterType="common">11-22</date>
+            <date filterType="common">11-23</date>
+        </festival>
+        <festival name="大雪" level="0" nickName="" type="1">
+            <date filterType="common">12-06</date>
+            <date filterType="common">12-07</date>
+            <date filterType="common">12-08</date>
+        </festival>
+        <festival name="冬至" level="0" nickName="" type="1">
+            <date filterType="common">12-21</date>
+            <date filterType="common">12-22</date>
+            <date filterType="common">12-23</date>
+        </festival>
+        <festival name="复活节" level="0" nickName="" type="1">
+            <date filterType="common">03-22</date>
+            <date filterType="common">03-23</date>
+            <date filterType="common">03-24</date>
+            <date filterType="common">03-25</date>
+            <date filterType="common">03-26</date>
+            <date filterType="common">03-27</date>
+            <date filterType="common">03-28</date>
+            <date filterType="common">03-29</date>
+            <date filterType="common">03-30</date>
+            <date filterType="common">03-31</date>
+            <date filterType="common">04-01</date>
+            <date filterType="common">04-02</date>
+            <date filterType="common">04-03</date>
+            <date filterType="common">04-04</date>
+            <date filterType="common">04-05</date>
+            <date filterType="common">04-06</date>
+            <date filterType="common">04-07</date>
+            <date filterType="common">04-08</date>
+            <date filterType="common">04-09</date>
+            <date filterType="common">04-10</date>
+            <date filterType="common">04-11</date>
+            <date filterType="common">04-12</date>
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+            <date filterType="common">04-16</date>
+            <date filterType="common">04-17</date>
+            <date filterType="common">04-18</date>
+            <date filterType="common">04-19</date>
+            <date filterType="common">04-20</date>
+            <date filterType="common">04-21</date>
+            <date filterType="common">04-22</date>
+            <date filterType="common">04-23</date>
+            <date filterType="common">04-24</date>
+            <date filterType="common">04-25</date>
+        </festival>
+        <festival name="感恩节" level="0" nickName="" type="1">
+            <date filterType="common">1970-11-26</date>
+            <date filterType="common">1971-11-25</date>
+            <date filterType="common">1972-11-23</date>
+            <date filterType="common">1973-11-22</date>
+            <date filterType="common">1974-11-28</date>
+            <date filterType="common">1975-11-27</date>
+            <date filterType="common">1976-11-25</date>
+            <date filterType="common">1977-11-24</date>
+            <date filterType="common">1978-11-29</date>
+            <date filterType="common">1979-11-28</date>
+            <date filterType="common">1980-11-26</date>
+            <date filterType="common">1981-11-25</date>
+            <date filterType="common">1982-11-24</date>
+            <date filterType="common">1983-11-23</date>
+            <date filterType="common">1984-11-28</date>
+            <date filterType="common">1985-11-27</date>
+            <date filterType="common">1986-11-26</date>
+            <date filterType="common">1987-11-25</date>
+            <date filterType="common">1988-11-24</date>
+            <date filterType="common">1989-11-29</date>
+            <date filterType="common">1990-11-28</date>
+            <date filterType="common">1991-11-27</date>
+            <date filterType="common">1992-11-25</date>
+            <date filterType="common">1993-11-24</date>
+            <date filterType="common">1994-11-23</date>
+            <date filterType="common">1995-11-29</date>
+            <date filterType="common">1996-11-28</date>
+            <date filterType="common">1997-11-27</date>
+            <date filterType="common">1998-11-25</date>
+            <date filterType="common">1999-11-24</date>
+            <date filterType="common">2000-11-23</date>
+            <date filterType="common">2001-11-29</date>
+            <date filterType="common">2002-11-28</date>
+            <date filterType="common">2003-11-27</date>
+            <date filterType="common">2004-11-25</date>
+            <date filterType="common">2005-11-24</date>
+            <date filterType="common">2006-11-23</date>
+            <date filterType="common">2007-11-29</date>
+            <date filterType="common">2008-11-27</date>
+            <date filterType="common">2009-11-26</date>
+            <date filterType="common">2010-11-25</date>
+            <date filterType="common">2011-11-24</date>
+            <date filterType="common">2012-11-22</date>
+            <date filterType="common">2013-11-28</date>
+            <date filterType="common">2014-11-27</date>
+            <date filterType="common">2015-11-26</date>
+            <date filterType="common">2016-11-24</date>
+            <date filterType="common">2017-11-23</date>
+            <date filterType="common">2018-11-22</date>
+            <date filterType="common">2019-11-28</date>
+            <date filterType="common">2020-11-26</date>
+            <date filterType="common">2021-11-25</date>
+            <date filterType="common">2022-11-24</date>
+            <date filterType="common">2023-11-23</date>
+            <date filterType="common">2024-11-28</date>
+            <date filterType="common">2025-11-27</date>
+            <date filterType="common">2026-11-26</date>
+            <date filterType="common">2027-11-25</date>
+            <date filterType="common">2028-11-23</date>
+            <date filterType="common">2029-11-22</date>
+            <date filterType="common">2030-11-28</date>
+            <date filterType="common">2031-11-27</date>
+            <date filterType="common">2032-11-25</date>
+            <date filterType="common">2033-11-24</date>
+            <date filterType="common">2034-11-22</date>
+            <date filterType="common">2035-11-29</date>
+            <date filterType="common">2036-11-26</date>
+        </festival>
+        <festival name="平安夜" level="0" nickName="" type="1">
+            <date filterType="common">12-24</date>
+        </festival>
+        <festival name="光棍节" level="0" nickName="" type="1">
+            <date filterType="common">11-11</date>
+        </festival>
+        <festival name="双十二" level="0" nickName="" type="1">
+            <date filterType="common">12-12</date>
+        </festival>
+        <festival name="618" level="0" nickName="" type="1">
+            <date filterType="common">06-18</date>
+        </festival>
+    </country>
+
+    <country name="香港" nickName="HongKong" region="HK">
+        <festival name="元旦" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="春節" level="0" nickName="Lunar New Year" type="2">
+            <date filterType="common">01-01</date>
+            <date filterType="common">01-02</date>
+            <date filterType="common">01-03</date>
+        </festival>
+
+        <festival name="勞動節" level="0" nickName="Labour Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="端午節" level="0" nickName="Dragon Boat Festival" type="2">
+            <date filterType="common">05-05</date>
+        </festival>
+
+        <festival name="中秋節" level="0" nickName="Mid Autumn Festival" type="2">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="聖誕節" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="印度" nickName="India" region="IN">
+        <festival name="नया साल" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="होली" level="0" nickName="Holi" type="1">
+            <date filterType="common">2017-03-13</date>
+            <date filterType="common">2018-03-02</date>
+            <date filterType="common">2019-03-21</date>
+            <date filterType="common">2020-03-10</date>
+        </festival>
+
+        <festival name="ओणम" level="0" nickName="Onam" type="1">
+            <date filterType="common">2017-09-04</date>
+            <date filterType="common">2018-08-25</date>
+            <date filterType="common">2019-09-11</date>
+            <date filterType="common">2020-08-22</date>
+        </festival>
+
+        <festival name="दीपावली" level="0" nickName="Deepavali" type="1">
+            <date filterType="common">2017-10-19</date>
+            <date filterType="common">2018-11-07</date>
+            <date filterType="common">2019-10-27</date>
+            <date filterType="common">2020-11-14</date>
+        </festival>
+
+        <festival name="Republic Day" level="0" nickName="" type="1">
+            <date filterType="common">01-26</date>
+        </festival>
+
+        <festival name="Independence Day" level="0" nickName="" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="गणतंत्र दिवस" level="0" nickName="Republic Day" type="1">
+            <date filterType="common">01-26</date>
+        </festival>
+
+        <festival name="शिवरात्रि" level="0" nickName="Shivaratri" type="1">
+            <date filterType="common">03-10</date>
+        </festival>
+
+        <festival name="महा शिवरात्रि" level="0" nickName="Shivaratri" type="1">
+            <date filterType="common">03-10</date>
+        </festival>
+
+        <festival name="होलिका दहन" level="0" nickName="Holika Dahana" type="1">
+            <date filterType="common">03-13</date>
+            <date filterType="common">03-14</date>
+        </festival>
+
+        <festival name="होली" level="0" nickName="Holi" type="1">
+            <date filterType="common">03-10</date>
+            <date filterType="common">03-11</date>
+            <date filterType="common">03-12</date>
+            <date filterType="common">03-13</date>
+            <date filterType="common">03-14</date>
+            <date filterType="common">03-15</date>
+            <date filterType="common">03-16</date>
+            <date filterType="common">03-17</date>
+            <date filterType="common">03-18</date>
+            <date filterType="common">03-19</date>
+        </festival>
+
+        <festival name="मार्च इक्वीनॉक्स" level="0" nickName="March Equinox" type="1">
+            <date filterType="common">03-20</date>
+        </festival>
+
+        <festival name="गुडी पडवा" level="0" nickName="Gudi Padwa" type="1">
+            <date filterType="common">08-19</date>
+        </festival>
+
+        <festival name="उगादी" level="0" nickName="Ugadi" type="1">
+            <date filterType="common">03-20</date>
+        </festival>
+
+        <festival name="रमजान ईद/ईद-उल-फितर (अनुमानित तिथि)" level="0" nickName="Ramzan Id/Eid-ul-Fitar (Tentative Date)" type="1">
+            <date filterType="common">03-31</date>
+        </festival>
+
+        <festival name="राम नवमी" level="0" nickName="Rama Navami" type="1">
+            <date filterType="common">04-06</date>
+        </festival>
+
+        <festival name="महावीर जयंती" level="0" nickName="Mahavir Jayanti" type="1">
+            <date filterType="common">04-13</date>
+        </festival>
+
+        <festival name="पासओवर का पहला दिन" level="0" nickName="First day of Passover" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="बैसाखी" level="0" nickName="Vaisakhi" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="अम्बेडकर जयंती" level="0" nickName="Ambedkar Jayanti" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="गुड फ्राइडे" level="0" nickName="Good Friday" type="1">
+            <date filterType="common">04-18</date>
+        </festival>
+
+        <festival name="ईस्टर दिवस" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">04-20</date>
+        </festival>
+
+        <festival name="अंतरराष्ट्रीय श्रमिक दिवस" level="0" nickName="International Worker's Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="मातृ दिवस" level="0" nickName="Mother's Day" type="1">
+            <date filterType="common">05-11</date>
+        </festival>
+
+        <festival name="बुद्ध पूर्णिमा" level="0" nickName="Buddha Purnima" type="1">
+            <date filterType="common">05-12</date>
+        </festival>
+
+        <festival name="विशाखा पूजा" level="0" nickName="Visakah Puja" type="1">
+            <date filterType="common">05-12</date>
+        </festival>
+
+        <festival name="स्वतंत्रता दिवसा" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="दशहरा" level="0" nickName="Dussehra" type="1">
+            <date filterType="common">10-02</date>
+            <date filterType="common">10-03</date>
+            <date filterType="common">10-04</date>
+            <date filterType="common">10-05</date>
+            <date filterType="common">10-06</date>
+            <date filterType="common">10-07</date>
+            <date filterType="common">10-08</date>
+            <date filterType="common">10-09</date>
+            <date filterType="common">10-10</date>
+            <date filterType="common">10-11</date>
+            <date filterType="common">10-12</date>
+        </festival>
+
+        <festival name="ब्रेसलेट महोत्सव" level="0" nickName="Bracelet Festival" type="1">
+            <date filterType="common">10-23</date>
+        </festival>
+
+        <festival name="दिवाली" level="0" nickName="Diwali" type="1">
+            <date filterType="common">10-20</date>
+            <date filterType="common">10-21</date>
+        </festival>
+
+        <festival name="फसल का त्योहार" level="0" nickName="Harvest Festival" type="1">
+            <date filterType="common">01-13</date>
+            <date filterType="common">01-14</date>
+            <date filterType="common">01-15</date>
+            <date filterType="common">01-16</date>
+        </festival>
+
+        <festival name="उत्तर भारत का फसल का त्योहार" level="0" nickName="Harvest festival of North India" type="1">
+            <date filterType="common">04-13</date>
+        </festival>
+
+        <festival name="गांधी की पुण्यतिथि" level="0" nickName="Gandhi's Death Anniversary" type="1">
+            <date filterType="common">01-30</date>
+        </festival>
+
+        <festival name="नव वर्ष का दिन" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="गांधी जयंती" level="0" nickName="Gandhi Jayanti" type="1">
+            <date filterType="common">10-02</date>
+        </festival>
+    </country>
+
+    <country name="印度尼西亚" nickName="Indonesia" region="ID">
+        <festival name="Tahun Baru Masehi" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Tahun Baru Imlek" level="0" nickName="Chinese Lunar New Year's Day" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Hari Kemerdekaan" level="0" nickName="Indonesian Independence Day" type="1">
+            <date filterType="common">08-17</date>
+        </festival>
+
+        <festival name="Hari Natal" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+
+        <festival name="Isra' Mi'raj Nabi Muhammad" level="0" nickName="Ascension of the Prophet Muhammad" type="1">
+            <date filterType="common">02-06</date>
+        </festival>
+
+        <festival name="Tahun Baru Tionghoa" level="0" nickName="Chinese New Year's Day" type="1">
+            <date filterType="common">01-29</date>
+        </festival>
+
+        <festival name="Maha Siwaratri" level="0" nickName="Maha Shivaratri" type="1">
+            <date filterType="common">03-10</date>
+        </festival>
+
+        <festival name="Holi" level="0" nickName="Holi" type="1">
+            <date filterType="common">03-14</date>
+        </festival>
+
+        <festival name="Ekuinoks Maret" level="0" nickName="March Equinox" type="1">
+            <date filterType="common">03-20</date>
+        </festival>
+
+        <festival name="Hari Raya Nyepi dan Tahun Baru Hindu di Bali" level="0" nickName="Bali's Day of Silence and Hindu New Year (Nyepi)" type="1">
+            <date filterType="common">03-29</date>
+        </festival>
+
+        <festival name="Idul Fitri" level="0" nickName="Idul Fitri" type="1">
+            <date filterType="common">03-31</date>
+            <date filterType="common">04-01</date>
+        </festival>
+
+        <festival name="Jumat Agung" level="0" nickName="Good Friday" type="1">
+            <date filterType="common">04-18</date>
+        </festival>
+
+        <festival name="Minggu Paskah" level="0" nickName="Easter Sunday" type="1">
+            <date filterType="common">04-20</date>
+        </festival>
+
+        <festival name="Hari Buruh Internasional" level="0" nickName="International Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Hari Waisak" level="0" nickName="Waisak Day" type="1">
+            <date filterType="common">05-12</date>
+        </festival>
+
+        <festival name="Hari Kenaikan Yesus Kristus" level="0" nickName="Ascension Day of Jesus Christ" type="1">
+            <date filterType="common">05-29</date>
+        </festival>
+
+        <festival name="Hari Pancasila" level="0" nickName="Pancasila Day" type="1">
+            <date filterType="common">06-01</date>
+        </festival>
+
+        <festival name="Idul Adha" level="0" nickName="Idul Adha" type="1">
+            <date filterType="common">06-07</date>
+        </festival>
+
+        <festival name="Titik Balik Matahari Juni" level="0" nickName="June Solstice" type="1">
+            <date filterType="common">06-21</date>
+        </festival>
+
+        <festival name="Tahun Baru Islam" level="0" nickName="Islamic New Year" type="1">
+            <date filterType="common">06-27</date>
+        </festival>
+
+        <festival name="Hari Kemerdekaan Indonesia" level="0" nickName="Indonesian Independence Day" type="1">
+            <date filterType="common">08-17</date>
+        </festival>
+
+        <festival name="Maulid Nabi Muhammad" level="0" nickName="The Prophet Muhammad's Birthday" type="1">
+            <date filterType="common">09-05</date>
+        </festival>
+
+        <festival name="Ekuinoks September" level="0" nickName="September Equinox" type="1">
+            <date filterType="common">09-23</date>
+        </festival>
+
+        <festival name="Titik Balik Matahari Desember" level="0" nickName="December Solstice" type="1">
+            <date filterType="common">12-22</date>
+            <date filterType="common">12-23</date>
+            <date filterType="common">12-24</date>
+        </festival>
+
+        <festival name="Hari Natal" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="泰国" nickName="Thailand" region="TH">
+        <festival name="ววันขื้นปีใหม" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="วันสงกรานต์" level="0" nickName="Songkran" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="วันแม่แห่งชาต" level="0" nickName="Mother's Day" type="1">
+            <date filterType="common">2017-08-14</date>
+            <date filterType="common">2018-08-13</date>
+            <date filterType="common">2019-08-12</date>
+            <date filterType="common">2020-08-12</date>
+        </festival>
+
+        <festival name="ววันพ่อแห่งชาต" level="0" nickName="H.M. The King's Birthday" type="1">
+            <date filterType="common">2017-07-28</date>
+            <date filterType="common">2018-07-30</date>
+            <date filterType="common">2019-07-29</date>
+            <date filterType="common">2020-07-28</date>
+        </festival>
+
+        <festival name="วันสิ้นปี" level="0" nickName="New Year's Eve" type="1">
+            <date filterType="common">12-31</date>
+        </festival>
+
+        <!-- 春分 -->
+        <festival name="วันวสันตวิษุวัตเดือนมีนาคม" level="0" nickName="March Equinox" type="1">
+            <date filterType="common">03-19</date>
+            <date filterType="common">03-20</date>
+            <date filterType="common">03-21</date>
+            <date filterType="common">03-22</date>
+        </festival>
+
+        <festival name="วันจักรี" level="0" nickName="Chakri Day" type="1">
+            <date filterType="common">02-12</date>
+        </festival>
+
+        <festival name="วันสงกรานต์" level="0" nickName="Songkran" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="วันแรงงาน" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="วันฉัตรมงคล" level="0" nickName="Coronation Day" type="1">
+            <date filterType="common">05-05</date>
+        </festival>
+
+        <festival name="วันวิสาขบูชา" level="0" nickName="Visakha Bucha" type="1">
+            <date filterType="common">06-05</date>
+        </festival>
+
+        <festival name="วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดา พัชรสุธาพิมลลักษณ พระบรมราชินี" level="0" nickName="Queen Suthida's Birthday" type="1">
+            <date filterType="common">06-03</date>
+        </festival>
+
+        <festival name="วันครีษมายันเดือนมิถุนายน" level="0" nickName="June Solstice" type="1">
+            <date filterType="common">07-19</date>
+        </festival>
+
+        <festival name="วันอาสาฬหบูชา" level="0" nickName="Asalha Bucha" type="1">
+            <date filterType="common">07-19</date>
+        </festival>
+
+        <festival name="วันเฉลิมพระชนมพรรษาของพระบาทสมเด็จพระเจ้าอยู่หัวฯ" level="0" nickName="King Vajiralongkorn's Birthday" type="1">
+            <date filterType="common">07-28</date>
+        </festival>
+
+        <festival name="วันเฉลิมพระชนมพรรษาของสมเด็จพระราชินีนาถ" level="0" nickName="The Queen's Birthday" type="1">
+            <date filterType="common">08-12</date>
+        </festival>
+
+        <festival name="วันคล้ายวันสวรรคตของพระบาทสมเด็จพระบรมชนกาธิเบศร มหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร" level="0" nickName="Anniversary of the Death of King Bhumibol" type="1">
+            <date filterType="common">10-13</date>
+        </festival>
+
+        <festival name="วันปิยมหาราช" level="0" nickName="Chulalongkorn Day" type="1">
+            <date filterType="common">10-23</date>
+        </festival>
+
+        <festival name="ฮาโลวีน" level="0" nickName="Halloween" type="1">
+            <date filterType="common">10-31</date>
+        </festival>
+
+        <festival name="วันลอยกระทง" level="0" nickName="Loy Krathong" type="1">
+            <date filterType="common">11-12</date>
+        </festival>
+
+        <festival name="วันมาฆบูชา" level="0" nickName="Makha Bucha Day" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="มาฆบูชา" level="0" nickName="Mahka Bucha" type="1">
+            <date filterType="common">02-12</date>
+        </festival>
+
+        <festival name="วันพืชมงคล" level="0" nickName="Ploughing Ceremony" type="1">
+            <date filterType="common">02-12</date>
+        </festival>
+
+        <festival name="วันรัฐธรรมนูญ" level="0" nickName="Constitution Day" type="1">
+            <date filterType="common">12-10</date>
+        </festival>
+
+        <festival name="วันพ่อ" level="0" nickName="Father's Day" type="1">
+            <date filterType="common">12-05</date>
+        </festival>
+    </country>
+
+    <country name="马来西亚" nickName="Malaysia" region="MY">
+        <festival name="Tahun Baru" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Kekasih" level="0" nickName="Valentine's Day" type="1">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="Tahun Baru Cina" level="0" nickName="Chinese Lunar New Year" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Hari Krismas" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="越南" nickName="Vietnam" region="VN">
+        <festival name="Tết dương lịch" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Tết" level="0" nickName="Vietnamese New Year" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Quốc Khánh" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">09-02</date>
+        </festival>
+    </country>
+
+    <country name="菲律宾" nickName="Philippines" region="PH">
+        <festival name="Independence Day" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">06-12</date>
+        </festival>
+
+        <festival name="All Saints Day" level="0" nickName="All Saints Day" type="1">
+            <date filterType="common">11-01</date>
+        </festival>
+    </country>
+
+    <country name="孟加拉" nickName="Bengal" region="BD">
+        <festival name="মে দিবস" level="0" nickName="May Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="জাতীয় শোক দিবস" level="0" nickName="National Mourning Day" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Independence Day" level="0" nickName="" type="1">
+            <date filterType="common">03-26</date>
+        </festival>
+    </country>
+
+    <country name="斯里兰卡" nickName="Sri Lanka" region="LK">
+        <festival name="Sinhala and Tamil New Year's Eve" level="0" nickName="Sinhala and Tamil New Year's Eve" type="1">
+            <date filterType="common">2017-04-12</date>
+            <date filterType="common">2018-04-13</date>
+            <date filterType="common">2019-04-13</date>
+            <date filterType="common">2020-04-13</date>
+        </festival>
+
+        <festival name="සිංහල හින්දු අලුත් අවුරුද්ද" level="0" nickName="Sinhala and Tamil New Year's Day" type="1">
+            <date filterType="common">2017-04-13</date>
+            <date filterType="common">2018-04-14</date>
+            <date filterType="common">2019-04-14</date>
+            <date filterType="common">2020-04-14</date>
+        </festival>
+        <festival name="දීපවාල" level="0" nickName="Deepavali" type="1">
+            <date filterType="common">2017-10-18</date>
+            <date filterType="common">2018-11-06</date>
+            <date filterType="common">2019-10-27</date>
+            <date filterType="common">2020-11-14</date>
+        </festival>
+        <festival name="නත්තල් දිනය" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="台湾" nickName="Taiwan" region="TW">
+        <festival name="春節" level="0" nickName="" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+    </country>
+
+    <country name="新加坡" nickName="Singapore" region="SG">
+    </country>
+
+    <country name="巴基斯坦" nickName="Pakistan" region="PK">
+        <festival name="یومِ آزادی" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">08-14</date>
+        </festival>
+    </country>
+
+    <country name="澳大利亚" nickName="Australia" region="AU">
+
+        <festival name="Australia Day" level="0" nickName="Australia Day" type="1">
+            <date filterType="common">2017-01-26</date>
+            <date filterType="common">2018-01-26</date>
+            <date filterType="common">2019-01-28</date>
+            <date filterType="common">2020-01-27</date>
+        </festival>
+
+        <festival name="Valentine's Day" level="0" nickName="Valentine's Day" type="1">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="Halloween" level="0" nickName="Halloween" type="1">
+            <date filterType="common">10-31</date>
+        </festival>
+
+        <festival name="ANZAC Day" level="0" nickName="ANZAC Day" type="1">
+            <date filterType="common">04-25</date>
+        </festival>
+    </country>
+
+    <country name="埃及" nickName="Egypt" region="EG">
+        <festival name="عيد الميلاد المجيد" level="0" nickName="Coptic Christmas Day" type="1">
+            <date filterType="common">01-07</date>
+        </festival>
+    </country>
+
+    <country name="俄罗斯" nickName="Russia" region="RU">
+        <festival name="Новый год" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="День всех влюбленных" level="0" nickName="St. Valentine's Day" type="1">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="Международный женский день" level="0" nickName="International Women's Day" type="1">
+            <date filterType="common">03-08</date>
+        </festival>
+
+        <festival name="Праздник Весны и Труда" level="0" nickName="Spring and Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="День Победы" level="0" nickName="Victory Day" type="1">
+            <date filterType="common">05-09</date>
+        </festival>
+    </country>
+
+    <country name="日本" nickName="Japan" region="JP">
+        <festival name="クリスマスイブ" level="0" nickName="Emperor's Birthday observed" type="1">
+            <date filterType="common">12-24</date>
+        </festival>
+
+        <festival name="成人の日" level="0" nickName="Coming of Age Day" type="1">
+            <date filterType="common">2017-01-09</date>
+            <date filterType="common">2018-01-08</date>
+            <date filterType="common">2019-01-14</date>
+            <date filterType="common">2020-01-13</date>
+        </festival>
+
+        <festival name="バレンタインデー" level="0" nickName="" type="1">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="雛祭り" level="0" nickName="" type="1">
+            <date filterType="common">03-03</date>
+        </festival>
+
+        <festival name="こどもの日" level="0" nickName="Children's Day" type="1">
+            <date filterType="common">05-05</date>
+        </festival>
+    </country>
+
+    <country name="新西兰" nickName="New Zealand" region="NZ">
+        <festival name="Christmas Eve" level="0" nickName="Christmas Eve" type="1">
+            <date filterType="common">12-24</date>
+        </festival>
+
+        <festival name="New Year's Eve" level="0" nickName="New Year's Eve" type="1">
+            <date filterType="common">12-31</date>
+        </festival>
+
+        <festival name="Valentine's Day" level="0" nickName="Valentine's Day" type="1">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="Easter Day" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+        </festival>
+
+        <festival name="Halloween" level="0" nickName="" type="1">
+            <date filterType="common">10-31</date>
+        </festival>
+    </country>
+
+    <country name="法国" nickName="France" region="FR">
+        <festival name="Nouvel an" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Pâques" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+            <date filterType="common">2024-03-31</date>
+        </festival>
+
+        <festival name="Fête du Travail" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Fête nationale" level="0" nickName="Bastille Day" type="1">
+            <date filterType="common">07-14</date>
+        </festival>
+
+        <festival name="Assomption" level="0" nickName="Assumption of Mary" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Noël" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="意大利" nickName="Italy" region="IT">
+        <festival name="Capodanno" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Pasqua" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+            <date filterType="common">2024-03-31</date>
+        </festival>
+
+        <festival name="Festa del lavoro" level="0" nickName="Labour Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Festa nazionale" level="0" nickName="Republic Day" type="1">
+            <date filterType="common">06-02</date>
+        </festival>
+
+        <festival name="Festa dell'Assunzione di Maria" level="0" nickName="Assumption of Mary" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Natale" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="西班牙" nickName="Spain" region="ES">
+        <festival name="Día de Año Nuevo" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Día de los Reyes Magos" level="0" nickName="Epiphany" type="1">
+            <date filterType="common">01-06</date>
+        </festival>
+
+        <festival name="Semana Santa" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+            <date filterType="common">2024-03-31</date>
+        </festival>
+
+        <festival name="Las Fallas" level="0" nickName="Las Fallas" type="1">
+            <date filterType="common">03-15</date>
+            <date filterType="common">03-16</date>
+            <date filterType="common">03-17</date>
+            <date filterType="common">03-18</date>
+            <date filterType="common">03-19</date>
+        </festival>
+
+        <festival name="Encierros de San Fermín" level="0" nickName="Encierro" type="1">
+            <date filterType="common">07-06</date>
+            <date filterType="common">07-07</date>
+            <date filterType="common">07-08</date>
+            <date filterType="common">07-09</date>
+            <date filterType="common">07-10</date>
+            <date filterType="common">07-11</date>
+            <date filterType="common">07-12</date>
+            <date filterType="common">07-13</date>
+            <date filterType="common">07-14</date>
+        </festival>
+
+        <festival name="Día del trabajo" level="0" nickName="Labour Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Fiesta Nacional" level="0" nickName="Hispanic Day" type="1">
+            <date filterType="common">10-12</date>
+        </festival>
+
+        <festival name="Asunción de María" level="0" nickName="Assumption of Mary" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Navidad" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+
+        <festival name="Fiesta de Fin del Ayuno" level="0" nickName="Eid al-Fitr" type="1">
+            <date filterType="common">03-31</date>
+        </festival>
+
+        <festival name="Domingo de Ramos" level="0" nickName="Palm Sunday" type="1">
+            <date filterType="common">04-13</date>
+        </festival>
+
+        <festival name="Jueves Santo" level="0" nickName="Maundy Thursday" type="1">
+            <date filterType="common">04-17</date>
+        </festival>
+
+        <festival name="Viernes Santo" level="0" nickName="Good Friday" type="1">
+            <date filterType="common">04-18</date>
+        </festival>
+
+        <festival name="Sábado Santo" level="0" nickName="Holy Saturday" type="1">
+            <date filterType="common">04-19</date>
+        </festival>
+
+        <festival name="Domingo de Resurrección" level="0" nickName="Easter Sunday" type="1">
+            <date filterType="common">04-20</date>
+        </festival>
+
+        <festival name="Lunes de Pascua" level="0" nickName="Easter Monday" type="1">
+            <date filterType="common">04-21</date>
+        </festival>
+
+        <festival name="Día de Aragón" level="0" nickName="Day de Aragón" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="San Jordi" level="0" nickName="St George's Day" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="Día de Castilla y León" level="0" nickName="Castile and León Day" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="Día del Trabajado" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Día de Madrid" level="0" nickName="Day of Madrid" type="1">
+            <date filterType="common">05-02</date>
+        </festival>
+
+        <festival name="Día de la Madre" level="0" nickName="Mothers' Day" type="1">
+            <date filterType="common">05-04</date>
+        </festival>
+
+        <festival name="Día de las Islas Canarias" level="0" nickName="Day of the Canary Islands" type="1">
+            <date filterType="common">05-30</date>
+        </festival>
+
+        <festival name="Día de Castilla-La Mancha" level="0" nickName="Day of Castile-La Mancha" type="1">
+            <date filterType="common">05-31</date>
+        </festival>
+
+        <festival name="Fiesta del Sacrificio" level="0" nickName="Eid al-Adha" type="1">
+            <date filterType="common">06-06</date>
+            <date filterType="common">06-07</date>
+            <date filterType="common">06-08</date>
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="Domingo de Pentecostés" level="0" nickName="Whit Sunday/Pentecost" type="1">
+            <date filterType="common">06-08</date>
+        </festival>
+
+        <festival name="Lunes de Pentecostés" level="0" nickName="Whit Monday" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="Día de Murcia" level="0" nickName="Day of Murcia" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="Día de La Rioja" level="0" nickName="Day of La Rioja" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="San Antonio" level="0" nickName="San Antonio" type="1">
+            <date filterType="common">06-13</date>
+        </festival>
+
+        <festival name="Corpus Christi" level="0" nickName="Corpus Christi" type="1">
+            <date filterType="common">06-19</date>
+        </festival>
+
+        <festival name="Solsticio de junio " level="0" nickName="June " type="1">
+            <date filterType="common">06-21</date>
+        </festival>
+
+        <festival name="Día de San Juan Bautista" level="0" nickName="Saint John the Baptist Day" type="1">
+            <date filterType="common">06-24</date>
+        </festival>
+
+        <festival name="Año Nuevo" level="0" nickName="New Year" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Día de Reyes" level="0" nickName="Día de Reyes" type="1">
+            <date filterType="common">01-06</date>
+        </festival>
+
+        <festival name="Fiesta Nacional de España" level="0" nickName="National Day of Spain" type="1">
+            <date filterType="common">10-12</date>
+        </festival>
+
+        <festival name="Día de Todos los Santos" level="0" nickName="All Saints' Day" type="1">
+            <date filterType="common">11-01</date>
+        </festival>
+
+        <festival name="Día de la Constitución" level="0" nickName="Constitution Day" type="1">
+            <date filterType="common">12-06</date>
+        </festival>
+    </country>
+
+    <country name="英国" nickName="United Kingdom" region="GB">
+        <festival name="Valentine's Day" level="0" nickName="Valentine's Day" type="1">
+            <date filterType="common">02-14</date>
+        </festival>
+    </country>
+
+    <country name="荷兰" nickName="Netherlands" region="NL">
+        <festival name="Nieuwjaar" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Pasen" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+            <date filterType="common">2024-03-31</date>
+        </festival>
+
+        <festival name="Bevrijdingsdag" level="0" nickName="Liberation Day" type="1">
+            <date filterType="common">05-05</date>
+        </festival>
+
+        <festival name="Sinterklaasavond" level="0" nickName="St Nicholas' Eve" type="1">
+            <date filterType="common">12-05</date>
+        </festival>
+
+        <festival name="Kerstmis" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="波兰" nickName="Poland" region="PL">
+        <festival name="Nowy Rok" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Wielkanoc" level="0" nickName="Easter Day" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+            <date filterType="common">2024-03-31</date>
+        </festival>
+
+        <festival name="Święto Pracy" level="0" nickName="Labour Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Wniebowzięcie Najświętszej Maryi Panny" level="0" nickName="Assumption of Mary" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Boże Narodzenie" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+            <date filterType="common">12-26</date>
+        </festival>
+    </country>
+
+    <country name="比利时" nickName="Belgium" region="BE">
+        <festival name="Nieuwjaar" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Dag van de Arbeid" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Koningsdag" level="0" nickName="Belgian National Day" type="1">
+            <date filterType="common">07-21</date>
+        </festival>
+
+        <festival name="Maria-Tenhemelopneming" level="0" nickName="Assumption of Mary" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Halloween" level="0" nickName="All Saints' Day" type="1">
+            <date filterType="common">11-01</date>
+        </festival>
+
+        <festival name="Kerstmis" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="土耳其" nickName="Turkey" region="TR">
+        <festival name="Yeni Yılın İlk Günü" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Ulusal Egemenlik ve Çocuk Bayramı" level="0" nickName="National Sovereignty and Children's Day" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="Emek ve Dayanışma Günü" level="0" nickName="Labor and Solidarity Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Atatürk'ü Anma, Gençlik ve Spor Bayramı" level="0" nickName="Commemoration of Atatürk, Youth and Sports Day" type="1">
+            <date filterType="common">05-19</date>
+        </festival>
+
+        <festival name="Zafer Bayramı" level="0" nickName="Victory Day" type="1">
+            <date filterType="common">08-30</date>
+        </festival>
+
+        <festival name="Cumhuriyet Bayramı Arefesi" level="0" nickName="Republic Day Eve" type="1">
+            <date filterType="common">10-28</date>
+        </festival>
+
+        <festival name="Cumhuriyet Bayramı" level="0" nickName="Republic Day" type="1">
+            <date filterType="common">10-29</date>
+        </festival>
+    </country>
+
+    <country name="突尼斯" nickName="Tunisia" region="TN">
+        <festival name="عيد رأس السنة" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="عيد الثورة والشباب" level="0" nickName="Revolution and Youth Day" type="1">
+            <date filterType="common">01-14</date>
+        </festival>
+
+        <festival name="عيد الاستقلال" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">03-20</date>
+        </festival>
+
+        <festival name="يوم الشهداء" level="0" nickName="Martyrs' Day" type="1">
+            <date filterType="common">04-09</date>
+        </festival>
+
+        <festival name="عيد العمال" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="عيد الجمهورية" level="0" nickName="Republic Day" type="1">
+            <date filterType="common">07-25</date>
+        </festival>
+
+        <festival name="عيد المرأة والأسرة" level="0" nickName="Women's and Family Day" type="1">
+            <date filterType="common">08-13</date>
+        </festival>
+
+        <festival name="عيد الجلاء" level="0" nickName="Evacuation Day" type="1">
+            <date filterType="common">10-15</date>
+        </festival>
+    </country>
+
+    <country name="尼日利亚" nickName="Nigeria" region="NG">
+        <festival name="Workers' Day" level="0" nickName="Workers' Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+        <festival name="Children's Day" level="0" nickName="Children's Day" type="1">
+            <date filterType="common">05-27</date>
+        </festival>
+        <festival name="Democracy Day" level="0" nickName="Democracy Day" type="1">
+            <date filterType="common">06-12</date>
+        </festival>
+        <festival name="Independence Day" level="0" nickName="National Day" type="1">
+            <date filterType="common">10-01</date>
+        </festival>
+        <festival name="Boxing Day" level="0" nickName="Boxing Day" type="1">
+            <date filterType="common">12-26</date>
+        </festival>
+    </country>
+
+    <country name="瑞士" nickName="Switzerland" region="CH">
+        <festival name="Neujahr" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Schweizer Bundesfeier" level="0" nickName="National Day" type="1">
+            <date filterType="common">08-01</date>
+        </festival>
+
+        <festival name="Weihnachten" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="乌克兰" nickName="Ukraine" region="UA">
+        <festival name="Новий рік" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="День Праці" level="0" nickName="Labour Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="День Перемоги" level="0" nickName="Victory Day" type="1">
+            <date filterType="common">05-09</date>
+        </festival>
+
+        <festival name="День Конституції України" level="0" nickName="Constitution Day" type="1">
+            <date filterType="common">06-28</date>
+        </festival>
+
+        <festival name="День Незалежності України" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">08-24</date>
+        </festival>
+    </country>
+
+    <country name="墨西哥" nickName="Mexico" region="MX">
+        <festival name="Anio Nuevo" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">12-31</date>
+            <date filterType="common">01-01</date>
+        </festival>
+        <festival name="Dia de la Constitucion Mexicana" level="0" nickName="Mexican Constitution Day" type="1">
+            <date filterType="common">2020-02-05</date>
+        </festival>
+        <festival name="Natalicio de Benito Juarez" level="0" nickName="Benito Juárez's Birthday Memorial" type="1">
+            <date filterType="common">2018-03-21</date>
+            <date filterType="common">2019-03-18</date>
+            <date filterType="common">2020-03-16</date>
+        </festival>
+        <festival name="Dia de Trabajo" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+        <festival name="Dia de la Independencia" level="0" nickName="Independence Day" type="1">
+            <date filterType="common">09-16</date>
+        </festival>
+        <festival name="Dia de la Revolucion" level="0" nickName="Mexican Liberation Day" type="1">
+            <date filterType="common">2018-11-19</date>
+            <date filterType="common">2019-11-18</date>
+            <date filterType="common">2020-11-16</date>
+        </festival>
+        <festival name="Navidad" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-24</date>
+            <date filterType="common">12-25</date>
+        </festival>
+    </country>
+
+    <country name="罗马尼亚" nickName="Romania" region="RO">
+        <festival name="Anul Nou" level="0" nickName="New Year's Day" type="1">
+            <date filterType="common">01-01</date>
+            <date filterType="common">01-02</date>
+        </festival>
+        <festival name="Unirea Principatelor Romane" level="0" nickName="Unification Day" type="1">
+            <date filterType="common">01-24</date>
+        </festival>
+        <festival name="Ziua Muncii" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+        <festival name="Ziua Copilului" level="0" nickName="Children‘s Day" type="1">
+            <date filterType="common">06-01</date>
+        </festival>
+        <festival name="Adormirea Maicii Domnului" level="0" nickName="St Mary's Day" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+        <festival name="Sfantul Andrei" level="0" nickName="St Andrew's Day" type="1">
+            <date filterType="common">11-30</date>
+        </festival>
+        <festival name="Ziua Nationala a Romaniei" level="0" nickName="National holiday" type="1">
+            <date filterType="common">12-01</date>
+        </festival>
+        <festival name="Craciun" level="0" nickName="Christmas Day" type="1">
+            <date filterType="common">12-25</date>
+            <date filterType="common">12-26</date>
+        </festival>
+    </country>
+
+    <country name="外销通用节日" nickName="ExportFestival" region="Export">
+        <festival name="Holika Dahana" level="0" nickName="" type="2">
+            <date filterType="common">03-13</date>
+        </festival>
+
+        <festival name="Gudi Padwa" level="0" nickName="" type="2">
+            <date filterType="common">03-25</date>
+        </festival>
+
+        <festival name="Ugadi" level="0" nickName="" type="2">
+            <date filterType="common">03-25</date>
+        </festival>
+
+        <festival name="Rama Navami" level="0" nickName="" type="2">
+            <date filterType="common">04-06</date>
+        </festival>
+
+        <festival name="Mahavir Jayanti" level="0" nickName="" type="2">
+            <date filterType="common">04-10</date>
+        </festival>
+
+        <festival name="First day of Passover" level="0" nickName="" type="2">
+            <date filterType="common">04-10</date>
+        </festival>
+
+        <festival name="Vaisakhi" level="0" nickName="" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Ambedkar Jayanti" level="0" nickName="" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Easter Day" level="0" nickName="" type="1">
+            <date filterType="common">04-04</date>
+        </festival>
+
+        <festival name="International Worker's Day" level="0" nickName="" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Mother's Day" level="0" nickName="" type="1">
+            <date filterType="common">04-05</date>
+        </festival>
+
+        <festival name="Dussehra" level="0" nickName="" type="2">
+            <date filterType="common">10-01</date>
+        </festival>
+
+        <festival name="Bracelet Festival" level="0" nickName="" type="2">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Diwali" level="0" nickName="" type="2">
+            <date filterType="common">10-25</date>
+        </festival>
+
+        <festival name="Harvest Festival" level="0" nickName="" type="1">
+            <date filterType="common">03-15</date>
+        </festival>
+
+        <festival name="Harvest festival of North India" level="0" nickName="" type="1">
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="Gandhi's Death Anniversary" level="0" nickName="" type="1">
+            <date filterType="common">01-30</date>
+        </festival>
+
+        <festival name="New Year's Day" level="0" nickName="一月一日" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Gandhi Jayanti" level="0" nickName="" type="1">
+            <date filterType="common">10-02</date>
+        </festival>
+
+        <festival name="Ascension of the Prophet Muhammad" level="0" nickName="" type="2">
+            <date filterType="common">07-17</date>
+        </festival>
+
+        <festival name="Chinese New Year's Day" level="0" nickName="" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Maha Shivaratri" level="0" nickName="" type="2">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="Holi" level="0" nickName="" type="2">
+            <date filterType="common">03-14</date>
+        </festival>
+
+        <festival name="Vaisakhi" level="0" nickName="" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Ambedkar Jayanti" level="0" nickName="" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Easter Day" level="0" nickName="" type="1">
+            <date filterType="common">04-04</date>
+        </festival>
+
+        <festival name="International Worker's Day" level="0" nickName="" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="March Equinox" level="0" nickName="" type="1">
+            <date filterType="common">03-19</date>
+            <date filterType="common">03-20</date>
+            <date filterType="common">03-21</date>
+            <date filterType="common">03-22</date>
+        </festival>
+
+        <festival name="Bali's Day of Silence" level="0" nickName="" type="2">
+            <date filterType="common">03-25</date>
+        </festival>
+
+        <festival name="Idul Fitri" level="0" nickName="" type="2">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Waisak Day" level="0" nickName="" type="2">
+            <date filterType="common">05-15</date>
+        </festival>
+
+        <festival name="Ascension Day" level="0" nickName="" type="1">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Mother's Day" level="0" nickName="" type="1">
+            <date filterType="common">04-05</date>
+        </festival>
+
+        <festival name="Dussehra" level="0" nickName="" type="2">
+            <date filterType="common">10-01</date>
+        </festival>
+
+        <festival name="Bracelet Festival" level="0" nickName="" type="2">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="Diwali" level="0" nickName="" type="2">
+            <date filterType="common">10-25</date>
+        </festival>
+
+        <festival name="Harvest Festival" level="0" nickName="" type="1">
+            <date filterType="common">03-15</date>
+        </festival>
+
+        <festival name="Harvest festival of North India" level="0" nickName="" type="1">
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="Gandhi's Death Anniversary" level="0" nickName="" type="1">
+            <date filterType="common">01-30</date>
+        </festival>
+
+        <festival name="New Year's Day" level="0" nickName="一月一日" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Gandhi Jayanti" level="0" nickName="" type="1">
+            <date filterType="common">10-02</date>
+        </festival>
+
+        <festival name="Ascension of the Prophet Muhammad" level="0" nickName="" type="2">
+            <date filterType="common">07-17</date>
+        </festival>
+
+        <festival name="Chinese New Year's Day" level="0" nickName="" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Maha Shivaratri" level="0" nickName="" type="2">
+            <date filterType="common">02-14</date>
+        </festival>
+
+        <festival name="March Equinox" level="0" nickName="" type="1">
+            <date filterType="common">03-19</date>
+            <date filterType="common">03-20</date>
+            <date filterType="common">03-21</date>
+            <date filterType="common">03-22</date>
+        </festival>
+
+        <festival name="Bali's Day of Silence" level="0" nickName="" type="2">
+            <date filterType="common">03-25</date>
+        </festival>
+
+        <festival name="Idul Fitri" level="0" nickName="" type="2">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Waisak Day" level="0" nickName="" type="2">
+            <date filterType="common">05-15</date>
+        </festival>
+
+        <festival name="Ascension Day" level="0" nickName="" type="1">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Pancasila Day" level="0" nickName="" type="1">
+            <date filterType="common">06-01</date>
+        </festival>
+
+        <festival name="Idul Adha" level="0" nickName="" type="2">
+            <date filterType="common">07-10</date>
+        </festival>
+
+        <festival name="Islamic New Year" level="0" nickName="" type="2">
+            <date filterType="common">08-10</date>
+        </festival>
+
+        <festival name="Indonesian Independence Day" level="0" nickName="" type="1">
+            <date filterType="common">08-17</date>
+        </festival>
+
+        <festival name="Maulid Nabi Muhammad" level="0" nickName="" type="2">
+            <date filterType="common">09-12</date>
+        </festival>
+
+        <festival name="Chakri Day" level="0" nickName="" type="1">
+            <date filterType="common">04-06</date>
+        </festival>
+
+        <festival name="Songkran" level="0" nickName="" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="Coronation Day" level="0" nickName="" type="1">
+            <date filterType="common">05-04</date>
+            <date filterType="common">05-05</date>
+            <date filterType="common">05-06</date>
+        </festival>
+
+        <festival name="Visakha Bucha" level="0" nickName="" type="2">
+            <date filterType="common">06-15</date>
+        </festival>
+
+        <festival name="Queen Suthida's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">06-03</date>
+        </festival>
+
+        <festival name="Asalha Bucha" level="0" nickName="" type="2">
+            <date filterType="common">07-19</date>
+        </festival>
+
+        <festival name="King Vajiralongkorn's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">07-28</date>
+        </festival>
+
+        <festival name="The Queen's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">08-12</date>
+        </festival>
+
+        <festival name="Anniversary of the Death of King Bhumibol" level="0" nickName="" type="1">
+            <date filterType="common">10-13</date>
+        </festival>
+
+        <festival name="Chulalongkorn Day" level="0" nickName="" type="1">
+            <date filterType="common">10-23</date>
+        </festival>
+
+        <festival name="Halloween" level="0" nickName="" type="1">
+            <date filterType="common">10-31</date>
+        </festival>
+
+        <festival name="Makha Bucha Day" level="0" nickName="" type="2">
+            <date filterType="common">02-15</date>
+        </festival>
+
+        <festival name="Mahka Bucha" level="0" nickName="" type="2">
+            <date filterType="common">03-15</date>
+        </festival>
+
+        <festival name="Ploughing Ceremony" level="0" nickName="" type="1">
+            <date filterType="common">05-10</date>
+        </festival>
+
+        <festival name="Father's Day" level="0" nickName="" type="1">
+            <date filterType="common">12-05</date>
+        </festival>
+
+        <festival name="Eid al-Fitr" level="0" nickName="" type="2">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Palm Sunday" level="0" nickName="" type="1">
+            <date filterType="common">04-10</date>
+        </festival>
+
+        <festival name="Maundy Thursday" level="0" nickName="" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Holy Saturday" level="0" nickName="" type="1">
+            <date filterType="common">04-16</date>
+        </festival>
+
+        <festival name="Day of Aragón" level="0" nickName="" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="St George's Day" level="0" nickName="" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="Castile and León Day" level="0" nickName="" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="Day of Madrid" level="0" nickName="" type="1">
+            <date filterType="common">05-02</date>
+        </festival>
+
+        <festival name="Day of the Canary Islands" level="0" nickName="" type="1">
+            <date filterType="common">05-30</date>
+        </festival>
+
+        <festival name="Day of Castile-La Mancha" level="0" nickName="" type="1">
+            <date filterType="common">10-30</date>
+        </festival>
+
+        <festival name="Eid al-Adha" level="0" nickName="" type="2">
+            <date filterType="common">07-10</date>
+        </festival>
+
+        <festival name="Whit Sunday" level="0" nickName="" type="1">
+            <date filterType="common">06-05</date>
+        </festival>
+
+        <festival name="Day of Murcia" level="0" nickName="" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="Day of La Rioja" level="0" nickName="" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="San Antonio" level="0" nickName="" type="1">
+            <date filterType="common">06-13</date>
+        </festival>
+
+        <festival name="Corpus Christi" level="0" nickName="" type="1">
+            <date filterType="common">06-16</date>
+        </festival>
+
+        <festival name="Saint John the Baptist Day" level="0" nickName="" type="1">
+            <date filterType="common">06-24</date>
+        </festival>
+
+        <festival name="New Year" level="0" nickName="" type="1">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Día de Reyes" level="0" nickName="" type="1">
+            <date filterType="common">01-06</date>
+        </festival>
+
+        <festival name="National Day of Spain" level="0" nickName="" type="1">
+            <date filterType="common">10-12</date>
+        </festival>
+
+        <festival name="Constitution Day" level="0" nickName="" type="1">
+            <date filterType="common">12-06</date>
+        </festival>
+
+        <festival name="Eid el Fitr" level="0" nickName="" type="2">
+            <date filterType="common">11-24</date>
+            <date filterType="common">11-25</date>
+            <date filterType="common">11-26</date>
+            <date filterType="common">11-27</date>
+            <date filterType="common">11-28</date>
+        </festival>
+
+        <festival name="Coptic Good Friday" level="0" nickName="" type="2">
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="Coptic Holy Saturday" level="0" nickName="" type="2">
+            <date filterType="common">04-16</date>
+        </festival>
+
+        <festival name="Coptic Easter Sunday" level="0" nickName="" type="2">
+            <date filterType="common">04-17</date>
+        </festival>
+
+        <festival name="Spring Festival" level="0" nickName="" type="1">
+            <date filterType="common">03-20</date>
+        </festival>
+
+        <festival name="Sinai Liberation Day" level="0" nickName="" type="1">
+            <date filterType="common">04-25</date>
+        </festival>
+
+        <festival name="Arafat Day" level="0" nickName="" type="2">
+            <date filterType="common">06-16</date>
+        </festival>
+
+        <festival name="Ashura" level="0" nickName="" type="2">
+            <date filterType="common">08-10</date>
+        </festival>
+
+        <festival name="Revolution Day" level="0" nickName="" type="1">
+            <date filterType="common">07-23</date>
+        </festival>
+
+        <festival name="Coptic Christmas" level="0" nickName="" type="2">
+            <date filterType="common">11-25</date>
+        </festival>
+
+        <festival name="Nile Flood Festival" level="0" nickName="" type="1">
+            <date filterType="common">08-28</date>
+        </festival>
+
+        <festival name="Egyptian Army Day" level="0" nickName="" type="1">
+            <date filterType="common">10-06</date>
+        </festival>
+
+        <festival name="Nuzul Al-Quran" level="0" nickName="" type="1">
+            <date filterType="common">03-28</date>
+        </festival>
+
+        <festival name="Birthday of the Sultan of Johor" level="0" nickName="" type="1">
+            <date filterType="common">03-23</date>
+        </festival>
+
+        <festival name="Hari Raya Puasa" level="0" nickName="" type="2">
+            <date filterType="common">10-01</date>
+        </festival>
+
+        <festival name="Birthday of the Sultan of Terengganu" level="0" nickName="" type="1">
+            <date filterType="common">04-26</date>
+        </festival>
+
+        <festival name="Wesak Day" level="0" nickName="" type="2">
+            <date filterType="common">05-15</date>
+        </festival>
+
+        <festival name="Pahang State Holiday" level="0" nickName="" type="1">
+            <date filterType="common">05-17</date>
+        </festival>
+
+        <festival name="King Vajiralongkorn's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">07-28</date>
+        </festival>
+
+        <festival name="The Queen's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">08-12</date>
+        </festival>
+
+        <festival name="Anniversary of the Death of King Bhumibol" level="0" nickName="" type="1">
+            <date filterType="common">10-13</date>
+        </festival>
+
+        <festival name="Chulalongkorn Day" level="0" nickName="" type="1">
+            <date filterType="common">10-23</date>
+        </festival>
+
+        <festival name="Halloween" level="0" nickName="" type="1">
+            <date filterType="common">10-31</date>
+        </festival>
+
+        <festival name="Loy Krathong" level="0" nickName="" type="2">
+            <date filterType="common">11-12</date>
+        </festival>
+
+        <festival name="Makha Bucha Day" level="0" nickName="" type="2">
+            <date filterType="common">02-15</date>
+        </festival>
+
+        <festival name="Mahka Bucha" level="0" nickName="" type="2">
+            <date filterType="common">03-15</date>
+        </festival>
+
+        <festival name="Ploughing Ceremony" level="0" nickName="" type="1">
+            <date filterType="common">05-10</date>
+        </festival>
+
+        <festival name="Father's Day" level="0" nickName="" type="1">
+            <date filterType="common">12-05</date>
+        </festival>
+
+        <festival name="Eid al-Fitr" level="0" nickName="" type="2">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Palm Sunday" level="0" nickName="" type="1">
+            <date filterType="common">04-10</date>
+        </festival>
+
+        <festival name="Maundy Thursday" level="0" nickName="" type="1">
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Holy Saturday" level="0" nickName="" type="1">
+            <date filterType="common">04-16</date>
+        </festival>
+
+        <festival name="Day of Aragón" level="0" nickName="" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="St George's Day" level="0" nickName="" type="1">
+            <date filterType="common">04-23</date>
+        </festival>
+
+        <festival name="Yang di-Pertuan Agong's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">06-05</date>
+        </festival>
+
+        <festival name="Hari Raya Haji" level="0" nickName="" type="2">
+            <date filterType="common">12-10</date>
+        </festival>
+
+        <festival name="Day of the Canary Islands" level="0" nickName="" type="1">
+            <date filterType="common">05-30</date>
+        </festival>
+
+        <festival name="Day of Castile-La Mancha" level="0" nickName="" type="1">
+            <date filterType="common">10-30</date>
+        </festival>
+
+        <festival name="Eid al-Adha" level="0" nickName="" type="2">
+            <date filterType="common">07-10</date>
+        </festival>
+
+        <festival name="Whit Sunday" level="0" nickName="" type="1">
+            <date filterType="common">06-05</date>
+        </festival>
+
+        <festival name="Day of Murcia" level="0" nickName="" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="Day of La Rioja" level="0" nickName="" type="1">
+            <date filterType="common">06-09</date>
+        </festival>
+
+        <festival name="San Antonio" level="0" nickName="" type="1">
+            <date filterType="common">06-13</date>
+        </festival>
+
+        <festival name="Corpus Christi" level="0" nickName="" type="1">
+            <date filterType="common">06-16</date>
+        </festival>
+
+        <festival name="Saint John the Baptist Day" level="0" nickName="" type="1">
+            <date filterType="common">06-24</date>
+        </festival>
+
+        <festival name="Muharram/New Year" level="0" nickName="" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Easter Monday" level="0" nickName="" type="1">
+            <date filterType="common">04-18</date>
+        </festival>
+
+        <festival name="Liberation Day" level="0" nickName="" type="1">
+            <date filterType="common">04-25</date>
+        </festival>
+
+        <festival name="Día de Reyes" level="0" nickName="" type="1">
+            <date filterType="common">01-06</date>
+        </festival>
+
+        <festival name="National Day of Spain" level="0" nickName="" type="1">
+            <date filterType="common">10-12</date>
+        </festival>
+
+        <festival name="Constitution Day" level="0" nickName="" type="1">
+            <date filterType="common">12-06</date>
+        </festival>
+
+        <festival name="Eid el Fitr" level="0" nickName="" type="2">
+            <date filterType="common">11-24</date>
+            <date filterType="common">11-25</date>
+            <date filterType="common">11-26</date>
+            <date filterType="common">11-27</date>
+            <date filterType="common">11-28</date>
+        </festival>
+
+        <festival name="Coptic Good Friday" level="0" nickName="" type="2">
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="Coptic Holy Saturday" level="0" nickName="" type="2">
+            <date filterType="common">04-16</date>
+        </festival>
+
+        <festival name="Coptic Easter Sunday" level="0" nickName="" type="2">
+            <date filterType="common">04-17</date>
+        </festival>
+
+        <festival name="Spring Festival" level="0" nickName="" type="1">
+            <date filterType="common">03-20</date>
+        </festival>
+
+        <festival name="Sinai Liberation Day" level="0" nickName="" type="1">
+            <date filterType="common">04-25</date>
+        </festival>
+
+        <festival name="Arafat Day" level="0" nickName="" type="2">
+            <date filterType="common">06-16</date>
+        </festival>
+
+        <festival name="Ashura" level="0" nickName="" type="2">
+            <date filterType="common">08-10</date>
+        </festival>
+
+        <festival name="Revolution Day" level="0" nickName="" type="1">
+            <date filterType="common">07-23</date>
+        </festival>
+
+        <festival name="Coptic Christmas" level="0" nickName="" type="2">
+            <date filterType="common">11-25</date>
+        </festival>
+
+        <festival name="Nile Flood Festival" level="0" nickName="" type="1">
+            <date filterType="common">08-28</date>
+        </festival>
+
+        <festival name="Egyptian Army Day" level="0" nickName="" type="1">
+            <date filterType="common">10-06</date>
+        </festival>
+
+        <festival name="Nuzul Al-Quran" level="0" nickName="" type="1">
+            <date filterType="common">03-28</date>
+        </festival>
+
+        <festival name="Birthday of the Sultan of Johor" level="0" nickName="" type="1">
+            <date filterType="common">03-23</date>
+        </festival>
+
+        <festival name="Hari Raya Puasa" level="0" nickName="" type="2">
+            <date filterType="common">10-01</date>
+        </festival>
+
+        <festival name="Birthday of the Sultan of Terengganu" level="0" nickName="" type="1">
+            <date filterType="common">04-26</date>
+        </festival>
+
+        <festival name="Wesak Day" level="0" nickName="" type="2">
+            <date filterType="common">05-15</date>
+        </festival>
+
+        <festival name="Pahang State Holiday" level="0" nickName="" type="1">
+            <date filterType="common">05-17</date>
+        </festival>
+
+        <festival name="June Solstice" level="0" nickName="" type="1">
+            <date filterType="common">06-20</date>
+            <date filterType="common">06-21</date>
+            <date filterType="common">06-22</date>
+        </festival>
+
+        <festival name="The Feast of St. John" level="0" nickName="" type="1">
+            <date filterType="common">06-24</date>
+        </festival>
+
+        <festival name="The Feast of St. Peter and St. Paul" level="0" nickName="" type="1">
+            <date filterType="common">06-29</date>
+        </festival>
+
+        <festival name="Gawai Dayak" level="0" nickName="" type="1">
+            <date filterType="common">06-01</date>
+        </festival>
+
+        <festival name="Yang di-Pertuan Agong's Birthday" level="0" nickName="" type="1">
+            <date filterType="common">06-05</date>
+        </festival>
+
+        <festival name="Hari Raya Haji" level="0" nickName="" type="2">
+            <date filterType="common">12-10</date>
+        </festival>
+
+        <festival name="Muharram/New Year" level="0" nickName="" type="2">
+            <date filterType="common">01-01</date>
+        </festival>
+
+        <festival name="Easter Monday" level="0" nickName="" type="1">
+            <date filterType="common">04-18</date>
+        </festival>
+
+        <festival name="Liberation Day" level="0" nickName="" type="1">
+            <date filterType="common">04-25</date>
+        </festival>
+
+        <festival name="The Feast of St Mark" level="0" nickName="" type="1">
+            <date filterType="common">04-25</date>
+        </festival>
+
+        <festival name="Labor Day" level="0" nickName="Labor Day" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="June Solstice" level="0" nickName="" type="1">
+            <date filterType="common">06-20</date>
+            <date filterType="common">06-21</date>
+            <date filterType="common">06-22</date>
+        </festival>
+
+        <festival name="The Feast of St. John" level="0" nickName="" type="1">
+            <date filterType="common">06-24</date>
+        </festival>
+
+        <festival name="The Feast of St. Peter and St. Paul" level="0" nickName="" type="1">
+            <date filterType="common">06-29</date>
+        </festival>
+
+        <festival name="Ferragosto" level="0" nickName="" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="The Feast of Saint Januarius" level="0" nickName="" type="1">
+            <date filterType="common">09-19</date>
+        </festival>
+
+        <festival name="September Equinox" level="0" nickName="" type="1">
+            <date filterType="common">09-22</date>
+            <date filterType="common">09-23</date>
+            <date filterType="common">09-24</date>
+        </festival>
+
+        <festival name="All Saints' Day" level="0" nickName="" type="1">
+            <date filterType="common">11-01</date>
+        </festival>
+
+        <festival name="The Feast of St. Ambrose" level="0" nickName="" type="1">
+            <date filterType="common">12-07</date>
+        </festival>
+
+        <festival name="Ferragosto" level="0" nickName="" type="1">
+            <date filterType="common">08-15</date>
+        </festival>
+
+        <festival name="The Feast of Saint Januarius" level="0" nickName="" type="1">
+            <date filterType="common">09-19</date>
+        </festival>
+
+        <festival name="September Equinox" level="0" nickName="" type="1">
+            <date filterType="common">09-22</date>
+            <date filterType="common">09-23</date>
+            <date filterType="common">09-24</date>
+        </festival>
+
+        <festival name="December Solstice" level="0" nickName="" type="1">
+            <date filterType="common">12-21</date>
+            <date filterType="common">12-22</date>
+            <date filterType="common">12-23</date>
+        </festival>
+
+        <festival name="The Feast of St. Ambrose" level="0" nickName="" type="1">
+            <date filterType="common">12-07</date>
+        </festival>
+
+        <festival name="Feast of the Immaculate Conception" level="0" nickName="" type="1">
+            <date filterType="common">12-08</date>
+        </festival>
+
+        <festival name="December Solstice" level="0" nickName="" type="1">
+            <date filterType="common">12-21</date>
+            <date filterType="common">12-22</date>
+            <date filterType="common">12-23</date>
+        </festival>
+
+        <festival name="Christmas Day" level="0" nickName="圣诞节" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+
+        <festival name="St. Stephen's Day" level="0" nickName="" type="1">
+            <date filterType="common">12-26</date>
+        </festival>
+
+        <festival name="Epifania" level="0" nickName="Epiphany" type="1">
+            <date filterType="common">01-06</date>
+        </festival>
+
+        <festival name="Pakistan Day" level="0" nickName="" type="1">
+            <date filterType="common">03-23</date>
+        </festival>
+
+        <festival name="Eid-ul-Fitr" level="0" nickName="" type="2">
+            <date filterType="common">05-13</date>
+        </festival>
+
+        <festival name="Baisakhi" level="0" nickName="" type="1">
+            <date filterType="common">04-13</date>
+            <date filterType="common">04-14</date>
+        </festival>
+
+        <festival name="Good Friday" level="0" nickName="" type="1">
+            <date filterType="common">1983-04-01</date>
+            <date filterType="common">1984-04-20</date>
+            <date filterType="common">1985-04-05</date>
+            <date filterType="common">1986-03-28</date>
+            <date filterType="common">1987-04-17</date>
+            <date filterType="common">1988-04-01</date>
+            <date filterType="common">1989-03-24</date>
+            <date filterType="common">1990-04-13</date>
+            <date filterType="common">1991-03-29</date>
+            <date filterType="common">1992-04-17</date>
+            <date filterType="common">1993-04-09</date>
+            <date filterType="common">1994-04-01</date>
+            <date filterType="common">1995-04-14</date>
+            <date filterType="common">1996-04-05</date>
+            <date filterType="common">1997-03-28</date>
+            <date filterType="common">1998-04-10</date>
+            <date filterType="common">1999-04-02</date>
+            <date filterType="common">2000-04-21</date>
+            <date filterType="common">2001-04-13</date>
+            <date filterType="common">2002-03-29</date>
+            <date filterType="common">2003-04-18</date>
+            <date filterType="common">2004-04-09</date>
+            <date filterType="common">2005-03-25</date>
+            <date filterType="common">2006-04-14</date>
+            <date filterType="common">2007-04-06</date>
+            <date filterType="common">2008-03-21</date>
+            <date filterType="common">2009-04-10</date>
+            <date filterType="common">2010-04-02</date>
+            <date filterType="common">2011-04-22</date>
+            <date filterType="common">2012-04-06</date>
+            <date filterType="common">2013-03-29</date>
+            <date filterType="common">2014-04-18</date>
+            <date filterType="common">2015-04-03</date>
+            <date filterType="common">2016-03-25</date>
+            <date filterType="common">2017-04-14</date>
+            <date filterType="common">2018-03-30</date>
+            <date filterType="common">2019-04-19</date>
+            <date filterType="common">2020-04-10</date>
+            <date filterType="common">2021-04-02</date>
+            <date filterType="common">2022-04-15</date>
+            <date filterType="common">2023-04-07</date>
+            <date filterType="common">2024-03-29</date>
+            <date filterType="common">2025-04-18</date>
+            <date filterType="common">2026-04-03</date>
+            <date filterType="common">2027-03-26</date>
+            <date filterType="common">2028-04-14</date>
+            <date filterType="common">2029-03-30</date>
+            <date filterType="common">2030-04-19</date>
+        </festival>
+
+        <festival name="Easter Sunday" level="0" nickName="Easter Sunday" type="1">
+            <date filterType="common">2017-04-16</date>
+            <date filterType="common">2018-04-01</date>
+            <date filterType="common">2019-04-21</date>
+            <date filterType="common">2020-04-12</date>
+            <date filterType="common">2021-04-04</date>
+            <date filterType="common">2022-04-17</date>
+            <date filterType="common">2023-04-09</date>
+            <date filterType="common">2024-03-31</date>
+        </festival>
+
+        <festival name="Labour Day" level="0" nickName="" type="1">
+            <date filterType="common">05-01</date>
+        </festival>
+
+        <festival name="Buddha Purnima" level="0" nickName="" type="2">
+            <date filterType="common">05-15</date>
+        </festival>
+
+        <festival name="July 1 Bank Holiday" level="0" nickName="" type="1">
+            <date filterType="common">07-01</date>
+        </festival>
+
+        <festival name="Nauroz" level="0" nickName="" type="1">
+            <date filterType="common">03-20</date>
+            <date filterType="common">03-21</date>
+            <date filterType="common">03-22</date>
+        </festival>
+
+        <festival name="Birthday of Quaid-e-Azam" level="0" nickName="" type="1">
+            <date filterType="common">12-25</date>
+        </festival>
+
+        <festival name="Pohela Boishakh" level="0" nickName="" type="1">
+            <date filterType="common">04-14</date>
+            <date filterType="common">04-15</date>
+        </festival>
+
+        <festival name="Victory Day" level="0" nickName="" type="1">
+            <date filterType="common">12-16</date>
+        </festival>
+    </country>
+</filter-conf>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/dp_58"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.gallery.videoeditorpage.widget.MsThumbnailSequenceView android:id="@id/tailor_view_sequence" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/dp_48" android:layout_centerVertical="true" android:overScrollMode="never" />
+    <com.oplus.gallery.videoeditorpage.widget.RectMask android:id="@id/rect_mask" android:layout_width="match_parent" android:layout_height="@dimen/dp_48" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/tailor_view_scroller" android:layout_width="@dimen/dp_2" android:layout_height="match_parent" android:src="@drawable/videoeditor_playing_axis" android:layout_alignLeft="@id/rect_mask" android:layout_alignStart="@id/rect_mask" />
+</RelativeLayout>

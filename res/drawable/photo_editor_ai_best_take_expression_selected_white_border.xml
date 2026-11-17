@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/photo_editor_ai_best_take_expression_container_size" android:width="@dimen/photo_editor_ai_best_take_expression_container_size" />
+    <corners android:radius="@dimen/photo_editor_ai_best_take_expression_container_radius" />
+    <stroke android:width="@dimen/photo_editor_ai_best_take_expression_container_stroke" android:color="@color/photo_editor_ai_best_take_expression_container_selected_white_border" />
+</shape>

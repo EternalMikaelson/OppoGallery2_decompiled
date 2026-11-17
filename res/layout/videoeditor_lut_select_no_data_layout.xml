@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/videoeditor_select_lut_no_data_img_width" android:layout_height="@dimen/videoeditor_select_lut_no_data_img_height" android:src="@drawable/videoeditor_select_lut_no_data_img" />
+    <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/videoeditor_select_lut_no_data_title_text_size" android:textColor="@color/videoeditor_select_lut_title_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/videoeditor_select_lut_no_data_title_margin_top" android:text="@string/videoeditor_text_no_file" android:fontFamily="OPPO Sans 4.0 SC" android:textFontWeight="@integer/font_weight_500" />
+    <com.coui.appcompat.textview.COUITextView android:textSize="@dimen/videoeditor_select_lut_no_data_subtitle_text_size" android:textColor="@color/videoeditor_select_lut_subtitle_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/videoeditor_select_lut_no_data_subtitle_margin_top" android:text="@string/videoeditor_text_no_lut_file" android:fontFamily="OPPO Sans 4.0 SC" />
+</LinearLayout>

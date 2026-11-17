@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.business_lib.template.editor.widget.EditorLinearListView android:id="@id/bounds_list" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" app:listOrientation="vertical" app:noPaddingFadingEdge="@dimen/base_editor_fading_edge_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

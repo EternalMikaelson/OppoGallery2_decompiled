@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/video_editor_export_playback_btn_radius" />
+    <solid android:color="#cc3e3e3e" />
+</shape>

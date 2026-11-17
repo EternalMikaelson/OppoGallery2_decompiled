@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.gallery.business_lib.ui.view.SlotWithSortView android:id="@id/base_album_item_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:durationTextGravity="center" app:durationTextSize="@dimen/base_all_album_item_media_overlay_duration_text_size" app:enablePressAnim="false" app:markIconHeight="@dimen/base_album_item_cover_mark_icon_height" app:markIconMarginEnd="@dimen/base_album_item_cover_mark_icon_margin_end" app:markIconMarginTop="@dimen/base_album_item_cover_mark_icon_margin_top" app:markIconWidth="@dimen/base_album_item_cover_mark_icon_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

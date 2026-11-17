@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/eraser_container" android:layout_width="wrap_content" android:layout_height="@dimen/de_toolkit_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/de_toolkit_eraser_icon" android:padding="@dimen/dp_6" android:focusable="true" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/de_toolkit_stroke_eraser_icon" android:scaleType="center" android:contentDescription="@null" android:layout_marginStart="4.0dp" android:layout_marginEnd="2.0dp" />
+    <TextView android:gravity="center" android:id="@id/de_toolkit_eraser_line" android:text="@string/de_toolkit_stroke_erase" android:layout_marginStart="@dimen/dp_12" style="@style/DeToolkitEraserChip" />
+    <TextView android:gravity="center" android:id="@id/de_toolkit_eraser_point" android:text="@string/de_toolkit_erase_fine" android:layout_marginStart="@dimen/dp_4" style="@style/DeToolkitEraserChip" />
+    <ImageView android:id="@id/de_toolkit_eraser_all" android:background="@drawable/de_toolkit_eraser_all_delete_selector" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/de_toolkit_eraser_delete_icon" android:scaleType="center" android:contentDescription="@null" android:layout_marginStart="@dimen/dp_4" android:layout_marginEnd="12.0dp" android:paddingHorizontal="@dimen/dp_8" />
+</merge>

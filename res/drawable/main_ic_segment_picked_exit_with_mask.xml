@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:id="@id/layer_icon" android:height="18.0dp" android:width="18.0dp" android:drawable="@drawable/main_ic_segment_picked_exit" />
+    <item android:id="@id/layer_mask" android:height="@dimen/main_tab_bottom_segment_iv_wh" android:width="@dimen/main_tab_bottom_segment_iv_wh" android:drawable="@drawable/main_ic_segment_iv_mask" />
+</layer-list>

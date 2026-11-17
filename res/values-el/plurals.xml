@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">Το %1$1s άλμπουμ, συμπεριλαμβανομένου %2$2s στοιχείου. Πατήστε για να το προσθέσετε στα «Συχνά χρησιμοποιούμενα».</item>
+        <item quantity="other">Το %1$1s άλμπουμ, συμπεριλαμβανομένων %2$2s στοιχείων. Πατήστε για να το προσθέσετε στα «Συχνά χρησιμοποιούμενα».</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s αγώνας</item>
+        <item quantity="other">%s αποτελέσματα</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">Επιλέξτε το μέσο που θέλετε και πατήστε το αιωρούμενο παράθυρο «Άμεσο βίντεο AI» παρακάτω για να δημιουργήσετε γρήγορα ένα βίντεο. Επιλέξτε τουλάχιστον %1$s στοιχείο για καλύτερα αποτελέσματα.</item>
+        <item quantity="other">Επιλέξτε το μέσο που θέλετε και πατήστε το αιωρούμενο παράθυρο «Άμεσο βίντεο AI» παρακάτω για να δημιουργήσετε γρήγορα ένα βίντεο. Επιλέξτε τουλάχιστον %1$s στοιχεία για καλύτερα αποτελέσματα.</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">Επιλέξτε το μέσο σας και πατήστε «Επεξεργασία - Άμεσο βίντεο AI» στο κάτω μέρος για να δημιουργήσετε γρήγορα ένα βίντεο. Επιλέξτε τουλάχιστον %1$s στοιχείο για καλύτερα αποτελέσματα.</item>
+        <item quantity="other">Επιλέξτε το μέσο σας και πατήστε «Επεξεργασία - Άμεσο βίντεο AI» στο κάτω μέρος για να δημιουργήσετε γρήγορα ένα βίντεο. Επιλέξτε τουλάχιστον %1$s στοιχεία για καλύτερα αποτελέσματα.</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">Δεν υποστηρίζονται κινούμενες φωτογραφίες μεγαλύτερες από %1$d δευτερόλεπτο</item>
+        <item quantity="other">Δεν υποστηρίζονται κινούμενες φωτογραφίες μεγαλύτερες από %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">Η διάρκεια του αποσπάσματος βίντεο δεν μπορεί να υπερβαίνει το %d δευτερόλεπτο</item>
+        <item quantity="other">Η διάρκεια του αποσπάσματος βίντεο δεν μπορεί να υπερβαίνει τα %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">%d κλειδωμένη εφαρμογή</item>
+        <item quantity="other">%d κλειδωμένες εφαρμογές</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">Το %1$1s άλμπουμ, συμπεριλαμβανομένου του %2$2s στοιχείου, προστέθηκε στα «Συχνά χρησιμοποιούμενα».</item>
+        <item quantity="other">Το %1$1s άλμπουμ, συμπεριλαμβανομένων των %2$2s στοιχείων, προστέθηκε στα «Συχνά χρησιμοποιούμενα».</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">Προσθήκη (%1$d)</item>
+        <item quantity="other">Προσθήκη (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">Προσθήκη (%1$d/%2$d)</item>
+        <item quantity="other">Προσθήκη (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">Ρυθμίστηκε %1$d στοιχείο</item>
+        <item quantity="other">Ρυθμίστηκαν %1$d στοιχεία</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">Φορτώνει %d φωτογραφία και δεν μπορεί να προστεθεί.</item>
+        <item quantity="other">Φορτώνουν %d φωτογραφίες και δεν μπορούν να προστεθούν.</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">%1$d έγγραφο</item>
+        <item quantity="other">%1$d έγγραφα</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">%1$d τραπεζική κάρτα</item>
+        <item quantity="other">%1$d τραπεζικές κάρτες</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">Στοιχεία από %d άλμπουμ θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένα στοιχεία. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+        <item quantity="other">Στοιχεία από %d άλμπουμ θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένα στοιχεία. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">%d φωτογραφία ριπής θα διαγραφεί από αυτή τη συσκευή και θα παραμείνει στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Έχει δημιουργηθεί αντίγραφο ασφαλείας όλων των φωτογραφιών ριπής στο cloud και αυτές θα παραμείνουν εκεί.</item>
+        <item quantity="other">%d φωτογραφίες ριπής θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Έχει δημιουργηθεί αντίγραφο ασφαλείας όλων των φωτογραφιών ριπής στο cloud και αυτές θα παραμείνουν εκεί.</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">%d φωτογραφία ριπής θα διαγραφεί από αυτή τη συσκευή και θα παραμείνει στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένες φωτογραφίες. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τις διαγράψετε.</item>
+        <item quantity="other">%d φωτογραφίες ριπής θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένες φωτογραφίες. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τις διαγράψετε.</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d στοιχείο θα διαγραφεί από αυτή τη συσκευή και θα παραμείνει στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένα στοιχεία. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+        <item quantity="other">%d στοιχεία θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένα στοιχεία. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">%d φωτογραφία θα διαγραφεί από αυτή τη συσκευή και θα παραμείνει στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένες φωτογραφίες. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+        <item quantity="other">%d φωτογραφίες θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένες φωτογραφίες. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τις διαγράψετε.</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">%d βίντεο θα διαγραφεί από αυτή τη συσκευή και θα παραμείνει στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένα βίντεο. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+        <item quantity="other">%d βίντεο θα διαγραφούν από αυτή τη συσκευή και θα παραμείνουν στην ενότητα «Διαγράφηκαν πρόσφατα» για 30 ημέρες. Δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας για ορισμένα βίντεο. Ίσως θελήσετε να δημιουργήσετε αντίγραφα ασφαλείας πριν τα διαγράψετε.</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">%1$s μικρογραφία θα αντικατασταθεί από την αρχική της έκδοση.</item>
+        <item quantity="other">%1$s μικρογραφίες θα αντικατασταθούν από τις αρχικές τους εκδόσεις.</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">%1$d ID</item>
+        <item quantity="other">%1$d ID</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">Να γίνει συγχώνευση και αφαίρεση %d ατόμου;</item>
+        <item quantity="other">Να γίνει συγχώνευση και αφαίρεση %d ατόμων;</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">Να αφαιρεθεί %d φωτογραφία από αυτό το άλμπουμ;</item>
+        <item quantity="other">Να αφαιρεθούν %d φωτογραφίες από αυτό το άλμπουμ;</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">Να αφαιρεθεί %d στοιχείο από αυτό το άλμπουμ;</item>
+        <item quantity="other">Να αφαιρεθούν %d στοιχεία από αυτό το άλμπουμ;</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">Να αφαιρεθεί %d βίντεο από αυτό το άλμπουμ;</item>
+        <item quantity="other">Να αφαιρεθούν %d βίντεο από αυτό το άλμπουμ;</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">Χρήση μικρογραφίας</item>
+        <item quantity="other">Χρήση μικρογραφιών</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">Χρήση πρωτότυπης</item>
+        <item quantity="other">Χρήση πρωτότυπων</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">"1 φωτογραφία είναι μικρογραφία. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση της πρωτότυπης φωτογραφίας."</item>
+        <item quantity="other">"Ορισμένες από τις επιλεγμένες φωτογραφίες είναι μικρογραφίες. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση των πρωτότυπων φωτογραφιών."</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">Μπορεί να μετατραπεί έως %1$d εικόνα σε PDF κάθε φορά</item>
+        <item quantity="other">Μπορούν να μετατραπούν έως %1$d εικόνες σε PDF κάθε φορά</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">Ανεπαρκής χώρος αποθήκευσης στη συσκευή. Δεν έγινε αντιγραφή %1$d στοιχείου.</item>
+        <item quantity="other">Ανεπαρκής χώρος αποθήκευσης στη συσκευή. Δεν έγινε αντιγραφή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">Αντιγράφηκε %d στοιχείο</item>
+        <item quantity="other">Αντιγράφηκαν %d στοιχεία</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">Δεν μπορεί να αντιγραφεί πάνω από %d στοιχείο</item>
+        <item quantity="other">Δεν μπορούν να αντιγραφούν πάνω από %d στοιχεία</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">Θα διαγραφεί μόνιμα %d φωτογραφία από αυτήν τη συσκευή.</item>
+        <item quantity="other">Θα διαγραφούν μόνιμα %d φωτογραφίες από αυτήν τη συσκευή.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">%d στοιχείο θα διαγραφεί μόνιμα από αυτή τη συσκευή.</item>
+        <item quantity="other">%d στοιχεία θα διαγραφούν μόνιμα από αυτήν τη συσκευή.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">Θα διαγραφεί μόνιμα %d βίντεο από αυτήν τη συσκευή.</item>
+        <item quantity="other">Θα διαγραφούν μόνιμα %d βίντεο από αυτήν τη συσκευή.</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">Θα διαγραφεί %d φωτογραφία ριπής από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d φωτογραφίες ριπής από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">Αυτή η φωτογραφία θα διαγραφεί μόνιμα από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+        <item quantity="other">Αυτές οι φωτογραφίες θα διαγραφούν μόνιμα από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">Αυτή η φωτογραφία θα διαγραφεί μόνιμα. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+        <item quantity="other">Αυτές οι φωτογραφίες θα διαγραφούν μόνιμα. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">Αυτό το στοιχείο θα διαγραφεί μόνιμα από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+        <item quantity="other">Αυτά τα στοιχεία θα διαγραφούν μόνιμα από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">Αυτό το στοιχείο θα διαγραφεί μόνιμα. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+        <item quantity="other">Αυτά τα στοιχεία θα διαγραφούν μόνιμα. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">%d φωτογραφία θα διαγραφεί μόνιμα από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d φωτογραφίες θα διαγραφούν μόνιμα από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">%d στοιχείο θα διαγραφεί μόνιμα από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d στοιχεία θα διαγραφούν μόνιμα από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">%d βίντεο θα διαγραφεί μόνιμα από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d βίντεο θα διαγραφούν μόνιμα από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">%d φωτογραφία ριπής θα διαγραφεί από τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">%d φωτογραφίες ριπής θα διαγραφούν από τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">Να διαγραφεί %d άλμπουμ;</item>
+        <item quantity="other">Να διαγραφούν %d άλμπουμ;</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">Να διαγραφεί %d φωτογραφία πολλαπλών λήψεων;</item>
+        <item quantity="other">Να διαγραφούν %d φωτογραφίες πολλαπλών λήψεων;</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">Θα διαγραφεί %d μνήμη από αυτή τη συσκευή. Οι φωτογραφίες σε αυτή τη μνήμη θα διατηρηθούν στην εφαρμογή \"Φωτογραφίες\".</item>
+        <item quantity="other">Θα διαγραφούν %d μνήμες από αυτή τη συσκευή. Οι φωτογραφίες σε αυτές τις μνήμες θα διατηρηθούν στην εφαρμογή \"Φωτογραφίες\".</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">Να διαγραφεί %d ανάμνηση;</item>
+        <item quantity="other">Να διαγραφούν %d αναμνήσεις;</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">Μόνιμη διαγραφή %d στοιχείου</item>
+        <item quantity="other">Μόνιμη διαγραφή %d στοιχείων</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">Διαγραφή %d στοιχείου</item>
+        <item quantity="other">Διαγραφή %d στοιχείων</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">Να διαγραφεί %d φωτογραφία;</item>
+        <item quantity="other">Να διαγραφούν %d φωτογραφίες;</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">Διαγραφή %d στοιχείου?</item>
+        <item quantity="other">Διαγραφή %d στοιχείων?</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">Να διαγραφεί %d βίντεο;</item>
+        <item quantity="other">Να διαγραφούν %d βίντεο;</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">Να διαγραφεί %d αυτοκόλλητο;</item>
+        <item quantity="other">Να διαγραφούν %d αυτοκόλλητα;</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">Διαγραφή αυτής της φωτογραφίας</item>
+        <item quantity="other">Διαγραφή αυτών των φωτογραφιών</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">Αυτό το βίντεο θα διαγραφεί μόνιμα από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+        <item quantity="other">Αυτά τα βίντεο θα διαγραφούν μόνιμα από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">Αυτό το βίντεο θα διαγραφεί μόνιμα. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+        <item quantity="other">Αυτά τα βίντεο θα διαγραφούν μόνιμα. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">Λήψη %d στοιχείου…</item>
+        <item quantity="other">Λήψη %d στοιχείων…</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">Λήψη %d φωτογραφίας...</item>
+        <item quantity="other">Λήψη %d φωτογραφιών...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">Λήψη %d βίντεο...</item>
+        <item quantity="other">Λήψη %d βίντεο...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">Να οριστεί %d αρχείο ως ιδιωτικό;</item>
+        <item quantity="other">Να οριστούν %d αρχεία ως ιδιωτικά;</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">Να οριστεί αυτή η φωτογραφία ως ιδιωτική;</item>
+        <item quantity="other">Να οριστούν αυτές οι φωτογραφίες ως ιδιωτικές;</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">Αποτυχία κρυπτογράφησης %d αρχείου</item>
+        <item quantity="other">Αποτυχία κρυπτογράφησης %d αρχείων</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">Να κλειδωθεί %d άλμπουμ;</item>
+        <item quantity="other">Να κλειδωθούν %d άλμπουμ;</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">Θα διαγραφεί %d φωτογραφία ριπής από αυτήν τη συσκευή. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d φωτογραφίες ριπής από αυτήν τη συσκευή. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">%d φωτογραφία ριπής θα διαγραφεί από τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">%d φωτογραφίες ριπής θα διαγραφούν από τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">Θα διαγραφεί %d άλμπουμ από αυτήν τη συσκευή. Τα άλμπουμ από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα άλμπουμ από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d άλμπουμ από αυτήν τη συσκευή. Τα άλμπουμ από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα άλμπουμ από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">Θα διαγραφεί %d φωτογραφία από αυτήν τη συσκευή. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d φωτογραφίες από αυτήν τη συσκευή. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">Θα διαγραφεί %d στοιχείο από αυτήν τη συσκευή. Τα στοιχεία από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες.Τα στοιχεία από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d στοιχεία από αυτήν τη συσκευή. Τα στοιχεία από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα στοιχεία από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">Θα διαγραφεί %d βίντεο από αυτήν τη συσκευή. Τα βίντεο από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα βίντεο από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d βίντεο από αυτήν τη συσκευή. Τα βίντεο από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα βίντεο από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="one">%d άλμπουμ θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα άλμπουμ από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα άλμπουμ από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">%d άλμπουμ θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα άλμπουμ από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα άλμπουμ από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d φωτογραφία θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">%d φωτογραφίες θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Οι φωτογραφίες από τις οποίες έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Οι φωτογραφίες από τις οποίες δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="one">%d στοιχείο θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες.Τα στοιχεία από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">%d στοιχεία θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα στοιχεία από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="one">%d βίντεο θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα βίντεο από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα βίντεο από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+        <item quantity="other">%d βίντεο θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα βίντεο από τα οποία έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 60 ημέρες. Τα βίντεο από τα οποία δεν έχουν δημιουργηθεί αντίγραφα ασφαλείας παραμένουν για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">Εξαγωγή %d επιλεγμένης φωτογραφίας</item>
+        <item quantity="other">Εξαγωγή %d επιλεγμένων φωτογραφιών</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">Να γίνει εξαγωγή %d φωτογραφίας;</item>
+        <item quantity="other">Να γίνει εξαγωγή %d φωτογραφιών;</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">Αποτυχία προσθήκης %1$d στοιχείου στα αγαπημένα. Επαναλάβετε.</item>
+        <item quantity="other">Αποτυχία προσθήκης %1$d στοιχείων στα αγαπημένα. Επαναλάβετε.</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">Μέγεθος αρχείου: %1$s. Εκτιμώμενος χρόνος λήψης: %2$s λεπτό.</item>
+        <item quantity="other">Μέγεθος αρχείου: %1$s. Εκτιμώμενος χρόνος λήψης: %2$s λεπτά.</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">Χρήση μικρογραφίας</item>
+        <item quantity="other">Χρήση μικρογραφιών</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">Χρήση πρωτότυπης</item>
+        <item quantity="other">Χρήση πρωτότυπων</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">"1 φωτογραφία είναι μικρογραφία. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση της πρωτότυπης φωτογραφίας."</item>
+        <item quantity="other">"Ορισμένες από τις επιλεγμένες φωτογραφίες είναι μικρογραφίες. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση των πρωτότυπων φωτογραφιών."</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">Βρέθηκε %s φωτογραφία. Μεταφέρετέ τις στη «Θήκη καρτών» για ευκολότερη πρόσβαση.</item>
+        <item quantity="other">Βρέθηκαν %s φωτογραφίες. Μεταφέρετέ τις στη «Θήκη καρτών» για ευκολότερη πρόσβαση.</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">Μεταφέρθηκε %1$s φωτογραφία στη «Θήκη καρτών»</item>
+        <item quantity="other">Μεταφέρθηκαν %1$s φωτογραφίες στη «Θήκη καρτών»</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">%1$d εισιτήριο/απόδειξη</item>
+        <item quantity="other">%1$d εισιτήρια/αποδείξεις</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">Το επιλεγμένο στοιχείο υπάρχει ήδη στο άλμπουμ</item>
+        <item quantity="other">Τα επιλεγμένα στοιχεία υπάρχουν ήδη στο άλμπουμ</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d στοιχείο</item>
+        <item quantity="other">%d στοιχεία</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">%1$d άτομο θα συγχωνευθεί και θα αφαιρεθεί από το \"%2$s\".</item>
+        <item quantity="other">%1$d άτομα θα συγχωνευθούν και θα αφαιρεθούν από το \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">Γίνεται φόρτωση %d φωτογραφίας και δεν είναι δυνατή η μεταφορά της</item>
+        <item quantity="other">Γίνεται φόρτωση %d φωτογραφιών και δεν είναι δυνατή η μεταφορά τους</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">Μετακινήθηκε %d στοιχείο</item>
+        <item quantity="other">Μετακινήθηκαν %d στοιχεία</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one">%1$d άτομα</item>
+        <item quantity="other">%1$d άτομα</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">Λήψη της πρωτότυπης φωτογραφίας...</item>
+        <item quantity="other">Λήψη των πρωτότυπων φωτογραφιών...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">Η φωτογραφία αντιγράφηκε. Τα βίντεο δεν μπορούν να αντιγραφούν σε αυτό το άλμπουμ.</item>
+        <item quantity="other">Αντιγράφηκαν φωτογραφίες. Τα βίντεο δεν μπορούν να αντιγραφούν σε αυτό το άλμπουμ.</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">Μεταφέρθηκε φωτογραφία. Δεν μπορούν να μεταφερθούν βίντεο σε αυτό το άλμπουμ.</item>
+        <item quantity="other">Μεταφέρθηκαν φωτογραφίες. Δεν μπορούν να μεταφερθούν βίντεο σε αυτό το άλμπουμ.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">Θα διαγραφεί %d άλμπουμ από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d άλμπουμ από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">Θα διαγραφεί %d φωτογραφία από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d φωτογραφίες από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">Θα διαγραφεί %d στοιχείο από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d στοιχεία από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">Θα διαγραφεί %d βίντεο από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">Θα διαγραφούν %d βίντεο από αυτήν τη συσκευή. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">Αυτή η φωτογραφία θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+        <item quantity="other">Αυτές οι φωτογραφίες θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">Αυτή η φωτογραφία θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">Αυτές οι φωτογραφίες θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">Αυτό το άλμπουμ θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+        <item quantity="other">Αυτά τα άλμπουμ θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">Αυτό το άλμπουμ θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">Αυτά τα άλμπουμ θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">Αυτό το στοιχείο θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+        <item quantity="other">Αυτά τα στοιχεία θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">Αυτό το στοιχείο θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">Αυτά τα στοιχεία θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">%d άλμπουμ θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">%d άλμπουμ θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">%d άλμπουμ θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d άλμπουμ θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">%d φωτογραφία ριπής θα διαγραφεί από τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d φωτογραφίες ριπής θα διαγραφούν από τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">%d φωτογραφία θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">%d φωτογραφίες θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">%d φωτογραφία θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d φωτογραφίες θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">%d στοιχείο θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">%d στοιχεία θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">%d στοιχείο θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d στοιχεία θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">%d βίντεο θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+        <item quantity="other">%d βίντεο θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα στοιχεία που έχουν διαγραφεί παραμένουν στον φάκελο \"Διαγράφηκαν πρόσφατα\" για 30 ημέρες.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">%d βίντεο θα διαγραφεί από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">%d βίντεο θα διαγραφούν από αυτήν τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">Αυτό το βίντεο θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+        <item quantity="other">Αυτά τα βίντεο θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές. Τα διαγραμμένα στοιχεία ανακτώνται από το άλμπουμ \"Διαγράφηκαν πρόσφατα\" εντός 30 ημερών.</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">Αυτό το βίντεο θα διαγραφεί από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+        <item quantity="other">Αυτά τα βίντεο θα διαγραφούν από αυτή τη συσκευή, το Cloud και άλλες συγχρονισμένες συσκευές.</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">Να γίνει αποκατάσταση %d φωτογραφίας;</item>
+        <item quantity="other">Να γίνει αποκατάσταση %d φωτογραφιών;</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">Να γίνει αποκατάσταση %d στοιχείου;</item>
+        <item quantity="other">Να γίνει αποκατάσταση %d στοιχείων;</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">Να γίνει αποκατάσταση %d βίντεο;</item>
+        <item quantity="other">Να γίνει αποκατάσταση %d βίντεο;</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">Αποκατάσταση %d στοιχείου</item>
+        <item quantity="other">Αποκατάσταση %d στοιχείων</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">Αποτυχία αποθήκευσης %d βίντεο</item>
+        <item quantity="other">Αποτυχία αποθήκευσης %d βίντεο</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">%d βίντεο αποθηκευμένο</item>
+        <item quantity="other">%d βίντεο αποθηκευμένα</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">Χρήση μικρογραφίας</item>
+        <item quantity="other">Χρήση μικρογραφιών</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">Χρήση πρωτότυπης</item>
+        <item quantity="other">Χρήση πρωτότυπων</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">"1 φωτογραφία είναι μικρογραφία. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση της πρωτότυπης φωτογραφίας."</item>
+        <item quantity="other">"Ορισμένες από τις επιλεγμένες φωτογραφίες είναι μικρογραφίες. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση των πρωτότυπων φωτογραφιών."</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">Προεπισκόπηση επιλεγμένου στοιχείου (%1$d)</item>
+        <item quantity="other">Προεπισκόπηση επιλεγμένων στοιχείων (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">Επιλογή 1-%1$d φωτογραφίας</item>
+        <item quantity="other">Επιλογή 1–%1$d φωτογραφιών</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">Χρήση μικρογραφίας</item>
+        <item quantity="other">Χρήση μικρογραφιών</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">Χρήση πρωτότυπης</item>
+        <item quantity="other">Χρήση πρωτότυπων</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">"1 φωτογραφία είναι μικρογραφία. Αντ' αυτού, μπορείτε να κάνετε λήψη και χρήση της πρωτότυπης φωτογραφίας."</item>
+        <item quantity="other">"Ορισμένες από τις επιλεγμένες φωτογραφίες είναι μικρογραφίες. Αντ' αυτού, μπορείτε να κάνετε λήψη και κοινή χρήση των πρωτότυπων φωτογραφιών."</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">%1$d φωτογραφία θα διαγραφεί από το κοινόχρηστο άλμπουμ \"%2$s\".</item>
+        <item quantity="other">%1$d φωτογραφίες θα διαγραφούν από το κοινόχρηστο άλμπουμ \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">%1$d στοιχείο θα διαγραφεί από το κοινόχρηστο άλμπουμ \"%2$s\".</item>
+        <item quantity="other">%1$d στοιχεία θα διαγραφούν από το κοινόχρηστο άλμπουμ \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">%1$d βίντεο θα διαγραφεί από το κοινόχρηστο άλμπουμ \"%2$s\".</item>
+        <item quantity="other">%1$d βίντεο θα διαγραφούν από το κοινόχρηστο άλμπουμ \"%2$s\".</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="one">Διαγραφή %1$d στοιχείου</item>
+        <item quantity="other">Διαγραφή %1$d στοιχείων</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="one">Απέτυχε η λήψη %1$d στοιχείου λόγω περιορισμένου χώρου αποθήκευσης συσκευής.</item>
+        <item quantity="other">Απέτυχε η λήψη %1$d στοιχείων λόγω περιορισμένου χώρου αποθήκευσης συσκευής.</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">Απέμεινε %1$d στοιχείο (%2$s). Να συνεχιστεί η λήψη μέσω δεδομένων κινητής τηλεφωνίας;</item>
+        <item quantity="other">Απέμειναν %1$d (%2$s) στοιχεία. Να συνεχιστεί η λήψη μέσω δεδομένων κινητής τηλεφωνίας;</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="one">Σφάλμα δικτύου. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα δικτύου. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">Μπορεί να αποθηκεύεται έως και %d κινούμενη φωτογραφία ως βίντεο τη φορά</item>
+        <item quantity="other">Μπορούν να αποθηκεύονται έως και %d κινούμενες φωτογραφίες ως βίντεο τη φορά</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$d Φωτογραφία</item>
+        <item quantity="other">%1$d Φωτογραφίες</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$dΒίντεο</item>
+        <item quantity="other">%1$d Βίντεο</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">Επιλέχθηκε %1$d στοιχείο</item>
+        <item quantity="other">Επιλέχθηκαν %1$d στοιχεία</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d στοιχείο</item>
+        <item quantity="other">%1$d στοιχεία</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">Αποτυχία αφαίρεσης %1$d στοιχείου από τα αγαπημένα. Επαναλάβετε.</item>
+        <item quantity="other">Αποτυχία αφαίρεσης %1$d στοιχείων από τα αγαπημένα. Επαναλάβετε.</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">Σχεδιάστε ένα απλό αντικείμενο και κυκλώστε το για να δημιουργήσετε ένα έργο τέχνης. Όριο χρήσης: %1$d φορά την ημέρα.</item>
+        <item quantity="other">Σχεδιάστε ένα απλό αντικείμενο και κυκλώστε το για να δημιουργήσετε ένα έργο τέχνης. Όριο χρήσης: %1$d φορές την ημέρα.</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">Αποτυχία αποθήκευσης %d κινούμενου αυτοκόλλητου</item>
+        <item quantity="other">Αποτυχία αποθήκευσης %d κινούμενων αυτοκόλλητων</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">Μπορείτε να επιλέξετε 1–%1$d ακόμα φωτογραφία</item>
+        <item quantity="other">Μπορείτε να επιλέξετε 1–%1$d ακόμα φωτογραφίες</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">Μπορείτε να επιλέξετε 1-%1$d ακόμη φωτογραφίες (%2$s)</item>
+        <item quantity="other">Μπορείτε να επιλέξετε 1-%1$d ακόμη φωτογραφίες (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">συμπεριλαμβανομένης %d κινούμενης φωτογραφίας</item>
+        <item quantity="other">συμπεριλαμβανομένων %d κινούμενων φωτογραφιών</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">Λήψη πρωτότυπης φωτογρ.</item>
+        <item quantity="other">Λήψη πρωτότυπων φωτογρ.</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d φωτογραφία στη συσκευή σας είναι μικρότερης έκδοσης. Να γίνει λήψη της πρωτότυπης φωτογραφίας πλήρους ανάλυσης (%2$s);</item>
+        <item quantity="other">%1$d φωτογραφίες στη συσκευή σας είναι μικρότερης έκδοσης. Να γίνει λήψη των πρωτότυπων φωτογραφιών πλήρους ανάλυσης (%2$s);</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">Λήψη %1$d πρωτότυπης φωτογραφίας...</item>
+        <item quantity="other">Λήψη %1$d πρωτότυπων φωτογραφιών...</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d φωτογραφία</item>
+        <item quantity="other">%1$d φωτογραφιών</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">Δεν έγινε λήψη %1$d πρωτότυπης φωτογραφίας. Ανεπαρκής χώρος αποθήκευσης συσκευής.</item>
+        <item quantity="other">Δεν έγινε λήψη %1$d πρωτότυπων φωτογραφιών. Ανεπαρκής χώρος αποθήκευσης συσκευής.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">Δεν έγινε λήψη %1$d στοιχείου. Ανεπαρκής χώρος αποθήκευσης συσκευής.</item>
+        <item quantity="other">Δεν έγινε λήψη %1$d στοιχείων. Ανεπαρκής χώρος αποθήκευσης συσκευής.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">Αποστολή σε παύση για %1$d στοιχείο. Δεν υπάρχει σύνδεση Internet.</item>
+        <item quantity="other">Αποστολή σε παύση για %1$d στοιχεία. Δεν υπάρχει σύνδεση Internet.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">Αποστολή σε παύση για %1$d στοιχείο. Δεν έγινε σύνδεση σε Wi-Fi.</item>
+        <item quantity="other">Αποστολή σε παύση για %1$d στοιχεία. Δεν έγινε σύνδεση σε Wi-Fi.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">Αποστολή %1$d στοιχείου που είναι σε παύση για εξοικονόμηση μπαταρίας.</item>
+        <item quantity="other">Αποστολή %1$d στοιχείων που είναι σε παύση για εξοικονόμηση μπαταρίας.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">Αποστολή σε παύση για %1$d στοιχείο. Το τηλέφωνο είναι πολύ ζεστό.</item>
+        <item quantity="other">Αποστολή σε παύση για %1$d στοιχεία. Το τηλέφωνο είναι πολύ ζεστό.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">Αποστολή σε παύση για %1$d στοιχείο. Cloud υπό συντήρηση.</item>
+        <item quantity="other">Αποστολή σε παύση για %1$d στοιχεία. Cloud υπό συντήρηση.</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">Αποστολή σε παύση για %1$d στοιχείο. Το tablet είναι πολύ ζεστό.</item>
+        <item quantity="other">Αποστολή σε παύση για %1$d στοιχεία. Το tablet είναι πολύ ζεστό.</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="one">Συγχρονισμός %1$d στοιχείου από το Cloud</item>
+        <item quantity="other">Συγχρονισμός %1$d στοιχείων από το Cloud</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d φωτογραφία</item>
+        <item quantity="other">%1$d φωτογραφίες</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$dΒίντεο</item>
+        <item quantity="other">%1$d Βίντεο</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείου.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείου. Φορτίστε το τηλέφωνό σας.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείων. Φορτίστε το τηλέφωνό σας.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείου. Συνδέστε την τροφοδοσία για να συνεχίσετε.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείων. Συνδέστε την τροφοδοσία για να συνεχίσετε.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείου.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε λήψη %2$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείου. %2$s.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείων. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείου. %2$s ή %3$s.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείων. %2$s ή %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">Ανεπαρκής χώρος αποθήκευσης στο Cloud. Δεν έγινε λήψη %1$d στοιχείων.</item>
+        <item quantity="other">Ανεπαρκής χώρος αποθήκευσης στο Cloud. Δεν έγινε λήψη %1$d στοιχείου.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">Ανεπαρκής χώρος αποθήκευσης στη συσκευή. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Ανεπαρκής χώρος αποθήκευσης στη συσκευή. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">Σφάλμα δικτύου. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα δικτύου. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">Σφάλμα δικτύου. Δεν έγινε λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα δικτύου. Δεν έγινε λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">Ανεπαρκής χώρος αποθήκευσης στη συσκευή. Δεν έγινε λήψη %1$d πρωτότυπης φωτογραφίας.</item>
+        <item quantity="other">Ανεπαρκής χώρος αποθήκευσης στη συσκευή. Δεν έγινε λήψη %1$d πρωτότυπων φωτογραφιών.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d φωτογραφία. Ο χώρος αποθήκευσης στο διαδικτυακό νέφος είναι πλήρης.</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d φωτογραφίες. Ο χώρος αποθήκευσης στο διαδικτυακό νέφος είναι πλήρης.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d φωτογραφία. Γίνεται παύση του συγχρονισμού στο διαδικτυακό νέφος όταν η στάθμη της μπαταρίας είναι κάτω από %2$s.</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d φωτογραφίες. Γίνεται παύση του συγχρονισμού στο διαδικτυακό νέφος όταν η στάθμη της μπαταρίας είναι κάτω από %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d φωτογραφία. Στη λειτουργία εξοικονόμησης ενέργειας γίνεται παύση του συγχρονισμού cloud.</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d φωτογραφίες. Στη λειτουργία εξοικονόμησης ενέργειας γίνεται παύση του συγχρονισμού cloud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">Χώρος αποθήκευσης στο Cloud πλήρης. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Χώρος αποθήκευσης στο Cloud πλήρης. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείου.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείου. Φορτίστε το τηλέφωνό σας.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείων. Φορτίστε το τηλέφωνό σας.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείου. Συνδέστε την τροφοδοσία για να συνεχίσετε.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείων. Συνδέστε την τροφοδοσία για να συνεχίσετε.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείου.</item>
+        <item quantity="other">Στάθμη μπαταρίας χαμηλότερη από %1$s. Δεν έγινε αποστολή %2$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Λειτουργία εξοικονόμησης ενέργειας ενεργή. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">Χώρος αποθήκευσης στο Cloud πλήρης. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Χώρος αποθήκευσης στο Cloud πλήρης. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d βίντεο. Ο χώρος αποθήκευσης στο διαδικτυακό νέφος είναι πλήρης.</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d βίντεο. Ο χώρος αποθήκευσης στο διαδικτυακό νέφος είναι πλήρης.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d βίντεο. Γίνεται παύση του συγχρονισμού στο διαδικτυακό νέφος όταν η στάθμη της μπαταρίας είναι κάτω από %2$s.</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d βίντεο. Γίνεται παύση του συγχρονισμού στο διαδικτυακό νέφος όταν η στάθμη της μπαταρίας είναι κάτω από %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d βίντεο. Στη λειτουργία εξοικονόμησης ενέργειας γίνεται παύση του συγχρονισμού cloud.</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d βίντεο. Στη λειτουργία εξοικονόμησης ενέργειας γίνεται παύση του συγχρονισμού cloud.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">Δεν έχουν συγχρονιστεί %1$d φωτογραφίες.</item>
+        <item quantity="other">Δεν έχει συγχρονιστεί %1$d φωτογραφία.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείου.%2$s.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείων. %2$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείου. %2$s ή %3$s.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείων. %2$s ή %3$s.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Δεν υπάρχει σύνδεση δικτύου. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">Δεν έχει συγχρονιστεί %1$d βίντεο</item>
+        <item quantity="other">Δεν έχουν συγχρονιστεί %1$d βίντεο</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">Σφάλμα δικτύου. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα δικτύου. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">Η σύνδεση δικτύου διακόπηκε. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα δικτύου. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">Σφάλμα υπηρεσίας. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα υπηρεσίας. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one">Σφάλμα υπηρεσίας. Δεν έγινε αποστολή %1$d στοιχείου.</item>
+        <item quantity="other">Σφάλμα υπηρεσίας. Δεν έγινε αποστολή %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">Γίνεται συγχρονισμός %1$d στοιχείου</item>
+        <item quantity="other">Γίνεται συγχρονισμός %1$d στοιχείων</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">Συγχρονισμός %1$d στοιχείου στο Cloud...</item>
+        <item quantity="other">Συγχρονισμός %1$d στοιχείων στο Cloud...</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">%1$d βίντεο</item>
+        <item quantity="other">%1$d βίντεο</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">Ορισμένες πλατφόρμες ενδέχεται να μην υποστηρίζουν κινούμενες φωτογραφίες που διαρκούν περισσότερο από %d δευτερόλεπτο</item>
+        <item quantity="other">Ορισμένες πλατφόρμες ενδέχεται να μην υποστηρίζουν κινούμενες φωτογραφίες που διαρκούν περισσότερο από %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">Μπορείτε να χρησιμοποιήσετε την Ανάδειξη θέματος σε %1$d κινούμενη φωτογραφία κάθε φορά</item>
+        <item quantity="other">Μπορείτε να χρησιμοποιήσετε την Ανάδειξη θέματος σε έως και %1$d κινούμενες φωτογραφίες κάθε φορά</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">Δεν υποστηρίζονται κινούμενες φωτογραφίες μεγαλύτερες από %1$d δευτερόλεπτο</item>
+        <item quantity="other">Δεν υποστηρίζονται κινούμενες φωτογραφίες μεγαλύτερες από %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">Δεν μπορεί να σταλεί πάνω από %d στοιχείο μεταφερμένο τη φορά</item>
+        <item quantity="other">Δεν μπορούν να σταλούν πάνω από %d στοιχεία μεταφερμένα τη φορά</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">Αποτυχία προσθήκης %d στοιχείου</item>
+        <item quantity="other">Αποτυχία προσθήκης %d στοιχείων</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">Φορτώνει %d φωτογραφία και δεν μπορεί να οριστεί ως ιδιωτική.</item>
+        <item quantity="other">Φορτώνουν %d φωτογραφίες και δεν μπορούν να οριστούν ως ιδιωτικές.</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d στοιχείο</item>
+        <item quantity="other">%d στοιχεία</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">%d στοιχείο δεν μπορεί να εισαχθεί για επεξεργασία βίντεο</item>
+        <item quantity="other">%d στοιχεία δεν μπορούν να εισαχθούν για επεξεργασία βίντεο</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Σελίδα %1$d από %2$d</item>
+        <item quantity="other">Σελίδα %1$d από %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">Μην επιλέξετε πάνω από %1$d φωτογραφία για ένα GIF</item>
+        <item quantity="other">Μην επιλέξετε πάνω από %1$d φωτογραφίες για ένα GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">Υποστηρίζονται μόνο κινούμενες φωτογραφίες έως %1$d δευτερόλεπτο</item>
+        <item quantity="other">Υποστηρίζονται μόνο κινούμενες φωτογραφίες έως %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">Επιλέξτε τουλάχιστον %1$d φωτογραφία για τη δημιουργία ενός GIF</item>
+        <item quantity="other">Επιλέξτε τουλάχιστον %1$d φωτογραφίες για τη δημιουργία ενός GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">Μην επιλέξετε πάνω από %1$d φωτογραφία για ένα GIF</item>
+        <item quantity="other">Μην επιλέξετε πάνω από %1$d φωτογραφίες για ένα GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">Μόνο %1$d φωτογραφία πληροί τις απαιτήσεις μορφής</item>
+        <item quantity="other">Μόνο %1$d φωτογραφίες πληρούν τις απαιτήσεις μορφής</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">%1$d φωτογραφία δεν θα περιληφθεί στο GIF</item>
+        <item quantity="other">%1$d φωτογραφίες δεν θα περιληφθούν στο GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">Δεν υποστηρίζεται %1$d φωτογραφία</item>
+        <item quantity="other">Δεν υποστηρίζονται %1$d φωτογραφίες</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">Φόρτωση %1$s στοιχείου από \"Φωτογραφίες Google\"…</item>
+        <item quantity="other">Φόρτωση %1$s στοιχείων από \"Φωτογραφίες Google\"…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">Ανεπαρκής χώρος αποθήκευσης στην εφαρμογή \"Φωτογραφίες Google\". Δεν δημιουργήθηκε αντίγραφο ασφαλείας για %1$d στοιχείο.</item>
+        <item quantity="other">Ανεπαρκής χώρος αποθήκευσης στην εφαρμογή \"Φωτογραφίες Google\". Δεν δημιουργήθηκε αντίγραφο ασφαλείας για %1$d στοιχεία.</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">Δημιουργία αντιγράφου ασφαλείας για %1$s στοιχείο στην εφαρμογή \"Φωτογραφίες Google\"…</item>
+        <item quantity="other">Δημιουργία αντιγράφου ασφαλείας για %1$s στοιχείων στην εφαρμογή \"Φωτογραφίες Google\"…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">Το στοιχείο %1$d συγχρονίζεται με το HeyTap Cloud. Με την απενεργοποίησή του, θα ακυρωθεί ο αυτόματος συγχρονισμός. Για να διατηρήσετε τα δεδομένα σας ασφαλή, συνιστάται να περιμένετε μέχρι να ολοκληρωθεί ο συγχρονισμός.</item>
+        <item quantity="other">Τα στοιχεία %1$d συγχρονίζονται με το HeyTap Cloud. Με την απενεργοποίησή του, θα ακυρωθεί ο αυτόματος συγχρονισμός. Για να διατηρήσετε τα δεδομένα σας ασφαλή, συνιστάται να περιμένετε μέχρι να ολοκληρωθεί ο συγχρονισμός.</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">Μόνο %d άλμπουμ μπορεί να προστεθεί στα «Συχνά χρησιμοποιούμενα»</item>
+        <item quantity="other">Έως %d άλμπουμ στα «Συχνά χρησιμοποιούμενα»</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">Βρέθηκε %1$d συσκευή</item>
+        <item quantity="other">Βρέθηκαν %1$d συσκευές</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d ημέρα</item>
+        <item quantity="other">%1$d ημέρες</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$d Φωτογραφία</item>
+        <item quantity="other">%1$d Φωτογραφίες</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$dΒίντεο</item>
+        <item quantity="other">%1$d Βίντεο</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">Μπορεί να επιλεγεί μόνο %1$d αυτοκόλλητο</item>
+        <item quantity="other">Μπορούν να επιλεγούν μόνο %1$d αυτοκόλλητα</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">Διαγραφή %1$d στοιχείου από το NAS</item>
+        <item quantity="other">Διαγραφή %1$d στοιχείων από το NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">Η λήψη ολοκληρώθηκε. Απέτυχε η λήψη %1$d στοιχείου.</item>
+        <item quantity="other">Η λήψη ολοκληρώθηκε. Απέτυχε η λήψη %1$d στοιχείων.</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">Λήφθηκε %1$d στοιχείο.</item>
+        <item quantity="other">Λήφθηκαν %1$d στοιχεία.</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">Πραγματοποιείται %1$d λήψη από %2$d...</item>
+        <item quantity="other">Πραγματοποιείται %1$d λήψη από %2$d...</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">Πώς θα θέλατε να επεξεργαστείτε την επιλεγμένη περιοχή;</item>
+        <item quantity="other">Πώς θα θέλατε να επεξεργαστείτε τις επιλεγμένες περιοχές;</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">Μπορείτε να προσθέσετε έως και %d αυτοκόλλητο</item>
+        <item quantity="other">Μπορείτε να προσθέσετε έως και %d αυτοκόλλητα</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">Στα Αυτοκόλλητα, μπορείτε να προσθέσετε μόνο %d κινούμενο αυτοκόλλητο. Τα επιπλέον αυτοκόλλητα θα μετατραπούν σε στατικά αυτοκόλλητα.</item>
+        <item quantity="other">Στα Αυτοκόλλητα, μπορείτε να προσθέσετε έως και %d κινούμενα αυτοκόλλητα. Τα επιπλέον αυτοκόλλητα θα γίνουν στατικά.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">Η επεξεργασμένη έκδοση έχει διάρκεια %d δευτερόλεπτο, για να μπορείτε να τη μοιραστείτε εύκολα.</item>
+        <item quantity="other">Η επεξεργασμένη έκδοση έχει διάρκεια %d δευτερόλεπτα, για να μπορείτε να τη μοιραστείτε εύκολα.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">Τα αυτοκόλλητα μπορούν να έχουν διάρκεια έως και %d δευτερόλεπτο</item>
+        <item quantity="other">Τα αυτοκόλλητα μπορούν να έχουν διάρκεια έως και %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">Τα αυτοκόλλητα μπορούν να έχουν διάρκεια %d δευτερολέπτου μόνο.</item>
+        <item quantity="other">Τα αυτοκόλλητα μπορούν να έχουν διάρκεια έως και %d δευτερόλεπτα.</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">Τα βίντεο μπορούν να έχουν διάρκεια έως και %d δευτερόλεπτο</item>
+        <item quantity="other">Τα βίντεο μπορούν να έχουν διάρκεια έως και %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">Περιγράψτε τι θέλετε να αλλάξετε στην επιλεγμένη περιοχή</item>
+        <item quantity="other">Περιγράψτε τι θέλετε να αλλάξετε στις επιλεγμένες περιοχές</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">Η εγγραφή σταματά σε %1$d δευτερόλεπτο</item>
+        <item quantity="other">Η εγγραφή σταματά σε %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">Μπορείτε να επιλέξετε έως και %1$d περιοχή</item>
+        <item quantity="other">Μπορείτε να επιλέξετε έως και %1$d περιοχές</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">Υποστηρίζονται μόνο κινούμενες φωτογραφίες έως %1$d δευτερόλεπτο</item>
+        <item quantity="other">Υποστηρίζονται μόνο κινούμενες φωτογραφίες έως %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">Ο αναμενόμενος χρόνος αναμονής είναι %1$d λεπτό λόγω του μεγάλου μεγέθους του αρχείου</item>
+        <item quantity="other">Ο αναμενόμενος χρόνος αναμονής είναι %1$d λεπτά λόγω του μεγάλου μεγέθους του αρχείου</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">Εξαγωγή %d επιλεγμένης φωτογραφίας</item>
+        <item quantity="other">Εξαγωγή %d επιλεγμένων φωτογραφιών</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">Πρέπει να είναι μεγαλύτερο από %1$d mm</item>
+        <item quantity="other">Πρέπει να είναι μεγαλύτερο από %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">Πρέπει να είναι μεγαλύτερο από %1$d px</item>
+        <item quantity="other">Πρέπει να είναι μεγαλύτερο από %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">Πρέπει να είναι μικρότερο από %1$d mm</item>
+        <item quantity="other">Πρέπει να είναι μικρότερο από %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">Πρέπει να είναι μικρότερο από %1$d px</item>
+        <item quantity="other">Πρέπει να είναι μικρότερο από %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">Πρέπει να είναι μεγαλύτερο από %1$d KB</item>
+        <item quantity="other">Πρέπει να είναι μεγαλύτερο από %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">Πρέπει να είναι μικρότερο από %1$d KB</item>
+        <item quantity="other">Πρέπει να είναι μικρότερο από %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">Πρέπει να είναι μεγαλύτερο από %1$d mm</item>
+        <item quantity="other">Πρέπει να είναι μεγαλύτερο από %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">Πρέπει να είναι μεγαλύτερο από %1$d px</item>
+        <item quantity="other">Πρέπει να είναι μεγαλύτερο από %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">Πρέπει να είναι μικρότερο από %1$d mm</item>
+        <item quantity="other">Πρέπει να είναι μικρότερο από %1$d mm</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">Πρέπει να είναι μικρότερο από %1$d px</item>
+        <item quantity="other">Πρέπει να είναι μικρότερο από %1$d px</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">Διατήρηση της %d επιλεγμένης φωτογραφίας μόνο</item>
+        <item quantity="other">Διατήρηση των %d επιλεγμένων φωτογραφιών μόνο</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">Διαγραφή %d στοιχείου</item>
+        <item quantity="other">Διαγραφή %d στοιχείων</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">Διαγραφή %d στοιχείου</item>
+        <item quantity="other">Διαγραφή %d στοιχείων</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">Η προσθήκη %1$d αυτοκόλλητου απέτυχε</item>
+        <item quantity="other">Η προσθήκη %1$d αυτοκόλλητων απέτυχε</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">Η προσθήκη %d αυτοκόλλητου απέτυχε</item>
+        <item quantity="other">Η προσθήκη %d αυτοκόλλητων απέτυχε</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">Προστέθηκε %1$s αυτοκόλλητο</item>
+        <item quantity="other">Προστέθηκαν %1$s αυτοκόλλητα</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">Προστέθηκε %1$s αυτοκόλλητο</item>
+        <item quantity="other">Προστέθηκαν %1$s αυτοκόλλητα</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">Προστέθηκε %1$d αυτοκόλλητο</item>
+        <item quantity="other">Προστέθηκαν %1$d αυτοκόλλητα</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">Στο Διασκευασμένο κολάζ AI, μπορείτε να προσθέσετε έως και %1$d κινούμενο αυτοκόλλητο. Τα επιπλέον αυτοκόλλητα θα γίνουν στατικά.</item>
+        <item quantity="other">Στο Διασκευασμένο κολάζ AI, μπορείτε να προσθέσετε έως και %1$d κινούμενα αυτοκόλλητα. Τα επιπλέον αυτοκόλλητα θα γίνουν στατικά.</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">Μπορείτε να προσθέσετε έως και %1$d κινούμενη φωτογραφία</item>
+        <item quantity="other">Μπορείτε να προσθέσετε έως και %1$d κινούμενες φωτογραφίες</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">Μπορείτε να προσθέσετε έως και %1$d φωτογραφία</item>
+        <item quantity="other">Μπορείτε να προσθέσετε έως και %1$d φωτογραφίες</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">Για να αφαιρέσετε αντικείμενα από τις φωτογραφίες σας, εκτελέστε λήψη της προσθήκης \"Αφαίρεση\". Μέγεθος αρχείου: %1$s. Εκτιμώμενος χρόνος για λήψη: %2$d λεπτά.</item>
+        <item quantity="other">Για να αφαιρέσετε αντικείμενα από τις φωτογραφίες σας, εκτελέστε λήψη της προσθήκης \"Αφαίρεση\". Μέγεθος αρχείου: %1$s. Εκτιμώμενος χρόνος για λήψη: %2$d λεπτά.</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">Μέγεθος αρχείου: %1$d. Εκτιμώμενος χρόνος λήψης: %2$d.</item>
+        <item quantity="other">Μέγεθος αρχείου: %1$d. Εκτιμώμενος χρόνος λήψης: %2$d.</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">Δεν υποστηρίζεται %1$d φωτογραφία</item>
+        <item quantity="other">Δεν υποστηρίζονται %1$d φωτογραφίες</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">Επιλέχθηκε %1$d/%2$d</item>
+        <item quantity="other">Επιλέχθηκαν %1$d/%2$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">Επιλέχθηκε %1$d στοιχείο</item>
+        <item quantity="other">Επιλέχθηκαν %1$d στοιχεία</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">Επιλ. %1$d άλμπουμ</item>
+        <item quantity="other">Επιλ. %1$d άλμπουμ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">Επιλέχθηκε %1$d στοιχείο</item>
+        <item quantity="other">Επιλέχθηκαν %1$d στοιχεία</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">Επιλέχθηκε %1$d βίντεο</item>
+        <item quantity="other">Επιλ. %1$d βίντεο</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">Δεν μπορεί να προστεθεί πάνω από %1$d αυτοκόλλητο</item>
+        <item quantity="other">Δεν μπορούν να προστεθούν πάνω από %1$d αυτοκόλλητα</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">Μπορεί να επιλεγεί μόνο %1$d στοιχείο</item>
+        <item quantity="other">Μπορούν να επιλεγούν έως και %1$d στοιχεία</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">Φορτώνει %d φωτογραφία και δεν μπορεί να διαγραφεί.</item>
+        <item quantity="other">Φορτώνουν %d φωτογραφίες και δεν μπορούν να διαγραφούν.</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">Αποτυχία διαγραφής %1$d στοιχείου. Προσπαθήστε ξανά.</item>
+        <item quantity="other">Αποτυχία διαγραφής %1$d στοιχείων. Προσπαθήστε ξανά.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d νέα γνωστοποίηση</item>
+        <item quantity="other">%d νέες γνωστοποιήσεις</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">Αφαίρεση %d θέματος;</item>
+        <item quantity="other">Αφαίρεση %d θεμάτων;</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d φωτογραφία</item>
+        <item quantity="other">%1$d Φωτογραφίες</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">Μπορείτε να προσθέσετε μόνο %1$d κινούμενο αυτοκόλλητο. Τα επιπλέον αυτοκόλλητα θα εμφανίζονται ως στατικά.</item>
+        <item quantity="other">Μπορείτε να προσθέσετε έως και %1$d κινούμενα αυτοκόλλητα. Τα επιπλέον αυτοκόλλητα θα εμφανίζονται ως στατικά.</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">Μόνο %d στοιχείο μπορεί να κοινοποιηθεί σε αυτήν την εφαρμογή</item>
+        <item quantity="other">Μπορούν να κοινοποιηθούν έως και %d στοιχεία σε αυτήν την εφαρμογή</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">Κοινή χρήση %d στοιχείου</item>
+        <item quantity="other">Κοινή χρήση %d στοιχείων</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">Κοινή χρήση %d φωτογραφίας</item>
+        <item quantity="other">Κοινή χρήση %d φωτογραφιών</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">Κοινή χρήση %d βίντεο</item>
+        <item quantity="other">Κοινή χρήση %d βίντεο</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">Διαγραφή %d στιγμής;</item>
+        <item quantity="other">Διαγραφή %d στιγμών;</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d ιστορία, επιμελημένη για εσάς.</item>
+        <item quantity="other">%d ιστορίες, επιμελημένες για εσάς.</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">Επιλέχθηκε %d</item>
+        <item quantity="other">Επιλέχθηκε %d</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">Περιστροφή %d μοίρας</item>
+        <item quantity="other">Περιστροφή %d μοιρών</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">Μπορείτε να εισαγάγετε μόνο %s αρχείο</item>
+        <item quantity="other">Μπορείτε να εισαγάγετε έως και %s αρχεία</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">Προσθήκη %1d στοιχείου</item>
+        <item quantity="other">Προσθήκη %1d στοιχείων</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">Μπορείτε να εισαγάγετε έως %s αρχείο LUT</item>
+        <item quantity="other">Μπορείτε να εισαγάγετε έως %s αρχεία LUT</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">Δεν μπορεί να προστεθεί πάνω από %d φωτογραφία</item>
+        <item quantity="other">Δεν μπορούν να προστεθούν περισσότερες από %d φωτογραφίες</item>
+    </plurals>
+</resources>

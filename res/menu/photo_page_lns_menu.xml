@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@android:id/textAssist">
+        <item android:id="@id/lns_menu_action_save" android:title="@string/common_save" />
+        <item android:id="@id/lns_menu_action_save_to_sticker" android:title="@string/photopage_lns_image_menu_save_sticker" />
+        <item android:id="@id/lns_menu_action_save_live_sticker" android:title="@string/photopage_lns_image_menu_save_olive_sticker_v2" />
+        <item android:icon="@drawable/menu_ic_sort_all" android:id="@id/lns_menu_action_select_all" android:title="@string/common_select_all" android:iconTint="@color/base_split_menu_color" />
+        <item android:icon="@drawable/ic_photo_menu_copy" android:id="@id/lns_menu_action_copy" android:title="@string/common_copy_to" android:iconTint="@color/base_split_menu_color" />
+        <item android:icon="@drawable/photopage_ic_menu_share" android:id="@id/lns_menu_action_share" android:title="@string/base_share" android:iconTint="@color/base_split_menu_color" />
+    </group>
+</menu>

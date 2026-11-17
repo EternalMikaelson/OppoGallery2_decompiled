@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/palette" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplusos.vfxsdk.doodleengine.toolkit.internal.DeToolkitCheckedImageView android:id="@id/lasso_palette_btn" android:background="@null" style="@style/DeLassoPaletteColorBtn" />
+</merge>

@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_shortcut_countted">
+        <item quantity="one">อัลบั้ม %1$1s มี %2$2s รายการ แตะเพื่อเพิ่มไปยัง \"ใช้งานบ่อย\"</item>
+        <item quantity="other">อัลบั้ม %1$1s มี %2$2s รายการ แตะเพื่อเพิ่มไปยัง \"ใช้งานบ่อย\"</item>
+    </plurals>
+    <plurals name="ai_ask_related_content">
+        <item quantity="one">%s รายการที่ตรงกัน</item>
+        <item quantity="other">%s รายการที่ตรงกัน</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_one">
+        <item quantity="one">เลือกสื่อของคุณ แล้วแตะที่หน้าต่างลอย \"ตัดคลิปอัตโนมัติด้วย AI\" ด้านล่าง เพื่อสร้างวิดีโออย่างรวดเร็ว เลือกอย่างน้อย %1$s รายการเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น</item>
+        <item quantity="other">เลือกสื่อของคุณ แล้วแตะที่หน้าต่างลอย \"ตัดคลิปอัตโนมัติด้วย AI\" ด้านล่าง เพื่อสร้างวิดีโออย่างรวดเร็ว เลือกอย่างน้อย %1$s รายการเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น</item>
+    </plurals>
+    <plurals name="ai_instant_clip_guide_two">
+        <item quantity="one">เลือกสื่อของคุณ แล้วแตะที่ \"แก้ไข - ตัดคลิปอัตโนมัติด้วย AI\" ด้านล่าง เพื่อสร้างวิดีโออย่างรวดเร็ว เลือกอย่างน้อย %1$s รายการเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น</item>
+        <item quantity="other">เลือกสื่อของคุณ แล้วแตะที่ \"แก้ไข - ตัดคลิปอัตโนมัติด้วย AI\" ด้านล่าง เพื่อสร้างวิดีโออย่างรวดเร็ว เลือกอย่างน้อย %1$s รายการเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น</item>
+    </plurals>
+    <plurals name="ai_matting_not_support_for_olive_duration_over">
+        <item quantity="one">ไม่รองรับรูปภาพเคลื่อนไหวที่นานเกิน %1$d วินาที</item>
+        <item quantity="other">ไม่รองรับรูปภาพเคลื่อนไหวที่นานเกิน %1$d วินาที</item>
+    </plurals>
+    <plurals name="ai_videoeditor_video_export_gif_limit">
+        <item quantity="one">วิดีโอต้องไม่ยาวเกินกว่า %d วินาที</item>
+        <item quantity="other">วิดีโอต้องไม่ยาวเกินกว่า %d วินาที</item>
+    </plurals>
+    <plurals name="aiaskui_app_lock_lock_app_count">
+        <item quantity="one">แอปที่ล็อกไว้ %d แอป</item>
+        <item quantity="other">แอปที่ล็อกไว้ %d แอป</item>
+    </plurals>
+    <plurals name="already_add_to_shortcut_countted">
+        <item quantity="one">อัลบั้ม %1$1s มี %2$2s รายการ เพิ่มไปยัง \"ใช้งานบ่อย\" แล้ว</item>
+        <item quantity="other">อัลบั้ม %1$1s มี %2$2s รายการ เพิ่มไปยัง \"ใช้งานบ่อย\" แล้ว</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_count">
+        <item quantity="one">เพิ่ม (%1$d)</item>
+        <item quantity="other">เพิ่ม (%1$d)</item>
+    </plurals>
+    <plurals name="base_actionbar_action_add_with_max">
+        <item quantity="one">เพิ่ม (%1$d/%2$d)</item>
+        <item quantity="other">เพิ่ม (%1$d/%2$d)</item>
+    </plurals>
+    <plurals name="base_adjust_success_batch">
+        <item quantity="one">ปรับแล้ว %1$d รายการ</item>
+        <item quantity="other">ปรับแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_append_image_filter_failed_tip">
+        <item quantity="one">กำลังโหลดรูปภาพ %d รูปและไม่สามารถเพิ่มได้</item>
+        <item quantity="other">กำลังโหลดรูปภาพ %d รูปและไม่สามารถเพิ่มได้</item>
+    </plurals>
+    <plurals name="base_archives_count">
+        <item quantity="one">เอกสาร %1$d รายการ</item>
+        <item quantity="other">เอกสาร %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_bank_card_count">
+        <item quantity="one">บัตรธนาคาร %1$d ใบ</item>
+        <item quantity="other">บัตรธนาคาร %1$d ใบ</item>
+    </plurals>
+    <plurals name="base_biz_delete_albums_items_not_backup">
+        <item quantity="one">รายการจาก %d อัลบั้มจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรายการไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+        <item quantity="other">รายการจากอัลบั้ม %d จะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรายการไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_backup">
+        <item quantity="one">รูปภาพต่อเนื่อง %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน รูปภาพต่อเนื่องทั้งหมดได้รับการสำรองข้อมูลไว้บนคลาวด์แล้วและจะยังคงอยู่ที่นั่น</item>
+        <item quantity="other">รูปภาพต่อเนื่อง %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน รูปภาพต่อเนื่องทั้งหมดได้รับการสำรองข้อมูลไว้บนคลาวด์แล้วและจะยังคงอยู่ที่นั่น</item>
+    </plurals>
+    <plurals name="base_biz_delete_cshots_not_backup">
+        <item quantity="one">รูปภาพต่อเนื่อง %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรูปภาพไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+        <item quantity="other">รูปภาพต่อเนื่อง %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรูปภาพไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+    </plurals>
+    <plurals name="base_biz_delete_items_count_not_backup">
+        <item quantity="one">%d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรายการไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+        <item quantity="other">%d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรายการไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+    </plurals>
+    <plurals name="base_biz_delete_photos_count_not_backup">
+        <item quantity="one">รูปภาพ %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรูปภาพไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+        <item quantity="other">รูปภาพ %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางรูปภาพไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+    </plurals>
+    <plurals name="base_biz_delete_videos_count_not_backup">
+        <item quantity="one">วิดีโอ %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางวิดีโอไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+        <item quantity="other">วิดีโอ %d รายการจะถูกลบออกจากอุปกรณ์นี้และยังคงอยู่ในสถานะ \"ลบเมื่อเร็วๆ นี้\" เป็นเวลา 30 วัน บางวิดีโอไม่ได้มีการสำรองข้อมูล คุณอาจต้องการสำรองข้อมูลก่อนที่จะลบออก</item>
+    </plurals>
+    <plurals name="base_biz_restoring_thumbnails">
+        <item quantity="one">ภาพย่อ %1$s รายการจะถูกแทนที่ด้วยภาพต้นฉบับ</item>
+        <item quantity="other">ภาพย่อ %1$s รายการจะถูกแทนที่ด้วยภาพต้นฉบับ</item>
+    </plurals>
+    <plurals name="base_card_case_banner_one_type_tips">
+        <item quantity="one">รูปภาพที่พบ: %s เปิดฟีเจอร์นี้เพื่อจัดระเบียบรูปภาพที่เกี่ยวข้อง คุณเปิดหรือปิดได้ทุกเมื่อในการตั้งค่า</item>
+        <item quantity="other">รูปภาพที่พบ: %s เปิดฟีเจอร์นี้เพื่อจัดระเบียบรูปภาพที่เกี่ยวข้อง คุณเปิดหรือปิดได้ทุกเมื่อในการตั้งค่า</item>
+    </plurals>
+    <plurals name="base_certificate_count">
+        <item quantity="one">บัตรประจำตัว %1$d ใบ</item>
+        <item quantity="other">บัตรประจำตัว %1$d ใบ</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection">
+        <item quantity="one">รวมและลบ %d คนใช่หรือไม่</item>
+        <item quantity="other">รวมและลบ %d คนใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_characters_merge_selection_photo">
+        <item quantity="one">ลบ %d รูปภาพออกจากอัลบั้มนี้ใช่หรือไม่</item>
+        <item quantity="other">ลบ %d รูปภาพออกจากอัลบั้มนี้ใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_project">
+        <item quantity="one">ลบ %d รายการออกจากอัลบั้มนี้หรือไม่</item>
+        <item quantity="other">ลบ %d รายการออกจากอัลบั้มนี้หรือไม่</item>
+    </plurals>
+    <plurals name="base_characters_move_selection_video">
+        <item quantity="one">ลบ %d วิดีโอออกจากอัลบั้มนี้ใช่หรือไม่</item>
+        <item quantity="other">ลบ %d วิดีโอออกจากอัลบั้มนี้ใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_no">
+        <item quantity="one">ใช้รูปภาพขนาดย่อ</item>
+        <item quantity="other">ใช้รูปภาพขนาดย่อ</item>
+    </plurals>
+    <plurals name="base_collage_download_original_choice_yes">
+        <item quantity="one">ใช้ต้นฉบับ</item>
+        <item quantity="other">ใช้รูปภาพต้นฉบับ</item>
+    </plurals>
+    <plurals name="base_collage_download_original_title">
+        <item quantity="one">มี 1 รูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+        <item quantity="other">รูปภาพที่เลือกบางรูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+    </plurals>
+    <plurals name="base_convert_photo_to_pdf_exceed_limit">
+        <item quantity="one">สามารถแปลงรูปภาพเป็น PDF ได้สูงสุด %1$d รูปภาพต่อครั้ง</item>
+        <item quantity="other">สามารถแปลงรูปภาพเป็น PDF ได้สูงสุด %1$d รูปภาพต่อครั้ง</item>
+    </plurals>
+    <plurals name="base_copy_not_enough_storage_item">
+        <item quantity="one">พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ ไม่ได้คัดลอก %1$d รายการ</item>
+        <item quantity="other">พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ ไม่ได้คัดลอก %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_copy_success_item">
+        <item quantity="one">คัดลอกแล้ว %d รายการ</item>
+        <item quantity="other">คัดลอกแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="base_copy_to_clipboard_limit_tips">
+        <item quantity="one">ไม่สามารถคัดลอกได้มากกว่า %d รายการ</item>
+        <item quantity="other">ไม่สามารถคัดลอกได้มากกว่า %d รายการ</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_photo_title">
+        <item quantity="one">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร</item>
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_project_title">
+        <item quantity="one">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร</item>
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_permanently_video_title">
+        <item quantity="one">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร</item>
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร</item>
+    </plurals>
+    <plurals name="base_delete_local_selected_schot_project_hint">
+        <item quantity="one">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_all_title">
+        <item quantity="one">ระบบจะลบรูปภาพนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+        <item quantity="other">ระบบจะลบรูปภาพเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+    </plurals>
+    <plurals name="base_delete_photo_select_permanently_title">
+        <item quantity="one">ระบบจะลบรูปภาพนี้ออกโดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+        <item quantity="other">ระบบจะลบรูปภาพเหล่านี้ออกโดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_all_title">
+        <item quantity="one">ระบบจะลบรายการนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+        <item quantity="other">ระบบจะลบรายการเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+    </plurals>
+    <plurals name="base_delete_select_permanently_title">
+        <item quantity="one">ระบบจะลบรายการนี้ออกโดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+        <item quantity="other">ระบบจะลบรายการเหล่านี้ออกโดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_photo_title">
+        <item quantity="one">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร</item>
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_project_title">
+        <item quantity="one">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร</item>
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร</item>
+    </plurals>
+    <plurals name="base_delete_selected_permanently_video_title">
+        <item quantity="one">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร</item>
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร</item>
+    </plurals>
+    <plurals name="base_delete_selected_schot_project_hint">
+        <item quantity="one">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_album_title">
+        <item quantity="one">ลบ %d อัลบั้มใช่หรือไม่</item>
+        <item quantity="other">ลบ %d อัลบั้มใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_cshot_title">
+        <item quantity="one">ลบรูปภาพแบบถ่ายต่อเนื่อง %d รูปใช่หรือไม่</item>
+        <item quantity="other">ลบรูปภาพแบบถ่ายต่อเนื่อง %d รูปใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_message">
+        <item quantity="one">ระบบจะลบ %d ความทรงจำออกจากอุปกรณ์เครื่องนี้ รูปภาพในความทรงจำนี้จะเก็บไว้ในแอป \"รูปภาพ\"</item>
+        <item quantity="other">ระบบจะลบ %d ความทรงจำออกจากอุปกรณ์เครื่องนี้ รูปภาพในความทรงจำเหล่านี้จะเก็บไว้ในแอป \"รูปภาพ\"</item>
+    </plurals>
+    <plurals name="base_delete_selected_these_memories_title">
+        <item quantity="one">ลบความทรงจำ %d รายการใช่หรือไม่</item>
+        <item quantity="other">ลบความทรงจำ %d รายการใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_selection_item_or_items_permanently">
+        <item quantity="one">ลบถาวร %d รายการ</item>
+        <item quantity="other">ลบถาวร %d รายการ</item>
+    </plurals>
+    <plurals name="base_delete_selection_plurals">
+        <item quantity="one">ลบ %d รายการ</item>
+        <item quantity="other">ลบ %d รายการ</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_photo_title">
+        <item quantity="one">ลบรูปภาพ %d รูปใช่หรือไม่</item>
+        <item quantity="other">ลบรูปภาพ %d รูปใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_project_title">
+        <item quantity="one">ลบ %d รายการใช่หรือไม่</item>
+        <item quantity="other">ลบ %d รายการใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_seleted_these_video_title">
+        <item quantity="one">ลบ %d วิดีโอใช่หรือไม่</item>
+        <item quantity="other">ลบ %d วิดีโอใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_these_sticker">
+        <item quantity="one">ลบสติ๊กเกอร์ %d รายการหรือไม่</item>
+        <item quantity="other">ลบสติ๊กเกอร์ %d รายการหรือไม่</item>
+    </plurals>
+    <plurals name="base_delete_title">
+        <item quantity="one">ลบรูปภาพนี้</item>
+        <item quantity="other">ลบรูปภาพเหล่านี้</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_all_title">
+        <item quantity="one">ระบบจะลบวิดีโอนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+        <item quantity="other">ระบบจะลบวิดีโอเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้โดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+    </plurals>
+    <plurals name="base_delete_video_select_permanently_title">
+        <item quantity="one">ระบบจะลบวิดีโอนี้ออกโดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+        <item quantity="other">ระบบจะลบวิดีโอเหล่านี้ออกโดยถาวร การดำเนินการนี้ไม่สามารถยกเลิกได้</item>
+    </plurals>
+    <plurals name="base_downloading_item">
+        <item quantity="one">กำลังดาวน์โหลด %d รายการ...</item>
+        <item quantity="other">กำลังดาวน์โหลด %d รายการ...</item>
+    </plurals>
+    <plurals name="base_downloading_photo">
+        <item quantity="one">กำลังดาวน์โหลดรูปภาพ %d รายการ...</item>
+        <item quantity="other">กำลังดาวน์โหลดรูปภาพ %d รายการ...</item>
+    </plurals>
+    <plurals name="base_downloading_video">
+        <item quantity="one">กำลังดาวน์โหลดวิดีโอ %d รายการ...</item>
+        <item quantity="other">กำลังดาวน์โหลดวิดีโอ %d รายการ...</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title">
+        <item quantity="one">ตั้ง %d ไฟล์ให้เป็นส่วนตัวหรือไม่</item>
+        <item quantity="other">ตั้ง %d ไฟล์ให้เป็นส่วนตัวหรือไม่</item>
+    </plurals>
+    <plurals name="base_encrypt_confirm_title_2">
+        <item quantity="one">ต้องการตั้งรูปภาพนี้เป็นส่วนตัวหรือไม่</item>
+        <item quantity="other">ตั้งการตั้งรูปภาพเหล่านี้เป็นส่วนตัวหรือไม่</item>
+    </plurals>
+    <plurals name="base_encrypt_fail">
+        <item quantity="one">เข้ารหัสไม่สำเร็จ %d ไฟล์</item>
+        <item quantity="other">เข้ารหัสไม่สำเร็จ %d ไฟล์</item>
+    </plurals>
+    <plurals name="base_encrypt_folder_confirm_title">
+        <item quantity="one">ล็อก %d อัลบั้มหรือไม่</item>
+        <item quantity="other">ล็อก %d อัลบั้มหรือไม่</item>
+    </plurals>
+    <plurals name="base_export_delete_local_selected_schot_project_hint">
+        <item quantity="one">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้โดยถาวร รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_delete_selected_schot_project_hint">
+        <item quantity="one">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_album_hint">
+        <item quantity="one">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ อัลบั้มที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน อัลบั้มที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ อัลบั้มที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน อัลบั้มที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_project_hint">
+        <item quantity="one">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รายการที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รายการที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_local_selected_video_hint">
+        <item quantity="one">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ วิดีโอที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน วิดีโอที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ วิดีโอที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน วิดีโอที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_album_hint">
+        <item quantity="other">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ อัลบั้มที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน อัลบั้มที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_photo_hint">
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รูปภาพที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รูปภาพที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_project_hint">
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน รายการที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_recycle_delete_selected_video_hint">
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ วิดีโอที่สำรองข้อมูลไว้จะยังคงอยู่ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 60 วัน วิดีโอที่ไม่ได้สำรองข้อมูลไว้จะยังคงอยู่เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_export_selected_cshot">
+        <item quantity="one">ส่งออกรูปภาพที่เลือกไว้ %d รูป</item>
+        <item quantity="other">ส่งออกรูปภาพที่เลือกไว้ %d รูป</item>
+    </plurals>
+    <plurals name="base_export_selected_these_photo_message">
+        <item quantity="one">ส่งออก %d รูปภาพใช่หรือไม่</item>
+        <item quantity="other">ส่งออก %d รูปภาพใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_favorite_failed_toast">
+        <item quantity="one">เพิ่ม %1$d รายการไปยังรายการโปรดไม่สำเร็จ โปรดลองอีกครั้ง</item>
+        <item quantity="other">เพิ่ม %1$d รายการไปยังรายการโปรดไม่สำเร็จ โปรดลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="base_file_size_and_download_time">
+        <item quantity="one">ขนาดไฟล์: %1$s เวลาที่ใช้ในการดาวน์โหลดโดยประมาณ: %2$s นาที</item>
+        <item quantity="other">ขนาดไฟล์: %1$s เวลาที่ใช้ในการดาวน์โหลดโดยประมาณ: %2$s นาที</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_no">
+        <item quantity="one">ใช้รูปภาพขนาดย่อ</item>
+        <item quantity="other">ใช้รูปภาพขนาดย่อ</item>
+    </plurals>
+    <plurals name="base_film_download_original_choice_yes">
+        <item quantity="one">ใช้ต้นฉบับ</item>
+        <item quantity="other">ใช้รูปภาพต้นฉบับ</item>
+    </plurals>
+    <plurals name="base_film_download_original_title">
+        <item quantity="one">มี 1 รูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+        <item quantity="other">รูปภาพที่เลือกบางรูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_tips">
+        <item quantity="one">พบรูปภาพของ %s โปรดย้ายไปยัง \"ที่เก็บบัตร\" เพื่อให้เข้าถึงได้ง่ายขึ้น</item>
+        <item quantity="other">พบรูปภาพของ %s โปรดย้ายไปยัง \"ที่เก็บบัตร\" เพื่อให้เข้าถึงได้ง่ายขึ้น</item>
+    </plurals>
+    <plurals name="base_have_one_type_card_toast">
+        <item quantity="one">ย้ายรูปภาพของ %1$s ไปยัง \"ที่เก็บบัตร\" แล้ว</item>
+        <item quantity="other">ย้ายรูปภาพของ %1$s ไปยัง \"ที่เก็บบัตร\" แล้ว</item>
+    </plurals>
+    <plurals name="base_invoice_count">
+        <item quantity="one">ตั๋ว/ใบเสร็จรับเงิน %1$d ใบ</item>
+        <item quantity="other">ตั๋ว/ใบเสร็จรับเงิน %1$d ใบ</item>
+    </plurals>
+    <plurals name="base_item_already_exist">
+        <item quantity="one">รายการที่เลือกมีอยู่แล้วในอัลบั้ม</item>
+        <item quantity="other">รายการที่เลือกมีอยู่แล้วในอัลบั้ม</item>
+    </plurals>
+    <plurals name="base_item_count">
+        <item quantity="one">%d รายการ</item>
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="base_merge_and_remove_other_album">
+        <item quantity="one">ระบบจะรวมบุคคล %1$d รายเข้าด้วยกันและลบออกจาก \"%2$s\"</item>
+        <item quantity="other">ระบบจะรวมบุคคล %1$d รายเข้าด้วยกันและลบออกจาก \"%2$s\"</item>
+    </plurals>
+    <plurals name="base_move_image_filter_failed_tip">
+        <item quantity="one">กำลังโหลดรูปภาพ %d รูปและไม่สามารถย้ายได้</item>
+        <item quantity="other">กำลังโหลดรูปภาพ %d รูปและไม่สามารถย้ายได้</item>
+    </plurals>
+    <plurals name="base_move_success_item">
+        <item quantity="one">ย้ายแล้ว %d รายการ</item>
+        <item quantity="other">ย้ายแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="base_number_of_face_album_in_slot">
+        <item quantity="one"></item>
+        <item quantity="other">%1$d คน</item>
+    </plurals>
+    <plurals name="base_original_photo_downloading">
+        <item quantity="one">กำลังดาวน์โหลดรูปภาพต้นฉบับ...</item>
+        <item quantity="other">กำลังดาวน์โหลดรูปภาพต้นฉบับ...</item>
+    </plurals>
+    <plurals name="base_photo_copy_success_video_cannot_copy">
+        <item quantity="one">คัดลอกรูปภาพแล้ว ไม่สามารถคัดลอกวิดีโอมาไว้ในอัลบั้มนี้ได้</item>
+        <item quantity="other">คัดลอกรูปภาพแล้ว ไม่สามารถคัดลอกวิดีโอมาไว้ในอัลบั้มนี้ได้</item>
+    </plurals>
+    <plurals name="base_photo_move_success_video_cannot_move">
+        <item quantity="one">ย้ายรูปภาพแล้ว ไม่สามารถย้ายวิดีโอลงในอัลบั้มนี้</item>
+        <item quantity="other">ย้ายรูปภาพแล้ว ไม่สามารถย้ายวิดีโอลงในอัลบั้มนี้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_album_hint">
+        <item quantity="one">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_photo_hint">
+        <item quantity="one">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_project_hint">
+        <item quantity="one">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_local_selected_video_hint">
+        <item quantity="one">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_hint">
+        <item quantity="one">ระบบจะลบรูปภาพนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_photo_select_title">
+        <item quantity="one">ระบบจะลบรูปภาพนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบรูปภาพเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_hint">
+        <item quantity="one">ระบบจะลบอัลบั้มนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+        <item quantity="other">ระบบจะลบอัลบั้มเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_album_title">
+        <item quantity="one">ระบบจะลบอัลบั้มนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบอัลบั้มเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_hint">
+        <item quantity="one">ระบบจะลบรายการนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+        <item quantity="other">ระบบจะลบรายการเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_select_title">
+        <item quantity="one">ระบบจะลบรายการนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบรายการเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_hint">
+        <item quantity="one">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_album_title">
+        <item quantity="one">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบอัลบั้ม %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_cshot_title">
+        <item quantity="one">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบรูปภาพที่ถ่ายต่อเนื่อง %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_hint">
+        <item quantity="one">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_photo_title">
+        <item quantity="one">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบรูปภาพ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_hint">
+        <item quantity="one">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_project_title">
+        <item quantity="one">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_hint">
+        <item quantity="one">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ รายการที่ลบไปแล้วจะเก็บไว้ใน \"ลบเมื่อเร็ว ๆ นี้\" เป็นเวลา 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_selected_video_title">
+        <item quantity="one">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบวิดีโอ %d รายการออกจากอุปกรณ์เครื่องนี้ รวมทั้งจากระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_hint">
+        <item quantity="one">ระบบจะลบวิดีโอนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+        <item quantity="other">ระบบจะลบวิดีโอเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้ สามารถกู้คืนรายการที่ลบไปแล้วได้จากอัลบั้ม \"ลบเมื่อเร็ว ๆ นี้\" ภายใน 30 วัน</item>
+    </plurals>
+    <plurals name="base_recycle_delete_video_select_title">
+        <item quantity="one">ระบบจะลบวิดีโอนี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+        <item quantity="other">ระบบจะลบวิดีโอเหล่านี้ออกจากอุปกรณ์นี้ รวมทั้งระบบคลาวด์ และอุปกรณ์อื่น ๆ ที่ซิงค์ไว้</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_photo_message">
+        <item quantity="one">กู้คืน %d รูปภาพใช่หรือไม่</item>
+        <item quantity="other">กู้คืน %d รูปภาพใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_project_message">
+        <item quantity="one">กู้คืน %d รายการใช่หรือไม่</item>
+        <item quantity="other">กู้คืน %d รายการใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_restore_selected_these_video_message">
+        <item quantity="one">กู้คืน %d วิดีโอใช่หรือไม่</item>
+        <item quantity="other">กู้คืน %d วิดีโอใช่หรือไม่</item>
+    </plurals>
+    <plurals name="base_restore_selection_plurals">
+        <item quantity="one">กู้คืน %d รายการ</item>
+        <item quantity="other">กู้คืน %d รายการ</item>
+    </plurals>
+    <plurals name="base_saved_video_part_failed_toast">
+        <item quantity="one">บันทึกวิดีโอ %d รายการไม่สำเร็จ</item>
+        <item quantity="other">บันทึกวิดีโอ %d รายการไม่สำเร็จ</item>
+    </plurals>
+    <plurals name="base_saved_video_toast">
+        <item quantity="one">บันทึก %d วิดีโอแล้ว</item>
+        <item quantity="other">บันทึก %d วิดีโอแล้ว</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_choice_no">
+        <item quantity="one">ใช้รูปภาพขนาดย่อ</item>
+        <item quantity="other">ใช้รูปภาพขนาดย่อ</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_choice_yes">
+        <item quantity="one">ใช้ต้นฉบับ</item>
+        <item quantity="other">ใช้รูปภาพต้นฉบับ</item>
+    </plurals>
+    <plurals name="base_select_download_original_select_multi_title">
+        <item quantity="one">มี 1 รูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+        <item quantity="other">รูปภาพที่เลือกบางรูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts">
+        <item quantity="one">ดูตัวอย่างรายการที่เลือก (%1$d)</item>
+        <item quantity="other">ดูตัวอย่างรายการที่เลือก (%1$d)</item>
+    </plurals>
+    <plurals name="base_selection_preview_btn_text_with_counts_v1">
+        <item quantity="one">เลือกรูปถ่าย 1–%1$d รายการ</item>
+        <item quantity="other">เลือกรูปถ่าย 1–%1$d รายการ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_choice_no">
+        <item quantity="one">ใช้รูปภาพขนาดย่อ</item>
+        <item quantity="other">ใช้รูปภาพขนาดย่อ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_choice_yes">
+        <item quantity="one">ใช้รูปภาพต้นฉบับ</item>
+        <item quantity="other">ใช้รูปภาพต้นฉบับ</item>
+    </plurals>
+    <plurals name="base_send_download_original_select_multi_title">
+        <item quantity="one">รูปภาพ 1 รูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและใช้รูปภาพต้นฉบับแทนได้</item>
+        <item quantity="other">รูปภาพที่เลือกบางรูปเป็นรูปภาพขนาดย่อ คุณสามารถดาวน์โหลดและแชร์รูปภาพต้นฉบับแทนได้</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_photo">
+        <item quantity="one">ระบบจะลบ %1$d รูปภาพออกจากอัลบั้ม \"%2$s\" ที่แชร์</item>
+        <item quantity="other">ระบบจะลบ %1$d รูปภาพออกจากอัลบั้ม \"%2$s\" ที่แชร์</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_project">
+        <item quantity="one">ระบบจะลบ %1$d รายการออกจากอัลบั้ม \"%2$s\" ที่แชร์</item>
+        <item quantity="other">ระบบจะลบ %1$d รายการออกจากอัลบั้ม \"%2$s\" ที่แชร์</item>
+    </plurals>
+    <plurals name="base_share_album_selection_delete_video">
+        <item quantity="one">ระบบจะลบ %1$d วิดีโอออกจากอัลบั้ม \"%2$s\" ที่แชร์</item>
+        <item quantity="other">ระบบจะลบ %1$d วิดีโอออกจากอัลบั้ม \"%2$s\" ที่แชร์</item>
+    </plurals>
+    <plurals name="base_shared_album_delete_items">
+        <item quantity="other">ลบ %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_shared_album_insufficient_phone_space_no_continue_download">
+        <item quantity="other">ดาวน์โหลด %1$d ไม่สำเร็จเนื่องจากมีพื้นที่จัดเก็บข้อมูลอุปกรณ์เหลือน้อย</item>
+    </plurals>
+    <plurals name="base_shared_album_mobile_continue_project_download">
+        <item quantity="one">เหลืออีก %1$d รายการ (%2$s) ดำเนินการดาวน์โหลดต่อโดยใช้ข้อมูลเครือข่ายไหม</item>
+        <item quantity="other">เหลืออีก %1$d รายการ (%2$s) ดำเนินการดาวน์โหลดต่อโดยใช้ข้อมูลเครือข่ายไหม</item>
+    </plurals>
+    <plurals name="base_shared_album_network_error_project_download">
+        <item quantity="other">ข้อผิดพลาดทางเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_shared_album_no_network_project_download">
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_single_saved_video_max_limit_toast">
+        <item quantity="one">สามารถบันทึกภาพเคลื่อนไหวเป็นวิดีโอได้ครั้งละ %d ภาพ</item>
+        <item quantity="other">สามารถบันทึกภาพเคลื่อนไหวเป็นวิดีโอได้ครั้งละ %d ภาพ</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_image">
+        <item quantity="one">%1$dรูปถ่าย</item>
+        <item quantity="other">%1$d รูปภาพ</item>
+    </plurals>
+    <plurals name="base_timer_shaft_only_have_video">
+        <item quantity="one">%1$dวิดีโอ</item>
+        <item quantity="other">%1$dวิดีโอ</item>
+    </plurals>
+    <plurals name="base_title_has_select">
+        <item quantity="one">เลือกแล้ว %1$d รายการ</item>
+        <item quantity="other">เลือก %1$d รายการ</item>
+    </plurals>
+    <plurals name="base_title_items_selected">
+        <item quantity="one">%1$d รายการ</item>
+        <item quantity="other">%1$d รายการ</item>
+    </plurals>
+    <plurals name="base_unfavorite_failed_toast">
+        <item quantity="one">นำ %1$d รายการออกจากรายการโปรดไม่สำเร็จ โปรดลองอีกครั้ง</item>
+        <item quantity="other">นำ %1$d รายการออกจากรายการโปรดไม่สำเร็จ โปรดลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="basebiz_ai_graffiti_guide_panel_description">
+        <item quantity="one">วาดวัตถุง่าย ๆ และวงกลมรอบวัตถุเพื่อสร้างผลงานศิลปะ ขีดจำกัดการใช้งาน: %1$d ครั้งต่อวัน</item>
+        <item quantity="other">วาดวัตถุง่าย ๆ และวงกลมรอบวัตถุเพื่อสร้างผลงานศิลปะ ขีดจำกัดการใช้งาน: %1$d ครั้งต่อวัน</item>
+    </plurals>
+    <plurals name="basebiz_live_sticker_cloud_matting_bg_fail_title_multi">
+        <item quantity="one">บันทึกสติ๊กเกอร์เคลื่อนไหว %d รายการไม่สำเร็จ</item>
+        <item quantity="other">บันทึกสติ๊กเกอร์เคลื่อนไหว %d รายการไม่สำเร็จ</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range">
+        <item quantity="one">เลือกได้อีก 1–%1$d ภาพ</item>
+        <item quantity="other">เลือกได้อีก 1–%1$d ภาพ</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_can_pick_range_with_suffix">
+        <item quantity="one">เลือกได้อีก 1–%1$d ภาพ (%2$s)</item>
+        <item quantity="other">เลือกได้อีก 1–%1$d ภาพ (%2$s)</item>
+    </plurals>
+    <plurals name="basebiz_olive_sticker_live_photo_max_supported">
+        <item quantity="one">รวมถึงภาพเคลื่อนไหว %d ภาพ</item>
+        <item quantity="other">รวมถึงภาพเคลื่อนไหว %d ภาพ</item>
+    </plurals>
+    <plurals name="cloud_download_original">
+        <item quantity="one">ดาวน์โหลดรูปภาพต้นฉบับ</item>
+        <item quantity="other">ดาวน์โหลดรูปภาพต้นฉบับ</item>
+    </plurals>
+    <plurals name="cloud_setting_download_original_message">
+        <item quantity="one">%1$d รูปภาพบนอุปกรณ์ของคุณเป็นเวอร์ชันที่มีขนาดเล็กกว่า ดาวน์โหลดรูปภาพต้นฉบับความละเอียดสูงสุดหรือไม่ (%2$s)</item>
+        <item quantity="other">%1$d รูปภาพบนอุปกรณ์ของคุณเป็นเวอร์ชันที่เล็กกว่า ดาวน์โหลดรูปภาพต้นฉบับความละเอียดสูงสุดหรือไม่ (%2$s)</item>
+    </plurals>
+    <plurals name="cloudkit_upgrade_dialog_banner_message">
+        <item quantity="one">รูปภาพความละเอียดสูงประมาณ %d รูป</item>
+        <item quantity="other">รูปภาพความละเอียดสูงประมาณ %d รูป</item>
+    </plurals>
+    <plurals name="cloudsync_downloading_original">
+        <item quantity="one">กำลังดาวน์โหลดรูปภาพต้นฉบับ %1$d รูป</item>
+        <item quantity="other">กำลังดาวน์โหลดรูปภาพต้นฉบับ %1$d รูป</item>
+    </plurals>
+    <plurals name="cloudsync_image_count">
+        <item quantity="one">%1$d รูปภาพ</item>
+        <item quantity="other">%1$d รูปภาพ</item>
+    </plurals>
+    <plurals name="cloudsync_pause_download_original_no_space">
+        <item quantity="one">ไม่ได้ดาวน์โหลดรูปภาพต้นฉบับ %1$d รูป พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ</item>
+        <item quantity="other">ไม่ได้ดาวน์โหลดรูปภาพต้นฉบับ %1$d รูป พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ</item>
+    </plurals>
+    <plurals name="cloudsync_pause_update_no_space">
+        <item quantity="one">ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ</item>
+        <item quantity="other">ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_network">
+        <item quantity="one">หยุดการอัพโหลดชั่วคราว %1$d รายการ ไม่มีการเชื่อมต่ออินเทอร์เน็ต</item>
+        <item quantity="other">หยุดการอัพโหลดชั่วคราว %1$d รายการ ไม่มีการเชื่อมต่ออินเทอร์เน็ต</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_not_wifi">
+        <item quantity="one">หยุดการอัพโหลดชั่วคราว %1$d รายการ ไม่ได้เชื่อมต่อกับ Wi-Fi</item>
+        <item quantity="other">หยุดการอัพโหลดชั่วคราว %1$d รายการ ไม่ได้เชื่อมต่อกับ Wi-Fi</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_items_save_power">
+        <item quantity="one">หยุดการอัพโหลด %1$d รายการชั่วคราวเพื่อประหยัดพลังงานแบตเตอรี่</item>
+        <item quantity="other">หยุดการอัพโหลด %1$d รายการชั่วคราวเพื่อประหยัดพลังงานแบตเตอรี่</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_phone_high_temperature">
+        <item quantity="one">การอัพโหลดสำหรับ %1$d รายการหยุดชั่วคราว โทรศัพท์มีอุณหภูมิที่สูงเกินไป</item>
+        <item quantity="other">การอัพโหลดสำหรับ %1$d รายการหยุดชั่วคราว โทรศัพท์มีอุณหภูมิที่สูงเกินไป</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_service_offline">
+        <item quantity="one">การอัพโหลดสำหรับ %1$d รายการหยุดชั่วคราว กำลังซ่อมบำรุงระบบคลาวด์</item>
+        <item quantity="other">การอัพโหลดสำหรับ %1$d รายการหยุดชั่วคราว กำลังซ่อมบำรุงระบบคลาวด์</item>
+    </plurals>
+    <plurals name="cloudsync_pause_upload_tablet_high_temperature">
+        <item quantity="one">การอัพโหลดสำหรับ %1$d รายการหยุดชั่วคราว แท็บเล็ตร้อนเกินไป</item>
+        <item quantity="other">การอัพโหลดสำหรับ %1$d รายการหยุดชั่วคราว แท็บเล็ตร้อนเกินไป</item>
+    </plurals>
+    <plurals name="cloudsync_recoverying">
+        <item quantity="other">กำลังซิงค์ %1$d รายการจากระบบคลาวด์</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_picture_state">
+        <item quantity="one">%1$d รูปภาพ</item>
+        <item quantity="other">%1$d รูปภาพ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_select_album_video_state">
+        <item quantity="one">%1$dวิดีโอ</item>
+        <item quantity="other">%1$dวิดีโอ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้ดาวน์โหลดไฟล์ %2$d รายการ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้ดาวน์โหลดไฟล์ %2$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s %2$d รายการที่ไม่ได้ดาวน์โหลด กรุณาชาร์จอุปกรณ์ของคุณ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s %2$d รายการที่ไม่ได้ดาวน์โหลด กรุณาชาร์จอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้ดาวน์โหลดไฟล์ %2$d รายการ เชื่อมต่อกับแหล่งจ่ายพลังงานไฟฟ้าเพื่อดำเนินการต่อ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้ดาวน์โหลดไฟล์ %2$d รายการ เชื่อมต่อกับแหล่งจ่ายพลังงานไฟฟ้าเพื่อดำเนินการต่อ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_low_power_v2">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้ดาวน์โหลดไฟล์ %2$d รายการ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้ดาวน์โหลดไฟล์ %2$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power">
+        <item quantity="one">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_full_mix_save_power_v2">
+        <item quantity="one">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย %1$d รายการที่ไม่ได้ดาวน์โหลด %2$s.</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย %1$d รายการที่ไม่ได้ดาวน์โหลด %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_gprs">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ %2$s หรือ %3$s</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ %2$s หรือ %3$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v2">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_hint_mix_go_wifi_v3">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full">
+        <item quantity="one">พื้นที่จัดเก็บข้อมูลบนระบบคลาวด์ไม่เพียงพอ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">พื้นที่จัดเก็บข้อมูลบนระบบคลาวด์ไม่เพียงพอ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_local_space_is_full_v2">
+        <item quantity="one">พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception">
+        <item quantity="one">เกิดข้อผิดพลาดเกี่ยวกับเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">เกิดข้อผิดพลาดเกี่ยวกับเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_network_exception_v2">
+        <item quantity="one">ข้อผิดพลาดทางเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">ข้อผิดพลาดทางเครือข่าย ไม่ได้ดาวน์โหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_download_original_local_space_is_full">
+        <item quantity="one">พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ ไม่ได้ดาวน์โหลดรูปภาพต้นฉบับ %1$d รูป</item>
+        <item quantity="other">พื้นที่จัดเก็บข้อมูลอุปกรณ์ไม่เพียงพอ ไม่ได้ดาวน์โหลดรูปภาพต้นฉบับ %1$d รูป</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image">
+        <item quantity="one">ไม่ได้ซิงค์รูปภาพ%1$d รูป เนื้อที่เก็บข้อมูลในระบบคลาวด์เต็ม</item>
+        <item quantity="other">ไม่ได้ซิงค์รูปภาพ%1$d รูป เนื้อที่เก็บข้อมูลในระบบคลาวด์เต็ม</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_low_power">
+        <item quantity="one">ไม่ได้ซิงค์รูปภาพ%1$d รูป การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวเมื่อแบตเตอรี่เหลือน้อยกว่า %2$s</item>
+        <item quantity="other">ไม่ได้ซิงค์รูปภาพ%1$d รูป การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวเมื่อแบตเตอรี่เหลือน้อยกว่า %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_image_save_power">
+        <item quantity="one">ไม่ได้ซิงค์รูปภาพ %1$d รูป การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวในโหมดประหยัดพลังงาน</item>
+        <item quantity="other">ไม่ได้ซิงค์รูปภาพ %1$d รูป การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวในโหมดประหยัดพลังงาน</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix">
+        <item quantity="one">พื้นที่จัดเก็บข้อมูลบนระบบคลาวด์เต็ม ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">หน่วยความจำในระบบคลาวด์เต็ม ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ กรุณาชาร์จอุปกรณ์ของคุณ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ กรุณาชาร์จอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_no_connect_v2">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ เชื่อมต่อกับแหล่งจ่ายพลังงานไฟฟ้าเพื่อดำเนินการต่อ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ เชื่อมต่อกับแหล่งจ่ายพลังงานไฟฟ้าเพื่อดำเนินการต่อ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_low_power_v2">
+        <item quantity="one">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ</item>
+        <item quantity="other">แบตเตอรี่ต่ำกว่า %1$s ไม่ได้อัพโหลดไฟล์ %2$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power">
+        <item quantity="one">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_save_power_v2">
+        <item quantity="one">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">เปิดใช้โหมดประหยัดพลังงานอยู่ ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_mix_v2">
+        <item quantity="one">พื้นที่จัดเก็บบนระบบคลาวด์เต็ม ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">พื้นที่จัดเก็บบนระบบคลาวด์เต็ม ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video">
+        <item quantity="one">ไม่ได้ซิงค์วิดีโอ %1$d รายการ เนื้อที่เก็บข้อมูลในระบบคลาวด์เต็ม</item>
+        <item quantity="other">ไม่ได้ซิงค์วิดีโอ %1$d รายการ เนื้อที่เก็บข้อมูลในระบบคลาวด์เต็ม</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_low_power">
+        <item quantity="one">ไม่ได้ซิงค์วิดีโอ %1$d รายการ การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวเมื่อแบตเตอรี่เหลือน้อยกว่า %2$s</item>
+        <item quantity="other">ไม่ได้ซิงค์วิดีโอ %1$d รายการ การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวเมื่อแบตเตอรี่เหลือน้อยกว่า %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_full_video_save_power">
+        <item quantity="one">ไม่ได้ซิงค์วิดีโอ %1$d รายการ การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวในโหมดประหยัดพลังงาน</item>
+        <item quantity="other">ไม่ได้ซิงค์วิดีโอ %1$d รายการ การซิงค์กับระบบคลาวด์จะหยุดชั่วคราวในโหมดประหยัดพลังงาน</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_image_go_wifi">
+        <item quantity="one">ไม่ได้ซิงค์รูปภาพ%1$d รูป</item>
+        <item quantity="other">ไม่ได้ซิงค์รูปภาพ%1$d รูป</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ%2$s</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ %2$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_gprs">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ %2$s หรือ %3$s</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ %2$s หรือ %3$s</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v2">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_mix_go_wifi_v3">
+        <item quantity="one">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">ไม่มีการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_hint_video_go_wifi">
+        <item quantity="one">ไม่ได้ซิงค์วิดีโอ %1$d รายการ</item>
+        <item quantity="other">ไม่ได้ซิงค์วิดีโอ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception">
+        <item quantity="one">เกิดข้อผิดพลาดเกี่ยวกับเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">เกิดข้อผิดพลาดเกี่ยวกับเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_network_exception_v2">
+        <item quantity="one">มีการขัดจังหวะการเชื่อมต่อเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">ข้อผิดพลาดทางเครือข่าย ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number">
+        <item quantity="one">บริการเกิดข้อผิดพลาด ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+        <item quantity="other">บริการเกิดข้อผิดพลาด ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_sync_state_upload_service_exception_with_number_v2">
+        <item quantity="one"></item>
+        <item quantity="other">บริการเกิดข้อผิดพลาด ไม่ได้อัพโหลดไฟล์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_syncing_items">
+        <item quantity="one">กำลังซิงค์ %1$d รายการ</item>
+        <item quantity="other">กำลังซิงค์ %1$d รายการ</item>
+    </plurals>
+    <plurals name="cloudsync_uploading_items">
+        <item quantity="one">กำลังซิงค์ %1$d รายการไปยังระบบคลาวด์…</item>
+        <item quantity="other">กำลังซิงค์ %1$d รายการไปยังระบบคลาวด์…</item>
+    </plurals>
+    <plurals name="cloudsync_video_count">
+        <item quantity="one">วิดีโอ %1$d รายการ</item>
+        <item quantity="other">วิดีโอ %1$d รายการ</item>
+    </plurals>
+    <plurals name="collage_exportation_not_support_on_other_platform_when_duration_out_of_limit">
+        <item quantity="one">บางแพลตฟอร์มอาจไม่รองรับภาพเคลื่อนไหวนานกว่า %d วินาที</item>
+        <item quantity="other">บางแพลตฟอร์มอาจไม่รองรับภาพเคลื่อนไหวนานกว่า %d วินาที</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_count">
+        <item quantity="one">คุณสามารถใช้ Popout บนรูปภาพเคลื่อนไหวได้พร้อมกันทีละ %1$d รูป</item>
+        <item quantity="other">คุณสามารถใช้ Popout บนรูปภาพเคลื่อนไหวได้พร้อมกันสูงสุด %1$d รูป</item>
+    </plurals>
+    <plurals name="collage_not_support_popout_for_olive_duration_over">
+        <item quantity="one">ไม่รองรับรูปภาพเคลื่อนไหวที่นานเกิน %1$d วินาที</item>
+        <item quantity="other">ไม่รองรับรูปภาพเคลื่อนไหวที่นานเกิน %1$d วินาที</item>
+    </plurals>
+    <plurals name="common_drag_select_count_limit_plurals">
+        <item quantity="one">ไม่สามารถลากได้เกินครั้งละ %d รายการ</item>
+        <item quantity="other">ไม่สามารถลากได้เกินครั้งละ %d รายการ</item>
+    </plurals>
+    <plurals name="common_encrypt_failed_hint_mix">
+        <item quantity="one">เพิ่ม %d รายการไม่สำเร็จ</item>
+        <item quantity="other">เพิ่ม %d รายการไม่สำเร็จ</item>
+    </plurals>
+    <plurals name="common_encrypt_image_filter_failed_tip">
+        <item quantity="one">กำลังโหลดรูปภาพ %d รูปและไม่สามารถตั้งค่าเป็นส่วนตัวได้</item>
+        <item quantity="other">กำลังโหลดรูปภาพ %d รูปและไม่สามารถตั้งค่าเป็นส่วนตัวได้</item>
+    </plurals>
+    <plurals name="common_hour_count">
+        <item quantity="one">%d ชั่วโมง</item>
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="common_item_count">
+        <item quantity="one">%d รายการ</item>
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="common_minute_count">
+        <item quantity="one">%d นาที</item>
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="common_second_count">
+        <item quantity="one">%d วินาที</item>
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="common_second_count_short">
+        <item quantity="one">%d วินาที</item>
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="common_trim_unsupported_some">
+        <item quantity="one">ไม่สามารถนำเข้า %d รายการเพื่อตัดต่อวิดีโอได้</item>
+        <item quantity="other">ไม่สามารถนำเข้า %d รายการเพื่อตัดต่อวิดีโอได้</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">หน้า %1$d จาก %2$d</item>
+        <item quantity="other">หน้า %1$d จาก %2$d</item>
+    </plurals>
+    <plurals name="gif_synthesis_add_action_waring_tip">
+        <item quantity="one">เลือกรูปภาพได้ไม่เกิน %1$d รูปสำหรับไฟล์ GIF หนึ่งไฟล์</item>
+        <item quantity="other">เลือกรูปภาพได้ไม่เกิน %1$d รูปสำหรับไฟล์ GIF หนึ่งไฟล์</item>
+    </plurals>
+    <plurals name="gif_synthesis_corrupted_file_cannot_convert">
+        <item quantity="one">รองรับเฉพาะภาพเคลื่อนไหวที่ยาวไม่เกิน %1$d วินาที</item>
+        <item quantity="other">รองรับเฉพาะภาพเคลื่อนไหวที่ยาวไม่เกิน %1$d วินาที</item>
+    </plurals>
+    <plurals name="gif_synthesis_delete_action_waring_tip">
+        <item quantity="one">เลือกรูปภาพอย่างน้อย %1$d รูปเพื่อสร้างไฟล์ GIF</item>
+        <item quantity="other">เลือกรูปภาพอย่างน้อย %1$d รูปเพื่อสร้างไฟล์ GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_max_support_tip">
+        <item quantity="one">เลือกรูปภาพได้ไม่เกิน %1$d รูปสำหรับไฟล์ GIF หนึ่งไฟล์</item>
+        <item quantity="other">เลือกรูปภาพได้ไม่เกิน %1$d รูปสำหรับไฟล์ GIF หนึ่งไฟล์</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_error_min_support_tip">
+        <item quantity="one">มีเพียง %1$d รูปภาพเท่านั้นที่ตรงตามข้อกำหนด</item>
+        <item quantity="other">มีเพียง %1$d รูปภาพเท่านั้นที่ตรงตามข้อกำหนด</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_hint_image_error_count_tip">
+        <item quantity="one">รูปภาพ %1$d รูปจะไม่รวมอยู่ในไฟล์ GIF</item>
+        <item quantity="other">รูปภาพ %1$d รูปจะไม่รวมอยู่ในไฟล์ GIF</item>
+    </plurals>
+    <plurals name="gif_synthesis_enter_success_image_error_count_tip">
+        <item quantity="one">ไม่รองรับรูปภาพ %1$d รูป</item>
+        <item quantity="other">ไม่รองรับรูปภาพ %1$d รูป</item>
+    </plurals>
+    <plurals name="google_cloud_download_files">
+        <item quantity="one">กำลังโหลด %1$s รายการจาก \"Google Photos\"…</item>
+        <item quantity="other">กำลังโหลด %1$s รายการจาก \"Google Photos\"…</item>
+    </plurals>
+    <plurals name="google_cloud_storage_full">
+        <item quantity="one">พื้นที่จัดเก็บข้อมูล \"Google Photos\" ไม่เพียงพอ ไม่ได้สำรองข้อมูล %1$d รายการ</item>
+        <item quantity="other">พื้นที่จัดเก็บข้อมูล \"Google Photos\" ไม่เพียงพอ ไม่ได้สำรองข้อมูล %1$d รายการ</item>
+    </plurals>
+    <plurals name="google_cloud_upload_files">
+        <item quantity="one">กำลังสำรองข้อมูล %1$s รายการไปยัง \"Google Photos\"…</item>
+        <item quantity="other">กำลังสำรองข้อมูล %1$s รายการไปยัง \"Google Photos\"…</item>
+    </plurals>
+    <plurals name="heytap_cloud_sync_files_count">
+        <item quantity="one">%1$d รายการกำลังได้รับการซิงค์ไปยังระบบคลาวด์ HeyTap หากปิดการดำเนินการนี้จะยกเลิกการซิงค์อัตโนมัติ เพื่อรักษาข้อมูลของคุณให้ปลอดภัย ขอแนะนำให้รอจนกว่าการซิงค์จะเสร็จสิ้น</item>
+        <item quantity="other">%1$d รายการกำลังได้รับการซิงค์ไปยังระบบคลาวด์ HeyTap หากปิดการดำเนินการนี้จะยกเลิกการซิงค์อัตโนมัติ เพื่อรักษาข้อมูลของคุณให้ปลอดภัย ขอแนะนำให้รอจนกว่าการซิงค์จะเสร็จสิ้น</item>
+    </plurals>
+    <plurals name="image_to_ai_selected_image_quantity_beyond">
+        <item quantity="one">สามารถแปลงได้สูงสุด %d รูปภาพต่อครั้ง</item>
+        <item quantity="other">สามารถแปลงได้สูงสุด %d รูปภาพต่อครั้ง</item>
+    </plurals>
+    <plurals name="insert_shortcut_album_set_max_count_hint">
+        <item quantity="one">สามารถเพิ่มอัลบั้มใน \"ใช้งานบ่อย\" ได้ไม่เกิน %d อัลบั้ม</item>
+        <item quantity="other">สามารถเพิ่มอัลบั้มใน \"ใช้งานบ่อย\" ได้สูงสุด %d อัลบั้ม</item>
+    </plurals>
+    <plurals name="main_oshare_search_oshare_find_count">
+        <item quantity="one">พบอุปกรณ์ %1$d เครื่อง</item>
+        <item quantity="other">พบอุปกรณ์ %1$d เครื่อง</item>
+    </plurals>
+    <plurals name="main_recycle_day_plurals">
+        <item quantity="one">%1$d วัน</item>
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_image">
+        <item quantity="one">%1$dรูปถ่าย</item>
+        <item quantity="other">%1$dรูป</item>
+    </plurals>
+    <plurals name="main_timer_shaft_only_have_video">
+        <item quantity="one">%1$dวิดีโอ</item>
+        <item quantity="other">%1$dวิดีโอ</item>
+    </plurals>
+    <plurals name="maximum_stickers_allowed">
+        <item quantity="one">เลือกสติ๊กเกอร์ได้ไม่เกิน %1$d รายการ</item>
+        <item quantity="other">เลือกสติ๊กเกอร์ได้ไม่เกิน %1$d รายการ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="nas_delete_items_dialog_title">
+        <item quantity="one">ลบ %1$d รายการจาก NAS</item>
+        <item quantity="other">ลบ %1$d รายการจาก NAS</item>
+    </plurals>
+    <plurals name="nas_download_finish_with_failed_items">
+        <item quantity="one">ดาวน์โหลดเสร็จสิ้น ดาวน์โหลดไม่สำเร็จ %1$d รายการ</item>
+        <item quantity="other">ดาวน์โหลดเสร็จสิ้น ดาวน์โหลดไม่สำเร็จ %1$d รายการ</item>
+    </plurals>
+    <plurals name="nas_download_origin_items_finish_tips_content">
+        <item quantity="one">ดาวน์โหลดแล้ว %1$d รายการ</item>
+        <item quantity="other">ดาวน์โหลดแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="nas_downloading_origin_items_tips_content">
+        <item quantity="one">กำลังดาวน์โหลด %1$d จาก %2$d…</item>
+        <item quantity="other">กำลังดาวน์โหลด %1$d จาก %2$d…</item>
+    </plurals>
+    <plurals name="photo_editor_ai_retouch_modify_selection_title">
+        <item quantity="one">คุณต้องการแก้ไขพื้นที่ที่เลือกอย่างไร</item>
+        <item quantity="other">คุณต้องการแก้ไขพื้นที่ที่เลือกอย่างไร</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_add_num_limit">
+        <item quantity="one">เพิ่มสติ๊กเกอร์ได้สูงสุด %d รายการ</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์ได้สูงสุด %d รายการ</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_can_be_add_limit">
+        <item quantity="one">ในฟีเจอร์สติ๊กเกอร์ คุณสามารถเพิ่มสติ๊กเกอร์เคลื่อนไหวได้ %d รายการเท่านั้น โดยสติ๊กเกอร์ที่เกินมาจะกลายเป็นแบบนิ่ง</item>
+        <item quantity="other">ในฟีเจอร์สติ๊กเกอร์ คุณสามารถเพิ่มสติ๊กเกอร์เคลื่อนไหวได้สูงสุด %d รายการ โดยสติ๊กเกอร์ที่เกินมาจะกลายเป็นแบบนิ่ง</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_quick_highlight">
+        <item quantity="one">เวอร์ชันที่แก้ไขแล้วจำกัดระยะเวลาไว้ที่ %d วินาทีเพื่อให้แชร์ได้ง่าย</item>
+        <item quantity="other">เวอร์ชันที่แก้ไขแล้วจำกัดระยะเวลาไว้ที่ %d วินาทีเพื่อให้แชร์ได้ง่าย</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit">
+        <item quantity="one">สติ๊กเกอร์ต้องมีความยาวไม่เกิน %d วินาที</item>
+        <item quantity="other">สติ๊กเกอร์ต้องมีความยาวไม่เกิน %d วินาที</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_sticker_time_limit_v1">
+        <item quantity="one">สติ๊กเกอร์ยาวได้ไม่เกิน %d วินาที</item>
+        <item quantity="other">สติ๊กเกอร์ต้องมีความยาวไม่เกิน %d วินาที</item>
+    </plurals>
+    <plurals name="photo_editor_video_sticker_supports_time_limit">
+        <item quantity="one">วิดีโอต้องมีความยาวไม่เกิน %d วินาที</item>
+        <item quantity="other">วิดีโอต้องมีความยาวไม่เกิน %d วินาที</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_circle_hint">
+        <item quantity="one">อธิบายสิ่งที่คุณต้องการเปลี่ยนในพื้นที่ที่เลือก</item>
+        <item quantity="other">อธิบายสิ่งที่คุณต้องการเปลี่ยนในพื้นที่ที่เลือก</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_input_voice_time_countdown">
+        <item quantity="one">การบันทึกเสียงจะหยุดใน %1$d วินาที</item>
+        <item quantity="other">การบันทึกเสียงจะหยุดใน %1$d วินาที</item>
+    </plurals>
+    <plurals name="photoeditorpage_ai_retouch_region_max">
+        <item quantity="one">คุณสามารถเลือกได้สูงสุด %1$d พื้นที่</item>
+        <item quantity="other">คุณสามารถเลือกได้สูงสุด %1$d พื้นที่</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_duration_over_plural">
+        <item quantity="one">รองรับเฉพาะภาพเคลื่อนไหวที่ยาวไม่เกิน %1$d วินาที</item>
+        <item quantity="other">รองรับเฉพาะภาพเคลื่อนไหวที่ยาวไม่เกิน %1$d วินาที</item>
+    </plurals>
+    <plurals name="photoeditorpage_olive_video_too_large_tip_plural">
+        <item quantity="one">เนื่องจากไฟล์มีขนาดใหญ่ อาจใช้เวลาประมาณ %1$d นาที</item>
+        <item quantity="other">เนื่องจากไฟล์มีขนาดใหญ่ อาจใช้เวลาประมาณ %1$d นาที</item>
+    </plurals>
+    <plurals name="photopage_cshot_export_select_confirm">
+        <item quantity="one">ส่งออกรูปภาพที่เลือกไว้ %d รูป</item>
+        <item quantity="other">ส่งออกรูปภาพที่เลือกไว้ %d รูป</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_millimeter">
+        <item quantity="one">ต้องมีขนาดใหญ่กว่า %1$d มม.</item>
+        <item quantity="other">ต้องมีขนาดใหญ่กว่า %1$d มม.</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_larger_than_pixel">
+        <item quantity="one">ต้องมีขนาดใหญ่กว่า %1$d พิกเซล</item>
+        <item quantity="other">ต้องมีขนาดใหญ่กว่า %1$d พิกเซล</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_millimeter">
+        <item quantity="one">ต้องมีขนาดเล็กกว่า %1$d มม.</item>
+        <item quantity="other">ต้องมีขนาดเล็กกว่า %1$d มม.</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_height_smaller_than_pixel">
+        <item quantity="one">ต้องมีขนาดเล็กกว่า %1$d พิกเซล</item>
+        <item quantity="other">ต้องมีขนาดเล็กกว่า %1$d พิกเซล</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_larger_than_kb">
+        <item quantity="one">ต้องมีขนาดใหญ่กว่า %1$d KB</item>
+        <item quantity="other">ต้องมีขนาดใหญ่กว่า %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_size_smaller_than_kb">
+        <item quantity="one">ต้องมีขนาดเล็กกว่า %1$d KB</item>
+        <item quantity="other">ต้องมีขนาดเล็กกว่า %1$d KB</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_millimeter">
+        <item quantity="one">ต้องมีขนาดใหญ่กว่า %1$d มม.</item>
+        <item quantity="other">ต้องมีขนาดใหญ่กว่า %1$d มม.</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_larger_than_pixel">
+        <item quantity="one">ต้องมีขนาดใหญ่กว่า %1$d พิกเซล</item>
+        <item quantity="other">ต้องมีขนาดใหญ่กว่า %1$d พิกเซล</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_millimeter">
+        <item quantity="one">ต้องมีขนาดเล็กกว่า %1$d มม.</item>
+        <item quantity="other">ต้องมีขนาดเล็กกว่า %1$d มม.</item>
+    </plurals>
+    <plurals name="picture3d_aiidphoto_hint_width_smaller_than_pixel">
+        <item quantity="one">ต้องมีขนาดเล็กกว่า %1$d พิกเซล</item>
+        <item quantity="other">ต้องมีขนาดเล็กกว่า %1$d พิกเซล</item>
+    </plurals>
+    <plurals name="picture3d_cshot_select_confirm">
+        <item quantity="one">เก็บรูปภาพที่เลือกไว้ %d รูปเท่านั้น</item>
+        <item quantity="other">เก็บรูปภาพที่เลือกไว้ %d รูปเท่านั้น</item>
+    </plurals>
+    <plurals name="picture3d_delete_selection_item_or_items">
+        <item quantity="one">ลบ %d รายการ</item>
+        <item quantity="other">ลบ %d รายการ</item>
+    </plurals>
+    <plurals name="picture3d_delete_sticker_new">
+        <item quantity="one">ลบ %d รายการ</item>
+        <item quantity="other">ลบ %d รายการ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_num_fail">
+        <item quantity="one">เพิ่มสติ๊กเกอร์ไม่สำเร็จ %1$d อัน</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์ไม่สำเร็จ %1$d อัน</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_fail_v1">
+        <item quantity="one">เพิ่มสติ๊กเกอร์ไม่สำเร็จ %d อัน</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์ไม่สำเร็จ %d อัน</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success">
+        <item quantity="one">เพิ่มสติ๊กเกอร์แล้ว %1$s อัน</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์แล้ว %1$s อัน</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_add_sticker_success_v1">
+        <item quantity="one">เพิ่มสติ๊กเกอร์แล้ว %1$s อัน</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์แล้ว %1$s อัน</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_added_toast">
+        <item quantity="one">เพิ่มสติ๊กเกอร์แล้ว %1$d รายการ</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์แล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_continue_add_live_static_dialog_message">
+        <item quantity="one">ในภาพคอลลาจแบบรีมิกซ์ด้วย AI คุณสามารถเพิ่มสติ๊กเกอร์เคลื่อนไหวได้สูงสุด %1$d รายการ โดยสติ๊กเกอร์ที่เกินมาจะกลายเป็นแบบนิ่ง</item>
+        <item quantity="other">ในภาพคอลลาจแบบรีมิกซ์ด้วย AI คุณสามารถเพิ่มสติ๊กเกอร์เคลื่อนไหวได้สูงสุด %1$d รายการ โดยสติ๊กเกอร์ที่เกินมาจะกลายเป็นแบบนิ่ง</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_live_photo_add_limit_remind">
+        <item quantity="one">คุณสามารถเพิ่มภาพเคลื่อนไหวได้สูงสุด %1$d ภาพ</item>
+        <item quantity="other">คุณสามารถเพิ่มภาพเคลื่อนไหวได้สูงสุด %1$d ภาพ</item>
+    </plurals>
+    <plurals name="picture3d_editor_sticker_photo_add_limit_remind">
+        <item quantity="one">คุณสามารถเพิ่มรูปภาพได้สูงสุด %1$d ภาพ</item>
+        <item quantity="other">คุณสามารถเพิ่มรูปภาพได้สูงสุด %1$d ภาพ</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_eliminate_install_content">
+        <item quantity="one">ดาวน์โหลดปลั๊กอิน Remover หากต้องการลบวัตถุออกจากรูปภาพของคุณ ขนาดไฟล์: %1$s เวลาที่ใช้ในการดาวน์โหลดโดยประมาณ: %2$d นาที</item>
+        <item quantity="other">ดาวน์โหลดปลั๊กอิน Remover หากต้องการลบวัตถุออกจากรูปภาพของคุณ ขนาดไฟล์: %1$s เวลาที่ใช้ในการดาวน์โหลดโดยประมาณ: %2$d นาที</item>
+    </plurals>
+    <plurals name="picture3d_editor_text_olive_eliminate_ai_plugin_update_desc_size_and_time">
+        <item quantity="one">ขนาดไฟล์: %1$d เวลาที่ใช้ในการดาวน์โหลดโดยประมาณ: %2$d</item>
+        <item quantity="other">ขนาดไฟล์: %1$d เวลาที่ใช้ในการดาวน์โหลดโดยประมาณ: %2$d</item>
+    </plurals>
+    <plurals name="picture3d_gif_synthesis_invalid_photo_count_hint">
+        <item quantity="one">ไม่รองรับรูปภาพ %1$d รูป</item>
+        <item quantity="other">ไม่รองรับรูปภาพ %1$d รูป</item>
+    </plurals>
+    <plurals name="picture3d_schot_title_has_select">
+        <item quantity="one">เลือกไว้ %1$d/%2$d</item>
+        <item quantity="other">เลือกไว้ %1$d/%2$d</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select">
+        <item quantity="one">เลือกแล้ว %1$d รายการ</item>
+        <item quantity="other">เลือก %1$d รายการ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_album">
+        <item quantity="one">%1$d อัลบั้มที่เลือกไว้</item>
+        <item quantity="other">%1$d อัลบั้มที่เลือกไว้</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_image">
+        <item quantity="one">เลือกแล้ว %1$d รายการ</item>
+        <item quantity="other">เลือก %1$d รายการ</item>
+    </plurals>
+    <plurals name="picture3d_title_has_select_video">
+        <item quantity="one">%1$d วิดีโอถูกเลือก</item>
+        <item quantity="other">%1$d วิดีโอถูกเลือก</item>
+    </plurals>
+    <plurals name="picture_editor_add_sticker_num_limit_remind">
+        <item quantity="one">สามารถเพิ่มสติ๊กเกอร์ได้ไม่เกิน %1$d อัน</item>
+        <item quantity="other">สามารถเพิ่มสติ๊กเกอร์ได้ไม่เกิน %1$d อัน</item>
+    </plurals>
+    <plurals name="picture_editor_select_num_limit_remind">
+        <item quantity="one">เลือกได้สูงสุด %1$d รายการ</item>
+        <item quantity="other">สามารถเลือกได้สูงสุด %1$d รายการ</item>
+    </plurals>
+    <plurals name="recyclebin_recycle_image_filter_failed_tip">
+        <item quantity="one">กำลังโหลดรูปภาพ %d รูปและไม่สามารถลบได้</item>
+        <item quantity="other">กำลังโหลดรูปภาพ %d รูปและไม่สามารถลบได้</item>
+    </plurals>
+    <plurals name="recyclebin_toast_recycle_failed">
+        <item quantity="one">ลบ %1$d รายการไม่สำเร็จ โปรดลองอีกครั้ง</item>
+        <item quantity="other">ลบ %1$d รายการไม่สำเร็จ โปรดลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d การแจ้งเตือนรายการใหม่</item>
+        <item quantity="other">%d การแจ้งเตือนรายการใหม่</item>
+    </plurals>
+    <plurals name="remove_person_pet_dialog_title">
+        <item quantity="one">นำตัวแบบ %d รายการออกหรือไม่</item>
+        <item quantity="other">นำตัวแบบ %d รายการออกหรือไม่</item>
+    </plurals>
+    <plurals name="search_result_image_count">
+        <item quantity="one">%1$d รูปภาพ</item>
+        <item quantity="other">%1$dรูป</item>
+    </plurals>
+    <plurals name="selection_video_sticker_motion_limit_tip_count">
+        <item quantity="one">เพิ่มสติ๊กเกอร์เคลื่อนไหวได้ %1$d รายการเท่านั้น สติ๊กเกอร์เพิ่มเติมจะแสดงเป็นแบบนิ่ง</item>
+        <item quantity="other">เพิ่มสติ๊กเกอร์เคลื่อนไหวได้ถึง %1$d รายการ สติ๊กเกอร์เพิ่มเติมจะแสดงเป็นแบบนิ่ง</item>
+    </plurals>
+    <plurals name="share_count_limit_message">
+        <item quantity="one">สามารถแชร์กับแอปนี้ได้เพียง %d รายการเท่านั้น</item>
+        <item quantity="other">สามารถแชร์กับแอปนี้ได้สูงสุด %d รายการ</item>
+    </plurals>
+    <plurals name="share_select_other">
+        <item quantity="one">แชร์ %d รายการ</item>
+        <item quantity="other">แชร์ %d รายการ</item>
+    </plurals>
+    <plurals name="share_select_photo">
+        <item quantity="one">แชร์รูปภาพ %d รายการ</item>
+        <item quantity="other">แชร์รูปภาพ %d รายการ</item>
+    </plurals>
+    <plurals name="share_select_video">
+        <item quantity="one">แชร์วิดีโอ %d รายการ</item>
+        <item quantity="other">แชร์ %d วิดีโอ</item>
+    </plurals>
+    <plurals name="story_delete_moments_confirm_new">
+        <item quantity="one">ลบ %d ช่วงเวลาหรือไม่</item>
+        <item quantity="other">ลบ %d ช่วงเวลาหรือไม่</item>
+    </plurals>
+    <plurals name="story_moment_count">
+        <item quantity="one">%d เรื่องราวที่คัดสรรมาเพื่อคุณ</item>
+        <item quantity="other">%d เรื่องราวที่คัดสรรมาเพื่อคุณ</item>
+    </plurals>
+    <plurals name="story_selected_moment_count">
+        <item quantity="one">เลือกแล้ว %d หน้า</item>
+        <item quantity="other">เลือกแล้ว %d หน้า</item>
+    </plurals>
+    <plurals name="talkback_common_picture_rotate">
+        <item quantity="one">หมุน %d องศา</item>
+        <item quantity="other">หมุน %d องศา</item>
+    </plurals>
+    <plurals name="videoeditor_import_tip">
+        <item quantity="one">คุณสามารถนำเข้าได้เพียง %s ไฟล์</item>
+        <item quantity="other">คุณสามารถนำเข้าได้สูงสุด %s ไฟล์</item>
+    </plurals>
+    <plurals name="videoeditor_joint_add_item">
+        <item quantity="one">เพิ่ม %1d รายการ</item>
+        <item quantity="other">เพิ่ม %1d รายการ</item>
+    </plurals>
+    <plurals name="videoeditor_toast_import_lut_limit">
+        <item quantity="one">สามารถนำเข้าไฟล์ได้สูงสุด %s รายการ</item>
+        <item quantity="other">สามารถนำเข้าไฟล์ได้สูงสุด %s รายการ</item>
+    </plurals>
+    <plurals name="widget_custom_tip_num_limit">
+        <item quantity="one">สามารถเพิ่มตัวรูปภาพได้ไม่เกิน %d รายการ</item>
+        <item quantity="other">สามารถเพิ่มตัวรูปภาพได้ไม่เกิน %d รายการ</item>
+    </plurals>
+</resources>

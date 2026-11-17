@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/olive_section_root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/olive_edit_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" android:forceDarkAllowed="false">
+        <com.oplus.gallery.photoeditor.editingvvm.olive.widget.OLiveRecommendLayout android:id="@id/olive_edit_olive_recommend_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/olive_edit_recommend_view_margin_bottom" android:layout_above="@id/olive_edit_thumbnail_container" />
+        <com.oplus.gallery.photoeditor.editingvvm.olive.widget.OLiveSetCoverTipsView android:gravity="start" android:orientation="vertical" android:id="@id/olive_set_cover_tips" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/olive_edit_tips_view_margin_bottom" android:layout_above="@id/olive_edit_thumbnail_container" />
+        <com.oplus.gallery.photoeditor.editingvvm.olive.widget.OLiveThumbnailSeekBar android:id="@id/olive_edit_thumbnail_container" android:layout_width="match_parent" android:layout_height="@dimen/olive_edit_thumbnail_container_height" android:layout_marginBottom="@dimen/olive_edit_thumbnail_container_margin_bottom" android:layout_alignParentBottom="true" />
+        <com.oplus.gallery.photoeditor.editingvvm.olive.widget.OLiveMaskView android:id="@id/olive_edit_thumbnail_mask" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/olive_edit_thumbnail_container_height" android:layout_marginBottom="@dimen/olive_edit_thumbnail_container_margin_bottom" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

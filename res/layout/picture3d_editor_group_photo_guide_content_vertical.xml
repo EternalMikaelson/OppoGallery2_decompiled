@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.foundation.ui.coui.LimitSizeSquareView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/coui_alert_dialog_customer_layout_imageview_margin_start" android:layout_marginEnd="@dimen/coui_alert_dialog_customer_layout_imageview_margin_end" app:maxSize="@dimen/picture3d_group_photo_guide_vertical_round_frame_max_size" app:minSize="@dimen/picture3d_group_photo_guide_round_frame_min_size">
+        <com.coui.appcompat.poplist.RoundFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:rfRadius="@dimen/picture3d_group_photo_guide_content_anim_radius">
+            <com.oplus.anim.EffectiveAnimationView android:id="@id/gp_effective_anim_view" android:layout_width="match_parent" android:layout_height="match_parent" app:anim_loop="true" app:anim_rawRes="@raw/picture_editor_group_photo_guide_anim" app:anim_repeatMode="restart" />
+        </com.coui.appcompat.poplist.RoundFrameLayout>
+    </com.oplus.gallery.foundation.ui.coui.LimitSizeSquareView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_group_photo_guide_vertical_content_text_margin_top">
+        <ImageView android:layout_width="@dimen/picture3d_editor_image_quality_enhance_icon_vertical_size" android:layout_height="@dimen/picture3d_editor_image_quality_enhance_icon_vertical_size" android:src="@drawable/ic_group_photo_guide" android:contentDescription="@null" />
+        <com.coui.appcompat.textview.COUITextView android:textColor="@color/picture3d_group_photo_guide_title_color" android:layout_gravity="center_horizontal" android:id="@id/gp_guide_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_editor_image_quality_enhance_title_text_margin_top" android:text="@string/picture_editor_group_photo_title" style="@style/COUIAlertDialogTitleStyle" />
+        <com.coui.appcompat.textview.COUITextView android:textColor="@color/picture3d_group_photo_guide_desc_color" android:gravity="center_horizontal" android:id="@id/gp_guide_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/picture3d_group_photo_guide_content_desc_text_margin_top" android:layout_marginBottom="@dimen/picture3d_group_photo_guide_content_desc_text_margin_bottom" android:text="@string/picture_editor_group_photo_introduce_content_v2" style="@style/COUIAlertDialogMessageStyle" />
+    </LinearLayout>
+</LinearLayout>

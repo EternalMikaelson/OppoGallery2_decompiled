@@ -1,0 +1,69 @@
+[
+  {
+    "pwdRules": [
+      "https?://item\\.taobao\\.com.*/item.*?[\\?&]id=.*",
+      "https?://h5\\.m\\.taobao\\.com.*/detail.*?[\\?&]id=.*",
+      "https?://h5\\.m\\.taobao\\.com/need/weex/container.*?[\\?&]itemId=.*",
+      "https?://detail\\.ju\\.taobao\\.com.*/home.*?[\\?&]item_id=.*",
+      "https?://.*?\\.juhuasuan\\.com.*/detail_wap\\.php.*[\\?&]item_id=.*",
+      "https?://ju\\.taobao\\.com.*/detailwap.*[\\?&]item_id=.*",
+      "https?://detail\\.ju\\.taobao\\.com.*/item.htm.*",
+      "https?://market\\.m\\.taobao\\.com/app/(mtb/h5-tb-detail-old|dinamic/h5-tb-detail)/index\\.html.*[\\?&]id=\\d+",
+      "https?://a\\.m\\.(taobao|tmall)\\.com/i\\d+\\.htm",
+      "https?://c\\.b\\d\\w{2}\\.com.*",
+      "^[.\\s\\S]*https?://(m|c)\\.tb\\.cn/h\\.[.\\s\\S]*$",
+      "^[.\\s\\S]*[^0-9a-zA-Z\\.](?!\\d{11})(?![a-zA-Z]{11})([0-9a-zA-Z]{11})[^0-9a-zA-Z\\.][.\\s\\S]*$",
+      "^\\d{2}[.\\s\\S]*[哈啊嘻微信！，]([\\x{4E00}-\\x{9FA5}]{4}这[\\x{4E00}-\\x{9FA5}]{6})[哈啊嘻微信！，][.\\s\\S]*$"
+    ],
+    "platformType": 1,
+    "supplier": "BIJIAGOU"
+  },
+  {
+    "pwdRules": [
+      "https?://detail\\.liangxinyao\\.com/item\\.htm.*[\\?&]id=\\d+",
+      "https?://(chaoshi\\.)?detail\\.(?:m\\.)?tmall\\.com.*/item.*?[\\?&]id=.*",
+      "https?://pages\\.tmall\\.com/wow/huanxin/act/refreshment-detail.*?[\\?&]itemId=.*",
+      "https?://detail(\\.m)?\\.tmall\\.hk(/hk)?/item.*?[\\?&]id=.*",
+      "https?://zmnxbc\\.com/s/.*",
+      "https?://yukhj\\.com/s/[0-9a-zA-Z]+\\?tm=[0-9a-zA-Z]+"
+    ],
+    "platformType": 4,
+    "supplier": "BIJIAGOU"
+  },
+  {
+    "pwdRules": [
+      "^[.\\s\\S]*(?:\\$\\$|ΞΞ|ωω|ΔΔ|￠￠|▽▽|%%|αα|ΦΦ|ΘΘ|ππ|ÀÀ|ㄍㄍ|฿฿|ββ|##|ÄÄ|ŠŠ|ηη|ΣΣ|ΨΨ|ÊÊ|ÑÑ|￥￥)[0-9a-zA-Z]{11}(?:\\$\\$|ΞΞ|ωω|ΔΔ|￠￠|▽▽|%%|αα|ΦΦ|ΘΘ|ππ|ÀÀ|ㄍㄍ|฿฿|ββ|##|ÄÄ|ŠŠ|ηη|ΣΣ|ΨΨ|ÊÊ|ÑÑ|￥￥)[.\\s\\S]*$",
+      "^[\\s\\S]*https?://v.douyin.com/[\\s\\S]+$"
+    ],
+    "platformType": 2,
+    "supplier": "BIJIAGOU"
+  },
+  {
+    "pwdRules": [
+      "[\\s\\S]*m\\.yxixy\\.com/fw/[\\s\\S]*",
+      "[\\s\\S]*\\.m\\.chenzhongtech\\.com/fw/[\\s\\S]*",
+      "[\\s\\S]*https?://v\\.kuaishou\\.com/([A-Za-z0-9\\+\\-_]+)[\\s\\S]*"
+    ],
+    "platformType": 3,
+    "supplier": "KUAISHOU"
+  },
+  {
+    "pwdRules": [
+      "^\\d.*长按.*此条消息，.*|.*打开抖音.*##[0-9a-zA-Z]+##\\[抖音.*\\].*|[0-9]{1,}.*查看商品详情.*[0-9A-Za-z]{2,}|https?:\\\/\\\/v\\.douyin\\.com.*"
+    ],
+    "platformType": 2,
+    "supplier": "FANLI"
+  },
+  {
+    "pwdRules": [
+      "[^\\w,\\-\\s=\\%\\\"\\\/#]+[a-zA-Z0-9]{11}[^\\w,\\-\\s=\\%\\\"\\\/#]+|[^\\w,\\-\\s=\\%\\\"\\\/#]+\\sCZ[\\d]{3,4}\\s[a-zA-Z0-9]{11}[^\\w,\\-\\s=\\%\\\"\\\/#]+|https?:\\\/\\\/(?:[^\\\/\\?]*\\.)?tb\\.cn\\\/h\\.[^\\s]*"
+    ],
+    "platformType": 1,
+    "supplier": "FANLI"
+  },
+  {
+    "pwdRules": [],
+    "platformType": 4,
+    "supplier": "FANLI"
+  }
+]

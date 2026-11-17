@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardview.COUICardView android:id="@id/ai_pic_genie_result_image_layout" android:layout_width="@dimen/picture3d_ai_picgenie_result_item_width" android:layout_height="@dimen/picture3d_ai_picgenie_result_item_height" android:layout_marginEnd="@dimen/picture3d_ai_picgenie_result_item_margin_end" app:cardBackgroundColor="@color/common_transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.utils.widget.ImageFilterView android:layout_gravity="center_vertical" android:id="@id/ai_pic_genie_result_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/picture3d_ai_picgenie_result_image_margin" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:round="@dimen/picture3d_ai_picgenie_result_image_round" />
+</com.coui.appcompat.cardview.COUICardView>

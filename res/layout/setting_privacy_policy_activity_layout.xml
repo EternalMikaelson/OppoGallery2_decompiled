@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/base_appbar_with_hideable_title_divider_layout" />
+    <ScrollView android:id="@id/privacy_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="always">
+        <com.coui.appcompat.grid.COUIPercentWidthFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="cardListType">
+            <com.coui.component.privacypolicy.COUIPrivacyPolicyView android:id="@id/privacy_policy" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </com.coui.appcompat.grid.COUIPercentWidthFrameLayout>
+    </ScrollView>
+</LinearLayout>

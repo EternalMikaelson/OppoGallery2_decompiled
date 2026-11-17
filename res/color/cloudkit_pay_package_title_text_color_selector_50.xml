@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/cloudkit_pay_package_title_text_color_selected_50" />
+    <item android:color="@color/cloudkit_color_label_primary" />
+</selector>

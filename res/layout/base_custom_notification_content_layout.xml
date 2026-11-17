@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/notification_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="anyRtl" android:textAlignment="viewStart" style="@style/TextAppearance.Compat.Notification.Title" />
+    <TextView android:ellipsize="end" android:id="@id/notification_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_editor_menu_adjust_item_top_tips_margin_top" android:maxLines="2" android:alpha="0.55" android:textDirection="anyRtl" android:textAlignment="viewStart" style="@style/TextAppearance.Compat.Notification" />
+</LinearLayout>

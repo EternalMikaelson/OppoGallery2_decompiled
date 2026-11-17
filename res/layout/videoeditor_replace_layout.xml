@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.gallery.videoeditorpage.video.business.replace.view.ReplaceVideoClipView android:id="@id/replace_video_clip_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/replace_preview_track_top_margin" app:layout_constraintTop_toTopOf="parent" />
+    <include android:layout_width="match_parent" android:layout_height="@dimen/videoeditor_bottom_bottom_bar_layout_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/editor_bottom_action_bar_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

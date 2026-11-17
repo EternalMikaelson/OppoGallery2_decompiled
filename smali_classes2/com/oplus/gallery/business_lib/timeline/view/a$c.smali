@@ -1,0 +1,37 @@
+.class public abstract Lcom/oplus/gallery/business_lib/timeline/view/a$c;
+.super Ljava/lang/Object;
+.source "CloudSyncStateHelper.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/gallery/business_lib/timeline/view/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "c"
+.end annotation
+
+
+# instance fields
+.field public volatile a:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a(Lcom/oplus/gallery/business_lib/cloudsync/SyncStateInfo;)V
+.end method

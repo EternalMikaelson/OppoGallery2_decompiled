@@ -1,0 +1,315 @@
+.class public final Lcom/oplus/aiunit/vision/r7a0;
+.super Lcom/oplus/aiunit/vision/m75;
+.source "VideoEditingTask.kt"
+
+
+# instance fields
+.field public final c:Ljava/lang/String;
+
+.field public final d:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/oplus/aiunit/vision/vxk;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+    .locals 19
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p1
+
+    move-object/from16 v2, p2
+
+    .line 7
+    const-string v3, "editingVM"
+
+    .line 9
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 12
+    const-string/jumbo v3, "saveData"
+
+    .line 14
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 17
+    invoke-direct/range {p0 .. p2}, Lcom/oplus/aiunit/vision/m75;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 20
+    const-string v3, "VideoEditingTask"
+
+    .line 22
+    iput-object v3, v0, Lcom/oplus/aiunit/vision/r7a0;->c:Ljava/lang/String;
+
+    .line 24
+    new-instance v3, Lcom/oplus/aiunit/vision/dw9;
+
+    .line 26
+    invoke-direct {v3, v1, v2}, Lcom/oplus/aiunit/vision/dw9;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 29
+    new-instance v4, Lcom/oplus/aiunit/vision/hw9;
+
+    .line 31
+    invoke-direct {v4, v1, v2}, Lcom/oplus/aiunit/vision/hw9;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 34
+    new-instance v5, Lcom/oplus/aiunit/vision/lxz;
+
+    .line 36
+    invoke-direct {v5, v1, v2}, Lcom/oplus/aiunit/vision/lxz;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 39
+    new-instance v6, Lcom/oplus/aiunit/vision/jci;
+
+    .line 41
+    invoke-direct {v6, v1, v2}, Lcom/oplus/aiunit/vision/jci;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 44
+    new-instance v7, Lcom/oplus/aiunit/vision/yv9;
+
+    .line 46
+    invoke-direct {v7, v1, v2}, Lcom/oplus/aiunit/vision/yv9;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 49
+    new-instance v8, Lcom/oplus/aiunit/vision/kv9;
+
+    .line 51
+    invoke-direct {v8, v1, v2}, Lcom/oplus/aiunit/vision/kv9;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 54
+    new-instance v9, Lcom/oplus/aiunit/vision/hci;
+
+    .line 56
+    invoke-direct {v9, v1, v2}, Lcom/oplus/aiunit/vision/hci;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 59
+    new-instance v10, Lcom/oplus/aiunit/vision/h6f;
+
+    .line 61
+    invoke-direct {v10, v1, v2}, Lcom/oplus/aiunit/vision/h6f;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 64
+    new-instance v11, Lcom/oplus/aiunit/vision/gba0;
+
+    .line 66
+    invoke-direct {v11, v1, v2}, Lcom/oplus/aiunit/vision/gba0;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 69
+    new-instance v12, Lcom/oplus/aiunit/vision/ml10;
+
+    .line 71
+    invoke-direct {v12, v1, v2}, Lcom/oplus/aiunit/vision/ml10;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 74
+    new-instance v13, Lcom/oplus/aiunit/vision/gl10;
+
+    .line 76
+    invoke-direct {v13, v1, v2}, Lcom/oplus/aiunit/vision/gl10;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 79
+    new-instance v14, Lcom/oplus/aiunit/vision/el10;
+
+    .line 81
+    invoke-direct {v14, v1, v2}, Lcom/oplus/aiunit/vision/el10;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 84
+    new-instance v15, Lcom/oplus/aiunit/vision/bpz;
+
+    .line 86
+    invoke-direct {v15, v1, v2}, Lcom/oplus/aiunit/vision/bpz;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    move-object/from16 v16, v3
+
+    .line 91
+    new-instance v3, Lcom/oplus/aiunit/vision/jry;
+
+    .line 93
+    invoke-direct {v3, v1, v2}, Lcom/oplus/aiunit/vision/jry;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    move-object/from16 v17, v3
+
+    .line 98
+    new-instance v3, Lcom/oplus/aiunit/vision/dvq;
+
+    .line 100
+    invoke-direct {v3, v1, v2}, Lcom/oplus/aiunit/vision/dvq;-><init>(Lcom/oplus/gallery/photoeditor/editingvvm/EditingVM;Lcom/oplus/aiunit/vision/uh10;)V
+
+    .line 103
+    new-instance v1, Lcom/oplus/aiunit/vision/zxe;
+
+    .line 105
+    invoke-direct {v1, v2}, Lcom/oplus/aiunit/vision/zxe;-><init>(Lcom/oplus/aiunit/vision/uh10;)V
+
+    const/16 v2, 0x10
+
+    .line 110
+    new-array v2, v2, [Lcom/oplus/aiunit/vision/vxk;
+
+    const/16 v18, 0x0
+
+    .line 114
+    aput-object v16, v2, v18
+
+    const/16 v16, 0x1
+
+    .line 118
+    aput-object v4, v2, v16
+
+    const/4 v4, 0x2
+
+    .line 121
+    aput-object v5, v2, v4
+
+    const/4 v4, 0x3
+
+    .line 124
+    aput-object v6, v2, v4
+
+    const/4 v4, 0x4
+
+    .line 127
+    aput-object v7, v2, v4
+
+    const/4 v4, 0x5
+
+    .line 130
+    aput-object v8, v2, v4
+
+    const/4 v4, 0x6
+
+    .line 133
+    aput-object v9, v2, v4
+
+    const/4 v4, 0x7
+
+    .line 136
+    aput-object v10, v2, v4
+
+    const/16 v4, 0x8
+
+    .line 140
+    aput-object v11, v2, v4
+
+    const/16 v4, 0x9
+
+    .line 144
+    aput-object v12, v2, v4
+
+    const/16 v4, 0xa
+
+    .line 148
+    aput-object v13, v2, v4
+
+    const/16 v4, 0xb
+
+    .line 152
+    aput-object v14, v2, v4
+
+    const/16 v4, 0xc
+
+    .line 156
+    aput-object v15, v2, v4
+
+    const/16 v4, 0xd
+
+    .line 160
+    aput-object v17, v2, v4
+
+    const/16 v4, 0xe
+
+    .line 164
+    aput-object v3, v2, v4
+
+    const/16 v3, 0xf
+
+    .line 168
+    aput-object v1, v2, v3
+
+    .line 170
+    invoke-static {v2}, Lkotlin/collections/CollectionsKt;->listOf([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v1
+
+    .line 174
+    iput-object v1, v0, Lcom/oplus/aiunit/vision/r7a0;->d:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/r7a0;->d:Ljava/util/List;
+
+    .line 2
+    .line 3
+    check-cast p0, Ljava/lang/Iterable;
+
+    .line 4
+    .line 5
+    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    if-eqz v0, :cond_0
+
+    .line 14
+    .line 15
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    check-cast v0, Lcom/oplus/aiunit/vision/vxk;
+
+    .line 20
+    .line 21
+    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+
+    .line 22
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_0
+    return-void
+.end method
+
+.method public final getName()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/oplus/aiunit/vision/r7a0;->c:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

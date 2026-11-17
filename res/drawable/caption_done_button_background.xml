@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?couiColorContainerTheme" />
+    <corners android:radius="@dimen/caption_input_done_radius" />
+    <size android:height="@dimen/caption_input_done_height" android:width="@dimen/caption_input_done_width" />
+</shape>

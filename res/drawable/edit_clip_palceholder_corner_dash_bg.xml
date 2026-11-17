@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/edit_time_edit_timeline_span_line_thumbnail_rect_corners" android:topRightRadius="@dimen/edit_time_edit_timeline_span_line_thumbnail_rect_corners" android:bottomLeftRadius="@dimen/edit_time_edit_timeline_span_line_thumbnail_rect_corners" android:bottomRightRadius="@dimen/edit_time_edit_timeline_span_line_thumbnail_rect_corners" />
+    <solid android:color="@color/transparent" />
+    <stroke android:width="@dimen/edit_time_edit_timeline_span_dash_line_height" android:color="@color/edit_timeline_span_dash_line_un_select_color" android:dashWidth="@dimen/edit_time_edit_timeline_span_dash_width" android:dashGap="@dimen/edit_time_edit_timeline_span_dash_width" />
+</shape>
