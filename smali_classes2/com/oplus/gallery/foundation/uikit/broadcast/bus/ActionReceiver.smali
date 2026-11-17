@@ -189,6 +189,16 @@
     .line 61
     iget v7, v0, Lcom/oplus/aiunit/vision/rx0;->c:I
 
+    and-int/lit8 v0, v7, 0x6
+
+    if-eqz v0, :cond_no_or
+
+    goto :cond_skip_or
+
+    :cond_no_or
+    or-int/lit8 v7, v7, 0x4
+
+    :cond_skip_or
     move-object v3, p0
 
     .line 64
