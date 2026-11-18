@@ -197,6 +197,38 @@
     .annotation runtime Lkotlin/jvm/JvmStatic;
     .end annotation
 
+    const-string v0, "feature_is_support_olive"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_olive_enabled
+
+    const-string v0, "feature_is_support_olive_slide_play"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_olive_enabled
+
+    const-string v0, "feature_is_support_video_extract_olive"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_olive_enabled
+
+    const-string v0, "feature_olive_slow_motion_recommend_popup_shown"
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_olive_enabled
+
     .line 1
     const-string v0, "configId"
 
@@ -356,6 +388,11 @@
     .line 65
     .line 66
     return p2
+
+    :cond_olive_enabled
+    const/4 v0, 0x1
+
+    return v0
 .end method
 
 .method public static synthetic d(ILjava/lang/String;Z)Z
